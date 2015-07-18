@@ -1,0 +1,334 @@
+\hypertarget{struct_vector3}{\section{構造体 Vector3}
+\label{struct_vector3}\index{Vector3@{Vector3}}
+}
+
+
+{\ttfamily \#include $<$Vector.\-h$>$}
+
+\subsection*{Public メソッド}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_vector3_a0f49191f7e001e7f7ae1cb49522118b4}{Vector3} ()
+\begin{DoxyCompactList}\small\item\em デフォルトコンストラクタ \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3_a26134d4a4ff38b5b147a6e0e862d841d}{Vector3} (\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} x, \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} y, \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} z)
+\begin{DoxyCompactList}\small\item\em コンストラクタ \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3_a4f9ead673c773229334355789b6aacc2}{Vector3} (const \hyperlink{struct_vector4}{Vector4} \&v)
+\begin{DoxyCompactList}\small\item\em コピーコンストラクタ \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{struct_vector3_a1b5bb43ee5524cd793c3dc7c44ba507b}{operator+} (const \hyperlink{struct_vector3}{Vector3} \&v) const 
+\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{struct_vector3_adf9aba350d84593481892bb802190402}{operator-\/} (const \hyperlink{struct_vector3}{Vector3} \&v) const 
+\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{struct_vector3_ad562abcac8ba809c6d54d3f783ef3312}{operator$\ast$} (const \hyperlink{struct_vector3}{Vector3} \&v) const 
+\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{struct_vector3_aa74938e1a0fd2096924fa9ace442783f}{operator$\ast$} (float s) const 
+\item 
+const \hyperlink{struct_vector3}{Vector3} \& \hyperlink{struct_vector3_acc2624a2880ba96b96292d78b80b5f7c}{operator+=} (const \hyperlink{struct_vector3}{Vector3} \&v)
+\begin{DoxyCompactList}\small\item\em 加算 \end{DoxyCompactList}\item 
+const \hyperlink{struct_vector3}{Vector3} \& \hyperlink{struct_vector3_ab453410e5e2184e1a255495dada84609}{operator-\/=} (const \hyperlink{struct_vector3}{Vector3} \&v)
+\begin{DoxyCompactList}\small\item\em 減算 \end{DoxyCompactList}\item 
+const \hyperlink{struct_vector3}{Vector3} \& \hyperlink{struct_vector3_a71fab3eea2aac2738335149c27fa45db}{operator$\ast$=} (const \hyperlink{struct_vector3}{Vector3} \&v)
+\begin{DoxyCompactList}\small\item\em 乗算 \end{DoxyCompactList}\item 
+const \hyperlink{struct_vector3}{Vector3} \& \hyperlink{struct_vector3_a66d6b82ffd79c2212f04dd65fa85b1f1}{operator$\ast$=} (\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} s)
+\begin{DoxyCompactList}\small\item\em スカラ乗算 \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{struct_vector3_a3ab63b97882ef750fc2bfe94477802b1}{operator+} () const 
+\begin{DoxyCompactList}\small\item\em 正の値 \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{struct_vector3_a72a36c71164f1532d24ec49c3d7056fc}{operator-\/} () const 
+\begin{DoxyCompactList}\small\item\em 負の値 \end{DoxyCompactList}\item 
+bool \hyperlink{struct_vector3_a6ec99d2e2c0f781c257bf9c2e665ee40}{operator==} (const \hyperlink{struct_vector3}{Vector3} \&v)
+\begin{DoxyCompactList}\small\item\em 等しい \end{DoxyCompactList}\item 
+bool \hyperlink{struct_vector3_a3bb95b94a0911ae9f1eae66695f65c70}{operator!=} (const \hyperlink{struct_vector3}{Vector3} \&v)
+\begin{DoxyCompactList}\small\item\em 等しくない \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{struct_vector3_ab75b4d7d7fad114d84f2e081edef68b6}{length} () const 
+\begin{DoxyCompactList}\small\item\em ベクトルの長さ \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{struct_vector3_ad67a64036469827d79ce4d821d49f329}{square\-Length} () const 
+\begin{DoxyCompactList}\small\item\em ベクトルの長さの二乗(長さ比較用) \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{struct_vector3_aa9a41fdd0584091e48784c96999972f1}{normalize} () const 
+\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{struct_vector3_a0ffd8b1ab26781d0524802cce8d5e0c3}{transform} (const \hyperlink{struct_matrix}{Matrix} \&m)
+\end{DoxyCompactItemize}
+\subsection*{Static Public メソッド}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{struct_vector3_a320f377d62a53de63377c78d1e724a11}{dot} (const \hyperlink{struct_vector3}{Vector3} \&a, const \hyperlink{struct_vector3}{Vector3} \&b)
+\item 
+static \hyperlink{struct_vector3}{Vector3} \hyperlink{struct_vector3_a36a1cc3bd7107c9f05cafaa1a9b0d16c}{cross} (const \hyperlink{struct_vector3}{Vector3} \&a, const \hyperlink{struct_vector3}{Vector3} \&b)
+\end{DoxyCompactItemize}
+\subsection*{Public 変数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{struct_vector3_a345b01a1352e569e37d0226af4eff5c6}{\-\_\-x}
+\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{struct_vector3_a5e3cec066537515a2387a34b57aed6ed}{\-\_\-y}
+\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{struct_vector3_a895ad23c1a78588ace5c4aaadae984c5}{\-\_\-z}
+\end{DoxyCompactItemize}
+
+
+\subsection{コンストラクタとデストラクタ}
+\hypertarget{struct_vector3_a0f49191f7e001e7f7ae1cb49522118b4}{\index{Vector3@{Vector3}!Vector3@{Vector3}}
+\index{Vector3@{Vector3}!Vector3@{Vector3}}
+\subsubsection[{Vector3}]{\setlength{\rightskip}{0pt plus 5cm}Vector3\-::\-Vector3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{struct_vector3_a0f49191f7e001e7f7ae1cb49522118b4}
+
+
+デフォルトコンストラクタ 
+
+\hypertarget{struct_vector3_a26134d4a4ff38b5b147a6e0e862d841d}{\index{Vector3@{Vector3}!Vector3@{Vector3}}
+\index{Vector3@{Vector3}!Vector3@{Vector3}}
+\subsubsection[{Vector3}]{\setlength{\rightskip}{0pt plus 5cm}Vector3\-::\-Vector3 (
+\begin{DoxyParamCaption}
+\item[{{\bf f32}}]{x, }
+\item[{{\bf f32}}]{y, }
+\item[{{\bf f32}}]{z}
+\end{DoxyParamCaption}
+)}}\label{struct_vector3_a26134d4a4ff38b5b147a6e0e862d841d}
+
+
+コンストラクタ 
+
+\hypertarget{struct_vector3_a4f9ead673c773229334355789b6aacc2}{\index{Vector3@{Vector3}!Vector3@{Vector3}}
+\index{Vector3@{Vector3}!Vector3@{Vector3}}
+\subsubsection[{Vector3}]{\setlength{\rightskip}{0pt plus 5cm}Vector3\-::\-Vector3 (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector4} \&}]{v}
+\end{DoxyParamCaption}
+)}}\label{struct_vector3_a4f9ead673c773229334355789b6aacc2}
+
+
+コピーコンストラクタ 
+
+
+
+\subsection{関数}
+\hypertarget{struct_vector3_a36a1cc3bd7107c9f05cafaa1a9b0d16c}{\index{Vector3@{Vector3}!cross@{cross}}
+\index{cross@{cross}!Vector3@{Vector3}}
+\subsubsection[{cross}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Vector3\-::cross (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{a, }
+\item[{const {\bf Vector3} \&}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{struct_vector3_a36a1cc3bd7107c9f05cafaa1a9b0d16c}
+外積 
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em a} & ベクトル\-A \\
+\hline
+\mbox{\tt in}  & {\em b} & ベクトル\-B \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{戻り値}
+外積結果 
+\end{DoxyReturn}
+\hypertarget{struct_vector3_a320f377d62a53de63377c78d1e724a11}{\index{Vector3@{Vector3}!dot@{dot}}
+\index{dot@{dot}!Vector3@{Vector3}}
+\subsubsection[{dot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Vector3\-::dot (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{a, }
+\item[{const {\bf Vector3} \&}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{struct_vector3_a320f377d62a53de63377c78d1e724a11}
+内積 
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em a} & ベクトル\-A \\
+\hline
+\mbox{\tt in}  & {\em b} & ベクトル\-B \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{戻り値}
+内積結果 
+\end{DoxyReturn}
+\hypertarget{struct_vector3_ab75b4d7d7fad114d84f2e081edef68b6}{\index{Vector3@{Vector3}!length@{length}}
+\index{length@{length}!Vector3@{Vector3}}
+\subsubsection[{length}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Vector3\-::length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{struct_vector3_ab75b4d7d7fad114d84f2e081edef68b6}
+
+
+ベクトルの長さ 
+
+\hypertarget{struct_vector3_aa9a41fdd0584091e48784c96999972f1}{\index{Vector3@{Vector3}!normalize@{normalize}}
+\index{normalize@{normalize}!Vector3@{Vector3}}
+\subsubsection[{normalize}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Vector3\-::normalize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{struct_vector3_aa9a41fdd0584091e48784c96999972f1}
+正規化 \begin{DoxyReturn}{戻り値}
+正規化済みベクトル 
+\end{DoxyReturn}
+\hypertarget{struct_vector3_a3bb95b94a0911ae9f1eae66695f65c70}{\index{Vector3@{Vector3}!operator!=@{operator!=}}
+\index{operator!=@{operator!=}!Vector3@{Vector3}}
+\subsubsection[{operator!=}]{\setlength{\rightskip}{0pt plus 5cm}bool Vector3\-::operator!= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{v}
+\end{DoxyParamCaption}
+)}}\label{struct_vector3_a3bb95b94a0911ae9f1eae66695f65c70}
+
+
+等しくない 
+
+\hypertarget{struct_vector3_ad562abcac8ba809c6d54d3f783ef3312}{\index{Vector3@{Vector3}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Vector3@{Vector3}}
+\subsubsection[{operator$\ast$}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Vector3\-::operator$\ast$ (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{v}
+\end{DoxyParamCaption}
+) const}}\label{struct_vector3_ad562abcac8ba809c6d54d3f783ef3312}
+
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em v} & 相手のベクトル \\
+\hline
+\end{DoxyParams}
+\hypertarget{struct_vector3_aa74938e1a0fd2096924fa9ace442783f}{\index{Vector3@{Vector3}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Vector3@{Vector3}}
+\subsubsection[{operator$\ast$}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Vector3\-::operator$\ast$ (
+\begin{DoxyParamCaption}
+\item[{float}]{s}
+\end{DoxyParamCaption}
+) const}}\label{struct_vector3_aa74938e1a0fd2096924fa9ace442783f}
+
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em s} & 拡大率 \\
+\hline
+\end{DoxyParams}
+\hypertarget{struct_vector3_a71fab3eea2aac2738335149c27fa45db}{\index{Vector3@{Vector3}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!Vector3@{Vector3}}
+\subsubsection[{operator$\ast$=}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Vector3} \& Vector3\-::operator$\ast$= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{v}
+\end{DoxyParamCaption}
+)}}\label{struct_vector3_a71fab3eea2aac2738335149c27fa45db}
+
+
+乗算 
+
+\hypertarget{struct_vector3_a66d6b82ffd79c2212f04dd65fa85b1f1}{\index{Vector3@{Vector3}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!Vector3@{Vector3}}
+\subsubsection[{operator$\ast$=}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Vector3} \& Vector3\-::operator$\ast$= (
+\begin{DoxyParamCaption}
+\item[{{\bf f32}}]{s}
+\end{DoxyParamCaption}
+)}}\label{struct_vector3_a66d6b82ffd79c2212f04dd65fa85b1f1}
+
+
+スカラ乗算 
+
+\hypertarget{struct_vector3_a1b5bb43ee5524cd793c3dc7c44ba507b}{\index{Vector3@{Vector3}!operator+@{operator+}}
+\index{operator+@{operator+}!Vector3@{Vector3}}
+\subsubsection[{operator+}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Vector3\-::operator+ (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{v}
+\end{DoxyParamCaption}
+) const}}\label{struct_vector3_a1b5bb43ee5524cd793c3dc7c44ba507b}
+
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em v} & 相手のベクトル \\
+\hline
+\end{DoxyParams}
+\hypertarget{struct_vector3_a3ab63b97882ef750fc2bfe94477802b1}{\index{Vector3@{Vector3}!operator+@{operator+}}
+\index{operator+@{operator+}!Vector3@{Vector3}}
+\subsubsection[{operator+}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Vector3\-::operator+ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{struct_vector3_a3ab63b97882ef750fc2bfe94477802b1}
+
+
+正の値 
+
+\hypertarget{struct_vector3_acc2624a2880ba96b96292d78b80b5f7c}{\index{Vector3@{Vector3}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!Vector3@{Vector3}}
+\subsubsection[{operator+=}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Vector3} \& Vector3\-::operator+= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{v}
+\end{DoxyParamCaption}
+)}}\label{struct_vector3_acc2624a2880ba96b96292d78b80b5f7c}
+
+
+加算 
+
+\hypertarget{struct_vector3_adf9aba350d84593481892bb802190402}{\index{Vector3@{Vector3}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Vector3@{Vector3}}
+\subsubsection[{operator-\/}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Vector3\-::operator-\/ (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{v}
+\end{DoxyParamCaption}
+) const}}\label{struct_vector3_adf9aba350d84593481892bb802190402}
+
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em v} & 相手のベクトル \\
+\hline
+\end{DoxyParams}
+\hypertarget{struct_vector3_a72a36c71164f1532d24ec49c3d7056fc}{\index{Vector3@{Vector3}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Vector3@{Vector3}}
+\subsubsection[{operator-\/}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Vector3\-::operator-\/ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{struct_vector3_a72a36c71164f1532d24ec49c3d7056fc}
+
+
+負の値 
+
+\hypertarget{struct_vector3_ab453410e5e2184e1a255495dada84609}{\index{Vector3@{Vector3}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!Vector3@{Vector3}}
+\subsubsection[{operator-\/=}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Vector3} \& Vector3\-::operator-\/= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{v}
+\end{DoxyParamCaption}
+)}}\label{struct_vector3_ab453410e5e2184e1a255495dada84609}
+
+
+減算 
+
+\hypertarget{struct_vector3_a6ec99d2e2c0f781c257bf9c2e665ee40}{\index{Vector3@{Vector3}!operator==@{operator==}}
+\index{operator==@{operator==}!Vector3@{Vector3}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool Vector3\-::operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{v}
+\end{DoxyParamCaption}
+)}}\label{struct_vector3_a6ec99d2e2c0f781c257bf9c2e665ee40}
+
+
+等しい 
+
+\hypertarget{struct_vector3_ad67a64036469827d79ce4d821d49f329}{\index{Vector3@{Vector3}!square\-Length@{square\-Length}}
+\index{square\-Length@{square\-Length}!Vector3@{Vector3}}
+\subsubsection[{square\-Length}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Vector3\-::square\-Length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{struct_vector3_ad67a64036469827d79ce4d821d49f329}
+
+
+ベクトルの長さの二乗(長さ比較用) 
+
+\hypertarget{struct_vector3_a0ffd8b1ab26781d0524802cce8d5e0c3}{\index{Vector3@{Vector3}!transform@{transform}}
+\index{transform@{transform}!Vector3@{Vector3}}
+\subsubsection[{transform}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Vector3\-::transform (
+\begin{DoxyParamCaption}
+\item[{const {\bf Matrix} \&}]{m}
+\end{DoxyParamCaption}
+)}}\label{struct_vector3_a0ffd8b1ab26781d0524802cce8d5e0c3}
+ベクトルの変換 v' ← this $\ast$ m; 
+
+\subsection{変数}
+\hypertarget{struct_vector3_a345b01a1352e569e37d0226af4eff5c6}{\index{Vector3@{Vector3}!\-\_\-x@{\-\_\-x}}
+\index{\-\_\-x@{\-\_\-x}!Vector3@{Vector3}}
+\subsubsection[{\-\_\-x}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Vector3\-::\-\_\-x}}\label{struct_vector3_a345b01a1352e569e37d0226af4eff5c6}
+\hypertarget{struct_vector3_a5e3cec066537515a2387a34b57aed6ed}{\index{Vector3@{Vector3}!\-\_\-y@{\-\_\-y}}
+\index{\-\_\-y@{\-\_\-y}!Vector3@{Vector3}}
+\subsubsection[{\-\_\-y}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Vector3\-::\-\_\-y}}\label{struct_vector3_a5e3cec066537515a2387a34b57aed6ed}
+\hypertarget{struct_vector3_a895ad23c1a78588ace5c4aaadae984c5}{\index{Vector3@{Vector3}!\-\_\-z@{\-\_\-z}}
+\index{\-\_\-z@{\-\_\-z}!Vector3@{Vector3}}
+\subsubsection[{\-\_\-z}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Vector3\-::\-\_\-z}}\label{struct_vector3_a895ad23c1a78588ace5c4aaadae984c5}
+
+
+この構造体の説明は次のファイルから生成されました\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_vector_8h}{Vector.\-h}\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_vector_8cpp}{Vector.\-cpp}\end{DoxyCompactItemize}

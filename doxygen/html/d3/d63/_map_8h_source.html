@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>myGame: E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.h ソースファイル</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">myGame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>メインページ</span></a></li>
+      <li><a href="../../namespaces.html"><span>ネームスペース</span></a></li>
+      <li><a href="../../annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="../../files.html"><span>ファイル</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="../../globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Map.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d3/d63/_map_8h.html">説明を見る。</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d8/d2f/class_xE3_x83_x9E_xE3_x83_x83_xE3_x83_x97.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../df/dfd/class_castle.html">Castle</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../dd/d11/class_map.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dd/d11/class_map.html">Map</a> : <span class="keyword">public</span> <a class="code" href="../../dc/d24/class_obj_base.html">ObjBase</a></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../dd/d11/class_map.html#a0f5ad0fd4563497b4214038cbca8b582">Map</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">virtual</span>         <a class="code" href="../../dd/d11/class_map.html#aa403fbe09394ccf39747588f5168e3b2">~Map</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span>    <a class="code" href="../../dd/d11/class_map.html#a7e3e81c662125913e1b29fe0a257c7de">Initalize</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>    <a class="code" href="../../dd/d11/class_map.html#a61efe2e1ec3f41d90bcbf826893404f1">Update</a>();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>    <a class="code" href="../../dd/d11/class_map.html#a211a219e3ba75b378e5bca7a40df82c6">Render</a>();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../dd/d11/class_map.html#a607b2188cbb804109dab92b23a3fffd1">   31</a></span>&#160;    <a class="code" href="../../df/dfd/class_castle.html">Castle</a>*         <a class="code" href="../../dd/d11/class_map.html#a607b2188cbb804109dab92b23a3fffd1">getCastle</a>() {<span class="keywordflow">return</span> <a class="code" href="../../dd/d11/class_map.html#a0abc1c10ba71a6b98e6a8edaf89f45f0">_castle</a>;}</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../dd/d11/class_map.html#a9bef20a674f52ee4013d7d81429ab5d2">   34</a></span>&#160;    <a class="code" href="../../d0/de3/class_model.html">Model</a>*          <a class="code" href="../../dd/d11/class_map.html#a9bef20a674f52ee4013d7d81429ab5d2">_groundModel</a>;       </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../dd/d11/class_map.html#a0abc1c10ba71a6b98e6a8edaf89f45f0">   36</a></span>&#160;    <a class="code" href="../../df/dfd/class_castle.html">Castle</a>*         <a class="code" href="../../dd/d11/class_map.html#a0abc1c10ba71a6b98e6a8edaf89f45f0">_castle</a>;            </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;};</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<a class="code" href="../../df/d78/_system_8h.html#ab8184bc6a23047649b3e1fbd2cd09ecb">DEF_COL_NAME_HEADER</a>(<a class="code" href="../../d5/d6f/class_castle_wall.html">CastleWall</a>);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="../../d5/d6f/class_castle_wall.html">   45</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d5/d6f/class_castle_wall.html">CastleWall</a>  : <span class="keyword">public</span> <a class="code" href="../../d3/d62/class_collision_object.html">CollisionObject</a></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;{</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../d5/d6f/class_castle_wall.html#a69ab0cee2dd0a32ca3cde4f294ee6f6c">CastleWall</a>(<a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>  wallScale = 1.0f);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="../../d5/d6f/class_castle_wall.html#a24b57b6d45cf42c656ea9780377d061e">~CastleWall</a>();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">bool</span>    <a class="code" href="../../d5/d6f/class_castle_wall.html#ac54f533305cdf7e2f3a5403c74d90db7">Initialize</a>();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="comment">//---- セット</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment"></span>    <span class="keywordtype">void</span>    <a class="code" href="../../d5/d6f/class_castle_wall.html#ab956a7d5de1bc8096cd2ee5ca51d247a">setPosition</a>(<a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; pos, <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> Index);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="../../d5/d6f/class_castle_wall.html#ade42438c205cfd2300b81ac2b93148e7">setRotation</a>(<a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> rot);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="../../d5/d6f/class_castle_wall.html#a0406094707c257c297436da3ac4f5773">setOffsetPos</a>(<a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; OffsetPos);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="../../d5/d6f/class_castle_wall.html#ae2e2dae12c7a59a0408eeb41bc903fbd">createHitCircle</a>(<a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> rot, <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; OffsetPos);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">//---- 取得</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="../../d5/d6f/class_castle_wall.html#af9fa2a0111a758685746a8f34f3c60f1">   82</a></span>&#160;<span class="comment"></span>    <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>     <a class="code" href="../../d5/d6f/class_castle_wall.html#af9fa2a0111a758685746a8f34f3c60f1">getCurrentIndex</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="../../d5/d6f/class_castle_wall.html#a6e4d2f234838b7044d0fa3db87a5e53d">_currentIndex</a>; }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="../../d5/d6f/class_castle_wall.html#a92371447e50d7e4554ae1ec395032001">   85</a></span>&#160;    vector&lt;Sphere&gt;  <a class="code" href="../../d5/d6f/class_castle_wall.html#a92371447e50d7e4554ae1ec395032001">getHitSphere</a>()  { <span class="keywordflow">return</span> <a class="code" href="../../d5/d6f/class_castle_wall.html#a3223b9046a9d01b1fd952d2ecc1a8c40">_hitSphere</a>; }</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="../../d5/d6f/class_castle_wall.html#a28e6f7c859aaab114467bf939dd520b4">Update</a>();</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="../../d5/d6f/class_castle_wall.html#af74bb0dae111bf8edda1621a709a6101">Render</a>();</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="comment">// 一つの矩形を表すための座標配列  </span></div>
+<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="../../d5/d6f/class_castle_wall.html#a86ce1f0330306ec483b89966637b4bb7">   95</a></span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>          <a class="code" href="../../d5/d6f/class_castle_wall.html#a86ce1f0330306ec483b89966637b4bb7">_position</a>[8];       </div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="../../d5/d6f/class_castle_wall.html#a2f7b20a81e21b11edf72a8b1994779fa">   96</a></span>&#160;    <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>                 <a class="code" href="../../d5/d6f/class_castle_wall.html#a2f7b20a81e21b11edf72a8b1994779fa">_OffsetPosition</a>;    </div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="../../d5/d6f/class_castle_wall.html#a4c7b392af8d00109092f17cbe169b8e8">   97</a></span>&#160;    <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>                 <a class="code" href="../../d5/d6f/class_castle_wall.html#a4c7b392af8d00109092f17cbe169b8e8">_drawPosition</a>;      </div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="../../d5/d6f/class_castle_wall.html#a6e4d2f234838b7044d0fa3db87a5e53d">   98</a></span>&#160;    <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>                     <a class="code" href="../../d5/d6f/class_castle_wall.html#a6e4d2f234838b7044d0fa3db87a5e53d">_currentIndex</a>;      </div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="../../d5/d6f/class_castle_wall.html#a9b7dd63ad6bfb2cf9d829e0781b6f729">   99</a></span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d0/de3/class_model.html">Model</a>*           <a class="code" href="../../d5/d6f/class_castle_wall.html#a9b7dd63ad6bfb2cf9d829e0781b6f729">_castleWall</a>;        </div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="../../d5/d6f/class_castle_wall.html#a4c821b732dd44bd8378f6f4b54187b81">  100</a></span>&#160;    <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>                     <a class="code" href="../../d5/d6f/class_castle_wall.html#a4c821b732dd44bd8378f6f4b54187b81">_rotation</a>;          </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="comment">// あたり判定用</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="../../d5/d6f/class_castle_wall.html#a3223b9046a9d01b1fd952d2ecc1a8c40">  103</a></span>&#160;    vector&lt;Sphere&gt;      <a class="code" href="../../d5/d6f/class_castle_wall.html#a3223b9046a9d01b1fd952d2ecc1a8c40">_hitSphere</a>;             </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="comment">//vector&lt;Collision&gt; _myCollision;</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="../../d5/d6f/class_castle_wall.html#ab84bd40d05f9cb90506602216c0ac3d2">  105</a></span>&#160;    list&lt;Collision&gt;     <a class="code" href="../../d5/d6f/class_castle_wall.html#ab84bd40d05f9cb90506602216c0ac3d2">_myCollision</a>;           </div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="../../d5/d6f/class_castle_wall.html#abc6fe65d816aa28f713ed6a5cd3fc2b2">  107</a></span>&#160;    <a class="code" href="../../df/df2/struct_status.html">Status</a>*             <a class="code" href="../../d5/d6f/class_castle_wall.html#abc6fe65d816aa28f713ed6a5cd3fc2b2">_myStatus</a>;              </div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;};</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="../../df/dfd/class_castle.html">  114</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../df/dfd/class_castle.html">Castle</a></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;{</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="code" href="../../df/dfd/class_castle.html#ab5a57307b5e4c8ecb6f8f0524684e6d6">Castle</a>();</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keyword">virtual</span>     <a class="code" href="../../df/dfd/class_castle.html#ae9c1fceaa18364fec63a60856263cf54">~Castle</a>();</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordtype">bool</span>        <a class="code" href="../../df/dfd/class_castle.html#ac51a560d2d81e39566b0cb425a3425b3">Initalize</a>();</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordtype">void</span>        <a class="code" href="../../df/dfd/class_castle.html#af92ca7a0fff116f19d38cd1c2a16415b">Update</a>();</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordtype">void</span>        <a class="code" href="../../df/dfd/class_castle.html#acf75119d84b6058a048f8a2ce95c4abf">Render</a>();</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="comment">//vector&lt;CastleWall&gt;    getWall() { return _myWall; }</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="../../df/dfd/class_castle.html#aa92557c6b84a7c94895290232e2d88e0">  130</a></span>&#160;    <a class="code" href="../../d5/d6f/class_castle_wall.html">CastleWall</a>* <a class="code" href="../../df/dfd/class_castle.html#aa92557c6b84a7c94895290232e2d88e0">getWall</a>(<a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> Index) { <span class="keywordflow">return</span> <a class="code" href="../../df/dfd/class_castle.html#a107cc14f37b6d1fc6c54c03540afaf2e">_myWall</a>[Index]; }</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="comment">//s32                   getWallCount() { return _myWall.size(); }</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno"><a class="line" href="../../df/dfd/class_castle.html#a6b17d49d82f4a49f8b8a124492b59102">  133</a></span>&#160;    <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>                 <a class="code" href="../../df/dfd/class_castle.html#a6b17d49d82f4a49f8b8a124492b59102">getWallCount</a>() { <span class="keywordflow">return</span> <a class="code" href="../../df/dfd/class_castle.html#a3773249e9255e1a07d1e510866f88200">WALL_MAX</a>; }</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="comment">// 城壁</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="comment">//vector&lt;CastleWall&gt;    _myWall;</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno"><a class="line" href="../../df/dfd/class_castle.html#a3773249e9255e1a07d1e510866f88200">  137</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../df/dfd/class_castle.html#a3773249e9255e1a07d1e510866f88200">WALL_MAX</a> = 36;     </div>
+<div class="line"><a name="l00138"></a><span class="lineno"><a class="line" href="../../df/dfd/class_castle.html#a107cc14f37b6d1fc6c54c03540afaf2e">  138</a></span>&#160;    <a class="code" href="../../d5/d6f/class_castle_wall.html">CastleWall</a>*         <a class="code" href="../../df/dfd/class_castle.html#a107cc14f37b6d1fc6c54c03540afaf2e">_myWall</a>[<a class="code" href="../../df/dfd/class_castle.html#a3773249e9255e1a07d1e510866f88200">WALL_MAX</a>];</div>
+<div class="line"><a name="l00139"></a><span class="lineno"><a class="line" href="../../df/dfd/class_castle.html#aaba1f1bcbfa9e6c224051e2d0d54f94c">  139</a></span>&#160;    <a class="code" href="../../d0/de3/class_model.html">Model</a>*              <a class="code" href="../../df/dfd/class_castle.html#aaba1f1bcbfa9e6c224051e2d0d54f94c">_castle</a>;        </div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    </div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;};</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="comment">//  END OF FILE</span></div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="ttc" id="class_castle_wall_html_a28e6f7c859aaab114467bf939dd520b4"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#a28e6f7c859aaab114467bf939dd520b4">CastleWall::Update</a></div><div class="ttdeci">void Update()</div><div class="ttdoc">更新 </div><div class="ttdef"><b>Definition:</b> Map.cpp:259</div></div>
+<div class="ttc" id="class_castle_html_acf75119d84b6058a048f8a2ce95c4abf"><div class="ttname"><a href="../../df/dfd/class_castle.html#acf75119d84b6058a048f8a2ce95c4abf">Castle::Render</a></div><div class="ttdeci">void Render()</div><div class="ttdoc">描画 </div><div class="ttdef"><b>Definition:</b> Map.cpp:493</div></div>
+<div class="ttc" id="class_castle_wall_html_a9b7dd63ad6bfb2cf9d829e0781b6f729"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#a9b7dd63ad6bfb2cf9d829e0781b6f729">CastleWall::_castleWall</a></div><div class="ttdeci">static Model * _castleWall</div><div class="ttdoc">城壁 </div><div class="ttdef"><b>Definition:</b> Map.h:99</div></div>
+<div class="ttc" id="class_castle_wall_html_ac54f533305cdf7e2f3a5403c74d90db7"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#ac54f533305cdf7e2f3a5403c74d90db7">CastleWall::Initialize</a></div><div class="ttdeci">bool Initialize()</div><div class="ttdoc">初期化 </div><div class="ttdef"><b>Definition:</b> Map.cpp:137</div></div>
+<div class="ttc" id="class_map_html_a211a219e3ba75b378e5bca7a40df82c6"><div class="ttname"><a href="../../dd/d11/class_map.html#a211a219e3ba75b378e5bca7a40df82c6">Map::Render</a></div><div class="ttdeci">virtual void Render()</div><div class="ttdoc">描画 </div><div class="ttdef"><b>Definition:</b> Map.cpp:64</div></div>
+<div class="ttc" id="class_model_html"><div class="ttname"><a href="../../d0/de3/class_model.html">Model</a></div><div class="ttdef"><b>Definition:</b> Model.h:13</div></div>
+<div class="ttc" id="class_castle_wall_html_af74bb0dae111bf8edda1621a709a6101"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#af74bb0dae111bf8edda1621a709a6101">CastleWall::Render</a></div><div class="ttdeci">void Render()</div><div class="ttdoc">描画 </div><div class="ttdef"><b>Definition:</b> Map.cpp:312</div></div>
+<div class="ttc" id="class_castle_wall_html_ab84bd40d05f9cb90506602216c0ac3d2"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#ab84bd40d05f9cb90506602216c0ac3d2">CastleWall::_myCollision</a></div><div class="ttdeci">list&lt; Collision &gt; _myCollision</div><div class="ttdoc">当たり判定の構造体 </div><div class="ttdef"><b>Definition:</b> Map.h:105</div></div>
+<div class="ttc" id="class_castle_wall_html_ae2e2dae12c7a59a0408eeb41bc903fbd"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#ae2e2dae12c7a59a0408eeb41bc903fbd">CastleWall::createHitCircle</a></div><div class="ttdeci">void createHitCircle(f32 rot, Vector3 &amp;OffsetPos)</div><div class="ttdoc">当たり判定用の円座標設定 </div><div class="ttdef"><b>Definition:</b> Map.cpp:202</div></div>
+<div class="ttc" id="class_castle_html_ac51a560d2d81e39566b0cb425a3425b3"><div class="ttname"><a href="../../df/dfd/class_castle.html#ac51a560d2d81e39566b0cb425a3425b3">Castle::Initalize</a></div><div class="ttdeci">bool Initalize()</div><div class="ttdoc">初期化 </div><div class="ttdef"><b>Definition:</b> Map.cpp:469</div></div>
+<div class="ttc" id="class_castle_html_aaba1f1bcbfa9e6c224051e2d0d54f94c"><div class="ttname"><a href="../../df/dfd/class_castle.html#aaba1f1bcbfa9e6c224051e2d0d54f94c">Castle::_castle</a></div><div class="ttdeci">Model * _castle</div><div class="ttdoc">城 </div><div class="ttdef"><b>Definition:</b> Map.h:139</div></div>
+<div class="ttc" id="class_map_html_a7e3e81c662125913e1b29fe0a257c7de"><div class="ttname"><a href="../../dd/d11/class_map.html#a7e3e81c662125913e1b29fe0a257c7de">Map::Initalize</a></div><div class="ttdeci">virtual bool Initalize()</div><div class="ttdoc">初期化 </div><div class="ttdef"><b>Definition:</b> Map.cpp:47</div></div>
+<div class="ttc" id="class_map_html_a0abc1c10ba71a6b98e6a8edaf89f45f0"><div class="ttname"><a href="../../dd/d11/class_map.html#a0abc1c10ba71a6b98e6a8edaf89f45f0">Map::_castle</a></div><div class="ttdeci">Castle * _castle</div><div class="ttdoc">城クラス </div><div class="ttdef"><b>Definition:</b> Map.h:36</div></div>
+<div class="ttc" id="class_castle_html_aa92557c6b84a7c94895290232e2d88e0"><div class="ttname"><a href="../../df/dfd/class_castle.html#aa92557c6b84a7c94895290232e2d88e0">Castle::getWall</a></div><div class="ttdeci">CastleWall * getWall(s32 Index)</div><div class="ttdoc">壁情報取得 </div><div class="ttdef"><b>Definition:</b> Map.h:130</div></div>
+<div class="ttc" id="class_castle_html_a107cc14f37b6d1fc6c54c03540afaf2e"><div class="ttname"><a href="../../df/dfd/class_castle.html#a107cc14f37b6d1fc6c54c03540afaf2e">Castle::_myWall</a></div><div class="ttdeci">CastleWall * _myWall[WALL_MAX]</div><div class="ttdef"><b>Definition:</b> Map.h:138</div></div>
+<div class="ttc" id="class_map_html_a61efe2e1ec3f41d90bcbf826893404f1"><div class="ttname"><a href="../../dd/d11/class_map.html#a61efe2e1ec3f41d90bcbf826893404f1">Map::Update</a></div><div class="ttdeci">virtual void Update()</div><div class="ttdoc">更新 </div><div class="ttdef"><b>Definition:</b> Map.cpp:56</div></div>
+<div class="ttc" id="class_castle_wall_html_a0406094707c257c297436da3ac4f5773"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#a0406094707c257c297436da3ac4f5773">CastleWall::setOffsetPos</a></div><div class="ttdeci">void setOffsetPos(Vector3 &amp;OffsetPos)</div><div class="ttdoc">オフセット設定 </div><div class="ttdef"><b>Definition:</b> Map.cpp:184</div></div>
+<div class="ttc" id="struct_vector3_html"><div class="ttname"><a href="../../d0/de3/struct_vector3.html">Vector3</a></div><div class="ttdef"><b>Definition:</b> Vector.h:89</div></div>
+<div class="ttc" id="class_map_html_aa403fbe09394ccf39747588f5168e3b2"><div class="ttname"><a href="../../dd/d11/class_map.html#aa403fbe09394ccf39747588f5168e3b2">Map::~Map</a></div><div class="ttdeci">virtual ~Map()</div><div class="ttdoc">デストラクタ </div><div class="ttdef"><b>Definition:</b> Map.cpp:34</div></div>
+<div class="ttc" id="class_castle_html"><div class="ttname"><a href="../../df/dfd/class_castle.html">Castle</a></div><div class="ttdef"><b>Definition:</b> Map.h:114</div></div>
+<div class="ttc" id="class_castle_wall_html_a4c821b732dd44bd8378f6f4b54187b81"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#a4c821b732dd44bd8378f6f4b54187b81">CastleWall::_rotation</a></div><div class="ttdeci">f32 _rotation</div><div class="ttdoc">角度 </div><div class="ttdef"><b>Definition:</b> Map.h:100</div></div>
+<div class="ttc" id="class_castle_wall_html"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html">CastleWall</a></div><div class="ttdef"><b>Definition:</b> Map.h:45</div></div>
+<div class="ttc" id="class_obj_base_html"><div class="ttname"><a href="../../dc/d24/class_obj_base.html">ObjBase</a></div><div class="ttdef"><b>Definition:</b> ObjBase.h:14</div></div>
+<div class="ttc" id="class_map_html"><div class="ttname"><a href="../../dd/d11/class_map.html">Map</a></div><div class="ttdef"><b>Definition:</b> Map.h:15</div></div>
+<div class="ttc" id="class_castle_wall_html_af9fa2a0111a758685746a8f34f3c60f1"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#af9fa2a0111a758685746a8f34f3c60f1">CastleWall::getCurrentIndex</a></div><div class="ttdeci">s32 getCurrentIndex() const </div><div class="ttdoc">現在使っているインデックス番号を返す </div><div class="ttdef"><b>Definition:</b> Map.h:82</div></div>
+<div class="ttc" id="class_collision_object_html"><div class="ttname"><a href="../../d3/d62/class_collision_object.html">CollisionObject</a></div><div class="ttdef"><b>Definition:</b> Collision.h:186</div></div>
+<div class="ttc" id="class_map_html_a0f5ad0fd4563497b4214038cbca8b582"><div class="ttname"><a href="../../dd/d11/class_map.html#a0f5ad0fd4563497b4214038cbca8b582">Map::Map</a></div><div class="ttdeci">Map()</div><div class="ttdoc">コンストラクタ </div><div class="ttdef"><b>Definition:</b> Map.cpp:14</div></div>
+<div class="ttc" id="class_castle_html_a3773249e9255e1a07d1e510866f88200"><div class="ttname"><a href="../../df/dfd/class_castle.html#a3773249e9255e1a07d1e510866f88200">Castle::WALL_MAX</a></div><div class="ttdeci">static const int WALL_MAX</div><div class="ttdoc">壁の最大数 </div><div class="ttdef"><b>Definition:</b> Map.h:137</div></div>
+<div class="ttc" id="class_castle_wall_html_a69ab0cee2dd0a32ca3cde4f294ee6f6c"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#a69ab0cee2dd0a32ca3cde4f294ee6f6c">CastleWall::CastleWall</a></div><div class="ttdeci">CastleWall(f32 wallScale=1.0f)</div><div class="ttdoc">コンストラクタ </div><div class="ttdef"><b>Definition:</b> Map.cpp:90</div></div>
+<div class="ttc" id="class_castle_wall_html_ab956a7d5de1bc8096cd2ee5ca51d247a"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#ab956a7d5de1bc8096cd2ee5ca51d247a">CastleWall::setPosition</a></div><div class="ttdeci">void setPosition(Vector3 &amp;pos, s32 Index)</div><div class="ttdoc">座標設定 </div><div class="ttdef"><b>Definition:</b> Map.cpp:152</div></div>
+<div class="ttc" id="class_castle_html_ae9c1fceaa18364fec63a60856263cf54"><div class="ttname"><a href="../../df/dfd/class_castle.html#ae9c1fceaa18364fec63a60856263cf54">Castle::~Castle</a></div><div class="ttdeci">virtual ~Castle()</div><div class="ttdoc">デストラクタ </div><div class="ttdef"><b>Definition:</b> Map.cpp:444</div></div>
+<div class="ttc" id="class_map_html_a9bef20a674f52ee4013d7d81429ab5d2"><div class="ttname"><a href="../../dd/d11/class_map.html#a9bef20a674f52ee4013d7d81429ab5d2">Map::_groundModel</a></div><div class="ttdeci">Model * _groundModel</div><div class="ttdoc">地面用 </div><div class="ttdef"><b>Definition:</b> Map.h:34</div></div>
+<div class="ttc" id="class_castle_wall_html_a4c7b392af8d00109092f17cbe169b8e8"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#a4c7b392af8d00109092f17cbe169b8e8">CastleWall::_drawPosition</a></div><div class="ttdeci">Vector3 _drawPosition</div><div class="ttdoc">描画座標 </div><div class="ttdef"><b>Definition:</b> Map.h:97</div></div>
+<div class="ttc" id="_system_8h_html_ab8184bc6a23047649b3e1fbd2cd09ecb"><div class="ttname"><a href="../../df/d78/_system_8h.html#ab8184bc6a23047649b3e1fbd2cd09ecb">DEF_COL_NAME_HEADER</a></div><div class="ttdeci">#define DEF_COL_NAME_HEADER(x)</div><div class="ttdef"><b>Definition:</b> System.h:77</div></div>
+<div class="ttc" id="class_castle_wall_html_a2f7b20a81e21b11edf72a8b1994779fa"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#a2f7b20a81e21b11edf72a8b1994779fa">CastleWall::_OffsetPosition</a></div><div class="ttdeci">Vector3 _OffsetPosition</div><div class="ttdoc">中心からのずれ </div><div class="ttdef"><b>Definition:</b> Map.h:96</div></div>
+<div class="ttc" id="class_castle_wall_html_abc6fe65d816aa28f713ed6a5cd3fc2b2"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#abc6fe65d816aa28f713ed6a5cd3fc2b2">CastleWall::_myStatus</a></div><div class="ttdeci">Status * _myStatus</div><div class="ttdoc">ステータスの構造体 </div><div class="ttdef"><b>Definition:</b> Map.h:107</div></div>
+<div class="ttc" id="class_castle_wall_html_a24b57b6d45cf42c656ea9780377d061e"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#a24b57b6d45cf42c656ea9780377d061e">CastleWall::~CastleWall</a></div><div class="ttdeci">virtual ~CastleWall()</div><div class="ttdoc">デストラクタ </div><div class="ttdef"><b>Definition:</b> Map.cpp:128</div></div>
+<div class="ttc" id="_main_8h_html_a5f6906312a689f27d70e9d086649d3fd"><div class="ttname"><a href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a></div><div class="ttdeci">float f32</div><div class="ttdoc">単精度浮動小数点数 </div><div class="ttdef"><b>Definition:</b> Main.h:68</div></div>
+<div class="ttc" id="class_castle_html_ab5a57307b5e4c8ecb6f8f0524684e6d6"><div class="ttname"><a href="../../df/dfd/class_castle.html#ab5a57307b5e4c8ecb6f8f0524684e6d6">Castle::Castle</a></div><div class="ttdeci">Castle()</div><div class="ttdoc">コンストラクタ </div><div class="ttdef"><b>Definition:</b> Map.cpp:366</div></div>
+<div class="ttc" id="class_castle_wall_html_a92371447e50d7e4554ae1ec395032001"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#a92371447e50d7e4554ae1ec395032001">CastleWall::getHitSphere</a></div><div class="ttdeci">vector&lt; Sphere &gt; getHitSphere()</div><div class="ttdoc">当たり判定用の球を取得 </div><div class="ttdef"><b>Definition:</b> Map.h:85</div></div>
+<div class="ttc" id="class_castle_wall_html_a86ce1f0330306ec483b89966637b4bb7"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#a86ce1f0330306ec483b89966637b4bb7">CastleWall::_position</a></div><div class="ttdeci">static Vector3 _position[8]</div><div class="ttdoc">矩形のポジション </div><div class="ttdef"><b>Definition:</b> Map.h:95</div></div>
+<div class="ttc" id="_main_8h_html_a0ce6887c26c1c49ad3be5710dd42bfd6"><div class="ttname"><a href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a></div><div class="ttdeci">signed int s32</div><div class="ttdoc">符号あり32bit整数 </div><div class="ttdef"><b>Definition:</b> Main.h:64</div></div>
+<div class="ttc" id="class_castle_wall_html_a3223b9046a9d01b1fd952d2ecc1a8c40"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#a3223b9046a9d01b1fd952d2ecc1a8c40">CastleWall::_hitSphere</a></div><div class="ttdeci">vector&lt; Sphere &gt; _hitSphere</div><div class="ttdoc">当たり判定がある球 </div><div class="ttdef"><b>Definition:</b> Map.h:103</div></div>
+<div class="ttc" id="class_castle_html_a6b17d49d82f4a49f8b8a124492b59102"><div class="ttname"><a href="../../df/dfd/class_castle.html#a6b17d49d82f4a49f8b8a124492b59102">Castle::getWallCount</a></div><div class="ttdeci">s32 getWallCount()</div><div class="ttdoc">壁の数取得 </div><div class="ttdef"><b>Definition:</b> Map.h:133</div></div>
+<div class="ttc" id="struct_status_html"><div class="ttname"><a href="../../df/df2/struct_status.html">Status</a></div><div class="ttdef"><b>Definition:</b> Status.h:13</div></div>
+<div class="ttc" id="class_castle_wall_html_ade42438c205cfd2300b81ac2b93148e7"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#ade42438c205cfd2300b81ac2b93148e7">CastleWall::setRotation</a></div><div class="ttdeci">void setRotation(f32 rot)</div><div class="ttdoc">角度設定 </div><div class="ttdef"><b>Definition:</b> Map.cpp:164</div></div>
+<div class="ttc" id="class_castle_html_af92ca7a0fff116f19d38cd1c2a16415b"><div class="ttname"><a href="../../df/dfd/class_castle.html#af92ca7a0fff116f19d38cd1c2a16415b">Castle::Update</a></div><div class="ttdeci">void Update()</div><div class="ttdoc">更新 </div><div class="ttdef"><b>Definition:</b> Map.cpp:481</div></div>
+<div class="ttc" id="class_castle_wall_html_a6e4d2f234838b7044d0fa3db87a5e53d"><div class="ttname"><a href="../../d5/d6f/class_castle_wall.html#a6e4d2f234838b7044d0fa3db87a5e53d">CastleWall::_currentIndex</a></div><div class="ttdeci">s32 _currentIndex</div><div class="ttdoc">現在使用中のポジションのインデックス </div><div class="ttdef"><b>Definition:</b> Map.h:98</div></div>
+<div class="ttc" id="class_map_html_a607b2188cbb804109dab92b23a3fffd1"><div class="ttname"><a href="../../dd/d11/class_map.html#a607b2188cbb804109dab92b23a3fffd1">Map::getCastle</a></div><div class="ttdeci">Castle * getCastle()</div><div class="ttdoc">城インスタンスを取得 </div><div class="ttdef"><b>Definition:</b> Map.h:31</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+myGameに対してSun Oct 13 2013 20:58:05に生成されました。 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

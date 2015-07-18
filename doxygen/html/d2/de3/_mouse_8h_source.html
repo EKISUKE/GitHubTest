@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>myGame: E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Mouse.h ソースファイル</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">myGame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>メインページ</span></a></li>
+      <li><a href="../../namespaces.html"><span>ネームスペース</span></a></li>
+      <li><a href="../../annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="../../files.html"><span>ファイル</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="../../globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Mouse.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d2/de3/_mouse_8h.html">説明を見る。</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span><span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"></span><span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d7/dc5/class_mouse.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d7/dc5/class_mouse.html">Mouse</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../d7/dc5/class_mouse.html#a99024d3700d649ae19c1537b42a3e86d">Mouse</a>();</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d7/dc5/class_mouse.html#af28a7cf98ce1b646b3e813a491530a9c">   19</a></span>&#160;    POINT       <a class="code" href="../../d7/dc5/class_mouse.html#af28a7cf98ce1b646b3e813a491530a9c">getPosition</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> _point; }</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    POINT       <a class="code" href="../../d7/dc5/class_mouse.html#aa9270008e04dfc725c45c9b518119712">getOffset</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="../../d7/dc5/class_mouse.html#a38e178d9d764a8670d5682f0fe3f2f47">   26</a></span>&#160;    <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>         <a class="code" href="../../d7/dc5/class_mouse.html#a38e178d9d764a8670d5682f0fe3f2f47">getChangeWheel</a>(){ </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> result = _changeWheel;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="comment">// 取得したら０にする</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        _changeWheel = 0.0f;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">return</span> result; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span>        <a class="code" href="../../d7/dc5/class_mouse.html#add9756fabb1ae55d56e10b930e5592b6">Update</a>();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span>        <a class="code" href="../../d7/dc5/class_mouse.html#a2d4332520f8cf872de6e85419cf54750">MouseWheel</a>(<span class="keywordtype">int</span> wheel_number, <span class="keywordtype">int</span> direction, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    POINT       _oldPoint;      </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    POINT       _point;         </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">//---- マウスホイール</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>         _oldWheel;      </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>         _wheel;         </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>         _changeWheel;   </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;};</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">//  END OF FILE</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="ttc" id="class_mouse_html_a38e178d9d764a8670d5682f0fe3f2f47"><div class="ttname"><a href="../../d7/dc5/class_mouse.html#a38e178d9d764a8670d5682f0fe3f2f47">Mouse::getChangeWheel</a></div><div class="ttdeci">f32 getChangeWheel()</div><div class="ttdoc">ホイール変更量取得 </div><div class="ttdef"><b>Definition:</b> Mouse.h:26</div></div>
+<div class="ttc" id="class_mouse_html_add9756fabb1ae55d56e10b930e5592b6"><div class="ttname"><a href="../../d7/dc5/class_mouse.html#add9756fabb1ae55d56e10b930e5592b6">Mouse::Update</a></div><div class="ttdeci">void Update()</div><div class="ttdoc">1フレーム分の更新 </div><div class="ttdef"><b>Definition:</b> Mouse.cpp:42</div></div>
+<div class="ttc" id="class_mouse_html_a99024d3700d649ae19c1537b42a3e86d"><div class="ttname"><a href="../../d7/dc5/class_mouse.html#a99024d3700d649ae19c1537b42a3e86d">Mouse::Mouse</a></div><div class="ttdeci">Mouse()</div><div class="ttdoc">コンストラクタ </div><div class="ttdef"><b>Definition:</b> Mouse.cpp:14</div></div>
+<div class="ttc" id="class_mouse_html_a2d4332520f8cf872de6e85419cf54750"><div class="ttname"><a href="../../d7/dc5/class_mouse.html#a2d4332520f8cf872de6e85419cf54750">Mouse::MouseWheel</a></div><div class="ttdeci">void MouseWheel(int wheel_number, int direction, int x, int y)</div><div class="ttdoc">マウスホイール </div><div class="ttdef"><b>Definition:</b> Mouse.cpp:56</div></div>
+<div class="ttc" id="class_mouse_html"><div class="ttname"><a href="../../d7/dc5/class_mouse.html">Mouse</a></div><div class="ttdef"><b>Definition:</b> Mouse.h:12</div></div>
+<div class="ttc" id="class_mouse_html_af28a7cf98ce1b646b3e813a491530a9c"><div class="ttname"><a href="../../d7/dc5/class_mouse.html#af28a7cf98ce1b646b3e813a491530a9c">Mouse::getPosition</a></div><div class="ttdeci">POINT getPosition() const </div><div class="ttdoc">現在のカーソル位置を取得 </div><div class="ttdef"><b>Definition:</b> Mouse.h:19</div></div>
+<div class="ttc" id="_main_8h_html_a5f6906312a689f27d70e9d086649d3fd"><div class="ttname"><a href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a></div><div class="ttdeci">float f32</div><div class="ttdoc">単精度浮動小数点数 </div><div class="ttdef"><b>Definition:</b> Main.h:68</div></div>
+<div class="ttc" id="class_mouse_html_aa9270008e04dfc725c45c9b518119712"><div class="ttname"><a href="../../d7/dc5/class_mouse.html#aa9270008e04dfc725c45c9b518119712">Mouse::getOffset</a></div><div class="ttdeci">POINT getOffset() const </div><div class="ttdoc">カーソル移動量を取得 </div><div class="ttdef"><b>Definition:</b> Mouse.cpp:30</div></div>
+<div class="ttc" id="_main_8h_html_a0ce6887c26c1c49ad3be5710dd42bfd6"><div class="ttname"><a href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a></div><div class="ttdeci">signed int s32</div><div class="ttdoc">符号あり32bit整数 </div><div class="ttdef"><b>Definition:</b> Main.h:64</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+myGameに対してSun Oct 13 2013 20:58:05に生成されました。 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

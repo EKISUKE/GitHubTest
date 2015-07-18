@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d9/dc1/namespacecollision" kind="namespace">
+    <compoundname>collision</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d9/dc1/namespacecollision_1ae993c2d6b1c3275b5ddbf45525d36129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 collision::getDistance</definition>
+        <argsstring>(const Plane &amp;plane, const Vector3 &amp;position)</argsstring>
+        <name>getDistance</name>
+        <param>
+          <type>const <ref refid="d3/d0f/struct_plane" kindref="compound">Plane</ref> &amp;</type>
+          <declname>plane</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>距離 <ref refid="d6/dad/struct_xE5_xB9_xB3_xE9_x9D_xA2" kindref="compound">平面</ref> vs 点 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">plane</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="d6/dad/struct_xE5_xB9_xB3_xE9_x9D_xA2" kindref="compound">平面</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>点の位置 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>最短距離(表側は正の値, 裏側は負の値) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.cpp" line="19" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.cpp" bodystart="19" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc1/namespacecollision_1ad9fbb73486f863e0bea46797d1de961a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void collision::checkHitPos</definition>
+        <argsstring>(const Triangle &amp;triangle, const Line &amp;line, Vector3 *pHitPosition, f32 *pT, Vector3 *pHitNormal)</argsstring>
+        <name>checkHitPos</name>
+        <param>
+          <type>const <ref refid="d5/d4f/struct_triangle" kindref="compound">Triangle</ref> &amp;</type>
+          <declname>triangle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d2/d9d/struct_line" kindref="compound">Line</ref> &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> *</type>
+          <declname>pHitPosition</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref> *</type>
+          <declname>pT</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> *</type>
+          <declname>pHitNormal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">triangle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="d4/d34/struct_xE4_xB8_x89_xE8_xA7_x92_xE5_xBD_xA2" kindref="compound">三角形</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="dc/d38/struct_xE7_x9B_xB4_xE7_xB7_x9A" kindref="compound">直線</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pT</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>衝突した点と交差する直線のパラメーターtを受け取る場所 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pHitPosition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>衝突点 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pHitNormal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>衝突点の法線 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.cpp" line="32" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.cpp" bodystart="32" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc1/namespacecollision_1a534dafd512534a0cf85cb0744f586d0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool collision::isHit</definition>
+        <argsstring>(const Triangle &amp;triangle, const Line &amp;line, Vector3 *pHitPosition, f32 *pT, Vector3 *pHitNormal)</argsstring>
+        <name>isHit</name>
+        <param>
+          <type>const <ref refid="d5/d4f/struct_triangle" kindref="compound">Triangle</ref> &amp;</type>
+          <declname>triangle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d2/d9d/struct_line" kindref="compound">Line</ref> &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> *</type>
+          <declname>pHitPosition</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref> *</type>
+          <declname>pT</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> *</type>
+          <declname>pHitNormal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>衝突計算 <ref refid="d4/d34/struct_xE4_xB8_x89_xE8_xA7_x92_xE5_xBD_xA2" kindref="compound">三角形</ref> vs <ref refid="dc/d38/struct_xE7_x9B_xB4_xE7_xB7_x9A" kindref="compound">直線</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">triangle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="d4/d34/struct_xE4_xB8_x89_xE8_xA7_x92_xE5_xBD_xA2" kindref="compound">三角形</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="dc/d38/struct_xE7_x9B_xB4_xE7_xB7_x9A" kindref="compound">直線</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pT</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>衝突した点と交差する直線のパラメーターtを受け取る場所 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pHitPosition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>衝突点 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pHitNormal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>衝突点の法線 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.cpp" line="71" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.cpp" bodystart="71" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc1/namespacecollision_1af17052aa5bca8ab9db7e4602e1185352" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool collision::isHit</definition>
+        <argsstring>(const Plane &amp;plane, const Line &amp;line, f32 *pT)</argsstring>
+        <name>isHit</name>
+        <param>
+          <type>const <ref refid="d3/d0f/struct_plane" kindref="compound">Plane</ref> &amp;</type>
+          <declname>plane</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d2/d9d/struct_line" kindref="compound">Line</ref> &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref> *</type>
+          <declname>pT</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>衝突計算 <ref refid="d6/dad/struct_xE5_xB9_xB3_xE9_x9D_xA2" kindref="compound">平面</ref> vs <ref refid="dc/d38/struct_xE7_x9B_xB4_xE7_xB7_x9A" kindref="compound">直線</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">plane</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="d6/dad/struct_xE5_xB9_xB3_xE9_x9D_xA2" kindref="compound">平面</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="dc/d38/struct_xE7_x9B_xB4_xE7_xB7_x9A" kindref="compound">直線</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pT</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>衝突した点と交差する直線のパラメーターtを受け取る場所 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>&lt; 始点</para><para>&lt; 終点</para><para>&lt; 始点から平面までの距離</para><para>&lt; 終点から平面までの距離 </para>        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.cpp" line="114" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.cpp" bodystart="114" bodyend="158"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.cpp" line="10" column="1"/>
+  </compounddef>
+</doxygen>

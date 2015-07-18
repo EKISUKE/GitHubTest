@@ -1,0 +1,174 @@
+\hypertarget{class_key_deffender}{\section{クラス Key\-Deffender}
+\label{class_key_deffender}\index{Key\-Deffender@{Key\-Deffender}}
+}
+
+
+{\ttfamily \#include $<$Key\-Deffender.\-h$>$}
+
+Key\-Deffenderに対する継承グラフ\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{d5/dfd/class_key_deffender}
+\end{center}
+\end{figure}
+\subsection*{Public 型}
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_key_deffender_a2d0fa24da9c8801e29e09785e96532c5}{M\-O\-D\-E} \{ \hyperlink{class_key_deffender_a2d0fa24da9c8801e29e09785e96532c5abf68816f1b29a89fb4cfba57726bf02f}{M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H}, 
+\hyperlink{class_key_deffender_a2d0fa24da9c8801e29e09785e96532c5a9864b335ebddb53f54ee6d6fc376e305}{M\-O\-D\-E\-\_\-\-A\-T\-T\-A\-C\-K}, 
+\hyperlink{class_key_deffender_a2d0fa24da9c8801e29e09785e96532c5a4bed2e2b8eb7c720589155ea020474ee}{M\-O\-D\-E\-\_\-\-D\-E\-F\-F\-E\-N\-C\-E}, 
+\hyperlink{class_key_deffender_a2d0fa24da9c8801e29e09785e96532c5ac6a457d66150ab005b17c5162818451a}{M\-O\-D\-E\-\_\-\-M\-A\-X}
+ \}
+\begin{DoxyCompactList}\small\item\em 行動状態 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+\subsection*{Public メソッド}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_key_deffender_a858bc8e1bd986fdbc9d9fa8f31caba91}{Key\-Deffender} ()
+\begin{DoxyCompactList}\small\item\em デフォルトコンストラクタ \end{DoxyCompactList}\item 
+virtual \hyperlink{class_key_deffender_a00e0afd26850736b536896aae04f51ba}{$\sim$\-Key\-Deffender} ()
+\begin{DoxyCompactList}\small\item\em デストラクタ \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_key_deffender_a7262f14770e5cdc20b5e717b98b9a1e2}{Update} ()
+\begin{DoxyCompactList}\small\item\em 更新 \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_key_deffender_a8580a17ef23e802604ebc00e54c7c3a9}{set\-To\-Target\-Pos} (\hyperlink{struct_vector3}{Vector3} my\-Pos, \hyperlink{struct_vector3}{Vector3} target\-Pos)
+\begin{DoxyCompactList}\small\item\em 目標をセット \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected 変数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{class_key_deffender_acb50cc4c7f821904eb07c27de131cf4a}{\-\_\-search\-Rot}
+\begin{DoxyCompactList}\small\item\em 探索方向 \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{class_key_deffender_a3f735f15f49aa4402f90b11df8de24f0}{\-\_\-attack\-Reach}
+\begin{DoxyCompactList}\small\item\em 攻撃可能範囲 \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{class_key_deffender_a707f63b922b484c455d715d9aee813e9}{\-\_\-deffence\-Reach}
+\begin{DoxyCompactList}\small\item\em 目標を防御するための距離 \end{DoxyCompactList}\item 
+bool \hyperlink{class_key_deffender_a0451857ef4707d1f98a3259be12be695}{\-\_\-deffence\-Mode}
+\begin{DoxyCompactList}\small\item\em ディフェンスモードがどうか \end{DoxyCompactList}\item 
+\hyperlink{class_key_deffender_a2d0fa24da9c8801e29e09785e96532c5}{M\-O\-D\-E} \hyperlink{class_key_deffender_ab95b209ff1600e6425422d644c05ffb7}{\-\_\-mode}
+\begin{DoxyCompactList}\small\item\em 行動状態用 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{列挙型}
+\hypertarget{class_key_deffender_a2d0fa24da9c8801e29e09785e96532c5}{\index{Key\-Deffender@{Key\-Deffender}!M\-O\-D\-E@{M\-O\-D\-E}}
+\index{M\-O\-D\-E@{M\-O\-D\-E}!KeyDeffender@{Key\-Deffender}}
+\subsubsection[{M\-O\-D\-E}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Key\-Deffender\-::\-M\-O\-D\-E}}}\label{class_key_deffender_a2d0fa24da9c8801e29e09785e96532c5}
+
+
+行動状態 
+
+\begin{Desc}
+\item[列挙型の値]\par
+\begin{description}
+\index{M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H@{M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H}!Key\-Deffender@{Key\-Deffender}}\index{Key\-Deffender@{Key\-Deffender}!M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H@{M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H}}\item[{\em 
+\hypertarget{class_key_deffender_a2d0fa24da9c8801e29e09785e96532c5abf68816f1b29a89fb4cfba57726bf02f}{M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H}\label{class_key_deffender_a2d0fa24da9c8801e29e09785e96532c5abf68816f1b29a89fb4cfba57726bf02f}
+}]目標に接近 \index{M\-O\-D\-E\-\_\-\-A\-T\-T\-A\-C\-K@{M\-O\-D\-E\-\_\-\-A\-T\-T\-A\-C\-K}!Key\-Deffender@{Key\-Deffender}}\index{Key\-Deffender@{Key\-Deffender}!M\-O\-D\-E\-\_\-\-A\-T\-T\-A\-C\-K@{M\-O\-D\-E\-\_\-\-A\-T\-T\-A\-C\-K}}\item[{\em 
+\hypertarget{class_key_deffender_a2d0fa24da9c8801e29e09785e96532c5a9864b335ebddb53f54ee6d6fc376e305}{M\-O\-D\-E\-\_\-\-A\-T\-T\-A\-C\-K}\label{class_key_deffender_a2d0fa24da9c8801e29e09785e96532c5a9864b335ebddb53f54ee6d6fc376e305}
+}]敵攻撃 \index{M\-O\-D\-E\-\_\-\-D\-E\-F\-F\-E\-N\-C\-E@{M\-O\-D\-E\-\_\-\-D\-E\-F\-F\-E\-N\-C\-E}!Key\-Deffender@{Key\-Deffender}}\index{Key\-Deffender@{Key\-Deffender}!M\-O\-D\-E\-\_\-\-D\-E\-F\-F\-E\-N\-C\-E@{M\-O\-D\-E\-\_\-\-D\-E\-F\-F\-E\-N\-C\-E}}\item[{\em 
+\hypertarget{class_key_deffender_a2d0fa24da9c8801e29e09785e96532c5a4bed2e2b8eb7c720589155ea020474ee}{M\-O\-D\-E\-\_\-\-D\-E\-F\-F\-E\-N\-C\-E}\label{class_key_deffender_a2d0fa24da9c8801e29e09785e96532c5a4bed2e2b8eb7c720589155ea020474ee}
+}]目標を防御 \index{M\-O\-D\-E\-\_\-\-M\-A\-X@{M\-O\-D\-E\-\_\-\-M\-A\-X}!Key\-Deffender@{Key\-Deffender}}\index{Key\-Deffender@{Key\-Deffender}!M\-O\-D\-E\-\_\-\-M\-A\-X@{M\-O\-D\-E\-\_\-\-M\-A\-X}}\item[{\em 
+\hypertarget{class_key_deffender_a2d0fa24da9c8801e29e09785e96532c5ac6a457d66150ab005b17c5162818451a}{M\-O\-D\-E\-\_\-\-M\-A\-X}\label{class_key_deffender_a2d0fa24da9c8801e29e09785e96532c5ac6a457d66150ab005b17c5162818451a}
+}]状態遷移の最大 \end{description}
+\end{Desc}
+
+
+\subsection{コンストラクタとデストラクタ}
+\hypertarget{class_key_deffender_a858bc8e1bd986fdbc9d9fa8f31caba91}{\index{Key\-Deffender@{Key\-Deffender}!Key\-Deffender@{Key\-Deffender}}
+\index{Key\-Deffender@{Key\-Deffender}!KeyDeffender@{Key\-Deffender}}
+\subsubsection[{Key\-Deffender}]{\setlength{\rightskip}{0pt plus 5cm}Key\-Deffender\-::\-Key\-Deffender (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_key_deffender_a858bc8e1bd986fdbc9d9fa8f31caba91}
+
+
+デフォルトコンストラクタ 
+
+\hypertarget{class_key_deffender_a00e0afd26850736b536896aae04f51ba}{\index{Key\-Deffender@{Key\-Deffender}!$\sim$\-Key\-Deffender@{$\sim$\-Key\-Deffender}}
+\index{$\sim$\-Key\-Deffender@{$\sim$\-Key\-Deffender}!KeyDeffender@{Key\-Deffender}}
+\subsubsection[{$\sim$\-Key\-Deffender}]{\setlength{\rightskip}{0pt plus 5cm}Key\-Deffender\-::$\sim$\-Key\-Deffender (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_key_deffender_a00e0afd26850736b536896aae04f51ba}
+
+
+デストラクタ 
+
+
+
+\subsection{関数}
+\hypertarget{class_key_deffender_a8580a17ef23e802604ebc00e54c7c3a9}{\index{Key\-Deffender@{Key\-Deffender}!set\-To\-Target\-Pos@{set\-To\-Target\-Pos}}
+\index{set\-To\-Target\-Pos@{set\-To\-Target\-Pos}!KeyDeffender@{Key\-Deffender}}
+\subsubsection[{set\-To\-Target\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Key\-Deffender\-::set\-To\-Target\-Pos (
+\begin{DoxyParamCaption}
+\item[{{\bf Vector3}}]{my\-Pos, }
+\item[{{\bf Vector3}}]{target\-Pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_key_deffender_a8580a17ef23e802604ebc00e54c7c3a9}
+
+
+目標をセット 
+
+
+
+\hyperlink{class_a_i_a90c73117de7e36703b1129e77544cb9e}{A\-I}を再定義しています。
+
+\hypertarget{class_key_deffender_a7262f14770e5cdc20b5e717b98b9a1e2}{\index{Key\-Deffender@{Key\-Deffender}!Update@{Update}}
+\index{Update@{Update}!KeyDeffender@{Key\-Deffender}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}void Key\-Deffender\-::\-Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_key_deffender_a7262f14770e5cdc20b5e717b98b9a1e2}
+
+
+更新 
+
+
+
+\hyperlink{class_a_i_a59e5ab0650eb03f2e71bc8930fd9a8d5}{A\-I}を再定義しています。
+
+
+
+\subsection{変数}
+\hypertarget{class_key_deffender_a3f735f15f49aa4402f90b11df8de24f0}{\index{Key\-Deffender@{Key\-Deffender}!\-\_\-attack\-Reach@{\-\_\-attack\-Reach}}
+\index{\-\_\-attack\-Reach@{\-\_\-attack\-Reach}!KeyDeffender@{Key\-Deffender}}
+\subsubsection[{\-\_\-attack\-Reach}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Key\-Deffender\-::\-\_\-attack\-Reach\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_key_deffender_a3f735f15f49aa4402f90b11df8de24f0}
+
+
+攻撃可能範囲 
+
+\hypertarget{class_key_deffender_a0451857ef4707d1f98a3259be12be695}{\index{Key\-Deffender@{Key\-Deffender}!\-\_\-deffence\-Mode@{\-\_\-deffence\-Mode}}
+\index{\-\_\-deffence\-Mode@{\-\_\-deffence\-Mode}!KeyDeffender@{Key\-Deffender}}
+\subsubsection[{\-\_\-deffence\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}bool Key\-Deffender\-::\-\_\-deffence\-Mode\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_key_deffender_a0451857ef4707d1f98a3259be12be695}
+
+
+ディフェンスモードがどうか 
+
+\hypertarget{class_key_deffender_a707f63b922b484c455d715d9aee813e9}{\index{Key\-Deffender@{Key\-Deffender}!\-\_\-deffence\-Reach@{\-\_\-deffence\-Reach}}
+\index{\-\_\-deffence\-Reach@{\-\_\-deffence\-Reach}!KeyDeffender@{Key\-Deffender}}
+\subsubsection[{\-\_\-deffence\-Reach}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Key\-Deffender\-::\-\_\-deffence\-Reach\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_key_deffender_a707f63b922b484c455d715d9aee813e9}
+
+
+目標を防御するための距離 
+
+\hypertarget{class_key_deffender_ab95b209ff1600e6425422d644c05ffb7}{\index{Key\-Deffender@{Key\-Deffender}!\-\_\-mode@{\-\_\-mode}}
+\index{\-\_\-mode@{\-\_\-mode}!KeyDeffender@{Key\-Deffender}}
+\subsubsection[{\-\_\-mode}]{\setlength{\rightskip}{0pt plus 5cm}{\bf M\-O\-D\-E} Key\-Deffender\-::\-\_\-mode\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_key_deffender_ab95b209ff1600e6425422d644c05ffb7}
+
+
+行動状態用 
+
+\hypertarget{class_key_deffender_acb50cc4c7f821904eb07c27de131cf4a}{\index{Key\-Deffender@{Key\-Deffender}!\-\_\-search\-Rot@{\-\_\-search\-Rot}}
+\index{\-\_\-search\-Rot@{\-\_\-search\-Rot}!KeyDeffender@{Key\-Deffender}}
+\subsubsection[{\-\_\-search\-Rot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Key\-Deffender\-::\-\_\-search\-Rot\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_key_deffender_acb50cc4c7f821904eb07c27de131cf4a}
+
+
+探索方向 
+
+
+
+このクラスの説明は次のファイルから生成されました\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_key_deffender_8h}{Key\-Deffender.\-h}\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_key_deffender_8cpp}{Key\-Deffender.\-cpp}\end{DoxyCompactItemize}

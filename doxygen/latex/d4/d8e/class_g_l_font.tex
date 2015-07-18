@@ -1,0 +1,104 @@
+\hypertarget{class_g_l_font}{\section{クラス G\-L\-Font}
+\label{class_g_l_font}\index{G\-L\-Font@{G\-L\-Font}}
+}
+
+
+{\ttfamily \#include $<$G\-L\-Font.\-h$>$}
+
+\subsection*{Public メソッド}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_g_l_font_a64c8bf3c90d93c9f7af0e7f1b096e71f}{G\-L\-Font} (wchar\-\_\-t $\ast$fontname, \hyperlink{_main_8h_a0ce6887c26c1c49ad3be5710dd42bfd6}{s32} size)
+\begin{DoxyCompactList}\small\item\em コンストラクタ \end{DoxyCompactList}\item 
+\hyperlink{class_g_l_font_a7e07e1479cbdd4e31dfc5a39c5d72d69}{$\sim$\-G\-L\-Font} ()
+\begin{DoxyCompactList}\small\item\em デストラクタ \end{DoxyCompactList}\item 
+bool \hyperlink{class_g_l_font_ae85cae12a5e8d8feec5a076cd4baebcd}{Initialize} (wchar\-\_\-t $\ast$fontname, \hyperlink{_main_8h_a0ce6887c26c1c49ad3be5710dd42bfd6}{s32} size)
+\begin{DoxyCompactList}\small\item\em 初期化 \end{DoxyCompactList}\item 
+void \hyperlink{class_g_l_font_ad997bbe1b6fce42d07579aa79172fab7}{Draw\-String\-W} (\hyperlink{_main_8h_a0ce6887c26c1c49ad3be5710dd42bfd6}{s32} x, \hyperlink{_main_8h_a0ce6887c26c1c49ad3be5710dd42bfd6}{s32} y, \hyperlink{_main_8h_a0ce6887c26c1c49ad3be5710dd42bfd6}{s32} z, wchar\-\_\-t $\ast$format,...)
+\begin{DoxyCompactList}\small\item\em ワイド文字列の描画 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public 変数}
+\begin{DoxyCompactItemize}
+\item 
+H\-F\-O\-N\-T \hyperlink{class_g_l_font_a177c8719b37d7d9b00437333b744263e}{Hfont}
+\begin{DoxyCompactList}\small\item\em フォント用 \end{DoxyCompactList}\item 
+H\-D\-C \hyperlink{class_g_l_font_adab6a9ecd5f503c37d7a24412addc6f9}{Hdc}
+\begin{DoxyCompactList}\small\item\em 描画先(\-Device Context)用ハンドル \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{コンストラクタとデストラクタ}
+\hypertarget{class_g_l_font_a64c8bf3c90d93c9f7af0e7f1b096e71f}{\index{G\-L\-Font@{G\-L\-Font}!G\-L\-Font@{G\-L\-Font}}
+\index{G\-L\-Font@{G\-L\-Font}!GLFont@{G\-L\-Font}}
+\subsubsection[{G\-L\-Font}]{\setlength{\rightskip}{0pt plus 5cm}G\-L\-Font\-::\-G\-L\-Font (
+\begin{DoxyParamCaption}
+\item[{wchar\-\_\-t $\ast$}]{fontname, }
+\item[{{\bf s32}}]{size}
+\end{DoxyParamCaption}
+)}}\label{class_g_l_font_a64c8bf3c90d93c9f7af0e7f1b096e71f}
+
+
+コンストラクタ 
+
+\hypertarget{class_g_l_font_a7e07e1479cbdd4e31dfc5a39c5d72d69}{\index{G\-L\-Font@{G\-L\-Font}!$\sim$\-G\-L\-Font@{$\sim$\-G\-L\-Font}}
+\index{$\sim$\-G\-L\-Font@{$\sim$\-G\-L\-Font}!GLFont@{G\-L\-Font}}
+\subsubsection[{$\sim$\-G\-L\-Font}]{\setlength{\rightskip}{0pt plus 5cm}G\-L\-Font\-::$\sim$\-G\-L\-Font (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_g_l_font_a7e07e1479cbdd4e31dfc5a39c5d72d69}
+
+
+デストラクタ 
+
+
+
+\subsection{関数}
+\hypertarget{class_g_l_font_ad997bbe1b6fce42d07579aa79172fab7}{\index{G\-L\-Font@{G\-L\-Font}!Draw\-String\-W@{Draw\-String\-W}}
+\index{Draw\-String\-W@{Draw\-String\-W}!GLFont@{G\-L\-Font}}
+\subsubsection[{Draw\-String\-W}]{\setlength{\rightskip}{0pt plus 5cm}void G\-L\-Font\-::\-Draw\-String\-W (
+\begin{DoxyParamCaption}
+\item[{{\bf s32}}]{x, }
+\item[{{\bf s32}}]{y, }
+\item[{{\bf s32}}]{z, }
+\item[{wchar\-\_\-t $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{class_g_l_font_ad997bbe1b6fce42d07579aa79172fab7}
+
+
+ワイド文字列の描画 
+
+\hypertarget{class_g_l_font_ae85cae12a5e8d8feec5a076cd4baebcd}{\index{G\-L\-Font@{G\-L\-Font}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!GLFont@{G\-L\-Font}}
+\subsubsection[{Initialize}]{\setlength{\rightskip}{0pt plus 5cm}bool G\-L\-Font\-::\-Initialize (
+\begin{DoxyParamCaption}
+\item[{wchar\-\_\-t $\ast$}]{fontname, }
+\item[{{\bf s32}}]{size}
+\end{DoxyParamCaption}
+)}}\label{class_g_l_font_ae85cae12a5e8d8feec5a076cd4baebcd}
+
+
+初期化 
+
+
+
+\subsection{変数}
+\hypertarget{class_g_l_font_adab6a9ecd5f503c37d7a24412addc6f9}{\index{G\-L\-Font@{G\-L\-Font}!Hdc@{Hdc}}
+\index{Hdc@{Hdc}!GLFont@{G\-L\-Font}}
+\subsubsection[{Hdc}]{\setlength{\rightskip}{0pt plus 5cm}H\-D\-C G\-L\-Font\-::\-Hdc}}\label{class_g_l_font_adab6a9ecd5f503c37d7a24412addc6f9}
+
+
+描画先(\-Device Context)用ハンドル 
+
+\hypertarget{class_g_l_font_a177c8719b37d7d9b00437333b744263e}{\index{G\-L\-Font@{G\-L\-Font}!Hfont@{Hfont}}
+\index{Hfont@{Hfont}!GLFont@{G\-L\-Font}}
+\subsubsection[{Hfont}]{\setlength{\rightskip}{0pt plus 5cm}H\-F\-O\-N\-T G\-L\-Font\-::\-Hfont}}\label{class_g_l_font_a177c8719b37d7d9b00437333b744263e}
+
+
+フォント用 
+
+
+
+このクラスの説明は次のファイルから生成されました\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_g_l_font_8h}{G\-L\-Font.\-h}\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_g_l_font_8cpp}{G\-L\-Font.\-cpp}\end{DoxyCompactItemize}

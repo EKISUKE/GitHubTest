@@ -1,0 +1,170 @@
+\hypertarget{_game_8cpp}{\section{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Game.cpp}
+\label{_game_8cpp}\index{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Game.\-cpp@{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Game.\-cpp}}
+}
+
+
+ゲームメインループ  
+
+
+{\ttfamily \#include \char`\"{}Library.\-h\char`\"{}}\\*
+\subsection*{マクロ定義}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{_game_8cpp_a8e502e90ab353b1b3d58e2554182a6ff}{E\-N\-E\-M\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X}~5
+\item 
+\#define \hyperlink{_game_8cpp_a563f90fed6bf2c3fa1cacbddeabc4dc7}{A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R}~4
+\item 
+\#define \hyperlink{_game_8cpp_a4523a6651464ea22f1d6e7e728d9a19c}{A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R}~4
+\item 
+\#define \hyperlink{_game_8cpp_a925bc506a3841931fddb622e0ada9515}{A\-L\-L\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X}~\hyperlink{_scene_game_8h_a563f90fed6bf2c3fa1cacbddeabc4dc7}{A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R} + \hyperlink{_scene_game_8h_a4523a6651464ea22f1d6e7e728d9a19c}{A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R}
+\end{DoxyCompactItemize}
+\subsection*{関数}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{_game_8cpp_a58318dedfaf36e53a84dfe7f4a40a2e9}{add\-Ally} (\hyperlink{class_ally_base}{Ally\-Base} $\ast$p\-Ally)
+\item 
+bool \hyperlink{_game_8cpp_a57d5e9c35a9ba28093e2657854ed8e8e}{Game\-Init} (void)
+\begin{DoxyCompactList}\small\item\em 初期化 \end{DoxyCompactList}\item 
+void \hyperlink{_game_8cpp_ad94d99370753fc6029517835b6f2bea7}{Square\-Fill} (int x1, int y1, int x2, int y2)
+\item 
+void \hyperlink{_game_8cpp_acbeebf434cbf27adffc4a49eb6e4d1af}{Game\-Update} (\hyperlink{_main_8h_a0ce6887c26c1c49ad3be5710dd42bfd6}{s32} \&\hyperlink{_main_8cpp_a48e2c0184734db6ef7077da8cdb059df}{state})
+\begin{DoxyCompactList}\small\item\em 更新 \end{DoxyCompactList}\item 
+void \hyperlink{_game_8cpp_ab5013b7ae6511448edf612a2c49d7044}{Game\-Release} (void)
+\begin{DoxyCompactList}\small\item\em 解放 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{変数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_mouse}{Mouse} $\ast$ \hyperlink{_game_8cpp_a95ed564badb82d1b3d64e3e1126a7f02}{gp\-Mouse}
+\item 
+\hyperlink{class_camera}{Camera} $\ast$ \hyperlink{_game_8cpp_a4ac3ed80d93cba8abf49f8ad7b1d2412}{gp\-Camera}
+\item 
+\hyperlink{class_controller}{Controller} $\ast$ \hyperlink{_game_8cpp_a3c25d5e3a9fde6d867752db4fe2035f6}{gp\-Control}
+\item 
+\hyperlink{class_g_l_font}{G\-L\-Font} $\ast$ \hyperlink{_game_8cpp_a0cbba1923f8b61dbe8606f820e8662ff}{gp\-Font}
+\item 
+\hyperlink{class_player}{Player} $\ast$ \hyperlink{_game_8cpp_a517ed035042b6413f27b5f186f1ea411}{gp\-Player}
+\item 
+\hyperlink{class_attacker}{Attacker} $\ast$ \hyperlink{_game_8cpp_ad881b05a6eb09ef86b09f7277f7489a4}{gp\-Enemy} \mbox{[}1\mbox{]}
+\item 
+\hyperlink{class_ally_base}{Ally\-Base} $\ast$ \hyperlink{_game_8cpp_aea97e784f970bee1ff3b83eac3220c7b}{gp\-Ally} \mbox{[}1+1\mbox{]}
+\item 
+\hyperlink{class_map}{Map} $\ast$ \hyperlink{_game_8cpp_ab3ea40ea3a0dcf193715d2f7b2f930d9}{gp\-Map}
+\item 
+\hyperlink{class_model}{Model} $\ast$ \hyperlink{_game_8cpp_aa313559a54b9e0e0f73e4b0c50b0e317}{gp\-Model}
+\item 
+\hyperlink{class_model}{Model} $\ast$ \hyperlink{_game_8cpp_ae464206797cebedcb6a03c7f23d953ca}{gp\-Wall\-Model}
+\end{DoxyCompactItemize}
+
+
+\subsection{説明}
+ゲームメインループ \begin{DoxyAuthor}{作者}
+Yuki\-Ishigaki 
+\end{DoxyAuthor}
+
+
+\subsection{マクロ定義}
+\hypertarget{_game_8cpp_a563f90fed6bf2c3fa1cacbddeabc4dc7}{\index{Game.\-cpp@{Game.\-cpp}!A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R@{A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R}}
+\index{A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R@{A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R~4}}\label{_game_8cpp_a563f90fed6bf2c3fa1cacbddeabc4dc7}
+\hypertarget{_game_8cpp_a925bc506a3841931fddb622e0ada9515}{\index{Game.\-cpp@{Game.\-cpp}!A\-L\-L\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X@{A\-L\-L\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X}}
+\index{A\-L\-L\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X@{A\-L\-L\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{A\-L\-L\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X}]{\setlength{\rightskip}{0pt plus 5cm}\#define A\-L\-L\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X~{\bf A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R} + {\bf A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R}}}\label{_game_8cpp_a925bc506a3841931fddb622e0ada9515}
+\hypertarget{_game_8cpp_a4523a6651464ea22f1d6e7e728d9a19c}{\index{Game.\-cpp@{Game.\-cpp}!A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R@{A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R}}
+\index{A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R@{A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R~4}}\label{_game_8cpp_a4523a6651464ea22f1d6e7e728d9a19c}
+\hypertarget{_game_8cpp_a8e502e90ab353b1b3d58e2554182a6ff}{\index{Game.\-cpp@{Game.\-cpp}!E\-N\-E\-M\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X@{E\-N\-E\-M\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X}}
+\index{E\-N\-E\-M\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X@{E\-N\-E\-M\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{E\-N\-E\-M\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\-N\-E\-M\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X~5}}\label{_game_8cpp_a8e502e90ab353b1b3d58e2554182a6ff}
+
+
+\subsection{関数}
+\hypertarget{_game_8cpp_a58318dedfaf36e53a84dfe7f4a40a2e9}{\index{Game.\-cpp@{Game.\-cpp}!add\-Ally@{add\-Ally}}
+\index{add\-Ally@{add\-Ally}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{add\-Ally}]{\setlength{\rightskip}{0pt plus 5cm}bool add\-Ally (
+\begin{DoxyParamCaption}
+\item[{{\bf Ally\-Base} $\ast$}]{p\-Ally}
+\end{DoxyParamCaption}
+)}}\label{_game_8cpp_a58318dedfaf36e53a84dfe7f4a40a2e9}
+\hypertarget{_game_8cpp_a57d5e9c35a9ba28093e2657854ed8e8e}{\index{Game.\-cpp@{Game.\-cpp}!Game\-Init@{Game\-Init}}
+\index{Game\-Init@{Game\-Init}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{Game\-Init}]{\setlength{\rightskip}{0pt plus 5cm}bool Game\-Init (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{_game_8cpp_a57d5e9c35a9ba28093e2657854ed8e8e}
+
+
+初期化 
+
+初期化 
+\begin{DoxyRetVals}{戻り値}
+{\em true} & 正常終了 (成功) \\
+\hline
+{\em false} & エラー終了 (失敗) \\
+\hline
+\end{DoxyRetVals}
+\hypertarget{_game_8cpp_ab5013b7ae6511448edf612a2c49d7044}{\index{Game.\-cpp@{Game.\-cpp}!Game\-Release@{Game\-Release}}
+\index{Game\-Release@{Game\-Release}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{Game\-Release}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Release (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{_game_8cpp_ab5013b7ae6511448edf612a2c49d7044}
+
+
+解放 
+
+\hypertarget{_game_8cpp_acbeebf434cbf27adffc4a49eb6e4d1af}{\index{Game.\-cpp@{Game.\-cpp}!Game\-Update@{Game\-Update}}
+\index{Game\-Update@{Game\-Update}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{Game\-Update}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Update (
+\begin{DoxyParamCaption}
+\item[{{\bf s32} \&}]{state}
+\end{DoxyParamCaption}
+)}}\label{_game_8cpp_acbeebf434cbf27adffc4a49eb6e4d1af}
+
+
+更新 
+
+命令の描画 \hypertarget{_game_8cpp_ad94d99370753fc6029517835b6f2bea7}{\index{Game.\-cpp@{Game.\-cpp}!Square\-Fill@{Square\-Fill}}
+\index{Square\-Fill@{Square\-Fill}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{Square\-Fill}]{\setlength{\rightskip}{0pt plus 5cm}void Square\-Fill (
+\begin{DoxyParamCaption}
+\item[{int}]{x1, }
+\item[{int}]{y1, }
+\item[{int}]{x2, }
+\item[{int}]{y2}
+\end{DoxyParamCaption}
+)}}\label{_game_8cpp_ad94d99370753fc6029517835b6f2bea7}
+
+
+\subsection{変数}
+\hypertarget{_game_8cpp_aea97e784f970bee1ff3b83eac3220c7b}{\index{Game.\-cpp@{Game.\-cpp}!gp\-Ally@{gp\-Ally}}
+\index{gp\-Ally@{gp\-Ally}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{gp\-Ally}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Ally\-Base}$\ast$ gp\-Ally\mbox{[}1+1\mbox{]}}}\label{_game_8cpp_aea97e784f970bee1ff3b83eac3220c7b}
+\hypertarget{_game_8cpp_a4ac3ed80d93cba8abf49f8ad7b1d2412}{\index{Game.\-cpp@{Game.\-cpp}!gp\-Camera@{gp\-Camera}}
+\index{gp\-Camera@{gp\-Camera}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{gp\-Camera}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Camera}$\ast$ gp\-Camera}}\label{_game_8cpp_a4ac3ed80d93cba8abf49f8ad7b1d2412}
+\hypertarget{_game_8cpp_a3c25d5e3a9fde6d867752db4fe2035f6}{\index{Game.\-cpp@{Game.\-cpp}!gp\-Control@{gp\-Control}}
+\index{gp\-Control@{gp\-Control}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{gp\-Control}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Controller}$\ast$ gp\-Control}}\label{_game_8cpp_a3c25d5e3a9fde6d867752db4fe2035f6}
+\hypertarget{_game_8cpp_ad881b05a6eb09ef86b09f7277f7489a4}{\index{Game.\-cpp@{Game.\-cpp}!gp\-Enemy@{gp\-Enemy}}
+\index{gp\-Enemy@{gp\-Enemy}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{gp\-Enemy}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Attacker}$\ast$ gp\-Enemy\mbox{[}1\mbox{]}}}\label{_game_8cpp_ad881b05a6eb09ef86b09f7277f7489a4}
+\hypertarget{_game_8cpp_a0cbba1923f8b61dbe8606f820e8662ff}{\index{Game.\-cpp@{Game.\-cpp}!gp\-Font@{gp\-Font}}
+\index{gp\-Font@{gp\-Font}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{gp\-Font}]{\setlength{\rightskip}{0pt plus 5cm}{\bf G\-L\-Font}$\ast$ gp\-Font}}\label{_game_8cpp_a0cbba1923f8b61dbe8606f820e8662ff}
+\hypertarget{_game_8cpp_ab3ea40ea3a0dcf193715d2f7b2f930d9}{\index{Game.\-cpp@{Game.\-cpp}!gp\-Map@{gp\-Map}}
+\index{gp\-Map@{gp\-Map}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{gp\-Map}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Map}$\ast$ gp\-Map}}\label{_game_8cpp_ab3ea40ea3a0dcf193715d2f7b2f930d9}
+\hypertarget{_game_8cpp_aa313559a54b9e0e0f73e4b0c50b0e317}{\index{Game.\-cpp@{Game.\-cpp}!gp\-Model@{gp\-Model}}
+\index{gp\-Model@{gp\-Model}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{gp\-Model}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Model}$\ast$ gp\-Model}}\label{_game_8cpp_aa313559a54b9e0e0f73e4b0c50b0e317}
+\hypertarget{_game_8cpp_a95ed564badb82d1b3d64e3e1126a7f02}{\index{Game.\-cpp@{Game.\-cpp}!gp\-Mouse@{gp\-Mouse}}
+\index{gp\-Mouse@{gp\-Mouse}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{gp\-Mouse}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Mouse}$\ast$ gp\-Mouse}}\label{_game_8cpp_a95ed564badb82d1b3d64e3e1126a7f02}
+\hypertarget{_game_8cpp_a517ed035042b6413f27b5f186f1ea411}{\index{Game.\-cpp@{Game.\-cpp}!gp\-Player@{gp\-Player}}
+\index{gp\-Player@{gp\-Player}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{gp\-Player}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Player}$\ast$ gp\-Player}}\label{_game_8cpp_a517ed035042b6413f27b5f186f1ea411}
+\hypertarget{_game_8cpp_ae464206797cebedcb6a03c7f23d953ca}{\index{Game.\-cpp@{Game.\-cpp}!gp\-Wall\-Model@{gp\-Wall\-Model}}
+\index{gp\-Wall\-Model@{gp\-Wall\-Model}!Game.cpp@{Game.\-cpp}}
+\subsubsection[{gp\-Wall\-Model}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Model}$\ast$ gp\-Wall\-Model}}\label{_game_8cpp_ae464206797cebedcb6a03c7f23d953ca}

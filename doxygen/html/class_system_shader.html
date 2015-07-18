@@ -1,0 +1,1458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>CastleCrash: クラス SystemShader</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">CastleCrash
+   &#160;<span id="projectnumber">2014/07/20</span>
+   </div>
+   <div id="projectbrief">Yuki Ishigaki</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>メインページ</span></a></li>
+      <li><a href="namespaces.html"><span>ネームスペース</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>構成</span></a></li>
+      <li><a href="classes.html"><span>構成索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>構成メンバ</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_system_shader.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>ネームスペース</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>型定義</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>列挙型</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>列挙型の値</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>フレンド</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>マクロ定義</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public 型</a> &#124;
+<a href="class_system_shader-members.html">すべてのメンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">クラス SystemShader</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>シェーダ管理  
+ <a href="class_system_shader.html#details">[詳細]</a></p>
+
+<p><code>#include &lt;<a class="el" href="gm_system_shader_8h_source.html">gmSystemShader.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public 型</h2></td></tr>
+<tr class="memitem:a045af48fcf9fd181b1504389a204cadc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadc">SHADER_MODE</a> { <br/>
+&#160;&#160;<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadca63c1ca1e8b189e57a0588b70785fc860">SHADER_STANDARD</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadca74a8ec24615e429b6663ad2f5db5b95b">SHADER_COLOR</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadcad4c9a15c9fe56663a6d8ab42b1bea9bd">SHADER_NORMAL</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadcacb7eeae7f61ee30d58c4c185a14c767d">SHADER_TEXTURE</a>, 
+<br/>
+&#160;&#160;<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadcac3c6d3e668d181a9ebf76af2020c9a99">SHADER_SHADOW</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadca02ed4120c9c17fa09d50a866e9e66863">SHADER_DEBUG</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadca2052f9a773f7296bc28898202ce8cc0f">SHADER_DRAWCUBEMAP</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadca3a384d818db1f2c42f9561876545ae57">SHADER_FILTER</a>, 
+<br/>
+&#160;&#160;<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadca08e3c74bdfc2091694cc376ec7b0afc5">SHADER_GAUSSIAN_3X3_H</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadca3eec80232999063374b69efaac5f59a8">SHADER_GAUSSIAN_3X3_V</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadcaeee6234b029a4040cfd3b3cddbfb9297">SHADER_SUBTRACT</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadca6788c004d743e26e80b3ffdc86fa22a9">SHADER_BLOOM_GLARE</a>, 
+<br/>
+&#160;&#160;<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadcac2e368b9d1107ff8ba37f8825a3b30fb">SHADER_GET_LUMINANCE</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadca5e1419be1164eac5747d3a5cbc33653f">SHADER_LUMINANCE_REDUCTION</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadcafefbd0fec8ab4a6f24c4fd32abdabaed">SHADER_LIGHT_ADAPTATION</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadcada5ad620338d7ba6f3a8d2005f024d89">SHADER_TONEMAPPING_FINAL</a>, 
+<br/>
+&#160;&#160;<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadca6ef7fca0a2a2a55a0a67fa79c815ba30">SHADER_GLARE</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadcae1c77da53eada8977895ffb0b87fd30d">SHADER_MOTION_BLUR</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadca9a74594bdccf35dae0445e3042094b0b">SHADER_PUT_TEXTURE</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadcae71b186b78af351a9b4a3df4f6cc29cd">SHADER_RENDER_2D</a>, 
+<br/>
+&#160;&#160;<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadcaf0e330f88b831c3f1cfdf7b52552155a">SHADER_LENS_FLARE</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadca95dec4252b81eb9e781a247e8ae98185">SHADER_LENS_DIRT_STAR</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadcaa3a02ca217f89e34796dfb3146ca79c4">SHADER_MAX</a>, 
+<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadca66b6e861bf8ac44b2c6a916c7a4f9cd2">SHADER_NONE</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:a045af48fcf9fd181b1504389a204cadc"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェーダの種類  <a href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadc">[詳細]</a><br/></td></tr>
+<tr class="separator:a045af48fcf9fd181b1504389a204cadc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public メソッド</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">開始・終了・変更</div></td></tr>
+<tr class="memitem:ae2269d60eb4ac0e157aaa2fc6cd3e613"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#ae2269d60eb4ac0e157aaa2fc6cd3e613">beginShader</a> ()</td></tr>
+<tr class="memdesc:ae2269d60eb4ac0e157aaa2fc6cd3e613"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェーダの開始  <a href="#ae2269d60eb4ac0e157aaa2fc6cd3e613">[詳細]</a><br/></td></tr>
+<tr class="separator:ae2269d60eb4ac0e157aaa2fc6cd3e613"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5a53617462aafb8803d894774f13902"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#ad5a53617462aafb8803d894774f13902">beginPrevShader</a> ()</td></tr>
+<tr class="memdesc:ad5a53617462aafb8803d894774f13902"><td class="mdescLeft">&#160;</td><td class="mdescRight">ひとつ前のシェーダの開始  <a href="#ad5a53617462aafb8803d894774f13902">[詳細]</a><br/></td></tr>
+<tr class="separator:ad5a53617462aafb8803d894774f13902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacafa83c1f764897a12c47cc547d1a61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#aacafa83c1f764897a12c47cc547d1a61">endShader</a> ()</td></tr>
+<tr class="memdesc:aacafa83c1f764897a12c47cc547d1a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェーダの終了  <a href="#aacafa83c1f764897a12c47cc547d1a61">[詳細]</a><br/></td></tr>
+<tr class="separator:aacafa83c1f764897a12c47cc547d1a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa363680d950da41541e41823310a4a82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#aa363680d950da41541e41823310a4a82">changeShader</a> (<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadc">SHADER_MODE</a> mode)</td></tr>
+<tr class="separator:aa363680d950da41541e41823310a4a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+初期化</h2></td></tr>
+<tr class="memitem:ab47028c54e8e1b56ab31eacc5f1da8d8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#ab47028c54e8e1b56ab31eacc5f1da8d8">init</a> ()</td></tr>
+<tr class="memdesc:ab47028c54e8e1b56ab31eacc5f1da8d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化  <a href="#ab47028c54e8e1b56ab31eacc5f1da8d8">[詳細]</a><br/></td></tr>
+<tr class="separator:ab47028c54e8e1b56ab31eacc5f1da8d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed0b39a7f8f446707d66b94cb77367a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#aed0b39a7f8f446707d66b94cb77367a3">cleanup</a> ()</td></tr>
+<tr class="memdesc:aed0b39a7f8f446707d66b94cb77367a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">解放  <a href="#aed0b39a7f8f446707d66b94cb77367a3">[詳細]</a><br/></td></tr>
+<tr class="separator:aed0b39a7f8f446707d66b94cb77367a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a255e1fc4fd160f5708feab2ecb06efbe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a255e1fc4fd160f5708feab2ecb06efbe">InitShader</a> (<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadc">SHADER_MODE</a> mode, <a class="el" href="class_vertex_shader.html">VertexShader</a> &amp;vertex, <a class="el" href="class_fragment_shader.html">FragmentShader</a> &amp;frag)</td></tr>
+<tr class="separator:a255e1fc4fd160f5708feab2ecb06efbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17a900eaf7a72954846266d4df8d2b95"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a17a900eaf7a72954846266d4df8d2b95">InitUniformBlock</a> ()</td></tr>
+<tr class="memdesc:a17a900eaf7a72954846266d4df8d2b95"><td class="mdescLeft">&#160;</td><td class="mdescRight">UniformBlockの初期化  <a href="#a17a900eaf7a72954846266d4df8d2b95">[詳細]</a><br/></td></tr>
+<tr class="separator:a17a900eaf7a72954846266d4df8d2b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3869c7fdcd9a42b17ac191c107378a09"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a3869c7fdcd9a42b17ac191c107378a09">InitContext</a> ()</td></tr>
+<tr class="memdesc:a3869c7fdcd9a42b17ac191c107378a09"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンテキストの初期化  <a href="#a3869c7fdcd9a42b17ac191c107378a09">[詳細]</a><br/></td></tr>
+<tr class="separator:a3869c7fdcd9a42b17ac191c107378a09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+取得・設定</h2></td></tr>
+<tr class="memitem:a32defc4f748fe5eb7a4308c3db42df95"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a32defc4f748fe5eb7a4308c3db42df95">getShaderProgram</a> (<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadc">SHADER_MODE</a> mode)</td></tr>
+<tr class="separator:a32defc4f748fe5eb7a4308c3db42df95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabca81f647e523957f15b482cff2290d"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#aabca81f647e523957f15b482cff2290d">getCurrentShaderPorgram</a> () const </td></tr>
+<tr class="memdesc:aabca81f647e523957f15b482cff2290d"><td class="mdescLeft">&#160;</td><td class="mdescRight">現在のシェーダプログラム取得  <a href="#aabca81f647e523957f15b482cff2290d">[詳細]</a><br/></td></tr>
+<tr class="separator:aabca81f647e523957f15b482cff2290d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f8646617eefd973104e9d7f8503b9da"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a4f8646617eefd973104e9d7f8503b9da">getPrevShaderProgram</a> () const </td></tr>
+<tr class="memdesc:a4f8646617eefd973104e9d7f8503b9da"><td class="mdescLeft">&#160;</td><td class="mdescRight">ひとつ前のシェーダプログラム取得  <a href="#a4f8646617eefd973104e9d7f8503b9da">[詳細]</a><br/></td></tr>
+<tr class="separator:a4f8646617eefd973104e9d7f8503b9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9879b7b3d77472b741cfd7ca16e2786e"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a9879b7b3d77472b741cfd7ca16e2786e">getMatrixBindingPoint</a> () const </td></tr>
+<tr class="memdesc:a9879b7b3d77472b741cfd7ca16e2786e"><td class="mdescLeft">&#160;</td><td class="mdescRight">マトリックスのバインドポイントを取得  <a href="#a9879b7b3d77472b741cfd7ca16e2786e">[詳細]</a><br/></td></tr>
+<tr class="separator:a9879b7b3d77472b741cfd7ca16e2786e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58a2d3194490ad69c0f224486f4aaf0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_normal_context.html">NormalContext</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a58a2d3194490ad69c0f224486f4aaf0f">getContextNormal</a> () const </td></tr>
+<tr class="memdesc:a58a2d3194490ad69c0f224486f4aaf0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">通常描画のコンテキスト取得  <a href="#a58a2d3194490ad69c0f224486f4aaf0f">[詳細]</a><br/></td></tr>
+<tr class="separator:a58a2d3194490ad69c0f224486f4aaf0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76d9559d2535b16fb39a30e076316c95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_shadow_context.html">ShadowContext</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a76d9559d2535b16fb39a30e076316c95">getContextShadow</a> () const </td></tr>
+<tr class="memdesc:a76d9559d2535b16fb39a30e076316c95"><td class="mdescLeft">&#160;</td><td class="mdescRight">シャドウのコンテキスト取得  <a href="#a76d9559d2535b16fb39a30e076316c95">[詳細]</a><br/></td></tr>
+<tr class="separator:a76d9559d2535b16fb39a30e076316c95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2baad65e8d14d4f8abf37d379ade1811"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a2baad65e8d14d4f8abf37d379ade1811">getNullTexHandle</a> () const </td></tr>
+<tr class="memdesc:a2baad65e8d14d4f8abf37d379ade1811"><td class="mdescLeft">&#160;</td><td class="mdescRight">ヌルテクスチャのハンドル取得(ディフューズ)  <a href="#a2baad65e8d14d4f8abf37d379ade1811">[詳細]</a><br/></td></tr>
+<tr class="separator:a2baad65e8d14d4f8abf37d379ade1811"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7720c1ee3d0a42916c4cd8cc0c134595"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a7720c1ee3d0a42916c4cd8cc0c134595">getNullSpecHandle</a> () const </td></tr>
+<tr class="memdesc:a7720c1ee3d0a42916c4cd8cc0c134595"><td class="mdescLeft">&#160;</td><td class="mdescRight">ヌルテクスチャのハンドル取得(スペキュラ)  <a href="#a7720c1ee3d0a42916c4cd8cc0c134595">[詳細]</a><br/></td></tr>
+<tr class="separator:a7720c1ee3d0a42916c4cd8cc0c134595"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3186e606725b75621569097d7eb98e97"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a3186e606725b75621569097d7eb98e97">getNullNormHandle</a> () const </td></tr>
+<tr class="memdesc:a3186e606725b75621569097d7eb98e97"><td class="mdescLeft">&#160;</td><td class="mdescRight">ヌルテクスチャのハンドル取得(ノーマル)  <a href="#a3186e606725b75621569097d7eb98e97">[詳細]</a><br/></td></tr>
+<tr class="separator:a3186e606725b75621569097d7eb98e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecd361cbc02217f28ab4f7aec3237a7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#aecd361cbc02217f28ab4f7aec3237a7e">setPass</a> (<a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadc">SHADER_MODE</a> mode)</td></tr>
+<tr class="separator:aecd361cbc02217f28ab4f7aec3237a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeae5ebbd2a6b76e0eb4e5080bef9a62a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#aeae5ebbd2a6b76e0eb4e5080bef9a62a">setUniformMatrixBuffer</a> (<a class="el" href="struct_matrix.html">Matrix</a> *data, GLsizei dataSize)</td></tr>
+<tr class="separator:aeae5ebbd2a6b76e0eb4e5080bef9a62a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acea2dde0d213162c0751d21610a44324"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#acea2dde0d213162c0751d21610a44324">setUniform1f</a> (const GLchar *name, GLfloat data)</td></tr>
+<tr class="separator:acea2dde0d213162c0751d21610a44324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12a65b0c6cb609fe142beb191e33ba11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a12a65b0c6cb609fe142beb191e33ba11">setUniform1fv</a> (const GLchar *name, GLfloat *data, GLsizei count=1)</td></tr>
+<tr class="separator:a12a65b0c6cb609fe142beb191e33ba11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7a2449c42316cd7e4ea7ab0b5ab50e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#ae7a2449c42316cd7e4ea7ab0b5ab50e1">setUniform2fv</a> (const GLchar *name, GLfloat *data, GLsizei count=1)</td></tr>
+<tr class="separator:ae7a2449c42316cd7e4ea7ab0b5ab50e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bee7e4c39517e5be8d2b6cd86e4710f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a4bee7e4c39517e5be8d2b6cd86e4710f">setUniform3fv</a> (const GLchar *name, GLfloat *data, GLsizei count=1)</td></tr>
+<tr class="separator:a4bee7e4c39517e5be8d2b6cd86e4710f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2cdb854c1a3d0a4bdd36c1f63f46328"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#ae2cdb854c1a3d0a4bdd36c1f63f46328">setUniform4fv</a> (const GLchar *name, GLfloat *data, GLsizei count=1)</td></tr>
+<tr class="separator:ae2cdb854c1a3d0a4bdd36c1f63f46328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3decc3511b257f098f0015418aad004"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#aa3decc3511b257f098f0015418aad004">setMatrix4x4</a> (const GLchar *name, GLuint dataCount, GLboolean transpose, GLfloat *data)</td></tr>
+<tr class="separator:aa3decc3511b257f098f0015418aad004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2697a6ff2827c002adb81a11326af679"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a2697a6ff2827c002adb81a11326af679">bindTexture</a> (const GLchar *name, GLuint texHandle, GLuint texNum, GLenum target=GL_TEXTURE_2D)</td></tr>
+<tr class="separator:a2697a6ff2827c002adb81a11326af679"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7eb9daee4bbddca16d7a31af768c95d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#af7eb9daee4bbddca16d7a31af768c95d">unbindTexture</a> (GLenum target=GL_TEXTURE_2D)</td></tr>
+<tr class="separator:af7eb9daee4bbddca16d7a31af768c95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d787761b8a64472f4d9072df5953bec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a3d787761b8a64472f4d9072df5953bec">setVertex1fv</a> (const GLchar *name, GLfloat *data)</td></tr>
+<tr class="separator:a3d787761b8a64472f4d9072df5953bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ea36350ddd39afacf4069b768cf0371"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a2ea36350ddd39afacf4069b768cf0371">setVertex2fv</a> (const GLchar *name, GLfloat *data)</td></tr>
+<tr class="separator:a2ea36350ddd39afacf4069b768cf0371"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46c70906648da8a29ac78be14eb204d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a46c70906648da8a29ac78be14eb204d7">setVertex4fv</a> (const GLchar *name, GLfloat *data)</td></tr>
+<tr class="separator:a46c70906648da8a29ac78be14eb204d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0105fea32ae724e429873904e0b1fc26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a0105fea32ae724e429873904e0b1fc26">setVertex3fv</a> (const GLchar *name, GLfloat *data)</td></tr>
+<tr class="separator:a0105fea32ae724e429873904e0b1fc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac11b83ff6e59d9df8afa434adb62946d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#ac11b83ff6e59d9df8afa434adb62946d">setAndEnableVertexAttribute</a> (const GLchar *name, GLint size, GLenum type, GLsizei stride, GLvoid *offset)</td></tr>
+<tr class="separator:ac11b83ff6e59d9df8afa434adb62946d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29c429df8678be9783db0581af2012cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a29c429df8678be9783db0581af2012cc">setAndEnableVertexAttributeWithHandle</a> (GLint handle, GLint size, GLenum type, GLsizei stride, GLvoid *offset)</td></tr>
+<tr class="separator:a29c429df8678be9783db0581af2012cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c78de0df5293f6efc97b3864586e8e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a8c78de0df5293f6efc97b3864586e8e0">DisableVertexAttribute</a> (const GLchar *name)</td></tr>
+<tr class="separator:a8c78de0df5293f6efc97b3864586e8e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a587776218d3a12ebea3c471f96457702"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a587776218d3a12ebea3c471f96457702">DisableVertexAttributeWithHandle</a> (GLint handle)</td></tr>
+<tr class="separator:a587776218d3a12ebea3c471f96457702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b77b00e328c66f06bfe74284ae14daf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_system_shader.html">SystemShader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_shader.html#a7b77b00e328c66f06bfe74284ae14daf">getInstance</a> ()</td></tr>
+<tr class="memdesc:a7b77b00e328c66f06bfe74284ae14daf"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンスの取得  <a href="#a7b77b00e328c66f06bfe74284ae14daf">[詳細]</a><br/></td></tr>
+<tr class="separator:a7b77b00e328c66f06bfe74284ae14daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">説明</h2>
+<div class="textblock"><p>シェーダ管理 </p>
+</div><h2 class="groupheader">列挙型</h2>
+<a class="anchor" id="a045af48fcf9fd181b1504389a204cadc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadc">SystemShader::SHADER_MODE</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>シェーダの種類 </p>
+<table class="fieldtable">
+<tr><th colspan="2">列挙型の値</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadca63c1ca1e8b189e57a0588b70785fc860"></a>SHADER_STANDARD</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadca74a8ec24615e429b6663ad2f5db5b95b"></a>SHADER_COLOR</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadcad4c9a15c9fe56663a6d8ab42b1bea9bd"></a>SHADER_NORMAL</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadcacb7eeae7f61ee30d58c4c185a14c767d"></a>SHADER_TEXTURE</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadcac3c6d3e668d181a9ebf76af2020c9a99"></a>SHADER_SHADOW</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadca02ed4120c9c17fa09d50a866e9e66863"></a>SHADER_DEBUG</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadca2052f9a773f7296bc28898202ce8cc0f"></a>SHADER_DRAWCUBEMAP</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadca3a384d818db1f2c42f9561876545ae57"></a>SHADER_FILTER</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadca08e3c74bdfc2091694cc376ec7b0afc5"></a>SHADER_GAUSSIAN_3X3_H</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadca3eec80232999063374b69efaac5f59a8"></a>SHADER_GAUSSIAN_3X3_V</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadcaeee6234b029a4040cfd3b3cddbfb9297"></a>SHADER_SUBTRACT</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadca6788c004d743e26e80b3ffdc86fa22a9"></a>SHADER_BLOOM_GLARE</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadcac2e368b9d1107ff8ba37f8825a3b30fb"></a>SHADER_GET_LUMINANCE</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadca5e1419be1164eac5747d3a5cbc33653f"></a>SHADER_LUMINANCE_REDUCTION</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadcafefbd0fec8ab4a6f24c4fd32abdabaed"></a>SHADER_LIGHT_ADAPTATION</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadcada5ad620338d7ba6f3a8d2005f024d89"></a>SHADER_TONEMAPPING_FINAL</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadca6ef7fca0a2a2a55a0a67fa79c815ba30"></a>SHADER_GLARE</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadcae1c77da53eada8977895ffb0b87fd30d"></a>SHADER_MOTION_BLUR</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadca9a74594bdccf35dae0445e3042094b0b"></a>SHADER_PUT_TEXTURE</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadcae71b186b78af351a9b4a3df4f6cc29cd"></a>SHADER_RENDER_2D</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadcaf0e330f88b831c3f1cfdf7b52552155a"></a>SHADER_LENS_FLARE</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadca95dec4252b81eb9e781a247e8ae98185"></a>SHADER_LENS_DIRT_STAR</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadcaa3a02ca217f89e34796dfb3146ca79c4"></a>SHADER_MAX</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a045af48fcf9fd181b1504389a204cadca66b6e861bf8ac44b2c6a916c7a4f9cd2"></a>SHADER_NONE</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">関数</h2>
+<a class="anchor" id="ad5a53617462aafb8803d894774f13902"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::beginPrevShader </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ひとつ前のシェーダの開始 </p>
+
+</div>
+</div>
+<a class="anchor" id="ae2269d60eb4ac0e157aaa2fc6cd3e613"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::beginShader </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>シェーダの開始 </p>
+<p>シェーダプログラムの適用 </p>
+
+</div>
+</div>
+<a class="anchor" id="a2697a6ff2827c002adb81a11326af679"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::bindTexture </td>
+          <td>(</td>
+          <td class="paramtype">const GLchar *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLuint&#160;</td>
+          <td class="paramname"><em>texHandle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLuint&#160;</td>
+          <td class="paramname"><em>texNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLenum&#160;</td>
+          <td class="paramname"><em>target</em> = <code>GL_TEXTURE_2D</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>テクスチャ設定 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>変数名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">texHandle</td><td>テクスチャのハンドル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">texNum</td><td>有効化するテクスチャの番号(GL_TEXTURE0←なら0) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa363680d950da41541e41823310a4a82"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::changeShader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadc">SHADER_MODE</a>&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>シェーダプログラム変更 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>シェーダモード </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aed0b39a7f8f446707d66b94cb77367a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::cleanup </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>解放 </p>
+
+</div>
+</div>
+<a class="anchor" id="a8c78de0df5293f6efc97b3864586e8e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::DisableVertexAttribute </td>
+          <td>(</td>
+          <td class="paramtype">const GLchar *&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>設定を無効にする </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>変数名 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a587776218d3a12ebea3c471f96457702"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::DisableVertexAttributeWithHandle </td>
+          <td>(</td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>handle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>設定を無効にする(ハンドルで) </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>変数名 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aacafa83c1f764897a12c47cc547d1a61"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::endShader </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>シェーダの終了 </p>
+<p>シェーダプログラムの適用 </p>
+
+</div>
+</div>
+<a class="anchor" id="a58a2d3194490ad69c0f224486f4aaf0f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_normal_context.html">NormalContext</a> SystemShader::getContextNormal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>通常描画のコンテキスト取得 </p>
+
+</div>
+</div>
+<a class="anchor" id="a76d9559d2535b16fb39a30e076316c95"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_shadow_context.html">ShadowContext</a> SystemShader::getContextShadow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>シャドウのコンテキスト取得 </p>
+
+</div>
+</div>
+<a class="anchor" id="aabca81f647e523957f15b482cff2290d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint SystemShader::getCurrentShaderPorgram </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>現在のシェーダプログラム取得 </p>
+
+</div>
+</div>
+<a class="anchor" id="a7b77b00e328c66f06bfe74284ae14daf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_system_shader.html">SystemShader</a>* SystemShader::getInstance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>インスタンスの取得 </p>
+
+</div>
+</div>
+<a class="anchor" id="a9879b7b3d77472b741cfd7ca16e2786e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint SystemShader::getMatrixBindingPoint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>マトリックスのバインドポイントを取得 </p>
+
+</div>
+</div>
+<a class="anchor" id="a3186e606725b75621569097d7eb98e97"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint SystemShader::getNullNormHandle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ヌルテクスチャのハンドル取得(ノーマル) </p>
+
+</div>
+</div>
+<a class="anchor" id="a7720c1ee3d0a42916c4cd8cc0c134595"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint SystemShader::getNullSpecHandle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ヌルテクスチャのハンドル取得(スペキュラ) </p>
+
+</div>
+</div>
+<a class="anchor" id="a2baad65e8d14d4f8abf37d379ade1811"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint SystemShader::getNullTexHandle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ヌルテクスチャのハンドル取得(ディフューズ) </p>
+
+</div>
+</div>
+<a class="anchor" id="a4f8646617eefd973104e9d7f8503b9da"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint SystemShader::getPrevShaderProgram </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ひとつ前のシェーダプログラム取得 </p>
+
+</div>
+</div>
+<a class="anchor" id="a32defc4f748fe5eb7a4308c3db42df95"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint SystemShader::getShaderProgram </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadc">SHADER_MODE</a>&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>シェーダプログラムの取得 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>シェーダモード </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab47028c54e8e1b56ab31eacc5f1da8d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SystemShader::init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初期化 </p>
+<p>GLSLの初期化 </p>
+
+</div>
+</div>
+<a class="anchor" id="a3869c7fdcd9a42b17ac191c107378a09"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SystemShader::InitContext </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>コンテキストの初期化 </p>
+
+</div>
+</div>
+<a class="anchor" id="a255e1fc4fd160f5708feab2ecb06efbe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SystemShader::InitShader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadc">SHADER_MODE</a>&#160;</td>
+          <td class="paramname"><em>mode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_vertex_shader.html">VertexShader</a> &amp;&#160;</td>
+          <td class="paramname"><em>vertex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_fragment_shader.html">FragmentShader</a> &amp;&#160;</td>
+          <td class="paramname"><em>frag</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>シェーダプログラムの初期化 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>シェーダのモード </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">vertex</td><td>バーテックスシェーダ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">vertex</td><td>フラグメントシェーダ</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>シェーダプログラムの初期化 シェーダプログラムの初期化 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>シェーダのモード </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">vertex</td><td>バーテックスシェーダ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">vertex</td><td>フラグメントシェーダ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a17a900eaf7a72954846266d4df8d2b95"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SystemShader::InitUniformBlock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>UniformBlockの初期化 </p>
+
+</div>
+</div>
+<a class="anchor" id="ac11b83ff6e59d9df8afa434adb62946d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::setAndEnableVertexAttribute </td>
+          <td>(</td>
+          <td class="paramtype">const GLchar *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLenum&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLsizei&#160;</td>
+          <td class="paramname"><em>stride</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLvoid *&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>バーテックス変数を設定し有効にする </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>変数名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>データひとつ分の個数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>データタイプ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>データひとつごとのスライド量 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>データの開始位置 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a29c429df8678be9783db0581af2012cc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::setAndEnableVertexAttributeWithHandle </td>
+          <td>(</td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>handle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLenum&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLsizei&#160;</td>
+          <td class="paramname"><em>stride</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLvoid *&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>バーテックス変数を設定し有効にする(ハンドルで) </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">handle</td><td>変数のハンドル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>データひとつ分の個数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>データタイプ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>データひとつごとのスライド量 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>データの開始位置 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa3decc3511b257f098f0015418aad004"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::setMatrix4x4 </td>
+          <td>(</td>
+          <td class="paramtype">const GLchar *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLuint&#160;</td>
+          <td class="paramname"><em>dataCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLboolean&#160;</td>
+          <td class="paramname"><em>transpose</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLfloat *&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>行列を設定 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>変数名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dataCount</td><td>行列の数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">transpose</td><td>転置するかどうか </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>データ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aecd361cbc02217f28ab4f7aec3237a7e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::setPass </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_system_shader.html#a045af48fcf9fd181b1504389a204cadc">SHADER_MODE</a>&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>シェーダの種類設定 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>シェーダモード </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="acea2dde0d213162c0751d21610a44324"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::setUniform1f </td>
+          <td>(</td>
+          <td class="paramtype">const GLchar *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLfloat&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Floatのユニフォーム変数を設定 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>変数名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>データ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a12a65b0c6cb609fe142beb191e33ba11"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::setUniform1fv </td>
+          <td>(</td>
+          <td class="paramtype">const GLchar *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLfloat *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLsizei&#160;</td>
+          <td class="paramname"><em>count</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Floatのユニフォーム変数を設定 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>変数名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>データ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae7a2449c42316cd7e4ea7ab0b5ab50e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::setUniform2fv </td>
+          <td>(</td>
+          <td class="paramtype">const GLchar *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLfloat *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLsizei&#160;</td>
+          <td class="paramname"><em>count</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Float2のユニフォーム変数を設定 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>変数名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>データ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>データの個数 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4bee7e4c39517e5be8d2b6cd86e4710f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::setUniform3fv </td>
+          <td>(</td>
+          <td class="paramtype">const GLchar *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLfloat *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLsizei&#160;</td>
+          <td class="paramname"><em>count</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Float3のユニフォーム変数を設定 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>変数名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>データ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>データの個数 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae2cdb854c1a3d0a4bdd36c1f63f46328"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::setUniform4fv </td>
+          <td>(</td>
+          <td class="paramtype">const GLchar *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLfloat *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLsizei&#160;</td>
+          <td class="paramname"><em>count</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Float4のユニフォーム変数を設定 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>変数名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>データ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>データの個数 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aeae5ebbd2a6b76e0eb4e5080bef9a62a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::setUniformMatrixBuffer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_matrix.html">Matrix</a> *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLsizei&#160;</td>
+          <td class="paramname"><em>dataSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>マトリックスデータを転送 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>行列データ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dataSize</td><td>データサイズ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a3d787761b8a64472f4d9072df5953bec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::setVertex1fv </td>
+          <td>(</td>
+          <td class="paramtype">const GLchar *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLfloat *&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>バーテックス変数を設定する(1fv) </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>変数名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>データ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a2ea36350ddd39afacf4069b768cf0371"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::setVertex2fv </td>
+          <td>(</td>
+          <td class="paramtype">const GLchar *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLfloat *&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>バーテックス変数を設定する(2fv) </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>変数名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>データ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a0105fea32ae724e429873904e0b1fc26"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::setVertex3fv </td>
+          <td>(</td>
+          <td class="paramtype">const GLchar *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLfloat *&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>バーテックス変数を設定する(3fv) </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>変数名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>データ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a46c70906648da8a29ac78be14eb204d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::setVertex4fv </td>
+          <td>(</td>
+          <td class="paramtype">const GLchar *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLfloat *&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>バーテックス変数を設定する(4fv) </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>変数名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>データ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af7eb9daee4bbddca16d7a31af768c95d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemShader::unbindTexture </td>
+          <td>(</td>
+          <td class="paramtype">GLenum&#160;</td>
+          <td class="paramname"><em>target</em> = <code>GL_TEXTURE_2D</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>テクスチャ設定解除 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">target</td><td>アンバインドするターゲット </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>このクラスの説明は次のファイルから生成されました:<ul>
+<li>D:/OCA/OCA_BackUp/OpenGL/WithGameEngineProj/GameWithLibrary/GameEngine/src/<a class="el" href="gm_system_shader_8h_source.html">gmSystemShader.h</a></li>
+<li>D:/OCA/OCA_BackUp/OpenGL/WithGameEngineProj/GameWithLibrary/GameEngine/src/<a class="el" href="gm_system_shader_8cpp.html">gmSystemShader.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_system_shader.html">SystemShader</a></li>
+    <li class="footer">CastleCrashに対してSun Jul 20 2014 17:25:19に生成されました。
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

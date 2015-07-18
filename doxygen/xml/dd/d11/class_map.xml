@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dd/d11/class_map" kind="class" prot="public">
+    <compoundname>Map</compoundname>
+    <basecompoundref refid="dc/d24/class_obj_base" prot="public" virt="non-virtual">ObjBase</basecompoundref>
+    <includes refid="d3/d63/_map_8h" local="no">Map.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="dd/d11/class_map_1a9bef20a674f52ee4013d7d81429ab5d2" prot="protected" static="no" mutable="no">
+        <type><ref refid="d0/de3/class_model" kindref="compound">Model</ref> *</type>
+        <definition>Model* Map::_groundModel</definition>
+        <argsstring></argsstring>
+        <name>_groundModel</name>
+        <briefdescription>
+<para>地面用 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.h" line="34" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d11/class_map_1a0abc1c10ba71a6b98e6a8edaf89f45f0" prot="protected" static="no" mutable="no">
+        <type><ref refid="df/dfd/class_castle" kindref="compound">Castle</ref> *</type>
+        <definition>Castle* Map::_castle</definition>
+        <argsstring></argsstring>
+        <name>_castle</name>
+        <briefdescription>
+<para>城クラス </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.h" line="36" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d11/class_map_1a0f5ad0fd4563497b4214038cbca8b582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Map::Map</definition>
+        <argsstring>()</argsstring>
+        <name>Map</name>
+        <briefdescription>
+<para>コンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.h" line="19" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.cpp" bodystart="14" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d11/class_map_1aa403fbe09394ccf39747588f5168e3b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Map::~Map</definition>
+        <argsstring>()</argsstring>
+        <name>~Map</name>
+        <briefdescription>
+<para>デストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.h" line="22" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.cpp" bodystart="34" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d11/class_map_1a7e3e81c662125913e1b29fe0a257c7de" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Map::Initalize</definition>
+        <argsstring>()</argsstring>
+        <name>Initalize</name>
+        <briefdescription>
+<para>初期化 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.h" line="24" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.cpp" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d11/class_map_1a61efe2e1ec3f41d90bcbf826893404f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Map::Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <reimplements refid="dc/d24/class_obj_base_1a83992aba2dcaf6d3548dd17618b4b0b9">Update</reimplements>
+        <briefdescription>
+<para>更新 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.h" line="26" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.cpp" bodystart="56" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d11/class_map_1a211a219e3ba75b378e5bca7a40df82c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Map::Render</definition>
+        <argsstring>()</argsstring>
+        <name>Render</name>
+        <reimplements refid="dc/d24/class_obj_base_1aecde185a045789498626dbfc104950ef">Render</reimplements>
+        <briefdescription>
+<para>描画 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.h" line="28" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.cpp" bodystart="64" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d11/class_map_1a607b2188cbb804109dab92b23a3fffd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="df/dfd/class_castle" kindref="compound">Castle</ref> *</type>
+        <definition>Castle* Map::getCastle</definition>
+        <argsstring>()</argsstring>
+        <name>getCastle</name>
+        <briefdescription>
+<para>城インスタンスを取得 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.h" line="31" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="291">
+        <label>IObj</label>
+        <link refid="da/d94/class_i_obj"/>
+      </node>
+      <node id="289">
+        <label>Map</label>
+        <link refid="dd/d11/class_map"/>
+        <childnode refid="290" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="292">
+        <label>CollisionObject</label>
+        <link refid="d3/d62/class_collision_object"/>
+      </node>
+      <node id="290">
+        <label>ObjBase</label>
+        <link refid="dc/d24/class_obj_base"/>
+        <childnode refid="291" relation="public-inheritance">
+        </childnode>
+        <childnode refid="292" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="302">
+        <label>Status</label>
+        <link refid="df/df2/struct_status"/>
+        <childnode refid="303" relation="usage">
+          <edgelabel>_GaugeBoard</edgelabel>
+        </childnode>
+      </node>
+      <node id="295">
+        <label>IObj</label>
+        <link refid="da/d94/class_i_obj"/>
+      </node>
+      <node id="293">
+        <label>Map</label>
+        <link refid="dd/d11/class_map"/>
+        <childnode refid="294" relation="public-inheritance">
+        </childnode>
+        <childnode refid="299" relation="usage">
+          <edgelabel>_groundModel</edgelabel>
+        </childnode>
+        <childnode refid="300" relation="usage">
+          <edgelabel>_castle</edgelabel>
+        </childnode>
+      </node>
+      <node id="300">
+        <label>Castle</label>
+        <link refid="df/dfd/class_castle"/>
+        <childnode refid="299" relation="usage">
+          <edgelabel>_castle</edgelabel>
+        </childnode>
+        <childnode refid="301" relation="usage">
+          <edgelabel>_myWall</edgelabel>
+        </childnode>
+      </node>
+      <node id="296">
+        <label>CollisionObject</label>
+        <link refid="d3/d62/class_collision_object"/>
+        <childnode refid="297" relation="usage">
+          <edgelabel>_hitSphere</edgelabel>
+        </childnode>
+      </node>
+      <node id="301">
+        <label>CastleWall</label>
+        <link refid="d5/d6f/class_castle_wall"/>
+        <childnode refid="296" relation="public-inheritance">
+        </childnode>
+        <childnode refid="299" relation="usage">
+          <edgelabel>_castleWall</edgelabel>
+        </childnode>
+        <childnode refid="298" relation="usage">
+          <edgelabel>_drawPosition</edgelabel>
+          <edgelabel>_position</edgelabel>
+          <edgelabel>_OffsetPosition</edgelabel>
+        </childnode>
+        <childnode refid="302" relation="usage">
+          <edgelabel>_myStatus</edgelabel>
+        </childnode>
+      </node>
+      <node id="294">
+        <label>ObjBase</label>
+        <link refid="dc/d24/class_obj_base"/>
+        <childnode refid="295" relation="public-inheritance">
+        </childnode>
+        <childnode refid="296" relation="public-inheritance">
+        </childnode>
+        <childnode refid="298" relation="usage">
+          <edgelabel>_rotation</edgelabel>
+          <edgelabel>_mov</edgelabel>
+          <edgelabel>_position</edgelabel>
+          <edgelabel>_hitPosition</edgelabel>
+        </childnode>
+      </node>
+      <node id="303">
+        <label>BillBoard</label>
+        <link refid="dd/d4c/class_bill_board"/>
+      </node>
+      <node id="297">
+        <label>Sphere</label>
+        <link refid="db/da7/struct_sphere"/>
+      </node>
+      <node id="299">
+        <label>Model</label>
+        <link refid="d0/de3/class_model"/>
+      </node>
+      <node id="298">
+        <label>Vector3</label>
+        <link refid="d0/de3/struct_vector3"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.h" line="16" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.h" bodystart="15" bodyend="37"/>
+    <listofallmembers>
+      <member refid="dd/d11/class_map_1a0abc1c10ba71a6b98e6a8edaf89f45f0" prot="protected" virt="non-virtual"><scope>Map</scope><name>_castle</name></member>
+      <member refid="dd/d11/class_map_1a9bef20a674f52ee4013d7d81429ab5d2" prot="protected" virt="non-virtual"><scope>Map</scope><name>_groundModel</name></member>
+      <member refid="dc/d24/class_obj_base_1a6758eebc53b693f76fc11f0a8eb436be" prot="protected" virt="non-virtual"><scope>Map</scope><name>_hitPosition</name></member>
+      <member refid="dc/d24/class_obj_base_1a0144260d49b5e7d12522c3f71bf2414c" prot="protected" virt="non-virtual"><scope>Map</scope><name>_hitRadius</name></member>
+      <member refid="d3/d62/class_collision_object_1afd1c8612ad380f08cf3f2a5bf4b3daab" prot="protected" virt="non-virtual"><scope>Map</scope><name>_hitSphere</name></member>
+      <member refid="dc/d24/class_obj_base_1a510356ecd15d213ac818b836f9b25cca" prot="protected" virt="non-virtual"><scope>Map</scope><name>_mov</name></member>
+      <member refid="dc/d24/class_obj_base_1a686e86c74461bf6cea312434796a57ce" prot="protected" virt="non-virtual"><scope>Map</scope><name>_position</name></member>
+      <member refid="dc/d24/class_obj_base_1a6f8144cf79c29670f6697833c021dd06" prot="protected" virt="non-virtual"><scope>Map</scope><name>_radius</name></member>
+      <member refid="dc/d24/class_obj_base_1a7f5b5aa7c370afcc110a6bf571f45375" prot="protected" virt="non-virtual"><scope>Map</scope><name>_rotation</name></member>
+      <member refid="d3/d62/class_collision_object_1ac9677c53a2edb172dca4703e759379bf" prot="public" virt="non-virtual"><scope>Map</scope><name>CollisionObject</name></member>
+      <member refid="d3/d62/class_collision_object_1ab2891150c91ae9267f846449ebe3c709" prot="public" virt="non-virtual"><scope>Map</scope><name>CollisionObject</name></member>
+      <member refid="dd/d11/class_map_1a607b2188cbb804109dab92b23a3fffd1" prot="public" virt="non-virtual"><scope>Map</scope><name>getCastle</name></member>
+      <member refid="dc/d24/class_obj_base_1aadebcb51462e8afc1313a70d1b9e7876" prot="public" virt="non-virtual"><scope>Map</scope><name>getHitPosition</name></member>
+      <member refid="dc/d24/class_obj_base_1ae804330778801e616d570a556c2d80ed" prot="public" virt="non-virtual"><scope>Map</scope><name>getHitRadius</name></member>
+      <member refid="d3/d62/class_collision_object_1afba2c3a210f9c209e37f1d1b902e23b8" prot="public" virt="non-virtual"><scope>Map</scope><name>getHitSphere</name></member>
+      <member refid="dc/d24/class_obj_base_1a14f5da5ba7748f44aec4e398a143c8cd" prot="public" virt="non-virtual"><scope>Map</scope><name>getMov</name></member>
+      <member refid="dc/d24/class_obj_base_1aaf39427e88188735373b4ac1cc0f30b3" prot="public" virt="non-virtual"><scope>Map</scope><name>getPosition</name></member>
+      <member refid="dc/d24/class_obj_base_1ae92b3cfdad5e400686aab1c24c916921" prot="public" virt="non-virtual"><scope>Map</scope><name>getRadius</name></member>
+      <member refid="dc/d24/class_obj_base_1ad24f6c206c4b736eae5476b50f23f377" prot="public" virt="non-virtual"><scope>Map</scope><name>getRotation</name></member>
+      <member refid="dd/d11/class_map_1a7e3e81c662125913e1b29fe0a257c7de" prot="public" virt="virtual"><scope>Map</scope><name>Initalize</name></member>
+      <member refid="dc/d24/class_obj_base_1a278846a0c6381ecefdfb0798472b7b8c" prot="public" virt="virtual"><scope>Map</scope><name>Initialize</name></member>
+      <member refid="d3/d62/class_collision_object_1a2574ee166a554985f4ea60ddd57f27db" prot="public" virt="non-virtual"><scope>Map</scope><name>isHitObj</name></member>
+      <member refid="d3/d62/class_collision_object_1ab006cfd3dc853eda7729a7b7e07a1d25" prot="public" virt="non-virtual"><scope>Map</scope><name>isHitSphere</name></member>
+      <member refid="dd/d11/class_map_1a0f5ad0fd4563497b4214038cbca8b582" prot="public" virt="non-virtual"><scope>Map</scope><name>Map</name></member>
+      <member refid="dc/d24/class_obj_base_1ab7a2f2e63f2ef5c735faad622399d4dc" prot="public" virt="non-virtual"><scope>Map</scope><name>ObjBase</name></member>
+      <member refid="dd/d11/class_map_1a211a219e3ba75b378e5bca7a40df82c6" prot="public" virt="virtual"><scope>Map</scope><name>Render</name></member>
+      <member refid="d3/d62/class_collision_object_1a8a9ad3b2608c2737c2bc69a2b2791094" prot="public" virt="non-virtual"><scope>Map</scope><name>setSphereParam</name></member>
+      <member refid="dd/d11/class_map_1a61efe2e1ec3f41d90bcbf826893404f1" prot="public" virt="virtual"><scope>Map</scope><name>Update</name></member>
+      <member refid="dd/d11/class_map_1aa403fbe09394ccf39747588f5168e3b2" prot="public" virt="virtual"><scope>Map</scope><name>~Map</name></member>
+      <member refid="dc/d24/class_obj_base_1a54ccb5455d3deacd3d342b09f7965bbc" prot="public" virt="virtual"><scope>Map</scope><name>~ObjBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

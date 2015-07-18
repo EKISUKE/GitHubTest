@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d0/d9c/struct_face" kind="struct" prot="public">
+    <compoundname>Face</compoundname>
+    <includes refid="da/ded/_model_8h" local="no">Model.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d0/d9c/struct_face_1ae66e1226046adc0fbeaa6db936646a65" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>s32 Face::_vertexCount</definition>
+        <argsstring></argsstring>
+        <name>_vertexCount</name>
+        <briefdescription>
+<para>頂点数 3:<ref refid="d4/d34/struct_xE4_xB8_x89_xE8_xA7_x92_xE5_xBD_xA2" kindref="compound">三角形</ref> 4:四角形 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" line="113" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d9c/struct_face_1aceddde235971938cc165b5f7c9440b99" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>s32 Face::_vertexIndex[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>_vertexIndex</name>
+        <briefdescription>
+<para>頂点インデックス番号(最大4頂点分) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" line="114" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d9c/struct_face_1ac67b514483b1fed58ab7d2fc04da56a4" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 Face::_u[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>_u</name>
+        <briefdescription>
+<para>テクスチャ座標 U </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" line="115" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d9c/struct_face_1a16c195e7ec3ead4c46eb17fd9bb6bf75" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 Face::_v[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>_v</name>
+        <briefdescription>
+<para>テクスチャ座標 V </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" line="116" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d9c/struct_face_1aa8ce2f4fdf76dcab7a3dbed87ad3fbb1" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>s32 Face::_material</definition>
+        <argsstring></argsstring>
+        <name>_material</name>
+        <briefdescription>
+<para>マテリアル番号(-1:NONE 0〜:マテリアル番号) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" line="118" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" line="112" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" bodystart="111" bodyend="120"/>
+    <listofallmembers>
+      <member refid="d0/d9c/struct_face_1aa8ce2f4fdf76dcab7a3dbed87ad3fbb1" prot="public" virt="non-virtual"><scope>Face</scope><name>_material</name></member>
+      <member refid="d0/d9c/struct_face_1ac67b514483b1fed58ab7d2fc04da56a4" prot="public" virt="non-virtual"><scope>Face</scope><name>_u</name></member>
+      <member refid="d0/d9c/struct_face_1a16c195e7ec3ead4c46eb17fd9bb6bf75" prot="public" virt="non-virtual"><scope>Face</scope><name>_v</name></member>
+      <member refid="d0/d9c/struct_face_1ae66e1226046adc0fbeaa6db936646a65" prot="public" virt="non-virtual"><scope>Face</scope><name>_vertexCount</name></member>
+      <member refid="d0/d9c/struct_face_1aceddde235971938cc165b5f7c9440b99" prot="public" virt="non-virtual"><scope>Face</scope><name>_vertexIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

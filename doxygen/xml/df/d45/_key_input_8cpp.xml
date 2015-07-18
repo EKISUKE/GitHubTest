@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="df/d45/_key_input_8cpp" kind="file">
+    <compoundname>KeyInput.cpp</compoundname>
+    <includes refid="db/dfc/_library_8h" local="yes">Library.h</includes>
+    <incdepgraph>
+      <node id="2566">
+        <label>list</label>
+      </node>
+      <node id="2616">
+        <label>SceneGame.h</label>
+        <link refid="dc/d83/_scene_game_8h"/>
+      </node>
+      <node id="2576">
+        <label>Color.h</label>
+        <link refid="d9/df8/_color_8h"/>
+      </node>
+      <node id="2575">
+        <label>Matrix.h</label>
+        <link refid="d0/d45/_matrix_8h"/>
+      </node>
+      <node id="2594">
+        <label>Status.h</label>
+        <link refid="d3/ddd/_status_8h"/>
+      </node>
+      <node id="2556">
+        <label>windows.h</label>
+      </node>
+      <node id="2596">
+        <label>Key.h</label>
+        <link refid="d7/dfc/_key_8h"/>
+      </node>
+      <node id="2613">
+        <label>AllyDeffender.h</label>
+        <link refid="de/d4d/_ally_deffender_8h"/>
+      </node>
+      <node id="2573">
+        <label>GLFont.h</label>
+        <link refid="dc/db4/_g_l_font_8h"/>
+      </node>
+      <node id="2611">
+        <label>Ally.h</label>
+        <link refid="d0/d06/_ally_8h"/>
+      </node>
+      <node id="2563">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2614">
+        <label>AllyHealer.h</label>
+        <link refid="d6/dbe/_ally_healer_8h"/>
+      </node>
+      <node id="2595">
+        <label>IObj.h</label>
+        <link refid="dd/d39/_i_obj_8h"/>
+      </node>
+      <node id="2604">
+        <label>CameraManager.h</label>
+        <link refid="db/d24/_camera_manager_8h"/>
+      </node>
+      <node id="2603">
+        <label>Camera.h</label>
+        <link refid="d5/d91/_camera_8h"/>
+      </node>
+      <node id="2597">
+        <label>KeyAttacker.h</label>
+        <link refid="d9/d42/_key_attacker_8h"/>
+      </node>
+      <node id="2593">
+        <label>CollisionManager.h</label>
+        <link refid="d7/d3e/_collision_manager_8h"/>
+      </node>
+      <node id="2581">
+        <label>fmod.h</label>
+      </node>
+      <node id="2600">
+        <label>KeyInput.h</label>
+        <link refid="df/d48/_key_input_8h"/>
+      </node>
+      <node id="2592">
+        <label>LandScape.h</label>
+        <link refid="d5/d53/_land_scape_8h"/>
+      </node>
+      <node id="2564">
+        <label>string</label>
+      </node>
+      <node id="2568">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="2574">
+        <label>Vector.h</label>
+        <link refid="d4/d7f/_vector_8h"/>
+      </node>
+      <node id="2590">
+        <label>Collision.h</label>
+        <link refid="d9/d87/_collision_8h"/>
+      </node>
+      <node id="2577">
+        <label>System.h</label>
+        <link refid="df/d78/_system_8h"/>
+      </node>
+      <node id="2572">
+        <label>Singleton.h</label>
+        <link refid="de/dec/_singleton_8h"/>
+      </node>
+      <node id="2555">
+        <label>Main.h</label>
+        <link refid="d0/d55/_main_8h"/>
+        <childnode refid="2556" relation="include">
+        </childnode>
+        <childnode refid="2557" relation="include">
+        </childnode>
+        <childnode refid="2558" relation="include">
+        </childnode>
+        <childnode refid="2559" relation="include">
+        </childnode>
+        <childnode refid="2560" relation="include">
+        </childnode>
+        <childnode refid="2561" relation="include">
+        </childnode>
+        <childnode refid="2562" relation="include">
+        </childnode>
+        <childnode refid="2563" relation="include">
+        </childnode>
+        <childnode refid="2564" relation="include">
+        </childnode>
+        <childnode refid="2565" relation="include">
+        </childnode>
+        <childnode refid="2566" relation="include">
+        </childnode>
+        <childnode refid="2567" relation="include">
+        </childnode>
+        <childnode refid="2568" relation="include">
+        </childnode>
+        <childnode refid="2569" relation="include">
+        </childnode>
+        <childnode refid="2570" relation="include">
+        </childnode>
+        <childnode refid="2571" relation="include">
+        </childnode>
+      </node>
+      <node id="2609">
+        <label>Player.h</label>
+        <link refid="d1/d39/_player_8h"/>
+      </node>
+      <node id="2570">
+        <label>GL/freeglut.h</label>
+      </node>
+      <node id="2569">
+        <label>GL/wglew.h</label>
+      </node>
+      <node id="2587">
+        <label>BillBoard.h</label>
+        <link refid="d1/d37/_bill_board_8h"/>
+      </node>
+      <node id="2586">
+        <label>Effect.h</label>
+        <link refid="dd/d44/_effect_8h"/>
+      </node>
+      <node id="2558">
+        <label>gdiplus.h</label>
+      </node>
+      <node id="2567">
+        <label>ctime</label>
+      </node>
+      <node id="2565">
+        <label>vector</label>
+      </node>
+      <node id="2553">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyInput.cpp</label>
+        <link refid="KeyInput.cpp"/>
+        <childnode refid="2554" relation="include">
+        </childnode>
+      </node>
+      <node id="2582">
+        <label>Controller.h</label>
+        <link refid="d2/d94/_controller_8h"/>
+      </node>
+      <node id="2560">
+        <label>sstream</label>
+      </node>
+      <node id="2605">
+        <label>Map.h</label>
+        <link refid="d3/d63/_map_8h"/>
+      </node>
+      <node id="2615">
+        <label>SceneTitle.h</label>
+        <link refid="d6/d5f/_scene_title_8h"/>
+      </node>
+      <node id="2571">
+        <label>Xinput.h</label>
+      </node>
+      <node id="2608">
+        <label>SquadManager.h</label>
+        <link refid="da/d9b/_squad_manager_8h"/>
+      </node>
+      <node id="2561">
+        <label>math.h</label>
+      </node>
+      <node id="2584">
+        <label>Texture.h</label>
+        <link refid="de/dbf/_texture_8h"/>
+      </node>
+      <node id="2580">
+        <label>fmod.hpp</label>
+      </node>
+      <node id="2579">
+        <label>SoundPlayer.h</label>
+        <link refid="dc/d02/_sound_player_8h"/>
+        <childnode refid="2580" relation="include">
+        </childnode>
+        <childnode refid="2581" relation="include">
+        </childnode>
+      </node>
+      <node id="2554">
+        <label>Library.h</label>
+        <link refid="db/dfc/_library_8h"/>
+        <childnode refid="2555" relation="include">
+        </childnode>
+        <childnode refid="2572" relation="include">
+        </childnode>
+        <childnode refid="2573" relation="include">
+        </childnode>
+        <childnode refid="2574" relation="include">
+        </childnode>
+        <childnode refid="2575" relation="include">
+        </childnode>
+        <childnode refid="2576" relation="include">
+        </childnode>
+        <childnode refid="2577" relation="include">
+        </childnode>
+        <childnode refid="2578" relation="include">
+        </childnode>
+        <childnode refid="2579" relation="include">
+        </childnode>
+        <childnode refid="2582" relation="include">
+        </childnode>
+        <childnode refid="2583" relation="include">
+        </childnode>
+        <childnode refid="2584" relation="include">
+        </childnode>
+        <childnode refid="2585" relation="include">
+        </childnode>
+        <childnode refid="2586" relation="include">
+        </childnode>
+        <childnode refid="2587" relation="include">
+        </childnode>
+        <childnode refid="2588" relation="include">
+        </childnode>
+        <childnode refid="2589" relation="include">
+        </childnode>
+        <childnode refid="2590" relation="include">
+        </childnode>
+        <childnode refid="2591" relation="include">
+        </childnode>
+        <childnode refid="2592" relation="include">
+        </childnode>
+        <childnode refid="2593" relation="include">
+        </childnode>
+        <childnode refid="2594" relation="include">
+        </childnode>
+        <childnode refid="2595" relation="include">
+        </childnode>
+        <childnode refid="2596" relation="include">
+        </childnode>
+        <childnode refid="2597" relation="include">
+        </childnode>
+        <childnode refid="2598" relation="include">
+        </childnode>
+        <childnode refid="2599" relation="include">
+        </childnode>
+        <childnode refid="2600" relation="include">
+        </childnode>
+        <childnode refid="2601" relation="include">
+        </childnode>
+        <childnode refid="2602" relation="include">
+        </childnode>
+        <childnode refid="2603" relation="include">
+        </childnode>
+        <childnode refid="2604" relation="include">
+        </childnode>
+        <childnode refid="2605" relation="include">
+        </childnode>
+        <childnode refid="2606" relation="include">
+        </childnode>
+        <childnode refid="2607" relation="include">
+        </childnode>
+        <childnode refid="2608" relation="include">
+        </childnode>
+        <childnode refid="2609" relation="include">
+        </childnode>
+        <childnode refid="2610" relation="include">
+        </childnode>
+        <childnode refid="2611" relation="include">
+        </childnode>
+        <childnode refid="2612" relation="include">
+        </childnode>
+        <childnode refid="2613" relation="include">
+        </childnode>
+        <childnode refid="2614" relation="include">
+        </childnode>
+        <childnode refid="2615" relation="include">
+        </childnode>
+        <childnode refid="2616" relation="include">
+        </childnode>
+      </node>
+      <node id="2607">
+        <label>Squad.h</label>
+        <link refid="db/d9e/_squad_8h"/>
+      </node>
+      <node id="2559">
+        <label>iostream</label>
+      </node>
+      <node id="2589">
+        <label>Geometry.h</label>
+        <link refid="d1/d4e/_geometry_8h"/>
+      </node>
+      <node id="2578">
+        <label>Timer.h</label>
+        <link refid="d5/d29/_timer_8h"/>
+      </node>
+      <node id="2591">
+        <label>CollisionWall.h</label>
+        <link refid="df/d58/_collision_wall_8h"/>
+      </node>
+      <node id="2557">
+        <label>mmsystem.h</label>
+      </node>
+      <node id="2606">
+        <label>Man.h</label>
+        <link refid="d3/da6/_man_8h"/>
+      </node>
+      <node id="2583">
+        <label>Mouse.h</label>
+        <link refid="d2/de3/_mouse_8h"/>
+      </node>
+      <node id="2612">
+        <label>AllyAttacker.h</label>
+        <link refid="d9/d97/_ally_attacker_8h"/>
+      </node>
+      <node id="2610">
+        <label>Enemy.h</label>
+        <link refid="d4/d1e/_enemy_8h"/>
+      </node>
+      <node id="2598">
+        <label>KeyDeffender.h</label>
+        <link refid="d1/d11/_key_deffender_8h"/>
+      </node>
+      <node id="2601">
+        <label>ObjBase.h</label>
+        <link refid="d3/d3e/_obj_base_8h"/>
+      </node>
+      <node id="2588">
+        <label>SystemShader.h</label>
+        <link refid="dd/d98/_system_shader_8h"/>
+      </node>
+      <node id="2585">
+        <label>Model.h</label>
+        <link refid="da/ded/_model_8h"/>
+      </node>
+      <node id="2562">
+        <label>stdio.h</label>
+      </node>
+      <node id="2602">
+        <label>CameraBase.h</label>
+        <link refid="db/db8/_camera_base_8h"/>
+      </node>
+      <node id="2599">
+        <label>KeyHealer.h</label>
+        <link refid="db/d50/_key_healer_8h"/>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+<para>キー操作 </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>YukiIshigaki </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include&quot;<ref refid="db/dfc/_library_8h" kindref="compound">Library.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>プレイヤー操作</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><ref refid="da/dd6/class_key_input_1aa7ac8bcccc4fd44cc831c77930d4c31d" kindref="member">KeyInput::KeyInput</ref>()</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">:<ref refid="d8/d87/class_controller" kindref="compound">Controller</ref>(1)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1ae1164cb4054102ae260eb5dede5c2b48" kindref="member">_keyType</ref><sp/>=<sp/><ref refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095ad92d619929c06fa294c7a49e0df70a13" kindref="member">KEY_TYPE_INPUT</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/dd6/class_key_input_1a58c96a548a58d392336ef4b890470929" kindref="member">KeyInput::Update</ref>()</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>KnockSize;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>スティック情報の更新</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a6fea5a402d1fa892a14b9ba08ee7f84e" kindref="member">_movVector</ref><sp/><sp/><sp/>=<sp/><ref refid="d8/d87/class_controller_1ab6334185106b21110b4a9d47a2ad659e" kindref="member">Controller::getStickState</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>KnockSize);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a774649bfb09128dcbe4617c11c448e25" kindref="member">_stickVector</ref><sp/>=<sp/><ref refid="dd/d2e/class_key_base_1a6fea5a402d1fa892a14b9ba08ee7f84e" kindref="member">_movVector</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/><sp/><sp/><sp/><sp/>stickRot<sp/>=<sp/><ref refid="d8/de5/_system_8cpp_1a32cbba7683ec3c5a8c25e5a7396ccf15" kindref="member">TO_DEGREE</ref>(atan2f(<ref refid="dd/d2e/class_key_base_1a6fea5a402d1fa892a14b9ba08ee7f84e" kindref="member">_movVector</ref>.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref>,<sp/><ref refid="dd/d2e/class_key_base_1a6fea5a402d1fa892a14b9ba08ee7f84e" kindref="member">_movVector</ref>.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref>)<sp/>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>abs(stickRot)<sp/>&gt;<sp/>0.0f<sp/>){</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(<sp/>stickRot<sp/>&gt;=<sp/><sp/>180.0f<sp/>)<sp/><sp/>stickRot<sp/>-=<sp/>360.0f;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(<sp/>stickRot<sp/>&lt;=<sp/>-180.0f<sp/>)<sp/><sp/>stickRot<sp/>+=<sp/>360.0f;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>カメラコントローラーのシングルトンで呼び出す</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d75/class_camera_base" kindref="compound">CameraBase</ref>*<sp/>cam<sp/>=<sp/><ref refid="db/d24/_camera_manager_8h_1ae599580d14733582aa84a591557b25c4" kindref="member">ICameraManager</ref>()-&gt;<ref refid="d2/d23/class_camera_manager_1ad1ad88e38d71fe78dc063bee3d14f8e0" kindref="member">getCurrentCamera</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>カメラの角度取得</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/><sp/><sp/><sp/><sp/>camRot<sp/><sp/><sp/>=<sp/>cam-&gt;<ref refid="dd/d75/class_camera_base_1aa70dad729d671a46231c2d18d41a06ab" kindref="member">getRotation</ref>().<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>カメラから見た_movVectorの進むべき角度</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/><sp/><sp/><sp/><sp/>Rot<sp/>=<sp/><ref refid="d8/de5/_system_8cpp_1a266360ae47bdbc184ec9986ba9409c0b" kindref="member">TO_RADIAN</ref>(stickRot<sp/>-<sp/>camRot);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a6fea5a402d1fa892a14b9ba08ee7f84e" kindref="member">_movVector</ref>.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>=<sp/>KnockSize<sp/>*<sp/>sinf(Rot);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a6fea5a402d1fa892a14b9ba08ee7f84e" kindref="member">_movVector</ref>.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>=<sp/>KnockSize<sp/>*<sp/>cosf(Rot);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>一旦falseにする</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1aa7ad9b3d6eb875fbf57d44b23cdef80a" kindref="member">setCommandFlag</ref>(<ref refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fadda545a53e15cba9c4530ad2ee6f2d3d" kindref="member">KEY_COMMAND_ATTACK</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1aa7ad9b3d6eb875fbf57d44b23cdef80a" kindref="member">setCommandFlag</ref>(<ref refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa314b03fd1202b9a7c601ecd2305b3403" kindref="member">KEY_COMMAND_JUMP</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1aa7ad9b3d6eb875fbf57d44b23cdef80a" kindref="member">setCommandFlag</ref>(<ref refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa1db21e7286a02df319da11ca37456c15" kindref="member">KEY_COMMAND_COMMANDCHANGE</ref>,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ボタン入力に応じてコマンド状態切替</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="d8/d87/class_controller_1a6ae2692ddfad643a5d185fe59ff1210c" kindref="member">GetPushState</ref>(<ref refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a690d62981ffb566ee636d7f8ff727b58" kindref="member">PAD_X</ref>)<sp/><sp/>)<sp/><sp/>{<sp/><ref refid="dd/d2e/class_key_base_1aa7ad9b3d6eb875fbf57d44b23cdef80a" kindref="member">setCommandFlag</ref>(<ref refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fadda545a53e15cba9c4530ad2ee6f2d3d" kindref="member">KEY_COMMAND_ATTACK</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);<sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="d8/d87/class_controller_1af2947dbd362fb0932f88cefe13fb5ac1" kindref="member">GetPadState</ref><sp/>(<ref refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a80207e5338d8fb48449042b1bb9d3891" kindref="member">PAD_A</ref>)<sp/><sp/>)<sp/><sp/>{<sp/><ref refid="dd/d2e/class_key_base_1aa7ad9b3d6eb875fbf57d44b23cdef80a" kindref="member">setCommandFlag</ref>(<ref refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa314b03fd1202b9a7c601ecd2305b3403" kindref="member">KEY_COMMAND_JUMP</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);<sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="d8/d87/class_controller_1af2947dbd362fb0932f88cefe13fb5ac1" kindref="member">GetPadState</ref><sp/>(<ref refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a70be6c79db96e2a056ea3e821bcfc865" kindref="member">PAD_RT</ref>)<sp/>)<sp/><sp/>{<sp/><ref refid="dd/d2e/class_key_base_1aa7ad9b3d6eb875fbf57d44b23cdef80a" kindref="member">setCommandFlag</ref>(<ref refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa1db21e7286a02df319da11ca37456c15" kindref="member">KEY_COMMAND_COMMANDCHANGE</ref>,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);<sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>END<sp/>OF<sp/>FILE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight></codeline>
+    </programlisting>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyInput.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,45 @@
+\hypertarget{_geometry_8h}{\section{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Geometry.h}
+\label{_geometry_8h}\index{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Geometry.\-h@{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Geometry.\-h}}
+}
+
+
+物体  
+
+
+\subsection*{構成}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_plane}{Plane}
+\item 
+struct \hyperlink{struct_triangle}{Triangle}
+\item 
+struct \hyperlink{struct_line}{Line}
+\item 
+struct \hyperlink{struct_ray}{Ray}
+\item 
+struct \hyperlink{struct_line_segment}{Line\-Segment}
+\item 
+struct \hyperlink{struct_sphere}{Sphere}
+\item 
+struct \hyperlink{struct_circle}{Circle}
+\end{DoxyCompactItemize}
+\subsection*{ネームスペース}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacecollision}{collision}
+\end{DoxyCompactItemize}
+\subsection*{関数}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacecollision_ad9fbb73486f863e0bea46797d1de961a}{collision\-::check\-Hit\-Pos} (const \hyperlink{struct_triangle}{Triangle} \&triangle, const \hyperlink{struct_line}{Line} \&line, \hyperlink{struct_vector3}{Vector3} $\ast$p\-Hit\-Position, \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} $\ast$p\-T, \hyperlink{struct_vector3}{Vector3} $\ast$p\-Hit\-Normal)
+\item 
+bool \hyperlink{namespacecollision_a534dafd512534a0cf85cb0744f586d0e}{collision\-::is\-Hit} (const \hyperlink{struct_triangle}{Triangle} \&triangle, const \hyperlink{struct_line}{Line} \&line, \hyperlink{struct_vector3}{Vector3} $\ast$p\-Hit\-Position, \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} $\ast$p\-T, \hyperlink{struct_vector3}{Vector3} $\ast$p\-Hit\-Normal)
+\item 
+bool \hyperlink{namespacecollision_af17052aa5bca8ab9db7e4602e1185352}{collision\-::is\-Hit} (const \hyperlink{struct_plane}{Plane} \&plane, const \hyperlink{struct_line}{Line} \&line, \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} $\ast$p\-T)
+\end{DoxyCompactItemize}
+
+
+\subsection{説明}
+物体 \begin{DoxyAuthor}{作者}
+Yuki\-Ishigaki 
+\end{DoxyAuthor}

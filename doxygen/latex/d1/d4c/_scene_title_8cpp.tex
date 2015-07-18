@@ -1,0 +1,75 @@
+\hypertarget{_scene_title_8cpp}{\section{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Scene\-Title.cpp}
+\label{_scene_title_8cpp}\index{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Scene\-Title.\-cpp@{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Scene\-Title.\-cpp}}
+}
+
+
+タイトル画面  
+
+
+{\ttfamily \#include \char`\"{}Library.\-h\char`\"{}}\\*
+\subsection*{変数}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{_scene_title_8cpp_af564fad7bc318e6010fa21e677b54ed0}{is\-Select} \mbox{[}I\-T\-E\-M\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X\mbox{]}
+\begin{DoxyCompactList}\small\item\em 項目が選択されてるかどうか \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{_scene_title_8cpp_a569cc1fdf51a3a24a228a962f91c7263}{Title\-Item\-Pos\-List} \mbox{[}I\-T\-E\-M\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X\mbox{]}
+\begin{DoxyCompactList}\small\item\em タイトルの項目のポジションリスト \end{DoxyCompactList}\item 
+char $\ast$ \hyperlink{_scene_title_8cpp_a688f7e5f39113191b56d0aa4838d7922}{Title\-Item\-String} \mbox{[}I\-T\-E\-M\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X\mbox{]}
+\begin{DoxyCompactList}\small\item\em タイトル項目 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{説明}
+タイトル画面 \begin{DoxyAuthor}{作者}
+Yuki\-Ishigaki 
+\end{DoxyAuthor}
+
+
+\subsection{変数}
+\hypertarget{_scene_title_8cpp_af564fad7bc318e6010fa21e677b54ed0}{\index{Scene\-Title.\-cpp@{Scene\-Title.\-cpp}!is\-Select@{is\-Select}}
+\index{is\-Select@{is\-Select}!SceneTitle.cpp@{Scene\-Title.\-cpp}}
+\subsubsection[{is\-Select}]{\setlength{\rightskip}{0pt plus 5cm}bool is\-Select\mbox{[}I\-T\-E\-M\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X\mbox{]}}}\label{_scene_title_8cpp_af564fad7bc318e6010fa21e677b54ed0}
+{\bfseries 初期値\-:}
+\begin{DoxyCode}
+= \{
+    \textcolor{keyword}{false},
+    \textcolor{keyword}{false},
+    \textcolor{keyword}{false},
+    \textcolor{keyword}{false},
+\}
+\end{DoxyCode}
+
+
+項目が選択されてるかどうか 
+
+\hypertarget{_scene_title_8cpp_a569cc1fdf51a3a24a228a962f91c7263}{\index{Scene\-Title.\-cpp@{Scene\-Title.\-cpp}!Title\-Item\-Pos\-List@{Title\-Item\-Pos\-List}}
+\index{Title\-Item\-Pos\-List@{Title\-Item\-Pos\-List}!SceneTitle.cpp@{Scene\-Title.\-cpp}}
+\subsubsection[{Title\-Item\-Pos\-List}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Title\-Item\-Pos\-List\mbox{[}I\-T\-E\-M\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X\mbox{]}}}\label{_scene_title_8cpp_a569cc1fdf51a3a24a228a962f91c7263}
+{\bfseries 初期値\-:}
+\begin{DoxyCode}
+= \{
+    \hyperlink{struct_vector3}{Vector3}(50.0f,250.0f,0.0f),
+    \hyperlink{struct_vector3}{Vector3}(50.0f,400.0f,0.0f),
+    \hyperlink{struct_vector3}{Vector3}(50.0f,550.0f,0.0f),
+    \hyperlink{struct_vector3}{Vector3}(50.0f,700.0f,0.0f),
+\}
+\end{DoxyCode}
+
+
+タイトルの項目のポジションリスト 
+
+\hypertarget{_scene_title_8cpp_a688f7e5f39113191b56d0aa4838d7922}{\index{Scene\-Title.\-cpp@{Scene\-Title.\-cpp}!Title\-Item\-String@{Title\-Item\-String}}
+\index{Title\-Item\-String@{Title\-Item\-String}!SceneTitle.cpp@{Scene\-Title.\-cpp}}
+\subsubsection[{Title\-Item\-String}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ Title\-Item\-String\mbox{[}I\-T\-E\-M\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X\mbox{]}}}\label{_scene_title_8cpp_a688f7e5f39113191b56d0aa4838d7922}
+{\bfseries 初期値\-:}
+\begin{DoxyCode}
+= \{
+    \textcolor{stringliteral}{"NEWGAME"},
+    \textcolor{stringliteral}{"CONTINUE"},
+    \textcolor{stringliteral}{"OPTION"},
+    \textcolor{stringliteral}{"EXIT"},
+\}
+\end{DoxyCode}
+
+
+タイトル項目 
+

@@ -1,0 +1,178 @@
+\hypertarget{class_key_healer}{\section{クラス Key\-Healer}
+\label{class_key_healer}\index{Key\-Healer@{Key\-Healer}}
+}
+
+
+{\ttfamily \#include $<$Key\-Healer.\-h$>$}
+
+Key\-Healerに対する継承グラフ\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{d6/def/class_key_healer}
+\end{center}
+\end{figure}
+\subsection*{Public 型}
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0}{M\-O\-D\-E} \{ \\*
+\hyperlink{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0a836e15803ee0af6791c07ddb8c5b7e80}{M\-O\-D\-E\-\_\-\-S\-E\-A\-R\-C\-H}, 
+\hyperlink{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0a1927bb6a17416f47b286fb6c942727e9}{M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H}, 
+\hyperlink{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0ae9c2b238756ce70f4a844b692d8d72e4}{M\-O\-D\-E\-\_\-\-H\-E\-A\-L}, 
+\hyperlink{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0a7e1bb63e07904c68a514b68f4cd86520}{M\-O\-D\-E\-\_\-\-D\-E\-B\-U\-F}, 
+\\*
+\hyperlink{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0a0cbc15d72278acde3e526496fee60c9f}{M\-O\-D\-E\-\_\-\-M\-A\-X}
+ \}
+\begin{DoxyCompactList}\small\item\em 行動状態 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+\subsection*{Public メソッド}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_key_healer_a3be7db98421440b89f945a95e4066b24}{Key\-Healer} ()
+\begin{DoxyCompactList}\small\item\em デフォルトコンストラクタ \end{DoxyCompactList}\item 
+virtual \hyperlink{class_key_healer_a02a89cba9b8d2bfa507b99e521a50e6a}{$\sim$\-Key\-Healer} ()
+\begin{DoxyCompactList}\small\item\em デストラクタ \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_key_healer_a4f38c5471c7529cc666ec3c1cd73f5d4}{Update} ()
+\begin{DoxyCompactList}\small\item\em 更新 \end{DoxyCompactList}\item 
+void \hyperlink{class_key_healer_aa45cde4f69049b17b47098aa2de962f9}{Debuf\-Magic} ()
+\begin{DoxyCompactList}\small\item\em デバフ魔法 \end{DoxyCompactList}\item 
+void \hyperlink{class_key_healer_a5e4b84535a991a26196174525962e1bc}{Heal} ()
+\begin{DoxyCompactList}\small\item\em 回復 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected 変数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{class_key_healer_a3160dc53c3204308a587966fac89a0f8}{\-\_\-search\-Reach}
+\begin{DoxyCompactList}\small\item\em 目標捜索範囲 \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{class_key_healer_af54b304d55b65e52fb65301d4e2ea1d7}{\-\_\-search\-Rot}
+\begin{DoxyCompactList}\small\item\em 探索方向 \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{class_key_healer_a878378921359fc40142e3a783d8225ff}{\-\_\-attack\-Reach}
+\begin{DoxyCompactList}\small\item\em 攻撃可能範囲 \end{DoxyCompactList}\item 
+\hyperlink{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0}{M\-O\-D\-E} \hyperlink{class_key_healer_adc6356b370bcde5739011c381d125503}{\-\_\-mode}
+\begin{DoxyCompactList}\small\item\em 行動状態用 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{列挙型}
+\hypertarget{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0}{\index{Key\-Healer@{Key\-Healer}!M\-O\-D\-E@{M\-O\-D\-E}}
+\index{M\-O\-D\-E@{M\-O\-D\-E}!KeyHealer@{Key\-Healer}}
+\subsubsection[{M\-O\-D\-E}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Key\-Healer\-::\-M\-O\-D\-E}}}\label{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0}
+
+
+行動状態 
+
+\begin{Desc}
+\item[列挙型の値]\par
+\begin{description}
+\index{M\-O\-D\-E\-\_\-\-S\-E\-A\-R\-C\-H@{M\-O\-D\-E\-\_\-\-S\-E\-A\-R\-C\-H}!Key\-Healer@{Key\-Healer}}\index{Key\-Healer@{Key\-Healer}!M\-O\-D\-E\-\_\-\-S\-E\-A\-R\-C\-H@{M\-O\-D\-E\-\_\-\-S\-E\-A\-R\-C\-H}}\item[{\em 
+\hypertarget{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0a836e15803ee0af6791c07ddb8c5b7e80}{M\-O\-D\-E\-\_\-\-S\-E\-A\-R\-C\-H}\label{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0a836e15803ee0af6791c07ddb8c5b7e80}
+}]目標捜索 \index{M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H@{M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H}!Key\-Healer@{Key\-Healer}}\index{Key\-Healer@{Key\-Healer}!M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H@{M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H}}\item[{\em 
+\hypertarget{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0a1927bb6a17416f47b286fb6c942727e9}{M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H}\label{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0a1927bb6a17416f47b286fb6c942727e9}
+}]目標に接近 \index{M\-O\-D\-E\-\_\-\-H\-E\-A\-L@{M\-O\-D\-E\-\_\-\-H\-E\-A\-L}!Key\-Healer@{Key\-Healer}}\index{Key\-Healer@{Key\-Healer}!M\-O\-D\-E\-\_\-\-H\-E\-A\-L@{M\-O\-D\-E\-\_\-\-H\-E\-A\-L}}\item[{\em 
+\hypertarget{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0ae9c2b238756ce70f4a844b692d8d72e4}{M\-O\-D\-E\-\_\-\-H\-E\-A\-L}\label{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0ae9c2b238756ce70f4a844b692d8d72e4}
+}]目標を回復 \index{M\-O\-D\-E\-\_\-\-D\-E\-B\-U\-F@{M\-O\-D\-E\-\_\-\-D\-E\-B\-U\-F}!Key\-Healer@{Key\-Healer}}\index{Key\-Healer@{Key\-Healer}!M\-O\-D\-E\-\_\-\-D\-E\-B\-U\-F@{M\-O\-D\-E\-\_\-\-D\-E\-B\-U\-F}}\item[{\em 
+\hypertarget{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0a7e1bb63e07904c68a514b68f4cd86520}{M\-O\-D\-E\-\_\-\-D\-E\-B\-U\-F}\label{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0a7e1bb63e07904c68a514b68f4cd86520}
+}]目標にデバフ \index{M\-O\-D\-E\-\_\-\-M\-A\-X@{M\-O\-D\-E\-\_\-\-M\-A\-X}!Key\-Healer@{Key\-Healer}}\index{Key\-Healer@{Key\-Healer}!M\-O\-D\-E\-\_\-\-M\-A\-X@{M\-O\-D\-E\-\_\-\-M\-A\-X}}\item[{\em 
+\hypertarget{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0a0cbc15d72278acde3e526496fee60c9f}{M\-O\-D\-E\-\_\-\-M\-A\-X}\label{class_key_healer_aefc9d3de1d5f7121b3584255e580c5f0a0cbc15d72278acde3e526496fee60c9f}
+}]状態遷移の最大 \end{description}
+\end{Desc}
+
+
+\subsection{コンストラクタとデストラクタ}
+\hypertarget{class_key_healer_a3be7db98421440b89f945a95e4066b24}{\index{Key\-Healer@{Key\-Healer}!Key\-Healer@{Key\-Healer}}
+\index{Key\-Healer@{Key\-Healer}!KeyHealer@{Key\-Healer}}
+\subsubsection[{Key\-Healer}]{\setlength{\rightskip}{0pt plus 5cm}Key\-Healer\-::\-Key\-Healer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_key_healer_a3be7db98421440b89f945a95e4066b24}
+
+
+デフォルトコンストラクタ 
+
+\hypertarget{class_key_healer_a02a89cba9b8d2bfa507b99e521a50e6a}{\index{Key\-Healer@{Key\-Healer}!$\sim$\-Key\-Healer@{$\sim$\-Key\-Healer}}
+\index{$\sim$\-Key\-Healer@{$\sim$\-Key\-Healer}!KeyHealer@{Key\-Healer}}
+\subsubsection[{$\sim$\-Key\-Healer}]{\setlength{\rightskip}{0pt plus 5cm}Key\-Healer\-::$\sim$\-Key\-Healer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_key_healer_a02a89cba9b8d2bfa507b99e521a50e6a}
+
+
+デストラクタ 
+
+
+
+\subsection{関数}
+\hypertarget{class_key_healer_aa45cde4f69049b17b47098aa2de962f9}{\index{Key\-Healer@{Key\-Healer}!Debuf\-Magic@{Debuf\-Magic}}
+\index{Debuf\-Magic@{Debuf\-Magic}!KeyHealer@{Key\-Healer}}
+\subsubsection[{Debuf\-Magic}]{\setlength{\rightskip}{0pt plus 5cm}void Key\-Healer\-::\-Debuf\-Magic (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_key_healer_aa45cde4f69049b17b47098aa2de962f9}
+
+
+デバフ魔法 
+
+\hypertarget{class_key_healer_a5e4b84535a991a26196174525962e1bc}{\index{Key\-Healer@{Key\-Healer}!Heal@{Heal}}
+\index{Heal@{Heal}!KeyHealer@{Key\-Healer}}
+\subsubsection[{Heal}]{\setlength{\rightskip}{0pt plus 5cm}void Key\-Healer\-::\-Heal (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_key_healer_a5e4b84535a991a26196174525962e1bc}
+
+
+回復 
+
+\hypertarget{class_key_healer_a4f38c5471c7529cc666ec3c1cd73f5d4}{\index{Key\-Healer@{Key\-Healer}!Update@{Update}}
+\index{Update@{Update}!KeyHealer@{Key\-Healer}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}void Key\-Healer\-::\-Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_key_healer_a4f38c5471c7529cc666ec3c1cd73f5d4}
+
+
+更新 
+
+
+
+\hyperlink{class_a_i_a59e5ab0650eb03f2e71bc8930fd9a8d5}{A\-I}を再定義しています。
+
+
+
+\subsection{変数}
+\hypertarget{class_key_healer_a878378921359fc40142e3a783d8225ff}{\index{Key\-Healer@{Key\-Healer}!\-\_\-attack\-Reach@{\-\_\-attack\-Reach}}
+\index{\-\_\-attack\-Reach@{\-\_\-attack\-Reach}!KeyHealer@{Key\-Healer}}
+\subsubsection[{\-\_\-attack\-Reach}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Key\-Healer\-::\-\_\-attack\-Reach\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_key_healer_a878378921359fc40142e3a783d8225ff}
+
+
+攻撃可能範囲 
+
+\hypertarget{class_key_healer_adc6356b370bcde5739011c381d125503}{\index{Key\-Healer@{Key\-Healer}!\-\_\-mode@{\-\_\-mode}}
+\index{\-\_\-mode@{\-\_\-mode}!KeyHealer@{Key\-Healer}}
+\subsubsection[{\-\_\-mode}]{\setlength{\rightskip}{0pt plus 5cm}{\bf M\-O\-D\-E} Key\-Healer\-::\-\_\-mode\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_key_healer_adc6356b370bcde5739011c381d125503}
+
+
+行動状態用 
+
+\hypertarget{class_key_healer_a3160dc53c3204308a587966fac89a0f8}{\index{Key\-Healer@{Key\-Healer}!\-\_\-search\-Reach@{\-\_\-search\-Reach}}
+\index{\-\_\-search\-Reach@{\-\_\-search\-Reach}!KeyHealer@{Key\-Healer}}
+\subsubsection[{\-\_\-search\-Reach}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Key\-Healer\-::\-\_\-search\-Reach\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_key_healer_a3160dc53c3204308a587966fac89a0f8}
+
+
+目標捜索範囲 
+
+\hypertarget{class_key_healer_af54b304d55b65e52fb65301d4e2ea1d7}{\index{Key\-Healer@{Key\-Healer}!\-\_\-search\-Rot@{\-\_\-search\-Rot}}
+\index{\-\_\-search\-Rot@{\-\_\-search\-Rot}!KeyHealer@{Key\-Healer}}
+\subsubsection[{\-\_\-search\-Rot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Key\-Healer\-::\-\_\-search\-Rot\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_key_healer_af54b304d55b65e52fb65301d4e2ea1d7}
+
+
+探索方向 
+
+
+
+このクラスの説明は次のファイルから生成されました\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_key_healer_8h}{Key\-Healer.\-h}\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_key_healer_8cpp}{Key\-Healer.\-cpp}\end{DoxyCompactItemize}

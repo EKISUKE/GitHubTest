@@ -1,0 +1,125 @@
+\hypertarget{_system_8cpp}{\section{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-System.cpp}
+\label{_system_8cpp}\index{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-System.\-cpp@{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-System.\-cpp}}
+}
+
+
+汎用的関数群  
+
+
+{\ttfamily \#include \char`\"{}Library.\-h\char`\"{}}\\*
+\subsection*{関数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{_system_8cpp_a266360ae47bdbc184ec9986ba9409c0b}{T\-O\-\_\-\-R\-A\-D\-I\-A\-N} (\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} deg)
+\begin{DoxyCompactList}\small\item\em ラジアンに変換 \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{_system_8cpp_a32cbba7683ec3c5a8c25e5a7396ccf15}{T\-O\-\_\-\-D\-E\-G\-R\-E\-E} (\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} rad)
+\begin{DoxyCompactList}\small\item\em デグリーに変換 \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{_system_8cpp_acaf4aa7f4af8905e6af8409d438cdbae}{Linear\-Interpolation} (\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} start, \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} end, \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} frame, \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} max\-Frame)
+\item 
+void \hyperlink{_system_8cpp_a277688499453031c044d4f913a9e4ebe}{set\-Blend\-Mode} (\hyperlink{_system_8h_aa034b11c7e1268e84fe133233afdf1c2}{B\-L\-E\-N\-D\-\_\-\-M\-O\-D\-E} mode)
+\item 
+float \hyperlink{_system_8cpp_a021fe70824954a3b66a929ac363988da}{get\-G\-L\-Fps} ()
+\begin{DoxyCompactList}\small\item\em F\-P\-S取得 \end{DoxyCompactList}\item 
+void \hyperlink{_system_8cpp_addf84914650715cdc37101f0cdbb62fd}{render\-\_\-string} (float x, float y, std\-::string const \&str)
+\begin{DoxyCompactList}\small\item\em 文字列表示 \end{DoxyCompactList}\item 
+void \hyperlink{_system_8cpp_a8490eaf01d7201b54121f8be681401e5}{Debug\-Point\-Render} (\hyperlink{struct_vector3}{Vector3} \&pos)
+\begin{DoxyCompactList}\small\item\em 点の描画 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{説明}
+汎用的関数群 \begin{DoxyAuthor}{作者}
+Yuki\-Ishigaki 
+\end{DoxyAuthor}
+
+
+\subsection{関数}
+\hypertarget{_system_8cpp_a8490eaf01d7201b54121f8be681401e5}{\index{System.\-cpp@{System.\-cpp}!Debug\-Point\-Render@{Debug\-Point\-Render}}
+\index{Debug\-Point\-Render@{Debug\-Point\-Render}!System.cpp@{System.\-cpp}}
+\subsubsection[{Debug\-Point\-Render}]{\setlength{\rightskip}{0pt plus 5cm}void Debug\-Point\-Render (
+\begin{DoxyParamCaption}
+\item[{{\bf Vector3} \&}]{pos}
+\end{DoxyParamCaption}
+)}}\label{_system_8cpp_a8490eaf01d7201b54121f8be681401e5}
+
+
+点の描画 
+
+\hypertarget{_system_8cpp_a021fe70824954a3b66a929ac363988da}{\index{System.\-cpp@{System.\-cpp}!get\-G\-L\-Fps@{get\-G\-L\-Fps}}
+\index{get\-G\-L\-Fps@{get\-G\-L\-Fps}!System.cpp@{System.\-cpp}}
+\subsubsection[{get\-G\-L\-Fps}]{\setlength{\rightskip}{0pt plus 5cm}float get\-G\-L\-Fps (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{_system_8cpp_a021fe70824954a3b66a929ac363988da}
+
+
+F\-P\-S取得 
+
+\hypertarget{_system_8cpp_acaf4aa7f4af8905e6af8409d438cdbae}{\index{System.\-cpp@{System.\-cpp}!Linear\-Interpolation@{Linear\-Interpolation}}
+\index{Linear\-Interpolation@{Linear\-Interpolation}!System.cpp@{System.\-cpp}}
+\subsubsection[{Linear\-Interpolation}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Linear\-Interpolation (
+\begin{DoxyParamCaption}
+\item[{{\bf f32}}]{start, }
+\item[{{\bf f32}}]{end, }
+\item[{{\bf f32}}]{frame, }
+\item[{{\bf f32}}]{max\-Frame}
+\end{DoxyParamCaption}
+)}}\label{_system_8cpp_acaf4aa7f4af8905e6af8409d438cdbae}
+線形補間(frameの値は\-Sから\-Eの間の値に収まる) P' = (E -\/ S) $\ast$ f / maxf + S 
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em start} & 最小値(始点) 上記の\-Sに当たる \\
+\hline
+\mbox{\tt in}  & {\em end} & 最大値(終点) 上記の\-Eに当たる \\
+\hline
+\mbox{\tt in}  & {\em frame} & 現在の値 上記のfに当たる \\
+\hline
+\mbox{\tt in}  & {\em max\-Frame} & 値の最大値 上記のmaxfに当たる \\
+\hline
+\end{DoxyParams}
+\hypertarget{_system_8cpp_addf84914650715cdc37101f0cdbb62fd}{\index{System.\-cpp@{System.\-cpp}!render\-\_\-string@{render\-\_\-string}}
+\index{render\-\_\-string@{render\-\_\-string}!System.cpp@{System.\-cpp}}
+\subsubsection[{render\-\_\-string}]{\setlength{\rightskip}{0pt plus 5cm}void render\-\_\-string (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y, }
+\item[{std\-::string const \&}]{str}
+\end{DoxyParamCaption}
+)}}\label{_system_8cpp_addf84914650715cdc37101f0cdbb62fd}
+
+
+文字列表示 
+
+\hypertarget{_system_8cpp_a277688499453031c044d4f913a9e4ebe}{\index{System.\-cpp@{System.\-cpp}!set\-Blend\-Mode@{set\-Blend\-Mode}}
+\index{set\-Blend\-Mode@{set\-Blend\-Mode}!System.cpp@{System.\-cpp}}
+\subsubsection[{set\-Blend\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}void set\-Blend\-Mode (
+\begin{DoxyParamCaption}
+\item[{{\bf B\-L\-E\-N\-D\-\_\-\-M\-O\-D\-E}}]{mode}
+\end{DoxyParamCaption}
+)}}\label{_system_8cpp_a277688499453031c044d4f913a9e4ebe}
+ブレンドモードを設定 
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em mode} & ブレンドモード \\
+\hline
+\end{DoxyParams}
+\hypertarget{_system_8cpp_a32cbba7683ec3c5a8c25e5a7396ccf15}{\index{System.\-cpp@{System.\-cpp}!T\-O\-\_\-\-D\-E\-G\-R\-E\-E@{T\-O\-\_\-\-D\-E\-G\-R\-E\-E}}
+\index{T\-O\-\_\-\-D\-E\-G\-R\-E\-E@{T\-O\-\_\-\-D\-E\-G\-R\-E\-E}!System.cpp@{System.\-cpp}}
+\subsubsection[{T\-O\-\_\-\-D\-E\-G\-R\-E\-E}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} T\-O\-\_\-\-D\-E\-G\-R\-E\-E (
+\begin{DoxyParamCaption}
+\item[{{\bf f32}}]{rad}
+\end{DoxyParamCaption}
+)}}\label{_system_8cpp_a32cbba7683ec3c5a8c25e5a7396ccf15}
+
+
+デグリーに変換 
+
+\hypertarget{_system_8cpp_a266360ae47bdbc184ec9986ba9409c0b}{\index{System.\-cpp@{System.\-cpp}!T\-O\-\_\-\-R\-A\-D\-I\-A\-N@{T\-O\-\_\-\-R\-A\-D\-I\-A\-N}}
+\index{T\-O\-\_\-\-R\-A\-D\-I\-A\-N@{T\-O\-\_\-\-R\-A\-D\-I\-A\-N}!System.cpp@{System.\-cpp}}
+\subsubsection[{T\-O\-\_\-\-R\-A\-D\-I\-A\-N}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} T\-O\-\_\-\-R\-A\-D\-I\-A\-N (
+\begin{DoxyParamCaption}
+\item[{{\bf f32}}]{deg}
+\end{DoxyParamCaption}
+)}}\label{_system_8cpp_a266360ae47bdbc184ec9986ba9409c0b}
+
+
+ラジアンに変換 
+

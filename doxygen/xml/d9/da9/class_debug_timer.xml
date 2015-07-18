@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d9/da9/class_debug_timer" kind="class" prot="public">
+    <compoundname>DebugTimer</compoundname>
+    <basecompoundref refid="da/d69/class_timer_base" prot="public" virt="non-virtual">TimerBase</basecompoundref>
+    <includes refid="d5/d29/_timer_8h" local="no">Timer.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/da9/class_debug_timer_1a91a33577979ff0dd28525fee0aa4d2c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DebugTimer::DebugTimer</definition>
+        <argsstring>()</argsstring>
+        <name>DebugTimer</name>
+        <briefdescription>
+<para>コンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="75" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/da9/class_debug_timer_1a0dd53853dc72d881ee84423fd73686cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual DebugTimer::~DebugTimer</definition>
+        <argsstring>()</argsstring>
+        <name>~DebugTimer</name>
+        <briefdescription>
+<para>デストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="77" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/da9/class_debug_timer_1a267c15495c630027b6226d5e67bef3f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DebugTimer::popTotalTime</definition>
+        <argsstring>()</argsstring>
+        <name>popTotalTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="79" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" bodystart="79" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="176">
+        <label>DebugTimer</label>
+        <link refid="d9/da9/class_debug_timer"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="177">
+        <label>TimerBase</label>
+        <link refid="da/d69/class_timer_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="178">
+        <label>DebugTimer</label>
+        <link refid="d9/da9/class_debug_timer"/>
+        <childnode refid="179" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>TimerBase</label>
+        <link refid="da/d69/class_timer_base"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="72" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" bodystart="71" bodyend="85"/>
+    <listofallmembers>
+      <member refid="da/d69/class_timer_base_1a06b9dbe519e22aa9ecf9e37637ea35b2" prot="protected" virt="non-virtual"><scope>DebugTimer</scope><name>_endTime</name></member>
+      <member refid="da/d69/class_timer_base_1a1c838e0a5acc12a808a472128f6281fd" prot="protected" virt="non-virtual"><scope>DebugTimer</scope><name>_Frequency</name></member>
+      <member refid="da/d69/class_timer_base_1ae8e31c0cc54cbe908508dbc165618fbc" prot="protected" virt="non-virtual"><scope>DebugTimer</scope><name>_startTime</name></member>
+      <member refid="da/d69/class_timer_base_1a3eaed58a0aa86c23b4dafb460b86d2bf" prot="protected" virt="non-virtual"><scope>DebugTimer</scope><name>_totalTime</name></member>
+      <member refid="d9/da9/class_debug_timer_1a91a33577979ff0dd28525fee0aa4d2c3" prot="public" virt="non-virtual"><scope>DebugTimer</scope><name>DebugTimer</name></member>
+      <member refid="da/d69/class_timer_base_1a951ca2c63371cf01e281348c78725fba" prot="public" virt="virtual"><scope>DebugTimer</scope><name>DrawTotalTime</name></member>
+      <member refid="da/d69/class_timer_base_1a6ea55cb2bd63da1edc94a1c9d6ac0918" prot="public" virt="virtual"><scope>DebugTimer</scope><name>EndTimer</name></member>
+      <member refid="d9/da9/class_debug_timer_1a267c15495c630027b6226d5e67bef3f4" prot="public" virt="non-virtual"><scope>DebugTimer</scope><name>popTotalTime</name></member>
+      <member refid="da/d69/class_timer_base_1aa47ffc6c90d8b28f87a25840ee982842" prot="public" virt="non-virtual"><scope>DebugTimer</scope><name>Reset</name></member>
+      <member refid="da/d69/class_timer_base_1a23620639c3e82b1f61ad204e4f9b9795" prot="public" virt="virtual"><scope>DebugTimer</scope><name>StartTimer</name></member>
+      <member refid="da/d69/class_timer_base_1a720d9300e0c765eb60dadcaaee4bf5ed" prot="public" virt="non-virtual"><scope>DebugTimer</scope><name>TimerBase</name></member>
+      <member refid="d9/da9/class_debug_timer_1a0dd53853dc72d881ee84423fd73686cd" prot="public" virt="virtual"><scope>DebugTimer</scope><name>~DebugTimer</name></member>
+      <member refid="da/d69/class_timer_base_1a966a6bb60939db382b264ed497d6e3ba" prot="public" virt="virtual"><scope>DebugTimer</scope><name>~TimerBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

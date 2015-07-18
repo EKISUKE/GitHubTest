@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>myGame: E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h ソースファイル</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">myGame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>メインページ</span></a></li>
+      <li><a href="../../namespaces.html"><span>ネームスペース</span></a></li>
+      <li><a href="../../annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="../../files.html"><span>ファイル</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="../../globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Collision.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d9/d87/_collision_8h.html">説明を見る。</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../df/dc6/class_collision.html">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../df/dc6/class_collision.html">Collision</a></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"></span>    </div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../df/dc6/class_collision.html#aea8004fbf48b79b5db7b784688b23788">   24</a></span>&#160;    <a class="code" href="../../df/dc6/class_collision.html#aea8004fbf48b79b5db7b784688b23788">Collision</a>(){}</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="../../df/dc6/class_collision.html#aea8004fbf48b79b5db7b784688b23788">Collision</a>(<a class="code" href="../../db/da7/struct_sphere.html">Sphere</a>* hitSphere, <span class="keywordtype">char</span>* name);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">virtual</span>     <a class="code" href="../../df/dc6/class_collision.html#a19ae49bcb3b16f4622443a34a171590c">~Collision</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="comment">//Collision*        isHit(s32 index = 0);</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="comment">//void          setHitObj(Collision* col, s32 index);</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span>                <a class="code" href="../../df/dc6/class_collision.html#a5cd49ea00086ec5d80fd1de138bd37bc">setHitObj</a>(<a class="code" href="../../df/dc6/class_collision.html">Collision</a>* col);</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../df/dc6/class_collision.html#ab0af0476de0cf02a3e5396ec4bcee1fc">   42</a></span>&#160;    <span class="keywordtype">void</span>                <a class="code" href="../../df/dc6/class_collision.html#ab0af0476de0cf02a3e5396ec4bcee1fc">clearHitObj</a>() { _hitObj.clear(); }</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span>                <a class="code" href="../../df/dc6/class_collision.html#afdb744ad8ba9ca0a69d54a24df6e3cb9">setCollisionState</a>(<a class="code" href="../../db/da7/struct_sphere.html">Sphere</a>* sphere, <span class="keywordtype">char</span>* name);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span>                <a class="code" href="../../df/dc6/class_collision.html#ae0aab4de405176b17857c67912703ded">setHitSphere</a>(<a class="code" href="../../db/da7/struct_sphere.html">Sphere</a>* sphere);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span>                <a class="code" href="../../df/dc6/class_collision.html#acb2f78d670bc686d7ed2a46d463f9635">setColName</a>(<span class="keywordtype">char</span>* name);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../df/dc6/class_collision.html#aef63d97ae632428052221cea0ca5bb5a">   53</a></span>&#160;    <a class="code" href="../../df/dc6/class_collision.html">Collision</a>*          <a class="code" href="../../df/dc6/class_collision.html#aef63d97ae632428052221cea0ca5bb5a">getHitObj</a>(<a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> index)    { <span class="keywordflow">return</span> _hitObj[index]; }</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="../../df/dc6/class_collision.html#a53cac61e9a7e0d9706a53673de3e163f">   55</a></span>&#160;    <span class="keywordtype">char</span>*               <a class="code" href="../../df/dc6/class_collision.html#a53cac61e9a7e0d9706a53673de3e163f">getName</a>()   { <span class="keywordflow">return</span> _name; }</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="../../df/dc6/class_collision.html#acce4180f1ea69e917886e78fe51a008e">   57</a></span>&#160;    <a class="code" href="../../db/da7/struct_sphere.html">Sphere</a>*             <a class="code" href="../../df/dc6/class_collision.html#acce4180f1ea69e917886e78fe51a008e">getHitSphere</a>() { <span class="keywordflow">return</span> _hitSphere; }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>                 <a class="code" href="../../df/dc6/class_collision.html#a3e4163c2b51a2537922d1e89615fd049">getHitCount</a>();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>             <a class="code" href="../../df/dc6/class_collision.html#af071cc502d72519a7c98379b4db1687a">getOffsetPos</a>(<a class="code" href="../../df/dc6/class_collision.html">Collision</a>* obj);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">void</span>                <a class="code" href="../../df/dc6/class_collision.html#ae4c30e7064c9cb4f9fdb242b96ae9580">DebugRender</a>();</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="comment">//---- 基本メンバー</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">char</span>                _name[32];      </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="../../db/da7/struct_sphere.html">Sphere</a>*             _hitSphere;     </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">//Collision*        _hitObj[4];     //!&lt; 当たった相手の情報</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    vector&lt;Collision*&gt;  _hitObj;        </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;};</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">// プロトタイプ宣言</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keyword">class </span><a class="code" href="../../dc/da1/class_land_scape.html">LandScape</a>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="../../d3/d0e/class_xE8_xA1_x9D_xE7_xAA_x81_xE5_x88_xA4_xE5_xAE_x9A_xE3_x82_xB7_xE3_x82_xB9_xE3_x83_x86_xE3_x83_xA0.html">   84</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d7/d79/class_collision_wall.html">CollisionWall</a>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="../../d0/d54/class_system_collision.html">   89</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d0/d54/class_system_collision.html">SystemCollision</a>   : <span class="keyword">public</span> <a class="code" href="../../d3/dbc/class_singleton.html">Singleton</a>&lt;SystemCollision&gt;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;{</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keyword">class   </span><a class="code" href="../../de/df9/class_system_collision_1_1_object.html">Object</a>;     </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../d0/d54/class_system_collision.html#a029dd2a26bbe98eb77f5b0bb084204f6">SystemCollision</a>();</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="../../d0/d54/class_system_collision.html#ac666887037b1dc14e32652af28abee66">~SystemCollision</a>();</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordtype">bool</span>                <a class="code" href="../../d0/d54/class_system_collision.html#a92454bf408ff087cf91215758a4297a6">loadMQO</a>(<span class="keywordtype">char</span> fileName[], <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> scale = 1.0f);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordtype">void</span>                <a class="code" href="../../d0/d54/class_system_collision.html#ae5b6d80c1ed9f51596e44a75ce4e8ff3">deleteObject</a>();</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="comment">//Collision::Object*    getObject(s32 index) const {return &amp;_objects[index]; }</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="comment">//s32                   getObjectCount() const { return _objects.size(); }</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordtype">void</span>                <a class="code" href="../../d0/d54/class_system_collision.html#a232132673dbadadb4fe9d018bf2235ca">render</a>();</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordtype">void</span>                <a class="code" href="../../d0/d54/class_system_collision.html#aeb8a2e7a0907e24e6cc291bb61be118c">checkCollisionModel</a>(<a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; position, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> radius, <span class="keywordtype">bool</span>&amp; isHitGround);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="../../d0/d54/class_system_collision.html#a2894d1a5b42db2b9625d1317803413fa">  130</a></span>&#160;    <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>             <a class="code" href="../../d0/d54/class_system_collision.html#a2894d1a5b42db2b9625d1317803413fa">getLastHitPosForWall</a>()  { <span class="keywordflow">return</span> _LastHitPosForWall; }</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="keywordtype">bool</span>                <a class="code" href="../../d0/d54/class_system_collision.html#a4c8970a0a387f87a07aa5ea80f11e591">HitSphere</a>(<a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; spherePos1, <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; spherePos2, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> sphereRadius1, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> sphereRadius2);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <span class="keywordtype">bool</span>                <a class="code" href="../../d0/d54/class_system_collision.html#afb11088c991d7810e7bbf90b2fd21a91">HitCircle</a>(<a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; circlePos1, <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; circlePos2, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> circleRadius1, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> circleRadius2);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keywordtype">void</span>                <a class="code" href="../../d0/d54/class_system_collision.html#abf90f3f07d21345949bd6d2f428874db">DebugRender</a>();</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keyword">static</span>  <a class="code" href="../../dc/da1/class_land_scape.html">LandScape</a>*                  _pLandScape;        </div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="keyword">static</span>  <a class="code" href="../../d7/d79/class_collision_wall.html">CollisionWall</a>*              _pColWall;          </div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>                             _LastHitPosForWall; </div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    </div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;};</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="comment">// アクセスインターフェイス</span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;__forceinline</div>
+<div class="line"><a name="l00166"></a><span class="lineno"><a class="line" href="../../d9/d87/_collision_8h.html#a1c711b386e73b8f5dd6ebfd2c66b513f">  166</a></span>&#160;<a class="code" href="../../d0/d54/class_system_collision.html">SystemCollision</a>*    <a class="code" href="../../d9/d87/_collision_8h.html#a1c711b386e73b8f5dd6ebfd2c66b513f">ISystemCollision</a>()</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;{</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/dbc/class_singleton.html#ad6f103597095efda360db4a230308666">SystemCollision::getInstance</a>();</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;}</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
+<div class="line"><a name="l00171"></a><span class="lineno"><a class="line" href="../../d9/d87/_collision_8h.html#add60e9fcb14998e17e990b4a54b4f336">  171</a></span>&#160;<span class="keyword">typedef</span> vector&lt;SystemCollision::Object&gt; <a class="code" href="../../d9/d87/_collision_8h.html#add60e9fcb14998e17e990b4a54b4f336">vecCol</a>;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<a class="code" href="../../de/df9/class_system_collision_1_1_object.html">SystemCollision::Object</a> <a class="code" href="../../d4/dc5/_collision_8cpp.html#a7c41e677627d514b76e63c524fd90fcf">loadMQO</a>(<a class="code" href="../../d0/de3/class_model.html">Model</a>* pModel, <a class="code" href="../../d9/d87/_collision_8h.html#add60e9fcb14998e17e990b4a54b4f336">vecCol</a>&amp; _dst, <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> vecIndex, <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; max, <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; min);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
+<div class="line"><a name="l00181"></a><span class="lineno"><a class="line" href="../../d2/d01/class_xE3_x82_xAA_xE3_x83_x96_xE3_x82_xB8_xE3_x82_xA7_xE3_x82_xAF_xE3_x83_x88_xE5_xBD_x93_xE3_x8b482d1fe726eb5db7b8eab866bb915a6.html">  181</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dc/d24/class_obj_base.html">ObjBase</a>;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno"><a class="line" href="../../d3/d62/class_collision_object.html">  186</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d3/d62/class_collision_object.html">CollisionObject</a></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;{</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00190"></a><span class="lineno"><a class="line" href="../../d3/d62/class_collision_object.html#ac9677c53a2edb172dca4703e759379bf">  190</a></span>&#160;    <a class="code" href="../../d3/d62/class_collision_object.html#ac9677c53a2edb172dca4703e759379bf">CollisionObject</a>(){}</div>
+<div class="line"><a name="l00192"></a><span class="lineno"><a class="line" href="../../d3/d62/class_collision_object.html#ab2891150c91ae9267f846449ebe3c709">  192</a></span>&#160;    <a class="code" href="../../d3/d62/class_collision_object.html#ab2891150c91ae9267f846449ebe3c709">CollisionObject</a>(<a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; pos, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> radius)</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    :<a class="code" href="../../d3/d62/class_collision_object.html#afd1c8612ad380f08cf3f2a5bf4b3daab">_hitSphere</a>(pos, radius)</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    {</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    }</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
+<div class="line"><a name="l00198"></a><span class="lineno"><a class="line" href="../../d3/d62/class_collision_object.html#a8a9ad3b2608c2737c2bc69a2b2791094">  198</a></span>&#160;    <span class="keywordtype">void</span>                <a class="code" href="../../d3/d62/class_collision_object.html#a8a9ad3b2608c2737c2bc69a2b2791094">setSphereParam</a>(<a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; pos, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> radius)</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="comment">/*Vector3   tmp = pos;</span></div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;<span class="comment">        tmp._y += _hitSphere.getRadius();*/</span></div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="comment">//_hitSphere.setPosition(tmp);</span></div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <a class="code" href="../../d3/d62/class_collision_object.html#afd1c8612ad380f08cf3f2a5bf4b3daab">_hitSphere</a>.<a class="code" href="../../db/da7/struct_sphere.html#ae8842acfd980f63efc023b84980fb49d">setPosition</a>(pos);</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <a class="code" href="../../d3/d62/class_collision_object.html#afd1c8612ad380f08cf3f2a5bf4b3daab">_hitSphere</a>.<a class="code" href="../../db/da7/struct_sphere.html#afad4913bbde5bd6a47d220a29206bbeb">setRadius</a>(radius);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    }</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="keywordtype">bool</span>                <a class="code" href="../../d3/d62/class_collision_object.html#a2574ee166a554985f4ea60ddd57f27db">isHitObj</a>(<a class="code" href="../../dc/d24/class_obj_base.html">ObjBase</a>*   obj);</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="keywordtype">bool</span>                <a class="code" href="../../d3/d62/class_collision_object.html#ab006cfd3dc853eda7729a7b7e07a1d25">isHitSphere</a>(<a class="code" href="../../db/da7/struct_sphere.html">Sphere</a>&amp; attackSphere);</div>
+<div class="line"><a name="l00215"></a><span class="lineno"><a class="line" href="../../d3/d62/class_collision_object.html#afba2c3a210f9c209e37f1d1b902e23b8">  215</a></span>&#160;    <a class="code" href="../../db/da7/struct_sphere.html">Sphere</a>&amp;             <a class="code" href="../../d3/d62/class_collision_object.html#afba2c3a210f9c209e37f1d1b902e23b8">getHitSphere</a>() { <span class="keywordflow">return</span> <a class="code" href="../../d3/d62/class_collision_object.html#afd1c8612ad380f08cf3f2a5bf4b3daab">_hitSphere</a>; }</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00217"></a><span class="lineno"><a class="line" href="../../d3/d62/class_collision_object.html#afd1c8612ad380f08cf3f2a5bf4b3daab">  217</a></span>&#160;    <a class="code" href="../../db/da7/struct_sphere.html">Sphere</a>              <a class="code" href="../../d3/d62/class_collision_object.html#afd1c8612ad380f08cf3f2a5bf4b3daab">_hitSphere</a>;     </div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;};</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno"><a class="line" href="../../de/df9/class_system_collision_1_1_object.html">  224</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../de/df9/class_system_collision_1_1_object.html">SystemCollision::Object</a></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;{</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00228"></a><span class="lineno"><a class="line" href="../../de/df9/class_system_collision_1_1_object.html#adf26ef840a79aa5ef9263a3acfb3cfed">  228</a></span>&#160;    <a class="code" href="../../de/df9/class_system_collision_1_1_object.html#adf26ef840a79aa5ef9263a3acfb3cfed">Object</a>() {}</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;</div>
+<div class="line"><a name="l00231"></a><span class="lineno"><a class="line" href="../../de/df9/class_system_collision_1_1_object.html#ac707b4d5b0a943783dfb7d838811dc44">  231</a></span>&#160;    <span class="keywordtype">void</span>        <a class="code" href="../../de/df9/class_system_collision_1_1_object.html#ac707b4d5b0a943783dfb7d838811dc44">addTriangle</a>(<span class="keyword">const</span> <a class="code" href="../../d5/d4f/struct_triangle.html">Triangle</a>&amp; triangle)</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        _triangles.push_back(triangle);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    }</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;</div>
+<div class="line"><a name="l00237"></a><span class="lineno"><a class="line" href="../../de/df9/class_system_collision_1_1_object.html#abdf94c891a1831b034ef95676260e810">  237</a></span>&#160;    <span class="keywordtype">void</span>        <a class="code" href="../../de/df9/class_system_collision_1_1_object.html#abdf94c891a1831b034ef95676260e810">resetTriangle</a>()</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    {</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        _triangles.clear();</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    }</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;</div>
+<div class="line"><a name="l00243"></a><span class="lineno"><a class="line" href="../../de/df9/class_system_collision_1_1_object.html#a20589d2a42528e7ef1b05943e791b613">  243</a></span>&#160;    <a class="code" href="../../d5/d4f/struct_triangle.html">Triangle</a>*   <a class="code" href="../../de/df9/class_system_collision_1_1_object.html#a20589d2a42528e7ef1b05943e791b613">getTriangle</a>(<a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> index)</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    {</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        <span class="keywordflow">return</span> &amp;_triangles[index];</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    }</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;</div>
+<div class="line"><a name="l00249"></a><span class="lineno"><a class="line" href="../../de/df9/class_system_collision_1_1_object.html#a69ccd0e81eec2940e9147c917b52c28a">  249</a></span>&#160;    <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>         <a class="code" href="../../de/df9/class_system_collision_1_1_object.html#a69ccd0e81eec2940e9147c917b52c28a">getTriangleCount</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keywordflow">return</span>  _triangles.size();</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    }</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    vector&lt;Triangle&gt;    _triangles;     </div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;};</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="comment">//  END OF FILE</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="ttc" id="class_system_collision_1_1_object_html_a20589d2a42528e7ef1b05943e791b613"><div class="ttname"><a href="../../de/df9/class_system_collision_1_1_object.html#a20589d2a42528e7ef1b05943e791b613">SystemCollision::Object::getTriangle</a></div><div class="ttdeci">Triangle * getTriangle(s32 index)</div><div class="ttdoc">三角形を取得 </div><div class="ttdef"><b>Definition:</b> Collision.h:243</div></div>
+<div class="ttc" id="class_collision_object_html_afd1c8612ad380f08cf3f2a5bf4b3daab"><div class="ttname"><a href="../../d3/d62/class_collision_object.html#afd1c8612ad380f08cf3f2a5bf4b3daab">CollisionObject::_hitSphere</a></div><div class="ttdeci">Sphere _hitSphere</div><div class="ttdoc">当たり判定用の球 </div><div class="ttdef"><b>Definition:</b> Collision.h:217</div></div>
+<div class="ttc" id="class_collision_html_acce4180f1ea69e917886e78fe51a008e"><div class="ttname"><a href="../../df/dc6/class_collision.html#acce4180f1ea69e917886e78fe51a008e">Collision::getHitSphere</a></div><div class="ttdeci">Sphere * getHitSphere()</div><div class="ttdoc">当たり判定用の球取得 </div><div class="ttdef"><b>Definition:</b> Collision.h:57</div></div>
+<div class="ttc" id="class_system_collision_1_1_object_html_adf26ef840a79aa5ef9263a3acfb3cfed"><div class="ttname"><a href="../../de/df9/class_system_collision_1_1_object.html#adf26ef840a79aa5ef9263a3acfb3cfed">SystemCollision::Object::Object</a></div><div class="ttdeci">Object()</div><div class="ttdoc">コンストラクタ </div><div class="ttdef"><b>Definition:</b> Collision.h:228</div></div>
+<div class="ttc" id="_collision_8h_html_add60e9fcb14998e17e990b4a54b4f336"><div class="ttname"><a href="../../d9/d87/_collision_8h.html#add60e9fcb14998e17e990b4a54b4f336">vecCol</a></div><div class="ttdeci">vector&lt; SystemCollision::Object &gt; vecCol</div><div class="ttdef"><b>Definition:</b> Collision.h:171</div></div>
+<div class="ttc" id="class_system_collision_html_a92454bf408ff087cf91215758a4297a6"><div class="ttname"><a href="../../d0/d54/class_system_collision.html#a92454bf408ff087cf91215758a4297a6">SystemCollision::loadMQO</a></div><div class="ttdeci">bool loadMQO(char fileName[], f32 scale=1.0f)</div><div class="ttdef"><b>Definition:</b> Collision.cpp:183</div></div>
+<div class="ttc" id="class_singleton_html"><div class="ttname"><a href="../../d3/dbc/class_singleton.html">Singleton</a></div><div class="ttdef"><b>Definition:</b> Singleton.h:13</div></div>
+<div class="ttc" id="class_system_collision_html_a232132673dbadadb4fe9d018bf2235ca"><div class="ttname"><a href="../../d0/d54/class_system_collision.html#a232132673dbadadb4fe9d018bf2235ca">SystemCollision::render</a></div><div class="ttdeci">void render()</div><div class="ttdoc">描画 </div></div>
+<div class="ttc" id="class_model_html"><div class="ttname"><a href="../../d0/de3/class_model.html">Model</a></div><div class="ttdef"><b>Definition:</b> Model.h:13</div></div>
+<div class="ttc" id="class_system_collision_1_1_object_html_a69ccd0e81eec2940e9147c917b52c28a"><div class="ttname"><a href="../../de/df9/class_system_collision_1_1_object.html#a69ccd0e81eec2940e9147c917b52c28a">SystemCollision::Object::getTriangleCount</a></div><div class="ttdeci">s32 getTriangleCount() const </div><div class="ttdoc">三角形の数を取得 </div><div class="ttdef"><b>Definition:</b> Collision.h:249</div></div>
+<div class="ttc" id="class_system_collision_html_a4c8970a0a387f87a07aa5ea80f11e591"><div class="ttname"><a href="../../d0/d54/class_system_collision.html#a4c8970a0a387f87a07aa5ea80f11e591">SystemCollision::HitSphere</a></div><div class="ttdeci">bool HitSphere(Vector3 &amp;spherePos1, Vector3 &amp;spherePos2, f32 sphereRadius1, f32 sphereRadius2)</div><div class="ttdef"><b>Definition:</b> Collision.cpp:277</div></div>
+<div class="ttc" id="class_collision_html_ab0af0476de0cf02a3e5396ec4bcee1fc"><div class="ttname"><a href="../../df/dc6/class_collision.html#ab0af0476de0cf02a3e5396ec4bcee1fc">Collision::clearHitObj</a></div><div class="ttdeci">void clearHitObj()</div><div class="ttdoc">当たり判定情報初期化 </div><div class="ttdef"><b>Definition:</b> Collision.h:42</div></div>
+<div class="ttc" id="class_collision_object_html_ab2891150c91ae9267f846449ebe3c709"><div class="ttname"><a href="../../d3/d62/class_collision_object.html#ab2891150c91ae9267f846449ebe3c709">CollisionObject::CollisionObject</a></div><div class="ttdeci">CollisionObject(Vector3 &amp;pos, f32 radius)</div><div class="ttdoc">コンストラクタ </div><div class="ttdef"><b>Definition:</b> Collision.h:192</div></div>
+<div class="ttc" id="class_collision_html_aef63d97ae632428052221cea0ca5bb5a"><div class="ttname"><a href="../../df/dc6/class_collision.html#aef63d97ae632428052221cea0ca5bb5a">Collision::getHitObj</a></div><div class="ttdeci">Collision * getHitObj(s32 index)</div><div class="ttdoc">情報取得 </div><div class="ttdef"><b>Definition:</b> Collision.h:53</div></div>
+<div class="ttc" id="class_system_collision_html_aeb8a2e7a0907e24e6cc291bb61be118c"><div class="ttname"><a href="../../d0/d54/class_system_collision.html#aeb8a2e7a0907e24e6cc291bb61be118c">SystemCollision::checkCollisionModel</a></div><div class="ttdeci">void checkCollisionModel(Vector3 &amp;position, f32 radius, bool &amp;isHitGround)</div><div class="ttdef"><b>Definition:</b> Collision.cpp:210</div></div>
+<div class="ttc" id="class_collision_html_ae4c30e7064c9cb4f9fdb242b96ae9580"><div class="ttname"><a href="../../df/dc6/class_collision.html#ae4c30e7064c9cb4f9fdb242b96ae9580">Collision::DebugRender</a></div><div class="ttdeci">void DebugRender()</div><div class="ttdoc">デバック描画 </div><div class="ttdef"><b>Definition:</b> Collision.cpp:130</div></div>
+<div class="ttc" id="class_singleton_html_ad6f103597095efda360db4a230308666"><div class="ttname"><a href="../../d3/dbc/class_singleton.html#ad6f103597095efda360db4a230308666">Singleton&lt; SystemCollision &gt;::getInstance</a></div><div class="ttdeci">static SystemCollision * getInstance()</div><div class="ttdoc">唯一のインスタンス獲得 </div><div class="ttdef"><b>Definition:</b> Singleton.h:32</div></div>
+<div class="ttc" id="class_collision_html_aea8004fbf48b79b5db7b784688b23788"><div class="ttname"><a href="../../df/dc6/class_collision.html#aea8004fbf48b79b5db7b784688b23788">Collision::Collision</a></div><div class="ttdeci">Collision()</div><div class="ttdoc">デフォルトコンストラクタ </div><div class="ttdef"><b>Definition:</b> Collision.h:24</div></div>
+<div class="ttc" id="class_system_collision_html_abf90f3f07d21345949bd6d2f428874db"><div class="ttname"><a href="../../d0/d54/class_system_collision.html#abf90f3f07d21345949bd6d2f428874db">SystemCollision::DebugRender</a></div><div class="ttdeci">void DebugRender()</div><div class="ttdoc">デバッグ描画 </div><div class="ttdef"><b>Definition:</b> Collision.cpp:330</div></div>
+<div class="ttc" id="class_collision_object_html_ab006cfd3dc853eda7729a7b7e07a1d25"><div class="ttname"><a href="../../d3/d62/class_collision_object.html#ab006cfd3dc853eda7729a7b7e07a1d25">CollisionObject::isHitSphere</a></div><div class="ttdeci">bool isHitSphere(Sphere &amp;attackSphere)</div><div class="ttdef"><b>Definition:</b> Collision.cpp:533</div></div>
+<div class="ttc" id="class_collision_object_html_a2574ee166a554985f4ea60ddd57f27db"><div class="ttname"><a href="../../d3/d62/class_collision_object.html#a2574ee166a554985f4ea60ddd57f27db">CollisionObject::isHitObj</a></div><div class="ttdeci">bool isHitObj(ObjBase *obj)</div><div class="ttdef"><b>Definition:</b> Collision.cpp:525</div></div>
+<div class="ttc" id="class_collision_html_a3e4163c2b51a2537922d1e89615fd049"><div class="ttname"><a href="../../df/dc6/class_collision.html#a3e4163c2b51a2537922d1e89615fd049">Collision::getHitCount</a></div><div class="ttdeci">s32 getHitCount()</div><div class="ttdoc">当たっている個数取得 </div><div class="ttdef"><b>Definition:</b> Collision.cpp:90</div></div>
+<div class="ttc" id="class_system_collision_html_afb11088c991d7810e7bbf90b2fd21a91"><div class="ttname"><a href="../../d0/d54/class_system_collision.html#afb11088c991d7810e7bbf90b2fd21a91">SystemCollision::HitCircle</a></div><div class="ttdeci">bool HitCircle(Vector3 &amp;circlePos1, Vector3 &amp;circlePos2, f32 circleRadius1, f32 circleRadius2)</div><div class="ttdef"><b>Definition:</b> Collision.cpp:304</div></div>
+<div class="ttc" id="struct_vector3_html"><div class="ttname"><a href="../../d0/de3/struct_vector3.html">Vector3</a></div><div class="ttdef"><b>Definition:</b> Vector.h:89</div></div>
+<div class="ttc" id="class_system_collision_1_1_object_html_abdf94c891a1831b034ef95676260e810"><div class="ttname"><a href="../../de/df9/class_system_collision_1_1_object.html#abdf94c891a1831b034ef95676260e810">SystemCollision::Object::resetTriangle</a></div><div class="ttdeci">void resetTriangle()</div><div class="ttdoc">リストの初期化 </div><div class="ttdef"><b>Definition:</b> Collision.h:237</div></div>
+<div class="ttc" id="_collision_8cpp_html_a7c41e677627d514b76e63c524fd90fcf"><div class="ttname"><a href="../../d4/dc5/_collision_8cpp.html#a7c41e677627d514b76e63c524fd90fcf">loadMQO</a></div><div class="ttdeci">SystemCollision::Object loadMQO(Model *pModel, vecCol &amp;_dst, s32 vecIndex, Vector3 &amp;max, Vector3 &amp;min)</div><div class="ttdef"><b>Definition:</b> Collision.cpp:347</div></div>
+<div class="ttc" id="class_system_collision_html"><div class="ttname"><a href="../../d0/d54/class_system_collision.html">SystemCollision</a></div><div class="ttdef"><b>Definition:</b> Collision.h:89</div></div>
+<div class="ttc" id="struct_sphere_html_ae8842acfd980f63efc023b84980fb49d"><div class="ttname"><a href="../../db/da7/struct_sphere.html#ae8842acfd980f63efc023b84980fb49d">Sphere::setPosition</a></div><div class="ttdeci">void setPosition(Vector3 &amp;pos)</div><div class="ttdoc">座標設定 </div><div class="ttdef"><b>Definition:</b> Geometry.h:340</div></div>
+<div class="ttc" id="class_collision_html_acb2f78d670bc686d7ed2a46d463f9635"><div class="ttname"><a href="../../df/dc6/class_collision.html#acb2f78d670bc686d7ed2a46d463f9635">Collision::setColName</a></div><div class="ttdeci">void setColName(char *name)</div><div class="ttdoc">名前の設定 </div><div class="ttdef"><b>Definition:</b> Collision.cpp:69</div></div>
+<div class="ttc" id="class_collision_object_html_a8a9ad3b2608c2737c2bc69a2b2791094"><div class="ttname"><a href="../../d3/d62/class_collision_object.html#a8a9ad3b2608c2737c2bc69a2b2791094">CollisionObject::setSphereParam</a></div><div class="ttdeci">void setSphereParam(Vector3 &amp;pos, f32 radius)</div><div class="ttdoc">球情報設定 </div><div class="ttdef"><b>Definition:</b> Collision.h:198</div></div>
+<div class="ttc" id="struct_triangle_html"><div class="ttname"><a href="../../d5/d4f/struct_triangle.html">Triangle</a></div><div class="ttdef"><b>Definition:</b> Geometry.h:110</div></div>
+<div class="ttc" id="class_obj_base_html"><div class="ttname"><a href="../../dc/d24/class_obj_base.html">ObjBase</a></div><div class="ttdef"><b>Definition:</b> ObjBase.h:14</div></div>
+<div class="ttc" id="class_system_collision_html_ac666887037b1dc14e32652af28abee66"><div class="ttname"><a href="../../d0/d54/class_system_collision.html#ac666887037b1dc14e32652af28abee66">SystemCollision::~SystemCollision</a></div><div class="ttdeci">virtual ~SystemCollision()</div><div class="ttdoc">デストラクタ </div><div class="ttdef"><b>Definition:</b> Collision.cpp:163</div></div>
+<div class="ttc" id="struct_sphere_html_afad4913bbde5bd6a47d220a29206bbeb"><div class="ttname"><a href="../../db/da7/struct_sphere.html#afad4913bbde5bd6a47d220a29206bbeb">Sphere::setRadius</a></div><div class="ttdeci">void setRadius(f32 radius)</div><div class="ttdoc">半径設定 </div><div class="ttdef"><b>Definition:</b> Geometry.h:345</div></div>
+<div class="ttc" id="class_collision_html_a19ae49bcb3b16f4622443a34a171590c"><div class="ttname"><a href="../../df/dc6/class_collision.html#a19ae49bcb3b16f4622443a34a171590c">Collision::~Collision</a></div><div class="ttdeci">virtual ~Collision()</div><div class="ttdoc">デストラクタ </div><div class="ttdef"><b>Definition:</b> Collision.cpp:34</div></div>
+<div class="ttc" id="class_collision_object_html"><div class="ttname"><a href="../../d3/d62/class_collision_object.html">CollisionObject</a></div><div class="ttdef"><b>Definition:</b> Collision.h:186</div></div>
+<div class="ttc" id="class_collision_object_html_afba2c3a210f9c209e37f1d1b902e23b8"><div class="ttname"><a href="../../d3/d62/class_collision_object.html#afba2c3a210f9c209e37f1d1b902e23b8">CollisionObject::getHitSphere</a></div><div class="ttdeci">Sphere &amp; getHitSphere()</div><div class="ttdoc">当たり判定用の球の取得 </div><div class="ttdef"><b>Definition:</b> Collision.h:215</div></div>
+<div class="ttc" id="class_collision_html_a5cd49ea00086ec5d80fd1de138bd37bc"><div class="ttname"><a href="../../df/dc6/class_collision.html#a5cd49ea00086ec5d80fd1de138bd37bc">Collision::setHitObj</a></div><div class="ttdeci">void setHitObj(Collision *col)</div><div class="ttdoc">情報設定 </div><div class="ttdef"><b>Definition:</b> Collision.cpp:82</div></div>
+<div class="ttc" id="class_collision_html_ae0aab4de405176b17857c67912703ded"><div class="ttname"><a href="../../df/dc6/class_collision.html#ae0aab4de405176b17857c67912703ded">Collision::setHitSphere</a></div><div class="ttdeci">void setHitSphere(Sphere *sphere)</div><div class="ttdoc">あたり判定用球の設定 </div><div class="ttdef"><b>Definition:</b> Collision.cpp:62</div></div>
+<div class="ttc" id="class_collision_object_html_ac9677c53a2edb172dca4703e759379bf"><div class="ttname"><a href="../../d3/d62/class_collision_object.html#ac9677c53a2edb172dca4703e759379bf">CollisionObject::CollisionObject</a></div><div class="ttdeci">CollisionObject()</div><div class="ttdoc">デフォルトコンストラクタ </div><div class="ttdef"><b>Definition:</b> Collision.h:190</div></div>
+<div class="ttc" id="class_system_collision_1_1_object_html_ac707b4d5b0a943783dfb7d838811dc44"><div class="ttname"><a href="../../de/df9/class_system_collision_1_1_object.html#ac707b4d5b0a943783dfb7d838811dc44">SystemCollision::Object::addTriangle</a></div><div class="ttdeci">void addTriangle(const Triangle &amp;triangle)</div><div class="ttdoc">三角形を追加 </div><div class="ttdef"><b>Definition:</b> Collision.h:231</div></div>
+<div class="ttc" id="class_system_collision_html_a2894d1a5b42db2b9625d1317803413fa"><div class="ttname"><a href="../../d0/d54/class_system_collision.html#a2894d1a5b42db2b9625d1317803413fa">SystemCollision::getLastHitPosForWall</a></div><div class="ttdeci">Vector3 getLastHitPosForWall()</div><div class="ttdoc">最後にヒットした座標の取得 </div><div class="ttdef"><b>Definition:</b> Collision.h:130</div></div>
+<div class="ttc" id="class_collision_html_af071cc502d72519a7c98379b4db1687a"><div class="ttname"><a href="../../df/dc6/class_collision.html#af071cc502d72519a7c98379b4db1687a">Collision::getOffsetPos</a></div><div class="ttdeci">Vector3 getOffsetPos(Collision *obj)</div><div class="ttdef"><b>Definition:</b> Collision.cpp:107</div></div>
+<div class="ttc" id="_collision_8h_html_a1c711b386e73b8f5dd6ebfd2c66b513f"><div class="ttname"><a href="../../d9/d87/_collision_8h.html#a1c711b386e73b8f5dd6ebfd2c66b513f">ISystemCollision</a></div><div class="ttdeci">__forceinline SystemCollision * ISystemCollision()</div><div class="ttdef"><b>Definition:</b> Collision.h:166</div></div>
+<div class="ttc" id="_main_8h_html_a5f6906312a689f27d70e9d086649d3fd"><div class="ttname"><a href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a></div><div class="ttdeci">float f32</div><div class="ttdoc">単精度浮動小数点数 </div><div class="ttdef"><b>Definition:</b> Main.h:68</div></div>
+<div class="ttc" id="class_system_collision_html_ae5b6d80c1ed9f51596e44a75ce4e8ff3"><div class="ttname"><a href="../../d0/d54/class_system_collision.html#ae5b6d80c1ed9f51596e44a75ce4e8ff3">SystemCollision::deleteObject</a></div><div class="ttdeci">void deleteObject()</div><div class="ttdoc">オブジェクトの消去 </div><div class="ttdef"><b>Definition:</b> Collision.cpp:173</div></div>
+<div class="ttc" id="class_collision_html"><div class="ttname"><a href="../../df/dc6/class_collision.html">Collision</a></div><div class="ttdef"><b>Definition:</b> Collision.h:14</div></div>
+<div class="ttc" id="_main_8h_html_a0ce6887c26c1c49ad3be5710dd42bfd6"><div class="ttname"><a href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a></div><div class="ttdeci">signed int s32</div><div class="ttdoc">符号あり32bit整数 </div><div class="ttdef"><b>Definition:</b> Main.h:64</div></div>
+<div class="ttc" id="class_land_scape_html"><div class="ttname"><a href="../../dc/da1/class_land_scape.html">LandScape</a></div><div class="ttdef"><b>Definition:</b> LandScape.h:12</div></div>
+<div class="ttc" id="struct_sphere_html"><div class="ttname"><a href="../../db/da7/struct_sphere.html">Sphere</a></div><div class="ttdef"><b>Definition:</b> Geometry.h:325</div></div>
+<div class="ttc" id="class_collision_html_a53cac61e9a7e0d9706a53673de3e163f"><div class="ttname"><a href="../../df/dc6/class_collision.html#a53cac61e9a7e0d9706a53673de3e163f">Collision::getName</a></div><div class="ttdeci">char * getName()</div><div class="ttdoc">名前取得 </div><div class="ttdef"><b>Definition:</b> Collision.h:55</div></div>
+<div class="ttc" id="class_system_collision_html_a029dd2a26bbe98eb77f5b0bb084204f6"><div class="ttname"><a href="../../d0/d54/class_system_collision.html#a029dd2a26bbe98eb77f5b0bb084204f6">SystemCollision::SystemCollision</a></div><div class="ttdeci">SystemCollision()</div><div class="ttdoc">コンストラクタ </div><div class="ttdef"><b>Definition:</b> Collision.cpp:152</div></div>
+<div class="ttc" id="class_collision_html_afdb744ad8ba9ca0a69d54a24df6e3cb9"><div class="ttname"><a href="../../df/dc6/class_collision.html#afdb744ad8ba9ca0a69d54a24df6e3cb9">Collision::setCollisionState</a></div><div class="ttdeci">void setCollisionState(Sphere *sphere, char *name)</div><div class="ttdoc">基本情報設定 </div><div class="ttdef"><b>Definition:</b> Collision.cpp:50</div></div>
+<div class="ttc" id="class_system_collision_1_1_object_html"><div class="ttname"><a href="../../de/df9/class_system_collision_1_1_object.html">SystemCollision::Object</a></div><div class="ttdef"><b>Definition:</b> Collision.h:224</div></div>
+<div class="ttc" id="class_collision_wall_html"><div class="ttname"><a href="../../d7/d79/class_collision_wall.html">CollisionWall</a></div><div class="ttdef"><b>Definition:</b> CollisionWall.h:13</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+myGameに対してSun Oct 13 2013 20:58:05に生成されました。 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

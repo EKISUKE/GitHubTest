@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>CastleCrash: D:/OCA/OCA_BackUp/OpenGL/WithGameEngineProj/GameWithLibrary/GameEngine/src/gmCameraBase.h ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">CastleCrash
+   &#160;<span id="projectnumber">2014/07/20</span>
+   </div>
+   <div id="projectbrief">Yuki Ishigaki</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>メインページ</span></a></li>
+      <li><a href="namespaces.html"><span>ネームスペース</span></a></li>
+      <li><a href="annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('gm_camera_base_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>ネームスペース</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>型定義</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>列挙型</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>列挙型の値</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>フレンド</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>マクロ定義</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">gmCameraBase.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="gm_camera_base_8h.html">説明を見る。</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="class_camera_base.html">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_camera_base.html">CameraBase</a></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="class_camera_base.html#a7e0c8252a40bc63d8ba4b7f1aa6fadd4">CameraBase</a>();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_camera_base.html#aab4dedae85ee16a8aeb397b6c109431f">   27</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_camera_base.html#aab4dedae85ee16a8aeb397b6c109431f">~CameraBase</a>(){};</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span>    <a class="code" href="class_camera_base.html#ace1504bf2c5af62ce20b3a45d3bd6839">init</a>(<a class="code" href="struct_vector3.html">Vector3</a>&amp; lookAt, <a class="code" href="struct_vector3.html">Vector3</a>&amp; <a class="code" href="class_camera_base.html#a26a9abf2c69bd35302dfd5546facaa59">_rot</a>);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>        <a class="code" href="class_camera_base.html#a5d21e2335eaca87dd90cf0f8b16ad9ca">update</a>(<a class="code" href="class_controller.html">Controller</a>&amp; control, <a class="code" href="struct_vector3.html">Vector3</a>&amp; PlayerPos, <span class="keyword">const</span> <a class="code" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&amp; PlayerRot,  POINT mouseOffset);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>        <a class="code" href="class_camera_base.html#a50b83449318c2f2b2e49d7275f8b52fa">DebugRender</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>        <a class="code" href="class_camera_base.html#af5def485a1054f06fc51a5f603fbea03">Enablevibration</a>(<a class="code" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> vibrationPower);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>        <a class="code" href="class_camera_base.html#a88cd4df08ff2e213d6d02cf3dc4c9078">Disablevibration</a>();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">bool</span>        <a class="code" href="class_camera_base.html#aad372a5b9ac60cc249e219080956e15e">moveGoal</a>(<a class="code" href="struct_vector3.html">Vector3</a>&amp; goalPos);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="comment">//---- セット</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="class_camera_base.html#acad18468f19f9fd8e7b8702f6c006560">   66</a></span>&#160;<span class="comment"></span>    <span class="keywordtype">void</span>            <a class="code" href="class_camera_base.html#acad18468f19f9fd8e7b8702f6c006560">setPosition</a>(<span class="keyword">const</span> <a class="code" href="struct_vector3.html">Vector3</a>&amp; position)            { <a class="code" href="class_camera_base.html#a3452d98af9a9d4323d8a2d3e6dc966e5">_position</a> = position; }</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="class_camera_base.html#aa4f4be10303b61183236a2d5abf21e16">   68</a></span>&#160;    <span class="keywordtype">void</span>            <a class="code" href="class_camera_base.html#aa4f4be10303b61183236a2d5abf21e16">setLookAt</a>  (<span class="keyword">const</span> <a class="code" href="struct_vector3.html">Vector3</a>&amp; lookAt  )            { <a class="code" href="class_camera_base.html#aa89610f1021ae21eebcbe9e17c557ad1">_lookAt</a>    = lookAt;  }</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="class_camera_base.html#a0afcc44fd87f9e9e0894070073d2b3a1">   70</a></span>&#160;    <span class="keywordtype">void</span>            <a class="code" href="class_camera_base.html#a0afcc44fd87f9e9e0894070073d2b3a1">setWorldUp</a> (<span class="keyword">const</span> <a class="code" href="struct_vector3.html">Vector3</a>&amp; worldUp )            { <a class="code" href="class_camera_base.html#ad65432efc07bb5d95268166cb432e0b2">_worldUp</a>   = worldUp; }</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="class_camera_base.html#a5c20fbbaeb08a28959875bd00c17c6fb">   72</a></span>&#160;    <span class="keywordtype">void</span>            <a class="code" href="class_camera_base.html#a5c20fbbaeb08a28959875bd00c17c6fb">changeLookAtLength</a>(<span class="keyword">const</span> <a class="code" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&amp; change)           { <a class="code" href="class_camera_base.html#a49508fac0dc3362b7e60f614e3f9c669">_lookAtLength</a> += change * 3.0f; }</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="class_camera_base.html#ace88bca3bc98d158e48768757fa50565">   74</a></span>&#160;    <span class="keywordtype">void</span>            <a class="code" href="class_camera_base.html#ace88bca3bc98d158e48768757fa50565">setLookAtLengthMax</a>(<span class="keyword">const</span> <a class="code" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&amp; lookAtLengthMax)  { <a class="code" href="class_camera_base.html#af4d76ea1c467610d27f18b22035c899f">_lookAtLengthMax</a> = lookAtLengthMax; }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">//---- 取得</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="class_camera_base.html#ae3a99c99d704937fc463379cf817d600">   78</a></span>&#160;<span class="comment"></span>    <a class="code" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>             <a class="code" href="class_camera_base.html#ae3a99c99d704937fc463379cf817d600">getLookAtLength</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="class_camera_base.html#a49508fac0dc3362b7e60f614e3f9c669">_lookAtLength</a>; }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="class_camera_base.html#aa70dad729d671a46231c2d18d41a06ab">   81</a></span>&#160;    <a class="code" href="struct_vector3.html">Vector3</a>         <a class="code" href="class_camera_base.html#aa70dad729d671a46231c2d18d41a06ab">getRotation</a> ()<span class="keyword"> const    </span>{ <span class="keywordflow">return</span> <a class="code" href="class_camera_base.html#a26a9abf2c69bd35302dfd5546facaa59">_rot</a>;      }</div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="class_camera_base.html#ac2f00c1723997b460bb88d164563aefa">   83</a></span>&#160;    <a class="code" href="struct_vector3.html">Vector3</a>         <a class="code" href="class_camera_base.html#ac2f00c1723997b460bb88d164563aefa">getPosition</a> ()<span class="keyword"> const    </span>{ <span class="keywordflow">return</span> <a class="code" href="class_camera_base.html#a3452d98af9a9d4323d8a2d3e6dc966e5">_position</a>; }</div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="class_camera_base.html#ad8ea8b00adcde2da0f0ee1ef2703df87">   85</a></span>&#160;    <a class="code" href="struct_vector3.html">Vector3</a>         <a class="code" href="class_camera_base.html#ad8ea8b00adcde2da0f0ee1ef2703df87">getLookAt</a>   ()<span class="keyword"> const    </span>{ <span class="keywordflow">return</span> <a class="code" href="class_camera_base.html#aa89610f1021ae21eebcbe9e17c557ad1">_lookAt</a>;   }</div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="class_camera_base.html#a302bc86bb3267b785edcd7d21ff83486">   87</a></span>&#160;    <a class="code" href="struct_vector3.html">Vector3</a>         <a class="code" href="class_camera_base.html#a302bc86bb3267b785edcd7d21ff83486">getWorldUp</a>  ()<span class="keyword"> const    </span>{ <span class="keywordflow">return</span> <a class="code" href="class_camera_base.html#ad65432efc07bb5d95268166cb432e0b2">_worldUp</a>;  }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="class_camera_base.html#aa5310b2074e4cb732986dc877eeb3af9">   90</a></span>&#160;    <span class="keyword">const</span> <a class="code" href="struct_matrix.html">Matrix</a>&amp;   <a class="code" href="class_camera_base.html#aa5310b2074e4cb732986dc877eeb3af9">getMatrix</a>    ()<span class="keyword"> const   </span>{ <span class="keywordflow">return</span> <a class="code" href="class_camera_base.html#ad57a54d46b6005687ee5dfa6a99e2807">_matrix</a>; }</div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="class_camera_base.html#afddab07dc299807c1661e9e4dc6b8553">   92</a></span>&#160;    <span class="keyword">const</span> <a class="code" href="struct_matrix.html">Matrix</a>&amp;   <a class="code" href="class_camera_base.html#afddab07dc299807c1661e9e4dc6b8553">getViewMatrix</a>()<span class="keyword"> const   </span>{ <span class="keywordflow">return</span> <a class="code" href="class_camera_base.html#ac982bf8a4c710d101c988618346d144d">_viewMatrix</a>; }</div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="class_camera_base.html#a86d51d8e5c7d43ead2f59571e59ca151">   94</a></span>&#160;    <span class="keyword">const</span> <a class="code" href="struct_matrix.html">Matrix</a>&amp;   <a class="code" href="class_camera_base.html#a86d51d8e5c7d43ead2f59571e59ca151">getProjMatrix</a>()<span class="keyword"> const   </span>{ <span class="keywordflow">return</span> <a class="code" href="class_camera_base.html#a5848430955f7018261783268b2cd175d">_projMatrix</a>; }</div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="class_camera_base.html#a018d1f9aed61a8db72f66c79ad6f5747">   96</a></span>&#160;    <a class="code" href="struct_matrix.html">Matrix</a>          <a class="code" href="class_camera_base.html#a018d1f9aed61a8db72f66c79ad6f5747">getViewProjMatrix</a>()     { <span class="keywordflow">return</span> <a class="code" href="class_camera_base.html#ac982bf8a4c710d101c988618346d144d">_viewMatrix</a> * <a class="code" href="class_camera_base.html#a5848430955f7018261783268b2cd175d">_projMatrix</a>; }</div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="class_camera_base.html#ae60e940d1c9a1043f8f7f5db910e3186">   98</a></span>&#160;    <span class="keyword">const</span> <a class="code" href="struct_frustum.html">Frustum</a>&amp;  <a class="code" href="class_camera_base.html#ae60e940d1c9a1043f8f7f5db910e3186">getViewFrustum</a>()<span class="keyword"> const  </span>{ <span class="keywordflow">return</span> <a class="code" href="class_camera_base.html#a340d569f379154d1b86203a2f91aa5be">_viewFrustum</a>; }</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="comment">//---- 基本データ</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="class_camera_base.html#a3452d98af9a9d4323d8a2d3e6dc966e5">  106</a></span>&#160;    <a class="code" href="struct_vector3.html">Vector3</a>         <a class="code" href="class_camera_base.html#a3452d98af9a9d4323d8a2d3e6dc966e5">_position</a>;          </div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="class_camera_base.html#a2fa41924544f01c727d97f02569c31bf">  107</a></span>&#160;    <a class="code" href="struct_vector3.html">Vector3</a>         <a class="code" href="class_camera_base.html#a2fa41924544f01c727d97f02569c31bf">_cameraOffset</a>;      </div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="class_camera_base.html#aa89610f1021ae21eebcbe9e17c557ad1">  108</a></span>&#160;    <a class="code" href="struct_vector3.html">Vector3</a>         <a class="code" href="class_camera_base.html#aa89610f1021ae21eebcbe9e17c557ad1">_lookAt</a>;            </div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="class_camera_base.html#ad65432efc07bb5d95268166cb432e0b2">  109</a></span>&#160;    <a class="code" href="struct_vector3.html">Vector3</a>         <a class="code" href="class_camera_base.html#ad65432efc07bb5d95268166cb432e0b2">_worldUp</a>;           </div>
+<div class="line"><a name="l00110"></a><span class="lineno"><a class="line" href="class_camera_base.html#a26a9abf2c69bd35302dfd5546facaa59">  110</a></span>&#160;    <a class="code" href="struct_vector3.html">Vector3</a>         <a class="code" href="class_camera_base.html#a26a9abf2c69bd35302dfd5546facaa59">_rot</a>;               </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="class_camera_base.html#a601245a0b3275adcd1f64b518b17a218">  112</a></span>&#160;    <a class="code" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>             <a class="code" href="class_camera_base.html#a601245a0b3275adcd1f64b518b17a218">_radius</a>;            </div>
+<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="class_camera_base.html#a49508fac0dc3362b7e60f614e3f9c669">  113</a></span>&#160;    <a class="code" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>             <a class="code" href="class_camera_base.html#a49508fac0dc3362b7e60f614e3f9c669">_lookAtLength</a>;      </div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="class_camera_base.html#af4d76ea1c467610d27f18b22035c899f">  114</a></span>&#160;    <a class="code" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>             <a class="code" href="class_camera_base.html#af4d76ea1c467610d27f18b22035c899f">_lookAtLengthMax</a>;   </div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="class_camera_base.html#ad57a54d46b6005687ee5dfa6a99e2807">  117</a></span>&#160;    <a class="code" href="struct_matrix.html">Matrix</a>          <a class="code" href="class_camera_base.html#ad57a54d46b6005687ee5dfa6a99e2807">_matrix</a>;            </div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="class_camera_base.html#ac982bf8a4c710d101c988618346d144d">  118</a></span>&#160;    <a class="code" href="struct_matrix.html">Matrix</a>          <a class="code" href="class_camera_base.html#ac982bf8a4c710d101c988618346d144d">_viewMatrix</a>;        </div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="class_camera_base.html#a5848430955f7018261783268b2cd175d">  119</a></span>&#160;    <a class="code" href="struct_matrix.html">Matrix</a>          <a class="code" href="class_camera_base.html#a5848430955f7018261783268b2cd175d">_projMatrix</a>;        </div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="class_camera_base.html#aa6bd9070970d5e53dffb39e1a1bdad71">  120</a></span>&#160;    <span class="keywordtype">bool</span>            <a class="code" href="class_camera_base.html#aa6bd9070970d5e53dffb39e1a1bdad71">_isVib</a>;             </div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="class_camera_base.html#a340d569f379154d1b86203a2f91aa5be">  122</a></span>&#160;    <a class="code" href="struct_frustum.html">Frustum</a>         <a class="code" href="class_camera_base.html#a340d569f379154d1b86203a2f91aa5be">_viewFrustum</a>;       </div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;};</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="comment">//  END OF FILE</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="ttc" id="class_camera_base_html_aa70dad729d671a46231c2d18d41a06ab"><div class="ttname"><a href="class_camera_base.html#aa70dad729d671a46231c2d18d41a06ab">CameraBase::getRotation</a></div><div class="ttdeci">Vector3 getRotation() const </div><div class="ttdoc">角度を取得 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:81</div></div>
+<div class="ttc" id="class_camera_base_html_a49508fac0dc3362b7e60f614e3f9c669"><div class="ttname"><a href="class_camera_base.html#a49508fac0dc3362b7e60f614e3f9c669">CameraBase::_lookAtLength</a></div><div class="ttdeci">f32 _lookAtLength</div><div class="ttdoc">注視点との距離 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:113</div></div>
+<div class="ttc" id="class_camera_base_html_ad65432efc07bb5d95268166cb432e0b2"><div class="ttname"><a href="class_camera_base.html#ad65432efc07bb5d95268166cb432e0b2">CameraBase::_worldUp</a></div><div class="ttdeci">Vector3 _worldUp</div><div class="ttdoc">世界の上方向の基準軸 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:109</div></div>
+<div class="ttc" id="class_camera_base_html"><div class="ttname"><a href="class_camera_base.html">CameraBase</a></div><div class="ttdoc">カメラ基底 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:14</div></div>
+<div class="ttc" id="class_camera_base_html_a0afcc44fd87f9e9e0894070073d2b3a1"><div class="ttname"><a href="class_camera_base.html#a0afcc44fd87f9e9e0894070073d2b3a1">CameraBase::setWorldUp</a></div><div class="ttdeci">void setWorldUp(const Vector3 &amp;worldUp)</div><div class="ttdoc">世界の上方向を設定 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:70</div></div>
+<div class="ttc" id="struct_matrix_html"><div class="ttname"><a href="struct_matrix.html">Matrix</a></div><div class="ttdoc">４ｘ４行列 </div><div class="ttdef"><b>Definition:</b> Matrix.h:13</div></div>
+<div class="ttc" id="class_camera_base_html_aa4f4be10303b61183236a2d5abf21e16"><div class="ttname"><a href="class_camera_base.html#aa4f4be10303b61183236a2d5abf21e16">CameraBase::setLookAt</a></div><div class="ttdeci">void setLookAt(const Vector3 &amp;lookAt)</div><div class="ttdoc">注視点を指定 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:68</div></div>
+<div class="ttc" id="class_camera_base_html_af4d76ea1c467610d27f18b22035c899f"><div class="ttname"><a href="class_camera_base.html#af4d76ea1c467610d27f18b22035c899f">CameraBase::_lookAtLengthMax</a></div><div class="ttdeci">f32 _lookAtLengthMax</div><div class="ttdoc">注視点との距離の最大値 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:114</div></div>
+<div class="ttc" id="class_camera_base_html_ae60e940d1c9a1043f8f7f5db910e3186"><div class="ttname"><a href="class_camera_base.html#ae60e940d1c9a1043f8f7f5db910e3186">CameraBase::getViewFrustum</a></div><div class="ttdeci">const Frustum &amp; getViewFrustum() const </div><div class="ttdoc">視錐台の取得 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:98</div></div>
+<div class="ttc" id="class_camera_base_html_ac982bf8a4c710d101c988618346d144d"><div class="ttname"><a href="class_camera_base.html#ac982bf8a4c710d101c988618346d144d">CameraBase::_viewMatrix</a></div><div class="ttdeci">Matrix _viewMatrix</div><div class="ttdoc">ビュー行列 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:118</div></div>
+<div class="ttc" id="class_camera_base_html_ae3a99c99d704937fc463379cf817d600"><div class="ttname"><a href="class_camera_base.html#ae3a99c99d704937fc463379cf817d600">CameraBase::getLookAtLength</a></div><div class="ttdeci">f32 getLookAtLength() const </div><div class="ttdoc">注視点との距離取得 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:78</div></div>
+<div class="ttc" id="class_camera_base_html_acad18468f19f9fd8e7b8702f6c006560"><div class="ttname"><a href="class_camera_base.html#acad18468f19f9fd8e7b8702f6c006560">CameraBase::setPosition</a></div><div class="ttdeci">void setPosition(const Vector3 &amp;position)</div><div class="ttdoc">位置を指定 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:66</div></div>
+<div class="ttc" id="class_camera_base_html_a018d1f9aed61a8db72f66c79ad6f5747"><div class="ttname"><a href="class_camera_base.html#a018d1f9aed61a8db72f66c79ad6f5747">CameraBase::getViewProjMatrix</a></div><div class="ttdeci">Matrix getViewProjMatrix()</div><div class="ttdoc">ビュー×投影行列の取得 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:96</div></div>
+<div class="ttc" id="class_camera_base_html_a5d21e2335eaca87dd90cf0f8b16ad9ca"><div class="ttname"><a href="class_camera_base.html#a5d21e2335eaca87dd90cf0f8b16ad9ca">CameraBase::update</a></div><div class="ttdeci">virtual void update(Controller &amp;control, Vector3 &amp;PlayerPos, const f32 &amp;PlayerRot, POINT mouseOffset)</div><div class="ttdoc">更新 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.cpp:37</div></div>
+<div class="ttc" id="gm_typedef_8h_html_a5f6906312a689f27d70e9d086649d3fd"><div class="ttname"><a href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a></div><div class="ttdeci">float f32</div><div class="ttdoc">単精度浮動小数点数 </div><div class="ttdef"><b>Definition:</b> gmTypedef.h:24</div></div>
+<div class="ttc" id="class_camera_base_html_ace88bca3bc98d158e48768757fa50565"><div class="ttname"><a href="class_camera_base.html#ace88bca3bc98d158e48768757fa50565">CameraBase::setLookAtLengthMax</a></div><div class="ttdeci">void setLookAtLengthMax(const f32 &amp;lookAtLengthMax)</div><div class="ttdoc">注視点との距離最大値設定 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:74</div></div>
+<div class="ttc" id="class_camera_base_html_a340d569f379154d1b86203a2f91aa5be"><div class="ttname"><a href="class_camera_base.html#a340d569f379154d1b86203a2f91aa5be">CameraBase::_viewFrustum</a></div><div class="ttdeci">Frustum _viewFrustum</div><div class="ttdoc">視錐台 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:122</div></div>
+<div class="ttc" id="class_camera_base_html_a601245a0b3275adcd1f64b518b17a218"><div class="ttname"><a href="class_camera_base.html#a601245a0b3275adcd1f64b518b17a218">CameraBase::_radius</a></div><div class="ttdeci">f32 _radius</div><div class="ttdoc">半径 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:112</div></div>
+<div class="ttc" id="class_camera_base_html_a2fa41924544f01c727d97f02569c31bf"><div class="ttname"><a href="class_camera_base.html#a2fa41924544f01c727d97f02569c31bf">CameraBase::_cameraOffset</a></div><div class="ttdeci">Vector3 _cameraOffset</div><div class="ttdoc">オフセット値 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:107</div></div>
+<div class="ttc" id="class_camera_base_html_ad57a54d46b6005687ee5dfa6a99e2807"><div class="ttname"><a href="class_camera_base.html#ad57a54d46b6005687ee5dfa6a99e2807">CameraBase::_matrix</a></div><div class="ttdeci">Matrix _matrix</div><div class="ttdoc">姿勢行列 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:117</div></div>
+<div class="ttc" id="struct_vector3_html"><div class="ttname"><a href="struct_vector3.html">Vector3</a></div><div class="ttdoc">３要素ベクトル構造体 </div><div class="ttdef"><b>Definition:</b> gmVector.h:120</div></div>
+<div class="ttc" id="class_camera_base_html_ad8ea8b00adcde2da0f0ee1ef2703df87"><div class="ttname"><a href="class_camera_base.html#ad8ea8b00adcde2da0f0ee1ef2703df87">CameraBase::getLookAt</a></div><div class="ttdeci">Vector3 getLookAt() const </div><div class="ttdoc">注視点を取得 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:85</div></div>
+<div class="ttc" id="class_camera_base_html_afddab07dc299807c1661e9e4dc6b8553"><div class="ttname"><a href="class_camera_base.html#afddab07dc299807c1661e9e4dc6b8553">CameraBase::getViewMatrix</a></div><div class="ttdeci">const Matrix &amp; getViewMatrix() const </div><div class="ttdoc">ビュー行列を取得 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:92</div></div>
+<div class="ttc" id="class_camera_base_html_ac2f00c1723997b460bb88d164563aefa"><div class="ttname"><a href="class_camera_base.html#ac2f00c1723997b460bb88d164563aefa">CameraBase::getPosition</a></div><div class="ttdeci">Vector3 getPosition() const </div><div class="ttdoc">位置を取得 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:83</div></div>
+<div class="ttc" id="class_camera_base_html_a5848430955f7018261783268b2cd175d"><div class="ttname"><a href="class_camera_base.html#a5848430955f7018261783268b2cd175d">CameraBase::_projMatrix</a></div><div class="ttdeci">Matrix _projMatrix</div><div class="ttdoc">投影行列 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:119</div></div>
+<div class="ttc" id="class_controller_html"><div class="ttname"><a href="class_controller.html">Controller</a></div><div class="ttdoc">コントローラー </div><div class="ttdef"><b>Definition:</b> Controller.h:13</div></div>
+<div class="ttc" id="class_camera_base_html_a86d51d8e5c7d43ead2f59571e59ca151"><div class="ttname"><a href="class_camera_base.html#a86d51d8e5c7d43ead2f59571e59ca151">CameraBase::getProjMatrix</a></div><div class="ttdeci">const Matrix &amp; getProjMatrix() const </div><div class="ttdoc">投影行列の取得 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:94</div></div>
+<div class="ttc" id="class_camera_base_html_aab4dedae85ee16a8aeb397b6c109431f"><div class="ttname"><a href="class_camera_base.html#aab4dedae85ee16a8aeb397b6c109431f">CameraBase::~CameraBase</a></div><div class="ttdeci">virtual ~CameraBase()</div><div class="ttdoc">仮想デストラクタ </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:27</div></div>
+<div class="ttc" id="class_camera_base_html_a3452d98af9a9d4323d8a2d3e6dc966e5"><div class="ttname"><a href="class_camera_base.html#a3452d98af9a9d4323d8a2d3e6dc966e5">CameraBase::_position</a></div><div class="ttdeci">Vector3 _position</div><div class="ttdoc">位置座標 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:106</div></div>
+<div class="ttc" id="class_camera_base_html_a5c20fbbaeb08a28959875bd00c17c6fb"><div class="ttname"><a href="class_camera_base.html#a5c20fbbaeb08a28959875bd00c17c6fb">CameraBase::changeLookAtLength</a></div><div class="ttdeci">void changeLookAtLength(const f32 &amp;change)</div><div class="ttdoc">注視点との距離変更 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:72</div></div>
+<div class="ttc" id="class_camera_base_html_aa5310b2074e4cb732986dc877eeb3af9"><div class="ttname"><a href="class_camera_base.html#aa5310b2074e4cb732986dc877eeb3af9">CameraBase::getMatrix</a></div><div class="ttdeci">const Matrix &amp; getMatrix() const </div><div class="ttdoc">姿勢行列を取得 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:90</div></div>
+<div class="ttc" id="class_camera_base_html_a26a9abf2c69bd35302dfd5546facaa59"><div class="ttname"><a href="class_camera_base.html#a26a9abf2c69bd35302dfd5546facaa59">CameraBase::_rot</a></div><div class="ttdeci">Vector3 _rot</div><div class="ttdoc">角度 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:110</div></div>
+<div class="ttc" id="class_camera_base_html_af5def485a1054f06fc51a5f603fbea03"><div class="ttname"><a href="class_camera_base.html#af5def485a1054f06fc51a5f603fbea03">CameraBase::Enablevibration</a></div><div class="ttdeci">virtual void Enablevibration(f32 vibrationPower)</div><div class="ttdef"><b>Definition:</b> gmCameraBase.cpp:214</div></div>
+<div class="ttc" id="class_camera_base_html_a50b83449318c2f2b2e49d7275f8b52fa"><div class="ttname"><a href="class_camera_base.html#a50b83449318c2f2b2e49d7275f8b52fa">CameraBase::DebugRender</a></div><div class="ttdeci">virtual void DebugRender()</div><div class="ttdoc">デバッグ表示 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.cpp:202</div></div>
+<div class="ttc" id="class_camera_base_html_aa6bd9070970d5e53dffb39e1a1bdad71"><div class="ttname"><a href="class_camera_base.html#aa6bd9070970d5e53dffb39e1a1bdad71">CameraBase::_isVib</a></div><div class="ttdeci">bool _isVib</div><div class="ttdoc">バイブレーション中かどうか </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:120</div></div>
+<div class="ttc" id="class_camera_base_html_a88cd4df08ff2e213d6d02cf3dc4c9078"><div class="ttname"><a href="class_camera_base.html#a88cd4df08ff2e213d6d02cf3dc4c9078">CameraBase::Disablevibration</a></div><div class="ttdeci">virtual void Disablevibration()</div><div class="ttdoc">バイブレーション無効化 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.cpp:234</div></div>
+<div class="ttc" id="class_camera_base_html_a302bc86bb3267b785edcd7d21ff83486"><div class="ttname"><a href="class_camera_base.html#a302bc86bb3267b785edcd7d21ff83486">CameraBase::getWorldUp</a></div><div class="ttdeci">Vector3 getWorldUp() const </div><div class="ttdoc">世界の上方向を取得 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:87</div></div>
+<div class="ttc" id="class_camera_base_html_aa89610f1021ae21eebcbe9e17c557ad1"><div class="ttname"><a href="class_camera_base.html#aa89610f1021ae21eebcbe9e17c557ad1">CameraBase::_lookAt</a></div><div class="ttdeci">Vector3 _lookAt</div><div class="ttdoc">注視点 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.h:108</div></div>
+<div class="ttc" id="class_camera_base_html_a7e0c8252a40bc63d8ba4b7f1aa6fadd4"><div class="ttname"><a href="class_camera_base.html#a7e0c8252a40bc63d8ba4b7f1aa6fadd4">CameraBase::CameraBase</a></div><div class="ttdeci">CameraBase()</div><div class="ttdoc">コンストラクタ </div><div class="ttdef"><b>Definition:</b> gmCameraBase.cpp:14</div></div>
+<div class="ttc" id="class_camera_base_html_ace1504bf2c5af62ce20b3a45d3bd6839"><div class="ttname"><a href="class_camera_base.html#ace1504bf2c5af62ce20b3a45d3bd6839">CameraBase::init</a></div><div class="ttdeci">virtual bool init(Vector3 &amp;lookAt, Vector3 &amp;_rot)</div><div class="ttdoc">初期化 </div><div class="ttdef"><b>Definition:</b> gmCameraBase.cpp:29</div></div>
+<div class="ttc" id="struct_frustum_html"><div class="ttname"><a href="struct_frustum.html">Frustum</a></div><div class="ttdoc">視錐台 </div><div class="ttdef"><b>Definition:</b> gmGeometry.h:533</div></div>
+<div class="ttc" id="class_camera_base_html_aad372a5b9ac60cc249e219080956e15e"><div class="ttname"><a href="class_camera_base.html#aad372a5b9ac60cc249e219080956e15e">CameraBase::moveGoal</a></div><div class="ttdeci">bool moveGoal(Vector3 &amp;goalPos)</div><div class="ttdef"><b>Definition:</b> gmCameraBase.cpp:247</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_b304f6c6273f651fae44313af9022017.html">GameEngine</a></li><li class="navelem"><a class="el" href="dir_21bd8548cd168b7d3b8788f9fb711524.html">src</a></li><li class="navelem"><a class="el" href="gm_camera_base_8h.html">gmCameraBase.h</a></li>
+    <li class="footer">CastleCrashに対してSun Jul 20 2014 17:25:16に生成されました。
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

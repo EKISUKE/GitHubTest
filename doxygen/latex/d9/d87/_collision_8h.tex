@@ -1,0 +1,78 @@
+\hypertarget{_collision_8h}{\section{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Collision.h}
+\label{_collision_8h}\index{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Collision.\-h@{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Collision.\-h}}
+}
+
+
+\hyperlink{class_xE8_xA1_x9D_xE7_xAA_x81_xE5_x88_xA4_xE5_xAE_x9A}{衝突判定}  
+
+
+\subsection*{構成}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_collision}{Collision}
+\item 
+class \hyperlink{class_system_collision}{System\-Collision}
+\item 
+class \hyperlink{class_collision_object}{Collision\-Object}
+\item 
+class \hyperlink{class_system_collision_1_1_object}{System\-Collision\-::\-Object}
+\end{DoxyCompactItemize}
+\subsection*{型定義}
+\begin{DoxyCompactItemize}
+\item 
+typedef vector\\*
+$<$ \hyperlink{class_system_collision_1_1_object}{System\-Collision\-::\-Object} $>$ \hyperlink{_collision_8h_add60e9fcb14998e17e990b4a54b4f336}{vec\-Col}
+\end{DoxyCompactItemize}
+\subsection*{関数}
+\begin{DoxyCompactItemize}
+\item 
+\-\_\-\-\_\-forceinline \hyperlink{class_system_collision}{System\-Collision} $\ast$ \hyperlink{_collision_8h_a1c711b386e73b8f5dd6ebfd2c66b513f}{I\-System\-Collision} ()
+\item 
+\hyperlink{class_system_collision_1_1_object}{System\-Collision\-::\-Object} \hyperlink{_collision_8h_a7c41e677627d514b76e63c524fd90fcf}{load\-M\-Q\-O} (\hyperlink{class_model}{Model} $\ast$p\-Model, \hyperlink{_collision_8h_add60e9fcb14998e17e990b4a54b4f336}{vec\-Col} \&\-\_\-dst, \hyperlink{_main_8h_a0ce6887c26c1c49ad3be5710dd42bfd6}{s32} vec\-Index, \hyperlink{struct_vector3}{Vector3} \&max, \hyperlink{struct_vector3}{Vector3} \&min)
+\end{DoxyCompactItemize}
+
+
+\subsection{説明}
+\hyperlink{class_xE8_xA1_x9D_xE7_xAA_x81_xE5_x88_xA4_xE5_xAE_x9A}{衝突判定} \begin{DoxyAuthor}{作者}
+Yuki\-Ishigaki 
+\end{DoxyAuthor}
+
+
+\subsection{型定義}
+\hypertarget{_collision_8h_add60e9fcb14998e17e990b4a54b4f336}{\index{Collision.\-h@{Collision.\-h}!vec\-Col@{vec\-Col}}
+\index{vec\-Col@{vec\-Col}!Collision.h@{Collision.\-h}}
+\subsubsection[{vec\-Col}]{\setlength{\rightskip}{0pt plus 5cm}typedef vector$<${\bf System\-Collision\-::\-Object}$>$ {\bf vec\-Col}}}\label{_collision_8h_add60e9fcb14998e17e990b4a54b4f336}
+
+
+\subsection{関数}
+\hypertarget{_collision_8h_a1c711b386e73b8f5dd6ebfd2c66b513f}{\index{Collision.\-h@{Collision.\-h}!I\-System\-Collision@{I\-System\-Collision}}
+\index{I\-System\-Collision@{I\-System\-Collision}!Collision.h@{Collision.\-h}}
+\subsubsection[{I\-System\-Collision}]{\setlength{\rightskip}{0pt plus 5cm}\-\_\-\-\_\-forceinline {\bf System\-Collision}$\ast$ I\-System\-Collision (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{_collision_8h_a1c711b386e73b8f5dd6ebfd2c66b513f}
+\hypertarget{_collision_8h_a7c41e677627d514b76e63c524fd90fcf}{\index{Collision.\-h@{Collision.\-h}!load\-M\-Q\-O@{load\-M\-Q\-O}}
+\index{load\-M\-Q\-O@{load\-M\-Q\-O}!Collision.h@{Collision.\-h}}
+\subsubsection[{load\-M\-Q\-O}]{\setlength{\rightskip}{0pt plus 5cm}{\bf System\-Collision\-::\-Object} load\-M\-Q\-O (
+\begin{DoxyParamCaption}
+\item[{{\bf Model} $\ast$}]{p\-Model, }
+\item[{{\bf vec\-Col} \&}]{\-\_\-dst, }
+\item[{{\bf s32}}]{vec\-Index, }
+\item[{{\bf Vector3} \&}]{max, }
+\item[{{\bf Vector3} \&}]{min}
+\end{DoxyParamCaption}
+)}}\label{_collision_8h_a7c41e677627d514b76e63c524fd90fcf}
+M\-Q\-Oファイルからポリゴンデーターを返す 
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em p\-Model} & M\-Q\-Oファイル \\
+\hline
+\mbox{\tt in}  & {\em dst} & 読み込み結果保存先 \\
+\hline
+\mbox{\tt in}  & {\em vec\-Index} & 当たり判定オブジェクトのインデックス番号 \\
+\hline
+\mbox{\tt in}  & {\em max} & 最大座標(\-X\-Z)保存用 \\
+\hline
+\mbox{\tt in}  & {\em min} & 最小座標(\-X\-Z)保存用 \\
+\hline
+\end{DoxyParams}

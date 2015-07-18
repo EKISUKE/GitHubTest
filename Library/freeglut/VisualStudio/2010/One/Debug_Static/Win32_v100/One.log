@@ -1,0 +1,25 @@
+﻿2013/04/20 19:34:48 にビルドを開始しました。
+     1>ノード 5 上のプロジェクト "D:\develop\freeglut-2.8.1\VisualStudio\2010\One\One.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug_Static\Win32_v100\One.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         すべての出力が最新のものです。
+       ManifestResourceCompile:
+         すべての出力が最新のものです。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\progs\demos\x86\debug_static\One.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\lib\x86\debug\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug_Static\Win32_v100\One.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\develop\freeglut-2.8.1\progs\demos\x86\debug_static\One.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\progs\demos\x86\debug_static\One.lib" /MACHINE:X86 Debug_Static\Win32_v100\One.exe.embed.manifest.res
+         Debug_Static\Win32_v100\one.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug_Static\Win32_v100\One.exe.embed.manifest" /manifest Debug_Static\Win32_v100\One.exe.intermediate.manifest
+         すべての出力が最新のものです。
+       LinkEmbedManifest:
+         すべての出力が最新のものです。
+         One.vcxproj -> D:\develop\freeglut-2.8.1\VisualStudio\2010\One\..\..\..\progs\demos\x86\debug_static\One.exe
+       FinalizeBuildStatus:
+         ファイル "Debug_Static\Win32_v100\One.unsuccessfulbuild" を削除しています。
+         "Debug_Static\Win32_v100\One.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "D:\develop\freeglut-2.8.1\VisualStudio\2010\One\One.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:00.35

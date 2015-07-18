@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A9061725-E62E-4D55-BBB6-77FCE6587517}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GameEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>../../Library;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>../../Library/glew\lib;../../Library/freeglut\lib\x86\Debug;../../Library/fmod\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>../../Library;$(IncludePath)</IncludePath>
+    <LibraryPath>../../Library/glew\lib;../../Library/freeglut\lib\x86\Release;../../Library/fmod\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>
+      </Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\gmAABBTree.cpp" />
+    <ClCompile Include="..\src\gmAssetBase.cpp" />
+    <ClCompile Include="..\src\gmAssetModelX.cpp" />
+    <ClCompile Include="..\src\gmAssetTexture.cpp" />
+    <ClCompile Include="..\src\gmBase.cpp" />
+    <ClCompile Include="..\src\gmCamera.cpp" />
+    <ClCompile Include="..\src\gmCameraBase.cpp" />
+    <ClCompile Include="..\src\gmCameraManager.cpp" />
+    <ClCompile Include="..\src\gmCollision.cpp" />
+    <ClCompile Include="..\src\gmCollisionManager.cpp" />
+    <ClCompile Include="..\src\gmCollisionWall.cpp" />
+    <ClCompile Include="..\src\gmController.cpp" />
+    <ClCompile Include="..\src\gmControllerManager.cpp" />
+    <ClCompile Include="..\src\gmFragmentShader.cpp" />
+    <ClCompile Include="..\src\gmGeometry.cpp" />
+    <ClCompile Include="..\src\gmHDRTexReader.cpp" />
+    <ClCompile Include="..\src\gmLandScape.cpp" />
+    <ClCompile Include="..\src\gmMatrix.cpp" />
+    <ClCompile Include="..\src\gmMouse.cpp" />
+    <ClCompile Include="..\src\gmMouseManager.cpp" />
+    <ClCompile Include="..\src\gmProfiler.cpp" />
+    <ClCompile Include="..\src\gmProgramShader.cpp" />
+    <ClCompile Include="..\src\gmQuaternion.cpp" />
+    <ClCompile Include="..\src\gmRefCounter.cpp" />
+    <ClCompile Include="..\src\gmSceneBase.cpp" />
+    <ClCompile Include="..\src\gmShaderObjectBase.cpp" />
+    <ClCompile Include="..\src\gmSystem.cpp" />
+    <ClCompile Include="..\src\gmSystemAsset.cpp" />
+    <ClCompile Include="..\src\gmSystemMain.cpp" />
+    <ClCompile Include="..\src\gmSystemRender.cpp" />
+    <ClCompile Include="..\src\gmSystemScene.cpp" />
+    <ClCompile Include="..\src\gmSystemShader.cpp" />
+    <ClCompile Include="..\src\gmTaskBase.cpp" />
+    <ClCompile Include="..\src\gmTaskFilter.cpp" />
+    <ClCompile Include="..\src\gmTaskFilterBloom.cpp" />
+    <ClCompile Include="..\src\gmTaskFilterGaussian.cpp" />
+    <ClCompile Include="..\src\gmTaskFilterGlare.cpp" />
+    <ClCompile Include="..\src\gmTaskFilterLensFlare.cpp" />
+    <ClCompile Include="..\src\gmTaskFilterMotionBlur.cpp" />
+    <ClCompile Include="..\src\gmTaskFilterTonemapping.cpp" />
+    <ClCompile Include="..\src\gmTaskModelX.cpp" />
+    <ClCompile Include="..\src\gmTimer.cpp" />
+    <ClCompile Include="..\src\gmType.cpp" />
+    <ClCompile Include="..\src\gmTypedef.cpp" />
+    <ClCompile Include="..\src\gmVector.cpp" />
+    <ClCompile Include="..\src\gmVertexArrayObject.cpp" />
+    <ClCompile Include="..\src\gmVertexShader.cpp" />
+    <ClCompile Include="..\src\gmWindowInfo.cpp" />
+    <ClCompile Include="..\src\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\src\gmTexture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\gmAABBTree.h" />
+    <ClInclude Include="..\src\gmAssetBase.h" />
+    <ClInclude Include="..\src\gmAssetModelX.h" />
+    <ClInclude Include="..\src\gmAssetTexture.h" />
+    <ClInclude Include="..\src\gmBase.h" />
+    <ClInclude Include="..\src\gmCamera.h" />
+    <ClInclude Include="..\src\gmCameraBase.h" />
+    <ClInclude Include="..\src\gmCameraManager.h" />
+    <ClInclude Include="..\src\gmCollision.h" />
+    <ClInclude Include="..\src\gmCollisionManager.h" />
+    <ClInclude Include="..\src\gmCollisionWall.h" />
+    <ClInclude Include="..\src\gmController.h" />
+    <ClInclude Include="..\src\gmControllerManager.h" />
+    <ClInclude Include="..\src\gmFragmentShader.h" />
+    <ClInclude Include="..\src\gmGeometry.h" />
+    <ClInclude Include="..\src\gmHDRTexReader.h" />
+    <ClInclude Include="..\src\gmLandScape.h" />
+    <ClInclude Include="..\src\gmLibrary.h" />
+    <ClInclude Include="..\src\gmMatrix.h" />
+    <ClInclude Include="..\src\gmMouse.h" />
+    <ClInclude Include="..\src\gmMouseManager.h" />
+    <ClInclude Include="..\src\gmProfiler.h" />
+    <ClInclude Include="..\src\gmProgramShader.h" />
+    <ClInclude Include="..\src\gmQuaternion.h" />
+    <ClInclude Include="..\src\gmRefCounter.h" />
+    <ClInclude Include="..\src\gmSceneBase.h" />
+    <ClInclude Include="..\src\gmShaderObjectBase.h" />
+    <ClInclude Include="..\src\gmSystem.h" />
+    <ClInclude Include="..\src\gmSystemAsset.h" />
+    <ClInclude Include="..\src\gmSystemMain.h" />
+    <ClInclude Include="..\src\gmSystemRender.h" />
+    <ClInclude Include="..\src\gmSystemScene.h" />
+    <ClInclude Include="..\src\gmSystemShader.h" />
+    <ClInclude Include="..\src\gmTaskBase.h" />
+    <ClInclude Include="..\src\gmTaskFilter.h" />
+    <ClInclude Include="..\src\gmTaskFilterBloom.h" />
+    <ClInclude Include="..\src\gmTaskFilterGaussian.h" />
+    <ClInclude Include="..\src\gmTaskFilterGlare.h" />
+    <ClInclude Include="..\src\gmTaskFilterLensFlare.h" />
+    <ClInclude Include="..\src\gmTaskFilterMotionBlur.h" />
+    <ClInclude Include="..\src\gmTaskFilterTonemapping.h" />
+    <ClInclude Include="..\src\gmTaskModelX.h" />
+    <ClInclude Include="..\src\gmTimer.h" />
+    <ClInclude Include="..\src\gmType.h" />
+    <ClInclude Include="..\src\gmTypedef.h" />
+    <ClInclude Include="..\src\gmVector.h" />
+    <ClInclude Include="..\src\gmVertexArrayObject.h" />
+    <ClInclude Include="..\src\gmVertexShader.h" />
+    <ClInclude Include="..\src\gmWindowInfo.h" />
+    <ClInclude Include="..\src\stdafx.h" />
+    <ClInclude Include="..\src\targetver.h" />
+    <ClInclude Include="..\src\gmTexture.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

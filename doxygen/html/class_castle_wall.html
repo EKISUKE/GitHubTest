@@ -1,0 +1,589 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>CastleCrash: クラス CastleWall</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">CastleCrash
+   &#160;<span id="projectnumber">2014/07/20</span>
+   </div>
+   <div id="projectbrief">Yuki Ishigaki</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>メインページ</span></a></li>
+      <li><a href="namespaces.html"><span>ネームスペース</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>構成</span></a></li>
+      <li><a href="classes.html"><span>構成索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>構成メンバ</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_castle_wall.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>ネームスペース</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>型定義</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>列挙型</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>列挙型の値</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>フレンド</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>マクロ定義</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pro-attribs">Protected 変数</a> &#124;
+<a href="class_castle_wall-members.html">すべてのメンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">クラス CastleWall</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>城壁一つ分  
+ <a href="class_castle_wall.html#details">[詳細]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_map_8h_source.html">Map.h</a>&gt;</code></p>
+<div class="dynheader">
+CastleWallに対する継承グラフ</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_castle_wall.png" usemap="#CastleWall_map" alt=""/>
+  <map id="CastleWall_map" name="CastleWall_map">
+<area href="class_collision_object.html" title="オブジェクト当たり判定用 " alt="CollisionObject" shape="rect" coords="0,0,97,24"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public メソッド</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">初期化</div></td></tr>
+<tr class="memitem:ab9f96e6616c18f657e8df4703b7d5eec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#ab9f96e6616c18f657e8df4703b7d5eec">CastleWall</a> (<a class="el" href="class_asset_model_x_1_1_frame.html">AssetModelX::Frame</a> *wall)</td></tr>
+<tr class="memdesc:ab9f96e6616c18f657e8df4703b7d5eec"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ  <a href="#ab9f96e6616c18f657e8df4703b7d5eec">[詳細]</a><br/></td></tr>
+<tr class="separator:ab9f96e6616c18f657e8df4703b7d5eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24b57b6d45cf42c656ea9780377d061e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#a24b57b6d45cf42c656ea9780377d061e">~CastleWall</a> ()</td></tr>
+<tr class="memdesc:a24b57b6d45cf42c656ea9780377d061e"><td class="mdescLeft">&#160;</td><td class="mdescRight">デストラクタ  <a href="#a24b57b6d45cf42c656ea9780377d061e">[詳細]</a><br/></td></tr>
+<tr class="separator:a24b57b6d45cf42c656ea9780377d061e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac54f533305cdf7e2f3a5403c74d90db7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#ac54f533305cdf7e2f3a5403c74d90db7">Initialize</a> ()</td></tr>
+<tr class="memdesc:ac54f533305cdf7e2f3a5403c74d90db7"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化  <a href="#ac54f533305cdf7e2f3a5403c74d90db7">[詳細]</a><br/></td></tr>
+<tr class="separator:ac54f533305cdf7e2f3a5403c74d90db7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">タスク関数</div></td></tr>
+<tr class="memitem:a28e6f7c859aaab114467bf939dd520b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#a28e6f7c859aaab114467bf939dd520b4">Update</a> ()</td></tr>
+<tr class="memdesc:a28e6f7c859aaab114467bf939dd520b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">更新  <a href="#a28e6f7c859aaab114467bf939dd520b4">[詳細]</a><br/></td></tr>
+<tr class="separator:a28e6f7c859aaab114467bf939dd520b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbc85d50beb9efcdc1a2e3b2e4f8e544"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#acbc85d50beb9efcdc1a2e3b2e4f8e544">debugRender</a> ()</td></tr>
+<tr class="memdesc:acbc85d50beb9efcdc1a2e3b2e4f8e544"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバッグ描画  <a href="#acbc85d50beb9efcdc1a2e3b2e4f8e544">[詳細]</a><br/></td></tr>
+<tr class="separator:acbc85d50beb9efcdc1a2e3b2e4f8e544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a279d276c987e582babafc5d6bc3cc75e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#a279d276c987e582babafc5d6bc3cc75e">Crash</a> ()</td></tr>
+<tr class="memdesc:a279d276c987e582babafc5d6bc3cc75e"><td class="mdescLeft">&#160;</td><td class="mdescRight">壁が崩れる  <a href="#a279d276c987e582babafc5d6bc3cc75e">[詳細]</a><br/></td></tr>
+<tr class="separator:a279d276c987e582babafc5d6bc3cc75e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a133e472b1243c1c136996d74fb8bc085"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#a133e472b1243c1c136996d74fb8bc085">Vibration</a> ()</td></tr>
+<tr class="memdesc:a133e472b1243c1c136996d74fb8bc085"><td class="mdescLeft">&#160;</td><td class="mdescRight">ぶれ  <a href="#a133e472b1243c1c136996d74fb8bc085">[詳細]</a><br/></td></tr>
+<tr class="separator:a133e472b1243c1c136996d74fb8bc085"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e5722804435b6c0facfe67bfa256137"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#a6e5722804435b6c0facfe67bfa256137">Damage</a> (<a class="el" href="gm_typedef_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> damage)</td></tr>
+<tr class="memdesc:a6e5722804435b6c0facfe67bfa256137"><td class="mdescLeft">&#160;</td><td class="mdescRight">ダメージ  <a href="#a6e5722804435b6c0facfe67bfa256137">[詳細]</a><br/></td></tr>
+<tr class="separator:a6e5722804435b6c0facfe67bfa256137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">取得・参照</div></td></tr>
+<tr class="memitem:a6da6b1d97c904f98155ed2e16ecf6dba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_a_a_b_b.html">AABB</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#a6da6b1d97c904f98155ed2e16ecf6dba">getAABB</a> ()</td></tr>
+<tr class="memdesc:a6da6b1d97c904f98155ed2e16ecf6dba"><td class="mdescLeft">&#160;</td><td class="mdescRight">AABBデータ取得  <a href="#a6da6b1d97c904f98155ed2e16ecf6dba">[詳細]</a><br/></td></tr>
+<tr class="separator:a6da6b1d97c904f98155ed2e16ecf6dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a699590311a8ee97ef6cc4195ef596816"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#a699590311a8ee97ef6cc4195ef596816">isCrash</a> () const </td></tr>
+<tr class="memdesc:a699590311a8ee97ef6cc4195ef596816"><td class="mdescLeft">&#160;</td><td class="mdescRight">壊れているかどうか  <a href="#a699590311a8ee97ef6cc4195ef596816">[詳細]</a><br/></td></tr>
+<tr class="separator:a699590311a8ee97ef6cc4195ef596816"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_collision_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_collision_object')"><img src="closed.png" alt="-"/>&#160;Public メソッド inherited from <a class="el" href="class_collision_object.html">CollisionObject</a></td></tr>
+<tr class="memitem:ac9677c53a2edb172dca4703e759379bf inherit pub_methods_class_collision_object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_object.html#ac9677c53a2edb172dca4703e759379bf">CollisionObject</a> ()</td></tr>
+<tr class="memdesc:ac9677c53a2edb172dca4703e759379bf inherit pub_methods_class_collision_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">デフォルトコンストラクタ  <a href="#ac9677c53a2edb172dca4703e759379bf">[詳細]</a><br/></td></tr>
+<tr class="separator:ac9677c53a2edb172dca4703e759379bf inherit pub_methods_class_collision_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2891150c91ae9267f846449ebe3c709 inherit pub_methods_class_collision_object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_object.html#ab2891150c91ae9267f846449ebe3c709">CollisionObject</a> (<a class="el" href="struct_vector3.html">Vector3</a> &amp;pos, <a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> radius)</td></tr>
+<tr class="memdesc:ab2891150c91ae9267f846449ebe3c709 inherit pub_methods_class_collision_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ  <a href="#ab2891150c91ae9267f846449ebe3c709">[詳細]</a><br/></td></tr>
+<tr class="separator:ab2891150c91ae9267f846449ebe3c709 inherit pub_methods_class_collision_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a9ad3b2608c2737c2bc69a2b2791094 inherit pub_methods_class_collision_object"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_object.html#a8a9ad3b2608c2737c2bc69a2b2791094">setSphereParam</a> (<a class="el" href="struct_vector3.html">Vector3</a> &amp;pos, <a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> radius)</td></tr>
+<tr class="memdesc:a8a9ad3b2608c2737c2bc69a2b2791094 inherit pub_methods_class_collision_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">球情報設定  <a href="#a8a9ad3b2608c2737c2bc69a2b2791094">[詳細]</a><br/></td></tr>
+<tr class="separator:a8a9ad3b2608c2737c2bc69a2b2791094 inherit pub_methods_class_collision_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2574ee166a554985f4ea60ddd57f27db inherit pub_methods_class_collision_object"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_object.html#a2574ee166a554985f4ea60ddd57f27db">isHitObj</a> (<a class="el" href="class_obj_base.html">ObjBase</a> *obj)</td></tr>
+<tr class="separator:a2574ee166a554985f4ea60ddd57f27db inherit pub_methods_class_collision_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab006cfd3dc853eda7729a7b7e07a1d25 inherit pub_methods_class_collision_object"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_object.html#ab006cfd3dc853eda7729a7b7e07a1d25">isHitSphere</a> (<a class="el" href="struct_sphere.html">Sphere</a> &amp;attackSphere)</td></tr>
+<tr class="separator:ab006cfd3dc853eda7729a7b7e07a1d25 inherit pub_methods_class_collision_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afba2c3a210f9c209e37f1d1b902e23b8 inherit pub_methods_class_collision_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sphere.html">Sphere</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_object.html#afba2c3a210f9c209e37f1d1b902e23b8">getHitSphere</a> ()</td></tr>
+<tr class="memdesc:afba2c3a210f9c209e37f1d1b902e23b8 inherit pub_methods_class_collision_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">当たり判定用の球の取得  <a href="#afba2c3a210f9c209e37f1d1b902e23b8">[詳細]</a><br/></td></tr>
+<tr class="separator:afba2c3a210f9c209e37f1d1b902e23b8 inherit pub_methods_class_collision_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 変数</h2></td></tr>
+<tr class="memitem:a4c7b392af8d00109092f17cbe169b8e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#a4c7b392af8d00109092f17cbe169b8e8">_drawPosition</a></td></tr>
+<tr class="memdesc:a4c7b392af8d00109092f17cbe169b8e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">描画座標  <a href="#a4c7b392af8d00109092f17cbe169b8e8">[詳細]</a><br/></td></tr>
+<tr class="separator:a4c7b392af8d00109092f17cbe169b8e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c821b732dd44bd8378f6f4b54187b81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#a4c821b732dd44bd8378f6f4b54187b81">_rotation</a></td></tr>
+<tr class="memdesc:a4c821b732dd44bd8378f6f4b54187b81"><td class="mdescLeft">&#160;</td><td class="mdescRight">角度  <a href="#a4c821b732dd44bd8378f6f4b54187b81">[詳細]</a><br/></td></tr>
+<tr class="separator:a4c821b732dd44bd8378f6f4b54187b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12f738e5292385e044bd227e25a382a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_asset_model_x_1_1_frame.html">AssetModelX::Frame</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#a12f738e5292385e044bd227e25a382a0">_wallModel</a></td></tr>
+<tr class="memdesc:a12f738e5292385e044bd227e25a382a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">壁モデル(フレームのポインタ)  <a href="#a12f738e5292385e044bd227e25a382a0">[詳細]</a><br/></td></tr>
+<tr class="separator:a12f738e5292385e044bd227e25a382a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae76a997521d8016155ba5678a5ed925"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_a_a_b_b.html">AABB</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#aae76a997521d8016155ba5678a5ed925">_colAABB</a></td></tr>
+<tr class="memdesc:aae76a997521d8016155ba5678a5ed925"><td class="mdescLeft">&#160;</td><td class="mdescRight">当たり判定用AABB  <a href="#aae76a997521d8016155ba5678a5ed925">[詳細]</a><br/></td></tr>
+<tr class="separator:aae76a997521d8016155ba5678a5ed925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8274e291ec9e3487a971b2fcb10ede8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_object_status.html">ObjectStatus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#ab8274e291ec9e3487a971b2fcb10ede8">_myStatus</a></td></tr>
+<tr class="memdesc:ab8274e291ec9e3487a971b2fcb10ede8"><td class="mdescLeft">&#160;</td><td class="mdescRight">ステータスの構造体  <a href="#ab8274e291ec9e3487a971b2fcb10ede8">[詳細]</a><br/></td></tr>
+<tr class="separator:ab8274e291ec9e3487a971b2fcb10ede8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad613e39c7e681d1b001e363c19c3a83"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#aad613e39c7e681d1b001e363c19c3a83">_isCrash</a></td></tr>
+<tr class="memdesc:aad613e39c7e681d1b001e363c19c3a83"><td class="mdescLeft">&#160;</td><td class="mdescRight">破壊されたかどうか  <a href="#aad613e39c7e681d1b001e363c19c3a83">[詳細]</a><br/></td></tr>
+<tr class="separator:aad613e39c7e681d1b001e363c19c3a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4a87381740843a219e5de4cdfbd8576"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_castle_wall.html#ad4a87381740843a219e5de4cdfbd8576">_isDamage</a></td></tr>
+<tr class="memdesc:ad4a87381740843a219e5de4cdfbd8576"><td class="mdescLeft">&#160;</td><td class="mdescRight">ダメージ  <a href="#ad4a87381740843a219e5de4cdfbd8576">[詳細]</a><br/></td></tr>
+<tr class="separator:ad4a87381740843a219e5de4cdfbd8576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_collision_object"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_collision_object')"><img src="closed.png" alt="-"/>&#160;Protected 変数 inherited from <a class="el" href="class_collision_object.html">CollisionObject</a></td></tr>
+<tr class="memitem:afd1c8612ad380f08cf3f2a5bf4b3daab inherit pro_attribs_class_collision_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_sphere.html">Sphere</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_object.html#afd1c8612ad380f08cf3f2a5bf4b3daab">_hitSphere</a></td></tr>
+<tr class="memdesc:afd1c8612ad380f08cf3f2a5bf4b3daab inherit pro_attribs_class_collision_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">当たり判定用の球  <a href="#afd1c8612ad380f08cf3f2a5bf4b3daab">[詳細]</a><br/></td></tr>
+<tr class="separator:afd1c8612ad380f08cf3f2a5bf4b3daab inherit pro_attribs_class_collision_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">説明</h2>
+<div class="textblock"><p>城壁一つ分 </p>
+</div><h2 class="groupheader">コンストラクタとデストラクタ</h2>
+<a class="anchor" id="ab9f96e6616c18f657e8df4703b7d5eec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CastleWall::CastleWall </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_asset_model_x_1_1_frame.html">AssetModelX::Frame</a> *&#160;</td>
+          <td class="paramname"><em>wall</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>コンストラクタ </p>
+<p>コンストラクタ </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">wall</td><td>城壁のフレームのポインター </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a24b57b6d45cf42c656ea9780377d061e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CastleWall::~CastleWall </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>デストラクタ </p>
+
+</div>
+</div>
+<h2 class="groupheader">関数</h2>
+<a class="anchor" id="a279d276c987e582babafc5d6bc3cc75e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CastleWall::Crash </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>壁が崩れる </p>
+
+</div>
+</div>
+<a class="anchor" id="a6e5722804435b6c0facfe67bfa256137"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CastleWall::Damage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gm_typedef_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramname"><em>damage</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ダメージ </p>
+
+</div>
+</div>
+<a class="anchor" id="acbc85d50beb9efcdc1a2e3b2e4f8e544"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CastleWall::debugRender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>デバッグ描画 </p>
+
+</div>
+</div>
+<a class="anchor" id="a6da6b1d97c904f98155ed2e16ecf6dba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_a_a_b_b.html">AABB</a>&amp; CastleWall::getAABB </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>AABBデータ取得 </p>
+
+</div>
+</div>
+<a class="anchor" id="ac54f533305cdf7e2f3a5403c74d90db7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CastleWall::Initialize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初期化 </p>
+
+</div>
+</div>
+<a class="anchor" id="a699590311a8ee97ef6cc4195ef596816"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CastleWall::isCrash </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>壊れているかどうか </p>
+
+</div>
+</div>
+<a class="anchor" id="a28e6f7c859aaab114467bf939dd520b4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CastleWall::Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>更新 </p>
+
+</div>
+</div>
+<a class="anchor" id="a133e472b1243c1c136996d74fb8bc085"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CastleWall::Vibration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ぶれ </p>
+
+</div>
+</div>
+<h2 class="groupheader">変数</h2>
+<a class="anchor" id="aae76a997521d8016155ba5678a5ed925"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_a_a_b_b.html">AABB</a> CastleWall::_colAABB</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>当たり判定用AABB </p>
+
+</div>
+</div>
+<a class="anchor" id="a4c7b392af8d00109092f17cbe169b8e8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_vector3.html">Vector3</a> CastleWall::_drawPosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>描画座標 </p>
+
+</div>
+</div>
+<a class="anchor" id="aad613e39c7e681d1b001e363c19c3a83"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CastleWall::_isCrash</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>破壊されたかどうか </p>
+
+</div>
+</div>
+<a class="anchor" id="ad4a87381740843a219e5de4cdfbd8576"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CastleWall::_isDamage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ダメージ </p>
+
+</div>
+</div>
+<a class="anchor" id="ab8274e291ec9e3487a971b2fcb10ede8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_object_status.html">ObjectStatus</a>* CastleWall::_myStatus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ステータスの構造体 </p>
+
+</div>
+</div>
+<a class="anchor" id="a4c821b732dd44bd8378f6f4b54187b81"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> CastleWall::_rotation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>角度 </p>
+
+</div>
+</div>
+<a class="anchor" id="a12f738e5292385e044bd227e25a382a0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_asset_model_x_1_1_frame.html">AssetModelX::Frame</a>* CastleWall::_wallModel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>壁モデル(フレームのポインタ) </p>
+
+</div>
+</div>
+<hr/>このクラスの説明は次のファイルから生成されました:<ul>
+<li>D:/OCA/OCA_BackUp/OpenGL/WithGameEngineProj/GameWithLibrary/Game/src/<a class="el" href="_map_8h_source.html">Map.h</a></li>
+<li>D:/OCA/OCA_BackUp/OpenGL/WithGameEngineProj/GameWithLibrary/Game/src/<a class="el" href="_map_8cpp.html">Map.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_castle_wall.html">CastleWall</a></li>
+    <li class="footer">CastleCrashに対してSun Jul 20 2014 17:25:18に生成されました。
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

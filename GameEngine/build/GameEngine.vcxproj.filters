@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="システム%28System%29">
+      <UniqueIdentifier>{86997bc6-f9e0-425f-b44e-7f99a313fee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コア%28Core%29">
+      <UniqueIdentifier>{f037f680-e4c5-4e75-9dd9-9f5295467afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン%28Scene%29">
+      <UniqueIdentifier>{7cca215e-0bf1-4640-b284-61bf8b2bec54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="アセット%28Asset%29">
+      <UniqueIdentifier>{f4a75952-175e-4fdf-9309-99c1b9c766a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="描画%28Render%29">
+      <UniqueIdentifier>{32671829-7627-4eab-8615-7589e30d8663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダ%28Shader%29">
+      <UniqueIdentifier>{1c742303-b8d0-441f-8068-5d679e941f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="操作%28Key%29">
+      <UniqueIdentifier>{1306a1df-cc09-498f-834c-713be9e95306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="タスク%28Task%29">
+      <UniqueIdentifier>{a12b24d0-bfff-441b-8880-b19a2a778fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="カメラ%28Camera%29">
+      <UniqueIdentifier>{52de675e-2d1c-44ce-a6c9-5e92dad47e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="当たり判定%28Collision%29">
+      <UniqueIdentifier>{d63e24ce-7a69-427e-bdda-ae02312411d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="タスク%28Task%29\ポストエフェクト%28Post Process%29">
+      <UniqueIdentifier>{92aaf09a-6fb8-42b9-ba5d-5e559add886c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmSystemMain.cpp">
+      <Filter>システム%28System%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmSystemScene.cpp">
+      <Filter>システム%28System%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmSystemRender.cpp">
+      <Filter>システム%28System%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmBase.cpp">
+      <Filter>コア%28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmType.cpp">
+      <Filter>コア%28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmSceneBase.cpp">
+      <Filter>シーン%28Scene%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmAssetTexture.cpp">
+      <Filter>アセット%28Asset%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmAssetBase.cpp">
+      <Filter>アセット%28Asset%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmSystemAsset.cpp">
+      <Filter>システム%28System%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmTexture.cpp">
+      <Filter>描画%28Render%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmVertexShader.cpp">
+      <Filter>シェーダ%28Shader%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmFragmentShader.cpp">
+      <Filter>シェーダ%28Shader%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmProgramShader.cpp">
+      <Filter>シェーダ%28Shader%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmSystemShader.cpp">
+      <Filter>システム%28System%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmShaderObjectBase.cpp">
+      <Filter>シェーダ%28Shader%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmController.cpp">
+      <Filter>操作%28Key%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmControllerManager.cpp">
+      <Filter>操作%28Key%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmMatrix.cpp">
+      <Filter>コア%28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmVector.cpp">
+      <Filter>コア%28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmSystem.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmMouse.cpp">
+      <Filter>操作%28Key%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmMouseManager.cpp">
+      <Filter>操作%28Key%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmTimer.cpp">
+      <Filter>コア%28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmProfiler.cpp">
+      <Filter>コア%28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmTaskModelX.cpp">
+      <Filter>タスク%28Task%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmQuaternion.cpp">
+      <Filter>コア%28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmRefCounter.cpp">
+      <Filter>コア%28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmAssetModelX.cpp">
+      <Filter>アセット%28Asset%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmVertexArrayObject.cpp">
+      <Filter>シェーダ%28Shader%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmGeometry.cpp">
+      <Filter>コア%28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmCamera.cpp">
+      <Filter>カメラ%28Camera%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmCameraBase.cpp">
+      <Filter>カメラ%28Camera%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmCameraManager.cpp">
+      <Filter>カメラ%28Camera%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmAABBTree.cpp">
+      <Filter>当たり判定%28Collision%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmLandScape.cpp">
+      <Filter>当たり判定%28Collision%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmCollision.cpp">
+      <Filter>当たり判定%28Collision%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmCollisionManager.cpp">
+      <Filter>当たり判定%28Collision%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmCollisionWall.cpp">
+      <Filter>当たり判定%28Collision%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmTaskFilter.cpp">
+      <Filter>タスク%28Task%29\ポストエフェクト%28Post Process%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmTaskFilterBloom.cpp">
+      <Filter>タスク%28Task%29\ポストエフェクト%28Post Process%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmTaskFilterGlare.cpp">
+      <Filter>タスク%28Task%29\ポストエフェクト%28Post Process%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmTaskFilterLensFlare.cpp">
+      <Filter>タスク%28Task%29\ポストエフェクト%28Post Process%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmTaskFilterMotionBlur.cpp">
+      <Filter>タスク%28Task%29\ポストエフェクト%28Post Process%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmTaskFilterTonemapping.cpp">
+      <Filter>タスク%28Task%29\ポストエフェクト%28Post Process%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmHDRTexReader.cpp">
+      <Filter>描画%28Render%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmTaskBase.cpp">
+      <Filter>タスク%28Task%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmTypedef.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmWindowInfo.cpp">
+      <Filter>コア%28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmTaskFilterGaussian.cpp">
+      <Filter>タスク%28Task%29\ポストエフェクト%28Post Process%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmTypedef.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmSystemMain.h">
+      <Filter>システム%28System%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmSystemScene.h">
+      <Filter>システム%28System%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmSystemRender.h">
+      <Filter>システム%28System%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmBase.h">
+      <Filter>コア%28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmType.h">
+      <Filter>コア%28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmSceneBase.h">
+      <Filter>シーン%28Scene%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmAssetTexture.h">
+      <Filter>アセット%28Asset%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmAssetBase.h">
+      <Filter>アセット%28Asset%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmSystemAsset.h">
+      <Filter>システム%28System%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmTexture.h">
+      <Filter>描画%28Render%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmVertexShader.h">
+      <Filter>シェーダ%28Shader%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmFragmentShader.h">
+      <Filter>シェーダ%28Shader%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmProgramShader.h">
+      <Filter>シェーダ%28Shader%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmSystemShader.h">
+      <Filter>システム%28System%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmShaderObjectBase.h">
+      <Filter>シェーダ%28Shader%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmController.h">
+      <Filter>操作%28Key%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmControllerManager.h">
+      <Filter>操作%28Key%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmMatrix.h">
+      <Filter>コア%28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmVector.h">
+      <Filter>コア%28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmSystem.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmMouse.h">
+      <Filter>操作%28Key%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmMouseManager.h">
+      <Filter>操作%28Key%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmTimer.h">
+      <Filter>コア%28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmTaskBase.h">
+      <Filter>タスク%28Task%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmProfiler.h">
+      <Filter>コア%28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmLibrary.h" />
+    <ClInclude Include="..\src\stdafx.h" />
+    <ClInclude Include="..\src\gmTaskModelX.h">
+      <Filter>タスク%28Task%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmQuaternion.h">
+      <Filter>コア%28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmRefCounter.h">
+      <Filter>コア%28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmAssetModelX.h">
+      <Filter>アセット%28Asset%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmVertexArrayObject.h">
+      <Filter>シェーダ%28Shader%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmGeometry.h">
+      <Filter>コア%28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmCamera.h">
+      <Filter>カメラ%28Camera%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmCameraBase.h">
+      <Filter>カメラ%28Camera%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmCameraManager.h">
+      <Filter>カメラ%28Camera%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmAABBTree.h">
+      <Filter>当たり判定%28Collision%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmLandScape.h">
+      <Filter>当たり判定%28Collision%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmCollision.h">
+      <Filter>当たり判定%28Collision%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmCollisionManager.h">
+      <Filter>当たり判定%28Collision%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmCollisionWall.h">
+      <Filter>当たり判定%28Collision%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmTaskFilter.h">
+      <Filter>タスク%28Task%29\ポストエフェクト%28Post Process%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmTaskFilterBloom.h">
+      <Filter>タスク%28Task%29\ポストエフェクト%28Post Process%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmTaskFilterGlare.h">
+      <Filter>タスク%28Task%29\ポストエフェクト%28Post Process%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmTaskFilterLensFlare.h">
+      <Filter>タスク%28Task%29\ポストエフェクト%28Post Process%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmTaskFilterMotionBlur.h">
+      <Filter>タスク%28Task%29\ポストエフェクト%28Post Process%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmTaskFilterTonemapping.h">
+      <Filter>タスク%28Task%29\ポストエフェクト%28Post Process%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmHDRTexReader.h">
+      <Filter>描画%28Render%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmWindowInfo.h">
+      <Filter>コア%28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gmTaskFilterGaussian.h">
+      <Filter>タスク%28Task%29\ポストエフェクト%28Post Process%29</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

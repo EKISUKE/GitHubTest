@@ -1,0 +1,12 @@
+PlayerStatus
+
+Status {
+			HPMAX	  : 10.0
+			HP		  : 10.0
+			MP		  : 10.0
+			ATKDELAY  : 1.0
+			SKLDELAY  : 3.0
+			SPEED	  : 5.0
+			ACCEL	  : 0.2
+			JUMPPOWER : 10.0
+		}

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d1/dad/class_xE3_x83_x93_xE3_x83_xAB_xE3_x83_x9C_xE3_x83_xBC_xE3_x83_x89" kind="class" prot="public">
+    <compoundname>ビルボード</compoundname>
+    <includes refid="d1/d37/_bill_board_8h" local="no">BillBoard.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/BillBoard.h" line="11" column="1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>CastleCrash: クラス PerfAnalizer::Node</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">CastleCrash
+   &#160;<span id="projectnumber">2014/07/20</span>
+   </div>
+   <div id="projectbrief">Yuki Ishigaki</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>メインページ</span></a></li>
+      <li><a href="namespaces.html"><span>ネームスペース</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>構成</span></a></li>
+      <li><a href="classes.html"><span>構成索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>構成メンバ</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_perf_analizer_1_1_node.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>ネームスペース</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>型定義</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>列挙型</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>列挙型の値</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>フレンド</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>マクロ定義</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Public 変数</a> &#124;
+<a href="class_perf_analizer_1_1_node-members.html">すべてのメンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">クラス PerfAnalizer::Node</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>解析データノード  
+ <a href="class_perf_analizer_1_1_node.html#details">[詳細]</a></p>
+
+<p><code>#include &lt;<a class="el" href="gm_profiler_8h_source.html">gmProfiler.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public メソッド</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">初期化</div></td></tr>
+<tr class="memitem:aba58629b697380dd6357b161940c3be4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_perf_analizer_1_1_node.html#aba58629b697380dd6357b161940c3be4">Node</a> ()</td></tr>
+<tr class="memdesc:aba58629b697380dd6357b161940c3be4"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ  <a href="#aba58629b697380dd6357b161940c3be4">[詳細]</a><br/></td></tr>
+<tr class="separator:aba58629b697380dd6357b161940c3be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc47b2c373936b999751ba6a8a6d62a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_perf_analizer_1_1_node.html#afc47b2c373936b999751ba6a8a6d62a2">~Node</a> ()</td></tr>
+<tr class="memdesc:afc47b2c373936b999751ba6a8a6d62a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">デストラクタ  <a href="#afc47b2c373936b999751ba6a8a6d62a2">[詳細]</a><br/></td></tr>
+<tr class="separator:afc47b2c373936b999751ba6a8a6d62a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">タスク関数</div></td></tr>
+<tr class="memitem:a1ec7e1d9ba927065c839988bcc34a8ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_perf_analizer_1_1_node.html#a1ec7e1d9ba927065c839988bcc34a8ac">cleanup</a> ()</td></tr>
+<tr class="memdesc:a1ec7e1d9ba927065c839988bcc34a8ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">ノードをすべて破棄する  <a href="#a1ec7e1d9ba927065c839988bcc34a8ac">[詳細]</a><br/></td></tr>
+<tr class="separator:a1ec7e1d9ba927065c839988bcc34a8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d4ceb55876af18231848c5638bdc76f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_perf_analizer_1_1_node.html#a4d4ceb55876af18231848c5638bdc76f">addChild</a> (<a class="el" href="class_perf_analizer_1_1_node.html">Node</a> *pNode)</td></tr>
+<tr class="memdesc:a4d4ceb55876af18231848c5638bdc76f"><td class="mdescLeft">&#160;</td><td class="mdescRight">子供にノードを追加する  <a href="#a4d4ceb55876af18231848c5638bdc76f">[詳細]</a><br/></td></tr>
+<tr class="separator:a4d4ceb55876af18231848c5638bdc76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 変数</h2></td></tr>
+<tr class="memitem:aafa0b2c4b57ccfe98bcd87d97cd7119d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="gm_typedef_8h.html#a80df1bd21d85ddf6d365f6c01c62ecd0">GM_CSTR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_perf_analizer_1_1_node.html#aafa0b2c4b57ccfe98bcd87d97cd7119d">_name</a></td></tr>
+<tr class="memdesc:aafa0b2c4b57ccfe98bcd87d97cd7119d"><td class="mdescLeft">&#160;</td><td class="mdescRight">タイマー名  <a href="#aafa0b2c4b57ccfe98bcd87d97cd7119d">[詳細]</a><br/></td></tr>
+<tr class="separator:aafa0b2c4b57ccfe98bcd87d97cd7119d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13c9b4b0546e25102c92a313c294c17d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_perf_analizer_1_1_node.html#a13c9b4b0546e25102c92a313c294c17d">_color</a></td></tr>
+<tr class="memdesc:a13c9b4b0546e25102c92a313c294c17d"><td class="mdescLeft">&#160;</td><td class="mdescRight">描画色  <a href="#a13c9b4b0546e25102c92a313c294c17d">[詳細]</a><br/></td></tr>
+<tr class="separator:a13c9b4b0546e25102c92a313c294c17d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68f5bc76e08f9d7fa6c9881c9ac96a29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="gm_typedef_8h.html#ad758b7a5c3f18ed79d2fcd23d9f16357">u64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_perf_analizer_1_1_node.html#a68f5bc76e08f9d7fa6c9881c9ac96a29">_startTime</a></td></tr>
+<tr class="memdesc:a68f5bc76e08f9d7fa6c9881c9ac96a29"><td class="mdescLeft">&#160;</td><td class="mdescRight">開始時間  <a href="#a68f5bc76e08f9d7fa6c9881c9ac96a29">[詳細]</a><br/></td></tr>
+<tr class="separator:a68f5bc76e08f9d7fa6c9881c9ac96a29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a49cc786b46bf95c145af6ee24e1b17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="gm_typedef_8h.html#ad758b7a5c3f18ed79d2fcd23d9f16357">u64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_perf_analizer_1_1_node.html#a5a49cc786b46bf95c145af6ee24e1b17">_finishTime</a></td></tr>
+<tr class="memdesc:a5a49cc786b46bf95c145af6ee24e1b17"><td class="mdescLeft">&#160;</td><td class="mdescRight">終了時間  <a href="#a5a49cc786b46bf95c145af6ee24e1b17">[詳細]</a><br/></td></tr>
+<tr class="separator:a5a49cc786b46bf95c145af6ee24e1b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6f7c1e32ea62db41fdd27efe409512a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_perf_analizer_1_1_node.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_perf_analizer_1_1_node.html#aa6f7c1e32ea62db41fdd27efe409512a">_pNext</a></td></tr>
+<tr class="memdesc:aa6f7c1e32ea62db41fdd27efe409512a"><td class="mdescLeft">&#160;</td><td class="mdescRight">兄弟  <a href="#aa6f7c1e32ea62db41fdd27efe409512a">[詳細]</a><br/></td></tr>
+<tr class="separator:aa6f7c1e32ea62db41fdd27efe409512a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afddaafea4c0ab252b367d74b67708efd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_perf_analizer_1_1_node.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_perf_analizer_1_1_node.html#afddaafea4c0ab252b367d74b67708efd">_pChild</a></td></tr>
+<tr class="memdesc:afddaafea4c0ab252b367d74b67708efd"><td class="mdescLeft">&#160;</td><td class="mdescRight">子  <a href="#afddaafea4c0ab252b367d74b67708efd">[詳細]</a><br/></td></tr>
+<tr class="separator:afddaafea4c0ab252b367d74b67708efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05c2cca555338e5d3123d5c61ba6e09c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_perf_analizer_1_1_node.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_perf_analizer_1_1_node.html#a05c2cca555338e5d3123d5c61ba6e09c">_pParent</a></td></tr>
+<tr class="memdesc:a05c2cca555338e5d3123d5c61ba6e09c"><td class="mdescLeft">&#160;</td><td class="mdescRight">親  <a href="#a05c2cca555338e5d3123d5c61ba6e09c">[詳細]</a><br/></td></tr>
+<tr class="separator:a05c2cca555338e5d3123d5c61ba6e09c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">説明</h2>
+<div class="textblock"><p>解析データノード </p>
+</div><h2 class="groupheader">コンストラクタとデストラクタ</h2>
+<a class="anchor" id="aba58629b697380dd6357b161940c3be4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PerfAnalizer::Node::Node </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>コンストラクタ </p>
+
+</div>
+</div>
+<a class="anchor" id="afc47b2c373936b999751ba6a8a6d62a2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PerfAnalizer::Node::~Node </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>デストラクタ </p>
+
+</div>
+</div>
+<h2 class="groupheader">関数</h2>
+<a class="anchor" id="a4d4ceb55876af18231848c5638bdc76f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PerfAnalizer::Node::addChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_perf_analizer_1_1_node.html">Node</a> *&#160;</td>
+          <td class="paramname"><em>pNode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>子供にノードを追加する </p>
+
+</div>
+</div>
+<a class="anchor" id="a1ec7e1d9ba927065c839988bcc34a8ac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PerfAnalizer::Node::cleanup </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ノードをすべて破棄する </p>
+
+</div>
+</div>
+<h2 class="groupheader">変数</h2>
+<a class="anchor" id="a13c9b4b0546e25102c92a313c294c17d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_color.html">Color</a> PerfAnalizer::Node::_color</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>描画色 </p>
+
+</div>
+</div>
+<a class="anchor" id="a5a49cc786b46bf95c145af6ee24e1b17"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="gm_typedef_8h.html#ad758b7a5c3f18ed79d2fcd23d9f16357">u64</a> PerfAnalizer::Node::_finishTime</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>終了時間 </p>
+
+</div>
+</div>
+<a class="anchor" id="aafa0b2c4b57ccfe98bcd87d97cd7119d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="gm_typedef_8h.html#a80df1bd21d85ddf6d365f6c01c62ecd0">GM_CSTR</a> PerfAnalizer::Node::_name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>タイマー名 </p>
+
+</div>
+</div>
+<a class="anchor" id="afddaafea4c0ab252b367d74b67708efd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_perf_analizer_1_1_node.html">Node</a>* PerfAnalizer::Node::_pChild</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>子 </p>
+
+</div>
+</div>
+<a class="anchor" id="aa6f7c1e32ea62db41fdd27efe409512a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_perf_analizer_1_1_node.html">Node</a>* PerfAnalizer::Node::_pNext</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>兄弟 </p>
+
+</div>
+</div>
+<a class="anchor" id="a05c2cca555338e5d3123d5c61ba6e09c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_perf_analizer_1_1_node.html">Node</a>* PerfAnalizer::Node::_pParent</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>親 </p>
+
+</div>
+</div>
+<a class="anchor" id="a68f5bc76e08f9d7fa6c9881c9ac96a29"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="gm_typedef_8h.html#ad758b7a5c3f18ed79d2fcd23d9f16357">u64</a> PerfAnalizer::Node::_startTime</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>開始時間 </p>
+
+</div>
+</div>
+<hr/>このクラスの説明は次のファイルから生成されました:<ul>
+<li>D:/OCA/OCA_BackUp/OpenGL/WithGameEngineProj/GameWithLibrary/GameEngine/src/<a class="el" href="gm_profiler_8h_source.html">gmProfiler.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_perf_analizer.html">PerfAnalizer</a></li><li class="navelem"><a class="el" href="class_perf_analizer_1_1_node.html">Node</a></li>
+    <li class="footer">CastleCrashに対してSun Jul 20 2014 17:25:19に生成されました。
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

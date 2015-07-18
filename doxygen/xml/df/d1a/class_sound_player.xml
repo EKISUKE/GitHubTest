@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="df/d1a/class_sound_player" kind="class" prot="public">
+    <compoundname>SoundPlayer</compoundname>
+    <includes refid="dc/d02/_sound_player_8h" local="no">SoundPlayer.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="df/d1a/class_sound_player_1aceb9f5460765c2ca5876e4d1d9dc6e6b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SoundPlayer::isPlaying</definition>
+        <argsstring></argsstring>
+        <name>isPlaying</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.h" line="26" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1a/class_sound_player_1a78dce0843ea727e714eb9ba4d0f2e3d7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SoundPlayer::isLoaded</definition>
+        <argsstring></argsstring>
+        <name>isLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.h" line="27" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d1a/class_sound_player_1ac7107aecd54bdcfac29486487768ebc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SoundPlayer::SoundPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>SoundPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.h" line="17" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.cpp" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1a/class_sound_player_1a581b10975ea64b87b84b7471b814c7ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>SoundPlayer::~SoundPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>~SoundPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.h" line="18" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1a/class_sound_player_1a35be4fbb8f85cdb7b809ccf26048bff4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundPlayer::loadMusic</definition>
+        <argsstring>(const char *fileName)</argsstring>
+        <name>loadMusic</name>
+        <param>
+          <type>const char *</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.h" line="20" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.cpp" bodystart="29" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1a/class_sound_player_1a29b399cf0b70dc4aaff0001a2d836dc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundPlayer::playMusic</definition>
+        <argsstring>()</argsstring>
+        <name>playMusic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.h" line="21" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.cpp" bodystart="48" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1a/class_sound_player_1a3aa32618112b982a26d19b94678e43e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundPlayer::stopMusic</definition>
+        <argsstring>()</argsstring>
+        <name>stopMusic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.h" line="22" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.cpp" bodystart="56" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1a/class_sound_player_1a6a8705b6336f19071c97dbc143659847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundPlayer::pauseMusic</definition>
+        <argsstring>()</argsstring>
+        <name>pauseMusic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.h" line="23" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.cpp" bodystart="65" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1a/class_sound_player_1a76ec7f258014d510338f204acc9d6312" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundPlayer::setVolume</definition>
+        <argsstring>(float ammount)</argsstring>
+        <name>setVolume</name>
+        <param>
+          <type>float</type>
+          <declname>ammount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.h" line="24" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.cpp" bodystart="72" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.h" line="15" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.h" bodystart="15" bodyend="32"/>
+    <listofallmembers>
+      <member refid="df/d1a/class_sound_player_1a78dce0843ea727e714eb9ba4d0f2e3d7" prot="public" virt="non-virtual"><scope>SoundPlayer</scope><name>isLoaded</name></member>
+      <member refid="df/d1a/class_sound_player_1aceb9f5460765c2ca5876e4d1d9dc6e6b" prot="public" virt="non-virtual"><scope>SoundPlayer</scope><name>isPlaying</name></member>
+      <member refid="df/d1a/class_sound_player_1a35be4fbb8f85cdb7b809ccf26048bff4" prot="public" virt="non-virtual"><scope>SoundPlayer</scope><name>loadMusic</name></member>
+      <member refid="df/d1a/class_sound_player_1a6a8705b6336f19071c97dbc143659847" prot="public" virt="non-virtual"><scope>SoundPlayer</scope><name>pauseMusic</name></member>
+      <member refid="df/d1a/class_sound_player_1a29b399cf0b70dc4aaff0001a2d836dc2" prot="public" virt="non-virtual"><scope>SoundPlayer</scope><name>playMusic</name></member>
+      <member refid="df/d1a/class_sound_player_1a76ec7f258014d510338f204acc9d6312" prot="public" virt="non-virtual"><scope>SoundPlayer</scope><name>setVolume</name></member>
+      <member refid="df/d1a/class_sound_player_1ac7107aecd54bdcfac29486487768ebc6" prot="public" virt="non-virtual"><scope>SoundPlayer</scope><name>SoundPlayer</name></member>
+      <member refid="df/d1a/class_sound_player_1a3aa32618112b982a26d19b94678e43e3" prot="public" virt="non-virtual"><scope>SoundPlayer</scope><name>stopMusic</name></member>
+      <member refid="df/d1a/class_sound_player_1a581b10975ea64b87b84b7471b814c7ef" prot="public" virt="virtual"><scope>SoundPlayer</scope><name>~SoundPlayer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

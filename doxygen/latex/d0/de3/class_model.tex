@@ -1,0 +1,217 @@
+\hypertarget{class_model}{\section{クラス Model}
+\label{class_model}\index{Model@{Model}}
+}
+
+
+{\ttfamily \#include $<$Model.\-h$>$}
+
+\subsection*{構成}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_model_1_1_material}{Material}
+\item 
+class \hyperlink{class_model_1_1_object}{Object}
+\end{DoxyCompactItemize}
+\subsection*{Public 型}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_model_a517f749b2393c98904f33fe5134098f6}{Render\-Mode} \{ \\*
+\hyperlink{class_model_a517f749b2393c98904f33fe5134098f6a89507b2dbde648e7a53107cde745fa44}{R\-E\-N\-D\-E\-R\-\_\-\-N\-O\-R\-M\-A\-L} = 0, 
+\hyperlink{class_model_a517f749b2393c98904f33fe5134098f6ace626117567530dfea8c320219730d4f}{R\-E\-N\-D\-E\-R\-\_\-\-W\-I\-R\-E\-F\-R\-A\-M\-E} = 1, 
+\hyperlink{class_model_a517f749b2393c98904f33fe5134098f6aca0b7050073ccf10531637b657f25019}{R\-E\-N\-D\-E\-R\-\_\-\-P\-O\-I\-N\-T\-S} = 2, 
+\hyperlink{class_model_a517f749b2393c98904f33fe5134098f6a5dc9ddc701c8a06a4d42bd1961b5368b}{R\-E\-N\-D\-E\-R\-\_\-\-W\-I\-R\-E\-A\-N\-D\-P\-O\-I\-N\-T\-S} = 3, 
+\\*
+\hyperlink{class_model_a517f749b2393c98904f33fe5134098f6a1ad15a2114c73c545eddb828ac0f7d75}{R\-E\-N\-D\-E\-R\-\_\-\-A\-L\-L} = 4, 
+\hyperlink{class_model_a517f749b2393c98904f33fe5134098f6a50c0c96623577e4e8b94a515171e40d7}{R\-E\-N\-D\-E\-R\-\_\-\-M\-A\-X}
+ \}
+\begin{DoxyCompactList}\small\item\em 描画モード \end{DoxyCompactList}\item 
+enum \hyperlink{class_model_a4f992cedea9b4d32ad881d192895e858}{Object\-Mode} \{ \hyperlink{class_model_a4f992cedea9b4d32ad881d192895e858a8dda4c02384f5cf85b9eb108af2d1b69}{O\-B\-J\-E\-C\-T\-\_\-\-L\-A\-N\-D\-S\-C\-A\-P\-E}, 
+\hyperlink{class_model_a4f992cedea9b4d32ad881d192895e858a521fc7067f1bd84c10065c4ee9e3a914}{O\-B\-J\-E\-C\-T\-\_\-\-W\-A\-L\-L}, 
+\hyperlink{class_model_a4f992cedea9b4d32ad881d192895e858ac99c81755e44275215a92a94ac6aeeda}{O\-B\-J\-E\-C\-T\-\_\-\-M\-A\-X}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public メソッド}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_model_ae3b375de5f6df4faf74a95d64748e048}{Model} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_xE3_x83_x9E_xE3_x83_x86_xE3_x83_xAA_xE3_x82_xA2_xE3_x83_xAB}{マテリアル}(材質)クラス \end{DoxyCompactList}\item 
+virtual \hyperlink{class_model_ad6ebd2062a0b823db841a0b88baac4c0}{$\sim$\-Model} ()
+\begin{DoxyCompactList}\small\item\em デストラクタ \end{DoxyCompactList}\item 
+bool \hyperlink{class_model_aa6d90fa11fac2b3bbf4597597f2c3f9c}{load} (const char file\-Name\mbox{[}$\,$\mbox{]}, \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} scale=0.\-1f)
+\item 
+void \hyperlink{class_model_a89ebd61864089abe5b0c5a1df6479970}{render} ()
+\begin{DoxyCompactList}\small\item\em 描画 \end{DoxyCompactList}\item 
+void \hyperlink{class_model_a9361d76a7079ff0db78ef823a4858371}{render\-Object} (\hyperlink{_main_8h_a0ce6887c26c1c49ad3be5710dd42bfd6}{s32} object\-Index)
+\begin{DoxyCompactList}\small\item\em オブジェクト番号を指定して部品を描画 \end{DoxyCompactList}\item 
+\hyperlink{class_model_1_1_object}{Model\-::\-Object} $\ast$ \hyperlink{class_model_ad36e641665acb9391435e90140cbefe5}{get\-Object} (\hyperlink{_main_8h_a0ce6887c26c1c49ad3be5710dd42bfd6}{s32} index)
+\begin{DoxyCompactList}\small\item\em 描画モードを変更する \end{DoxyCompactList}\item 
+\hyperlink{class_model_1_1_object}{Model\-::\-Object} $\ast$ \hyperlink{class_model_ab49eaee1aa8f4b485902e25cd05e9fd1}{get\-Col\-Obj} (\hyperlink{_main_8h_a0ce6887c26c1c49ad3be5710dd42bfd6}{s32} obj\-Index, \hyperlink{_main_8h_a0ce6887c26c1c49ad3be5710dd42bfd6}{s32} vec\-Index)
+\begin{DoxyCompactList}\small\item\em 当たり判定オブジェクトの取得 \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a0ce6887c26c1c49ad3be5710dd42bfd6}{s32} \hyperlink{class_model_a4aed6bc0362c7e4a7fe4aaa773127820}{get\-Object\-Count} () const 
+\begin{DoxyCompactList}\small\item\em オブジェクトの個数を取得 \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{class_model_ab0ecbda9cdd50c9414cbc3df465f8d4f}{get\-Radius} () const 
+\begin{DoxyCompactList}\small\item\em 半径を取得 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{列挙型}
+\hypertarget{class_model_a4f992cedea9b4d32ad881d192895e858}{\index{Model@{Model}!Object\-Mode@{Object\-Mode}}
+\index{Object\-Mode@{Object\-Mode}!Model@{Model}}
+\subsubsection[{Object\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Model\-::\-Object\-Mode}}}\label{class_model_a4f992cedea9b4d32ad881d192895e858}
+\begin{Desc}
+\item[列挙型の値]\par
+\begin{description}
+\index{O\-B\-J\-E\-C\-T\-\_\-\-L\-A\-N\-D\-S\-C\-A\-P\-E@{O\-B\-J\-E\-C\-T\-\_\-\-L\-A\-N\-D\-S\-C\-A\-P\-E}!Model@{Model}}\index{Model@{Model}!O\-B\-J\-E\-C\-T\-\_\-\-L\-A\-N\-D\-S\-C\-A\-P\-E@{O\-B\-J\-E\-C\-T\-\_\-\-L\-A\-N\-D\-S\-C\-A\-P\-E}}\item[{\em 
+\hypertarget{class_model_a4f992cedea9b4d32ad881d192895e858a8dda4c02384f5cf85b9eb108af2d1b69}{O\-B\-J\-E\-C\-T\-\_\-\-L\-A\-N\-D\-S\-C\-A\-P\-E}\label{class_model_a4f992cedea9b4d32ad881d192895e858a8dda4c02384f5cf85b9eb108af2d1b69}
+}]\index{O\-B\-J\-E\-C\-T\-\_\-\-W\-A\-L\-L@{O\-B\-J\-E\-C\-T\-\_\-\-W\-A\-L\-L}!Model@{Model}}\index{Model@{Model}!O\-B\-J\-E\-C\-T\-\_\-\-W\-A\-L\-L@{O\-B\-J\-E\-C\-T\-\_\-\-W\-A\-L\-L}}\item[{\em 
+\hypertarget{class_model_a4f992cedea9b4d32ad881d192895e858a521fc7067f1bd84c10065c4ee9e3a914}{O\-B\-J\-E\-C\-T\-\_\-\-W\-A\-L\-L}\label{class_model_a4f992cedea9b4d32ad881d192895e858a521fc7067f1bd84c10065c4ee9e3a914}
+}]\index{O\-B\-J\-E\-C\-T\-\_\-\-M\-A\-X@{O\-B\-J\-E\-C\-T\-\_\-\-M\-A\-X}!Model@{Model}}\index{Model@{Model}!O\-B\-J\-E\-C\-T\-\_\-\-M\-A\-X@{O\-B\-J\-E\-C\-T\-\_\-\-M\-A\-X}}\item[{\em 
+\hypertarget{class_model_a4f992cedea9b4d32ad881d192895e858ac99c81755e44275215a92a94ac6aeeda}{O\-B\-J\-E\-C\-T\-\_\-\-M\-A\-X}\label{class_model_a4f992cedea9b4d32ad881d192895e858ac99c81755e44275215a92a94ac6aeeda}
+}]\end{description}
+\end{Desc}
+\hypertarget{class_model_a517f749b2393c98904f33fe5134098f6}{\index{Model@{Model}!Render\-Mode@{Render\-Mode}}
+\index{Render\-Mode@{Render\-Mode}!Model@{Model}}
+\subsubsection[{Render\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Model\-::\-Render\-Mode}}}\label{class_model_a517f749b2393c98904f33fe5134098f6}
+
+
+描画モード 
+
+\begin{Desc}
+\item[列挙型の値]\par
+\begin{description}
+\index{R\-E\-N\-D\-E\-R\-\_\-\-N\-O\-R\-M\-A\-L@{R\-E\-N\-D\-E\-R\-\_\-\-N\-O\-R\-M\-A\-L}!Model@{Model}}\index{Model@{Model}!R\-E\-N\-D\-E\-R\-\_\-\-N\-O\-R\-M\-A\-L@{R\-E\-N\-D\-E\-R\-\_\-\-N\-O\-R\-M\-A\-L}}\item[{\em 
+\hypertarget{class_model_a517f749b2393c98904f33fe5134098f6a89507b2dbde648e7a53107cde745fa44}{R\-E\-N\-D\-E\-R\-\_\-\-N\-O\-R\-M\-A\-L}\label{class_model_a517f749b2393c98904f33fe5134098f6a89507b2dbde648e7a53107cde745fa44}
+}]\index{R\-E\-N\-D\-E\-R\-\_\-\-W\-I\-R\-E\-F\-R\-A\-M\-E@{R\-E\-N\-D\-E\-R\-\_\-\-W\-I\-R\-E\-F\-R\-A\-M\-E}!Model@{Model}}\index{Model@{Model}!R\-E\-N\-D\-E\-R\-\_\-\-W\-I\-R\-E\-F\-R\-A\-M\-E@{R\-E\-N\-D\-E\-R\-\_\-\-W\-I\-R\-E\-F\-R\-A\-M\-E}}\item[{\em 
+\hypertarget{class_model_a517f749b2393c98904f33fe5134098f6ace626117567530dfea8c320219730d4f}{R\-E\-N\-D\-E\-R\-\_\-\-W\-I\-R\-E\-F\-R\-A\-M\-E}\label{class_model_a517f749b2393c98904f33fe5134098f6ace626117567530dfea8c320219730d4f}
+}]\index{R\-E\-N\-D\-E\-R\-\_\-\-P\-O\-I\-N\-T\-S@{R\-E\-N\-D\-E\-R\-\_\-\-P\-O\-I\-N\-T\-S}!Model@{Model}}\index{Model@{Model}!R\-E\-N\-D\-E\-R\-\_\-\-P\-O\-I\-N\-T\-S@{R\-E\-N\-D\-E\-R\-\_\-\-P\-O\-I\-N\-T\-S}}\item[{\em 
+\hypertarget{class_model_a517f749b2393c98904f33fe5134098f6aca0b7050073ccf10531637b657f25019}{R\-E\-N\-D\-E\-R\-\_\-\-P\-O\-I\-N\-T\-S}\label{class_model_a517f749b2393c98904f33fe5134098f6aca0b7050073ccf10531637b657f25019}
+}]\index{R\-E\-N\-D\-E\-R\-\_\-\-W\-I\-R\-E\-A\-N\-D\-P\-O\-I\-N\-T\-S@{R\-E\-N\-D\-E\-R\-\_\-\-W\-I\-R\-E\-A\-N\-D\-P\-O\-I\-N\-T\-S}!Model@{Model}}\index{Model@{Model}!R\-E\-N\-D\-E\-R\-\_\-\-W\-I\-R\-E\-A\-N\-D\-P\-O\-I\-N\-T\-S@{R\-E\-N\-D\-E\-R\-\_\-\-W\-I\-R\-E\-A\-N\-D\-P\-O\-I\-N\-T\-S}}\item[{\em 
+\hypertarget{class_model_a517f749b2393c98904f33fe5134098f6a5dc9ddc701c8a06a4d42bd1961b5368b}{R\-E\-N\-D\-E\-R\-\_\-\-W\-I\-R\-E\-A\-N\-D\-P\-O\-I\-N\-T\-S}\label{class_model_a517f749b2393c98904f33fe5134098f6a5dc9ddc701c8a06a4d42bd1961b5368b}
+}]\index{R\-E\-N\-D\-E\-R\-\_\-\-A\-L\-L@{R\-E\-N\-D\-E\-R\-\_\-\-A\-L\-L}!Model@{Model}}\index{Model@{Model}!R\-E\-N\-D\-E\-R\-\_\-\-A\-L\-L@{R\-E\-N\-D\-E\-R\-\_\-\-A\-L\-L}}\item[{\em 
+\hypertarget{class_model_a517f749b2393c98904f33fe5134098f6a1ad15a2114c73c545eddb828ac0f7d75}{R\-E\-N\-D\-E\-R\-\_\-\-A\-L\-L}\label{class_model_a517f749b2393c98904f33fe5134098f6a1ad15a2114c73c545eddb828ac0f7d75}
+}]\index{R\-E\-N\-D\-E\-R\-\_\-\-M\-A\-X@{R\-E\-N\-D\-E\-R\-\_\-\-M\-A\-X}!Model@{Model}}\index{Model@{Model}!R\-E\-N\-D\-E\-R\-\_\-\-M\-A\-X@{R\-E\-N\-D\-E\-R\-\_\-\-M\-A\-X}}\item[{\em 
+\hypertarget{class_model_a517f749b2393c98904f33fe5134098f6a50c0c96623577e4e8b94a515171e40d7}{R\-E\-N\-D\-E\-R\-\_\-\-M\-A\-X}\label{class_model_a517f749b2393c98904f33fe5134098f6a50c0c96623577e4e8b94a515171e40d7}
+}]\end{description}
+\end{Desc}
+
+
+\subsection{コンストラクタとデストラクタ}
+\hypertarget{class_model_ae3b375de5f6df4faf74a95d64748e048}{\index{Model@{Model}!Model@{Model}}
+\index{Model@{Model}!Model@{Model}}
+\subsubsection[{Model}]{\setlength{\rightskip}{0pt plus 5cm}Model\-::\-Model (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_model_ae3b375de5f6df4faf74a95d64748e048}
+
+
+\hyperlink{class_xE3_x83_x9E_xE3_x83_x86_xE3_x83_xAA_xE3_x82_xA2_xE3_x83_xAB}{マテリアル}(材質)クラス 
+
+コンストラクタ \hypertarget{class_model_ad6ebd2062a0b823db841a0b88baac4c0}{\index{Model@{Model}!$\sim$\-Model@{$\sim$\-Model}}
+\index{$\sim$\-Model@{$\sim$\-Model}!Model@{Model}}
+\subsubsection[{$\sim$\-Model}]{\setlength{\rightskip}{0pt plus 5cm}Model\-::$\sim$\-Model (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_model_ad6ebd2062a0b823db841a0b88baac4c0}
+
+
+デストラクタ 
+
+
+
+\subsection{関数}
+\hypertarget{class_model_ab49eaee1aa8f4b485902e25cd05e9fd1}{\index{Model@{Model}!get\-Col\-Obj@{get\-Col\-Obj}}
+\index{get\-Col\-Obj@{get\-Col\-Obj}!Model@{Model}}
+\subsubsection[{get\-Col\-Obj}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Model\-::\-Object}$\ast$ Model\-::get\-Col\-Obj (
+\begin{DoxyParamCaption}
+\item[{{\bf s32}}]{obj\-Index, }
+\item[{{\bf s32}}]{vec\-Index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_model_ab49eaee1aa8f4b485902e25cd05e9fd1}
+
+
+当たり判定オブジェクトの取得 
+
+\hypertarget{class_model_ad36e641665acb9391435e90140cbefe5}{\index{Model@{Model}!get\-Object@{get\-Object}}
+\index{get\-Object@{get\-Object}!Model@{Model}}
+\subsubsection[{get\-Object}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Model\-::\-Object}$\ast$ Model\-::get\-Object (
+\begin{DoxyParamCaption}
+\item[{{\bf s32}}]{index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_model_ad36e641665acb9391435e90140cbefe5}
+
+
+描画モードを変更する 
+
+オブジェクトの取得 \hypertarget{class_model_a4aed6bc0362c7e4a7fe4aaa773127820}{\index{Model@{Model}!get\-Object\-Count@{get\-Object\-Count}}
+\index{get\-Object\-Count@{get\-Object\-Count}!Model@{Model}}
+\subsubsection[{get\-Object\-Count}]{\setlength{\rightskip}{0pt plus 5cm}{\bf s32} Model\-::get\-Object\-Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_model_a4aed6bc0362c7e4a7fe4aaa773127820}
+
+
+オブジェクトの個数を取得 
+
+\hypertarget{class_model_ab0ecbda9cdd50c9414cbc3df465f8d4f}{\index{Model@{Model}!get\-Radius@{get\-Radius}}
+\index{get\-Radius@{get\-Radius}!Model@{Model}}
+\subsubsection[{get\-Radius}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Model\-::get\-Radius (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_model_ab0ecbda9cdd50c9414cbc3df465f8d4f}
+
+
+半径を取得 
+
+\hypertarget{class_model_aa6d90fa11fac2b3bbf4597597f2c3f9c}{\index{Model@{Model}!load@{load}}
+\index{load@{load}!Model@{Model}}
+\subsubsection[{load}]{\setlength{\rightskip}{0pt plus 5cm}bool Model\-::load (
+\begin{DoxyParamCaption}
+\item[{const char}]{file\-Name\mbox{[}$\,$\mbox{]}, }
+\item[{{\bf f32}}]{scale = {\ttfamily 0.1f}}
+\end{DoxyParamCaption}
+)}}\label{class_model_aa6d90fa11fac2b3bbf4597597f2c3f9c}
+読み込み 
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em file\-Name} & ファイル名 \\
+\hline
+\mbox{\tt in}  & {\em scale} & モデルのスケール値(default\-:0.\-1) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{戻り値}
+{\em true} & 成功 \\
+\hline
+{\em false} & 失敗 \\
+\hline
+\end{DoxyRetVals}
+\hypertarget{class_model_a89ebd61864089abe5b0c5a1df6479970}{\index{Model@{Model}!render@{render}}
+\index{render@{render}!Model@{Model}}
+\subsubsection[{render}]{\setlength{\rightskip}{0pt plus 5cm}void Model\-::render (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_model_a89ebd61864089abe5b0c5a1df6479970}
+
+
+描画 
+
+\hypertarget{class_model_a9361d76a7079ff0db78ef823a4858371}{\index{Model@{Model}!render\-Object@{render\-Object}}
+\index{render\-Object@{render\-Object}!Model@{Model}}
+\subsubsection[{render\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void Model\-::render\-Object (
+\begin{DoxyParamCaption}
+\item[{{\bf s32}}]{object\-Index}
+\end{DoxyParamCaption}
+)}}\label{class_model_a9361d76a7079ff0db78ef823a4858371}
+
+
+オブジェクト番号を指定して部品を描画 
+
+
+
+このクラスの説明は次のファイルから生成されました\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_model_8h}{Model.\-h}\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_model_8cpp}{Model.\-cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>myGame: E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h ソースファイル</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">myGame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>メインページ</span></a></li>
+      <li><a href="../../namespaces.html"><span>ネームスペース</span></a></li>
+      <li><a href="../../annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="../../files.html"><span>ファイル</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="../../globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">SceneTitle.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d6/d5f/_scene_title_8h.html">説明を見る。</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d0/d90/class_scene_title.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d0/d90/class_scene_title.html">SceneTitle</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136">   15</a></span>&#160;    <span class="keyword">enum</span> <a class="code" href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136">SELECT_STATE</a>{</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136a0303cb2792f96bedf1f7494dd6d7f1d9">   16</a></span>&#160;        <a class="code" href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136a0303cb2792f96bedf1f7494dd6d7f1d9">SELECT_NEWGAME</a>, <span class="comment">//  初回から開始ボタン選択中</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136a53cded6606e90cec35da1b64fba814c2">   17</a></span>&#160;        <a class="code" href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136a53cded6606e90cec35da1b64fba814c2">SELECT_CONTINUE</a>,    <span class="comment">//  続きあから開始ボタン選択中</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136a117d0cf6ab7e922d3d5e80cc07563c52">   18</a></span>&#160;        <a class="code" href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136a117d0cf6ab7e922d3d5e80cc07563c52">SELECT_OPTION</a>,  <span class="comment">//  オプションボタン選択中</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136aba203bbde66e83d8b44047b99d478ade">   19</a></span>&#160;        <a class="code" href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136aba203bbde66e83d8b44047b99d478ade">SELECT_EXIT</a>     <span class="comment">//  終了ボタン選択中</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    };</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="../../d0/d90/class_scene_title.html#a841bc9115f6a988d61944ecc39a4bd16">SceneTitle</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">virtual</span>             <a class="code" href="../../d0/d90/class_scene_title.html#a7b68be9869ca545234914b352c57ccc6">~SceneTitle</a>();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span>        <a class="code" href="../../d0/d90/class_scene_title.html#a4d640c9026b6350accb703d5ad683a4a">Initialize</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>        <a class="code" href="../../d0/d90/class_scene_title.html#a658f0d3cc38609731c6435c156e3b679">Update</a>(<a class="code" href="../../d8/d87/class_controller.html">Controller</a>&amp; control);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>        <a class="code" href="../../d0/d90/class_scene_title.html#a7872331f1db6aaf0d46d50b72efb038c">Render</a>();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="comment">//---- 取得</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../d0/d90/class_scene_title.html#a67f4d2035d5f9a86a6d6afb251244ea5">   35</a></span>&#160;    <a class="code" href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136">SELECT_STATE</a>        <a class="code" href="../../d0/d90/class_scene_title.html#a67f4d2035d5f9a86a6d6afb251244ea5">getSelectState</a>() { <span class="keywordflow">return</span> _select; }</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="../../d2/d7f/class_texture.html">Texture</a>*            _backGroundImage;   <span class="comment">// タイトル画像読み込み</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../d4/d8e/class_g_l_font.html">GLFont</a>*             _titleFont;         <span class="comment">// フォントの描画用</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136">SELECT_STATE</a>        _select;            <span class="comment">// 選択中の項目</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;};</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">//  END OF FILE</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="ttc" id="class_scene_title_html_a658f0d3cc38609731c6435c156e3b679"><div class="ttname"><a href="../../d0/d90/class_scene_title.html#a658f0d3cc38609731c6435c156e3b679">SceneTitle::Update</a></div><div class="ttdeci">virtual void Update(Controller &amp;control)</div><div class="ttdoc">更新 </div><div class="ttdef"><b>Definition:</b> SceneTitle.cpp:81</div></div>
+<div class="ttc" id="class_scene_title_html_adad72a30ae6ee6eb19e3b3f026112136a117d0cf6ab7e922d3d5e80cc07563c52"><div class="ttname"><a href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136a117d0cf6ab7e922d3d5e80cc07563c52">SceneTitle::SELECT_OPTION</a></div><div class="ttdef"><b>Definition:</b> SceneTitle.h:18</div></div>
+<div class="ttc" id="class_scene_title_html"><div class="ttname"><a href="../../d0/d90/class_scene_title.html">SceneTitle</a></div><div class="ttdef"><b>Definition:</b> SceneTitle.h:12</div></div>
+<div class="ttc" id="class_scene_title_html_adad72a30ae6ee6eb19e3b3f026112136a53cded6606e90cec35da1b64fba814c2"><div class="ttname"><a href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136a53cded6606e90cec35da1b64fba814c2">SceneTitle::SELECT_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> SceneTitle.h:17</div></div>
+<div class="ttc" id="class_scene_title_html_a67f4d2035d5f9a86a6d6afb251244ea5"><div class="ttname"><a href="../../d0/d90/class_scene_title.html#a67f4d2035d5f9a86a6d6afb251244ea5">SceneTitle::getSelectState</a></div><div class="ttdeci">SELECT_STATE getSelectState()</div><div class="ttdef"><b>Definition:</b> SceneTitle.h:35</div></div>
+<div class="ttc" id="class_g_l_font_html"><div class="ttname"><a href="../../d4/d8e/class_g_l_font.html">GLFont</a></div><div class="ttdef"><b>Definition:</b> GLFont.h:13</div></div>
+<div class="ttc" id="class_scene_title_html_adad72a30ae6ee6eb19e3b3f026112136aba203bbde66e83d8b44047b99d478ade"><div class="ttname"><a href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136aba203bbde66e83d8b44047b99d478ade">SceneTitle::SELECT_EXIT</a></div><div class="ttdef"><b>Definition:</b> SceneTitle.h:19</div></div>
+<div class="ttc" id="class_scene_title_html_a841bc9115f6a988d61944ecc39a4bd16"><div class="ttname"><a href="../../d0/d90/class_scene_title.html#a841bc9115f6a988d61944ecc39a4bd16">SceneTitle::SceneTitle</a></div><div class="ttdeci">SceneTitle()</div><div class="ttdoc">コンストラクタ </div><div class="ttdef"><b>Definition:</b> SceneTitle.cpp:47</div></div>
+<div class="ttc" id="class_scene_title_html_adad72a30ae6ee6eb19e3b3f026112136a0303cb2792f96bedf1f7494dd6d7f1d9"><div class="ttname"><a href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136a0303cb2792f96bedf1f7494dd6d7f1d9">SceneTitle::SELECT_NEWGAME</a></div><div class="ttdef"><b>Definition:</b> SceneTitle.h:16</div></div>
+<div class="ttc" id="class_scene_title_html_adad72a30ae6ee6eb19e3b3f026112136"><div class="ttname"><a href="../../d0/d90/class_scene_title.html#adad72a30ae6ee6eb19e3b3f026112136">SceneTitle::SELECT_STATE</a></div><div class="ttdeci">SELECT_STATE</div><div class="ttdef"><b>Definition:</b> SceneTitle.h:15</div></div>
+<div class="ttc" id="class_controller_html"><div class="ttname"><a href="../../d8/d87/class_controller.html">Controller</a></div><div class="ttdef"><b>Definition:</b> Controller.h:13</div></div>
+<div class="ttc" id="class_texture_html"><div class="ttname"><a href="../../d2/d7f/class_texture.html">Texture</a></div><div class="ttdef"><b>Definition:</b> Texture.h:13</div></div>
+<div class="ttc" id="class_scene_title_html_a7b68be9869ca545234914b352c57ccc6"><div class="ttname"><a href="../../d0/d90/class_scene_title.html#a7b68be9869ca545234914b352c57ccc6">SceneTitle::~SceneTitle</a></div><div class="ttdeci">virtual ~SceneTitle()</div><div class="ttdoc">デストラクタ </div><div class="ttdef"><b>Definition:</b> SceneTitle.cpp:65</div></div>
+<div class="ttc" id="class_scene_title_html_a7872331f1db6aaf0d46d50b72efb038c"><div class="ttname"><a href="../../d0/d90/class_scene_title.html#a7872331f1db6aaf0d46d50b72efb038c">SceneTitle::Render</a></div><div class="ttdeci">virtual void Render()</div><div class="ttdoc">描画 </div><div class="ttdef"><b>Definition:</b> SceneTitle.cpp:105</div></div>
+<div class="ttc" id="class_scene_title_html_a4d640c9026b6350accb703d5ad683a4a"><div class="ttname"><a href="../../d0/d90/class_scene_title.html#a4d640c9026b6350accb703d5ad683a4a">SceneTitle::Initialize</a></div><div class="ttdeci">virtual bool Initialize()</div><div class="ttdoc">初期化 </div><div class="ttdef"><b>Definition:</b> SceneTitle.cpp:73</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+myGameに対してSun Oct 13 2013 20:58:05に生成されました。 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

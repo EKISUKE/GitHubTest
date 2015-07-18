@@ -1,0 +1,50 @@
+\hypertarget{_scene_game_8h}{\section{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Scene\-Game.h}
+\label{_scene_game_8h}\index{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Scene\-Game.\-h@{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Scene\-Game.\-h}}
+}
+
+
+\hyperlink{class_xE3_x82_xB2_xE3_x83_xBC_xE3_x83_xA0_xE4_xB8_xAD}{ゲーム中}  
+
+
+\subsection*{構成}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_scene_game}{Scene\-Game}
+\end{DoxyCompactItemize}
+\subsection*{マクロ定義}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{_scene_game_8h_a8e502e90ab353b1b3d58e2554182a6ff}{E\-N\-E\-M\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X}~1
+\item 
+\#define \hyperlink{_scene_game_8h_a563f90fed6bf2c3fa1cacbddeabc4dc7}{A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R}~1
+\item 
+\#define \hyperlink{_scene_game_8h_a4523a6651464ea22f1d6e7e728d9a19c}{A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R}~1
+\item 
+\#define \hyperlink{_scene_game_8h_a925bc506a3841931fddb622e0ada9515}{A\-L\-L\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X}~\hyperlink{_scene_game_8h_a563f90fed6bf2c3fa1cacbddeabc4dc7}{A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R} + \hyperlink{_scene_game_8h_a4523a6651464ea22f1d6e7e728d9a19c}{A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R}
+\item 
+\#define \hyperlink{_scene_game_8h_aefcc4fb0d1b6ca2ee5dc182586ab9ffc}{C\-H\-A\-R\-A\-\_\-\-S\-C\-A\-L\-E}~0.\-2f
+\end{DoxyCompactItemize}
+
+
+\subsection{説明}
+\hyperlink{class_xE3_x82_xB2_xE3_x83_xBC_xE3_x83_xA0_xE4_xB8_xAD}{ゲーム中} \begin{DoxyAuthor}{作者}
+Yuki\-Ishigaki 
+\end{DoxyAuthor}
+
+
+\subsection{マクロ定義}
+\hypertarget{_scene_game_8h_a563f90fed6bf2c3fa1cacbddeabc4dc7}{\index{Scene\-Game.\-h@{Scene\-Game.\-h}!A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R@{A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R}}
+\index{A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R@{A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R}!SceneGame.h@{Scene\-Game.\-h}}
+\subsubsection[{A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R~1}}\label{_scene_game_8h_a563f90fed6bf2c3fa1cacbddeabc4dc7}
+\hypertarget{_scene_game_8h_a925bc506a3841931fddb622e0ada9515}{\index{Scene\-Game.\-h@{Scene\-Game.\-h}!A\-L\-L\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X@{A\-L\-L\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X}}
+\index{A\-L\-L\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X@{A\-L\-L\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X}!SceneGame.h@{Scene\-Game.\-h}}
+\subsubsection[{A\-L\-L\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X}]{\setlength{\rightskip}{0pt plus 5cm}\#define A\-L\-L\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X~{\bf A\-L\-L\-Y\-\_\-\-A\-T\-T\-A\-C\-K\-E\-R} + {\bf A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R}}}\label{_scene_game_8h_a925bc506a3841931fddb622e0ada9515}
+\hypertarget{_scene_game_8h_a4523a6651464ea22f1d6e7e728d9a19c}{\index{Scene\-Game.\-h@{Scene\-Game.\-h}!A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R@{A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R}}
+\index{A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R@{A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R}!SceneGame.h@{Scene\-Game.\-h}}
+\subsubsection[{A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define A\-L\-L\-Y\-\_\-\-D\-E\-F\-F\-E\-N\-D\-E\-R~1}}\label{_scene_game_8h_a4523a6651464ea22f1d6e7e728d9a19c}
+\hypertarget{_scene_game_8h_aefcc4fb0d1b6ca2ee5dc182586ab9ffc}{\index{Scene\-Game.\-h@{Scene\-Game.\-h}!C\-H\-A\-R\-A\-\_\-\-S\-C\-A\-L\-E@{C\-H\-A\-R\-A\-\_\-\-S\-C\-A\-L\-E}}
+\index{C\-H\-A\-R\-A\-\_\-\-S\-C\-A\-L\-E@{C\-H\-A\-R\-A\-\_\-\-S\-C\-A\-L\-E}!SceneGame.h@{Scene\-Game.\-h}}
+\subsubsection[{C\-H\-A\-R\-A\-\_\-\-S\-C\-A\-L\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\-H\-A\-R\-A\-\_\-\-S\-C\-A\-L\-E~0.\-2f}}\label{_scene_game_8h_aefcc4fb0d1b6ca2ee5dc182586ab9ffc}
+\hypertarget{_scene_game_8h_a8e502e90ab353b1b3d58e2554182a6ff}{\index{Scene\-Game.\-h@{Scene\-Game.\-h}!E\-N\-E\-M\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X@{E\-N\-E\-M\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X}}
+\index{E\-N\-E\-M\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X@{E\-N\-E\-M\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X}!SceneGame.h@{Scene\-Game.\-h}}
+\subsubsection[{E\-N\-E\-M\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\-N\-E\-M\-Y\-\_\-\-C\-O\-U\-N\-T\-\_\-\-M\-A\-X~1}}\label{_scene_game_8h_a8e502e90ab353b1b3d58e2554182a6ff}

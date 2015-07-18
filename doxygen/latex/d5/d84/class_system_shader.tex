@@ -1,0 +1,191 @@
+\hypertarget{class_system_shader}{\section{クラス System\-Shader}
+\label{class_system_shader}\index{System\-Shader@{System\-Shader}}
+}
+
+
+{\ttfamily \#include $<$System\-Shader.\-h$>$}
+
+System\-Shaderに対する継承グラフ\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d5/d84/class_system_shader}
+\end{center}
+\end{figure}
+\subsection*{Public 型}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_system_shader_a045af48fcf9fd181b1504389a204cadc}{S\-H\-A\-D\-E\-R\-\_\-\-M\-O\-D\-E} \{ \hyperlink{class_system_shader_a045af48fcf9fd181b1504389a204cadcad4c9a15c9fe56663a6d8ab42b1bea9bd}{S\-H\-A\-D\-E\-R\-\_\-\-N\-O\-R\-M\-A\-L}, 
+\hyperlink{class_system_shader_a045af48fcf9fd181b1504389a204cadcacb7eeae7f61ee30d58c4c185a14c767d}{S\-H\-A\-D\-E\-R\-\_\-\-T\-E\-X\-T\-U\-R\-E}, 
+\hyperlink{class_system_shader_a045af48fcf9fd181b1504389a204cadcaa3a02ca217f89e34796dfb3146ca79c4}{S\-H\-A\-D\-E\-R\-\_\-\-M\-A\-X}
+ \}
+\begin{DoxyCompactList}\small\item\em シェーダの種類 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public メソッド}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_system_shader_a372fad007b14e7d934913e85140bd0e1}{System\-Shader} ()
+\begin{DoxyCompactList}\small\item\em コンストラクタ \end{DoxyCompactList}\item 
+virtual \hyperlink{class_system_shader_aea4c03c6d6f48b122c699497523bc690}{$\sim$\-System\-Shader} ()
+\begin{DoxyCompactList}\small\item\em デストラクタ \end{DoxyCompactList}\item 
+bool \hyperlink{class_system_shader_ac08cac17b68ec15c287cdc96bd6e4112}{Init} ()
+\begin{DoxyCompactList}\small\item\em 初期化 \end{DoxyCompactList}\item 
+void \hyperlink{class_system_shader_a59985b4737cf4263cf372a4f5ea1c60d}{Cleanup} ()
+\begin{DoxyCompactList}\small\item\em 解放 \end{DoxyCompactList}\item 
+bool \hyperlink{class_system_shader_a0c83332ff8654ede8d80a9932e93db62}{Init\-Shader} (\hyperlink{class_system_shader_a045af48fcf9fd181b1504389a204cadc}{S\-H\-A\-D\-E\-R\-\_\-\-M\-O\-D\-E} mode)
+\begin{DoxyCompactList}\small\item\em シェーダプログラムの初期化 \end{DoxyCompactList}\item 
+bool \hyperlink{class_system_shader_a64a0d6a15611c301d22ee90fdb93e6f1}{read\-Shader\-Source} (G\-Luint shader, char $\ast$file\-Name)
+\begin{DoxyCompactList}\small\item\em シェーダの読み込み \end{DoxyCompactList}\item 
+void \hyperlink{class_system_shader_a429ec01976737272f3ed206f3c6b615e}{begin\-Shader} (\hyperlink{class_system_shader_a045af48fcf9fd181b1504389a204cadc}{S\-H\-A\-D\-E\-R\-\_\-\-M\-O\-D\-E} mode)
+\begin{DoxyCompactList}\small\item\em シェーダの開始 \end{DoxyCompactList}\item 
+void \hyperlink{class_system_shader_aacafa83c1f764897a12c47cc547d1a61}{end\-Shader} ()
+\begin{DoxyCompactList}\small\item\em シェーダの終了 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{列挙型}
+\hypertarget{class_system_shader_a045af48fcf9fd181b1504389a204cadc}{\index{System\-Shader@{System\-Shader}!S\-H\-A\-D\-E\-R\-\_\-\-M\-O\-D\-E@{S\-H\-A\-D\-E\-R\-\_\-\-M\-O\-D\-E}}
+\index{S\-H\-A\-D\-E\-R\-\_\-\-M\-O\-D\-E@{S\-H\-A\-D\-E\-R\-\_\-\-M\-O\-D\-E}!SystemShader@{System\-Shader}}
+\subsubsection[{S\-H\-A\-D\-E\-R\-\_\-\-M\-O\-D\-E}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf System\-Shader\-::\-S\-H\-A\-D\-E\-R\-\_\-\-M\-O\-D\-E}}}\label{class_system_shader_a045af48fcf9fd181b1504389a204cadc}
+
+
+シェーダの種類 
+
+\begin{Desc}
+\item[列挙型の値]\par
+\begin{description}
+\index{S\-H\-A\-D\-E\-R\-\_\-\-N\-O\-R\-M\-A\-L@{S\-H\-A\-D\-E\-R\-\_\-\-N\-O\-R\-M\-A\-L}!System\-Shader@{System\-Shader}}\index{System\-Shader@{System\-Shader}!S\-H\-A\-D\-E\-R\-\_\-\-N\-O\-R\-M\-A\-L@{S\-H\-A\-D\-E\-R\-\_\-\-N\-O\-R\-M\-A\-L}}\item[{\em 
+\hypertarget{class_system_shader_a045af48fcf9fd181b1504389a204cadcad4c9a15c9fe56663a6d8ab42b1bea9bd}{S\-H\-A\-D\-E\-R\-\_\-\-N\-O\-R\-M\-A\-L}\label{class_system_shader_a045af48fcf9fd181b1504389a204cadcad4c9a15c9fe56663a6d8ab42b1bea9bd}
+}]\index{S\-H\-A\-D\-E\-R\-\_\-\-T\-E\-X\-T\-U\-R\-E@{S\-H\-A\-D\-E\-R\-\_\-\-T\-E\-X\-T\-U\-R\-E}!System\-Shader@{System\-Shader}}\index{System\-Shader@{System\-Shader}!S\-H\-A\-D\-E\-R\-\_\-\-T\-E\-X\-T\-U\-R\-E@{S\-H\-A\-D\-E\-R\-\_\-\-T\-E\-X\-T\-U\-R\-E}}\item[{\em 
+\hypertarget{class_system_shader_a045af48fcf9fd181b1504389a204cadcacb7eeae7f61ee30d58c4c185a14c767d}{S\-H\-A\-D\-E\-R\-\_\-\-T\-E\-X\-T\-U\-R\-E}\label{class_system_shader_a045af48fcf9fd181b1504389a204cadcacb7eeae7f61ee30d58c4c185a14c767d}
+}]\index{S\-H\-A\-D\-E\-R\-\_\-\-M\-A\-X@{S\-H\-A\-D\-E\-R\-\_\-\-M\-A\-X}!System\-Shader@{System\-Shader}}\index{System\-Shader@{System\-Shader}!S\-H\-A\-D\-E\-R\-\_\-\-M\-A\-X@{S\-H\-A\-D\-E\-R\-\_\-\-M\-A\-X}}\item[{\em 
+\hypertarget{class_system_shader_a045af48fcf9fd181b1504389a204cadcaa3a02ca217f89e34796dfb3146ca79c4}{S\-H\-A\-D\-E\-R\-\_\-\-M\-A\-X}\label{class_system_shader_a045af48fcf9fd181b1504389a204cadcaa3a02ca217f89e34796dfb3146ca79c4}
+}]\end{description}
+\end{Desc}
+
+
+\subsection{コンストラクタとデストラクタ}
+\hypertarget{class_system_shader_a372fad007b14e7d934913e85140bd0e1}{\index{System\-Shader@{System\-Shader}!System\-Shader@{System\-Shader}}
+\index{System\-Shader@{System\-Shader}!SystemShader@{System\-Shader}}
+\subsubsection[{System\-Shader}]{\setlength{\rightskip}{0pt plus 5cm}System\-Shader\-::\-System\-Shader (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_system_shader_a372fad007b14e7d934913e85140bd0e1}
+
+
+コンストラクタ 
+
+\hypertarget{class_system_shader_aea4c03c6d6f48b122c699497523bc690}{\index{System\-Shader@{System\-Shader}!$\sim$\-System\-Shader@{$\sim$\-System\-Shader}}
+\index{$\sim$\-System\-Shader@{$\sim$\-System\-Shader}!SystemShader@{System\-Shader}}
+\subsubsection[{$\sim$\-System\-Shader}]{\setlength{\rightskip}{0pt plus 5cm}System\-Shader\-::$\sim$\-System\-Shader (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_system_shader_aea4c03c6d6f48b122c699497523bc690}
+
+
+デストラクタ 
+
+
+
+\subsection{関数}
+\hypertarget{class_system_shader_a429ec01976737272f3ed206f3c6b615e}{\index{System\-Shader@{System\-Shader}!begin\-Shader@{begin\-Shader}}
+\index{begin\-Shader@{begin\-Shader}!SystemShader@{System\-Shader}}
+\subsubsection[{begin\-Shader}]{\setlength{\rightskip}{0pt plus 5cm}void System\-Shader\-::begin\-Shader (
+\begin{DoxyParamCaption}
+\item[{{\bf S\-H\-A\-D\-E\-R\-\_\-\-M\-O\-D\-E}}]{mode}
+\end{DoxyParamCaption}
+)}}\label{class_system_shader_a429ec01976737272f3ed206f3c6b615e}
+
+
+シェーダの開始 
+
+シェーダプログラムの適用 \hypertarget{class_system_shader_a59985b4737cf4263cf372a4f5ea1c60d}{\index{System\-Shader@{System\-Shader}!Cleanup@{Cleanup}}
+\index{Cleanup@{Cleanup}!SystemShader@{System\-Shader}}
+\subsubsection[{Cleanup}]{\setlength{\rightskip}{0pt plus 5cm}void System\-Shader\-::\-Cleanup (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_system_shader_a59985b4737cf4263cf372a4f5ea1c60d}
+
+
+解放 
+
+\hypertarget{class_system_shader_aacafa83c1f764897a12c47cc547d1a61}{\index{System\-Shader@{System\-Shader}!end\-Shader@{end\-Shader}}
+\index{end\-Shader@{end\-Shader}!SystemShader@{System\-Shader}}
+\subsubsection[{end\-Shader}]{\setlength{\rightskip}{0pt plus 5cm}void System\-Shader\-::end\-Shader (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_system_shader_aacafa83c1f764897a12c47cc547d1a61}
+
+
+シェーダの終了 
+
+シェーダプログラムの適用 \hypertarget{class_system_shader_ac08cac17b68ec15c287cdc96bd6e4112}{\index{System\-Shader@{System\-Shader}!Init@{Init}}
+\index{Init@{Init}!SystemShader@{System\-Shader}}
+\subsubsection[{Init}]{\setlength{\rightskip}{0pt plus 5cm}bool System\-Shader\-::\-Init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_system_shader_ac08cac17b68ec15c287cdc96bd6e4112}
+
+
+初期化 
+
+G\-L\-S\-Lの初期化
+
+シェーダプログラムの初期化 \hypertarget{class_system_shader_a0c83332ff8654ede8d80a9932e93db62}{\index{System\-Shader@{System\-Shader}!Init\-Shader@{Init\-Shader}}
+\index{Init\-Shader@{Init\-Shader}!SystemShader@{System\-Shader}}
+\subsubsection[{Init\-Shader}]{\setlength{\rightskip}{0pt plus 5cm}bool System\-Shader\-::\-Init\-Shader (
+\begin{DoxyParamCaption}
+\item[{{\bf S\-H\-A\-D\-E\-R\-\_\-\-M\-O\-D\-E}}]{mode}
+\end{DoxyParamCaption}
+)}}\label{class_system_shader_a0c83332ff8654ede8d80a9932e93db62}
+
+
+シェーダプログラムの初期化 
+
+シェーダプログラムのコンパイル/リンク結果を得る変数
+
+シェーダオブジェクトの作成
+
+シェーダのソースプログラムの読み込み
+
+バーテックスシェーダのソースプログラムのコンパイル
+
+フラグメントシェーダのソースプログラムのコンパイル
+
+プログラムオブジェクトの作成
+
+シェーダオブジェクトのシェーダプログラムへの登録
+
+シェーダオブジェクトの削除
+
+シェーダプログラムのリンク
+
+テクスチャユニット０を指定する \hypertarget{class_system_shader_a64a0d6a15611c301d22ee90fdb93e6f1}{\index{System\-Shader@{System\-Shader}!read\-Shader\-Source@{read\-Shader\-Source}}
+\index{read\-Shader\-Source@{read\-Shader\-Source}!SystemShader@{System\-Shader}}
+\subsubsection[{read\-Shader\-Source}]{\setlength{\rightskip}{0pt plus 5cm}bool System\-Shader\-::read\-Shader\-Source (
+\begin{DoxyParamCaption}
+\item[{G\-Luint}]{shader, }
+\item[{char $\ast$}]{file\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_system_shader_a64a0d6a15611c301d22ee90fdb93e6f1}
+
+
+シェーダの読み込み 
+
+ファイルサイズの取得
+
+シェーダプログラムの読み込み領域を買う穂
+
+ファイルを先頭から読み込む
+
+シェーダオブジェクトにプログラムをセット
+
+シェーダ読み込み領域の開放 
+
+このクラスの説明は次のファイルから生成されました\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_system_shader_8h}{System\-Shader.\-h}\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_system_shader_8cpp}{System\-Shader.\-cpp}\end{DoxyCompactItemize}

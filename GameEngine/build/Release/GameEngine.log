@@ -1,0 +1,63 @@
+﻿2014/10/20 19:15:00 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\GameEngine\build\GameEngine.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         D:\OCA\OCA使用ソフト\VisualStudioforStudent\2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\GameEngine.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\gmSystemRender.cpp
+         gmSystemRender.cpp
+     1>..\src\gmSystemRender.cpp(503): warning C4244: '初期化中' : 's32' から 'f32' への変換です。データが失われる可能性があります。
+       Lib:
+         D:\OCA\OCA使用ソフト\VisualStudioforStudent\2013\VC\bin\Lib.exe /OUT:"D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\Game\build\Release\GameEngine.lib" /NOLOGO /LTCG Release\gmAABBTree.obj
+         Release\gmAssetBase.obj
+         Release\gmAssetModelX.obj
+         Release\gmAssetTexture.obj
+         Release\gmBase.obj
+         Release\gmCamera.obj
+         Release\gmCameraBase.obj
+         Release\gmCameraManager.obj
+         Release\gmCollision.obj
+         Release\gmCollisionManager.obj
+         Release\gmCollisionWall.obj
+         Release\gmController.obj
+         Release\gmControllerManager.obj
+         Release\gmFragmentShader.obj
+         Release\gmGeometry.obj
+         Release\gmHDRTexReader.obj
+         Release\gmLandScape.obj
+         Release\gmMatrix.obj
+         Release\gmMouse.obj
+         Release\gmMouseManager.obj
+         Release\gmProfiler.obj
+         Release\gmProgramShader.obj
+         Release\gmQuaternion.obj
+         Release\gmRefCounter.obj
+         Release\gmSceneBase.obj
+         Release\gmShaderObjectBase.obj
+         Release\gmSystem.obj
+         Release\gmSystemAsset.obj
+         Release\gmSystemMain.obj
+         Release\gmSystemRender.obj
+         Release\gmSystemScene.obj
+         Release\gmSystemShader.obj
+         Release\gmTaskBase.obj
+         Release\gmTaskFilter.obj
+         Release\gmTaskFilterBloom.obj
+         Release\gmTaskFilterGaussian.obj
+         Release\gmTaskFilterGlare.obj
+         Release\gmTaskFilterLensFlare.obj
+         Release\gmTaskFilterMotionBlur.obj
+         Release\gmTaskFilterTonemapping.obj
+         Release\gmTaskModelX.obj
+         Release\gmTimer.obj
+         Release\gmType.obj
+         Release\gmTypedef.obj
+         Release\gmVector.obj
+         Release\gmVertexArrayObject.obj
+         Release\gmVertexShader.obj
+         Release\gmWindowInfo.obj
+         Release\stdafx.obj
+         Release\gmTexture.obj
+         GameEngine.vcxproj -> D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\Game\build\Release\GameEngine.lib
+     1>プロジェクト "D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\GameEngine\build\GameEngine.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.00

@@ -1,0 +1,341 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>CastleCrash: クラス SystemPerformance</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">CastleCrash
+   &#160;<span id="projectnumber">2014/07/20</span>
+   </div>
+   <div id="projectbrief">Yuki Ishigaki</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>メインページ</span></a></li>
+      <li><a href="namespaces.html"><span>ネームスペース</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>構成</span></a></li>
+      <li><a href="classes.html"><span>構成索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>構成メンバ</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_system_performance.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>ネームスペース</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>型定義</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>列挙型</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>列挙型の値</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>フレンド</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>マクロ定義</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public メソッド</a> &#124;
+<a href="#pro-attribs">Protected 変数</a> &#124;
+<a href="class_system_performance-members.html">すべてのメンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">クラス SystemPerformance</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>パフォーマンスマネージャー  
+ <a href="class_system_performance.html#details">[詳細]</a></p>
+
+<p><code>#include &lt;<a class="el" href="gm_timer_8h_source.html">gmTimer.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public メソッド</h2></td></tr>
+<tr class="memitem:ada844b6d100b7dc02ee103aeba8bd329"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_performance.html#ada844b6d100b7dc02ee103aeba8bd329">drawPerformanceBar</a> ()</td></tr>
+<tr class="memdesc:ada844b6d100b7dc02ee103aeba8bd329"><td class="mdescLeft">&#160;</td><td class="mdescRight">描画  <a href="#ada844b6d100b7dc02ee103aeba8bd329">[詳細]</a><br/></td></tr>
+<tr class="separator:ada844b6d100b7dc02ee103aeba8bd329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">登録・解除</div></td></tr>
+<tr class="memitem:a6fb3ae58a3d8b989face6ad1e5dc1823"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_performance.html#a6fb3ae58a3d8b989face6ad1e5dc1823">addPeform</a> (<a class="el" href="class_performance.html">Performance</a> *perform)</td></tr>
+<tr class="memdesc:a6fb3ae58a3d8b989face6ad1e5dc1823"><td class="mdescLeft">&#160;</td><td class="mdescRight">パフォーマンスの追加  <a href="#a6fb3ae58a3d8b989face6ad1e5dc1823">[詳細]</a><br/></td></tr>
+<tr class="separator:a6fb3ae58a3d8b989face6ad1e5dc1823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcff5252367ebdfbde8c7f57ec2f19ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_performance.html#afcff5252367ebdfbde8c7f57ec2f19ef">deletePeform</a> (<a class="el" href="class_performance.html">Performance</a> *peform)</td></tr>
+<tr class="memdesc:afcff5252367ebdfbde8c7f57ec2f19ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">パフォーマンスの削除  <a href="#afcff5252367ebdfbde8c7f57ec2f19ef">[詳細]</a><br/></td></tr>
+<tr class="separator:afcff5252367ebdfbde8c7f57ec2f19ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 変数</h2></td></tr>
+<tr class="memitem:a3120a44ad3530a147f81b27b8db060b3"><td class="memItemLeft" align="right" valign="top">list&lt; <a class="el" href="class_performance.html">Performance</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_performance.html#a3120a44ad3530a147f81b27b8db060b3">_pPerformList</a></td></tr>
+<tr class="memdesc:a3120a44ad3530a147f81b27b8db060b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">パフォーマンスリスト  <a href="#a3120a44ad3530a147f81b27b8db060b3">[詳細]</a><br/></td></tr>
+<tr class="separator:a3120a44ad3530a147f81b27b8db060b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7413c48c1dd6ae5380fcc8619e9ac4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_performance.html#af7413c48c1dd6ae5380fcc8619e9ac4a">_maxSecond</a></td></tr>
+<tr class="memdesc:af7413c48c1dd6ae5380fcc8619e9ac4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">最大ミリ秒  <a href="#af7413c48c1dd6ae5380fcc8619e9ac4a">[詳細]</a><br/></td></tr>
+<tr class="separator:af7413c48c1dd6ae5380fcc8619e9ac4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+取得</h2></td></tr>
+<tr class="memitem:a1e43160aab4a45413492f81d169eafdf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_system_performance.html">SystemPerformance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_performance.html#a1e43160aab4a45413492f81d169eafdf">getInstance</a> ()</td></tr>
+<tr class="memdesc:a1e43160aab4a45413492f81d169eafdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンス取得  <a href="#a1e43160aab4a45413492f81d169eafdf">[詳細]</a><br/></td></tr>
+<tr class="separator:a1e43160aab4a45413492f81d169eafdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ade22e9a9fe0290cc7e55f93a48b5aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_performance.html">Performance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_performance.html#a7ade22e9a9fe0290cc7e55f93a48b5aa">getSamePerformance</a> (<a class="el" href="class_performance.html">Performance</a> *perform)</td></tr>
+<tr class="memdesc:a7ade22e9a9fe0290cc7e55f93a48b5aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">同じパフォーマンスを取得  <a href="#a7ade22e9a9fe0290cc7e55f93a48b5aa">[詳細]</a><br/></td></tr>
+<tr class="separator:a7ade22e9a9fe0290cc7e55f93a48b5aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58adb94374591a9d6f31538c0ea2fd15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_performance.html#a58adb94374591a9d6f31538c0ea2fd15">getFrame</a> ()</td></tr>
+<tr class="memdesc:a58adb94374591a9d6f31538c0ea2fd15"><td class="mdescLeft">&#160;</td><td class="mdescRight">最大ミリ秒を返す  <a href="#a58adb94374591a9d6f31538c0ea2fd15">[詳細]</a><br/></td></tr>
+<tr class="separator:a58adb94374591a9d6f31538c0ea2fd15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">説明</h2>
+<div class="textblock"><p>パフォーマンスマネージャー </p>
+</div><h2 class="groupheader">関数</h2>
+<a class="anchor" id="a6fb3ae58a3d8b989face6ad1e5dc1823"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemPerformance::addPeform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_performance.html">Performance</a> *&#160;</td>
+          <td class="paramname"><em>perform</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>パフォーマンスの追加 </p>
+
+</div>
+</div>
+<a class="anchor" id="afcff5252367ebdfbde8c7f57ec2f19ef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemPerformance::deletePeform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_performance.html">Performance</a> *&#160;</td>
+          <td class="paramname"><em>peform</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>パフォーマンスの削除 </p>
+
+</div>
+</div>
+<a class="anchor" id="ada844b6d100b7dc02ee103aeba8bd329"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemPerformance::drawPerformanceBar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>描画 </p>
+
+</div>
+</div>
+<a class="anchor" id="a58adb94374591a9d6f31538c0ea2fd15"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a> SystemPerformance::getFrame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>最大ミリ秒を返す </p>
+
+</div>
+</div>
+<a class="anchor" id="a1e43160aab4a45413492f81d169eafdf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_system_performance.html">SystemPerformance</a>* SystemPerformance::getInstance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>インスタンス取得 </p>
+
+</div>
+</div>
+<a class="anchor" id="a7ade22e9a9fe0290cc7e55f93a48b5aa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_performance.html">Performance</a> * SystemPerformance::getSamePerformance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_performance.html">Performance</a> *&#160;</td>
+          <td class="paramname"><em>perform</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>同じパフォーマンスを取得 </p>
+
+</div>
+</div>
+<h2 class="groupheader">変数</h2>
+<a class="anchor" id="af7413c48c1dd6ae5380fcc8619e9ac4a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a> SystemPerformance::_maxSecond</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>最大ミリ秒 </p>
+
+</div>
+</div>
+<a class="anchor" id="a3120a44ad3530a147f81b27b8db060b3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">list&lt;<a class="el" href="class_performance.html">Performance</a>*&gt; SystemPerformance::_pPerformList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>パフォーマンスリスト </p>
+
+</div>
+</div>
+<hr/>このクラスの説明は次のファイルから生成されました:<ul>
+<li>D:/OCA/OCA_BackUp/OpenGL/WithGameEngineProj/GameWithLibrary/GameEngine/src/<a class="el" href="gm_timer_8h_source.html">gmTimer.h</a></li>
+<li>D:/OCA/OCA_BackUp/OpenGL/WithGameEngineProj/GameWithLibrary/GameEngine/src/<a class="el" href="gm_timer_8cpp.html">gmTimer.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_system_performance.html">SystemPerformance</a></li>
+    <li class="footer">CastleCrashに対してSun Jul 20 2014 17:25:19に生成されました。
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

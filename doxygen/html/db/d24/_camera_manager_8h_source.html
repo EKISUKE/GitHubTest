@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>myGame: E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CameraManager.h ソースファイル</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">myGame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>メインページ</span></a></li>
+      <li><a href="../../namespaces.html"><span>ネームスペース</span></a></li>
+      <li><a href="../../annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="../../files.html"><span>ファイル</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="../../globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">CameraManager.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../db/d24/_camera_manager_8h.html">説明を見る。</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d2/d23/class_camera_manager.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d2/d23/class_camera_manager.html">CameraManager</a> : <span class="keyword">public</span> <a class="code" href="../../d3/dbc/class_singleton.html">Singleton</a>&lt;CameraManager&gt;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d2/d23/class_camera_manager.html#ab66d897f3d5f01efe7e4368f16c42d7f">CameraManager</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="../../d2/d23/class_camera_manager.html#a7a5d263f3fc28809d6c8c3935e571143">~CameraManager</a>();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d2/d23/class_camera_manager.html#ad1ad88e38d71fe78dc063bee3d14f8e0">   23</a></span>&#160;    <a class="code" href="../../dd/d75/class_camera_base.html">CameraBase</a>*     <a class="code" href="../../d2/d23/class_camera_manager.html#ad1ad88e38d71fe78dc063bee3d14f8e0">getCurrentCamera</a>()</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d2/d23/class_camera_manager.html#adebeac379b0624f1abccef0da6888aa8">_pVecCamera</a>.at(<a class="code" href="../../d2/d23/class_camera_manager.html#aa6ac62939777a393fedbea0d40ef0bfc">currentIndex</a>);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../d2/d23/class_camera_manager.html#accb69eb09849248e2f41daa0f521b63a">   31</a></span>&#160;    <span class="keywordtype">bool</span>        <a class="code" href="../../d2/d23/class_camera_manager.html#accb69eb09849248e2f41daa0f521b63a">setCurrentCamera</a>(<a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> Index)</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">if</span>( Index &lt; <a class="code" href="../../d2/d23/class_camera_manager.html#adebeac379b0624f1abccef0da6888aa8">_pVecCamera</a>.size() ) {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <a class="code" href="../../d2/d23/class_camera_manager.html#aa6ac62939777a393fedbea0d40ef0bfc">currentIndex</a> = Index;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span>        <a class="code" href="../../d2/d23/class_camera_manager.html#a1c88d9e61467164a693c98e8affcc049">createCamera</a>(<a class="code" href="../../dd/d75/class_camera_base.html">CameraBase</a>* camera = <span class="keyword">new</span> <a class="code" href="../../dd/d75/class_camera_base.html">CameraBase</a>());</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span>        <a class="code" href="../../d2/d23/class_camera_manager.html#a98e3121774e0f6b013e10ee2a9a7af6d">deleteCamera</a>(<a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> Index);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../d2/d23/class_camera_manager.html#adebeac379b0624f1abccef0da6888aa8">   47</a></span>&#160;    vector&lt;CameraBase*&gt;     <a class="code" href="../../d2/d23/class_camera_manager.html#adebeac379b0624f1abccef0da6888aa8">_pVecCamera</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="../../d2/d23/class_camera_manager.html#aa6ac62939777a393fedbea0d40ef0bfc">   48</a></span>&#160;    <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> <a class="code" href="../../d2/d23/class_camera_manager.html#aa6ac62939777a393fedbea0d40ef0bfc">currentIndex</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;};</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">// アクセスインターフェイス</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;__forceinline</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="../../db/d24/_camera_manager_8h.html#ae599580d14733582aa84a591557b25c4">   57</a></span>&#160;<a class="code" href="../../d2/d23/class_camera_manager.html">CameraManager</a>*  <a class="code" href="../../db/d24/_camera_manager_8h.html#ae599580d14733582aa84a591557b25c4">ICameraManager</a>()</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/dbc/class_singleton.html#ad6f103597095efda360db4a230308666">CameraManager::getInstance</a>();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">//  END OF FILE</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="ttc" id="class_camera_base_html"><div class="ttname"><a href="../../dd/d75/class_camera_base.html">CameraBase</a></div><div class="ttdef"><b>Definition:</b> CameraBase.h:14</div></div>
+<div class="ttc" id="class_singleton_html"><div class="ttname"><a href="../../d3/dbc/class_singleton.html">Singleton</a></div><div class="ttdef"><b>Definition:</b> Singleton.h:13</div></div>
+<div class="ttc" id="class_camera_manager_html_ad1ad88e38d71fe78dc063bee3d14f8e0"><div class="ttname"><a href="../../d2/d23/class_camera_manager.html#ad1ad88e38d71fe78dc063bee3d14f8e0">CameraManager::getCurrentCamera</a></div><div class="ttdeci">CameraBase * getCurrentCamera()</div><div class="ttdoc">現在使用中のカメラを取得 </div><div class="ttdef"><b>Definition:</b> CameraManager.h:23</div></div>
+<div class="ttc" id="class_singleton_html_ad6f103597095efda360db4a230308666"><div class="ttname"><a href="../../d3/dbc/class_singleton.html#ad6f103597095efda360db4a230308666">Singleton&lt; CameraManager &gt;::getInstance</a></div><div class="ttdeci">static CameraManager * getInstance()</div><div class="ttdoc">唯一のインスタンス獲得 </div><div class="ttdef"><b>Definition:</b> Singleton.h:32</div></div>
+<div class="ttc" id="class_camera_manager_html_adebeac379b0624f1abccef0da6888aa8"><div class="ttname"><a href="../../d2/d23/class_camera_manager.html#adebeac379b0624f1abccef0da6888aa8">CameraManager::_pVecCamera</a></div><div class="ttdeci">vector&lt; CameraBase * &gt; _pVecCamera</div><div class="ttdef"><b>Definition:</b> CameraManager.h:47</div></div>
+<div class="ttc" id="_camera_manager_8h_html_ae599580d14733582aa84a591557b25c4"><div class="ttname"><a href="../../db/d24/_camera_manager_8h.html#ae599580d14733582aa84a591557b25c4">ICameraManager</a></div><div class="ttdeci">__forceinline CameraManager * ICameraManager()</div><div class="ttdef"><b>Definition:</b> CameraManager.h:57</div></div>
+<div class="ttc" id="class_camera_manager_html"><div class="ttname"><a href="../../d2/d23/class_camera_manager.html">CameraManager</a></div><div class="ttdef"><b>Definition:</b> CameraManager.h:13</div></div>
+<div class="ttc" id="class_camera_manager_html_ab66d897f3d5f01efe7e4368f16c42d7f"><div class="ttname"><a href="../../d2/d23/class_camera_manager.html#ab66d897f3d5f01efe7e4368f16c42d7f">CameraManager::CameraManager</a></div><div class="ttdeci">CameraManager()</div><div class="ttdoc">デフォルトコンストラクタ </div><div class="ttdef"><b>Definition:</b> CameraManager.cpp:22</div></div>
+<div class="ttc" id="class_camera_manager_html_aa6ac62939777a393fedbea0d40ef0bfc"><div class="ttname"><a href="../../d2/d23/class_camera_manager.html#aa6ac62939777a393fedbea0d40ef0bfc">CameraManager::currentIndex</a></div><div class="ttdeci">s32 currentIndex</div><div class="ttdef"><b>Definition:</b> CameraManager.h:48</div></div>
+<div class="ttc" id="class_camera_manager_html_accb69eb09849248e2f41daa0f521b63a"><div class="ttname"><a href="../../d2/d23/class_camera_manager.html#accb69eb09849248e2f41daa0f521b63a">CameraManager::setCurrentCamera</a></div><div class="ttdeci">bool setCurrentCamera(s32 Index)</div><div class="ttdef"><b>Definition:</b> CameraManager.h:31</div></div>
+<div class="ttc" id="class_camera_manager_html_a98e3121774e0f6b013e10ee2a9a7af6d"><div class="ttname"><a href="../../d2/d23/class_camera_manager.html#a98e3121774e0f6b013e10ee2a9a7af6d">CameraManager::deleteCamera</a></div><div class="ttdeci">void deleteCamera(s32 Index)</div><div class="ttdoc">指定したカメラを削除 </div><div class="ttdef"><b>Definition:</b> CameraManager.cpp:46</div></div>
+<div class="ttc" id="_main_8h_html_a0ce6887c26c1c49ad3be5710dd42bfd6"><div class="ttname"><a href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a></div><div class="ttdeci">signed int s32</div><div class="ttdoc">符号あり32bit整数 </div><div class="ttdef"><b>Definition:</b> Main.h:64</div></div>
+<div class="ttc" id="class_camera_manager_html_a1c88d9e61467164a693c98e8affcc049"><div class="ttname"><a href="../../d2/d23/class_camera_manager.html#a1c88d9e61467164a693c98e8affcc049">CameraManager::createCamera</a></div><div class="ttdeci">void createCamera(CameraBase *camera=new CameraBase())</div><div class="ttdoc">カメラを作成 </div><div class="ttdef"><b>Definition:</b> CameraManager.cpp:38</div></div>
+<div class="ttc" id="class_camera_manager_html_a7a5d263f3fc28809d6c8c3935e571143"><div class="ttname"><a href="../../d2/d23/class_camera_manager.html#a7a5d263f3fc28809d6c8c3935e571143">CameraManager::~CameraManager</a></div><div class="ttdeci">virtual ~CameraManager()</div><div class="ttdoc">デストラクタ </div><div class="ttdef"><b>Definition:</b> CameraManager.cpp:30</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+myGameに対してSun Oct 13 2013 20:58:05に生成されました。 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

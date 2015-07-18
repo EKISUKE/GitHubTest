@@ -1,0 +1,21 @@
+﻿2013/04/20 19:34:14 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "D:\develop\freeglut-2.8.1\VisualStudio\2010\Resizer\Resizer.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\Win32_v100\Resizer.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         すべての出力が最新のものです。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\progs\demos\x86\release_dll\Resizer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\lib\x86\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Win32_v100\Resizer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\develop\freeglut-2.8.1\progs\demos\x86\release_dll\Resizer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\progs\demos\x86\release_dll\Resizer.lib" /MACHINE:X86 Release\Win32_v100\Resizer.obj
+         コード生成しています。
+         コード生成が終了しました。
+         Resizer.vcxproj -> D:\develop\freeglut-2.8.1\VisualStudio\2010\Resizer\..\..\..\progs\demos\x86\release_dll\Resizer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\progs\demos\x86\release_dll\Resizer.exe;#1" /manifest Release\Win32_v100\Resizer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Release\Win32_v100\Resizer.unsuccessfulbuild" を削除しています。
+         "Release\Win32_v100\Resizer.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "D:\develop\freeglut-2.8.1\VisualStudio\2010\Resizer\Resizer.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:00.21

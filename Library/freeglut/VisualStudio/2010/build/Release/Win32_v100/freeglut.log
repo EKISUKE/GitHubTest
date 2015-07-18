@@ -1,0 +1,48 @@
+﻿2013/04/20 19:34:13 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\develop\freeglut-2.8.1\VisualStudio\2010\freeglut.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "build\Release\Win32_v100\freeglut.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         すべての出力が最新のものです。
+       ResourceCompile:
+         すべての出力が最新のものです。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\lib\x86\freeglut.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"..\..\src\freeglutdll.def" /MANIFEST /ManifestFile:"build\Release\Win32_v100\freeglut.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\develop\freeglut-2.8.1\lib\x86\freeglut.pdb" /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\..\lib\x86\freeglut.lib" /MACHINE:X86 /DLL build\Release\Win32_v100\freeglut.res
+         build\Release\Win32_v100\freeglut_callbacks.obj
+         build\Release\Win32_v100\freeglut_cursor.obj
+         build\Release\Win32_v100\freeglut_display.obj
+         build\Release\Win32_v100\freeglut_ext.obj
+         build\Release\Win32_v100\freeglut_font.obj
+         build\Release\Win32_v100\freeglut_font_data.obj
+         build\Release\Win32_v100\freeglut_gamemode.obj
+         build\Release\Win32_v100\freeglut_geometry.obj
+         build\Release\Win32_v100\freeglut_glutfont_definitions.obj
+         build\Release\Win32_v100\freeglut_init.obj
+         build\Release\Win32_v100\freeglut_input_devices.obj
+         build\Release\Win32_v100\freeglut_joystick.obj
+         build\Release\Win32_v100\freeglut_main.obj
+         build\Release\Win32_v100\freeglut_menu.obj
+         build\Release\Win32_v100\freeglut_misc.obj
+         build\Release\Win32_v100\freeglut_overlay.obj
+         build\Release\Win32_v100\freeglut_spaceball.obj
+         build\Release\Win32_v100\freeglut_state.obj
+         build\Release\Win32_v100\freeglut_stroke_mono_roman.obj
+         build\Release\Win32_v100\freeglut_stroke_roman.obj
+         build\Release\Win32_v100\freeglut_structure.obj
+         build\Release\Win32_v100\freeglut_teapot.obj
+         build\Release\Win32_v100\freeglut_videoresize.obj
+         build\Release\Win32_v100\freeglut_window.obj
+            ライブラリ ..\..\lib\x86\freeglut.lib とオブジェクト ..\..\lib\x86\freeglut.exp を作成中
+         コード生成しています。
+         コード生成が終了しました。
+         freeglut.vcxproj -> D:\develop\freeglut-2.8.1\VisualStudio\2010\..\..\lib\x86\freeglut.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\lib\x86\freeglut.dll;#2" /manifest build\Release\Win32_v100\freeglut.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "build\Release\Win32_v100\freeglut.unsuccessfulbuild" を削除しています。
+         "build\Release\Win32_v100\freeglut.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "D:\develop\freeglut-2.8.1\VisualStudio\2010\freeglut.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:00.96

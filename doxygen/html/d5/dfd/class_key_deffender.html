@@ -1,0 +1,465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>myGame: クラス KeyDeffender</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">myGame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>メインページ</span></a></li>
+      <li><a href="../../namespaces.html"><span>ネームスペース</span></a></li>
+      <li class="current"><a href="../../annotated.html"><span>クラス</span></a></li>
+      <li><a href="../../files.html"><span>ファイル</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../annotated.html"><span>構成</span></a></li>
+      <li><a href="../../classes.html"><span>構成索引</span></a></li>
+      <li><a href="../../hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="../../functions.html"><span>構成メンバ</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public メソッド</a> &#124;
+<a href="#pro-attribs">Protected 変数</a> &#124;
+<a href="../../dc/db7/class_key_deffender-members.html">すべてのメンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">クラス KeyDeffender</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="../../d1/d11/_key_deffender_8h_source.html">KeyDeffender.h</a>&gt;</code></p>
+<div class="dynheader">
+KeyDeffenderに対する継承グラフ</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d5/dfd/class_key_deffender.png" usemap="#KeyDeffender_map" alt=""/>
+  <map id="KeyDeffender_map" name="KeyDeffender_map">
+<area href="../../d9/d64/class_a_i.html" alt="AI" shape="rect" coords="0,112,91,136"/>
+<area href="../../dd/d2e/class_key_base.html" alt="KeyBase" shape="rect" coords="0,56,91,80"/>
+<area href="../../d1/d71/class_i_key.html" alt="IKey" shape="rect" coords="0,0,91,24"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public 型</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:a2d0fa24da9c8801e29e09785e96532c5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dfd/class_key_deffender.html#a2d0fa24da9c8801e29e09785e96532c5">MODE</a> { <a class="el" href="../../d5/dfd/class_key_deffender.html#a2d0fa24da9c8801e29e09785e96532c5abf68816f1b29a89fb4cfba57726bf02f">MODE_APPROACH</a>, 
+<a class="el" href="../../d5/dfd/class_key_deffender.html#a2d0fa24da9c8801e29e09785e96532c5a9864b335ebddb53f54ee6d6fc376e305">MODE_ATTACK</a>, 
+<a class="el" href="../../d5/dfd/class_key_deffender.html#a2d0fa24da9c8801e29e09785e96532c5a4bed2e2b8eb7c720589155ea020474ee">MODE_DEFFENCE</a>, 
+<a class="el" href="../../d5/dfd/class_key_deffender.html#a2d0fa24da9c8801e29e09785e96532c5ac6a457d66150ab005b17c5162818451a">MODE_MAX</a>
+ }</td></tr>
+<tr class="memdesc:a2d0fa24da9c8801e29e09785e96532c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">行動状態  <a href="../../d5/dfd/class_key_deffender.html#a2d0fa24da9c8801e29e09785e96532c5">[詳細]</a><br/></td></tr>
+<tr class="separator:a2d0fa24da9c8801e29e09785e96532c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_class_a_i"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_a_i')"><img src="../../closed.png" alt="-"/>&#160;Public 型 inherited from <a class="el" href="../../d9/d64/class_a_i.html">AI</a></td></tr>
+<tr class="memitem:ac649e1da72d905f0b48e92c8aeb29bca inherit pub_types_class_a_i"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d64/class_a_i.html#ac649e1da72d905f0b48e92c8aeb29bca">TYPE</a> { <br/>
+&#160;&#160;<a class="el" href="../../d9/d64/class_a_i.html#ac649e1da72d905f0b48e92c8aeb29bcaa76b6461a36be98b9e9fb44f03dad5e5e">TYPE_ATTACKER</a>, 
+<a class="el" href="../../d9/d64/class_a_i.html#ac649e1da72d905f0b48e92c8aeb29bcaa87446a443c551078bdeae8c84065e259">TYPE_DEFFENDER</a>, 
+<a class="el" href="../../d9/d64/class_a_i.html#ac649e1da72d905f0b48e92c8aeb29bcaaaf5cee11cc14232d7691a1b11b14109a">TYPE_HEALLER</a>, 
+<a class="el" href="../../d9/d64/class_a_i.html#ac649e1da72d905f0b48e92c8aeb29bcaa414de6573cb966cd1833418456b99a02">TYPE_FEINTER</a>, 
+<br/>
+&#160;&#160;<a class="el" href="../../d9/d64/class_a_i.html#ac649e1da72d905f0b48e92c8aeb29bcaaf496cd875c5a21038d274b1943700e0d">TYPE_MAX</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:ac649e1da72d905f0b48e92c8aeb29bca"><td class="mdescLeft">&#160;</td><td class="mdescRight">NPCの種類  <a href="../../d9/d64/class_a_i.html#ac649e1da72d905f0b48e92c8aeb29bca">[詳細]</a><br/></td></tr>
+<tr class="separator:ac649e1da72d905f0b48e92c8aeb29bca inherit pub_types_class_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_class_key_base"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_key_base')"><img src="../../closed.png" alt="-"/>&#160;Public 型 inherited from <a class="el" href="../../dd/d2e/class_key_base.html">KeyBase</a></td></tr>
+<tr class="memitem:a6e2d2326afadb1405879b31e4463e45f inherit pub_types_class_key_base"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#a6e2d2326afadb1405879b31e4463e45f">KEY_COMMAND</a> { <a class="el" href="../../dd/d2e/class_key_base.html#a6e2d2326afadb1405879b31e4463e45fadda545a53e15cba9c4530ad2ee6f2d3d">KEY_COMMAND_ATTACK</a>, 
+<a class="el" href="../../dd/d2e/class_key_base.html#a6e2d2326afadb1405879b31e4463e45fa314b03fd1202b9a7c601ecd2305b3403">KEY_COMMAND_JUMP</a>, 
+<a class="el" href="../../dd/d2e/class_key_base.html#a6e2d2326afadb1405879b31e4463e45fa1db21e7286a02df319da11ca37456c15">KEY_COMMAND_COMMANDCHANGE</a>, 
+<a class="el" href="../../dd/d2e/class_key_base.html#a6e2d2326afadb1405879b31e4463e45fa886ced2b7b9c443cbfbac07192978d6e">KEY_COMMAND_NUM</a>
+ }</td></tr>
+<tr class="separator:a6e2d2326afadb1405879b31e4463e45f inherit pub_types_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab22168ade2e4ac686bb475648df75095 inherit pub_types_class_key_base"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#ab22168ade2e4ac686bb475648df75095">KEY_TYPE</a> { <a class="el" href="../../dd/d2e/class_key_base.html#ab22168ade2e4ac686bb475648df75095a4fec21ea95d75a41839c6957d96c0970">KEY_TYPE_AI</a>, 
+<a class="el" href="../../dd/d2e/class_key_base.html#ab22168ade2e4ac686bb475648df75095ad92d619929c06fa294c7a49e0df70a13">KEY_TYPE_INPUT</a>, 
+<a class="el" href="../../dd/d2e/class_key_base.html#ab22168ade2e4ac686bb475648df75095ac0def1177b7023819da9b6417f6f33c0">KEY_TYPE_NUM</a>
+ }</td></tr>
+<tr class="separator:ab22168ade2e4ac686bb475648df75095 inherit pub_types_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public メソッド</h2></td></tr>
+<tr class="memitem:a858bc8e1bd986fdbc9d9fa8f31caba91"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dfd/class_key_deffender.html#a858bc8e1bd986fdbc9d9fa8f31caba91">KeyDeffender</a> ()</td></tr>
+<tr class="memdesc:a858bc8e1bd986fdbc9d9fa8f31caba91"><td class="mdescLeft">&#160;</td><td class="mdescRight">デフォルトコンストラクタ  <a href="#a858bc8e1bd986fdbc9d9fa8f31caba91">[詳細]</a><br/></td></tr>
+<tr class="separator:a858bc8e1bd986fdbc9d9fa8f31caba91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00e0afd26850736b536896aae04f51ba"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dfd/class_key_deffender.html#a00e0afd26850736b536896aae04f51ba">~KeyDeffender</a> ()</td></tr>
+<tr class="memdesc:a00e0afd26850736b536896aae04f51ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">デストラクタ  <a href="#a00e0afd26850736b536896aae04f51ba">[詳細]</a><br/></td></tr>
+<tr class="separator:a00e0afd26850736b536896aae04f51ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7262f14770e5cdc20b5e717b98b9a1e2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dfd/class_key_deffender.html#a7262f14770e5cdc20b5e717b98b9a1e2">Update</a> ()</td></tr>
+<tr class="memdesc:a7262f14770e5cdc20b5e717b98b9a1e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">更新  <a href="#a7262f14770e5cdc20b5e717b98b9a1e2">[詳細]</a><br/></td></tr>
+<tr class="separator:a7262f14770e5cdc20b5e717b98b9a1e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8580a17ef23e802604ebc00e54c7c3a9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dfd/class_key_deffender.html#a8580a17ef23e802604ebc00e54c7c3a9">setToTargetPos</a> (<a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a> myPos, <a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a> targetPos)</td></tr>
+<tr class="memdesc:a8580a17ef23e802604ebc00e54c7c3a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">目標をセット  <a href="#a8580a17ef23e802604ebc00e54c7c3a9">[詳細]</a><br/></td></tr>
+<tr class="separator:a8580a17ef23e802604ebc00e54c7c3a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_a_i"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_a_i')"><img src="../../closed.png" alt="-"/>&#160;Public メソッド inherited from <a class="el" href="../../d9/d64/class_a_i.html">AI</a></td></tr>
+<tr class="memitem:a64ec60281e9eb8496f16525615db54b7 inherit pub_methods_class_a_i"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d64/class_a_i.html#a64ec60281e9eb8496f16525615db54b7">AI</a> ()</td></tr>
+<tr class="memdesc:a64ec60281e9eb8496f16525615db54b7 inherit pub_methods_class_a_i"><td class="mdescLeft">&#160;</td><td class="mdescRight">デフォルトコンストラクタ  <a href="#a64ec60281e9eb8496f16525615db54b7">[詳細]</a><br/></td></tr>
+<tr class="separator:a64ec60281e9eb8496f16525615db54b7 inherit pub_methods_class_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac86c87957e3d563f6ea2137a97992e0a inherit pub_methods_class_a_i"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d64/class_a_i.html#ac86c87957e3d563f6ea2137a97992e0a">~AI</a> ()</td></tr>
+<tr class="memdesc:ac86c87957e3d563f6ea2137a97992e0a inherit pub_methods_class_a_i"><td class="mdescLeft">&#160;</td><td class="mdescRight">デストラクタ  <a href="#ac86c87957e3d563f6ea2137a97992e0a">[詳細]</a><br/></td></tr>
+<tr class="separator:ac86c87957e3d563f6ea2137a97992e0a inherit pub_methods_class_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_key_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_key_base')"><img src="../../closed.png" alt="-"/>&#160;Public メソッド inherited from <a class="el" href="../../dd/d2e/class_key_base.html">KeyBase</a></td></tr>
+<tr class="memitem:a647f31cb6653cd682d974cc64df899a2 inherit pub_methods_class_key_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#a647f31cb6653cd682d974cc64df899a2">KeyBase</a> ()</td></tr>
+<tr class="memdesc:a647f31cb6653cd682d974cc64df899a2 inherit pub_methods_class_key_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">デフォルトコンストラクタ  <a href="#a647f31cb6653cd682d974cc64df899a2">[詳細]</a><br/></td></tr>
+<tr class="separator:a647f31cb6653cd682d974cc64df899a2 inherit pub_methods_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9fdcf292389d3bf4ae69974e32aea58 inherit pub_methods_class_key_base"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#ac9fdcf292389d3bf4ae69974e32aea58">~KeyBase</a> ()</td></tr>
+<tr class="memdesc:ac9fdcf292389d3bf4ae69974e32aea58 inherit pub_methods_class_key_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">デストラクタ  <a href="#ac9fdcf292389d3bf4ae69974e32aea58">[詳細]</a><br/></td></tr>
+<tr class="separator:ac9fdcf292389d3bf4ae69974e32aea58 inherit pub_methods_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad80a94efb6d8e4f05ca7109c997d1cdf inherit pub_methods_class_key_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2e/class_key_base.html#ab22168ade2e4ac686bb475648df75095">KEY_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#ad80a94efb6d8e4f05ca7109c997d1cdf">getKeyType</a> () const </td></tr>
+<tr class="memdesc:ad80a94efb6d8e4f05ca7109c997d1cdf inherit pub_methods_class_key_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">タイプ取得  <a href="#ad80a94efb6d8e4f05ca7109c997d1cdf">[詳細]</a><br/></td></tr>
+<tr class="separator:ad80a94efb6d8e4f05ca7109c997d1cdf inherit pub_methods_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac50fde0306def82116ada72fb194bb14 inherit pub_methods_class_key_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#ac50fde0306def82116ada72fb194bb14">getVector</a> () const </td></tr>
+<tr class="memdesc:ac50fde0306def82116ada72fb194bb14 inherit pub_methods_class_key_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">移動方向取得  <a href="#ac50fde0306def82116ada72fb194bb14">[詳細]</a><br/></td></tr>
+<tr class="separator:ac50fde0306def82116ada72fb194bb14 inherit pub_methods_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af957b878e28cbe4ed9135684e6c78b1e inherit pub_methods_class_key_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#af957b878e28cbe4ed9135684e6c78b1e">getStickVector</a> () const </td></tr>
+<tr class="memdesc:af957b878e28cbe4ed9135684e6c78b1e inherit pub_methods_class_key_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">スティックのベクトル  <a href="#af957b878e28cbe4ed9135684e6c78b1e">[詳細]</a><br/></td></tr>
+<tr class="separator:af957b878e28cbe4ed9135684e6c78b1e inherit pub_methods_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15c8c17b7af09dbfa358309fc9a430f9 inherit pub_methods_class_key_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#a15c8c17b7af09dbfa358309fc9a430f9">getPushState</a> (<a class="el" href="../../dd/d2e/class_key_base.html#a6e2d2326afadb1405879b31e4463e45f">KEY_COMMAND</a> key) const </td></tr>
+<tr class="separator:a15c8c17b7af09dbfa358309fc9a430f9 inherit pub_methods_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f872eedccbf7570415a4fc7ce29a25c inherit pub_methods_class_key_base"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#a4f872eedccbf7570415a4fc7ce29a25c">setTargetPos</a> (<a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a> targetPos)</td></tr>
+<tr class="memdesc:a4f872eedccbf7570415a4fc7ce29a25c inherit pub_methods_class_key_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">目標座標セット  <a href="#a4f872eedccbf7570415a4fc7ce29a25c">[詳細]</a><br/></td></tr>
+<tr class="separator:a4f872eedccbf7570415a4fc7ce29a25c inherit pub_methods_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c5b993006a01df1473faf79682c162a inherit pub_methods_class_key_base"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#a1c5b993006a01df1473faf79682c162a">setPlayerPos</a> (<a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a> playerPos)</td></tr>
+<tr class="memdesc:a1c5b993006a01df1473faf79682c162a inherit pub_methods_class_key_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">プレイヤーの座標をセット  <a href="#a1c5b993006a01df1473faf79682c162a">[詳細]</a><br/></td></tr>
+<tr class="separator:a1c5b993006a01df1473faf79682c162a inherit pub_methods_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da652723fea6e06077c5370c01b5f01 inherit pub_methods_class_key_base"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#a6da652723fea6e06077c5370c01b5f01">setMyPos</a> (<a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a> myPos)</td></tr>
+<tr class="memdesc:a6da652723fea6e06077c5370c01b5f01 inherit pub_methods_class_key_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">自分の座標セット  <a href="#a6da652723fea6e06077c5370c01b5f01">[詳細]</a><br/></td></tr>
+<tr class="separator:a6da652723fea6e06077c5370c01b5f01 inherit pub_methods_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7ad9b3d6eb875fbf57d44b23cdef80a inherit pub_methods_class_key_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#aa7ad9b3d6eb875fbf57d44b23cdef80a">setCommandFlag</a> (<a class="el" href="../../dd/d2e/class_key_base.html#a6e2d2326afadb1405879b31e4463e45f">KEY_COMMAND</a> command, bool flag)</td></tr>
+<tr class="memdesc:aa7ad9b3d6eb875fbf57d44b23cdef80a inherit pub_methods_class_key_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">コマンドのフラグをON  <a href="#aa7ad9b3d6eb875fbf57d44b23cdef80a">[詳細]</a><br/></td></tr>
+<tr class="separator:aa7ad9b3d6eb875fbf57d44b23cdef80a inherit pub_methods_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_i_key"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_i_key')"><img src="../../closed.png" alt="-"/>&#160;Public メソッド inherited from <a class="el" href="../../d1/d71/class_i_key.html">IKey</a></td></tr>
+<tr class="memitem:aa3b4358ffdcd9dbb5e8c7085ecc7ee08 inherit pub_methods_class_i_key"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d71/class_i_key.html#aa3b4358ffdcd9dbb5e8c7085ecc7ee08">~IKey</a> ()</td></tr>
+<tr class="separator:aa3b4358ffdcd9dbb5e8c7085ecc7ee08 inherit pub_methods_class_i_key"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 変数</h2></td></tr>
+<tr class="memitem:acb50cc4c7f821904eb07c27de131cf4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dfd/class_key_deffender.html#acb50cc4c7f821904eb07c27de131cf4a">_searchRot</a></td></tr>
+<tr class="memdesc:acb50cc4c7f821904eb07c27de131cf4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">探索方向  <a href="#acb50cc4c7f821904eb07c27de131cf4a">[詳細]</a><br/></td></tr>
+<tr class="separator:acb50cc4c7f821904eb07c27de131cf4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f735f15f49aa4402f90b11df8de24f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dfd/class_key_deffender.html#a3f735f15f49aa4402f90b11df8de24f0">_attackReach</a></td></tr>
+<tr class="memdesc:a3f735f15f49aa4402f90b11df8de24f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">攻撃可能範囲  <a href="#a3f735f15f49aa4402f90b11df8de24f0">[詳細]</a><br/></td></tr>
+<tr class="separator:a3f735f15f49aa4402f90b11df8de24f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a707f63b922b484c455d715d9aee813e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dfd/class_key_deffender.html#a707f63b922b484c455d715d9aee813e9">_deffenceReach</a></td></tr>
+<tr class="memdesc:a707f63b922b484c455d715d9aee813e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">目標を防御するための距離  <a href="#a707f63b922b484c455d715d9aee813e9">[詳細]</a><br/></td></tr>
+<tr class="separator:a707f63b922b484c455d715d9aee813e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0451857ef4707d1f98a3259be12be695"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dfd/class_key_deffender.html#a0451857ef4707d1f98a3259be12be695">_deffenceMode</a></td></tr>
+<tr class="memdesc:a0451857ef4707d1f98a3259be12be695"><td class="mdescLeft">&#160;</td><td class="mdescRight">ディフェンスモードがどうか  <a href="#a0451857ef4707d1f98a3259be12be695">[詳細]</a><br/></td></tr>
+<tr class="separator:a0451857ef4707d1f98a3259be12be695"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab95b209ff1600e6425422d644c05ffb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dfd/class_key_deffender.html#a2d0fa24da9c8801e29e09785e96532c5">MODE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dfd/class_key_deffender.html#ab95b209ff1600e6425422d644c05ffb7">_mode</a></td></tr>
+<tr class="memdesc:ab95b209ff1600e6425422d644c05ffb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">行動状態用  <a href="#ab95b209ff1600e6425422d644c05ffb7">[詳細]</a><br/></td></tr>
+<tr class="separator:ab95b209ff1600e6425422d644c05ffb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_a_i"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_a_i')"><img src="../../closed.png" alt="-"/>&#160;Protected 変数 inherited from <a class="el" href="../../d9/d64/class_a_i.html">AI</a></td></tr>
+<tr class="memitem:a838d47dc2f692ec67f23614345321850 inherit pro_attribs_class_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d64/class_a_i.html#a838d47dc2f692ec67f23614345321850">_dirToTarget</a></td></tr>
+<tr class="separator:a838d47dc2f692ec67f23614345321850 inherit pro_attribs_class_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cf982e037b987d40d0d71ad2dec9aeb inherit pro_attribs_class_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d64/class_a_i.html#ac649e1da72d905f0b48e92c8aeb29bca">TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d64/class_a_i.html#a2cf982e037b987d40d0d71ad2dec9aeb">_type</a></td></tr>
+<tr class="separator:a2cf982e037b987d40d0d71ad2dec9aeb inherit pro_attribs_class_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_key_base"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_key_base')"><img src="../../closed.png" alt="-"/>&#160;Protected 変数 inherited from <a class="el" href="../../dd/d2e/class_key_base.html">KeyBase</a></td></tr>
+<tr class="memitem:a6fea5a402d1fa892a14b9ba08ee7f84e inherit pro_attribs_class_key_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#a6fea5a402d1fa892a14b9ba08ee7f84e">_movVector</a></td></tr>
+<tr class="memdesc:a6fea5a402d1fa892a14b9ba08ee7f84e inherit pro_attribs_class_key_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">移動ベクトル  <a href="#a6fea5a402d1fa892a14b9ba08ee7f84e">[詳細]</a><br/></td></tr>
+<tr class="separator:a6fea5a402d1fa892a14b9ba08ee7f84e inherit pro_attribs_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a774649bfb09128dcbe4617c11c448e25 inherit pro_attribs_class_key_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#a774649bfb09128dcbe4617c11c448e25">_stickVector</a></td></tr>
+<tr class="memdesc:a774649bfb09128dcbe4617c11c448e25 inherit pro_attribs_class_key_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">コントローラーのベクトル  <a href="#a774649bfb09128dcbe4617c11c448e25">[詳細]</a><br/></td></tr>
+<tr class="separator:a774649bfb09128dcbe4617c11c448e25 inherit pro_attribs_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad76a22072f7fcdaa7b1900971a67207c inherit pro_attribs_class_key_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#ad76a22072f7fcdaa7b1900971a67207c">_targetPos</a></td></tr>
+<tr class="memdesc:ad76a22072f7fcdaa7b1900971a67207c inherit pro_attribs_class_key_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">目標の座標  <a href="#ad76a22072f7fcdaa7b1900971a67207c">[詳細]</a><br/></td></tr>
+<tr class="separator:ad76a22072f7fcdaa7b1900971a67207c inherit pro_attribs_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2598de02ad18e04b6f2bc929ee56e98 inherit pro_attribs_class_key_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#ac2598de02ad18e04b6f2bc929ee56e98">_playerPos</a></td></tr>
+<tr class="memdesc:ac2598de02ad18e04b6f2bc929ee56e98 inherit pro_attribs_class_key_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">プレイヤーの座標  <a href="#ac2598de02ad18e04b6f2bc929ee56e98">[詳細]</a><br/></td></tr>
+<tr class="separator:ac2598de02ad18e04b6f2bc929ee56e98 inherit pro_attribs_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac312d80c808d22c6c1c1be897b317b3a inherit pro_attribs_class_key_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#ac312d80c808d22c6c1c1be897b317b3a">_myPos</a></td></tr>
+<tr class="memdesc:ac312d80c808d22c6c1c1be897b317b3a inherit pro_attribs_class_key_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">自分の座標  <a href="#ac312d80c808d22c6c1c1be897b317b3a">[詳細]</a><br/></td></tr>
+<tr class="separator:ac312d80c808d22c6c1c1be897b317b3a inherit pro_attribs_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1164cb4054102ae260eb5dede5c2b48 inherit pro_attribs_class_key_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d2e/class_key_base.html#ab22168ade2e4ac686bb475648df75095">KEY_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#ae1164cb4054102ae260eb5dede5c2b48">_keyType</a></td></tr>
+<tr class="memdesc:ae1164cb4054102ae260eb5dede5c2b48 inherit pro_attribs_class_key_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">タイプ  <a href="#ae1164cb4054102ae260eb5dede5c2b48">[詳細]</a><br/></td></tr>
+<tr class="separator:ae1164cb4054102ae260eb5dede5c2b48 inherit pro_attribs_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ac4c1873c45fdc14f6baf86cfbbbea4 inherit pro_attribs_class_key_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/class_key_base.html#a2ac4c1873c45fdc14f6baf86cfbbbea4">_commandState</a> [<a class="el" href="../../dd/d2e/class_key_base.html#a6e2d2326afadb1405879b31e4463e45fa886ced2b7b9c443cbfbac07192978d6e">KEY_COMMAND_NUM</a>]</td></tr>
+<tr class="memdesc:a2ac4c1873c45fdc14f6baf86cfbbbea4 inherit pro_attribs_class_key_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">コマンド状態  <a href="#a2ac4c1873c45fdc14f6baf86cfbbbea4">[詳細]</a><br/></td></tr>
+<tr class="separator:a2ac4c1873c45fdc14f6baf86cfbbbea4 inherit pro_attribs_class_key_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">列挙型</h2>
+<a class="anchor" id="a2d0fa24da9c8801e29e09785e96532c5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d5/dfd/class_key_deffender.html#a2d0fa24da9c8801e29e09785e96532c5">KeyDeffender::MODE</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>行動状態 </p>
+<table class="fieldtable">
+<tr><th colspan="2">列挙型の値</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a2d0fa24da9c8801e29e09785e96532c5abf68816f1b29a89fb4cfba57726bf02f"></a>MODE_APPROACH</em>&nbsp;</td><td class="fielddoc">
+<p>目標に接近 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a2d0fa24da9c8801e29e09785e96532c5a9864b335ebddb53f54ee6d6fc376e305"></a>MODE_ATTACK</em>&nbsp;</td><td class="fielddoc">
+<p>敵攻撃 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a2d0fa24da9c8801e29e09785e96532c5a4bed2e2b8eb7c720589155ea020474ee"></a>MODE_DEFFENCE</em>&nbsp;</td><td class="fielddoc">
+<p>目標を防御 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a2d0fa24da9c8801e29e09785e96532c5ac6a457d66150ab005b17c5162818451a"></a>MODE_MAX</em>&nbsp;</td><td class="fielddoc">
+<p>状態遷移の最大 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">コンストラクタとデストラクタ</h2>
+<a class="anchor" id="a858bc8e1bd986fdbc9d9fa8f31caba91"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">KeyDeffender::KeyDeffender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>デフォルトコンストラクタ </p>
+
+</div>
+</div>
+<a class="anchor" id="a00e0afd26850736b536896aae04f51ba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">KeyDeffender::~KeyDeffender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>デストラクタ </p>
+
+</div>
+</div>
+<h2 class="groupheader">関数</h2>
+<a class="anchor" id="a8580a17ef23e802604ebc00e54c7c3a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void KeyDeffender::setToTargetPos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a>&#160;</td>
+          <td class="paramname"><em>myPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a>&#160;</td>
+          <td class="paramname"><em>targetPos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>目標をセット </p>
+
+<p><a class="el" href="../../d9/d64/class_a_i.html#a90c73117de7e36703b1129e77544cb9e">AI</a>を再定義しています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a7262f14770e5cdc20b5e717b98b9a1e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KeyDeffender::Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>更新 </p>
+
+<p><a class="el" href="../../d9/d64/class_a_i.html#a59e5ab0650eb03f2e71bc8930fd9a8d5">AI</a>を再定義しています。</p>
+
+</div>
+</div>
+<h2 class="groupheader">変数</h2>
+<a class="anchor" id="a3f735f15f49aa4402f90b11df8de24f0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> KeyDeffender::_attackReach</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>攻撃可能範囲 </p>
+
+</div>
+</div>
+<a class="anchor" id="a0451857ef4707d1f98a3259be12be695"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool KeyDeffender::_deffenceMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ディフェンスモードがどうか </p>
+
+</div>
+</div>
+<a class="anchor" id="a707f63b922b484c455d715d9aee813e9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> KeyDeffender::_deffenceReach</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>目標を防御するための距離 </p>
+
+</div>
+</div>
+<a class="anchor" id="ab95b209ff1600e6425422d644c05ffb7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/dfd/class_key_deffender.html#a2d0fa24da9c8801e29e09785e96532c5">MODE</a> KeyDeffender::_mode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>行動状態用 </p>
+
+</div>
+</div>
+<a class="anchor" id="acb50cc4c7f821904eb07c27de131cf4a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> KeyDeffender::_searchRot</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>探索方向 </p>
+
+</div>
+</div>
+<hr/>このクラスの説明は次のファイルから生成されました:<ul>
+<li>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/<a class="el" href="../../d1/d11/_key_deffender_8h_source.html">KeyDeffender.h</a></li>
+<li>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/<a class="el" href="../../d4/d84/_key_deffender_8cpp.html">KeyDeffender.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+myGameに対してSun Oct 13 2013 20:58:05に生成されました。 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

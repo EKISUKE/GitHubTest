@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d6/d9d/class_model_1_1_material" kind="class" prot="public">
+    <compoundname>Model::Material</compoundname>
+    <includes refid="da/ded/_model_8h" local="no">Model.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d6/d9d/class_model_1_1_material_1a470c2fa5d0f12a0c04f25db5d6d8dd91" prot="public" static="no" mutable="no">
+        <type><ref refid="de/d54/struct_vector4" kindref="compound">Vector4</ref></type>
+        <definition>Vector4 Model::Material::_color</definition>
+        <argsstring></argsstring>
+        <name>_color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" line="90" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d9d/class_model_1_1_material_1a98589b0d2a49136853c0c72cd005dfcc" prot="public" static="no" mutable="no">
+        <type><ref refid="d2/d7f/class_texture" kindref="compound">Texture</ref> *</type>
+        <definition>Texture* Model::Material::_pTexture</definition>
+        <argsstring></argsstring>
+        <name>_pTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" line="91" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d9d/class_model_1_1_material_1ad4912aac495ca6a873713226f8a78c7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Model::Material::Material</definition>
+        <argsstring>()</argsstring>
+        <name>Material</name>
+        <briefdescription>
+<para>コンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" line="95" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" bodystart="95" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d9d/class_model_1_1_material_1aca3b430f9ad47a4416f72d13ee578ae7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Model::Material::~Material</definition>
+        <argsstring>()</argsstring>
+        <name>~Material</name>
+        <briefdescription>
+<para>デストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" line="102" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" bodystart="102" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="305">
+        <label>Model::Material</label>
+        <link refid="d6/d9d/class_model_1_1_material"/>
+        <childnode refid="306" relation="usage">
+          <edgelabel>_pTexture</edgelabel>
+        </childnode>
+        <childnode refid="307" relation="usage">
+          <edgelabel>_color</edgelabel>
+        </childnode>
+      </node>
+      <node id="306">
+        <label>Texture</label>
+        <link refid="d2/d7f/class_texture"/>
+      </node>
+      <node id="307">
+        <label>Vector4</label>
+        <link refid="de/d54/struct_vector4"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" line="88" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.h" bodystart="87" bodyend="106"/>
+    <listofallmembers>
+      <member refid="d6/d9d/class_model_1_1_material_1a470c2fa5d0f12a0c04f25db5d6d8dd91" prot="public" virt="non-virtual"><scope>Model::Material</scope><name>_color</name></member>
+      <member refid="d6/d9d/class_model_1_1_material_1a98589b0d2a49136853c0c72cd005dfcc" prot="public" virt="non-virtual"><scope>Model::Material</scope><name>_pTexture</name></member>
+      <member refid="d6/d9d/class_model_1_1_material_1ad4912aac495ca6a873713226f8a78c7c" prot="public" virt="non-virtual"><scope>Model::Material</scope><name>Material</name></member>
+      <member refid="d6/d9d/class_model_1_1_material_1aca3b430f9ad47a4416f72d13ee578ae7" prot="public" virt="virtual"><scope>Model::Material</scope><name>~Material</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

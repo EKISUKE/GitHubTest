@@ -1,0 +1,133 @@
+\hypertarget{struct_sphere}{\section{構造体 Sphere}
+\label{struct_sphere}\index{Sphere@{Sphere}}
+}
+
+
+{\ttfamily \#include $<$Geometry.\-h$>$}
+
+\subsection*{Public メソッド}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_sphere_a890a63ff583cb88e7ec4e840b4ef5eb9}{Sphere} ()
+\begin{DoxyCompactList}\small\item\em デフォルトコンストラクタ \end{DoxyCompactList}\item 
+\hyperlink{struct_sphere_a41d320d6067f5b01b3c7a6a8190e72bb}{Sphere} (\hyperlink{struct_vector3}{Vector3} position, \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} radius)
+\begin{DoxyCompactList}\small\item\em コンストラクタ \end{DoxyCompactList}\item 
+void \hyperlink{struct_sphere_ae8842acfd980f63efc023b84980fb49d}{set\-Position} (\hyperlink{struct_vector3}{Vector3} \&pos)
+\begin{DoxyCompactList}\small\item\em 座標設定 \end{DoxyCompactList}\item 
+void \hyperlink{struct_sphere_afad4913bbde5bd6a47d220a29206bbeb}{set\-Radius} (\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} radius)
+\begin{DoxyCompactList}\small\item\em 半径設定 \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{struct_sphere_a5e5181db4f2a86d94fff712bba98e900}{get\-Position} ()
+\begin{DoxyCompactList}\small\item\em 座標取得 \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{struct_sphere_a6564eb07eb9b62503ecc71d032e51e7b}{get\-Radius} ()
+\begin{DoxyCompactList}\small\item\em 半径取得 \end{DoxyCompactList}\item 
+bool \hyperlink{struct_sphere_a868014478336015b67b677052028592e}{is\-Hit} (\hyperlink{struct_sphere}{Sphere} \&sphere)
+\item 
+void \hyperlink{struct_sphere_ace72594a2c4b1a20789ceb3bb26907cd}{Debug\-Render} ()
+\begin{DoxyCompactList}\small\item\em デバッグ表示 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{コンストラクタとデストラクタ}
+\hypertarget{struct_sphere_a890a63ff583cb88e7ec4e840b4ef5eb9}{\index{Sphere@{Sphere}!Sphere@{Sphere}}
+\index{Sphere@{Sphere}!Sphere@{Sphere}}
+\subsubsection[{Sphere}]{\setlength{\rightskip}{0pt plus 5cm}Sphere\-::\-Sphere (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{struct_sphere_a890a63ff583cb88e7ec4e840b4ef5eb9}
+
+
+デフォルトコンストラクタ 
+
+\hypertarget{struct_sphere_a41d320d6067f5b01b3c7a6a8190e72bb}{\index{Sphere@{Sphere}!Sphere@{Sphere}}
+\index{Sphere@{Sphere}!Sphere@{Sphere}}
+\subsubsection[{Sphere}]{\setlength{\rightskip}{0pt plus 5cm}Sphere\-::\-Sphere (
+\begin{DoxyParamCaption}
+\item[{{\bf Vector3}}]{position, }
+\item[{{\bf f32}}]{radius}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{struct_sphere_a41d320d6067f5b01b3c7a6a8190e72bb}
+
+
+コンストラクタ 
+
+
+
+\subsection{関数}
+\hypertarget{struct_sphere_ace72594a2c4b1a20789ceb3bb26907cd}{\index{Sphere@{Sphere}!Debug\-Render@{Debug\-Render}}
+\index{Debug\-Render@{Debug\-Render}!Sphere@{Sphere}}
+\subsubsection[{Debug\-Render}]{\setlength{\rightskip}{0pt plus 5cm}void Sphere\-::\-Debug\-Render (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{struct_sphere_ace72594a2c4b1a20789ceb3bb26907cd}
+
+
+デバッグ表示 
+
+\hypertarget{struct_sphere_a5e5181db4f2a86d94fff712bba98e900}{\index{Sphere@{Sphere}!get\-Position@{get\-Position}}
+\index{get\-Position@{get\-Position}!Sphere@{Sphere}}
+\subsubsection[{get\-Position}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Sphere\-::get\-Position (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{struct_sphere_a5e5181db4f2a86d94fff712bba98e900}
+
+
+座標取得 
+
+\hypertarget{struct_sphere_a6564eb07eb9b62503ecc71d032e51e7b}{\index{Sphere@{Sphere}!get\-Radius@{get\-Radius}}
+\index{get\-Radius@{get\-Radius}!Sphere@{Sphere}}
+\subsubsection[{get\-Radius}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Sphere\-::get\-Radius (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{struct_sphere_a6564eb07eb9b62503ecc71d032e51e7b}
+
+
+半径取得 
+
+\hypertarget{struct_sphere_a868014478336015b67b677052028592e}{\index{Sphere@{Sphere}!is\-Hit@{is\-Hit}}
+\index{is\-Hit@{is\-Hit}!Sphere@{Sphere}}
+\subsubsection[{is\-Hit}]{\setlength{\rightskip}{0pt plus 5cm}bool Sphere\-::is\-Hit (
+\begin{DoxyParamCaption}
+\item[{{\bf Sphere} \&}]{sphere}
+\end{DoxyParamCaption}
+)}}\label{struct_sphere_a868014478336015b67b677052028592e}
+衝突計算 球同士 
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em sphere} & 当たり判定のしたい球\\
+\hline
+\end{DoxyParams}
+衝突計算 円同士 
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em sphere} & 当たり判定のしたい球 \\
+\hline
+\end{DoxyParams}
+\hypertarget{struct_sphere_ae8842acfd980f63efc023b84980fb49d}{\index{Sphere@{Sphere}!set\-Position@{set\-Position}}
+\index{set\-Position@{set\-Position}!Sphere@{Sphere}}
+\subsubsection[{set\-Position}]{\setlength{\rightskip}{0pt plus 5cm}void Sphere\-::set\-Position (
+\begin{DoxyParamCaption}
+\item[{{\bf Vector3} \&}]{pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{struct_sphere_ae8842acfd980f63efc023b84980fb49d}
+
+
+座標設定 
+
+\hypertarget{struct_sphere_afad4913bbde5bd6a47d220a29206bbeb}{\index{Sphere@{Sphere}!set\-Radius@{set\-Radius}}
+\index{set\-Radius@{set\-Radius}!Sphere@{Sphere}}
+\subsubsection[{set\-Radius}]{\setlength{\rightskip}{0pt plus 5cm}void Sphere\-::set\-Radius (
+\begin{DoxyParamCaption}
+\item[{{\bf f32}}]{radius}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{struct_sphere_afad4913bbde5bd6a47d220a29206bbeb}
+
+
+半径設定 
+
+
+
+この構造体の説明は次のファイルから生成されました\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_geometry_8h}{Geometry.\-h}\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_geometry_8cpp}{Geometry.\-cpp}\end{DoxyCompactItemize}

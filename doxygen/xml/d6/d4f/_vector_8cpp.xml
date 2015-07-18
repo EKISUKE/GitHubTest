@@ -1,0 +1,683 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d6/d4f/_vector_8cpp" kind="file">
+    <compoundname>Vector.cpp</compoundname>
+    <includes refid="db/dfc/_library_8h" local="yes">Library.h</includes>
+    <incdepgraph>
+      <node id="5068">
+        <label>list</label>
+      </node>
+      <node id="5118">
+        <label>SceneGame.h</label>
+        <link refid="dc/d83/_scene_game_8h"/>
+      </node>
+      <node id="5078">
+        <label>Color.h</label>
+        <link refid="d9/df8/_color_8h"/>
+      </node>
+      <node id="5077">
+        <label>Matrix.h</label>
+        <link refid="d0/d45/_matrix_8h"/>
+      </node>
+      <node id="5096">
+        <label>Status.h</label>
+        <link refid="d3/ddd/_status_8h"/>
+      </node>
+      <node id="5055">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.cpp</label>
+        <link refid="Vector.cpp"/>
+        <childnode refid="5056" relation="include">
+        </childnode>
+      </node>
+      <node id="5058">
+        <label>windows.h</label>
+      </node>
+      <node id="5098">
+        <label>Key.h</label>
+        <link refid="d7/dfc/_key_8h"/>
+      </node>
+      <node id="5115">
+        <label>AllyDeffender.h</label>
+        <link refid="de/d4d/_ally_deffender_8h"/>
+      </node>
+      <node id="5075">
+        <label>GLFont.h</label>
+        <link refid="dc/db4/_g_l_font_8h"/>
+      </node>
+      <node id="5113">
+        <label>Ally.h</label>
+        <link refid="d0/d06/_ally_8h"/>
+      </node>
+      <node id="5065">
+        <label>stdlib.h</label>
+      </node>
+      <node id="5116">
+        <label>AllyHealer.h</label>
+        <link refid="d6/dbe/_ally_healer_8h"/>
+      </node>
+      <node id="5097">
+        <label>IObj.h</label>
+        <link refid="dd/d39/_i_obj_8h"/>
+      </node>
+      <node id="5106">
+        <label>CameraManager.h</label>
+        <link refid="db/d24/_camera_manager_8h"/>
+      </node>
+      <node id="5105">
+        <label>Camera.h</label>
+        <link refid="d5/d91/_camera_8h"/>
+      </node>
+      <node id="5099">
+        <label>KeyAttacker.h</label>
+        <link refid="d9/d42/_key_attacker_8h"/>
+      </node>
+      <node id="5095">
+        <label>CollisionManager.h</label>
+        <link refid="d7/d3e/_collision_manager_8h"/>
+      </node>
+      <node id="5083">
+        <label>fmod.h</label>
+      </node>
+      <node id="5102">
+        <label>KeyInput.h</label>
+        <link refid="df/d48/_key_input_8h"/>
+      </node>
+      <node id="5094">
+        <label>LandScape.h</label>
+        <link refid="d5/d53/_land_scape_8h"/>
+      </node>
+      <node id="5066">
+        <label>string</label>
+      </node>
+      <node id="5070">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="5076">
+        <label>Vector.h</label>
+        <link refid="d4/d7f/_vector_8h"/>
+      </node>
+      <node id="5092">
+        <label>Collision.h</label>
+        <link refid="d9/d87/_collision_8h"/>
+      </node>
+      <node id="5079">
+        <label>System.h</label>
+        <link refid="df/d78/_system_8h"/>
+      </node>
+      <node id="5074">
+        <label>Singleton.h</label>
+        <link refid="de/dec/_singleton_8h"/>
+      </node>
+      <node id="5057">
+        <label>Main.h</label>
+        <link refid="d0/d55/_main_8h"/>
+        <childnode refid="5058" relation="include">
+        </childnode>
+        <childnode refid="5059" relation="include">
+        </childnode>
+        <childnode refid="5060" relation="include">
+        </childnode>
+        <childnode refid="5061" relation="include">
+        </childnode>
+        <childnode refid="5062" relation="include">
+        </childnode>
+        <childnode refid="5063" relation="include">
+        </childnode>
+        <childnode refid="5064" relation="include">
+        </childnode>
+        <childnode refid="5065" relation="include">
+        </childnode>
+        <childnode refid="5066" relation="include">
+        </childnode>
+        <childnode refid="5067" relation="include">
+        </childnode>
+        <childnode refid="5068" relation="include">
+        </childnode>
+        <childnode refid="5069" relation="include">
+        </childnode>
+        <childnode refid="5070" relation="include">
+        </childnode>
+        <childnode refid="5071" relation="include">
+        </childnode>
+        <childnode refid="5072" relation="include">
+        </childnode>
+        <childnode refid="5073" relation="include">
+        </childnode>
+      </node>
+      <node id="5111">
+        <label>Player.h</label>
+        <link refid="d1/d39/_player_8h"/>
+      </node>
+      <node id="5072">
+        <label>GL/freeglut.h</label>
+      </node>
+      <node id="5071">
+        <label>GL/wglew.h</label>
+      </node>
+      <node id="5089">
+        <label>BillBoard.h</label>
+        <link refid="d1/d37/_bill_board_8h"/>
+      </node>
+      <node id="5088">
+        <label>Effect.h</label>
+        <link refid="dd/d44/_effect_8h"/>
+      </node>
+      <node id="5060">
+        <label>gdiplus.h</label>
+      </node>
+      <node id="5069">
+        <label>ctime</label>
+      </node>
+      <node id="5067">
+        <label>vector</label>
+      </node>
+      <node id="5084">
+        <label>Controller.h</label>
+        <link refid="d2/d94/_controller_8h"/>
+      </node>
+      <node id="5062">
+        <label>sstream</label>
+      </node>
+      <node id="5107">
+        <label>Map.h</label>
+        <link refid="d3/d63/_map_8h"/>
+      </node>
+      <node id="5117">
+        <label>SceneTitle.h</label>
+        <link refid="d6/d5f/_scene_title_8h"/>
+      </node>
+      <node id="5073">
+        <label>Xinput.h</label>
+      </node>
+      <node id="5110">
+        <label>SquadManager.h</label>
+        <link refid="da/d9b/_squad_manager_8h"/>
+      </node>
+      <node id="5063">
+        <label>math.h</label>
+      </node>
+      <node id="5086">
+        <label>Texture.h</label>
+        <link refid="de/dbf/_texture_8h"/>
+      </node>
+      <node id="5082">
+        <label>fmod.hpp</label>
+      </node>
+      <node id="5081">
+        <label>SoundPlayer.h</label>
+        <link refid="dc/d02/_sound_player_8h"/>
+        <childnode refid="5082" relation="include">
+        </childnode>
+        <childnode refid="5083" relation="include">
+        </childnode>
+      </node>
+      <node id="5056">
+        <label>Library.h</label>
+        <link refid="db/dfc/_library_8h"/>
+        <childnode refid="5057" relation="include">
+        </childnode>
+        <childnode refid="5074" relation="include">
+        </childnode>
+        <childnode refid="5075" relation="include">
+        </childnode>
+        <childnode refid="5076" relation="include">
+        </childnode>
+        <childnode refid="5077" relation="include">
+        </childnode>
+        <childnode refid="5078" relation="include">
+        </childnode>
+        <childnode refid="5079" relation="include">
+        </childnode>
+        <childnode refid="5080" relation="include">
+        </childnode>
+        <childnode refid="5081" relation="include">
+        </childnode>
+        <childnode refid="5084" relation="include">
+        </childnode>
+        <childnode refid="5085" relation="include">
+        </childnode>
+        <childnode refid="5086" relation="include">
+        </childnode>
+        <childnode refid="5087" relation="include">
+        </childnode>
+        <childnode refid="5088" relation="include">
+        </childnode>
+        <childnode refid="5089" relation="include">
+        </childnode>
+        <childnode refid="5090" relation="include">
+        </childnode>
+        <childnode refid="5091" relation="include">
+        </childnode>
+        <childnode refid="5092" relation="include">
+        </childnode>
+        <childnode refid="5093" relation="include">
+        </childnode>
+        <childnode refid="5094" relation="include">
+        </childnode>
+        <childnode refid="5095" relation="include">
+        </childnode>
+        <childnode refid="5096" relation="include">
+        </childnode>
+        <childnode refid="5097" relation="include">
+        </childnode>
+        <childnode refid="5098" relation="include">
+        </childnode>
+        <childnode refid="5099" relation="include">
+        </childnode>
+        <childnode refid="5100" relation="include">
+        </childnode>
+        <childnode refid="5101" relation="include">
+        </childnode>
+        <childnode refid="5102" relation="include">
+        </childnode>
+        <childnode refid="5103" relation="include">
+        </childnode>
+        <childnode refid="5104" relation="include">
+        </childnode>
+        <childnode refid="5105" relation="include">
+        </childnode>
+        <childnode refid="5106" relation="include">
+        </childnode>
+        <childnode refid="5107" relation="include">
+        </childnode>
+        <childnode refid="5108" relation="include">
+        </childnode>
+        <childnode refid="5109" relation="include">
+        </childnode>
+        <childnode refid="5110" relation="include">
+        </childnode>
+        <childnode refid="5111" relation="include">
+        </childnode>
+        <childnode refid="5112" relation="include">
+        </childnode>
+        <childnode refid="5113" relation="include">
+        </childnode>
+        <childnode refid="5114" relation="include">
+        </childnode>
+        <childnode refid="5115" relation="include">
+        </childnode>
+        <childnode refid="5116" relation="include">
+        </childnode>
+        <childnode refid="5117" relation="include">
+        </childnode>
+        <childnode refid="5118" relation="include">
+        </childnode>
+      </node>
+      <node id="5109">
+        <label>Squad.h</label>
+        <link refid="db/d9e/_squad_8h"/>
+      </node>
+      <node id="5061">
+        <label>iostream</label>
+      </node>
+      <node id="5091">
+        <label>Geometry.h</label>
+        <link refid="d1/d4e/_geometry_8h"/>
+      </node>
+      <node id="5080">
+        <label>Timer.h</label>
+        <link refid="d5/d29/_timer_8h"/>
+      </node>
+      <node id="5093">
+        <label>CollisionWall.h</label>
+        <link refid="df/d58/_collision_wall_8h"/>
+      </node>
+      <node id="5059">
+        <label>mmsystem.h</label>
+      </node>
+      <node id="5108">
+        <label>Man.h</label>
+        <link refid="d3/da6/_man_8h"/>
+      </node>
+      <node id="5085">
+        <label>Mouse.h</label>
+        <link refid="d2/de3/_mouse_8h"/>
+      </node>
+      <node id="5114">
+        <label>AllyAttacker.h</label>
+        <link refid="d9/d97/_ally_attacker_8h"/>
+      </node>
+      <node id="5112">
+        <label>Enemy.h</label>
+        <link refid="d4/d1e/_enemy_8h"/>
+      </node>
+      <node id="5100">
+        <label>KeyDeffender.h</label>
+        <link refid="d1/d11/_key_deffender_8h"/>
+      </node>
+      <node id="5103">
+        <label>ObjBase.h</label>
+        <link refid="d3/d3e/_obj_base_8h"/>
+      </node>
+      <node id="5090">
+        <label>SystemShader.h</label>
+        <link refid="dd/d98/_system_shader_8h"/>
+      </node>
+      <node id="5087">
+        <label>Model.h</label>
+        <link refid="da/ded/_model_8h"/>
+      </node>
+      <node id="5064">
+        <label>stdio.h</label>
+      </node>
+      <node id="5104">
+        <label>CameraBase.h</label>
+        <link refid="db/db8/_camera_base_8h"/>
+      </node>
+      <node id="5101">
+        <label>KeyHealer.h</label>
+        <link refid="db/d50/_key_healer_8h"/>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+<para>ベクトル演算 </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>YukiIshigaki </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="db/dfc/_library_8h" kindref="compound">Library.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>デグリー、ラジアン実装</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"></highlight><highlight class="comment">//---------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><ref refid="db/df6/class_degree_1a682448dac9d2292ea0ff765373eac216" kindref="member">Degree::Degree</ref>(<ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>degree)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">:<sp/>_degree(degree)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"></highlight><highlight class="comment">//---------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><ref refid="db/df6/class_degree_1a682448dac9d2292ea0ff765373eac216" kindref="member">Degree::Degree</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d2f/class_radian" kindref="compound">Radian</ref>&amp;<sp/>radian)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/df6/class_degree_1afb0e7feba9785028e108a5156533fad7" kindref="member">_degree</ref><sp/>=<sp/>radian<sp/>*<sp/>(180.0f<sp/>/<sp/>PI)<sp/>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"></highlight><highlight class="comment">//---------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><ref refid="d3/d2f/class_radian_1ab94d81eb1567cfebc60f7aec3be551ec" kindref="member">Radian::Radian</ref>(<ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>radian)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">:<sp/>_radian(radian)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"></highlight><highlight class="comment">//---------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><ref refid="d3/d2f/class_radian_1ab94d81eb1567cfebc60f7aec3be551ec" kindref="member">Radian::Radian</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="db/df6/class_degree" kindref="compound">Degree</ref>&amp;<sp/>degree)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/d2f/class_radian_1ab3bdb824656f3310b4cc449dfccbccdc" kindref="member">_radian</ref><sp/>=<sp/>degree<sp/>*<sp/>(PI<sp/>/<sp/>180.0f)<sp/>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>３要素ベクトル</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><ref refid="d0/de3/struct_vector3_1a0f49191f7e001e7f7ae1cb49522118b4" kindref="member">Vector3::Vector3</ref>()</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><ref refid="d0/de3/struct_vector3_1a0f49191f7e001e7f7ae1cb49522118b4" kindref="member">Vector3::Vector3</ref>(<ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>x,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>y,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>z)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">:<sp/>_x(x)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">,<sp/>_y(y)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">,<sp/>_z(z)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><ref refid="d0/de3/struct_vector3_1a0f49191f7e001e7f7ae1cb49522118b4" kindref="member">Vector3::Vector3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="de/d54/struct_vector4" kindref="compound">Vector4</ref>&amp;<sp/>v)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>=<sp/>v.<ref refid="de/d54/struct_vector4_1abb21125aa7a06ea4437281aa76a551ea" kindref="member">_x</ref>;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>=<sp/>v.<ref refid="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" kindref="member">_y</ref>;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>=<sp/>v.<ref refid="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" kindref="member">_z</ref>;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/>加算</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><ref refid="d0/de3/struct_vector3_1a3ab63b97882ef750fc2bfe94477802b1" kindref="member">Vector3::operator + </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>v<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="87"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>result;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>=<sp/><ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>+<sp/>v.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref>;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>=<sp/><ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>+<sp/>v.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref>;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>=<sp/><ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>+<sp/>v.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref>;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>減算</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><ref refid="d0/de3/struct_vector3_1a72a36c71164f1532d24ec49c3d7056fc" kindref="member">Vector3::operator - </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>v<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="101"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>result;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>=<sp/><ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>-<sp/>v.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref>;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>=<sp/><ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>-<sp/>v.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref>;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>=<sp/><ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>-<sp/>v.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">//<sp/>乗算</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><ref refid="d0/de3/struct_vector3_1ad562abcac8ba809c6d54d3f783ef3312" kindref="member">Vector3::operator * </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>v<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="115"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>result;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>=<sp/><ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>*<sp/>v.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref>;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>=<sp/><ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>*<sp/>v.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref>;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>=<sp/><ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>*<sp/>v.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref>;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="comment">//<sp/>スカラ乗算</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><ref refid="d0/de3/struct_vector3_1ad562abcac8ba809c6d54d3f783ef3312" kindref="member">Vector3::operator * </ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>s<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="129"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>result;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>=<sp/><ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>*<sp/>s;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>=<sp/><ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>*<sp/>s;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>=<sp/><ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>*<sp/>s;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/><ref refid="d0/de3/struct_vector3_1acc2624a2880ba96b96292d78b80b5f7c" kindref="member">Vector3::operator += </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>v)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>+=<sp/>v.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref>;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>+=<sp/>v.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref>;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>+=<sp/>v.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref>;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/><ref refid="d0/de3/struct_vector3_1ab453410e5e2184e1a255495dada84609" kindref="member">Vector3::operator -= </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>v)</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>-=<sp/>v.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref>;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>-=<sp/>v.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref>;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>-=<sp/>v.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref>;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/><ref refid="d0/de3/struct_vector3_1a71fab3eea2aac2738335149c27fa45db" kindref="member">Vector3::operator *= </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>v)</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>*=<sp/>v.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref>;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>*=<sp/>v.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref>;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>*=<sp/>v.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref>;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/><ref refid="d0/de3/struct_vector3_1a71fab3eea2aac2738335149c27fa45db" kindref="member">Vector3::operator *= </ref>(<ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>s)</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>*=<sp/>s;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>*=<sp/>s;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>*=<sp/>s;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="comment">//<sp/>正の値</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><ref refid="d0/de3/struct_vector3_1a3ab63b97882ef750fc2bfe94477802b1" kindref="member">Vector3::operator + </ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="191"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="comment">//<sp/>負の値</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><ref refid="d0/de3/struct_vector3_1a72a36c71164f1532d24ec49c3d7056fc" kindref="member">Vector3::operator - </ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="199"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>*<sp/>-1.0f;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="206"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3_1a6ec99d2e2c0f781c257bf9c2e665ee40" kindref="member">Vector3::operator == </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>v)</highlight></codeline>
+<codeline lineno="208"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>!=<sp/>v.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>!=<sp/>v.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>!=<sp/>v.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="217"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3_1a3bb95b94a0911ae9f1eae66695f65c70" kindref="member">Vector3::operator != </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>v)</highlight></codeline>
+<codeline lineno="219"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!(*</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>==<sp/>v);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ベクトルの長さ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/><ref refid="d0/de3/struct_vector3_1ab75b4d7d7fad114d84f2e081edef68b6" kindref="member">Vector3::length</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="228"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sqrtf(<sp/>(<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>*<sp/><ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref>)<sp/>+<sp/>(<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>*<sp/><ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref>)<sp/>+<sp/>(<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>*<sp/><ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref>)<sp/>+<sp/>0.00000001f<sp/>);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="234"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/><ref refid="d0/de3/struct_vector3_1ad67a64036469827d79ce4d821d49f329" kindref="member">Vector3::squareLength</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="236"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(_x<sp/>*<sp/>_x)<sp/>+<sp/>(<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>*<sp/><ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref>)<sp/>+<sp/>(<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>*<sp/><ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref>);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="243"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><ref refid="d0/de3/struct_vector3_1aa9a41fdd0584091e48784c96999972f1" kindref="member">Vector3::normalize</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="245"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/>invL<sp/>=<sp/>1.0f<sp/>/<sp/><ref refid="d0/de3/struct_vector3_1ab75b4d7d7fad114d84f2e081edef68b6" kindref="member">length</ref>();<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ベクトルの長さ(長さの逆数)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>自分自身のベクトルを長さで割る(逆数の乗算)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)<sp/>*<sp/>invL;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="255"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><ref refid="d0/de3/struct_vector3_1a0ffd8b1ab26781d0524802cce8d5e0c3" kindref="member">Vector3::transform</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/d22/struct_matrix" kindref="compound">Matrix</ref>&amp;<sp/>m)</highlight></codeline>
+<codeline lineno="257"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>result;</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>=<sp/>(_x<sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[0].<ref refid="de/d54/struct_vector4_1abb21125aa7a06ea4437281aa76a551ea" kindref="member">_x</ref>)<sp/>+<sp/>(<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[1].<ref refid="de/d54/struct_vector4_1abb21125aa7a06ea4437281aa76a551ea" kindref="member">_x</ref>)<sp/>+<sp/>(<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[2].<ref refid="de/d54/struct_vector4_1abb21125aa7a06ea4437281aa76a551ea" kindref="member">_x</ref>)<sp/>+<sp/>(<sp/></highlight><highlight class="comment">/*<sp/>1.0f*<sp/>*/</highlight><highlight class="normal"><sp/><sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[3].<ref refid="de/d54/struct_vector4_1abb21125aa7a06ea4437281aa76a551ea" kindref="member">_x</ref><sp/>);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>=<sp/>(_x<sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[0].<ref refid="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" kindref="member">_y</ref>)<sp/>+<sp/>(<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[1].<ref refid="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" kindref="member">_y</ref>)<sp/>+<sp/>(<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[2].<ref refid="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" kindref="member">_y</ref>)<sp/>+<sp/>(<sp/></highlight><highlight class="comment">/*<sp/>1.0f*<sp/>*/</highlight><highlight class="normal"><sp/><sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[3].<ref refid="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" kindref="member">_y</ref><sp/>);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>=<sp/>(_x<sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[0].<ref refid="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" kindref="member">_z</ref>)<sp/>+<sp/>(<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[1].<ref refid="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" kindref="member">_z</ref>)<sp/>+<sp/>(<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[2].<ref refid="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" kindref="member">_z</ref>)<sp/>+<sp/>(<sp/></highlight><highlight class="comment">/*<sp/>1.0f*<sp/>*/</highlight><highlight class="normal"><sp/><sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[3].<ref refid="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" kindref="member">_z</ref><sp/>);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="272"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/><ref refid="d0/de3/struct_vector3_1a320f377d62a53de63377c78d1e724a11" kindref="member">Vector3::dot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>b)</highlight></codeline>
+<codeline lineno="274"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>a.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>*<sp/>b.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>)<sp/>+<sp/>(<sp/>a.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>*<sp/>b.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>)<sp/>+<sp/>(<sp/>a.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>*<sp/>b.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="284"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><ref refid="d0/de3/struct_vector3_1a36a1cc3bd7107c9f05cafaa1a9b0d16c" kindref="member">Vector3::cross</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/><sp/><sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>b)</highlight></codeline>
+<codeline lineno="286"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>result;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>=<sp/>(<sp/>a.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>*<sp/>b.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>)<sp/><sp/>-<sp/>(<sp/>b.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>*<sp/>a.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>=<sp/>(<sp/>a.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>*<sp/>b.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>)<sp/><sp/>-<sp/>(<sp/>b.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>*<sp/>a.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>=<sp/>(<sp/>a.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>*<sp/>b.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>)<sp/><sp/>-<sp/>(<sp/>b.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>*<sp/>a.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>４要素ベクトル</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="302"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><ref refid="de/d54/struct_vector4_1a511b4d9c8326c235b76d794eea018921" kindref="member">Vector4::Vector4</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="307"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><ref refid="de/d54/struct_vector4_1a511b4d9c8326c235b76d794eea018921" kindref="member">Vector4::Vector4</ref>(<ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>x,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>y,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>z,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>w)</highlight></codeline>
+<codeline lineno="309"><highlight class="normal">:<sp/>_x(x)</highlight></codeline>
+<codeline lineno="310"><highlight class="normal">,<sp/>_y(y)</highlight></codeline>
+<codeline lineno="311"><highlight class="normal">,<sp/>_z(z)</highlight></codeline>
+<codeline lineno="312"><highlight class="normal">,<sp/>_w(w)</highlight></codeline>
+<codeline lineno="313"><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="317"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><ref refid="de/d54/struct_vector4_1a511b4d9c8326c235b76d794eea018921" kindref="member">Vector4::Vector4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>v,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>w)</highlight></codeline>
+<codeline lineno="319"><highlight class="normal">:<sp/>_x(v._x)</highlight></codeline>
+<codeline lineno="320"><highlight class="normal">,<sp/>_y(v._y)</highlight></codeline>
+<codeline lineno="321"><highlight class="normal">,<sp/>_z(v._z)</highlight></codeline>
+<codeline lineno="322"><highlight class="normal">,<sp/>_w(w)</highlight></codeline>
+<codeline lineno="323"><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="328"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><ref refid="de/d54/struct_vector4" kindref="compound">Vector4</ref><sp/><ref refid="de/d54/struct_vector4_1a55b17f5f4003a2c1b46066925b072635" kindref="member">Vector4::transform</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/d22/struct_matrix" kindref="compound">Matrix</ref>&amp;<sp/>m)</highlight></codeline>
+<codeline lineno="330"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d54/struct_vector4" kindref="compound">Vector4</ref><sp/>result;</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="de/d54/struct_vector4_1abb21125aa7a06ea4437281aa76a551ea" kindref="member">_x</ref><sp/>=<sp/>(_x<sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[0].<ref refid="de/d54/struct_vector4_1abb21125aa7a06ea4437281aa76a551ea" kindref="member">_x</ref>)<sp/>+<sp/>(<ref refid="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" kindref="member">_y</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[1].<ref refid="de/d54/struct_vector4_1abb21125aa7a06ea4437281aa76a551ea" kindref="member">_x</ref>)<sp/>+<sp/>(<ref refid="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" kindref="member">_z</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[2].<ref refid="de/d54/struct_vector4_1abb21125aa7a06ea4437281aa76a551ea" kindref="member">_x</ref>)<sp/>+<sp/>(<ref refid="de/d54/struct_vector4_1a9aae8a768968c7939492dcc8277dab19" kindref="member">_w</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[3].<ref refid="de/d54/struct_vector4_1abb21125aa7a06ea4437281aa76a551ea" kindref="member">_x</ref><sp/>);</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" kindref="member">_y</ref><sp/>=<sp/>(_x<sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[0].<ref refid="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" kindref="member">_y</ref>)<sp/>+<sp/>(<ref refid="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" kindref="member">_y</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[1].<ref refid="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" kindref="member">_y</ref>)<sp/>+<sp/>(<ref refid="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" kindref="member">_z</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[2].<ref refid="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" kindref="member">_y</ref>)<sp/>+<sp/>(<ref refid="de/d54/struct_vector4_1a9aae8a768968c7939492dcc8277dab19" kindref="member">_w</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[3].<ref refid="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" kindref="member">_y</ref><sp/>);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" kindref="member">_z</ref><sp/>=<sp/>(_x<sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[0].<ref refid="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" kindref="member">_z</ref>)<sp/>+<sp/>(<ref refid="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" kindref="member">_y</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[1].<ref refid="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" kindref="member">_z</ref>)<sp/>+<sp/>(<ref refid="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" kindref="member">_z</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[2].<ref refid="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" kindref="member">_z</ref>)<sp/>+<sp/>(<ref refid="de/d54/struct_vector4_1a9aae8a768968c7939492dcc8277dab19" kindref="member">_w</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[3].<ref refid="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" kindref="member">_z</ref><sp/>);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/>result.<ref refid="de/d54/struct_vector4_1a9aae8a768968c7939492dcc8277dab19" kindref="member">_w</ref><sp/>=<sp/>(_x<sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[0].<ref refid="de/d54/struct_vector4_1a9aae8a768968c7939492dcc8277dab19" kindref="member">_w</ref>)<sp/>+<sp/>(<ref refid="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" kindref="member">_y</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[1].<ref refid="de/d54/struct_vector4_1a9aae8a768968c7939492dcc8277dab19" kindref="member">_w</ref>)<sp/>+<sp/>(<ref refid="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" kindref="member">_z</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[2].<ref refid="de/d54/struct_vector4_1a9aae8a768968c7939492dcc8277dab19" kindref="member">_w</ref>)<sp/>+<sp/>(<ref refid="de/d54/struct_vector4_1a9aae8a768968c7939492dcc8277dab19" kindref="member">_w</ref><sp/>*<sp/>m.<ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[3].<ref refid="de/d54/struct_vector4_1a9aae8a768968c7939492dcc8277dab19" kindref="member">_w</ref><sp/>);</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="339"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>END<sp/>OF<sp/>FILE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight></codeline>
+    </programlisting>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.cpp"/>
+  </compounddef>
+</doxygen>
