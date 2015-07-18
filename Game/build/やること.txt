@@ -1,0 +1,12 @@
+8/31
+
+ビルボード作成
+体力減るようにする(ビジュアルの)
+パーティクル(エフェクト)作成
+
+ランドスケープを壁にも応用する
+
+地面用のgetHeight(Vector3 pos);と壁用のgetWall(Vector3 pos, Vector3 mov);をつくり
+それをCollisionManagerのループ文で処理する
+
+それぞれは内容はほぼ同じなので共通のgetFace(Vector3 pos, Vector3 mov, s32 GridNumber);もつくる

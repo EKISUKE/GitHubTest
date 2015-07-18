@@ -1,0 +1,524 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d8/d77/_timer_8cpp" kind="file">
+    <compoundname>Timer.cpp</compoundname>
+    <includes refid="db/dfc/_library_8h" local="yes">Library.h</includes>
+    <incdepgraph>
+      <node id="4955">
+        <label>list</label>
+      </node>
+      <node id="5005">
+        <label>SceneGame.h</label>
+        <link refid="dc/d83/_scene_game_8h"/>
+      </node>
+      <node id="4965">
+        <label>Color.h</label>
+        <link refid="d9/df8/_color_8h"/>
+      </node>
+      <node id="4964">
+        <label>Matrix.h</label>
+        <link refid="d0/d45/_matrix_8h"/>
+      </node>
+      <node id="4983">
+        <label>Status.h</label>
+        <link refid="d3/ddd/_status_8h"/>
+      </node>
+      <node id="4945">
+        <label>windows.h</label>
+      </node>
+      <node id="4985">
+        <label>Key.h</label>
+        <link refid="d7/dfc/_key_8h"/>
+      </node>
+      <node id="5002">
+        <label>AllyDeffender.h</label>
+        <link refid="de/d4d/_ally_deffender_8h"/>
+      </node>
+      <node id="4962">
+        <label>GLFont.h</label>
+        <link refid="dc/db4/_g_l_font_8h"/>
+      </node>
+      <node id="5000">
+        <label>Ally.h</label>
+        <link refid="d0/d06/_ally_8h"/>
+      </node>
+      <node id="4952">
+        <label>stdlib.h</label>
+      </node>
+      <node id="5003">
+        <label>AllyHealer.h</label>
+        <link refid="d6/dbe/_ally_healer_8h"/>
+      </node>
+      <node id="4984">
+        <label>IObj.h</label>
+        <link refid="dd/d39/_i_obj_8h"/>
+      </node>
+      <node id="4993">
+        <label>CameraManager.h</label>
+        <link refid="db/d24/_camera_manager_8h"/>
+      </node>
+      <node id="4992">
+        <label>Camera.h</label>
+        <link refid="d5/d91/_camera_8h"/>
+      </node>
+      <node id="4986">
+        <label>KeyAttacker.h</label>
+        <link refid="d9/d42/_key_attacker_8h"/>
+      </node>
+      <node id="4982">
+        <label>CollisionManager.h</label>
+        <link refid="d7/d3e/_collision_manager_8h"/>
+      </node>
+      <node id="4970">
+        <label>fmod.h</label>
+      </node>
+      <node id="4989">
+        <label>KeyInput.h</label>
+        <link refid="df/d48/_key_input_8h"/>
+      </node>
+      <node id="4981">
+        <label>LandScape.h</label>
+        <link refid="d5/d53/_land_scape_8h"/>
+      </node>
+      <node id="4953">
+        <label>string</label>
+      </node>
+      <node id="4957">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="4963">
+        <label>Vector.h</label>
+        <link refid="d4/d7f/_vector_8h"/>
+      </node>
+      <node id="4979">
+        <label>Collision.h</label>
+        <link refid="d9/d87/_collision_8h"/>
+      </node>
+      <node id="4966">
+        <label>System.h</label>
+        <link refid="df/d78/_system_8h"/>
+      </node>
+      <node id="4961">
+        <label>Singleton.h</label>
+        <link refid="de/dec/_singleton_8h"/>
+      </node>
+      <node id="4944">
+        <label>Main.h</label>
+        <link refid="d0/d55/_main_8h"/>
+        <childnode refid="4945" relation="include">
+        </childnode>
+        <childnode refid="4946" relation="include">
+        </childnode>
+        <childnode refid="4947" relation="include">
+        </childnode>
+        <childnode refid="4948" relation="include">
+        </childnode>
+        <childnode refid="4949" relation="include">
+        </childnode>
+        <childnode refid="4950" relation="include">
+        </childnode>
+        <childnode refid="4951" relation="include">
+        </childnode>
+        <childnode refid="4952" relation="include">
+        </childnode>
+        <childnode refid="4953" relation="include">
+        </childnode>
+        <childnode refid="4954" relation="include">
+        </childnode>
+        <childnode refid="4955" relation="include">
+        </childnode>
+        <childnode refid="4956" relation="include">
+        </childnode>
+        <childnode refid="4957" relation="include">
+        </childnode>
+        <childnode refid="4958" relation="include">
+        </childnode>
+        <childnode refid="4959" relation="include">
+        </childnode>
+        <childnode refid="4960" relation="include">
+        </childnode>
+      </node>
+      <node id="4998">
+        <label>Player.h</label>
+        <link refid="d1/d39/_player_8h"/>
+      </node>
+      <node id="4959">
+        <label>GL/freeglut.h</label>
+      </node>
+      <node id="4958">
+        <label>GL/wglew.h</label>
+      </node>
+      <node id="4976">
+        <label>BillBoard.h</label>
+        <link refid="d1/d37/_bill_board_8h"/>
+      </node>
+      <node id="4975">
+        <label>Effect.h</label>
+        <link refid="dd/d44/_effect_8h"/>
+      </node>
+      <node id="4947">
+        <label>gdiplus.h</label>
+      </node>
+      <node id="4956">
+        <label>ctime</label>
+      </node>
+      <node id="4954">
+        <label>vector</label>
+      </node>
+      <node id="4971">
+        <label>Controller.h</label>
+        <link refid="d2/d94/_controller_8h"/>
+      </node>
+      <node id="4949">
+        <label>sstream</label>
+      </node>
+      <node id="4994">
+        <label>Map.h</label>
+        <link refid="d3/d63/_map_8h"/>
+      </node>
+      <node id="5004">
+        <label>SceneTitle.h</label>
+        <link refid="d6/d5f/_scene_title_8h"/>
+      </node>
+      <node id="4960">
+        <label>Xinput.h</label>
+      </node>
+      <node id="4997">
+        <label>SquadManager.h</label>
+        <link refid="da/d9b/_squad_manager_8h"/>
+      </node>
+      <node id="4950">
+        <label>math.h</label>
+      </node>
+      <node id="4973">
+        <label>Texture.h</label>
+        <link refid="de/dbf/_texture_8h"/>
+      </node>
+      <node id="4969">
+        <label>fmod.hpp</label>
+      </node>
+      <node id="4968">
+        <label>SoundPlayer.h</label>
+        <link refid="dc/d02/_sound_player_8h"/>
+        <childnode refid="4969" relation="include">
+        </childnode>
+        <childnode refid="4970" relation="include">
+        </childnode>
+      </node>
+      <node id="4943">
+        <label>Library.h</label>
+        <link refid="db/dfc/_library_8h"/>
+        <childnode refid="4944" relation="include">
+        </childnode>
+        <childnode refid="4961" relation="include">
+        </childnode>
+        <childnode refid="4962" relation="include">
+        </childnode>
+        <childnode refid="4963" relation="include">
+        </childnode>
+        <childnode refid="4964" relation="include">
+        </childnode>
+        <childnode refid="4965" relation="include">
+        </childnode>
+        <childnode refid="4966" relation="include">
+        </childnode>
+        <childnode refid="4967" relation="include">
+        </childnode>
+        <childnode refid="4968" relation="include">
+        </childnode>
+        <childnode refid="4971" relation="include">
+        </childnode>
+        <childnode refid="4972" relation="include">
+        </childnode>
+        <childnode refid="4973" relation="include">
+        </childnode>
+        <childnode refid="4974" relation="include">
+        </childnode>
+        <childnode refid="4975" relation="include">
+        </childnode>
+        <childnode refid="4976" relation="include">
+        </childnode>
+        <childnode refid="4977" relation="include">
+        </childnode>
+        <childnode refid="4978" relation="include">
+        </childnode>
+        <childnode refid="4979" relation="include">
+        </childnode>
+        <childnode refid="4980" relation="include">
+        </childnode>
+        <childnode refid="4981" relation="include">
+        </childnode>
+        <childnode refid="4982" relation="include">
+        </childnode>
+        <childnode refid="4983" relation="include">
+        </childnode>
+        <childnode refid="4984" relation="include">
+        </childnode>
+        <childnode refid="4985" relation="include">
+        </childnode>
+        <childnode refid="4986" relation="include">
+        </childnode>
+        <childnode refid="4987" relation="include">
+        </childnode>
+        <childnode refid="4988" relation="include">
+        </childnode>
+        <childnode refid="4989" relation="include">
+        </childnode>
+        <childnode refid="4990" relation="include">
+        </childnode>
+        <childnode refid="4991" relation="include">
+        </childnode>
+        <childnode refid="4992" relation="include">
+        </childnode>
+        <childnode refid="4993" relation="include">
+        </childnode>
+        <childnode refid="4994" relation="include">
+        </childnode>
+        <childnode refid="4995" relation="include">
+        </childnode>
+        <childnode refid="4996" relation="include">
+        </childnode>
+        <childnode refid="4997" relation="include">
+        </childnode>
+        <childnode refid="4998" relation="include">
+        </childnode>
+        <childnode refid="4999" relation="include">
+        </childnode>
+        <childnode refid="5000" relation="include">
+        </childnode>
+        <childnode refid="5001" relation="include">
+        </childnode>
+        <childnode refid="5002" relation="include">
+        </childnode>
+        <childnode refid="5003" relation="include">
+        </childnode>
+        <childnode refid="5004" relation="include">
+        </childnode>
+        <childnode refid="5005" relation="include">
+        </childnode>
+      </node>
+      <node id="4996">
+        <label>Squad.h</label>
+        <link refid="db/d9e/_squad_8h"/>
+      </node>
+      <node id="4948">
+        <label>iostream</label>
+      </node>
+      <node id="4978">
+        <label>Geometry.h</label>
+        <link refid="d1/d4e/_geometry_8h"/>
+      </node>
+      <node id="4942">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.cpp</label>
+        <link refid="Timer.cpp"/>
+        <childnode refid="4943" relation="include">
+        </childnode>
+      </node>
+      <node id="4967">
+        <label>Timer.h</label>
+        <link refid="d5/d29/_timer_8h"/>
+      </node>
+      <node id="4980">
+        <label>CollisionWall.h</label>
+        <link refid="df/d58/_collision_wall_8h"/>
+      </node>
+      <node id="4946">
+        <label>mmsystem.h</label>
+      </node>
+      <node id="4995">
+        <label>Man.h</label>
+        <link refid="d3/da6/_man_8h"/>
+      </node>
+      <node id="4972">
+        <label>Mouse.h</label>
+        <link refid="d2/de3/_mouse_8h"/>
+      </node>
+      <node id="5001">
+        <label>AllyAttacker.h</label>
+        <link refid="d9/d97/_ally_attacker_8h"/>
+      </node>
+      <node id="4999">
+        <label>Enemy.h</label>
+        <link refid="d4/d1e/_enemy_8h"/>
+      </node>
+      <node id="4987">
+        <label>KeyDeffender.h</label>
+        <link refid="d1/d11/_key_deffender_8h"/>
+      </node>
+      <node id="4990">
+        <label>ObjBase.h</label>
+        <link refid="d3/d3e/_obj_base_8h"/>
+      </node>
+      <node id="4977">
+        <label>SystemShader.h</label>
+        <link refid="dd/d98/_system_shader_8h"/>
+      </node>
+      <node id="4974">
+        <label>Model.h</label>
+        <link refid="da/ded/_model_8h"/>
+      </node>
+      <node id="4951">
+        <label>stdio.h</label>
+      </node>
+      <node id="4991">
+        <label>CameraBase.h</label>
+        <link refid="db/db8/_camera_base_8h"/>
+      </node>
+      <node id="4988">
+        <label>KeyHealer.h</label>
+        <link refid="db/d50/_key_healer_8h"/>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+<para>タイマー関連 </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>YukiIshigaki </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="db/dfc/_library_8h" kindref="compound">Library.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>パフォーマンスマネージャー実装</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>外部非公開</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d4f/class_performance_manager" kindref="compound">PerformanceManager</ref><sp/><sp/>gPerformanceManager;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>実体</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><ref refid="db/d86/class_performance" kindref="compound">Performance</ref>*<sp/><ref refid="da/d4f/class_performance_manager_1abd6eca627b1039cc37dbba62f89108b0" kindref="member">PerformanceManager::getSamePerformance</ref>(<ref refid="db/d86/class_performance" kindref="compound">Performance</ref>*<sp/>perform)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/>list&lt;Performance*&gt;::iterator<sp/>itr<sp/>=<sp/><ref refid="da/d4f/class_performance_manager_1aee017e3d7b3f4dd2b21c826f8e88639e" kindref="member">_pPerformList</ref>.begin();<sp/>itr<sp/>!=<sp/><ref refid="da/d4f/class_performance_manager_1aee017e3d7b3f4dd2b21c826f8e88639e" kindref="member">_pPerformList</ref>.end();<sp/>itr++<sp/>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="db/d86/class_performance" kindref="compound">Performance</ref>*<sp/><sp/><sp/><sp/>tmpPef<sp/>=<sp/>*itr;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>見つかったら</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>tmpPef<sp/>==<sp/>perform<sp/>)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*itr;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>見つからなかった</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------<sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d4f/class_performance_manager_1ab6a18694c8553a1b3b031e59c6678b1a" kindref="member">PerformanceManager::addPeform</ref>(<ref refid="db/d86/class_performance" kindref="compound">Performance</ref>*<sp/>perform)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>!<ref refid="da/d4f/class_performance_manager_1abd6eca627b1039cc37dbba62f89108b0" kindref="member">getSamePerformance</ref>(perform)<sp/>)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>登録</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="da/d4f/class_performance_manager_1aee017e3d7b3f4dd2b21c826f8e88639e" kindref="member">_pPerformList</ref>.push_back(perform);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d4f/class_performance_manager_1af413f574ffacb77125f1a9223f6c9fc8" kindref="member">PerformanceManager::deletePeform</ref>(<ref refid="db/d86/class_performance" kindref="compound">Performance</ref>*<sp/>perform)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>同じものを削除する</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d4f/class_performance_manager_1aee017e3d7b3f4dd2b21c826f8e88639e" kindref="member">_pPerformList</ref>.remove(perform);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d4f/class_performance_manager_1a62fc531484cf223da9d5924897f1a0f0" kindref="member">PerformanceManager::drawPerformanceBar</ref>()</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>描画座標</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>drawPos<sp/>=<sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>(984.0f,<sp/>0.0f,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>線形補完する</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>height<sp/>=<sp/>300.0f;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>枠を描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>glBegin(GL_TRIANGLE_STRIP);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glColor3f(0,0,0);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex3f(drawPos.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>drawPos.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex3f(drawPos.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>+<sp/>40.0f,<sp/>drawPos.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex3f(drawPos.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>drawPos.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>+<sp/>height,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex3f(drawPos.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>+<sp/>40.0f,<sp/>drawPos.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>+<sp/>height,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>glEnd();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>drawPos.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>+=<sp/>2.0f;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d55/_main_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/>frequency;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>カウンター周波数を記録</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>QueryPerformanceFrequency((LARGE_INTEGER*)&amp;frequency);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>パフォーマンスバーの描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d55/_main_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/>totalTime<sp/>=<sp/>(<ref refid="da/d69/class_timer_base_1a06b9dbe519e22aa9ecf9e37637ea35b2" kindref="member">_endTime</ref><sp/>-<sp/><ref refid="da/d69/class_timer_base_1ae8e31c0cc54cbe908508dbc165618fbc" kindref="member">_startTime</ref>)<sp/>*<sp/>1000<sp/>/<sp/>frequency;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>高さを求める</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>height<sp/>=<sp/><ref refid="d8/de5/_system_8cpp_1acaf4aa7f4af8905e6af8409d438cdbae" kindref="member">LinearInterpolation</ref>(0.0f,<sp/>300.0f,<sp/>(<ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref>)totalTime,<sp/>(<ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref>)<ref refid="da/d4f/class_performance_manager_1ad3665747d51d8f01e989b9b2ac2ab1cf" kindref="member">_maxSecond</ref>);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>全体のループの処理バー描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>glBegin(GL_TRIANGLE_STRIP);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glColor3f(0,1,0);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex3f(drawPos.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>drawPos.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex3f(drawPos.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>+<sp/>36.0f,<sp/>drawPos.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex3f(drawPos.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>drawPos.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>+<sp/>height,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex3f(drawPos.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>+<sp/>36.0f,<sp/>drawPos.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>+<sp/>height,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>glEnd();</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>枠の分だけずらす</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>drawPos.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>+=<sp/>3.0f;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/>list&lt;Performance*&gt;::iterator<sp/>itr<sp/>=<sp/><ref refid="da/d4f/class_performance_manager_1aee017e3d7b3f4dd2b21c826f8e88639e" kindref="member">_pPerformList</ref>.begin();<sp/>itr<sp/>!=<sp/><ref refid="da/d4f/class_performance_manager_1aee017e3d7b3f4dd2b21c826f8e88639e" kindref="member">_pPerformList</ref>.end();<sp/>itr++<sp/>)</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="db/d86/class_performance" kindref="compound">Performance</ref>*<sp/><sp/><sp/><sp/>drawPef<sp/>=<sp/>*itr;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>drawPef-&gt;<ref refid="db/d86/class_performance_1af56bbd9f19ebd5b00b76211a38016eed" kindref="member">DrawPerformance</ref>(drawPos);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>次の描画位置を求める</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>drawPos.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>+=<sp/>drawPef-&gt;<ref refid="db/d86/class_performance_1a8be0a1eefdce743597d54297af96a145" kindref="member">getHeight</ref>();</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>パフォーマンス実装</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><ref refid="db/d86/class_performance_1ac3f9a91ae5b8488e75385901497b0636" kindref="member">Performance::Performance</ref>()</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">:<sp/>_height(0.0f)</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>登録</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d29/_timer_8h_1a8f27c79337f6645726bceac40daf740d" kindref="member">IPerformanceManager</ref>()-&gt;<ref refid="da/d4f/class_performance_manager_1ab6a18694c8553a1b3b031e59c6678b1a" kindref="member">addPeform</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><ref refid="db/d86/class_performance_1a1a7af5c73f8bdd80ec08872cc2992b82" kindref="member">Performance::~Performance</ref>()<sp/></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>削除</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d29/_timer_8h_1a8f27c79337f6645726bceac40daf740d" kindref="member">IPerformanceManager</ref>()-&gt;<ref refid="da/d4f/class_performance_manager_1af413f574ffacb77125f1a9223f6c9fc8" kindref="member">deletePeform</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="db/d86/class_performance_1af56bbd9f19ebd5b00b76211a38016eed" kindref="member">Performance::DrawPerformance</ref>(<ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>drawPos)</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>四角形の描画<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>glBegin(GL_TRIANGLE_STRIP);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glColor4ubv((GLubyte*)&amp;_drawColor);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex3f(drawPos.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>drawPos.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex3f(drawPos.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>+<sp/>30.0f,<sp/>drawPos.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex3f(drawPos.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>drawPos.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>+<sp/>_height,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex3f(drawPos.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>+<sp/>30.0f,<sp/>drawPos.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>+<sp/>_height,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>glEnd();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>END<sp/>OF<sp/>FILE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight></codeline>
+    </programlisting>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.cpp"/>
+  </compounddef>
+</doxygen>

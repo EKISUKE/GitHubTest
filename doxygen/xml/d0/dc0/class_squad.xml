@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d0/dc0/class_squad" kind="class" prot="public">
+    <compoundname>Squad</compoundname>
+    <includes refid="db/d9e/_squad_8h" local="no">Squad.h</includes>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="d0/dc0/class_squad_1a2cc19ba85f2f940a18bdcffe86398e7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Squad::setLeader</definition>
+        <argsstring>(Man *leader)</argsstring>
+        <name>setLeader</name>
+        <param>
+          <type><ref refid="da/d50/class_man" kindref="compound">Man</ref> *</type>
+          <declname>leader</declname>
+        </param>
+        <briefdescription>
+<para>取得・設定 </para>        </briefdescription>
+        <detaileddescription>
+<para>リーダーの設定 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" line="49" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dc0/class_squad_1a8500396f2202f8b6cfbeb58a60b50385" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 Squad::getMyPostion</definition>
+        <argsstring>(Man *member)</argsstring>
+        <name>getMyPostion</name>
+        <param>
+          <type><ref refid="da/d50/class_man" kindref="compound">Man</ref> *</type>
+          <declname>member</declname>
+        </param>
+        <briefdescription>
+<para>自分のオフセット位置の取得 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" line="55" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" bodystart="55" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dc0/class_squad_1aa68455ebcf1e6c341ec287692b5df964" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d8/d8d/struct_member" kindref="compound">Member</ref> *</type>
+        <definition>Member* Squad::getSameMenber</definition>
+        <argsstring>(Man *menber)</argsstring>
+        <name>getSameMenber</name>
+        <param>
+          <type><ref refid="da/d50/class_man" kindref="compound">Man</ref> *</type>
+          <declname>menber</declname>
+        </param>
+        <briefdescription>
+<para>メンバーの取得 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" line="77" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" bodystart="77" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d0/dc0/class_squad_1a8b59302b991f8a7378997a8b94ff49cb" prot="protected" static="no" mutable="no">
+        <type><ref refid="da/d50/class_man" kindref="compound">Man</ref> *</type>
+        <definition>Man* Squad::_leader</definition>
+        <argsstring></argsstring>
+        <name>_leader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" line="97" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dc0/class_squad_1aa95fcbc892273659b1e342e6dd522573" prot="protected" static="no" mutable="no">
+        <type>list&lt; <ref refid="d8/d8d/struct_member" kindref="compound">Member</ref> * &gt;</type>
+        <definition>list&lt;Member*&gt; Squad::_pMemberList</definition>
+        <argsstring></argsstring>
+        <name>_pMemberList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" line="98" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="d0/dc0/class_squad_1a9cdd878b045c7242f54a169d02dc5e18" prot="protected" static="yes" mutable="no">
+        <type>const <ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>const s32 Squad::MEMBER_MAX</definition>
+        <argsstring></argsstring>
+        <name>MEMBER_MAX</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" line="99" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dc0/class_squad_1a961d7d3aaf28d3d6174f220c8c298718" prot="protected" static="yes" mutable="no">
+        <type>const <ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref></type>
+        <definition>const Vector3 Squad::offsetPosition</definition>
+        <argsstring>[MEMBER_MAX]</argsstring>
+        <name>offsetPosition</name>
+        <initializer>=
+{
+	<ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>(-60.0f, 0.0f,  -40.0f),		
+	Vector3( 60.0f, 0.0f,  -40.0f),		
+	Vector3(-60.0f, 0.0f, -100.0f),		
+	Vector3( 60.0f, 0.0f, -100.0f),		
+	Vector3(-60.0f, 0.0f, -160.0f),		
+	Vector3( 60.0f, 0.0f, -160.0f),		
+	Vector3(0.0f, 0.0f, 0.0f),		
+	Vector3(0.0f, 0.0f, 0.0f),		
+	Vector3(0.0f, 0.0f, 0.0f),		
+	Vector3(0.0f, 0.0f, 0.0f)		
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" line="100" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/dc0/class_squad_1a0e37f7593f55bff89220ec031d19f5f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Squad::Squad</definition>
+        <argsstring>()</argsstring>
+        <name>Squad</name>
+        <briefdescription>
+<para>デフォルトコンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" line="26" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dc0/class_squad_1ade5f795e12e6e2865640165dfdf3925a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Squad::Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+<para>初期化 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" line="32" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dc0/class_squad_1a64b36d986fbbe63d903740be3c2fad0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Squad::addMenber</definition>
+        <argsstring>(Man *member)</argsstring>
+        <name>addMenber</name>
+        <param>
+          <type><ref refid="da/d50/class_man" kindref="compound">Man</ref> *</type>
+          <declname>member</declname>
+        </param>
+        <briefdescription>
+<para>メンバーの追加 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" line="38" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.cpp" bodystart="32" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dc0/class_squad_1af31356388d3dd04f7adec8894c898f38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Squad::leftMenber</definition>
+        <argsstring>(Man *member)</argsstring>
+        <name>leftMenber</name>
+        <param>
+          <type><ref refid="da/d50/class_man" kindref="compound">Man</ref> *</type>
+          <declname>member</declname>
+        </param>
+        <briefdescription>
+<para>メンバーの離脱 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" line="40" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.cpp" bodystart="51" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="401">
+        <label>Squad</label>
+        <link refid="d0/dc0/class_squad"/>
+        <childnode refid="402" relation="usage">
+          <edgelabel>_leader</edgelabel>
+        </childnode>
+        <childnode refid="407" relation="usage">
+          <edgelabel>offsetPosition</edgelabel>
+        </childnode>
+      </node>
+      <node id="412">
+        <label>Status</label>
+        <link refid="df/df2/struct_status"/>
+        <childnode refid="413" relation="usage">
+          <edgelabel>_GaugeBoard</edgelabel>
+        </childnode>
+      </node>
+      <node id="404">
+        <label>IObj</label>
+        <link refid="da/d94/class_i_obj"/>
+      </node>
+      <node id="411">
+        <label>IKey</label>
+        <link refid="d1/d71/class_i_key"/>
+      </node>
+      <node id="402">
+        <label>Man</label>
+        <link refid="da/d50/class_man"/>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+        <childnode refid="408" relation="usage">
+          <edgelabel>_myCollision</edgelabel>
+        </childnode>
+        <childnode refid="409" relation="usage">
+          <edgelabel>_model</edgelabel>
+        </childnode>
+        <childnode refid="407" relation="usage">
+          <edgelabel>_attackPosition</edgelabel>
+        </childnode>
+        <childnode refid="410" relation="usage">
+          <edgelabel>_key</edgelabel>
+        </childnode>
+        <childnode refid="406" relation="usage">
+          <edgelabel>_attackSphere</edgelabel>
+        </childnode>
+        <childnode refid="412" relation="usage">
+          <edgelabel>_myStatus</edgelabel>
+        </childnode>
+      </node>
+      <node id="410">
+        <label>KeyBase</label>
+        <link refid="dd/d2e/class_key_base"/>
+        <childnode refid="411" relation="public-inheritance">
+        </childnode>
+        <childnode refid="407" relation="usage">
+          <edgelabel>_movVector</edgelabel>
+          <edgelabel>_playerPos</edgelabel>
+          <edgelabel>_targetPos</edgelabel>
+          <edgelabel>_stickVector</edgelabel>
+          <edgelabel>_myPos</edgelabel>
+        </childnode>
+      </node>
+      <node id="405">
+        <label>CollisionObject</label>
+        <link refid="d3/d62/class_collision_object"/>
+        <childnode refid="406" relation="usage">
+          <edgelabel>_hitSphere</edgelabel>
+        </childnode>
+      </node>
+      <node id="403">
+        <label>ObjBase</label>
+        <link refid="dc/d24/class_obj_base"/>
+        <childnode refid="404" relation="public-inheritance">
+        </childnode>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+        <childnode refid="407" relation="usage">
+          <edgelabel>_rotation</edgelabel>
+          <edgelabel>_mov</edgelabel>
+          <edgelabel>_position</edgelabel>
+          <edgelabel>_hitPosition</edgelabel>
+        </childnode>
+      </node>
+      <node id="413">
+        <label>BillBoard</label>
+        <link refid="dd/d4c/class_bill_board"/>
+      </node>
+      <node id="408">
+        <label>Collision</label>
+        <link refid="df/dc6/class_collision"/>
+      </node>
+      <node id="406">
+        <label>Sphere</label>
+        <link refid="db/da7/struct_sphere"/>
+      </node>
+      <node id="409">
+        <label>Model</label>
+        <link refid="d0/de3/class_model"/>
+      </node>
+      <node id="407">
+        <label>Vector3</label>
+        <link refid="d0/de3/struct_vector3"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" line="22" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.h" bodystart="21" bodyend="102"/>
+    <listofallmembers>
+      <member refid="d0/dc0/class_squad_1a8b59302b991f8a7378997a8b94ff49cb" prot="protected" virt="non-virtual"><scope>Squad</scope><name>_leader</name></member>
+      <member refid="d0/dc0/class_squad_1aa95fcbc892273659b1e342e6dd522573" prot="protected" virt="non-virtual"><scope>Squad</scope><name>_pMemberList</name></member>
+      <member refid="d0/dc0/class_squad_1a64b36d986fbbe63d903740be3c2fad0e" prot="public" virt="non-virtual"><scope>Squad</scope><name>addMenber</name></member>
+      <member refid="d0/dc0/class_squad_1a8500396f2202f8b6cfbeb58a60b50385" prot="public" virt="non-virtual"><scope>Squad</scope><name>getMyPostion</name></member>
+      <member refid="d0/dc0/class_squad_1aa68455ebcf1e6c341ec287692b5df964" prot="public" virt="non-virtual"><scope>Squad</scope><name>getSameMenber</name></member>
+      <member refid="d0/dc0/class_squad_1ade5f795e12e6e2865640165dfdf3925a" prot="public" virt="non-virtual"><scope>Squad</scope><name>Init</name></member>
+      <member refid="d0/dc0/class_squad_1af31356388d3dd04f7adec8894c898f38" prot="public" virt="non-virtual"><scope>Squad</scope><name>leftMenber</name></member>
+      <member refid="d0/dc0/class_squad_1a9cdd878b045c7242f54a169d02dc5e18" prot="protected" virt="non-virtual"><scope>Squad</scope><name>MEMBER_MAX</name></member>
+      <member refid="d0/dc0/class_squad_1a961d7d3aaf28d3d6174f220c8c298718" prot="protected" virt="non-virtual"><scope>Squad</scope><name>offsetPosition</name></member>
+      <member refid="d0/dc0/class_squad_1a2cc19ba85f2f940a18bdcffe86398e7f" prot="public" virt="non-virtual"><scope>Squad</scope><name>setLeader</name></member>
+      <member refid="d0/dc0/class_squad_1a0e37f7593f55bff89220ec031d19f5f0" prot="public" virt="non-virtual"><scope>Squad</scope><name>Squad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

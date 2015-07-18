@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d7/dfc/_key_8h" kind="file">
+    <compoundname>Key.h</compoundname>
+    <includedby refid="db/dfc/_library_8h" local="yes">E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Library.h</includedby>
+    <invincdepgraph>
+      <node id="2197">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.cpp</label>
+        <link refid="db/df4/_map_8cpp"/>
+      </node>
+      <node id="2182">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Effect.cpp</label>
+        <link refid="d3/d3d/_effect_8cpp"/>
+      </node>
+      <node id="2195">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Main.cpp</label>
+        <link refid="d5/d12/_main_8cpp"/>
+      </node>
+      <node id="2175">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CameraBase.cpp</label>
+        <link refid="d0/d1b/_camera_base_8cpp"/>
+      </node>
+      <node id="2213">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.cpp</label>
+        <link refid="d6/d4f/_vector_8cpp"/>
+      </node>
+      <node id="2167">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Key.h</label>
+        <link refid="Key.h"/>
+        <childnode refid="2168" relation="include">
+        </childnode>
+      </node>
+      <node id="2169">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Ally.cpp</label>
+        <link refid="da/d0f/_ally_8cpp"/>
+      </node>
+      <node id="2171">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyDeffender.cpp</label>
+        <link refid="df/d82/_ally_deffender_8cpp"/>
+      </node>
+      <node id="2208">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Status.cpp</label>
+        <link refid="d2/d69/_status_8cpp"/>
+      </node>
+      <node id="2189">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyAttacker.cpp</label>
+        <link refid="db/d86/_key_attacker_8cpp"/>
+      </node>
+      <node id="2176">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CameraManager.cpp</label>
+        <link refid="d2/d8f/_camera_manager_8cpp"/>
+      </node>
+      <node id="2179">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CollisionWall.cpp</label>
+        <link refid="da/dab/_collision_wall_8cpp"/>
+      </node>
+      <node id="2205">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.cpp</label>
+        <link refid="d5/d66/_sound_player_8cpp"/>
+      </node>
+      <node id="2204">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.cpp</label>
+        <link refid="d1/d4c/_scene_title_8cpp"/>
+      </node>
+      <node id="2172">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp</label>
+        <link refid="dc/d5f/_ally_healer_8cpp"/>
+      </node>
+      <node id="2177">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.cpp</label>
+        <link refid="d4/dc5/_collision_8cpp"/>
+      </node>
+      <node id="2193">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/LandScape.cpp</label>
+        <link refid="da/d1f/_land_scape_8cpp"/>
+      </node>
+      <node id="2206">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.cpp</label>
+        <link refid="d6/d39/_squad_8cpp"/>
+      </node>
+      <node id="2199">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.cpp</label>
+        <link refid="d2/d31/_model_8cpp"/>
+      </node>
+      <node id="2170">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyAttacker.cpp</label>
+        <link refid="df/dcc/_ally_attacker_8cpp"/>
+      </node>
+      <node id="2190">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.cpp</label>
+        <link refid="d4/d84/_key_deffender_8cpp"/>
+      </node>
+      <node id="2186">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/GLFont.cpp</label>
+        <link refid="df/d22/_g_l_font_8cpp"/>
+      </node>
+      <node id="2185">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.cpp</label>
+        <link refid="d8/de0/_geometry_8cpp"/>
+      </node>
+      <node id="2203">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.cpp</label>
+        <link refid="d4/dae/_scene_game_8cpp"/>
+      </node>
+      <node id="2188">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Key.cpp</label>
+        <link refid="d6/d3d/_key_8cpp"/>
+      </node>
+      <node id="2192">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyInput.cpp</label>
+        <link refid="df/d45/_key_input_8cpp"/>
+      </node>
+      <node id="2187">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/IObj.cpp</label>
+        <link refid="d4/de3/_i_obj_8cpp"/>
+      </node>
+      <node id="2174">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Camera.cpp</label>
+        <link refid="d1/d33/_camera_8cpp"/>
+      </node>
+      <node id="2211">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Texture.cpp</label>
+        <link refid="da/d26/_texture_8cpp"/>
+      </node>
+      <node id="2184">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Game.cpp</label>
+        <link refid="d7/db5/_game_8cpp"/>
+      </node>
+      <node id="2210">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SystemShader.cpp</label>
+        <link refid="dd/dc2/_system_shader_8cpp"/>
+      </node>
+      <node id="2191">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyHealer.cpp</label>
+        <link refid="d0/db0/_key_healer_8cpp"/>
+      </node>
+      <node id="2168">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Library.h</label>
+        <link refid="db/dfc/_library_8h"/>
+        <childnode refid="2169" relation="include">
+        </childnode>
+        <childnode refid="2170" relation="include">
+        </childnode>
+        <childnode refid="2171" relation="include">
+        </childnode>
+        <childnode refid="2172" relation="include">
+        </childnode>
+        <childnode refid="2173" relation="include">
+        </childnode>
+        <childnode refid="2174" relation="include">
+        </childnode>
+        <childnode refid="2175" relation="include">
+        </childnode>
+        <childnode refid="2176" relation="include">
+        </childnode>
+        <childnode refid="2177" relation="include">
+        </childnode>
+        <childnode refid="2178" relation="include">
+        </childnode>
+        <childnode refid="2179" relation="include">
+        </childnode>
+        <childnode refid="2180" relation="include">
+        </childnode>
+        <childnode refid="2181" relation="include">
+        </childnode>
+        <childnode refid="2182" relation="include">
+        </childnode>
+        <childnode refid="2183" relation="include">
+        </childnode>
+        <childnode refid="2184" relation="include">
+        </childnode>
+        <childnode refid="2185" relation="include">
+        </childnode>
+        <childnode refid="2186" relation="include">
+        </childnode>
+        <childnode refid="2187" relation="include">
+        </childnode>
+        <childnode refid="2188" relation="include">
+        </childnode>
+        <childnode refid="2189" relation="include">
+        </childnode>
+        <childnode refid="2190" relation="include">
+        </childnode>
+        <childnode refid="2191" relation="include">
+        </childnode>
+        <childnode refid="2192" relation="include">
+        </childnode>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2194" relation="include">
+        </childnode>
+        <childnode refid="2195" relation="include">
+        </childnode>
+        <childnode refid="2196" relation="include">
+        </childnode>
+        <childnode refid="2197" relation="include">
+        </childnode>
+        <childnode refid="2198" relation="include">
+        </childnode>
+        <childnode refid="2199" relation="include">
+        </childnode>
+        <childnode refid="2200" relation="include">
+        </childnode>
+        <childnode refid="2201" relation="include">
+        </childnode>
+        <childnode refid="2202" relation="include">
+        </childnode>
+        <childnode refid="2203" relation="include">
+        </childnode>
+        <childnode refid="2204" relation="include">
+        </childnode>
+        <childnode refid="2205" relation="include">
+        </childnode>
+        <childnode refid="2206" relation="include">
+        </childnode>
+        <childnode refid="2207" relation="include">
+        </childnode>
+        <childnode refid="2208" relation="include">
+        </childnode>
+        <childnode refid="2209" relation="include">
+        </childnode>
+        <childnode refid="2210" relation="include">
+        </childnode>
+        <childnode refid="2211" relation="include">
+        </childnode>
+        <childnode refid="2212" relation="include">
+        </childnode>
+        <childnode refid="2213" relation="include">
+        </childnode>
+      </node>
+      <node id="2194">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Library.cpp</label>
+        <link refid="d0/d50/_library_8cpp"/>
+      </node>
+      <node id="2212">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.cpp</label>
+        <link refid="d8/d77/_timer_8cpp"/>
+      </node>
+      <node id="2196">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Man.cpp</label>
+        <link refid="d1/dcc/_man_8cpp"/>
+      </node>
+      <node id="2202">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Player.cpp</label>
+        <link refid="d2/d82/_player_8cpp"/>
+      </node>
+      <node id="2173">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/BillBoard.cpp</label>
+        <link refid="d3/def/_bill_board_8cpp"/>
+      </node>
+      <node id="2198">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Matrix.cpp</label>
+        <link refid="d6/d65/_matrix_8cpp"/>
+      </node>
+      <node id="2183">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.cpp</label>
+        <link refid="de/d34/_enemy_8cpp"/>
+      </node>
+      <node id="2201">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/ObjBase.cpp</label>
+        <link refid="da/d31/_obj_base_8cpp"/>
+      </node>
+      <node id="2180">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Color.cpp</label>
+        <link refid="d0/d22/_color_8cpp"/>
+      </node>
+      <node id="2200">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Mouse.cpp</label>
+        <link refid="d7/d54/_mouse_8cpp"/>
+      </node>
+      <node id="2209">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/System.cpp</label>
+        <link refid="d8/de5/_system_8cpp"/>
+      </node>
+      <node id="2181">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Controller.cpp</label>
+        <link refid="d3/dec/_controller_8cpp"/>
+      </node>
+      <node id="2178">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CollisionManager.cpp</label>
+        <link refid="df/db7/_collision_manager_8cpp"/>
+      </node>
+      <node id="2207">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SquadManager.cpp</label>
+        <link refid="d2/db7/_squad_manager_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d1/d71/class_i_key" prot="public">IKey</innerclass>
+    <innerclass refid="dd/d2e/class_key_base" prot="public">KeyBase</innerclass>
+    <innerclass refid="d9/d64/class_a_i" prot="public">AI</innerclass>
+    <briefdescription>
+<para>オブジェクト操作 </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>YukiIshigaki </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="d1/d71/class_i_key" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/><sp/><sp/></highlight><highlight class="normal"><ref refid="d1/d71/class_i_key" kindref="compound">IKey</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16" refid="d1/d71/class_i_key_1aa3b4358ffdcd9dbb5e8c7085ecc7ee08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="d1/d71/class_i_key_1aa3b4358ffdcd9dbb5e8c7085ecc7ee08" kindref="member">~IKey</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="dd/d2e/class_key_base" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/><sp/><sp/></highlight><highlight class="normal"><ref refid="dd/d2e/class_key_base" kindref="compound">KeyBase</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d1/d71/class_i_key" kindref="compound">IKey</ref></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----<sp/>キーコマンド</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45f" kindref="member">KEY_COMMAND</ref><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28" refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fadda545a53e15cba9c4530ad2ee6f2d3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fadda545a53e15cba9c4530ad2ee6f2d3d" kindref="member">KEY_COMMAND_ATTACK</ref>,</highlight></codeline>
+<codeline lineno="29" refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa314b03fd1202b9a7c601ecd2305b3403" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa314b03fd1202b9a7c601ecd2305b3403" kindref="member">KEY_COMMAND_JUMP</ref>,</highlight></codeline>
+<codeline lineno="30" refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa1db21e7286a02df319da11ca37456c15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa1db21e7286a02df319da11ca37456c15" kindref="member">KEY_COMMAND_COMMANDCHANGE</ref>,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa886ced2b7b9c443cbfbac07192978d6e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa886ced2b7b9c443cbfbac07192978d6e" kindref="member">KEY_COMMAND_NUM</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>};<sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----<sp/>タイプ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095" kindref="member">KEY_TYPE</ref><sp/>{</highlight></codeline>
+<codeline lineno="37" refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095a4fec21ea95d75a41839c6957d96c0970" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095a4fec21ea95d75a41839c6957d96c0970" kindref="member">KEY_TYPE_AI</ref>,</highlight></codeline>
+<codeline lineno="38" refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095ad92d619929c06fa294c7a49e0df70a13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095ad92d619929c06fa294c7a49e0df70a13" kindref="member">KEY_TYPE_INPUT</ref>,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095ac0def1177b7023819da9b6417f6f33c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095ac0def1177b7023819da9b6417f6f33c0" kindref="member">KEY_TYPE_NUM</ref></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="dd/d2e/class_key_base_1a647f31cb6653cd682d974cc64df899a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a647f31cb6653cd682d974cc64df899a2" kindref="member">KeyBase</ref>()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>コマンドの初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa886ced2b7b9c443cbfbac07192978d6e" kindref="member">KEY_COMMAND_NUM</ref>;<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a2ac4c1873c45fdc14f6baf86cfbbbea4" kindref="member">_commandState</ref>[i]<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="53" refid="dd/d2e/class_key_base_1ac9fdcf292389d3bf4ae69974e32aea58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1ac9fdcf292389d3bf4ae69974e32aea58" kindref="member">~KeyBase</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a606340a0f380b698faed323e108bb1f9" kindref="member">Update</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----<sp/>取得関連</highlight></codeline>
+<codeline lineno="60" refid="dd/d2e/class_key_base_1ad80a94efb6d8e4f05ca7109c997d1cdf" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095" kindref="member">KEY_TYPE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1ad80a94efb6d8e4f05ca7109c997d1cdf" kindref="member">getKeyType</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="dd/d2e/class_key_base_1ae1164cb4054102ae260eb5dede5c2b48" kindref="member">_keyType</ref>;}<sp/></highlight></codeline>
+<codeline lineno="62" refid="dd/d2e/class_key_base_1ac50fde0306def82116ada72fb194bb14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1ac50fde0306def82116ada72fb194bb14" kindref="member">getVector</ref>()</highlight><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="dd/d2e/class_key_base_1a6fea5a402d1fa892a14b9ba08ee7f84e" kindref="member">_movVector</ref>;}</highlight></codeline>
+<codeline lineno="64" refid="dd/d2e/class_key_base_1af957b878e28cbe4ed9135684e6c78b1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1af957b878e28cbe4ed9135684e6c78b1e" kindref="member">getStickVector</ref>()</highlight><highlight class="keyword"><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="dd/d2e/class_key_base_1a774649bfb09128dcbe4617c11c448e25" kindref="member">_stickVector</ref>.<ref refid="d0/de3/struct_vector3_1aa9a41fdd0584091e48784c96999972f1" kindref="member">normalize</ref>();}</highlight></codeline>
+<codeline lineno="67" refid="dd/d2e/class_key_base_1a15c8c17b7af09dbfa358309fc9a430f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a15c8c17b7af09dbfa358309fc9a430f9" kindref="member">getPushState</ref>(<ref refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45f" kindref="member">KEY_COMMAND</ref><sp/><sp/><sp/><sp/>key)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="dd/d2e/class_key_base_1a2ac4c1873c45fdc14f6baf86cfbbbea4" kindref="member">_commandState</ref>[key];<sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----<sp/>セット関連</highlight></codeline>
+<codeline lineno="70" refid="dd/d2e/class_key_base_1a3524c7ef9f4528a354e4ccfd57a8848e" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a3524c7ef9f4528a354e4ccfd57a8848e" kindref="member">setToTargetPos</ref>(<ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><sp/>myPos,<sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>targetPos){};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="dd/d2e/class_key_base_1a4f872eedccbf7570415a4fc7ce29a25c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a4f872eedccbf7570415a4fc7ce29a25c" kindref="member">setTargetPos</ref>(<ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>targetPos)<sp/>{<ref refid="dd/d2e/class_key_base_1ad76a22072f7fcdaa7b1900971a67207c" kindref="member">_targetPos</ref><sp/>=<sp/>targetPos;<sp/>}</highlight></codeline>
+<codeline lineno="75" refid="dd/d2e/class_key_base_1a1c5b993006a01df1473faf79682c162a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a1c5b993006a01df1473faf79682c162a" kindref="member">setPlayerPos</ref>(<ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>playerPos)<sp/>{<ref refid="dd/d2e/class_key_base_1ac2598de02ad18e04b6f2bc929ee56e98" kindref="member">_playerPos</ref><sp/>=<sp/>playerPos;<sp/>}</highlight></codeline>
+<codeline lineno="77" refid="dd/d2e/class_key_base_1a6da652723fea6e06077c5370c01b5f01" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a6da652723fea6e06077c5370c01b5f01" kindref="member">setMyPos</ref>(<ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>myPos)<sp/>{<sp/><ref refid="dd/d2e/class_key_base_1ac312d80c808d22c6c1c1be897b317b3a" kindref="member">_myPos</ref><sp/>=<sp/>myPos;<sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="dd/d2e/class_key_base_1aa7ad9b3d6eb875fbf57d44b23cdef80a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1aa7ad9b3d6eb875fbf57d44b23cdef80a" kindref="member">setCommandFlag</ref>(<ref refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45f" kindref="member">KEY_COMMAND</ref><sp/>command,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>flag)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a2ac4c1873c45fdc14f6baf86cfbbbea4" kindref="member">_commandState</ref>[command]<sp/>=<sp/>flag;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="87" refid="dd/d2e/class_key_base_1a6fea5a402d1fa892a14b9ba08ee7f84e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a6fea5a402d1fa892a14b9ba08ee7f84e" kindref="member">_movVector</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="88" refid="dd/d2e/class_key_base_1a774649bfb09128dcbe4617c11c448e25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a774649bfb09128dcbe4617c11c448e25" kindref="member">_stickVector</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="89" refid="dd/d2e/class_key_base_1ad76a22072f7fcdaa7b1900971a67207c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1ad76a22072f7fcdaa7b1900971a67207c" kindref="member">_targetPos</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="90" refid="dd/d2e/class_key_base_1ac2598de02ad18e04b6f2bc929ee56e98" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1ac2598de02ad18e04b6f2bc929ee56e98" kindref="member">_playerPos</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="91" refid="dd/d2e/class_key_base_1ac312d80c808d22c6c1c1be897b317b3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1ac312d80c808d22c6c1c1be897b317b3a" kindref="member">_myPos</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="92" refid="dd/d2e/class_key_base_1ae1164cb4054102ae260eb5dede5c2b48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095" kindref="member">KEY_TYPE</ref><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1ae1164cb4054102ae260eb5dede5c2b48" kindref="member">_keyType</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="93" refid="dd/d2e/class_key_base_1a2ac4c1873c45fdc14f6baf86cfbbbea4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a2ac4c1873c45fdc14f6baf86cfbbbea4" kindref="member">_commandState</ref>[<ref refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa886ced2b7b9c443cbfbac07192978d6e" kindref="member">KEY_COMMAND_NUM</ref>];<sp/></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="d9/d64/class_a_i" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/><sp/><sp/></highlight><highlight class="normal"><ref refid="d9/d64/class_a_i" kindref="compound">AI</ref><sp/><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dd/d2e/class_key_base" kindref="compound">KeyBase</ref></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="103" refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bca" kindref="member">TYPE</ref></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="105" refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaa76b6461a36be98b9e9fb44f03dad5e5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaa76b6461a36be98b9e9fb44f03dad5e5e" kindref="member">TYPE_ATTACKER</ref>,<sp/><sp/></highlight></codeline>
+<codeline lineno="106" refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaa87446a443c551078bdeae8c84065e259" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaa87446a443c551078bdeae8c84065e259" kindref="member">TYPE_DEFFENDER</ref>,<sp/></highlight></codeline>
+<codeline lineno="107" refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaaaf5cee11cc14232d7691a1b11b14109a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaaaf5cee11cc14232d7691a1b11b14109a" kindref="member">TYPE_HEALLER</ref>,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="108" refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaa414de6573cb966cd1833418456b99a02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaa414de6573cb966cd1833418456b99a02" kindref="member">TYPE_FEINTER</ref>,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="109" refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaaf496cd875c5a21038d274b1943700e0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaaf496cd875c5a21038d274b1943700e0d" kindref="member">TYPE_MAX</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d64/class_a_i_1a64ec60281e9eb8496f16525615db54b7" kindref="member">AI</ref>();</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="d9/d64/class_a_i_1ac86c87957e3d563f6ea2137a97992e0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d9/d64/class_a_i_1ac86c87957e3d563f6ea2137a97992e0a" kindref="member">~AI</ref>(){}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d64/class_a_i_1a59e5ab0650eb03f2e71bc8930fd9a8d5" kindref="member">Update</ref>();</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="d9/d64/class_a_i_1a90c73117de7e36703b1129e77544cb9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d64/class_a_i_1a90c73117de7e36703b1129e77544cb9e" kindref="member">setToTargetPos</ref>(<ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><sp/>myPos,<sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>targetPos)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a6da652723fea6e06077c5370c01b5f01" kindref="member">setMyPos</ref>(myPos);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d2e/class_key_base_1a4f872eedccbf7570415a4fc7ce29a25c" kindref="member">setTargetPos</ref>(targetPos);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d64/class_a_i_1a838d47dc2f692ec67f23614345321850" kindref="member">_dirToTarget</ref><sp/>=<sp/>targetPos<sp/>-<sp/>myPos;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="129" refid="d9/d64/class_a_i_1a838d47dc2f692ec67f23614345321850" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d64/class_a_i_1a838d47dc2f692ec67f23614345321850" kindref="member">_dirToTarget</ref>;</highlight></codeline>
+<codeline lineno="130" refid="d9/d64/class_a_i_1a2cf982e037b987d40d0d71ad2dec9aeb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bca" kindref="member">TYPE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d64/class_a_i_1a2cf982e037b987d40d0d71ad2dec9aeb" kindref="member">_type</ref>;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>END<sp/>OF<sp/>FILE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight></codeline>
+    </programlisting>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Key.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+﻿2013/04/20 19:34:49 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "D:\develop\freeglut-2.8.1\VisualStudio\2010\Resizer\Resizer.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug_Static\Win32_v100\Resizer.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         すべての出力が最新のものです。
+       ManifestResourceCompile:
+         すべての出力が最新のものです。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\progs\demos\x86\debug_static\Resizer.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\lib\x86\debug\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug_Static\Win32_v100\Resizer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\develop\freeglut-2.8.1\progs\demos\x86\debug_static\Resizer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\progs\demos\x86\debug_static\Resizer.lib" /MACHINE:X86 Debug_Static\Win32_v100\Resizer.exe.embed.manifest.res
+         Debug_Static\Win32_v100\Resizer.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug_Static\Win32_v100\Resizer.exe.embed.manifest" /manifest Debug_Static\Win32_v100\Resizer.exe.intermediate.manifest
+         すべての出力が最新のものです。
+       LinkEmbedManifest:
+         すべての出力が最新のものです。
+         Resizer.vcxproj -> D:\develop\freeglut-2.8.1\VisualStudio\2010\Resizer\..\..\..\progs\demos\x86\debug_static\Resizer.exe
+       FinalizeBuildStatus:
+         ファイル "Debug_Static\Win32_v100\Resizer.unsuccessfulbuild" を削除しています。
+         "Debug_Static\Win32_v100\Resizer.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "D:\develop\freeglut-2.8.1\VisualStudio\2010\Resizer\Resizer.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:00.23

@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="db/d86/class_performance" kind="class" prot="public">
+    <compoundname>Performance</compoundname>
+    <includes refid="d5/d29/_timer_8h" local="no">Timer.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="db/d86/class_performance_1a625407396f56f54e04b3131fd72c7af7" prot="private" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+        <definition>s64 Performance::_start</definition>
+        <argsstring></argsstring>
+        <name>_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="229" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d86/class_performance_1a9b6c3db71614114575269e4fa6137df4" prot="private" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+        <definition>s64 Performance::_end</definition>
+        <argsstring></argsstring>
+        <name>_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="230" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d86/class_performance_1a72214ccf7ba74ee833bb1bafae224355" prot="private" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 Performance::_height</definition>
+        <argsstring></argsstring>
+        <name>_height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="231" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d86/class_performance_1ace877773c825429563b7f478b98c43de" prot="private" static="no" mutable="no">
+        <type><ref refid="d9/d44/struct_color" kindref="compound">Color</ref></type>
+        <definition>Color Performance::_drawColor</definition>
+        <argsstring></argsstring>
+        <name>_drawColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="232" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d86/class_performance_1ac3f9a91ae5b8488e75385901497b0636" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Performance::Performance</definition>
+        <argsstring>()</argsstring>
+        <name>Performance</name>
+        <briefdescription>
+<para>コンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="186" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.cpp" bodystart="120" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d86/class_performance_1a1a7af5c73f8bdd80ec08872cc2992b82" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Performance::~Performance</definition>
+        <argsstring>()</argsstring>
+        <name>~Performance</name>
+        <briefdescription>
+<para>デストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="189" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.cpp" bodystart="130" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d86/class_performance_1a8be0a1eefdce743597d54297af96a145" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 Performance::getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <briefdescription>
+<para>高さの取得 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="192" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" bodystart="192" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d86/class_performance_1aa7d8705a7666adadb990add57e8272de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Performance::setColor</definition>
+        <argsstring>(Color &amp;col)</argsstring>
+        <name>setColor</name>
+        <param>
+          <type><ref refid="d9/d44/struct_color" kindref="compound">Color</ref> &amp;</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+<para>色の設定 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="195" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" bodystart="195" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d86/class_performance_1a09224f7a02ac3267299ebfa5956b1dd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Performance::StartPerformance</definition>
+        <argsstring>()</argsstring>
+        <name>StartPerformance</name>
+        <briefdescription>
+<para>スタート </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="198" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" bodystart="198" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d86/class_performance_1aed413eee749dfdb1a62d4e127f51f822" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Performance::EndPerformance</definition>
+        <argsstring>()</argsstring>
+        <name>EndPerformance</name>
+        <briefdescription>
+<para>終了 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="203" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" bodystart="203" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d86/class_performance_1a6321e2cedf4ced955e99fc7f93ae4fe4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Performance::ResetPerformance</definition>
+        <argsstring>()</argsstring>
+        <name>ResetPerformance</name>
+        <briefdescription>
+<para>リセット </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="219" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" bodystart="219" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d86/class_performance_1af56bbd9f19ebd5b00b76211a38016eed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Performance::DrawPerformance</definition>
+        <argsstring>(Vector3 &amp;drawPos)</argsstring>
+        <name>DrawPerformance</name>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>drawPos</declname>
+        </param>
+        <briefdescription>
+<para>描画 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="226" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.cpp" bodystart="139" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" line="183" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.h" bodystart="182" bodyend="233"/>
+    <listofallmembers>
+      <member refid="db/d86/class_performance_1ace877773c825429563b7f478b98c43de" prot="private" virt="non-virtual"><scope>Performance</scope><name>_drawColor</name></member>
+      <member refid="db/d86/class_performance_1a9b6c3db71614114575269e4fa6137df4" prot="private" virt="non-virtual"><scope>Performance</scope><name>_end</name></member>
+      <member refid="db/d86/class_performance_1a72214ccf7ba74ee833bb1bafae224355" prot="private" virt="non-virtual"><scope>Performance</scope><name>_height</name></member>
+      <member refid="db/d86/class_performance_1a625407396f56f54e04b3131fd72c7af7" prot="private" virt="non-virtual"><scope>Performance</scope><name>_start</name></member>
+      <member refid="db/d86/class_performance_1af56bbd9f19ebd5b00b76211a38016eed" prot="public" virt="non-virtual"><scope>Performance</scope><name>DrawPerformance</name></member>
+      <member refid="db/d86/class_performance_1aed413eee749dfdb1a62d4e127f51f822" prot="public" virt="non-virtual"><scope>Performance</scope><name>EndPerformance</name></member>
+      <member refid="db/d86/class_performance_1a8be0a1eefdce743597d54297af96a145" prot="public" virt="non-virtual"><scope>Performance</scope><name>getHeight</name></member>
+      <member refid="db/d86/class_performance_1ac3f9a91ae5b8488e75385901497b0636" prot="public" virt="non-virtual"><scope>Performance</scope><name>Performance</name></member>
+      <member refid="db/d86/class_performance_1a6321e2cedf4ced955e99fc7f93ae4fe4" prot="public" virt="non-virtual"><scope>Performance</scope><name>ResetPerformance</name></member>
+      <member refid="db/d86/class_performance_1aa7d8705a7666adadb990add57e8272de" prot="public" virt="non-virtual"><scope>Performance</scope><name>setColor</name></member>
+      <member refid="db/d86/class_performance_1a09224f7a02ac3267299ebfa5956b1dd2" prot="public" virt="non-virtual"><scope>Performance</scope><name>StartPerformance</name></member>
+      <member refid="db/d86/class_performance_1a1a7af5c73f8bdd80ec08872cc2992b82" prot="public" virt="virtual"><scope>Performance</scope><name>~Performance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

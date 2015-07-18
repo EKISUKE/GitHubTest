@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d0/d45/_matrix_8h" kind="file">
+    <compoundname>Matrix.h</compoundname>
+    <includedby refid="db/dfc/_library_8h" local="yes">E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Library.h</includedby>
+    <invincdepgraph>
+      <node id="3404">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.cpp</label>
+        <link refid="db/df4/_map_8cpp"/>
+      </node>
+      <node id="3389">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Effect.cpp</label>
+        <link refid="d3/d3d/_effect_8cpp"/>
+      </node>
+      <node id="3402">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Main.cpp</label>
+        <link refid="d5/d12/_main_8cpp"/>
+      </node>
+      <node id="3374">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Matrix.h</label>
+        <link refid="Matrix.h"/>
+        <childnode refid="3375" relation="include">
+        </childnode>
+      </node>
+      <node id="3382">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CameraBase.cpp</label>
+        <link refid="d0/d1b/_camera_base_8cpp"/>
+      </node>
+      <node id="3420">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.cpp</label>
+        <link refid="d6/d4f/_vector_8cpp"/>
+      </node>
+      <node id="3376">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Ally.cpp</label>
+        <link refid="da/d0f/_ally_8cpp"/>
+      </node>
+      <node id="3378">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyDeffender.cpp</label>
+        <link refid="df/d82/_ally_deffender_8cpp"/>
+      </node>
+      <node id="3415">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Status.cpp</label>
+        <link refid="d2/d69/_status_8cpp"/>
+      </node>
+      <node id="3396">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyAttacker.cpp</label>
+        <link refid="db/d86/_key_attacker_8cpp"/>
+      </node>
+      <node id="3383">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CameraManager.cpp</label>
+        <link refid="d2/d8f/_camera_manager_8cpp"/>
+      </node>
+      <node id="3386">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CollisionWall.cpp</label>
+        <link refid="da/dab/_collision_wall_8cpp"/>
+      </node>
+      <node id="3412">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.cpp</label>
+        <link refid="d5/d66/_sound_player_8cpp"/>
+      </node>
+      <node id="3411">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.cpp</label>
+        <link refid="d1/d4c/_scene_title_8cpp"/>
+      </node>
+      <node id="3379">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp</label>
+        <link refid="dc/d5f/_ally_healer_8cpp"/>
+      </node>
+      <node id="3384">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.cpp</label>
+        <link refid="d4/dc5/_collision_8cpp"/>
+      </node>
+      <node id="3400">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/LandScape.cpp</label>
+        <link refid="da/d1f/_land_scape_8cpp"/>
+      </node>
+      <node id="3413">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.cpp</label>
+        <link refid="d6/d39/_squad_8cpp"/>
+      </node>
+      <node id="3406">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.cpp</label>
+        <link refid="d2/d31/_model_8cpp"/>
+      </node>
+      <node id="3377">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyAttacker.cpp</label>
+        <link refid="df/dcc/_ally_attacker_8cpp"/>
+      </node>
+      <node id="3397">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.cpp</label>
+        <link refid="d4/d84/_key_deffender_8cpp"/>
+      </node>
+      <node id="3393">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/GLFont.cpp</label>
+        <link refid="df/d22/_g_l_font_8cpp"/>
+      </node>
+      <node id="3392">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.cpp</label>
+        <link refid="d8/de0/_geometry_8cpp"/>
+      </node>
+      <node id="3410">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.cpp</label>
+        <link refid="d4/dae/_scene_game_8cpp"/>
+      </node>
+      <node id="3395">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Key.cpp</label>
+        <link refid="d6/d3d/_key_8cpp"/>
+      </node>
+      <node id="3399">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyInput.cpp</label>
+        <link refid="df/d45/_key_input_8cpp"/>
+      </node>
+      <node id="3394">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/IObj.cpp</label>
+        <link refid="d4/de3/_i_obj_8cpp"/>
+      </node>
+      <node id="3381">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Camera.cpp</label>
+        <link refid="d1/d33/_camera_8cpp"/>
+      </node>
+      <node id="3418">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Texture.cpp</label>
+        <link refid="da/d26/_texture_8cpp"/>
+      </node>
+      <node id="3391">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Game.cpp</label>
+        <link refid="d7/db5/_game_8cpp"/>
+      </node>
+      <node id="3417">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SystemShader.cpp</label>
+        <link refid="dd/dc2/_system_shader_8cpp"/>
+      </node>
+      <node id="3398">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyHealer.cpp</label>
+        <link refid="d0/db0/_key_healer_8cpp"/>
+      </node>
+      <node id="3375">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Library.h</label>
+        <link refid="db/dfc/_library_8h"/>
+        <childnode refid="3376" relation="include">
+        </childnode>
+        <childnode refid="3377" relation="include">
+        </childnode>
+        <childnode refid="3378" relation="include">
+        </childnode>
+        <childnode refid="3379" relation="include">
+        </childnode>
+        <childnode refid="3380" relation="include">
+        </childnode>
+        <childnode refid="3381" relation="include">
+        </childnode>
+        <childnode refid="3382" relation="include">
+        </childnode>
+        <childnode refid="3383" relation="include">
+        </childnode>
+        <childnode refid="3384" relation="include">
+        </childnode>
+        <childnode refid="3385" relation="include">
+        </childnode>
+        <childnode refid="3386" relation="include">
+        </childnode>
+        <childnode refid="3387" relation="include">
+        </childnode>
+        <childnode refid="3388" relation="include">
+        </childnode>
+        <childnode refid="3389" relation="include">
+        </childnode>
+        <childnode refid="3390" relation="include">
+        </childnode>
+        <childnode refid="3391" relation="include">
+        </childnode>
+        <childnode refid="3392" relation="include">
+        </childnode>
+        <childnode refid="3393" relation="include">
+        </childnode>
+        <childnode refid="3394" relation="include">
+        </childnode>
+        <childnode refid="3395" relation="include">
+        </childnode>
+        <childnode refid="3396" relation="include">
+        </childnode>
+        <childnode refid="3397" relation="include">
+        </childnode>
+        <childnode refid="3398" relation="include">
+        </childnode>
+        <childnode refid="3399" relation="include">
+        </childnode>
+        <childnode refid="3400" relation="include">
+        </childnode>
+        <childnode refid="3401" relation="include">
+        </childnode>
+        <childnode refid="3402" relation="include">
+        </childnode>
+        <childnode refid="3403" relation="include">
+        </childnode>
+        <childnode refid="3404" relation="include">
+        </childnode>
+        <childnode refid="3405" relation="include">
+        </childnode>
+        <childnode refid="3406" relation="include">
+        </childnode>
+        <childnode refid="3407" relation="include">
+        </childnode>
+        <childnode refid="3408" relation="include">
+        </childnode>
+        <childnode refid="3409" relation="include">
+        </childnode>
+        <childnode refid="3410" relation="include">
+        </childnode>
+        <childnode refid="3411" relation="include">
+        </childnode>
+        <childnode refid="3412" relation="include">
+        </childnode>
+        <childnode refid="3413" relation="include">
+        </childnode>
+        <childnode refid="3414" relation="include">
+        </childnode>
+        <childnode refid="3415" relation="include">
+        </childnode>
+        <childnode refid="3416" relation="include">
+        </childnode>
+        <childnode refid="3417" relation="include">
+        </childnode>
+        <childnode refid="3418" relation="include">
+        </childnode>
+        <childnode refid="3419" relation="include">
+        </childnode>
+        <childnode refid="3420" relation="include">
+        </childnode>
+      </node>
+      <node id="3401">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Library.cpp</label>
+        <link refid="d0/d50/_library_8cpp"/>
+      </node>
+      <node id="3419">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.cpp</label>
+        <link refid="d8/d77/_timer_8cpp"/>
+      </node>
+      <node id="3403">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Man.cpp</label>
+        <link refid="d1/dcc/_man_8cpp"/>
+      </node>
+      <node id="3409">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Player.cpp</label>
+        <link refid="d2/d82/_player_8cpp"/>
+      </node>
+      <node id="3380">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/BillBoard.cpp</label>
+        <link refid="d3/def/_bill_board_8cpp"/>
+      </node>
+      <node id="3405">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Matrix.cpp</label>
+        <link refid="d6/d65/_matrix_8cpp"/>
+      </node>
+      <node id="3390">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.cpp</label>
+        <link refid="de/d34/_enemy_8cpp"/>
+      </node>
+      <node id="3408">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/ObjBase.cpp</label>
+        <link refid="da/d31/_obj_base_8cpp"/>
+      </node>
+      <node id="3387">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Color.cpp</label>
+        <link refid="d0/d22/_color_8cpp"/>
+      </node>
+      <node id="3407">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Mouse.cpp</label>
+        <link refid="d7/d54/_mouse_8cpp"/>
+      </node>
+      <node id="3416">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/System.cpp</label>
+        <link refid="d8/de5/_system_8cpp"/>
+      </node>
+      <node id="3388">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Controller.cpp</label>
+        <link refid="d3/dec/_controller_8cpp"/>
+      </node>
+      <node id="3385">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CollisionManager.cpp</label>
+        <link refid="df/db7/_collision_manager_8cpp"/>
+      </node>
+      <node id="3414">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SquadManager.cpp</label>
+        <link refid="d2/db7/_squad_manager_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d5/d22/struct_matrix" prot="public">Matrix</innerclass>
+    <briefdescription>
+<para>行列演算 </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>YukiIshigaki </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="d5/d22/struct_matrix" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d5/d22/struct_matrix" kindref="compound">Matrix</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/struct_matrix_1a2dba13c45127354c9f75ef576f49269b" kindref="member">Matrix</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/struct_matrix_1a2dba13c45127354c9f75ef576f49269b" kindref="member">Matrix</ref>(<ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>m11,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>m12,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>m13,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>m14,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>m21,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>m22,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>m23,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>m24,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>m31,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>m32,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>m33,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>m34,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>m41,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>m42,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>m43,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>m44);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>return<sp/>←<sp/>this<sp/>*<sp/>m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/struct_matrix" kindref="compound">Matrix</ref><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d22/struct_matrix_1ae69a6d3345472ac03f440c564d05580a" kindref="member">operator * </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/d22/struct_matrix" kindref="compound">Matrix</ref>&amp;<sp/>m);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d5/d22/struct_matrix" kindref="compound">Matrix</ref><sp/><sp/><sp/><ref refid="d5/d22/struct_matrix_1a8c47f3d192f07bfd41551c91aa6310bc" kindref="member">translate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>v);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d5/d22/struct_matrix" kindref="compound">Matrix</ref><sp/><sp/><sp/><ref refid="d5/d22/struct_matrix_1a3bb7fd1de1bfa828a5319094c2ad5e67" kindref="member">rotateY</ref>(<ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>radian);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d5/d22/struct_matrix" kindref="compound">Matrix</ref><sp/><sp/><sp/><ref refid="d5/d22/struct_matrix_1afa1d476505a797068234651e34f8ab11" kindref="member">rotateAxis</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>v,<sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>radian);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----<sp/>４要素<sp/>×<sp/>４行</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+====+====+====+====+</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>Vector4<sp/>|<sp/>_x<sp/>|<sp/>_y<sp/>|<sp/>_z<sp/>|<sp/>_w<sp/>|<sp/><sp/><sp/><sp/>_m[0]<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+====+====+====+====+</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>Vector4<sp/>|<sp/>_x<sp/>|<sp/>_y<sp/>|<sp/>_z<sp/>|<sp/>_w<sp/>|<sp/><sp/><sp/><sp/>_m[1]<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+====+====+====+====+</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>Vector4<sp/>|<sp/>_x<sp/>|<sp/>_y<sp/>|<sp/>_z<sp/>|<sp/>_w<sp/>|<sp/><sp/><sp/><sp/>_m[2]<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+====+====+====+====+</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>Vector4<sp/>|<sp/>_x<sp/>|<sp/>_y<sp/>|<sp/>_z<sp/>|<sp/>_w<sp/>|<sp/><sp/><sp/><sp/>_m[3]<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+====+====+====+====+</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d54/struct_vector4" kindref="compound">Vector4</ref><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kindref="member">_m</ref>[4];</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>END<sp/>OF<sp/>FILE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight></codeline>
+    </programlisting>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Matrix.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,464 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>myGame: E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/System.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">myGame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>メインページ</span></a></li>
+      <li><a href="../../namespaces.html"><span>ネームスペース</span></a></li>
+      <li><a href="../../annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="../../files.html"><span>ファイル</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="../../globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">マクロ定義</a> &#124;
+<a href="#enum-members">列挙型</a> &#124;
+<a href="#func-members">関数</a>  </div>
+  <div class="headertitle">
+<div class="title">System.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>汎用的関数群  
+<a href="#details">[詳細]</a></p>
+
+<p><a href="../../df/d78/_system_8h_source.html">ソースコードを見る。</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+マクロ定義</h2></td></tr>
+<tr class="memitem:afa6e053d9231a7eeb41a71de6c938bde"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/_system_8h.html#afa6e053d9231a7eeb41a71de6c938bde">DEF_COL_NAME</a>(x)</td></tr>
+<tr class="separator:afa6e053d9231a7eeb41a71de6c938bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8184bc6a23047649b3e1fbd2cd09ecb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/_system_8h.html#ab8184bc6a23047649b3e1fbd2cd09ecb">DEF_COL_NAME_HEADER</a>(x)&#160;&#160;&#160;bool	is##x(<a class="el" href="../../df/dc6/class_collision.html">Collision</a>* obj);</td></tr>
+<tr class="separator:ab8184bc6a23047649b3e1fbd2cd09ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabcd1a642627c84801831e696daffcad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/_system_8h.html#aabcd1a642627c84801831e696daffcad">DEF_COL_ATTACK_NAME</a>(x)</td></tr>
+<tr class="separator:aabcd1a642627c84801831e696daffcad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aa41b4084df36f22f61834a3774cddb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/_system_8h.html#a0aa41b4084df36f22f61834a3774cddb">DEF_COL_ATTACK_NAME_HEADER</a>(x)&#160;&#160;&#160;bool	is##x(<a class="el" href="../../df/dc6/class_collision.html">Collision</a>* obj);</td></tr>
+<tr class="separator:a0aa41b4084df36f22f61834a3774cddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+列挙型</h2></td></tr>
+<tr class="memitem:aa034b11c7e1268e84fe133233afdf1c2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/_system_8h.html#aa034b11c7e1268e84fe133233afdf1c2">BLEND_MODE</a> { <a class="el" href="../../df/d78/_system_8h.html#aa034b11c7e1268e84fe133233afdf1c2aab7041f3706bde3b1572c4d2d0b18583">BM_NONE</a>, 
+<a class="el" href="../../df/d78/_system_8h.html#aa034b11c7e1268e84fe133233afdf1c2aa4b5f56689268250b8e5eb291ecd7352">BM_BLEND</a>, 
+<a class="el" href="../../df/d78/_system_8h.html#aa034b11c7e1268e84fe133233afdf1c2aa66971ef5a43bb7b8914143d08dc33d2">BM_ADD</a>
+ }</td></tr>
+<tr class="memdesc:aa034b11c7e1268e84fe133233afdf1c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">ブレンドモード (Blend Mode)  <a href="../../df/d78/_system_8h.html#aa034b11c7e1268e84fe133233afdf1c2">[詳細]</a><br/></td></tr>
+<tr class="separator:aa034b11c7e1268e84fe133233afdf1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+関数</h2></td></tr>
+<tr class="memitem:a266360ae47bdbc184ec9986ba9409c0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/_system_8h.html#a266360ae47bdbc184ec9986ba9409c0b">TO_RADIAN</a> (<a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> deg)</td></tr>
+<tr class="memdesc:a266360ae47bdbc184ec9986ba9409c0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">ラジアンに変換  <a href="#a266360ae47bdbc184ec9986ba9409c0b">[詳細]</a><br/></td></tr>
+<tr class="separator:a266360ae47bdbc184ec9986ba9409c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32cbba7683ec3c5a8c25e5a7396ccf15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/_system_8h.html#a32cbba7683ec3c5a8c25e5a7396ccf15">TO_DEGREE</a> (<a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> rad)</td></tr>
+<tr class="memdesc:a32cbba7683ec3c5a8c25e5a7396ccf15"><td class="mdescLeft">&#160;</td><td class="mdescRight">デグリーに変換  <a href="#a32cbba7683ec3c5a8c25e5a7396ccf15">[詳細]</a><br/></td></tr>
+<tr class="separator:a32cbba7683ec3c5a8c25e5a7396ccf15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaf4aa7f4af8905e6af8409d438cdbae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/_system_8h.html#acaf4aa7f4af8905e6af8409d438cdbae">LinearInterpolation</a> (<a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> start, <a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> end, <a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> frame, <a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> maxFrame)</td></tr>
+<tr class="separator:acaf4aa7f4af8905e6af8409d438cdbae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a021fe70824954a3b66a929ac363988da"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/_system_8h.html#a021fe70824954a3b66a929ac363988da">getGLFps</a> ()</td></tr>
+<tr class="memdesc:a021fe70824954a3b66a929ac363988da"><td class="mdescLeft">&#160;</td><td class="mdescRight">FPS取得  <a href="#a021fe70824954a3b66a929ac363988da">[詳細]</a><br/></td></tr>
+<tr class="separator:a021fe70824954a3b66a929ac363988da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addf84914650715cdc37101f0cdbb62fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/_system_8h.html#addf84914650715cdc37101f0cdbb62fd">render_string</a> (float x, float y, std::string const &amp;str)</td></tr>
+<tr class="memdesc:addf84914650715cdc37101f0cdbb62fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字列表示  <a href="#addf84914650715cdc37101f0cdbb62fd">[詳細]</a><br/></td></tr>
+<tr class="separator:addf84914650715cdc37101f0cdbb62fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a277688499453031c044d4f913a9e4ebe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/_system_8h.html#a277688499453031c044d4f913a9e4ebe">setBlendMode</a> (<a class="el" href="../../df/d78/_system_8h.html#aa034b11c7e1268e84fe133233afdf1c2">BLEND_MODE</a> mode)</td></tr>
+<tr class="separator:a277688499453031c044d4f913a9e4ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8490eaf01d7201b54121f8be681401e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/_system_8h.html#a8490eaf01d7201b54121f8be681401e5">DebugPointRender</a> (<a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a> &amp;pos)</td></tr>
+<tr class="memdesc:a8490eaf01d7201b54121f8be681401e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">点の描画  <a href="#a8490eaf01d7201b54121f8be681401e5">[詳細]</a><br/></td></tr>
+<tr class="separator:a8490eaf01d7201b54121f8be681401e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdfe25c0e9b762d3b7588d3d9916faa9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afdfe25c0e9b762d3b7588d3d9916faa9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d78/_system_8h.html#afdfe25c0e9b762d3b7588d3d9916faa9">SAFE_NEW</a> (T *&amp;p)</td></tr>
+<tr class="memdesc:afdfe25c0e9b762d3b7588d3d9916faa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">安全な解放  <a href="#afdfe25c0e9b762d3b7588d3d9916faa9">[詳細]</a><br/></td></tr>
+<tr class="separator:afdfe25c0e9b762d3b7588d3d9916faa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cba00ea12abc56c4be3cdc3d97c87b0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a6cba00ea12abc56c4be3cdc3d97c87b0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d78/_system_8h.html#a6cba00ea12abc56c4be3cdc3d97c87b0">SAFE_DELETE</a> (T *&amp;p)</td></tr>
+<tr class="memdesc:a6cba00ea12abc56c4be3cdc3d97c87b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">安全な解放  <a href="#a6cba00ea12abc56c4be3cdc3d97c87b0">[詳細]</a><br/></td></tr>
+<tr class="separator:a6cba00ea12abc56c4be3cdc3d97c87b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">説明</h2>
+<div class="textblock"><p>汎用的関数群 </p>
+<dl class="section author"><dt>作者</dt><dd>YukiIshigaki </dd></dl>
+</div><h2 class="groupheader">マクロ定義</h2>
+<a class="anchor" id="aabcd1a642627c84801831e696daffcad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEF_COL_ATTACK_NAME</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>値:</b><div class="fragment"><div class="line"><span class="keyword">static</span> <span class="keywordtype">char</span>* myAttackName = #x;                     \</div>
+<div class="line">                                                        \</div>
+<div class="line">bool    is##x(<a class="code" href="../../df/dc6/class_collision.html">Collision</a>* obj)                           \</div>
+<div class="line">{                                                       \</div>
+<div class="line">    if( strcmp(obj-&gt;getName(), myAttackName ) == 0 ){   \</div>
+<div class="line">        return <span class="keyword">true</span>;                                    \</div>
+<div class="line">    }                                                   \</div>
+<div class="line">    return <span class="keyword">false</span>;                                       \</div>
+<div class="line">}</div>
+<div class="ttc" id="class_collision_html"><div class="ttname"><a href="../../df/dc6/class_collision.html">Collision</a></div><div class="ttdef"><b>Definition:</b> Collision.h:14</div></div>
+</div><!-- fragment --><p>名前と一致するかどうか(攻撃用) マクロ意味 #x : xを文字列にする is##x : isとxをつなげる </p>
+
+</div>
+</div>
+<a class="anchor" id="a0aa41b4084df36f22f61834a3774cddb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEF_COL_ATTACK_NAME_HEADER</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;bool	is##x(<a class="el" href="../../df/dc6/class_collision.html">Collision</a>* obj);</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afa6e053d9231a7eeb41a71de6c938bde"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEF_COL_NAME</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>値:</b><div class="fragment"><div class="line"><span class="keyword">static</span> <span class="keywordtype">char</span>* myName = #x;                       \</div>
+<div class="line">                                                    \</div>
+<div class="line">bool    is##x(<a class="code" href="../../df/dc6/class_collision.html">Collision</a>* obj)                       \</div>
+<div class="line">{                                                   \</div>
+<div class="line">    if( strcmp(obj-&gt;getName(), myName ) == 0 ){     \</div>
+<div class="line">        return <span class="keyword">true</span>;                                \</div>
+<div class="line">    }                                               \</div>
+<div class="line">    return <span class="keyword">false</span>;                                   \</div>
+<div class="line">}</div>
+<div class="ttc" id="class_collision_html"><div class="ttname"><a href="../../df/dc6/class_collision.html">Collision</a></div><div class="ttdef"><b>Definition:</b> Collision.h:14</div></div>
+</div><!-- fragment --><p>名前と一致するかどうか マクロ意味 #x : xを文字列にする is##x : isとxをつなげる </p>
+
+</div>
+</div>
+<a class="anchor" id="ab8184bc6a23047649b3e1fbd2cd09ecb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEF_COL_NAME_HEADER</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;bool	is##x(<a class="el" href="../../df/dc6/class_collision.html">Collision</a>* obj);</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">列挙型</h2>
+<a class="anchor" id="aa034b11c7e1268e84fe133233afdf1c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../df/d78/_system_8h.html#aa034b11c7e1268e84fe133233afdf1c2">BLEND_MODE</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ブレンドモード (Blend Mode) </p>
+<table class="fieldtable">
+<tr><th colspan="2">列挙型の値</th></tr><tr><td class="fieldname"><em><a class="anchor" id="aa034b11c7e1268e84fe133233afdf1c2aab7041f3706bde3b1572c4d2d0b18583"></a>BM_NONE</em>&nbsp;</td><td class="fielddoc">
+<p>合成なし(OFF) </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aa034b11c7e1268e84fe133233afdf1c2aa4b5f56689268250b8e5eb291ecd7352"></a>BM_BLEND</em>&nbsp;</td><td class="fielddoc">
+<p>通常ブレンド </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aa034b11c7e1268e84fe133233afdf1c2aa66971ef5a43bb7b8914143d08dc33d2"></a>BM_ADD</em>&nbsp;</td><td class="fielddoc">
+<p>加算ブレンド </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">関数</h2>
+<a class="anchor" id="a8490eaf01d7201b54121f8be681401e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DebugPointRender </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/de3/struct_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>点の描画 </p>
+
+</div>
+</div>
+<a class="anchor" id="a021fe70824954a3b66a929ac363988da"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float getGLFps </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FPS取得 </p>
+
+</div>
+</div>
+<a class="anchor" id="acaf4aa7f4af8905e6af8409d438cdbae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> LinearInterpolation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramname"><em>frame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramname"><em>maxFrame</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>線形補間 P' = (E - S) * f / maxf + S </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">start</td><td>最小値(始点) 上記のSに当たる </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end</td><td>最大値(終点) 上記のEに当たる </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">frame</td><td>現在の値 上記のfに当たる </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maxFrame</td><td>値の最大値 上記のmaxfに当たる</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>線形補間(frameの値はSからEの間の値に収まる) P' = (E - S) * f / maxf + S </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">start</td><td>最小値(始点) 上記のSに当たる </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end</td><td>最大値(終点) 上記のEに当たる </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">frame</td><td>現在の値 上記のfに当たる </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maxFrame</td><td>値の最大値 上記のmaxfに当たる </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="addf84914650715cdc37101f0cdbb62fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void render_string </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>文字列表示 </p>
+
+</div>
+</div>
+<a class="anchor" id="a6cba00ea12abc56c4be3cdc3d97c87b0"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void SAFE_DELETE </td>
+          <td>(</td>
+          <td class="paramtype">T *&amp;&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>安全な解放 </p>
+
+</div>
+</div>
+<a class="anchor" id="afdfe25c0e9b762d3b7588d3d9916faa9"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void SAFE_NEW </td>
+          <td>(</td>
+          <td class="paramtype">T *&amp;&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>安全な解放 </p>
+
+</div>
+</div>
+<a class="anchor" id="a277688499453031c044d4f913a9e4ebe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setBlendMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d78/_system_8h.html#aa034b11c7e1268e84fe133233afdf1c2">BLEND_MODE</a>&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>ブレンドモードを設定 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>ブレンドモード </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a32cbba7683ec3c5a8c25e5a7396ccf15"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> TO_DEGREE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramname"><em>rad</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>デグリーに変換 </p>
+
+</div>
+</div>
+<a class="anchor" id="a266360ae47bdbc184ec9986ba9409c0b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> TO_RADIAN </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramname"><em>deg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ラジアンに変換 </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+myGameに対してSun Oct 13 2013 20:58:05に生成されました。 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

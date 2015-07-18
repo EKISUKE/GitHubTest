@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d2/d96/struct_line_segment" kind="struct" prot="public">
+    <compoundname>LineSegment</compoundname>
+    <basecompoundref refid="d2/d9d/struct_line" prot="public" virt="non-virtual">Line</basecompoundref>
+    <includes refid="d1/d4e/_geometry_8h" local="no">Geometry.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d96/struct_line_segment_1a4c2da2ff2d3979f28bfcb24948a8e6a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LineSegment::LineSegment</definition>
+        <argsstring>()</argsstring>
+        <name>LineSegment</name>
+        <briefdescription>
+<para>デフォルトコンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" line="276" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" bodystart="276" bodyend="279"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="259">
+        <label>Line</label>
+        <link refid="d2/d9d/struct_line"/>
+      </node>
+      <node id="258">
+        <label>LineSegment</label>
+        <link refid="d2/d96/struct_line_segment"/>
+        <childnode refid="259" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="261">
+        <label>Line</label>
+        <link refid="d2/d9d/struct_line"/>
+        <childnode refid="262" relation="usage">
+          <edgelabel>_position</edgelabel>
+        </childnode>
+      </node>
+      <node id="262">
+        <label>Vector3</label>
+        <link refid="d0/de3/struct_vector3"/>
+      </node>
+      <node id="260">
+        <label>LineSegment</label>
+        <link refid="d2/d96/struct_line_segment"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" line="273" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" bodystart="272" bodyend="281"/>
+    <listofallmembers>
+      <member refid="d2/d9d/struct_line_1af3c45cc53927ae76abe807ec32bd181d" prot="public" virt="non-virtual"><scope>LineSegment</scope><name>_position</name></member>
+      <member refid="d2/d9d/struct_line_1ac6d9b4fc1370daa00c4bcd22d6e33a05" prot="public" virt="non-virtual"><scope>LineSegment</scope><name>_type</name></member>
+      <member refid="d2/d9d/struct_line_1a0501a1de160dc2b156282b27f0030651" prot="public" virt="non-virtual"><scope>LineSegment</scope><name>DebugRender</name></member>
+      <member refid="d2/d9d/struct_line_1ad1eac3c5d397339f4d2c962a0a1eab72" prot="public" virt="non-virtual"><scope>LineSegment</scope><name>getPosition</name></member>
+      <member refid="d2/d9d/struct_line_1acc11b8a429d8cdd63ba6803dff5602b3" prot="public" virt="non-virtual"><scope>LineSegment</scope><name>Line</name></member>
+      <member refid="d2/d96/struct_line_segment_1a4c2da2ff2d3979f28bfcb24948a8e6a9" prot="public" virt="non-virtual"><scope>LineSegment</scope><name>LineSegment</name></member>
+      <member refid="d2/d9d/struct_line_1a3ccf0fa7d4f1e4b84271568934a65191" prot="public" virt="non-virtual"><scope>LineSegment</scope><name>TYPE</name></member>
+      <member refid="d2/d9d/struct_line_1a3ccf0fa7d4f1e4b84271568934a65191abdda39926b9d3ae8c74cd75bf022e4b4" prot="public" virt="non-virtual"><scope>LineSegment</scope><name>TYPE_LINE</name></member>
+      <member refid="d2/d9d/struct_line_1a3ccf0fa7d4f1e4b84271568934a65191a180d078e39ee948b847638e7e6ca1412" prot="public" virt="non-virtual"><scope>LineSegment</scope><name>TYPE_RAY</name></member>
+      <member refid="d2/d9d/struct_line_1a3ccf0fa7d4f1e4b84271568934a65191a132da67b5b3509a5d72a61a664091247" prot="public" virt="non-virtual"><scope>LineSegment</scope><name>TYPE_SEGMENT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

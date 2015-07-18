@@ -1,0 +1,1394 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.5">
+  <compound refid="d9/d64/class_a_i" kind="class"><name>AI</name>
+    <member refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bca" kind="enum"><name>TYPE</name></member>
+    <member refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaa76b6461a36be98b9e9fb44f03dad5e5e" kind="enumvalue"><name>TYPE_ATTACKER</name></member>
+    <member refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaa87446a443c551078bdeae8c84065e259" kind="enumvalue"><name>TYPE_DEFFENDER</name></member>
+    <member refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaaaf5cee11cc14232d7691a1b11b14109a" kind="enumvalue"><name>TYPE_HEALLER</name></member>
+    <member refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaa414de6573cb966cd1833418456b99a02" kind="enumvalue"><name>TYPE_FEINTER</name></member>
+    <member refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaaf496cd875c5a21038d274b1943700e0d" kind="enumvalue"><name>TYPE_MAX</name></member>
+    <member refid="d9/d64/class_a_i_1a838d47dc2f692ec67f23614345321850" kind="variable"><name>_dirToTarget</name></member>
+    <member refid="d9/d64/class_a_i_1a2cf982e037b987d40d0d71ad2dec9aeb" kind="variable"><name>_type</name></member>
+    <member refid="d9/d64/class_a_i_1a64ec60281e9eb8496f16525615db54b7" kind="function"><name>AI</name></member>
+    <member refid="d9/d64/class_a_i_1ac86c87957e3d563f6ea2137a97992e0a" kind="function"><name>~AI</name></member>
+    <member refid="d9/d64/class_a_i_1a59e5ab0650eb03f2e71bc8930fd9a8d5" kind="function"><name>Update</name></member>
+    <member refid="d9/d64/class_a_i_1a90c73117de7e36703b1129e77544cb9e" kind="function"><name>setToTargetPos</name></member>
+  </compound>
+  <compound refid="dd/db9/class_a_i_xE6_x93_x8D_xE4_xBD_x9C_xE5_x9F_xBA_xE5_xBA_x95" kind="class"><name>AI操作基底</name>
+  </compound>
+  <compound refid="dd/da1/class_ally_attacker" kind="class"><name>AllyAttacker</name>
+    <member refid="dd/da1/class_ally_attacker_1affedf81dbacf0834cb9f5d75f15a654e" kind="function"><name>AllyAttacker</name></member>
+    <member refid="dd/da1/class_ally_attacker_1ad1fec0e10500869c7f0a389da51d1405" kind="function"><name>~AllyAttacker</name></member>
+    <member refid="dd/da1/class_ally_attacker_1aef6541e9fd1b90556476c95278e46bc7" kind="function"><name>Initialize</name></member>
+    <member refid="dd/da1/class_ally_attacker_1afcbfead763853ab568897f02f5747425" kind="function"><name>Update</name></member>
+    <member refid="dd/da1/class_ally_attacker_1a22a8f9299878e8e74491701fa1416d2e" kind="function"><name>UpdateByCommand</name></member>
+    <member refid="dd/da1/class_ally_attacker_1a9910a2a200f19c08cecaf978ed9f3b01" kind="function"><name>UpdateNormal</name></member>
+    <member refid="dd/da1/class_ally_attacker_1a9aee0fd5bee4906a85627bc2f87e76a4" kind="function"><name>Render</name></member>
+  </compound>
+  <compound refid="dd/d54/class_ally_base" kind="class"><name>AllyBase</name>
+    <member refid="dd/d54/class_ally_base_1a17d06a89e920ac54909e291c3a485b6f" kind="function"><name>AllyBase</name></member>
+    <member refid="dd/d54/class_ally_base_1ac2f1c59ac703ccb4352ceb4e1805122e" kind="function"><name>~AllyBase</name></member>
+    <member refid="dd/d54/class_ally_base_1a8deb60628340c7a2567fda3bd54ac967" kind="function"><name>Initialize</name></member>
+    <member refid="dd/d54/class_ally_base_1a415be0ac5999cacff3c36db435115e91" kind="enum"><name>TYPE</name></member>
+    <member refid="dd/d54/class_ally_base_1a415be0ac5999cacff3c36db435115e91a570b1a3bd521dc38c4ee18ac9e64cb17" kind="enumvalue"><name>ATTACKER</name></member>
+    <member refid="dd/d54/class_ally_base_1a415be0ac5999cacff3c36db435115e91ac3e02201ee59a640522f3a01d307cc9f" kind="enumvalue"><name>DEFFENDER</name></member>
+    <member refid="dd/d54/class_ally_base_1a415be0ac5999cacff3c36db435115e91ad206186da211264935f86a0f6a890145" kind="enumvalue"><name>HEALLER</name></member>
+    <member refid="dd/d54/class_ally_base_1a415be0ac5999cacff3c36db435115e91af47de2a600a689cc5c0275428a148e60" kind="enumvalue"><name>FEINTER</name></member>
+    <member refid="dd/d54/class_ally_base_1a415be0ac5999cacff3c36db435115e91a2c4893a235c95170de62123fc3817485" kind="enumvalue"><name>MAX</name></member>
+    <member refid="dd/d54/class_ally_base_1a404a0b9f3665f8428e8f4605c11b4aa8" kind="variable"><name>_type</name></member>
+    <member refid="dd/d54/class_ally_base_1aa50dc4d93b0aec2d2ee68eb413099bee" kind="variable"><name>_attackCollision</name></member>
+    <member refid="dd/d54/class_ally_base_1a645bdf98a2819d860f30637ffa82fe35" kind="variable"><name>_leaderPos</name></member>
+    <member refid="dd/d54/class_ally_base_1af86598e67ba582fac7383caee977458d" kind="variable"><name>_DebugGoalPos</name></member>
+    <member refid="dd/d54/class_ally_base_1ad0e5ffbd4082605a9db1f81f8a4724bc" kind="function"><name>Update</name></member>
+    <member refid="dd/d54/class_ally_base_1a96371430d8037793f7bd4b3a75d8c136" kind="function"><name>UpdateByCommand</name></member>
+    <member refid="dd/d54/class_ally_base_1a7ab6832753de076894761ce58389ef7c" kind="function"><name>UpdateNormal</name></member>
+    <member refid="dd/d54/class_ally_base_1aadfd770043d90b11986181a75ad2e32d" kind="function"><name>Render</name></member>
+    <member refid="dd/d54/class_ally_base_1a273efbd74be3780208b5c70cd80a1111" kind="function"><name>StatusRender</name></member>
+    <member refid="dd/d54/class_ally_base_1a76b3e01b0d3ad523947f5c1d480c211e" kind="function"><name>DebugRender</name></member>
+    <member refid="dd/d54/class_ally_base_1a1ebb65212a5825c9a0894b008b19dfd3" kind="function"><name>ResetPosition</name></member>
+    <member refid="dd/d54/class_ally_base_1a56952ebd77a64f24691d36e10db0abf5" kind="function"><name>setLeaderPos</name></member>
+    <member refid="dd/d54/class_ally_base_1a9c3306fa9eafbe909e733d4bf109416e" kind="function"><name>getType</name></member>
+  </compound>
+  <compound refid="d0/de6/class_ally_deffender" kind="class"><name>AllyDeffender</name>
+    <member refid="d0/de6/class_ally_deffender_1afbbe1fabd7f54e8f68ffa23ae85b129e" kind="variable"><name>_isSet</name></member>
+    <member refid="d0/de6/class_ally_deffender_1a8f0a313e2a6f3375c8f48abff56715ef" kind="function"><name>AllyDeffender</name></member>
+    <member refid="d0/de6/class_ally_deffender_1ac1bfe2d90290624b7a8e857bc9f1730c" kind="function"><name>~AllyDeffender</name></member>
+    <member refid="d0/de6/class_ally_deffender_1aca474cd4da5fac407bc29f8d14834ccc" kind="function"><name>Initialize</name></member>
+    <member refid="d0/de6/class_ally_deffender_1a53d33c150d0e72d04939cd53e0c25f5f" kind="function"><name>Update</name></member>
+    <member refid="d0/de6/class_ally_deffender_1a018968fae33a57fbbc42340fbae5328c" kind="function"><name>UpdateByCommand</name></member>
+    <member refid="d0/de6/class_ally_deffender_1a27994c93aad3c05ca169639771677a74" kind="function"><name>UpdateNormal</name></member>
+    <member refid="d0/de6/class_ally_deffender_1aeb9a268c442d133fb0d8f7bb4a932a6f" kind="function"><name>Render</name></member>
+  </compound>
+  <compound refid="df/d69/class_ally_healer" kind="class"><name>AllyHealer</name>
+    <member refid="df/d69/class_ally_healer_1a7d6842f1f2ffd2c76b7377963f5a609c" kind="function"><name>AllyHealer</name></member>
+    <member refid="df/d69/class_ally_healer_1a7bbf70f818b82171e2224d83729d20a3" kind="function"><name>~AllyHealer</name></member>
+    <member refid="df/d69/class_ally_healer_1a657b123a6d4a90e1f21ac8d88a90e4c4" kind="function"><name>Initialize</name></member>
+    <member refid="df/d69/class_ally_healer_1a24604a4c5c8d922833721a94d2edc04c" kind="function"><name>Update</name></member>
+    <member refid="df/d69/class_ally_healer_1a9ddce68a7c042137a3cc459e61a60104" kind="function"><name>UpdateByCommand</name></member>
+    <member refid="df/d69/class_ally_healer_1aca96222aed49e55506bed0811fac14da" kind="function"><name>UpdateNormal</name></member>
+    <member refid="df/d69/class_ally_healer_1a38855aeb63c4f19b2a5cbfdb7a3836b6" kind="function"><name>Render</name></member>
+  </compound>
+  <compound refid="df/d42/class_attacker" kind="class"><name>Attacker</name>
+    <member refid="df/d42/class_attacker_1a94d40f30e5c16bc3040a72321cce4f05" kind="variable"><name>_attackCollision</name></member>
+    <member refid="df/d42/class_attacker_1a84fe68147e28f2e98d8eeecee9d3734c" kind="function"><name>Attacker</name></member>
+    <member refid="df/d42/class_attacker_1a1725eca90fd1453089946540dc908a2e" kind="function"><name>~Attacker</name></member>
+    <member refid="df/d42/class_attacker_1a21832a3a6f5572e15793983c4a084256" kind="function"><name>Initialize</name></member>
+    <member refid="df/d42/class_attacker_1a1033c8ed7d3b31300ff2ea0619f5f4dd" kind="function"><name>Update</name></member>
+    <member refid="df/d42/class_attacker_1af276df8f646d1242e6b8b3259a2fb9cc" kind="function"><name>Render</name></member>
+    <member refid="df/d42/class_attacker_1a69f841c2bd1a9c6ca1780bed050d0ab8" kind="function"><name>StatusRender</name></member>
+    <member refid="df/d42/class_attacker_1aa5a8c782e4ba8ab96c7cf1976413ba42" kind="function"><name>ResetPosition</name></member>
+  </compound>
+  <compound refid="dd/d4c/class_bill_board" kind="class"><name>BillBoard</name>
+    <member refid="dd/d4c/class_bill_board_1aeb5000de0b19751dfd136e9f1994bf6b" kind="variable"><name>_position</name></member>
+    <member refid="dd/d4c/class_bill_board_1a8e8328cebfc6a7f142cd32c643970042" kind="variable"><name>_size</name></member>
+    <member refid="dd/d4c/class_bill_board_1ae7a2bc6e155887596b220a2a7f509752" kind="variable"><name>_rotation</name></member>
+    <member refid="dd/d4c/class_bill_board_1abd032d5e965e536dd2f9c6735b9dbba7" kind="variable"><name>_texture</name></member>
+    <member refid="dd/d4c/class_bill_board_1aa730c8b6918f29714e5e2ac2156b6978" kind="function"><name>BillBoard</name></member>
+    <member refid="dd/d4c/class_bill_board_1a7ac5e25916b05804b33adeeb3c82af27" kind="function"><name>BillBoard</name></member>
+    <member refid="dd/d4c/class_bill_board_1a555e9e1591b5149f582230b2864b61ac" kind="function"><name>setParam</name></member>
+    <member refid="dd/d4c/class_bill_board_1aa1c01f7180f1ddfa9168fb6edcf95df3" kind="function"><name>setPosition</name></member>
+    <member refid="dd/d4c/class_bill_board_1a221457728901be0fa75964ed8da003f1" kind="function"><name>setSize</name></member>
+    <member refid="dd/d4c/class_bill_board_1a324a4407ad489342eb035557739029fd" kind="function"><name>setRotate</name></member>
+    <member refid="dd/d4c/class_bill_board_1a526d5b209ee4be0170544e0f108418c6" kind="function"><name>setTexture</name></member>
+    <member refid="dd/d4c/class_bill_board_1a5fbd98f1d6779917d7a68fd9e82572f8" kind="function"><name>draw</name></member>
+  </compound>
+  <compound refid="da/dbb/class_camera" kind="class"><name>Camera</name>
+    <member refid="da/dbb/class_camera_1a1b7c2a01e42c6528b6cf58ec9151e436" kind="variable"><name>_hitGround</name></member>
+    <member refid="da/dbb/class_camera_1ae7fb26763d565fd3451278490f95f8d1" kind="variable"><name>_myLandScapeGridNum</name></member>
+    <member refid="da/dbb/class_camera_1a01f94c3543f56ede7af49dc778f19331" kind="function"><name>Camera</name></member>
+    <member refid="da/dbb/class_camera_1a6f169173a5a93a75d6a7437decad88ec" kind="function"><name>update</name></member>
+    <member refid="da/dbb/class_camera_1ad709dfeee1327f981f7ab2b5d6db0c11" kind="function"><name>DebugRender</name></member>
+  </compound>
+  <compound refid="dd/d75/class_camera_base" kind="class"><name>CameraBase</name>
+    <member refid="dd/d75/class_camera_base_1a3452d98af9a9d4323d8a2d3e6dc966e5" kind="variable"><name>_position</name></member>
+    <member refid="dd/d75/class_camera_base_1aa89610f1021ae21eebcbe9e17c557ad1" kind="variable"><name>_lookAt</name></member>
+    <member refid="dd/d75/class_camera_base_1ad65432efc07bb5d95268166cb432e0b2" kind="variable"><name>_worldUp</name></member>
+    <member refid="dd/d75/class_camera_base_1a26a9abf2c69bd35302dfd5546facaa59" kind="variable"><name>_rot</name></member>
+    <member refid="dd/d75/class_camera_base_1a601245a0b3275adcd1f64b518b17a218" kind="variable"><name>_radius</name></member>
+    <member refid="dd/d75/class_camera_base_1a49508fac0dc3362b7e60f614e3f9c669" kind="variable"><name>_lookAtLength</name></member>
+    <member refid="dd/d75/class_camera_base_1ad57a54d46b6005687ee5dfa6a99e2807" kind="variable"><name>_matrix</name></member>
+    <member refid="dd/d75/class_camera_base_1ac982bf8a4c710d101c988618346d144d" kind="variable"><name>_viewMatrix</name></member>
+    <member refid="dd/d75/class_camera_base_1a7e0c8252a40bc63d8ba4b7f1aa6fadd4" kind="function"><name>CameraBase</name></member>
+    <member refid="dd/d75/class_camera_base_1aab4dedae85ee16a8aeb397b6c109431f" kind="function"><name>~CameraBase</name></member>
+    <member refid="dd/d75/class_camera_base_1a5d21e2335eaca87dd90cf0f8b16ad9ca" kind="function"><name>update</name></member>
+    <member refid="dd/d75/class_camera_base_1a50b83449318c2f2b2e49d7275f8b52fa" kind="function"><name>DebugRender</name></member>
+    <member refid="dd/d75/class_camera_base_1acad18468f19f9fd8e7b8702f6c006560" kind="function"><name>setPosition</name></member>
+    <member refid="dd/d75/class_camera_base_1aa4f4be10303b61183236a2d5abf21e16" kind="function"><name>setLookAt</name></member>
+    <member refid="dd/d75/class_camera_base_1a0afcc44fd87f9e9e0894070073d2b3a1" kind="function"><name>setWorldUp</name></member>
+    <member refid="dd/d75/class_camera_base_1a5c20fbbaeb08a28959875bd00c17c6fb" kind="function"><name>changeLookAtLength</name></member>
+    <member refid="dd/d75/class_camera_base_1aa70dad729d671a46231c2d18d41a06ab" kind="function"><name>getRotation</name></member>
+    <member refid="dd/d75/class_camera_base_1ac2f00c1723997b460bb88d164563aefa" kind="function"><name>getPosition</name></member>
+    <member refid="dd/d75/class_camera_base_1ad8ea8b00adcde2da0f0ee1ef2703df87" kind="function"><name>getLookAt</name></member>
+    <member refid="dd/d75/class_camera_base_1a302bc86bb3267b785edcd7d21ff83486" kind="function"><name>getWorldUp</name></member>
+    <member refid="dd/d75/class_camera_base_1aa5310b2074e4cb732986dc877eeb3af9" kind="function"><name>getMatrix</name></member>
+    <member refid="dd/d75/class_camera_base_1afddab07dc299807c1661e9e4dc6b8553" kind="function"><name>getViewMatrix</name></member>
+  </compound>
+  <compound refid="d2/d23/class_camera_manager" kind="class"><name>CameraManager</name>
+    <member refid="d2/d23/class_camera_manager_1adebeac379b0624f1abccef0da6888aa8" kind="variable"><name>_pVecCamera</name></member>
+    <member refid="d2/d23/class_camera_manager_1aa6ac62939777a393fedbea0d40ef0bfc" kind="variable"><name>currentIndex</name></member>
+    <member refid="d2/d23/class_camera_manager_1ab66d897f3d5f01efe7e4368f16c42d7f" kind="function"><name>CameraManager</name></member>
+    <member refid="d2/d23/class_camera_manager_1a7a5d263f3fc28809d6c8c3935e571143" kind="function"><name>~CameraManager</name></member>
+    <member refid="d2/d23/class_camera_manager_1ad1ad88e38d71fe78dc063bee3d14f8e0" kind="function"><name>getCurrentCamera</name></member>
+    <member refid="d2/d23/class_camera_manager_1accb69eb09849248e2f41daa0f521b63a" kind="function"><name>setCurrentCamera</name></member>
+    <member refid="d2/d23/class_camera_manager_1a1c88d9e61467164a693c98e8affcc049" kind="function"><name>createCamera</name></member>
+    <member refid="d2/d23/class_camera_manager_1a98e3121774e0f6b013e10ee2a9a7af6d" kind="function"><name>deleteCamera</name></member>
+  </compound>
+  <compound refid="df/dfd/class_castle" kind="class"><name>Castle</name>
+    <member refid="df/dfd/class_castle_1a3773249e9255e1a07d1e510866f88200" kind="variable"><name>WALL_MAX</name></member>
+    <member refid="df/dfd/class_castle_1a107cc14f37b6d1fc6c54c03540afaf2e" kind="variable"><name>_myWall</name></member>
+    <member refid="df/dfd/class_castle_1aaba1f1bcbfa9e6c224051e2d0d54f94c" kind="variable"><name>_castle</name></member>
+    <member refid="df/dfd/class_castle_1ab5a57307b5e4c8ecb6f8f0524684e6d6" kind="function"><name>Castle</name></member>
+    <member refid="df/dfd/class_castle_1ae9c1fceaa18364fec63a60856263cf54" kind="function"><name>~Castle</name></member>
+    <member refid="df/dfd/class_castle_1ac51a560d2d81e39566b0cb425a3425b3" kind="function"><name>Initalize</name></member>
+    <member refid="df/dfd/class_castle_1af92ca7a0fff116f19d38cd1c2a16415b" kind="function"><name>Update</name></member>
+    <member refid="df/dfd/class_castle_1acf75119d84b6058a048f8a2ce95c4abf" kind="function"><name>Render</name></member>
+    <member refid="df/dfd/class_castle_1aa92557c6b84a7c94895290232e2d88e0" kind="function"><name>getWall</name></member>
+    <member refid="df/dfd/class_castle_1a6b17d49d82f4a49f8b8a124492b59102" kind="function"><name>getWallCount</name></member>
+  </compound>
+  <compound refid="d5/d6f/class_castle_wall" kind="class"><name>CastleWall</name>
+    <member refid="d5/d6f/class_castle_wall_1a69ab0cee2dd0a32ca3cde4f294ee6f6c" kind="function"><name>CastleWall</name></member>
+    <member refid="d5/d6f/class_castle_wall_1a24b57b6d45cf42c656ea9780377d061e" kind="function"><name>~CastleWall</name></member>
+    <member refid="d5/d6f/class_castle_wall_1ac54f533305cdf7e2f3a5403c74d90db7" kind="function"><name>Initialize</name></member>
+    <member refid="d5/d6f/class_castle_wall_1ab956a7d5de1bc8096cd2ee5ca51d247a" kind="function"><name>setPosition</name></member>
+    <member refid="d5/d6f/class_castle_wall_1ade42438c205cfd2300b81ac2b93148e7" kind="function"><name>setRotation</name></member>
+    <member refid="d5/d6f/class_castle_wall_1a0406094707c257c297436da3ac4f5773" kind="function"><name>setOffsetPos</name></member>
+    <member refid="d5/d6f/class_castle_wall_1ae2e2dae12c7a59a0408eeb41bc903fbd" kind="function"><name>createHitCircle</name></member>
+    <member refid="d5/d6f/class_castle_wall_1af9fa2a0111a758685746a8f34f3c60f1" kind="function"><name>getCurrentIndex</name></member>
+    <member refid="d5/d6f/class_castle_wall_1a92371447e50d7e4554ae1ec395032001" kind="function"><name>getHitSphere</name></member>
+    <member refid="d5/d6f/class_castle_wall_1a86ce1f0330306ec483b89966637b4bb7" kind="variable"><name>_position</name></member>
+    <member refid="d5/d6f/class_castle_wall_1a9b7dd63ad6bfb2cf9d829e0781b6f729" kind="variable"><name>_castleWall</name></member>
+    <member refid="d5/d6f/class_castle_wall_1a2f7b20a81e21b11edf72a8b1994779fa" kind="variable"><name>_OffsetPosition</name></member>
+    <member refid="d5/d6f/class_castle_wall_1a4c7b392af8d00109092f17cbe169b8e8" kind="variable"><name>_drawPosition</name></member>
+    <member refid="d5/d6f/class_castle_wall_1a6e4d2f234838b7044d0fa3db87a5e53d" kind="variable"><name>_currentIndex</name></member>
+    <member refid="d5/d6f/class_castle_wall_1a4c821b732dd44bd8378f6f4b54187b81" kind="variable"><name>_rotation</name></member>
+    <member refid="d5/d6f/class_castle_wall_1a3223b9046a9d01b1fd952d2ecc1a8c40" kind="variable"><name>_hitSphere</name></member>
+    <member refid="d5/d6f/class_castle_wall_1ab84bd40d05f9cb90506602216c0ac3d2" kind="variable"><name>_myCollision</name></member>
+    <member refid="d5/d6f/class_castle_wall_1abc6fe65d816aa28f713ed6a5cd3fc2b2" kind="variable"><name>_myStatus</name></member>
+    <member refid="d5/d6f/class_castle_wall_1a28e6f7c859aaab114467bf939dd520b4" kind="function"><name>Update</name></member>
+    <member refid="d5/d6f/class_castle_wall_1af74bb0dae111bf8edda1621a709a6101" kind="function"><name>Render</name></member>
+  </compound>
+  <compound refid="dc/ddb/struct_circle" kind="struct"><name>Circle</name>
+    <member refid="dc/ddb/struct_circle_1a11982c65ca2b107b99bda9e4c72f3fe9" kind="variable"><name>_position</name></member>
+    <member refid="dc/ddb/struct_circle_1aefe3c7306413850ac8844072669d915c" kind="variable"><name>_radius</name></member>
+    <member refid="dc/ddb/struct_circle_1ad1ecfcfc7bf34529c6a6d6c448bf70fe" kind="function"><name>Circle</name></member>
+    <member refid="dc/ddb/struct_circle_1ac393b2eec2d71ac317dc783365105ccd" kind="function"><name>Circle</name></member>
+    <member refid="dc/ddb/struct_circle_1a4b023e581d7b41af1349c6f4c6460491" kind="function"><name>setPosition</name></member>
+    <member refid="dc/ddb/struct_circle_1a88f85e090f6fdbdbaa96c1e3a32849ec" kind="function"><name>setRadius</name></member>
+    <member refid="dc/ddb/struct_circle_1a0341f55bea7bfdd478293aa1eb370354" kind="function"><name>getPosition</name></member>
+    <member refid="dc/ddb/struct_circle_1a11b296c081d56bfdbd13a196e6a6faa0" kind="function"><name>getRadius</name></member>
+    <member refid="dc/ddb/struct_circle_1aa0bb65bacc01e44df8d9662ebb5c51bb" kind="function"><name>isHit</name></member>
+    <member refid="dc/ddb/struct_circle_1a73bb3c9db1121886036d91efb3f6ee09" kind="function"><name>DebugRender</name></member>
+  </compound>
+  <compound refid="df/dc6/class_collision" kind="class"><name>Collision</name>
+    <member refid="df/dc6/class_collision_1aea8004fbf48b79b5db7b784688b23788" kind="function"><name>Collision</name></member>
+    <member refid="df/dc6/class_collision_1a67bb01ed29ce67e61d82819872072e5e" kind="function"><name>Collision</name></member>
+    <member refid="df/dc6/class_collision_1a19ae49bcb3b16f4622443a34a171590c" kind="function"><name>~Collision</name></member>
+    <member refid="df/dc6/class_collision_1a5cd49ea00086ec5d80fd1de138bd37bc" kind="function"><name>setHitObj</name></member>
+    <member refid="df/dc6/class_collision_1ab0af0476de0cf02a3e5396ec4bcee1fc" kind="function"><name>clearHitObj</name></member>
+    <member refid="df/dc6/class_collision_1afdb744ad8ba9ca0a69d54a24df6e3cb9" kind="function"><name>setCollisionState</name></member>
+    <member refid="df/dc6/class_collision_1ae0aab4de405176b17857c67912703ded" kind="function"><name>setHitSphere</name></member>
+    <member refid="df/dc6/class_collision_1acb2f78d670bc686d7ed2a46d463f9635" kind="function"><name>setColName</name></member>
+    <member refid="df/dc6/class_collision_1aef63d97ae632428052221cea0ca5bb5a" kind="function"><name>getHitObj</name></member>
+    <member refid="df/dc6/class_collision_1a53cac61e9a7e0d9706a53673de3e163f" kind="function"><name>getName</name></member>
+    <member refid="df/dc6/class_collision_1acce4180f1ea69e917886e78fe51a008e" kind="function"><name>getHitSphere</name></member>
+    <member refid="df/dc6/class_collision_1a3e4163c2b51a2537922d1e89615fd049" kind="function"><name>getHitCount</name></member>
+    <member refid="df/dc6/class_collision_1af071cc502d72519a7c98379b4db1687a" kind="function"><name>getOffsetPos</name></member>
+    <member refid="df/dc6/class_collision_1a58df2f8f625baaa85f9f1c0c09642297" kind="variable"><name>_name</name></member>
+    <member refid="df/dc6/class_collision_1a4a7945e7f5ae70f3ffc21406d7f49f70" kind="variable"><name>_hitSphere</name></member>
+    <member refid="df/dc6/class_collision_1a2f0bf841c68b4806d8b6cfc5eb25e84a" kind="variable"><name>_hitObj</name></member>
+    <member refid="df/dc6/class_collision_1ae4c30e7064c9cb4f9fdb242b96ae9580" kind="function"><name>DebugRender</name></member>
+  </compound>
+  <compound refid="df/d14/class_collision_manager" kind="class"><name>CollisionManager</name>
+    <member refid="df/d14/class_collision_manager_1a81f0b3f0cc0268c80f54714cd7ddb55f" kind="function"><name>CollisionManager</name></member>
+    <member refid="df/d14/class_collision_manager_1a2c5770b90b7a46a5674df008a7a57145" kind="function"><name>Init</name></member>
+    <member refid="df/d14/class_collision_manager_1aea854ed318c39ba12803071813d20319" kind="function"><name>Regist</name></member>
+    <member refid="df/d14/class_collision_manager_1a23ae00ba7f592d6029d3bb16b0bc0100" kind="function"><name>UnRegist</name></member>
+    <member refid="df/d14/class_collision_manager_1ad39fe60bb818c811a6126a5d852c9561" kind="variable"><name>LIST_MAX</name></member>
+    <member refid="df/d14/class_collision_manager_1acd1d8e562e75835db3a5c7f48e930406" kind="variable"><name>_collisionList</name></member>
+    <member refid="df/d14/class_collision_manager_1a6bd925c8543fc59b109225202b333933" kind="variable"><name>_nowIndex</name></member>
+    <member refid="df/d14/class_collision_manager_1a23c21d077dbfd7ca86e7c0649d775dfc" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="d3/d62/class_collision_object" kind="class"><name>CollisionObject</name>
+    <member refid="d3/d62/class_collision_object_1afd1c8612ad380f08cf3f2a5bf4b3daab" kind="variable"><name>_hitSphere</name></member>
+    <member refid="d3/d62/class_collision_object_1ac9677c53a2edb172dca4703e759379bf" kind="function"><name>CollisionObject</name></member>
+    <member refid="d3/d62/class_collision_object_1ab2891150c91ae9267f846449ebe3c709" kind="function"><name>CollisionObject</name></member>
+    <member refid="d3/d62/class_collision_object_1a8a9ad3b2608c2737c2bc69a2b2791094" kind="function"><name>setSphereParam</name></member>
+    <member refid="d3/d62/class_collision_object_1a2574ee166a554985f4ea60ddd57f27db" kind="function"><name>isHitObj</name></member>
+    <member refid="d3/d62/class_collision_object_1ab006cfd3dc853eda7729a7b7e07a1d25" kind="function"><name>isHitSphere</name></member>
+    <member refid="d3/d62/class_collision_object_1afba2c3a210f9c209e37f1d1b902e23b8" kind="function"><name>getHitSphere</name></member>
+  </compound>
+  <compound refid="d7/d79/class_collision_wall" kind="class"><name>CollisionWall</name>
+    <member refid="d7/d79/class_collision_wall_1abd1b21a36696bc68347a010e982ea9ae" kind="variable"><name>_objects</name></member>
+    <member refid="d7/d79/class_collision_wall_1a18fc532e16992342a10052c9431b8bd2" kind="variable"><name>_width</name></member>
+    <member refid="d7/d79/class_collision_wall_1a82be614696dbe3878abc1a5eff74e0ec" kind="variable"><name>_height</name></member>
+    <member refid="d7/d79/class_collision_wall_1ac456d5558654f19206c08abf5bf1af07" kind="variable"><name>_max</name></member>
+    <member refid="d7/d79/class_collision_wall_1a8872a13ffee93d96cf4da1bd26e800db" kind="variable"><name>_min</name></member>
+    <member refid="d7/d79/class_collision_wall_1aa9e4badf0ce9398d8d25ff1d220b67d5" kind="variable"><name>_offsetX</name></member>
+    <member refid="d7/d79/class_collision_wall_1ad41f40bbeb086f0dcccb5e87b29437b6" kind="variable"><name>_offsetZ</name></member>
+    <member refid="d7/d79/class_collision_wall_1ac24d8bde59bb9ffa4066f021364e2fa2" kind="variable"><name>_divX</name></member>
+    <member refid="d7/d79/class_collision_wall_1a067ed36a08c3cc5ccdc2637156689ca2" kind="variable"><name>_divZ</name></member>
+    <member refid="d7/d79/class_collision_wall_1aea0b728f32312ec44e0e70b6106fca54" kind="variable"><name>_DivCount</name></member>
+    <member refid="d7/d79/class_collision_wall_1afa5ccd20ee2db9e3d458ed13f5041c04" kind="variable"><name>_LastHitTriangle</name></member>
+    <member refid="d7/d79/class_collision_wall_1a19feca26d08f354288e3fcf101a63692" kind="variable"><name>_checkIndex</name></member>
+    <member refid="d7/d79/class_collision_wall_1a3c34c3a90b40cfe726b143ce26770491" kind="function"><name>CollisionWall</name></member>
+    <member refid="d7/d79/class_collision_wall_1a57043cf7416e207b2c1c3fdcde27bf0c" kind="function"><name>~CollisionWall</name></member>
+    <member refid="d7/d79/class_collision_wall_1a9b8e44ffa51d3e348b414f16f49117ef" kind="function"><name>getObject</name></member>
+    <member refid="d7/d79/class_collision_wall_1a3757d9055e006a2f5278b10978f6968e" kind="function"><name>getObjectCount</name></member>
+    <member refid="d7/d79/class_collision_wall_1a0058719cd3139056378cfce2c4c55306" kind="function"><name>load</name></member>
+    <member refid="d7/d79/class_collision_wall_1afcc25d40ed045d55168f093f9f2228ee" kind="function"><name>getHitPos</name></member>
+    <member refid="d7/d79/class_collision_wall_1ad51e61dd06453d9fe5c3b9e7e8150a39" kind="function"><name>DebugRender</name></member>
+  </compound>
+  <compound refid="d9/d44/struct_color" kind="struct"><name>Color</name>
+    <member refid="d9/d44/struct_color_1a6f7dc225ef0b3dde655cbf925cad882d" kind="variable"><name>BLACK</name></member>
+    <member refid="d9/d44/struct_color_1a5a1557101e389271fe14dceef583799a" kind="variable"><name>BLUE</name></member>
+    <member refid="d9/d44/struct_color_1abe0e77f1bd12cb0e98b4d5650009942c" kind="variable"><name>RED</name></member>
+    <member refid="d9/d44/struct_color_1a5db67dc17b725499d542d194cf1d475e" kind="variable"><name>MAGENTA</name></member>
+    <member refid="d9/d44/struct_color_1a5b9aafb544d41992e367b065e6595143" kind="variable"><name>GREEN</name></member>
+    <member refid="d9/d44/struct_color_1aac281bf6e998aeef6f7e7c0c7df8dc34" kind="variable"><name>CYAN</name></member>
+    <member refid="d9/d44/struct_color_1ad7b2412aba74d8d4b5e6d6dc7627264d" kind="variable"><name>YELLOW</name></member>
+    <member refid="d9/d44/struct_color_1aafb827ace5780d74f0c513ce92077853" kind="variable"><name>WHITE</name></member>
+    <member refid="d9/d44/struct_color_1a5092bf1d5751684dbe61f526595e67cb" kind="variable"><name>LTBLUE</name></member>
+    <member refid="d9/d44/struct_color_1a5b50d75c7668ab6eb5a2fac673748b22" kind="variable"><name>LTRED</name></member>
+    <member refid="d9/d44/struct_color_1a2bd114820dbf7b29558679072fedefa0" kind="variable"><name>LTMAGENTA</name></member>
+    <member refid="d9/d44/struct_color_1a13dd4f077a964b82196f85bf262dff57" kind="variable"><name>LTGREEN</name></member>
+    <member refid="d9/d44/struct_color_1ac4b33f94628254120531de78a7b0924c" kind="variable"><name>LTCYAN</name></member>
+    <member refid="d9/d44/struct_color_1a6f028404afe08f3e13309376541b0587" kind="variable"><name>LTYELLOW</name></member>
+    <member refid="d9/d44/struct_color_1a02d0fce1510a32cd80cc1ff59d500d6a" kind="variable"><name>LTGRAY</name></member>
+    <member refid="d9/d44/struct_color_1a29144a41c4da4a4e27866a0064d9345e" kind="variable"><name>DKBLUE</name></member>
+    <member refid="d9/d44/struct_color_1a0d0107a528629520d371afd0953b2160" kind="variable"><name>DKRED</name></member>
+    <member refid="d9/d44/struct_color_1a522efed53460f090f7b9e5305bca1b9d" kind="variable"><name>DKMAGENTA</name></member>
+    <member refid="d9/d44/struct_color_1a86b20427e2e318d3fe348d031a0260c1" kind="variable"><name>DKGREEN</name></member>
+    <member refid="d9/d44/struct_color_1a850a0d2e889fc42aa9bb6a7c09283572" kind="variable"><name>DKCYAN</name></member>
+    <member refid="d9/d44/struct_color_1a89ed0e31f59c81ead3b5dc4cfc6a3e3a" kind="variable"><name>DKYELLOW</name></member>
+    <member refid="d9/d44/struct_color_1a2028ad15ab7689719579fa5859a9f233" kind="variable"><name>DKGRAY</name></member>
+    <member refid="d9/d44/struct_color_1a0c71513f8081799f4d51345bab7b67f8" kind="variable"><name>_r</name></member>
+    <member refid="d9/d44/struct_color_1a365597f2503cf58a343b48110f0cc254" kind="variable"><name>_g</name></member>
+    <member refid="d9/d44/struct_color_1a9a9e3820e73e7786817d0e5f314835b4" kind="variable"><name>_b</name></member>
+    <member refid="d9/d44/struct_color_1af9b0213d8532a292da67d4525b81a6ec" kind="variable"><name>_a</name></member>
+    <member refid="d9/d44/struct_color_1a9a742cbe9f9f4037f5d9f4e81a9b2428" kind="function"><name>Color</name></member>
+    <member refid="d9/d44/struct_color_1a1f9035eaa8f9eb07c55359e60e895b73" kind="function"><name>Color</name></member>
+  </compound>
+  <compound refid="d8/d87/class_controller" kind="class"><name>Controller</name>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299" kind="enum"><name>PAD_STATE</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a21e587b1afc096ee1c265c1f94c67499" kind="enumvalue"><name>PAD_UP</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299aba3bbf23376b81b13a37d5b1fc64784c" kind="enumvalue"><name>PAD_DOWN</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299add6459abd4b41108fa1c60c998b130dc" kind="enumvalue"><name>PAD_LEFT</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299afb29a795c71e5591d72d1f731f99aa5b" kind="enumvalue"><name>PAD_RIGHT</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a28c94e1b9833ae309084518052c83034" kind="enumvalue"><name>PAD_START</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a61e905aec453defd9442480f4eada2eb" kind="enumvalue"><name>PAD_BACK</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a958196a4971ad6fb0b8d04db8fbd836f" kind="enumvalue"><name>PAD_LEFT_THUMB</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a7a68915ca7904ffa95ac96982363a140" kind="enumvalue"><name>PAD_RIGHT_THUMB</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a1d6b662520d08a431336d583dc10cd17" kind="enumvalue"><name>PAD_LB</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a85528d6c5243868c83831055d6a29954" kind="enumvalue"><name>PAD_RB</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a80207e5338d8fb48449042b1bb9d3891" kind="enumvalue"><name>PAD_A</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299ad6773e7072fab07ae21124e96fa18eba" kind="enumvalue"><name>PAD_B</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a690d62981ffb566ee636d7f8ff727b58" kind="enumvalue"><name>PAD_X</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a7a48873a0a13f62a9cfd334434dc2a78" kind="enumvalue"><name>PAD_Y</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a7a6573fe182f87da23bb94f04c9084a5" kind="enumvalue"><name>PAD_LEFT_U_STICK</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a5e62512bd93a99842feeb447f229a7a1" kind="enumvalue"><name>PAD_LEFT_D_STICK</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299afe84eb410a8e9621f851e6b3c2a33534" kind="enumvalue"><name>PAD_LEFT_L_STICK</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a1292a849a109baf4281c683f07f81d7b" kind="enumvalue"><name>PAD_LEFT_R_STICK</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a0e0cdaa01f90d7edffdaf054349a2f65" kind="enumvalue"><name>PAD_RIGHT_U_STICK</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299af13ef803c6ec730b91e54743c0d69672" kind="enumvalue"><name>PAD_RIGHT_D_STICK</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299aae7ac63e85c0ceb3c8af7706e710412b" kind="enumvalue"><name>PAD_RIGHT_L_STICK</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a1a0dc909f88a5efed8eb28bfea7ca570" kind="enumvalue"><name>PAD_RIGHT_R_STICK</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a914bda8f2d8a64d589982720f1fec35b" kind="enumvalue"><name>PAD_LT</name></member>
+    <member refid="d8/d87/class_controller_1a5bae253bd639d029d58ea618fafc5299a70be6c79db96e2a056ea3e821bcfc865" kind="enumvalue"><name>PAD_RT</name></member>
+    <member refid="d8/d87/class_controller_1af394a131031afd0ad34914735d9377a4" kind="enum"><name>MODE</name></member>
+    <member refid="d8/d87/class_controller_1af394a131031afd0ad34914735d9377a4a706cbcb2044564870487c5e80a8fa24e" kind="enumvalue"><name>DIGITAL</name></member>
+    <member refid="d8/d87/class_controller_1af394a131031afd0ad34914735d9377a4a1f2a1473a6377cb13c27662253524f3c" kind="enumvalue"><name>ANALOG</name></member>
+    <member refid="d8/d87/class_controller_1a40591e6b5b1f2ffdb426c9cb5d235119" kind="variable"><name>_controllerNum</name></member>
+    <member refid="d8/d87/class_controller_1a3164e8d5c0e403be2b8b4ca6cb5c1360" kind="variable"><name>mode</name></member>
+    <member refid="d8/d87/class_controller_1a80605df285276d88908693110844ea77" kind="variable"><name>XInputPadState</name></member>
+    <member refid="d8/d87/class_controller_1a0dd236e65ec6bdb486165e0fd83e065e" kind="variable"><name>nowPadState</name></member>
+    <member refid="d8/d87/class_controller_1a95bfdb374295856d3152e7a6ec338b89" kind="variable"><name>prevPadState</name></member>
+    <member refid="d8/d87/class_controller_1ac9d03e1da9368429d3f0d6eb95b1a8b8" kind="function"><name>Controller</name></member>
+    <member refid="d8/d87/class_controller_1aaf45107d378df1c4fe8a4063064474d6" kind="function"><name>IsConnected</name></member>
+    <member refid="d8/d87/class_controller_1af2947dbd362fb0932f88cefe13fb5ac1" kind="function"><name>GetPadState</name></member>
+    <member refid="d8/d87/class_controller_1a6ae2692ddfad643a5d185fe59ff1210c" kind="function"><name>GetPushState</name></member>
+    <member refid="d8/d87/class_controller_1a6f23f649f5dc2255706f2f151bf30690" kind="function"><name>Update</name></member>
+    <member refid="d8/d87/class_controller_1ac248b3473dda30d886c94f91aaaa794b" kind="function"><name>EnableVibration</name></member>
+    <member refid="d8/d87/class_controller_1ac62ee454c173e7881e789f5d5c0a356e" kind="function"><name>DisableVibration</name></member>
+    <member refid="d8/d87/class_controller_1ab6334185106b21110b4a9d47a2ad659e" kind="function"><name>getStickState</name></member>
+    <member refid="d8/d87/class_controller_1a21ee0719e227bc36b080aa4f2e229812" kind="function"><name>GetDigitalState</name></member>
+    <member refid="d8/d87/class_controller_1a62f7167d65f638f68e85b08c588f9962" kind="function"><name>GetAnalogState</name></member>
+    <member refid="d8/d87/class_controller_1ae275d483d8a2a330cbe04e3dca500156" kind="function"><name>To_XInput</name></member>
+    <member refid="d8/d87/class_controller_1a86ff3e3e05fa2b175268b09c109f1dfe" kind="function"><name>CheckMode</name></member>
+  </compound>
+  <compound refid="d9/da9/class_debug_timer" kind="class"><name>DebugTimer</name>
+    <member refid="d9/da9/class_debug_timer_1a91a33577979ff0dd28525fee0aa4d2c3" kind="function"><name>DebugTimer</name></member>
+    <member refid="d9/da9/class_debug_timer_1a0dd53853dc72d881ee84423fd73686cd" kind="function"><name>~DebugTimer</name></member>
+    <member refid="d9/da9/class_debug_timer_1a267c15495c630027b6226d5e67bef3f4" kind="function"><name>popTotalTime</name></member>
+  </compound>
+  <compound refid="db/df6/class_degree" kind="class"><name>Degree</name>
+    <member refid="db/df6/class_degree_1afb0e7feba9785028e108a5156533fad7" kind="variable"><name>_degree</name></member>
+    <member refid="db/df6/class_degree_1a682448dac9d2292ea0ff765373eac216" kind="function"><name>Degree</name></member>
+    <member refid="db/df6/class_degree_1a1974c1a232aa2348c38dc51112dd1f7b" kind="function"><name>Degree</name></member>
+    <member refid="db/df6/class_degree_1aa1512d83e224ca09c7706304260dc1bc" kind="function"><name>Degree</name></member>
+    <member refid="db/df6/class_degree_1aeeb671d2c215e253aa25f16ce9cb1fb1" kind="function"><name>Degree</name></member>
+    <member refid="db/df6/class_degree_1ae08c8bfc79ef6ac56992008d669f3348" kind="function"><name>operator f32</name></member>
+    <member refid="db/df6/class_degree_1a979e9eabf4011cafdb254516bb2dbf01" kind="function"><name>operator*</name></member>
+    <member refid="db/df6/class_degree_1a3033c545894e33e64a8b010593026580" kind="function"><name>operator+=</name></member>
+    <member refid="db/df6/class_degree_1a52cf94a4cbebf5cdb7567d22229312e0" kind="function"><name>operator-=</name></member>
+    <member refid="db/df6/class_degree_1a8cb70601a30c40a9d519cc074d1bd65e" kind="function"><name>operator*=</name></member>
+  </compound>
+  <compound refid="d0/d9c/struct_face" kind="struct"><name>Face</name>
+    <member refid="d0/d9c/struct_face_1ae66e1226046adc0fbeaa6db936646a65" kind="variable"><name>_vertexCount</name></member>
+    <member refid="d0/d9c/struct_face_1aceddde235971938cc165b5f7c9440b99" kind="variable"><name>_vertexIndex</name></member>
+    <member refid="d0/d9c/struct_face_1ac67b514483b1fed58ab7d2fc04da56a4" kind="variable"><name>_u</name></member>
+    <member refid="d0/d9c/struct_face_1a16c195e7ec3ead4c46eb17fd9bb6bf75" kind="variable"><name>_v</name></member>
+    <member refid="d0/d9c/struct_face_1aa8ce2f4fdf76dcab7a3dbed87ad3fbb1" kind="variable"><name>_material</name></member>
+  </compound>
+  <compound refid="d4/d8e/class_g_l_font" kind="class"><name>GLFont</name>
+    <member refid="d4/d8e/class_g_l_font_1a177c8719b37d7d9b00437333b744263e" kind="variable"><name>Hfont</name></member>
+    <member refid="d4/d8e/class_g_l_font_1adab6a9ecd5f503c37d7a24412addc6f9" kind="variable"><name>Hdc</name></member>
+    <member refid="d4/d8e/class_g_l_font_1aaa6b727a5fc62291c003f40d196961a8" kind="variable"><name>_list</name></member>
+    <member refid="d4/d8e/class_g_l_font_1a64c8bf3c90d93c9f7af0e7f1b096e71f" kind="function"><name>GLFont</name></member>
+    <member refid="d4/d8e/class_g_l_font_1a7e07e1479cbdd4e31dfc5a39c5d72d69" kind="function"><name>~GLFont</name></member>
+    <member refid="d4/d8e/class_g_l_font_1ae85cae12a5e8d8feec5a076cd4baebcd" kind="function"><name>Initialize</name></member>
+    <member refid="d4/d8e/class_g_l_font_1ad997bbe1b6fce42d07579aa79172fab7" kind="function"><name>DrawStringW</name></member>
+  </compound>
+  <compound refid="d1/d71/class_i_key" kind="class"><name>IKey</name>
+    <member refid="d1/d71/class_i_key_1aa3b4358ffdcd9dbb5e8c7085ecc7ee08" kind="function"><name>~IKey</name></member>
+  </compound>
+  <compound refid="da/d94/class_i_obj" kind="class"><name>IObj</name>
+    <member refid="da/d94/class_i_obj_1a6b5dcb9f92d686dde6f1fc3b5fa7cc7e" kind="function"><name>Initialize</name></member>
+    <member refid="da/d94/class_i_obj_1ab2528cad8542d6c92b9811e3a9c8b83f" kind="function"><name>Update</name></member>
+    <member refid="da/d94/class_i_obj_1a79abe5fbdc1a5ad84a117878aa413a57" kind="function"><name>Render</name></member>
+  </compound>
+  <compound refid="d9/db2/class_key_attacker" kind="class"><name>KeyAttacker</name>
+    <member refid="d9/db2/class_key_attacker_1a921f9ecc037fd96882bc46418c68cb95" kind="enum"><name>MODE</name></member>
+    <member refid="d9/db2/class_key_attacker_1a921f9ecc037fd96882bc46418c68cb95a8c472b37aff5b224022e8383033e7755" kind="enumvalue"><name>MODE_SEARCH</name></member>
+    <member refid="d9/db2/class_key_attacker_1a921f9ecc037fd96882bc46418c68cb95a380e54d8f3229f925b6cfb7d480fa5e1" kind="enumvalue"><name>MODE_APPROACH</name></member>
+    <member refid="d9/db2/class_key_attacker_1a921f9ecc037fd96882bc46418c68cb95a800ee1b8c2000703bed07c5cee9d66cb" kind="enumvalue"><name>MODE_ATTACK</name></member>
+    <member refid="d9/db2/class_key_attacker_1a921f9ecc037fd96882bc46418c68cb95ac1a55ea42133ef7062efa6eae48b99b3" kind="enumvalue"><name>MODE_MAX</name></member>
+    <member refid="d9/db2/class_key_attacker_1ad9928ab6bf533ef686477cf4dc1574a2" kind="variable"><name>_searchReach</name></member>
+    <member refid="d9/db2/class_key_attacker_1af84b632fc711f0b24cc0a8ffacc0a0d5" kind="variable"><name>_searchRot</name></member>
+    <member refid="d9/db2/class_key_attacker_1a20541471e6d38fcbe019f5bc60652275" kind="variable"><name>_attackReach</name></member>
+    <member refid="d9/db2/class_key_attacker_1a666924d4aac349f5ac2d6d340d1c8637" kind="variable"><name>_mode</name></member>
+    <member refid="d9/db2/class_key_attacker_1ab2e023e688b24771a6bd1fbe2c07294e" kind="function"><name>KeyAttacker</name></member>
+    <member refid="d9/db2/class_key_attacker_1a8d755855ed52db20f852a33728ddc612" kind="function"><name>~KeyAttacker</name></member>
+    <member refid="d9/db2/class_key_attacker_1a274203ec57ef80b07d3816570c9588e4" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="dd/d2e/class_key_base" kind="class"><name>KeyBase</name>
+    <member refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45f" kind="enum"><name>KEY_COMMAND</name></member>
+    <member refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fadda545a53e15cba9c4530ad2ee6f2d3d" kind="enumvalue"><name>KEY_COMMAND_ATTACK</name></member>
+    <member refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa314b03fd1202b9a7c601ecd2305b3403" kind="enumvalue"><name>KEY_COMMAND_JUMP</name></member>
+    <member refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa1db21e7286a02df319da11ca37456c15" kind="enumvalue"><name>KEY_COMMAND_COMMANDCHANGE</name></member>
+    <member refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa886ced2b7b9c443cbfbac07192978d6e" kind="enumvalue"><name>KEY_COMMAND_NUM</name></member>
+    <member refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095" kind="enum"><name>KEY_TYPE</name></member>
+    <member refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095a4fec21ea95d75a41839c6957d96c0970" kind="enumvalue"><name>KEY_TYPE_AI</name></member>
+    <member refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095ad92d619929c06fa294c7a49e0df70a13" kind="enumvalue"><name>KEY_TYPE_INPUT</name></member>
+    <member refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095ac0def1177b7023819da9b6417f6f33c0" kind="enumvalue"><name>KEY_TYPE_NUM</name></member>
+    <member refid="dd/d2e/class_key_base_1a6fea5a402d1fa892a14b9ba08ee7f84e" kind="variable"><name>_movVector</name></member>
+    <member refid="dd/d2e/class_key_base_1a774649bfb09128dcbe4617c11c448e25" kind="variable"><name>_stickVector</name></member>
+    <member refid="dd/d2e/class_key_base_1ad76a22072f7fcdaa7b1900971a67207c" kind="variable"><name>_targetPos</name></member>
+    <member refid="dd/d2e/class_key_base_1ac2598de02ad18e04b6f2bc929ee56e98" kind="variable"><name>_playerPos</name></member>
+    <member refid="dd/d2e/class_key_base_1ac312d80c808d22c6c1c1be897b317b3a" kind="variable"><name>_myPos</name></member>
+    <member refid="dd/d2e/class_key_base_1ae1164cb4054102ae260eb5dede5c2b48" kind="variable"><name>_keyType</name></member>
+    <member refid="dd/d2e/class_key_base_1a2ac4c1873c45fdc14f6baf86cfbbbea4" kind="variable"><name>_commandState</name></member>
+    <member refid="dd/d2e/class_key_base_1a647f31cb6653cd682d974cc64df899a2" kind="function"><name>KeyBase</name></member>
+    <member refid="dd/d2e/class_key_base_1ac9fdcf292389d3bf4ae69974e32aea58" kind="function"><name>~KeyBase</name></member>
+    <member refid="dd/d2e/class_key_base_1a606340a0f380b698faed323e108bb1f9" kind="function"><name>Update</name></member>
+    <member refid="dd/d2e/class_key_base_1ad80a94efb6d8e4f05ca7109c997d1cdf" kind="function"><name>getKeyType</name></member>
+    <member refid="dd/d2e/class_key_base_1ac50fde0306def82116ada72fb194bb14" kind="function"><name>getVector</name></member>
+    <member refid="dd/d2e/class_key_base_1af957b878e28cbe4ed9135684e6c78b1e" kind="function"><name>getStickVector</name></member>
+    <member refid="dd/d2e/class_key_base_1a15c8c17b7af09dbfa358309fc9a430f9" kind="function"><name>getPushState</name></member>
+    <member refid="dd/d2e/class_key_base_1a3524c7ef9f4528a354e4ccfd57a8848e" kind="function"><name>setToTargetPos</name></member>
+    <member refid="dd/d2e/class_key_base_1a4f872eedccbf7570415a4fc7ce29a25c" kind="function"><name>setTargetPos</name></member>
+    <member refid="dd/d2e/class_key_base_1a1c5b993006a01df1473faf79682c162a" kind="function"><name>setPlayerPos</name></member>
+    <member refid="dd/d2e/class_key_base_1a6da652723fea6e06077c5370c01b5f01" kind="function"><name>setMyPos</name></member>
+    <member refid="dd/d2e/class_key_base_1aa7ad9b3d6eb875fbf57d44b23cdef80a" kind="function"><name>setCommandFlag</name></member>
+  </compound>
+  <compound refid="d5/dfd/class_key_deffender" kind="class"><name>KeyDeffender</name>
+    <member refid="d5/dfd/class_key_deffender_1a2d0fa24da9c8801e29e09785e96532c5" kind="enum"><name>MODE</name></member>
+    <member refid="d5/dfd/class_key_deffender_1a2d0fa24da9c8801e29e09785e96532c5abf68816f1b29a89fb4cfba57726bf02f" kind="enumvalue"><name>MODE_APPROACH</name></member>
+    <member refid="d5/dfd/class_key_deffender_1a2d0fa24da9c8801e29e09785e96532c5a9864b335ebddb53f54ee6d6fc376e305" kind="enumvalue"><name>MODE_ATTACK</name></member>
+    <member refid="d5/dfd/class_key_deffender_1a2d0fa24da9c8801e29e09785e96532c5a4bed2e2b8eb7c720589155ea020474ee" kind="enumvalue"><name>MODE_DEFFENCE</name></member>
+    <member refid="d5/dfd/class_key_deffender_1a2d0fa24da9c8801e29e09785e96532c5ac6a457d66150ab005b17c5162818451a" kind="enumvalue"><name>MODE_MAX</name></member>
+    <member refid="d5/dfd/class_key_deffender_1acb50cc4c7f821904eb07c27de131cf4a" kind="variable"><name>_searchRot</name></member>
+    <member refid="d5/dfd/class_key_deffender_1a3f735f15f49aa4402f90b11df8de24f0" kind="variable"><name>_attackReach</name></member>
+    <member refid="d5/dfd/class_key_deffender_1a707f63b922b484c455d715d9aee813e9" kind="variable"><name>_deffenceReach</name></member>
+    <member refid="d5/dfd/class_key_deffender_1a0451857ef4707d1f98a3259be12be695" kind="variable"><name>_deffenceMode</name></member>
+    <member refid="d5/dfd/class_key_deffender_1ab95b209ff1600e6425422d644c05ffb7" kind="variable"><name>_mode</name></member>
+    <member refid="d5/dfd/class_key_deffender_1a858bc8e1bd986fdbc9d9fa8f31caba91" kind="function"><name>KeyDeffender</name></member>
+    <member refid="d5/dfd/class_key_deffender_1a00e0afd26850736b536896aae04f51ba" kind="function"><name>~KeyDeffender</name></member>
+    <member refid="d5/dfd/class_key_deffender_1a7262f14770e5cdc20b5e717b98b9a1e2" kind="function"><name>Update</name></member>
+    <member refid="d5/dfd/class_key_deffender_1a8580a17ef23e802604ebc00e54c7c3a9" kind="function"><name>setToTargetPos</name></member>
+  </compound>
+  <compound refid="d6/def/class_key_healer" kind="class"><name>KeyHealer</name>
+    <member refid="d6/def/class_key_healer_1aefc9d3de1d5f7121b3584255e580c5f0" kind="enum"><name>MODE</name></member>
+    <member refid="d6/def/class_key_healer_1aefc9d3de1d5f7121b3584255e580c5f0a836e15803ee0af6791c07ddb8c5b7e80" kind="enumvalue"><name>MODE_SEARCH</name></member>
+    <member refid="d6/def/class_key_healer_1aefc9d3de1d5f7121b3584255e580c5f0a1927bb6a17416f47b286fb6c942727e9" kind="enumvalue"><name>MODE_APPROACH</name></member>
+    <member refid="d6/def/class_key_healer_1aefc9d3de1d5f7121b3584255e580c5f0ae9c2b238756ce70f4a844b692d8d72e4" kind="enumvalue"><name>MODE_HEAL</name></member>
+    <member refid="d6/def/class_key_healer_1aefc9d3de1d5f7121b3584255e580c5f0a7e1bb63e07904c68a514b68f4cd86520" kind="enumvalue"><name>MODE_DEBUF</name></member>
+    <member refid="d6/def/class_key_healer_1aefc9d3de1d5f7121b3584255e580c5f0a0cbc15d72278acde3e526496fee60c9f" kind="enumvalue"><name>MODE_MAX</name></member>
+    <member refid="d6/def/class_key_healer_1a3160dc53c3204308a587966fac89a0f8" kind="variable"><name>_searchReach</name></member>
+    <member refid="d6/def/class_key_healer_1af54b304d55b65e52fb65301d4e2ea1d7" kind="variable"><name>_searchRot</name></member>
+    <member refid="d6/def/class_key_healer_1a878378921359fc40142e3a783d8225ff" kind="variable"><name>_attackReach</name></member>
+    <member refid="d6/def/class_key_healer_1adc6356b370bcde5739011c381d125503" kind="variable"><name>_mode</name></member>
+    <member refid="d6/def/class_key_healer_1a3be7db98421440b89f945a95e4066b24" kind="function"><name>KeyHealer</name></member>
+    <member refid="d6/def/class_key_healer_1a02a89cba9b8d2bfa507b99e521a50e6a" kind="function"><name>~KeyHealer</name></member>
+    <member refid="d6/def/class_key_healer_1a4f38c5471c7529cc666ec3c1cd73f5d4" kind="function"><name>Update</name></member>
+    <member refid="d6/def/class_key_healer_1aa45cde4f69049b17b47098aa2de962f9" kind="function"><name>DebufMagic</name></member>
+    <member refid="d6/def/class_key_healer_1a5e4b84535a991a26196174525962e1bc" kind="function"><name>Heal</name></member>
+  </compound>
+  <compound refid="da/dd6/class_key_input" kind="class"><name>KeyInput</name>
+    <member refid="da/dd6/class_key_input_1aa7ac8bcccc4fd44cc831c77930d4c31d" kind="function"><name>KeyInput</name></member>
+    <member refid="da/dd6/class_key_input_1a757a778d4261c694cd32e3dc3395f42d" kind="function"><name>~KeyInput</name></member>
+    <member refid="da/dd6/class_key_input_1a58c96a548a58d392336ef4b890470929" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="dc/da1/class_land_scape" kind="class"><name>LandScape</name>
+    <member refid="dc/da1/class_land_scape_1a26d37935cf66d6b11fd9382cc04e3961" kind="variable"><name>_objects</name></member>
+    <member refid="dc/da1/class_land_scape_1a8c9e61417d40d01383117d1c6e77e384" kind="variable"><name>_width</name></member>
+    <member refid="dc/da1/class_land_scape_1ac56f8b3f9df3f18aa70ca6f0f0d1df1a" kind="variable"><name>_height</name></member>
+    <member refid="dc/da1/class_land_scape_1aff6dd8bce86b390ca32e64433ecf263b" kind="variable"><name>_max</name></member>
+    <member refid="dc/da1/class_land_scape_1a34fee563e6dc0968d238205bf9b19d02" kind="variable"><name>_min</name></member>
+    <member refid="dc/da1/class_land_scape_1aefeef6b6d4c229b42a017d3e48b7934c" kind="variable"><name>_offsetX</name></member>
+    <member refid="dc/da1/class_land_scape_1a6d7868fdf4cc7854090abb9273cc510a" kind="variable"><name>_offsetZ</name></member>
+    <member refid="dc/da1/class_land_scape_1a5040f38bdf09e936d29ff38f681e7792" kind="variable"><name>_divX</name></member>
+    <member refid="dc/da1/class_land_scape_1a15871a2badf0ed78aaf7ad1e0f15a8e2" kind="variable"><name>_divZ</name></member>
+    <member refid="dc/da1/class_land_scape_1a262f33512b5987dd73b9582ba57ea7c9" kind="variable"><name>_DivCount</name></member>
+    <member refid="dc/da1/class_land_scape_1ad55d7bd47684e915e38500260a83ca24" kind="variable"><name>_LastHitTriangle</name></member>
+    <member refid="dc/da1/class_land_scape_1a0b56946980c0dfdc8329c38acb1d8d0a" kind="variable"><name>_checkIndex</name></member>
+    <member refid="dc/da1/class_land_scape_1a2369afc001c88339449b031e3a44ecca" kind="function"><name>LandScape</name></member>
+    <member refid="dc/da1/class_land_scape_1a94768f0b8eaa888ca57f40d3b8f4a513" kind="function"><name>~LandScape</name></member>
+    <member refid="dc/da1/class_land_scape_1a3feb8defdb17a44dd5481ed27667c4a5" kind="function"><name>getObject</name></member>
+    <member refid="dc/da1/class_land_scape_1aee02acd8b9b84aa6dcc21d1b64fbddf4" kind="function"><name>getObjectCount</name></member>
+    <member refid="dc/da1/class_land_scape_1a58f543605f1200cf3e051ffeff2401a0" kind="function"><name>load</name></member>
+    <member refid="dc/da1/class_land_scape_1a2ba8db9eab3c42dbee9489cee820864d" kind="function"><name>getHeight</name></member>
+    <member refid="dc/da1/class_land_scape_1a404d083539bee3507eb3b378fbf4d889" kind="function"><name>DebugRender</name></member>
+  </compound>
+  <compound refid="d2/d9d/struct_line" kind="struct"><name>Line</name>
+    <member refid="d2/d9d/struct_line_1a3ccf0fa7d4f1e4b84271568934a65191" kind="enum"><name>TYPE</name></member>
+    <member refid="d2/d9d/struct_line_1a3ccf0fa7d4f1e4b84271568934a65191abdda39926b9d3ae8c74cd75bf022e4b4" kind="enumvalue"><name>TYPE_LINE</name></member>
+    <member refid="d2/d9d/struct_line_1a3ccf0fa7d4f1e4b84271568934a65191a180d078e39ee948b847638e7e6ca1412" kind="enumvalue"><name>TYPE_RAY</name></member>
+    <member refid="d2/d9d/struct_line_1a3ccf0fa7d4f1e4b84271568934a65191a132da67b5b3509a5d72a61a664091247" kind="enumvalue"><name>TYPE_SEGMENT</name></member>
+    <member refid="d2/d9d/struct_line_1af3c45cc53927ae76abe807ec32bd181d" kind="variable"><name>_position</name></member>
+    <member refid="d2/d9d/struct_line_1ac6d9b4fc1370daa00c4bcd22d6e33a05" kind="variable"><name>_type</name></member>
+    <member refid="d2/d9d/struct_line_1acc11b8a429d8cdd63ba6803dff5602b3" kind="function"><name>Line</name></member>
+    <member refid="d2/d9d/struct_line_1ad1eac3c5d397339f4d2c962a0a1eab72" kind="function"><name>getPosition</name></member>
+    <member refid="d2/d9d/struct_line_1a0501a1de160dc2b156282b27f0030651" kind="function"><name>DebugRender</name></member>
+  </compound>
+  <compound refid="d2/d96/struct_line_segment" kind="struct"><name>LineSegment</name>
+    <member refid="d2/d96/struct_line_segment_1a4c2da2ff2d3979f28bfcb24948a8e6a9" kind="function"><name>LineSegment</name></member>
+  </compound>
+  <compound refid="da/d50/class_man" kind="class"><name>Man</name>
+    <member refid="da/d50/class_man_1a051ab47a531f9b88d602d1ded39a12ce" kind="function"><name>Man</name></member>
+    <member refid="da/d50/class_man_1aaaaf60a8e06cb3f81fd1cada9961e7fa" kind="function"><name>~Man</name></member>
+    <member refid="da/d50/class_man_1a465c9e858a334083e663eb266dbbe0f2" kind="function"><name>Initialize</name></member>
+    <member refid="da/d50/class_man_1aadef07ec563fbabf2afbd9ea15558c91" kind="function"><name>Update</name></member>
+    <member refid="da/d50/class_man_1a87a4883012aba35a3288212b0412df86" kind="function"><name>Render</name></member>
+    <member refid="da/d50/class_man_1ae4f1db4bc8c4294fe7ec94e7351959dc" kind="function"><name>StatusRender</name></member>
+    <member refid="da/d50/class_man_1afda6e5985073544617c174cc77c0877b" kind="function"><name>setHitObj</name></member>
+    <member refid="da/d50/class_man_1a7dc9b3601c7808edcbdcd42973185797" kind="function"><name>setHitAttack</name></member>
+    <member refid="da/d50/class_man_1a8815ca1006f5aaa8d2273f3e4dde6739" kind="function"><name>setPosition</name></member>
+    <member refid="da/d50/class_man_1ac68419faa2b82119da5d2c8fdd9e5699" kind="function"><name>getHitObj</name></member>
+    <member refid="da/d50/class_man_1aa48106fafd47b8b1099be41963c9dc5b" kind="function"><name>getHitAttack</name></member>
+    <member refid="da/d50/class_man_1ac57d74d748cbc039e970c1f5fb98140a" kind="function"><name>getisAttack</name></member>
+    <member refid="da/d50/class_man_1a2ce2bab28ed38e2f816be1c560b18462" kind="function"><name>getType</name></member>
+    <member refid="da/d50/class_man_1a60341fe647e8671b969c61f6d702a26e" kind="function"><name>getStatus</name></member>
+    <member refid="da/d50/class_man_1ad547da782e80d85e048da7dc43722c5b" kind="function"><name>getAttackPosition</name></member>
+    <member refid="da/d50/class_man_1ad70958fa74261ddfab75826a7c5df47b" kind="function"><name>getAttackRadius</name></member>
+    <member refid="da/d50/class_man_1ad15b88273b6cb08c5d24391ccb7b27f9" kind="function"><name>getAttackSphere</name></member>
+    <member refid="da/d50/class_man_1ac1011efd52b90022fb3f7d1b9a3710f9" kind="function"><name>toHitPosition</name></member>
+    <member refid="da/d50/class_man_1a9087121fafce35e0c26656113d22b66c" kind="function"><name>toPosition</name></member>
+    <member refid="da/d50/class_man_1af2f4c50db54b697f45e30dd4161d0d7c" kind="enum"><name>TYPE</name></member>
+    <member refid="da/d50/class_man_1af2f4c50db54b697f45e30dd4161d0d7cada6e6038f584f5ccbde9f530082f393d" kind="enumvalue"><name>TYPE_PLAYER</name></member>
+    <member refid="da/d50/class_man_1af2f4c50db54b697f45e30dd4161d0d7ca732a9be8100053674a530fb2bdac88f2" kind="enumvalue"><name>TYPE_ALLY</name></member>
+    <member refid="da/d50/class_man_1af2f4c50db54b697f45e30dd4161d0d7caf6fc26730ecb44acc87edef3f3b752d8" kind="enumvalue"><name>TYPE_ENEMY</name></member>
+    <member refid="da/d50/class_man_1a1761302b9ee56b5ea67ff85a6b1c7804" kind="variable"><name>_hitGround</name></member>
+    <member refid="da/d50/class_man_1acaae84d59d74953ebb8cd7b09e5faaf0" kind="variable"><name>_hitObj</name></member>
+    <member refid="da/d50/class_man_1a5021ebc7e4ff19d3620f51ccc22d9c6b" kind="variable"><name>_hitAttack</name></member>
+    <member refid="da/d50/class_man_1a5b9699d0abb401113a8feef81b515647" kind="variable"><name>_isAttack</name></member>
+    <member refid="da/d50/class_man_1adf303aeded2c5094c246d45edd2be7a6" kind="variable"><name>_isJump</name></member>
+    <member refid="da/d50/class_man_1a0df920254c02bae445db9f3a896e3986" kind="variable"><name>_attackPosition</name></member>
+    <member refid="da/d50/class_man_1ab6179d5c87983400d4d6cdd7d0163d86" kind="variable"><name>_speed</name></member>
+    <member refid="da/d50/class_man_1a132be4c780976f644274832498b3e84e" kind="variable"><name>_attackRadius</name></member>
+    <member refid="da/d50/class_man_1a3479373b377a9d008410d94e16112897" kind="variable"><name>_attackRadNum</name></member>
+    <member refid="da/d50/class_man_1aef1a7ce26d3f34dc162e49a392df1088" kind="variable"><name>_attackOffsetRange</name></member>
+    <member refid="da/d50/class_man_1ae884f4872be46582eac86e05d47ac52f" kind="variable"><name>_myStatus</name></member>
+    <member refid="da/d50/class_man_1a0e9a8437e880e5bc17ca83a89b0a716d" kind="variable"><name>_model</name></member>
+    <member refid="da/d50/class_man_1abd30d75b28d7c06673a676c6d7f8c36e" kind="variable"><name>_type</name></member>
+    <member refid="da/d50/class_man_1ac2efd76a0685583f4faad618b4961542" kind="variable"><name>_key</name></member>
+    <member refid="da/d50/class_man_1a904eaf8909829ca908e6c2fad0e4f0b1" kind="variable"><name>_attackSphere</name></member>
+    <member refid="da/d50/class_man_1a2bf56500306d81e049788a83604cd723" kind="variable"><name>_height</name></member>
+    <member refid="da/d50/class_man_1af9bbaacbb75df8c52d44133df86b3778" kind="variable"><name>_myCollision</name></member>
+    <member refid="da/d50/class_man_1ab8554a2b8918e3da6067fbf5ec4d2585" kind="variable"><name>_myLandScapleGridNum</name></member>
+    <member refid="da/d50/class_man_1a5ba5575d82480b8d414376b40dffc1e3" kind="function"><name>Jump</name></member>
+    <member refid="da/d50/class_man_1a3399a4016d8bc3f13a50041b4b03193a" kind="function"><name>Attack</name></member>
+    <member refid="da/d50/class_man_1a05ad50f87c07dd8f64a832388246e6e6" kind="function"><name>Damage</name></member>
+    <member refid="da/d50/class_man_1a355179fbf349aaec3ee6032710138e7b" kind="function"><name>ResetPosition</name></member>
+  </compound>
+  <compound refid="d6/dcd/class_man_manager" kind="class"><name>ManManager</name>
+    <member refid="d6/dcd/class_man_manager_1a68444d4b5b6828f48d326fc26c325b02" kind="function"><name>ManManager</name></member>
+    <member refid="d6/dcd/class_man_manager_1a4efb20931e385152c50a092add4541fa" kind="function"><name>~ManManager</name></member>
+    <member refid="d6/dcd/class_man_manager_1a595e2c6d108b331bd2ea2e287eb72fff" kind="function"><name>Regist</name></member>
+    <member refid="d6/dcd/class_man_manager_1af081725e69033e68c51a12e46c8c8240" kind="function"><name>UnRegist</name></member>
+    <member refid="d6/dcd/class_man_manager_1a47899411e6e81e814d719d4b7f346f65" kind="variable"><name>LIST_MAX</name></member>
+    <member refid="d6/dcd/class_man_manager_1a2df04778b6590c8b1621f82800f6f7c7" kind="variable"><name>_AttackListForPlayer</name></member>
+    <member refid="d6/dcd/class_man_manager_1af910f9dd87221d22fa3b5c759593dab5" kind="variable"><name>_AttackListForEnemy</name></member>
+    <member refid="d6/dcd/class_man_manager_1a50f1ff7ffc122e8818f3c173257865a5" kind="variable"><name>_nowIndex</name></member>
+    <member refid="d6/dcd/class_man_manager_1abb64ced93a599d50a632ed638a53ea32" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="dd/d11/class_map" kind="class"><name>Map</name>
+    <member refid="dd/d11/class_map_1a9bef20a674f52ee4013d7d81429ab5d2" kind="variable"><name>_groundModel</name></member>
+    <member refid="dd/d11/class_map_1a0abc1c10ba71a6b98e6a8edaf89f45f0" kind="variable"><name>_castle</name></member>
+    <member refid="dd/d11/class_map_1a0f5ad0fd4563497b4214038cbca8b582" kind="function"><name>Map</name></member>
+    <member refid="dd/d11/class_map_1aa403fbe09394ccf39747588f5168e3b2" kind="function"><name>~Map</name></member>
+    <member refid="dd/d11/class_map_1a7e3e81c662125913e1b29fe0a257c7de" kind="function"><name>Initalize</name></member>
+    <member refid="dd/d11/class_map_1a61efe2e1ec3f41d90bcbf826893404f1" kind="function"><name>Update</name></member>
+    <member refid="dd/d11/class_map_1a211a219e3ba75b378e5bca7a40df82c6" kind="function"><name>Render</name></member>
+    <member refid="dd/d11/class_map_1a607b2188cbb804109dab92b23a3fffd1" kind="function"><name>getCastle</name></member>
+  </compound>
+  <compound refid="d6/d9d/class_model_1_1_material" kind="class"><name>Model::Material</name>
+    <member refid="d6/d9d/class_model_1_1_material_1a470c2fa5d0f12a0c04f25db5d6d8dd91" kind="variable"><name>_color</name></member>
+    <member refid="d6/d9d/class_model_1_1_material_1a98589b0d2a49136853c0c72cd005dfcc" kind="variable"><name>_pTexture</name></member>
+    <member refid="d6/d9d/class_model_1_1_material_1ad4912aac495ca6a873713226f8a78c7c" kind="function"><name>Material</name></member>
+    <member refid="d6/d9d/class_model_1_1_material_1aca3b430f9ad47a4416f72d13ee578ae7" kind="function"><name>~Material</name></member>
+  </compound>
+  <compound refid="d5/d22/struct_matrix" kind="struct"><name>Matrix</name>
+    <member refid="d5/d22/struct_matrix_1a31c511e179e6c5a720ed55056817be7e" kind="variable"><name>_m</name></member>
+    <member refid="d5/d22/struct_matrix_1a2dba13c45127354c9f75ef576f49269b" kind="function"><name>Matrix</name></member>
+    <member refid="d5/d22/struct_matrix_1a59d1a2a7e2e609966a8a3460f8ed1403" kind="function"><name>Matrix</name></member>
+    <member refid="d5/d22/struct_matrix_1ae69a6d3345472ac03f440c564d05580a" kind="function"><name>operator*</name></member>
+    <member refid="d5/d22/struct_matrix_1a8c47f3d192f07bfd41551c91aa6310bc" kind="function"><name>translate</name></member>
+    <member refid="d5/d22/struct_matrix_1a3bb7fd1de1bfa828a5319094c2ad5e67" kind="function"><name>rotateY</name></member>
+    <member refid="d5/d22/struct_matrix_1afa1d476505a797068234651e34f8ab11" kind="function"><name>rotateAxis</name></member>
+  </compound>
+  <compound refid="d8/d8d/struct_member" kind="struct"><name>Member</name>
+    <member refid="d8/d8d/struct_member_1ab1447d224c4183eb6b1e664bdd91d683" kind="variable"><name>_me</name></member>
+    <member refid="d8/d8d/struct_member_1a9a074540cac9305508993950a04636fd" kind="variable"><name>_offsetPosition</name></member>
+  </compound>
+  <compound refid="d0/de3/class_model" kind="class"><name>Model</name>
+    <member refid="d0/de3/class_model_1a517f749b2393c98904f33fe5134098f6" kind="enum"><name>RenderMode</name></member>
+    <member refid="d0/de3/class_model_1a517f749b2393c98904f33fe5134098f6a89507b2dbde648e7a53107cde745fa44" kind="enumvalue"><name>RENDER_NORMAL</name></member>
+    <member refid="d0/de3/class_model_1a517f749b2393c98904f33fe5134098f6ace626117567530dfea8c320219730d4f" kind="enumvalue"><name>RENDER_WIREFRAME</name></member>
+    <member refid="d0/de3/class_model_1a517f749b2393c98904f33fe5134098f6aca0b7050073ccf10531637b657f25019" kind="enumvalue"><name>RENDER_POINTS</name></member>
+    <member refid="d0/de3/class_model_1a517f749b2393c98904f33fe5134098f6a5dc9ddc701c8a06a4d42bd1961b5368b" kind="enumvalue"><name>RENDER_WIREANDPOINTS</name></member>
+    <member refid="d0/de3/class_model_1a517f749b2393c98904f33fe5134098f6a1ad15a2114c73c545eddb828ac0f7d75" kind="enumvalue"><name>RENDER_ALL</name></member>
+    <member refid="d0/de3/class_model_1a517f749b2393c98904f33fe5134098f6a50c0c96623577e4e8b94a515171e40d7" kind="enumvalue"><name>RENDER_MAX</name></member>
+    <member refid="d0/de3/class_model_1a4f992cedea9b4d32ad881d192895e858" kind="enum"><name>ObjectMode</name></member>
+    <member refid="d0/de3/class_model_1a4f992cedea9b4d32ad881d192895e858a8dda4c02384f5cf85b9eb108af2d1b69" kind="enumvalue"><name>OBJECT_LANDSCAPE</name></member>
+    <member refid="d0/de3/class_model_1a4f992cedea9b4d32ad881d192895e858a521fc7067f1bd84c10065c4ee9e3a914" kind="enumvalue"><name>OBJECT_WALL</name></member>
+    <member refid="d0/de3/class_model_1a4f992cedea9b4d32ad881d192895e858ac99c81755e44275215a92a94ac6aeeda" kind="enumvalue"><name>OBJECT_MAX</name></member>
+    <member refid="d0/de3/class_model_1a44fe04aeef568d7e4faf24345e0bc25f" kind="typedef"><name>vecObj</name></member>
+    <member refid="d0/de3/class_model_1a6528a2f981510d7916acb5df5bbbf7e0" kind="variable"><name>_objMode</name></member>
+    <member refid="d0/de3/class_model_1ae9b8c75304aacdf763882f4692c839fc" kind="variable"><name>_pVecObjects</name></member>
+    <member refid="d0/de3/class_model_1a39c16b057d87a6cba6bdaf0fa28f3ecd" kind="variable"><name>_pVecCollisionObj</name></member>
+    <member refid="d0/de3/class_model_1a1c4a73ec7e919258186f6127cea4d741" kind="variable"><name>_pMaterials</name></member>
+    <member refid="d0/de3/class_model_1a708f1882c84d997cd35449b6d7b1e388" kind="variable"><name>_materialCount</name></member>
+    <member refid="d0/de3/class_model_1ae2fff1b08dfb747bad7ffbecb7560af9" kind="variable"><name>_radius</name></member>
+    <member refid="d0/de3/class_model_1a63cbda22eba83bf09d9df1d74d493937" kind="variable"><name>_renderMode</name></member>
+    <member refid="d0/de3/class_model_1ae3b375de5f6df4faf74a95d64748e048" kind="function"><name>Model</name></member>
+    <member refid="d0/de3/class_model_1ad6ebd2062a0b823db841a0b88baac4c0" kind="function"><name>~Model</name></member>
+    <member refid="d0/de3/class_model_1aa6d90fa11fac2b3bbf4597597f2c3f9c" kind="function"><name>load</name></member>
+    <member refid="d0/de3/class_model_1a89ebd61864089abe5b0c5a1df6479970" kind="function"><name>render</name></member>
+    <member refid="d0/de3/class_model_1a9361d76a7079ff0db78ef823a4858371" kind="function"><name>renderObject</name></member>
+    <member refid="d0/de3/class_model_1ad36e641665acb9391435e90140cbefe5" kind="function"><name>getObject</name></member>
+    <member refid="d0/de3/class_model_1ab49eaee1aa8f4b485902e25cd05e9fd1" kind="function"><name>getColObj</name></member>
+    <member refid="d0/de3/class_model_1a4aed6bc0362c7e4a7fe4aaa773127820" kind="function"><name>getObjectCount</name></member>
+    <member refid="d0/de3/class_model_1ab0ecbda9cdd50c9414cbc3df465f8d4f" kind="function"><name>getRadius</name></member>
+  </compound>
+  <compound refid="d7/dc5/class_mouse" kind="class"><name>Mouse</name>
+    <member refid="d7/dc5/class_mouse_1a862ace0cc13dd54e41c0db972f75c40c" kind="variable"><name>_oldPoint</name></member>
+    <member refid="d7/dc5/class_mouse_1a117254fbc22b936d0d69b505560f1e08" kind="variable"><name>_point</name></member>
+    <member refid="d7/dc5/class_mouse_1ac36989aa7f7c221a36cc9e68f4d80311" kind="variable"><name>_oldWheel</name></member>
+    <member refid="d7/dc5/class_mouse_1a58e28526a09168f89d4a32cda7d69fc5" kind="variable"><name>_wheel</name></member>
+    <member refid="d7/dc5/class_mouse_1ac6b485e6706877485fc08a3e2b85ea6a" kind="variable"><name>_changeWheel</name></member>
+    <member refid="d7/dc5/class_mouse_1a99024d3700d649ae19c1537b42a3e86d" kind="function"><name>Mouse</name></member>
+    <member refid="d7/dc5/class_mouse_1af28a7cf98ce1b646b3e813a491530a9c" kind="function"><name>getPosition</name></member>
+    <member refid="d7/dc5/class_mouse_1aa9270008e04dfc725c45c9b518119712" kind="function"><name>getOffset</name></member>
+    <member refid="d7/dc5/class_mouse_1a38e178d9d764a8670d5682f0fe3f2f47" kind="function"><name>getChangeWheel</name></member>
+    <member refid="d7/dc5/class_mouse_1add9756fabb1ae55d56e10b930e5592b6" kind="function"><name>Update</name></member>
+    <member refid="d7/dc5/class_mouse_1a2d4332520f8cf872de6e85419cf54750" kind="function"><name>MouseWheel</name></member>
+  </compound>
+  <compound refid="d4/d6a/struct_m_q_o_xE3_x82_xAA_xE3_x83_x96_xE3_x82_xB8_xE3_x82_xA7_xE3_x82_xAF_xE3_x83_x88" kind="struct"><name>MQOオブジェクト</name>
+  </compound>
+  <compound refid="d6/d1d/struct_m_q_o_xE3_x83_x95_xE3_x82_xA7_xE3_x82_xA4_xE3_x82_xB9" kind="struct"><name>MQOフェイス</name>
+  </compound>
+  <compound refid="dc/d24/class_obj_base" kind="class"><name>ObjBase</name>
+    <member refid="dc/d24/class_obj_base_1a686e86c74461bf6cea312434796a57ce" kind="variable"><name>_position</name></member>
+    <member refid="dc/d24/class_obj_base_1a510356ecd15d213ac818b836f9b25cca" kind="variable"><name>_mov</name></member>
+    <member refid="dc/d24/class_obj_base_1a7f5b5aa7c370afcc110a6bf571f45375" kind="variable"><name>_rotation</name></member>
+    <member refid="dc/d24/class_obj_base_1a6f8144cf79c29670f6697833c021dd06" kind="variable"><name>_radius</name></member>
+    <member refid="dc/d24/class_obj_base_1a6758eebc53b693f76fc11f0a8eb436be" kind="variable"><name>_hitPosition</name></member>
+    <member refid="dc/d24/class_obj_base_1a0144260d49b5e7d12522c3f71bf2414c" kind="variable"><name>_hitRadius</name></member>
+    <member refid="dc/d24/class_obj_base_1ab7a2f2e63f2ef5c735faad622399d4dc" kind="function"><name>ObjBase</name></member>
+    <member refid="dc/d24/class_obj_base_1a54ccb5455d3deacd3d342b09f7965bbc" kind="function"><name>~ObjBase</name></member>
+    <member refid="dc/d24/class_obj_base_1a278846a0c6381ecefdfb0798472b7b8c" kind="function"><name>Initialize</name></member>
+    <member refid="dc/d24/class_obj_base_1a83992aba2dcaf6d3548dd17618b4b0b9" kind="function"><name>Update</name></member>
+    <member refid="dc/d24/class_obj_base_1aecde185a045789498626dbfc104950ef" kind="function"><name>Render</name></member>
+    <member refid="dc/d24/class_obj_base_1aaf39427e88188735373b4ac1cc0f30b3" kind="function"><name>getPosition</name></member>
+    <member refid="dc/d24/class_obj_base_1a14f5da5ba7748f44aec4e398a143c8cd" kind="function"><name>getMov</name></member>
+    <member refid="dc/d24/class_obj_base_1ad24f6c206c4b736eae5476b50f23f377" kind="function"><name>getRotation</name></member>
+    <member refid="dc/d24/class_obj_base_1ae92b3cfdad5e400686aab1c24c916921" kind="function"><name>getRadius</name></member>
+    <member refid="dc/d24/class_obj_base_1aadebcb51462e8afc1313a70d1b9e7876" kind="function"><name>getHitPosition</name></member>
+    <member refid="dc/d24/class_obj_base_1ae804330778801e616d570a556c2d80ed" kind="function"><name>getHitRadius</name></member>
+  </compound>
+  <compound refid="dc/de6/class_model_1_1_object" kind="class"><name>Model::Object</name>
+    <member refid="dc/de6/class_model_1_1_object_1a0e320a887dce26ad4fa9f6d02ccc4185" kind="variable"><name>_displayListId</name></member>
+    <member refid="dc/de6/class_model_1_1_object_1a28406f0f699e977339ff38cab8d4dc06" kind="variable"><name>_vecVertex</name></member>
+    <member refid="dc/de6/class_model_1_1_object_1a96a062dc6956ff172c9f0f76851af4b7" kind="variable"><name>_vecFace</name></member>
+    <member refid="dc/de6/class_model_1_1_object_1abbdb34603d3535cb21979daa5e10fe3b" kind="function"><name>Object</name></member>
+    <member refid="dc/de6/class_model_1_1_object_1a05da6db6a0bfad6200241c3b2c069383" kind="function"><name>~Object</name></member>
+    <member refid="dc/de6/class_model_1_1_object_1a8d7b5dca571d0392adf79fde1cecbbbc" kind="function"><name>setVertexCount</name></member>
+    <member refid="dc/de6/class_model_1_1_object_1a2bfe2377eb90acde7aac88f5c3ef16ab" kind="function"><name>getVertexCount</name></member>
+    <member refid="dc/de6/class_model_1_1_object_1acd752ebee5c69a88667f3e534bd15472" kind="function"><name>setFaceCount</name></member>
+    <member refid="dc/de6/class_model_1_1_object_1a531ac8a65ef2c03c783abeceaaf4c434" kind="function"><name>getFaceCount</name></member>
+    <member refid="dc/de6/class_model_1_1_object_1aa86c244c87f2df29efcb7efb2a03158b" kind="function"><name>beginRecord</name></member>
+    <member refid="dc/de6/class_model_1_1_object_1a2c5a86ac60e439f9f14e8d472cf413d3" kind="function"><name>endRecord</name></member>
+    <member refid="dc/de6/class_model_1_1_object_1a783f22baa65124925835580bbc02ea47" kind="function"><name>draw</name></member>
+    <member refid="dc/de6/class_model_1_1_object_1a50496a4770f05dd59cf42f3dcb5b0e25" kind="function"><name>isRecorded</name></member>
+  </compound>
+  <compound refid="de/df9/class_system_collision_1_1_object" kind="class"><name>SystemCollision::Object</name>
+    <member refid="de/df9/class_system_collision_1_1_object_1af28618e17ccf1dacf64a8f693b831da1" kind="variable"><name>_triangles</name></member>
+    <member refid="de/df9/class_system_collision_1_1_object_1adf26ef840a79aa5ef9263a3acfb3cfed" kind="function"><name>Object</name></member>
+    <member refid="de/df9/class_system_collision_1_1_object_1ac707b4d5b0a943783dfb7d838811dc44" kind="function"><name>addTriangle</name></member>
+    <member refid="de/df9/class_system_collision_1_1_object_1abdf94c891a1831b034ef95676260e810" kind="function"><name>resetTriangle</name></member>
+    <member refid="de/df9/class_system_collision_1_1_object_1a20589d2a42528e7ef1b05943e791b613" kind="function"><name>getTriangle</name></member>
+    <member refid="de/df9/class_system_collision_1_1_object_1a69ccd0e81eec2940e9147c917b52c28a" kind="function"><name>getTriangleCount</name></member>
+  </compound>
+  <compound refid="db/d86/class_performance" kind="class"><name>Performance</name>
+    <member refid="db/d86/class_performance_1a625407396f56f54e04b3131fd72c7af7" kind="variable"><name>_start</name></member>
+    <member refid="db/d86/class_performance_1a9b6c3db71614114575269e4fa6137df4" kind="variable"><name>_end</name></member>
+    <member refid="db/d86/class_performance_1a72214ccf7ba74ee833bb1bafae224355" kind="variable"><name>_height</name></member>
+    <member refid="db/d86/class_performance_1ace877773c825429563b7f478b98c43de" kind="variable"><name>_drawColor</name></member>
+    <member refid="db/d86/class_performance_1ac3f9a91ae5b8488e75385901497b0636" kind="function"><name>Performance</name></member>
+    <member refid="db/d86/class_performance_1a1a7af5c73f8bdd80ec08872cc2992b82" kind="function"><name>~Performance</name></member>
+    <member refid="db/d86/class_performance_1a8be0a1eefdce743597d54297af96a145" kind="function"><name>getHeight</name></member>
+    <member refid="db/d86/class_performance_1aa7d8705a7666adadb990add57e8272de" kind="function"><name>setColor</name></member>
+    <member refid="db/d86/class_performance_1a09224f7a02ac3267299ebfa5956b1dd2" kind="function"><name>StartPerformance</name></member>
+    <member refid="db/d86/class_performance_1aed413eee749dfdb1a62d4e127f51f822" kind="function"><name>EndPerformance</name></member>
+    <member refid="db/d86/class_performance_1a6321e2cedf4ced955e99fc7f93ae4fe4" kind="function"><name>ResetPerformance</name></member>
+    <member refid="db/d86/class_performance_1af56bbd9f19ebd5b00b76211a38016eed" kind="function"><name>DrawPerformance</name></member>
+  </compound>
+  <compound refid="da/d4f/class_performance_manager" kind="class"><name>PerformanceManager</name>
+    <member refid="da/d4f/class_performance_manager_1ab9e6bcde7a6a29b4b791300805e3774d" kind="function"><name>PerformanceManager</name></member>
+    <member refid="da/d4f/class_performance_manager_1a927ff2c765b7f5af30f1b8b465a5a946" kind="function"><name>~PerformanceManager</name></member>
+    <member refid="da/d4f/class_performance_manager_1abd6eca627b1039cc37dbba62f89108b0" kind="function"><name>getSamePerformance</name></member>
+    <member refid="da/d4f/class_performance_manager_1add8bf4ce9d5b98f0b36ac2058110a433" kind="function"><name>getTime</name></member>
+    <member refid="da/d4f/class_performance_manager_1a0e7f63cfa3d827ddceffa85c5f1ee608" kind="function"><name>getFrame</name></member>
+    <member refid="da/d4f/class_performance_manager_1adf1f1bf9975598ca488a85938edd64e0" kind="function"><name>ResetTime</name></member>
+    <member refid="da/d4f/class_performance_manager_1ab6a18694c8553a1b3b031e59c6678b1a" kind="function"><name>addPeform</name></member>
+    <member refid="da/d4f/class_performance_manager_1af413f574ffacb77125f1a9223f6c9fc8" kind="function"><name>deletePeform</name></member>
+    <member refid="da/d4f/class_performance_manager_1aee017e3d7b3f4dd2b21c826f8e88639e" kind="variable"><name>_pPerformList</name></member>
+    <member refid="da/d4f/class_performance_manager_1ad3665747d51d8f01e989b9b2ac2ab1cf" kind="variable"><name>_maxSecond</name></member>
+    <member refid="da/d4f/class_performance_manager_1a62fc531484cf223da9d5924897f1a0f0" kind="function"><name>drawPerformanceBar</name></member>
+  </compound>
+  <compound refid="d3/d0f/struct_plane" kind="struct"><name>Plane</name>
+    <member refid="d3/d0f/struct_plane_1a066d3194f5778ba03d9d92a11db18e3b" kind="variable"><name>_normal</name></member>
+    <member refid="d3/d0f/struct_plane_1a0e8b30b00f8e086dee3750e7924dfb63" kind="variable"><name>_distance</name></member>
+    <member refid="d3/d0f/struct_plane_1acac0d9c003e0ab10d07b146c3566a0c7" kind="function"><name>Plane</name></member>
+    <member refid="d3/d0f/struct_plane_1a5fa258ae607328c90d1bbd0168ad9a20" kind="function"><name>Plane</name></member>
+    <member refid="d3/d0f/struct_plane_1a79b26a1d57d05317ca1f0533890b989e" kind="function"><name>Plane</name></member>
+    <member refid="d3/d0f/struct_plane_1a63fed40cafac842d07e82f2ee66ddd71" kind="function"><name>getNormal</name></member>
+    <member refid="d3/d0f/struct_plane_1a5696a831ac40c0f139e2cd15f9a7f29f" kind="function"><name>getHeight</name></member>
+    <member refid="d3/d0f/struct_plane_1aa6d3d7915a022f511974dca828e4d170" kind="function"><name>getHitPos</name></member>
+  </compound>
+  <compound refid="d8/d53/class_player" kind="class"><name>Player</name>
+    <member refid="d8/d53/class_player_1a70057174eaea9fd441ca86cc7bb896ed" kind="enum"><name>COMMAND</name></member>
+    <member refid="d8/d53/class_player_1a70057174eaea9fd441ca86cc7bb896eda7e2bd6a5ce792a4b5c0b49577306c13b" kind="enumvalue"><name>COMMAND_NONE</name></member>
+    <member refid="d8/d53/class_player_1a70057174eaea9fd441ca86cc7bb896eda88afd12ac0813020208065d8d4ab6b9f" kind="enumvalue"><name>COMMAND_ATTACK</name></member>
+    <member refid="d8/d53/class_player_1a70057174eaea9fd441ca86cc7bb896edadd2b613c7910904d0750063d5a35a0a9" kind="enumvalue"><name>COMMAND_BACK</name></member>
+    <member refid="d8/d53/class_player_1a70057174eaea9fd441ca86cc7bb896edad01c32d56480ffb6d78c1bc6a1672e1b" kind="enumvalue"><name>COMMAND_MAX</name></member>
+    <member refid="d8/d53/class_player_1ab86de410cadf211699005e688493f6c4" kind="variable"><name>_commandChangeMode</name></member>
+    <member refid="d8/d53/class_player_1a803982abcc03d6a9bd14692add974e58" kind="variable"><name>_command</name></member>
+    <member refid="d8/d53/class_player_1ad716e9892bf83a8c0b36d12564449de4" kind="variable"><name>_attackCollision</name></member>
+    <member refid="d8/d53/class_player_1affe0cc3cb714f6deb4e62f0c0d3f1fd8" kind="function"><name>Player</name></member>
+    <member refid="d8/d53/class_player_1a749d2c00e1fe0f5c2746f7505a58c062" kind="function"><name>~Player</name></member>
+    <member refid="d8/d53/class_player_1ac9ff471df2bd80c9c087d1cb153feb2c" kind="function"><name>Initialize</name></member>
+    <member refid="d8/d53/class_player_1a05b60cac1922c5be5c1be16baffa4497" kind="function"><name>Update</name></member>
+    <member refid="d8/d53/class_player_1aff8e175f69917de3b1dac6400f2a02e5" kind="function"><name>UpdateNormal</name></member>
+    <member refid="d8/d53/class_player_1a1812b4ce37487ac153d8ba2042009bad" kind="function"><name>UpdateCommandChange</name></member>
+    <member refid="d8/d53/class_player_1ad141ea844ac82f2447d986d964d1e8a7" kind="function"><name>Render</name></member>
+    <member refid="d8/d53/class_player_1ab32629a7abedd7b3984545c37fda8008" kind="function"><name>StatusRender</name></member>
+    <member refid="d8/d53/class_player_1ae85aa995df4b7cc7bbc6411fe1ae50f9" kind="function"><name>CommandRender</name></member>
+    <member refid="d8/d53/class_player_1af11a10fc9ebfa11af6a6e76e1f627298" kind="function"><name>getCommand</name></member>
+  </compound>
+  <compound refid="d3/d2f/class_radian" kind="class"><name>Radian</name>
+    <member refid="d3/d2f/class_radian_1ab3bdb824656f3310b4cc449dfccbccdc" kind="variable"><name>_radian</name></member>
+    <member refid="d3/d2f/class_radian_1ab94d81eb1567cfebc60f7aec3be551ec" kind="function"><name>Radian</name></member>
+    <member refid="d3/d2f/class_radian_1a90a4efa6b5179babdbb7d1a319ebbee9" kind="function"><name>Radian</name></member>
+    <member refid="d3/d2f/class_radian_1aadc2c910541b98af5b2b8f3def18a83b" kind="function"><name>Radian</name></member>
+    <member refid="d3/d2f/class_radian_1a7a2edb4be829c47af52db5b1b5739a7f" kind="function"><name>Radian</name></member>
+    <member refid="d3/d2f/class_radian_1a309c93566adef5d406c0f56be7a5ffc8" kind="function"><name>operator f32</name></member>
+    <member refid="d3/d2f/class_radian_1a084d047a0f0c9af0edd9b80d1434ed08" kind="function"><name>operator*</name></member>
+  </compound>
+  <compound refid="de/d8c/struct_ray" kind="struct"><name>Ray</name>
+    <member refid="de/d8c/struct_ray_1a2e3d2c29f2df4ab3da10da79d4acb852" kind="function"><name>Ray</name></member>
+  </compound>
+  <compound refid="d4/d33/class_scene_game" kind="class"><name>SceneGame</name>
+    <member refid="d4/d33/class_scene_game_1a67e5d8c83ecc2d13b11fb7cdee18d0dd" kind="variable"><name>_pMouse</name></member>
+    <member refid="d4/d33/class_scene_game_1a5c76a919192eff7bee25fb99a168f3c6" kind="variable"><name>_pCamera</name></member>
+    <member refid="d4/d33/class_scene_game_1a2ce6b1c18bf16f3e686b803324e619a1" kind="variable"><name>_pControl</name></member>
+    <member refid="d4/d33/class_scene_game_1a2afb95766fd1e8b9364cea3a1e17ec79" kind="variable"><name>_pFont</name></member>
+    <member refid="d4/d33/class_scene_game_1a25efa9bdfc38c9b5dfe14d1f6db57624" kind="variable"><name>_pPlayer</name></member>
+    <member refid="d4/d33/class_scene_game_1a823b88388785404b5860004bb0a6f6dc" kind="variable"><name>_pEnemy</name></member>
+    <member refid="d4/d33/class_scene_game_1a2da008be48aa2d5f85ce191229e26b19" kind="variable"><name>_pAlly</name></member>
+    <member refid="d4/d33/class_scene_game_1a2447854896bb7fc6d8bcdf0f662419f0" kind="variable"><name>_pMap</name></member>
+    <member refid="d4/d33/class_scene_game_1a07ecee1772d3e0f2ccf4817d1da3305a" kind="variable"><name>_playerSquad</name></member>
+    <member refid="d4/d33/class_scene_game_1adec58db9b09566fad2299eb755572767" kind="function"><name>SceneGame</name></member>
+    <member refid="d4/d33/class_scene_game_1ae2813101b38f595f7ce11083cb23749b" kind="function"><name>~SceneGame</name></member>
+    <member refid="d4/d33/class_scene_game_1a505a872c33bc0c0ea826b9442d19d14f" kind="function"><name>Initialize</name></member>
+    <member refid="d4/d33/class_scene_game_1a756d87ac4d86f865e138bd8a15b58520" kind="function"><name>Update</name></member>
+    <member refid="d4/d33/class_scene_game_1a412d68d4c94b297b02dcba0295b887b2" kind="function"><name>Render</name></member>
+    <member refid="d4/d33/class_scene_game_1a54beea6929aa16ce23fa0b9da8b9e7c7" kind="function"><name>addAlly</name></member>
+    <member refid="d4/d33/class_scene_game_1a34daf15f5960c31e59a1b6cefc690ff4" kind="function"><name>getMouse</name></member>
+    <member refid="d4/d33/class_scene_game_1ab1356928f175e8999ce21def57bda819" kind="function"><name>getCamera</name></member>
+    <member refid="d4/d33/class_scene_game_1a5d5a8c295343b4fad93593c93da6cffe" kind="function"><name>getControl</name></member>
+  </compound>
+  <compound refid="d0/d90/class_scene_title" kind="class"><name>SceneTitle</name>
+    <member refid="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136" kind="enum"><name>SELECT_STATE</name></member>
+    <member refid="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136a0303cb2792f96bedf1f7494dd6d7f1d9" kind="enumvalue"><name>SELECT_NEWGAME</name></member>
+    <member refid="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136a53cded6606e90cec35da1b64fba814c2" kind="enumvalue"><name>SELECT_CONTINUE</name></member>
+    <member refid="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136a117d0cf6ab7e922d3d5e80cc07563c52" kind="enumvalue"><name>SELECT_OPTION</name></member>
+    <member refid="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136aba203bbde66e83d8b44047b99d478ade" kind="enumvalue"><name>SELECT_EXIT</name></member>
+    <member refid="d0/d90/class_scene_title_1a3b93cfa6d68a92aa38fe6d02c1380728" kind="variable"><name>_backGroundImage</name></member>
+    <member refid="d0/d90/class_scene_title_1a76481cc6fb2c4fa3f227b81d08be2da9" kind="variable"><name>_titleFont</name></member>
+    <member refid="d0/d90/class_scene_title_1a59618f3039f1060ea813ac83df074b84" kind="variable"><name>_select</name></member>
+    <member refid="d0/d90/class_scene_title_1a841bc9115f6a988d61944ecc39a4bd16" kind="function"><name>SceneTitle</name></member>
+    <member refid="d0/d90/class_scene_title_1a7b68be9869ca545234914b352c57ccc6" kind="function"><name>~SceneTitle</name></member>
+    <member refid="d0/d90/class_scene_title_1a4d640c9026b6350accb703d5ad683a4a" kind="function"><name>Initialize</name></member>
+    <member refid="d0/d90/class_scene_title_1a658f0d3cc38609731c6435c156e3b679" kind="function"><name>Update</name></member>
+    <member refid="d0/d90/class_scene_title_1a7872331f1db6aaf0d46d50b72efb038c" kind="function"><name>Render</name></member>
+    <member refid="d0/d90/class_scene_title_1a67f4d2035d5f9a86a6d6afb251244ea5" kind="function"><name>getSelectState</name></member>
+  </compound>
+  <compound refid="d3/dbc/class_singleton" kind="class"><name>Singleton</name>
+    <member refid="d3/dbc/class_singleton_1a4c4b98c871493d18c0a567b7a4adec58" kind="variable"><name>_pInstance</name></member>
+    <member refid="d3/dbc/class_singleton_1a923b995920da9c06590adb170ab2f890" kind="function"><name>Singleton</name></member>
+    <member refid="d3/dbc/class_singleton_1ad3c93143836479fb3dd96b21b795938c" kind="function"><name>~Singleton</name></member>
+    <member refid="d3/dbc/class_singleton_1ad6f103597095efda360db4a230308666" kind="function"><name>getInstance</name></member>
+  </compound>
+  <compound refid="df/d1a/class_sound_player" kind="class"><name>SoundPlayer</name>
+    <member refid="df/d1a/class_sound_player_1aceb9f5460765c2ca5876e4d1d9dc6e6b" kind="variable"><name>isPlaying</name></member>
+    <member refid="df/d1a/class_sound_player_1a78dce0843ea727e714eb9ba4d0f2e3d7" kind="variable"><name>isLoaded</name></member>
+    <member refid="df/d1a/class_sound_player_1ac7107aecd54bdcfac29486487768ebc6" kind="function"><name>SoundPlayer</name></member>
+    <member refid="df/d1a/class_sound_player_1a581b10975ea64b87b84b7471b814c7ef" kind="function"><name>~SoundPlayer</name></member>
+    <member refid="df/d1a/class_sound_player_1a35be4fbb8f85cdb7b809ccf26048bff4" kind="function"><name>loadMusic</name></member>
+    <member refid="df/d1a/class_sound_player_1a29b399cf0b70dc4aaff0001a2d836dc2" kind="function"><name>playMusic</name></member>
+    <member refid="df/d1a/class_sound_player_1a3aa32618112b982a26d19b94678e43e3" kind="function"><name>stopMusic</name></member>
+    <member refid="df/d1a/class_sound_player_1a6a8705b6336f19071c97dbc143659847" kind="function"><name>pauseMusic</name></member>
+    <member refid="df/d1a/class_sound_player_1a76ec7f258014d510338f204acc9d6312" kind="function"><name>setVolume</name></member>
+  </compound>
+  <compound refid="db/da7/struct_sphere" kind="struct"><name>Sphere</name>
+    <member refid="db/da7/struct_sphere_1ace6e7d4ee7a8c5748ff793aabb770f09" kind="variable"><name>_position</name></member>
+    <member refid="db/da7/struct_sphere_1af711e58504ff32a85179a4c4a4b1da63" kind="variable"><name>_radius</name></member>
+    <member refid="db/da7/struct_sphere_1a890a63ff583cb88e7ec4e840b4ef5eb9" kind="function"><name>Sphere</name></member>
+    <member refid="db/da7/struct_sphere_1a41d320d6067f5b01b3c7a6a8190e72bb" kind="function"><name>Sphere</name></member>
+    <member refid="db/da7/struct_sphere_1ae8842acfd980f63efc023b84980fb49d" kind="function"><name>setPosition</name></member>
+    <member refid="db/da7/struct_sphere_1afad4913bbde5bd6a47d220a29206bbeb" kind="function"><name>setRadius</name></member>
+    <member refid="db/da7/struct_sphere_1a5e5181db4f2a86d94fff712bba98e900" kind="function"><name>getPosition</name></member>
+    <member refid="db/da7/struct_sphere_1a6564eb07eb9b62503ecc71d032e51e7b" kind="function"><name>getRadius</name></member>
+    <member refid="db/da7/struct_sphere_1a868014478336015b67b677052028592e" kind="function"><name>isHit</name></member>
+    <member refid="db/da7/struct_sphere_1ace72594a2c4b1a20789ceb3bb26907cd" kind="function"><name>DebugRender</name></member>
+  </compound>
+  <compound refid="d0/dc0/class_squad" kind="class"><name>Squad</name>
+    <member refid="d0/dc0/class_squad_1a2cc19ba85f2f940a18bdcffe86398e7f" kind="function"><name>setLeader</name></member>
+    <member refid="d0/dc0/class_squad_1a8500396f2202f8b6cfbeb58a60b50385" kind="function"><name>getMyPostion</name></member>
+    <member refid="d0/dc0/class_squad_1aa68455ebcf1e6c341ec287692b5df964" kind="function"><name>getSameMenber</name></member>
+    <member refid="d0/dc0/class_squad_1a8b59302b991f8a7378997a8b94ff49cb" kind="variable"><name>_leader</name></member>
+    <member refid="d0/dc0/class_squad_1aa95fcbc892273659b1e342e6dd522573" kind="variable"><name>_pMemberList</name></member>
+    <member refid="d0/dc0/class_squad_1a9cdd878b045c7242f54a169d02dc5e18" kind="variable"><name>MEMBER_MAX</name></member>
+    <member refid="d0/dc0/class_squad_1a961d7d3aaf28d3d6174f220c8c298718" kind="variable"><name>offsetPosition</name></member>
+    <member refid="d0/dc0/class_squad_1a0e37f7593f55bff89220ec031d19f5f0" kind="function"><name>Squad</name></member>
+    <member refid="d0/dc0/class_squad_1ade5f795e12e6e2865640165dfdf3925a" kind="function"><name>Init</name></member>
+    <member refid="d0/dc0/class_squad_1a64b36d986fbbe63d903740be3c2fad0e" kind="function"><name>addMenber</name></member>
+    <member refid="d0/dc0/class_squad_1af31356388d3dd04f7adec8894c898f38" kind="function"><name>leftMenber</name></member>
+  </compound>
+  <compound refid="df/dc1/class_squad_manager" kind="class"><name>SquadManager</name>
+    <member refid="df/dc1/class_squad_manager_1aeba8839cdfa705ca17e496ccbb7da4ec" kind="function"><name>SquadManager</name></member>
+    <member refid="df/dc1/class_squad_manager_1aff78a2b641fbd6f4befba2f79f959254" kind="function"><name>Init</name></member>
+    <member refid="df/dc1/class_squad_manager_1a6c9a70cc98dcc68d75a04ef4058313ea" kind="function"><name>~SquadManager</name></member>
+    <member refid="df/dc1/class_squad_manager_1a2918b25e8247fbea0131e1221a45c06a" kind="function"><name>getSquad</name></member>
+    <member refid="df/dc1/class_squad_manager_1a9f3ed215f78f979591d38f8a375ed522" kind="function"><name>getSameSquad</name></member>
+    <member refid="df/dc1/class_squad_manager_1ac068104f2298898d3aa53c90089f2487" kind="function"><name>registSquad</name></member>
+    <member refid="df/dc1/class_squad_manager_1aadf35f784fe3bf00976ad7b83ce6caac" kind="function"><name>unregistSquad</name></member>
+    <member refid="df/dc1/class_squad_manager_1a17789c2fcc2a22b3af6ddd0101955576" kind="variable"><name>_pSquadList</name></member>
+  </compound>
+  <compound refid="df/df2/struct_status" kind="struct"><name>Status</name>
+    <member refid="df/df2/struct_status_1a944586fb328a3524805748c8f7b17f32" kind="function"><name>Status</name></member>
+    <member refid="df/df2/struct_status_1ab95acb11b5615a33278ccdfe0aa5bcb0" kind="function"><name>Status</name></member>
+    <member refid="df/df2/struct_status_1a5955d4b2cbbf59287c76e20e2b42fcc8" kind="function"><name>~Status</name></member>
+    <member refid="df/df2/struct_status_1a970ae8bd6adabc224c83a8df0bdd99e7" kind="function"><name>Render</name></member>
+    <member refid="df/df2/struct_status_1ab11ff5709bfc35f8645fdfd1d3a8d307" kind="function"><name>getHP</name></member>
+    <member refid="df/df2/struct_status_1a71b9de7caa6125e8dae19a0eea3a8973" kind="function"><name>getGaugeScale</name></member>
+    <member refid="df/df2/struct_status_1ab2e23c57bb1aac0fd4eb7332ce63d995" kind="function"><name>setStatus</name></member>
+    <member refid="df/df2/struct_status_1a5cc59af1c22240f8e782fb14c82b0058" kind="function"><name>setHP</name></member>
+    <member refid="df/df2/struct_status_1ac30ebcb1541ccb9e3aa539133dacbfa0" kind="function"><name>setHPMAX</name></member>
+    <member refid="df/df2/struct_status_1a59953d659dd1077191a3265b9002be62" kind="function"><name>setGaugeScale</name></member>
+    <member refid="df/df2/struct_status_1a1dbae1c54e1e3ee336e965d9d53545bb" kind="variable"><name>_HP</name></member>
+    <member refid="df/df2/struct_status_1a556f1e65222442eea47f89608a53f462" kind="variable"><name>_HPMAX</name></member>
+    <member refid="df/df2/struct_status_1a976309d13dbf7a2a1fedf53d7e3cf734" kind="variable"><name>_GaugeScaleH</name></member>
+    <member refid="df/df2/struct_status_1a4fb9273b657a123cea761c8d6dcba3c2" kind="variable"><name>_GaugeScaleW</name></member>
+    <member refid="df/df2/struct_status_1afeed2cc8e3da51bd316d9aea8ddc56d6" kind="variable"><name>_GaugeBoard</name></member>
+  </compound>
+  <compound refid="d0/d54/class_system_collision" kind="class"><name>SystemCollision</name>
+    <member refid="d0/d54/class_system_collision_1a8dbbfdfe9e19006266bc52f2838c4dd3" kind="variable"><name>_pLandScape</name></member>
+    <member refid="d0/d54/class_system_collision_1a9674c4c7521f7dcc6067b1ca97968173" kind="variable"><name>_pColWall</name></member>
+    <member refid="d0/d54/class_system_collision_1aa9310b7390089a30525aae5325cbf652" kind="variable"><name>_LastHitPosForWall</name></member>
+    <member refid="d0/d54/class_system_collision_1a029dd2a26bbe98eb77f5b0bb084204f6" kind="function"><name>SystemCollision</name></member>
+    <member refid="d0/d54/class_system_collision_1ac666887037b1dc14e32652af28abee66" kind="function"><name>~SystemCollision</name></member>
+    <member refid="d0/d54/class_system_collision_1a92454bf408ff087cf91215758a4297a6" kind="function"><name>loadMQO</name></member>
+    <member refid="d0/d54/class_system_collision_1ae5b6d80c1ed9f51596e44a75ce4e8ff3" kind="function"><name>deleteObject</name></member>
+    <member refid="d0/d54/class_system_collision_1a232132673dbadadb4fe9d018bf2235ca" kind="function"><name>render</name></member>
+    <member refid="d0/d54/class_system_collision_1aeb8a2e7a0907e24e6cc291bb61be118c" kind="function"><name>checkCollisionModel</name></member>
+    <member refid="d0/d54/class_system_collision_1a2894d1a5b42db2b9625d1317803413fa" kind="function"><name>getLastHitPosForWall</name></member>
+    <member refid="d0/d54/class_system_collision_1a4c8970a0a387f87a07aa5ea80f11e591" kind="function"><name>HitSphere</name></member>
+    <member refid="d0/d54/class_system_collision_1afb11088c991d7810e7bbf90b2fd21a91" kind="function"><name>HitCircle</name></member>
+    <member refid="d0/d54/class_system_collision_1abf90f3f07d21345949bd6d2f428874db" kind="function"><name>DebugRender</name></member>
+  </compound>
+  <compound refid="d5/d84/class_system_shader" kind="class"><name>SystemShader</name>
+    <member refid="d5/d84/class_system_shader_1a045af48fcf9fd181b1504389a204cadc" kind="enum"><name>SHADER_MODE</name></member>
+    <member refid="d5/d84/class_system_shader_1a045af48fcf9fd181b1504389a204cadcad4c9a15c9fe56663a6d8ab42b1bea9bd" kind="enumvalue"><name>SHADER_NORMAL</name></member>
+    <member refid="d5/d84/class_system_shader_1a045af48fcf9fd181b1504389a204cadcacb7eeae7f61ee30d58c4c185a14c767d" kind="enumvalue"><name>SHADER_TEXTURE</name></member>
+    <member refid="d5/d84/class_system_shader_1a045af48fcf9fd181b1504389a204cadcaa3a02ca217f89e34796dfb3146ca79c4" kind="enumvalue"><name>SHADER_MAX</name></member>
+    <member refid="d5/d84/class_system_shader_1ac920ff1cb0709c47a985772164accd30" kind="variable"><name>vertShader</name></member>
+    <member refid="d5/d84/class_system_shader_1a6a9f2ae4bbf40ef1e1aa487a4b5c9949" kind="variable"><name>fragShader</name></member>
+    <member refid="d5/d84/class_system_shader_1a992a5a29816166c22d8e9997726eb869" kind="variable"><name>gl2Program</name></member>
+    <member refid="d5/d84/class_system_shader_1abe894deb6bf7040f977c8fca3b240693" kind="variable"><name>MAX_SHADER_LOG_SIZE</name></member>
+    <member refid="d5/d84/class_system_shader_1ae73ec814abc7a93c01b340cc272c8301" kind="variable"><name>s_logBuffer</name></member>
+    <member refid="d5/d84/class_system_shader_1a372fad007b14e7d934913e85140bd0e1" kind="function"><name>SystemShader</name></member>
+    <member refid="d5/d84/class_system_shader_1aea4c03c6d6f48b122c699497523bc690" kind="function"><name>~SystemShader</name></member>
+    <member refid="d5/d84/class_system_shader_1ac08cac17b68ec15c287cdc96bd6e4112" kind="function"><name>Init</name></member>
+    <member refid="d5/d84/class_system_shader_1a59985b4737cf4263cf372a4f5ea1c60d" kind="function"><name>Cleanup</name></member>
+    <member refid="d5/d84/class_system_shader_1a0c83332ff8654ede8d80a9932e93db62" kind="function"><name>InitShader</name></member>
+    <member refid="d5/d84/class_system_shader_1a64a0d6a15611c301d22ee90fdb93e6f1" kind="function"><name>readShaderSource</name></member>
+    <member refid="d5/d84/class_system_shader_1a429ec01976737272f3ed206f3c6b615e" kind="function"><name>beginShader</name></member>
+    <member refid="d5/d84/class_system_shader_1aacafa83c1f764897a12c47cc547d1a61" kind="function"><name>endShader</name></member>
+    <member refid="d5/d84/class_system_shader_1a07851b3de7d6b107ccde3f20293a7e4a" kind="function"><name>printShaderInfoLog</name></member>
+    <member refid="d5/d84/class_system_shader_1adf5335a4555af045945ef34f30adc8fe" kind="function"><name>printProgramInfoLog</name></member>
+  </compound>
+  <compound refid="d2/d7f/class_texture" kind="class"><name>Texture</name>
+    <member refid="d2/d7f/class_texture_1a0c9b985de62a0ae6583ee8e71e8ecae8" kind="variable"><name>_textureHandle</name></member>
+    <member refid="d2/d7f/class_texture_1a6c275e3f186675ff6ed73ccf970e552f" kind="function"><name>Texture</name></member>
+    <member refid="d2/d7f/class_texture_1a09c4bcb7462f64c1d20fa69dba3cee8a" kind="function"><name>~Texture</name></member>
+    <member refid="d2/d7f/class_texture_1aa894d750673a53e42cc89bb7b62acea1" kind="function"><name>create</name></member>
+    <member refid="d2/d7f/class_texture_1a1c6b51ed04862c1dd795c62005db4129" kind="function"><name>load</name></member>
+    <member refid="d2/d7f/class_texture_1ad48a156766fb1ac1804690e06f2a7d94" kind="function"><name>getTextureHandle</name></member>
+    <member refid="d2/d7f/class_texture_1a9895b77310c2cd7118a6a47f562b205a" kind="function"><name>set</name></member>
+  </compound>
+  <compound refid="da/d69/class_timer_base" kind="class"><name>TimerBase</name>
+    <member refid="da/d69/class_timer_base_1ae8e31c0cc54cbe908508dbc165618fbc" kind="variable"><name>_startTime</name></member>
+    <member refid="da/d69/class_timer_base_1a06b9dbe519e22aa9ecf9e37637ea35b2" kind="variable"><name>_endTime</name></member>
+    <member refid="da/d69/class_timer_base_1a3eaed58a0aa86c23b4dafb460b86d2bf" kind="variable"><name>_totalTime</name></member>
+    <member refid="da/d69/class_timer_base_1a1c838e0a5acc12a808a472128f6281fd" kind="variable"><name>_Frequency</name></member>
+    <member refid="da/d69/class_timer_base_1a720d9300e0c765eb60dadcaaee4bf5ed" kind="function"><name>TimerBase</name></member>
+    <member refid="da/d69/class_timer_base_1a966a6bb60939db382b264ed497d6e3ba" kind="function"><name>~TimerBase</name></member>
+    <member refid="da/d69/class_timer_base_1aa47ffc6c90d8b28f87a25840ee982842" kind="function"><name>Reset</name></member>
+    <member refid="da/d69/class_timer_base_1a23620639c3e82b1f61ad204e4f9b9795" kind="function"><name>StartTimer</name></member>
+    <member refid="da/d69/class_timer_base_1a6ea55cb2bd63da1edc94a1c9d6ac0918" kind="function"><name>EndTimer</name></member>
+    <member refid="da/d69/class_timer_base_1a951ca2c63371cf01e281348c78725fba" kind="function"><name>DrawTotalTime</name></member>
+  </compound>
+  <compound refid="d5/d4f/struct_triangle" kind="struct"><name>Triangle</name>
+    <member refid="d5/d4f/struct_triangle_1a2138d57a641e85b40dfb79dbbb14f733" kind="variable"><name>_position</name></member>
+    <member refid="d5/d4f/struct_triangle_1aaefe4ed500c07918d30c6f0e286332c5" kind="function"><name>Triangle</name></member>
+    <member refid="d5/d4f/struct_triangle_1accd0422f7fc2f2f22c6c2042e76982f1" kind="function"><name>Triangle</name></member>
+    <member refid="d5/d4f/struct_triangle_1adbf10eb0436ab91581f6da857b203d1f" kind="function"><name>isHit</name></member>
+    <member refid="d5/d4f/struct_triangle_1ae2d9ae35e53b8c1654e7f5405b8e26dd" kind="function"><name>getHitPos</name></member>
+    <member refid="d5/d4f/struct_triangle_1a6298642f5b3796035806fdec1f5584f9" kind="function"><name>getCenter</name></member>
+    <member refid="d5/d4f/struct_triangle_1ad963391905b9b061f1bbb69dce87494e" kind="function"><name>debugRender</name></member>
+  </compound>
+  <compound refid="d0/de3/struct_vector3" kind="struct"><name>Vector3</name>
+    <member refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kind="variable"><name>_x</name></member>
+    <member refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kind="variable"><name>_y</name></member>
+    <member refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kind="variable"><name>_z</name></member>
+    <member refid="d0/de3/struct_vector3_1a0f49191f7e001e7f7ae1cb49522118b4" kind="function"><name>Vector3</name></member>
+    <member refid="d0/de3/struct_vector3_1a26134d4a4ff38b5b147a6e0e862d841d" kind="function"><name>Vector3</name></member>
+    <member refid="d0/de3/struct_vector3_1a4f9ead673c773229334355789b6aacc2" kind="function"><name>Vector3</name></member>
+    <member refid="d0/de3/struct_vector3_1a1b5bb43ee5524cd793c3dc7c44ba507b" kind="function"><name>operator+</name></member>
+    <member refid="d0/de3/struct_vector3_1adf9aba350d84593481892bb802190402" kind="function"><name>operator-</name></member>
+    <member refid="d0/de3/struct_vector3_1ad562abcac8ba809c6d54d3f783ef3312" kind="function"><name>operator*</name></member>
+    <member refid="d0/de3/struct_vector3_1aa74938e1a0fd2096924fa9ace442783f" kind="function"><name>operator*</name></member>
+    <member refid="d0/de3/struct_vector3_1acc2624a2880ba96b96292d78b80b5f7c" kind="function"><name>operator+=</name></member>
+    <member refid="d0/de3/struct_vector3_1ab453410e5e2184e1a255495dada84609" kind="function"><name>operator-=</name></member>
+    <member refid="d0/de3/struct_vector3_1a71fab3eea2aac2738335149c27fa45db" kind="function"><name>operator*=</name></member>
+    <member refid="d0/de3/struct_vector3_1a66d6b82ffd79c2212f04dd65fa85b1f1" kind="function"><name>operator*=</name></member>
+    <member refid="d0/de3/struct_vector3_1a3ab63b97882ef750fc2bfe94477802b1" kind="function"><name>operator+</name></member>
+    <member refid="d0/de3/struct_vector3_1a72a36c71164f1532d24ec49c3d7056fc" kind="function"><name>operator-</name></member>
+    <member refid="d0/de3/struct_vector3_1a6ec99d2e2c0f781c257bf9c2e665ee40" kind="function"><name>operator==</name></member>
+    <member refid="d0/de3/struct_vector3_1a3bb95b94a0911ae9f1eae66695f65c70" kind="function"><name>operator!=</name></member>
+    <member refid="d0/de3/struct_vector3_1ab75b4d7d7fad114d84f2e081edef68b6" kind="function"><name>length</name></member>
+    <member refid="d0/de3/struct_vector3_1ad67a64036469827d79ce4d821d49f329" kind="function"><name>squareLength</name></member>
+    <member refid="d0/de3/struct_vector3_1aa9a41fdd0584091e48784c96999972f1" kind="function"><name>normalize</name></member>
+    <member refid="d0/de3/struct_vector3_1a0ffd8b1ab26781d0524802cce8d5e0c3" kind="function"><name>transform</name></member>
+    <member refid="d0/de3/struct_vector3_1a320f377d62a53de63377c78d1e724a11" kind="function"><name>dot</name></member>
+    <member refid="d0/de3/struct_vector3_1a36a1cc3bd7107c9f05cafaa1a9b0d16c" kind="function"><name>cross</name></member>
+  </compound>
+  <compound refid="de/d54/struct_vector4" kind="struct"><name>Vector4</name>
+    <member refid="de/d54/struct_vector4_1abb21125aa7a06ea4437281aa76a551ea" kind="variable"><name>_x</name></member>
+    <member refid="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" kind="variable"><name>_y</name></member>
+    <member refid="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" kind="variable"><name>_z</name></member>
+    <member refid="de/d54/struct_vector4_1a9aae8a768968c7939492dcc8277dab19" kind="variable"><name>_w</name></member>
+    <member refid="de/d54/struct_vector4_1a511b4d9c8326c235b76d794eea018921" kind="function"><name>Vector4</name></member>
+    <member refid="de/d54/struct_vector4_1af392697118abd888bc7aa1781cd08eb9" kind="function"><name>Vector4</name></member>
+    <member refid="de/d54/struct_vector4_1a0bbfb6f21d73c847d5bd57e491388c1e" kind="function"><name>Vector4</name></member>
+    <member refid="de/d54/struct_vector4_1a55b17f5f4003a2c1b46066925b072635" kind="function"><name>transform</name></member>
+  </compound>
+  <compound refid="d2/d3c/class_xE3_x82_xAA_xE3_x83_x96_xE3_x82_xB8_xE3_x82_xA7_xE3_x82_xAF_xE3_x83_x88_xE3_x82_xA4_xE3_x8b96d20a3af809279c7b3d794e4dacae1" kind="class"><name>オブジェクトインターフェース</name>
+  </compound>
+  <compound refid="d2/d12/class_xE3_x82_xAA_xE3_x83_x96_xE3_x82_xB8_xE3_x82_xA7_xE3_x82_xAF_xE3_x83_x88_xE5_x9F_xBA_xE5_xBA_x95" kind="class"><name>オブジェクト基底</name>
+  </compound>
+  <compound refid="d2/d01/class_xE3_x82_xAA_xE3_x83_x96_xE3_x82_xB8_xE3_x82_xA7_xE3_x82_xAF_xE3_x83_x88_xE5_xBD_x93_xE3_x8b482d1fe726eb5db7b8eab866bb915a6" kind="class"><name>オブジェクト当たり判定用</name>
+  </compound>
+  <compound refid="de/ddb/class_xE3_x82_xAA_xE3_x83_x96_xE3_x82_xB8_xE3_x82_xA7_xE3_x82_xAF_xE3_x83_x88_xE6_x93_x8D_xE4_xB3fc2265794d84a3364a9ffd9c69ef23d" kind="class"><name>オブジェクト操作インターフェース</name>
+  </compound>
+  <compound refid="d3/d24/class_xE3_x82_xAA_xE3_x83_x96_xE3_x82_xB8_xE3_x82_xA7_xE3_x82_xAF_xE3_x83_x88_xE6_x93_x8D_xE4_xBD_x9C_xE5_x9F_xBA_xE5_xBA_x95" kind="class"><name>オブジェクト操作基底</name>
+  </compound>
+  <compound refid="d9/dba/class_xE3_x82_xAB_xE3_x83_xA1_xE3_x83_xA9" kind="class"><name>カメラ</name>
+  </compound>
+  <compound refid="da/d33/class_xE3_x82_xAB_xE3_x83_xA1_xE3_x83_xA9_xE5_x9F_xBA_xE5_xBA_x95" kind="class"><name>カメラ基底</name>
+  </compound>
+  <compound refid="dc/ddb/class_xE3_x82_xAB_xE3_x83_xA1_xE3_x83_xA9_xE7_xAE_xA1_xE7_x90_x86" kind="class"><name>カメラ管理</name>
+  </compound>
+  <compound refid="d9/d43/struct_xE3_x82_xAB_xE3_x83_xA9_xE3_x83_xBC_xE6_xA7_x8B_xE9_x80_xA0_xE4_xBD_x93" kind="struct"><name>カラー構造体</name>
+  </compound>
+  <compound refid="dc/d3a/class_xE3_x82_xAD_xE3_x83_xA3_xE3_x83_xA9_xE7_xAE_xA1_xE7_x90_x86_xE3_x82_xAF_xE3_x83_xA9_xE3_x82_xB9" kind="class"><name>キャラ管理クラス</name>
+  </compound>
+  <compound refid="d5/d2f/class_xE3_x82_xB2_xE3_x83_xBC_xE3_x83_xA0_xE4_xB8_xAD" kind="class"><name>ゲーム中</name>
+  </compound>
+  <compound refid="d4/d94/class_xE3_x82_xB2_xE3_x83_xBC_xE3_x83_xA0_xE5_x86_x85_xE3_x82_xAD_xE3_x83_xA3_xE3_x83_xA9" kind="class"><name>ゲーム内キャラ</name>
+  </compound>
+  <compound refid="df/dfb/class_xE3_x82_xB3_xE3_x83_xB3_xE3_x83_x88_xE3_x83_xAD_xE3_x83_xBC_xE3_x83_xA9_xE3_x83_xBC" kind="class"><name>コントローラー</name>
+  </compound>
+  <compound refid="d5/d8f/class_xE3_x82_xB7_xE3_x82_xA7_xE3_x83_xBC_xE3_x83_x80_xE7_xAE_xA1_xE7_x90_x86" kind="class"><name>シェーダ管理</name>
+  </compound>
+  <compound refid="d6/df0/class_xE3_x82_xB7_xE3_x83_xB3_xE3_x82_xB0_xE3_x83_xAB_xE3_x83_x88_xE3_x83_xB3" kind="class"><name>シングルトン</name>
+  </compound>
+  <compound refid="da/d79/struct_xE3_x82_xB9_xE3_x83_x86_xE3_x83_xBC_xE3_x82_xBF_xE3_x82_xB9" kind="struct"><name>ステータス</name>
+  </compound>
+  <compound refid="d2/d70/class_xE3_x82_xBF_xE3_x82_xA4_xE3_x83_x88_xE3_x83_xAB" kind="class"><name>タイトル</name>
+  </compound>
+  <compound refid="dd/d8c/class_xE3_x82_xBF_xE3_x82_xA4_xE3_x83_x9E_xE3_x83_xBC_xE5_x9F_xBA_xE5_xBA_x95" kind="class"><name>タイマー基底</name>
+  </compound>
+  <compound refid="d3/dc6/class_xE3_x83_x86_xE3_x82_xAF_xE3_x82_xB9_xE3_x83_x81_xE3_x83_xA3" kind="class"><name>テクスチャ</name>
+  </compound>
+  <compound refid="da/d8f/class_xE3_x83_x87_xE3_x83_x90_xE3_x83_x83_xE3_x82_xB0_xE3_x82_xBF_xE3_x82_xA4_xE3_x83_x9E_xE3_x83_xBC" kind="class"><name>デバッグタイマー</name>
+  </compound>
+  <compound refid="dc/d98/class_xE3_x83_x91_xE3_x83_x95_xE3_x82_xA9_xE3_x83_xBC_xE3_x83_x9E_xE3_x83_xB3_xE3_x82_xB9" kind="class"><name>パフォーマンス</name>
+  </compound>
+  <compound refid="df/dc9/class_xE3_x83_x91_xE3_x83_x95_xE3_x82_xA9_xE3_x83_xBC_xE3_x83_x9E_xE3_x83_xB3_xE3_x82_xB9_xE3_x875bd1b2277ce29c6a263e8a9ae9b799c" kind="class"><name>パフォーマンスマネージャー</name>
+  </compound>
+  <compound refid="d1/dad/class_xE3_x83_x93_xE3_x83_xAB_xE3_x83_x9C_xE3_x83_xBC_xE3_x83_x89" kind="class"><name>ビルボード</name>
+  </compound>
+  <compound refid="d5/d19/class_xE3_x83_x95_xE3_x82_xA9_xE3_x83_xB3_xE3_x83_x88_xE3_x82_xAF_xE3_x83_xA9_xE3_x82_xB9" kind="class"><name>フォントクラス</name>
+  </compound>
+  <compound refid="dd/d59/class_xE3_x83_x97_xE3_x83_xAC_xE3_x82_xA4_xE3_x83_xA4_xE3_x83_xBC" kind="class"><name>プレイヤー</name>
+  </compound>
+  <compound refid="df/d1b/class_xE3_x83_x97_xE3_x83_xAC_xE3_x82_xA4_xE3_x83_xA4_xE3_x83_xBC_xE6_x93_x8D_xE4_xBD_x9C_xE5_x9F_xBA_xE5_xBA_x95" kind="class"><name>プレイヤー操作基底</name>
+  </compound>
+  <compound refid="d5/d64/class_xE3_x83_x9E_xE3_x82_xA6_xE3_x82_xB9_xE5_x88_xB6_xE5_xBE_xA1" kind="class"><name>マウス制御</name>
+  </compound>
+  <compound refid="d8/d2f/class_xE3_x83_x9E_xE3_x83_x83_xE3_x83_x97" kind="class"><name>マップ</name>
+  </compound>
+  <compound refid="dd/dd5/class_xE3_x83_x9E_xE3_x83_x86_xE3_x83_xAA_xE3_x82_xA2_xE3_x83_xAB" kind="class"><name>マテリアル</name>
+  </compound>
+  <compound refid="d2/d9b/class_xE3_x83_xA2_xE3_x83_x87_xE3_x83_xAB_xE3_x83_x87_xE3_x83_xBC_xE3_x82_xBF" kind="class"><name>モデルデータ</name>
+  </compound>
+  <compound refid="d4/d34/struct_xE4_xB8_x89_xE8_xA7_x92_xE5_xBD_xA2" kind="struct"><name>三角形</name>
+  </compound>
+  <compound refid="d4/d48/struct_xE5_x85_x89_xE7_xB7_x9A" kind="struct"><name>光線</name>
+  </compound>
+  <compound refid="de/ded/struct_xE5_x86_x86" kind="struct"><name>円</name>
+  </compound>
+  <compound refid="d7/d7b/class_xE5_x88_x86_xE9_x9A_x8A" kind="class"><name>分隊</name>
+  </compound>
+  <compound refid="df/d62/class_xE5_x88_x86_xE9_x9A_x8A_xE7_xAE_xA1_xE7_x90_x86" kind="class"><name>分隊管理</name>
+  </compound>
+  <compound refid="d3/da4/class_xE5_x91_xB3_xE6_x96_xB9" kind="class"><name>味方</name>
+  </compound>
+  <compound refid="df/d15/class_xE5_x91_xB3_xE6_x96_xB9_xE5_x9F_xBA_xE5_xBA_x95" kind="class"><name>味方基底</name>
+  </compound>
+  <compound refid="df/d7a/class_xE5_x9F_x8E" kind="class"><name>城</name>
+  </compound>
+  <compound refid="df/d92/class_xE5_x9F_x8E_xE5_xA3_x81_xE4_xB8_x80_xE3_x81_xA4_xE5_x88_x86" kind="class"><name>城壁一つ分</name>
+  </compound>
+  <compound refid="d6/dad/struct_xE5_xB9_xB3_xE9_x9D_xA2" kind="struct"><name>平面</name>
+  </compound>
+  <compound refid="de/da2/class_xE6_x94_xBB_xE6_x92_x83_xE3_x82_xBF_xE3_x82_xA4_xE3_x83_x97_xE5_x9F_xBA_xE5_xBA_x95" kind="class"><name>攻撃タイプ基底</name>
+  </compound>
+  <compound refid="da/df1/class_xE7_x89_xA9_xE4_xBD_x93_xE3_x83_x87_xE3_x83_xBC_xE3_x82_xBF_xE3_x82_xAA_xE3_x83_x96_xE3_x8ec2332b82cff889ade5098f64c7880c4" kind="class"><name>物体データオブジェクト</name>
+  </compound>
+  <compound refid="d0/df5/struct_xE7_x90_x83" kind="struct"><name>球</name>
+  </compound>
+  <compound refid="dc/d38/struct_xE7_x9B_xB4_xE7_xB7_x9A" kind="struct"><name>直線</name>
+  </compound>
+  <compound refid="d7/d36/struct_xE7_xB7_x9A_xE5_x88_x86" kind="struct"><name>線分</name>
+  </compound>
+  <compound refid="d3/d14/class_xE8_xA1_x9D_xE7_xAA_x81_xE5_x88_xA4_xE5_xAE_x9A" kind="class"><name>衝突判定</name>
+  </compound>
+  <compound refid="d7/ddc/class_xE8_xA1_x9D_xE7_xAA_x81_xE5_x88_xA4_xE5_xAE_x9A_xE3_x82_xAF_xE3_x83_xA9_xE3_x82_xB9" kind="class"><name>衝突判定クラス</name>
+  </compound>
+  <compound refid="d3/d0e/class_xE8_xA1_x9D_xE7_xAA_x81_xE5_x88_xA4_xE5_xAE_x9A_xE3_x82_xB7_xE3_x82_xB9_xE3_x83_x86_xE3_x83_xA0" kind="class"><name>衝突判定システム</name>
+  </compound>
+  <compound refid="d8/d3f/class_xE8_xA1_x9D_xE7_xAA_x81_xE5_x88_xA4_xE5_xAE_x9A_xE7_xAE_xA1_xE7_x90_x86_xE3_x82_xAF_xE3_x83_xA9_xE3_x82_xB9" kind="class"><name>衝突判定管理クラス</name>
+  </compound>
+  <compound refid="df/d98/class_xE8_xA7_x92_xE5_xBA_xA6" kind="class"><name>角度</name>
+  </compound>
+  <compound refid="dc/d49/struct_xEF_xBC_x93_xE8_xA6_x81_xE7_xB4_xA0_xE3_x83_x99_xE3_x82_xAF_xE3_x83_x88_xE3_x83_xAB_xE6_xA7_x8B_xE9_x80_xA0_xE4_xBD_x93" kind="struct"><name>３要素ベクトル構造体</name>
+  </compound>
+  <compound refid="db/de4/struct_xEF_xBC_x94_xE8_xA6_x81_xE7_xB4_xA0_xE3_x83_x99_xE3_x82_xAF_xE3_x83_x88_xE3_x83_xAB_xE6_xA7_x8B_xE9_x80_xA0_xE4_xBD_x93" kind="struct"><name>４要素ベクトル構造体</name>
+  </compound>
+  <compound refid="da/d7f/struct_xEF_xBC_x94_xEF_xBD_x98_xEF_xBC_x94_xE8_xA1_x8C_xE5_x88_x97" kind="struct"><name>４ｘ４行列</name>
+  </compound>
+  <compound refid="d9/da2/namespace@14" kind="namespace"><name>@14</name>
+  </compound>
+  <compound refid="d6/d2d/namespace@16" kind="namespace"><name>@16</name>
+  </compound>
+  <compound refid="de/d0e/namespace@18" kind="namespace"><name>@18</name>
+  </compound>
+  <compound refid="de/da5/namespace@78" kind="namespace"><name>@78</name>
+  </compound>
+  <compound refid="d1/dbb/namespace@84" kind="namespace"><name>@84</name>
+  </compound>
+  <compound refid="d7/dbb/namespace@88" kind="namespace"><name>@88</name>
+  </compound>
+  <compound refid="d9/dc1/namespacecollision" kind="namespace"><name>collision</name>
+    <member refid="d9/dc1/namespacecollision_1ae993c2d6b1c3275b5ddbf45525d36129" kind="function"><name>getDistance</name></member>
+    <member refid="d9/dc1/namespacecollision_1ad9fbb73486f863e0bea46797d1de961a" kind="function"><name>checkHitPos</name></member>
+    <member refid="d9/dc1/namespacecollision_1a534dafd512534a0cf85cb0744f586d0e" kind="function"><name>isHit</name></member>
+    <member refid="d9/dc1/namespacecollision_1af17052aa5bca8ab9db7e4602e1185352" kind="function"><name>isHit</name></member>
+  </compound>
+  <compound refid="d8/dcc/namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="da/d0f/_ally_8cpp" kind="file"><name>Ally.cpp</name>
+  </compound>
+  <compound refid="d0/d06/_ally_8h" kind="file"><name>Ally.h</name>
+  </compound>
+  <compound refid="df/dcc/_ally_attacker_8cpp" kind="file"><name>AllyAttacker.cpp</name>
+    <member refid="df/dcc/_ally_attacker_8cpp_1ad0ccbea96f9e289b254d540802cc4df0" kind="variable"><name>myName</name></member>
+    <member refid="df/dcc/_ally_attacker_8cpp_1a7355a102d51757e1140f0a3d97fd3a6b" kind="variable"><name>myAttackName</name></member>
+    <member refid="df/dcc/_ally_attacker_8cpp_1a0bee065837962f89e4b5f2e561a51b4a" kind="function"><name>isAllyAttacker</name></member>
+    <member refid="df/dcc/_ally_attacker_8cpp_1adc675a0fc8ba05322119161d2c7960ff" kind="function"><name>isAllyAttackerAttack</name></member>
+  </compound>
+  <compound refid="d9/d97/_ally_attacker_8h" kind="file"><name>AllyAttacker.h</name>
+    <member refid="d9/d97/_ally_attacker_8h_1a228dcaaca6a8abbec5363de72d8c81e0" kind="function"><name>DEF_COL_NAME_HEADER</name></member>
+    <member refid="d9/d97/_ally_attacker_8h_1a5c5bfc1f05a900060d03cd074b4e2727" kind="function"><name>DEF_COL_ATTACK_NAME_HEADER</name></member>
+  </compound>
+  <compound refid="df/d82/_ally_deffender_8cpp" kind="file"><name>AllyDeffender.cpp</name>
+    <member refid="df/d82/_ally_deffender_8cpp_1ad0ccbea96f9e289b254d540802cc4df0" kind="variable"><name>myName</name></member>
+    <member refid="df/d82/_ally_deffender_8cpp_1a7355a102d51757e1140f0a3d97fd3a6b" kind="variable"><name>myAttackName</name></member>
+    <member refid="df/d82/_ally_deffender_8cpp_1a44cea3f0c7a216d2b1478c83dd79ba8e" kind="function"><name>isAllyDeffender</name></member>
+    <member refid="df/d82/_ally_deffender_8cpp_1a1f167ba79c276aab542880a326c2ea4c" kind="function"><name>isAllyDeffenderAttack</name></member>
+  </compound>
+  <compound refid="de/d4d/_ally_deffender_8h" kind="file"><name>AllyDeffender.h</name>
+    <member refid="de/d4d/_ally_deffender_8h_1a0c0abbfc8d25fd150ec9a5ff10ea3863" kind="function"><name>DEF_COL_NAME_HEADER</name></member>
+    <member refid="de/d4d/_ally_deffender_8h_1a8066e94335a09627e461041a6fa9d88d" kind="function"><name>DEF_COL_ATTACK_NAME_HEADER</name></member>
+  </compound>
+  <compound refid="dc/d5f/_ally_healer_8cpp" kind="file"><name>AllyHealer.cpp</name>
+    <member refid="dc/d5f/_ally_healer_8cpp_1ad0ccbea96f9e289b254d540802cc4df0" kind="variable"><name>myName</name></member>
+    <member refid="dc/d5f/_ally_healer_8cpp_1a7355a102d51757e1140f0a3d97fd3a6b" kind="variable"><name>myAttackName</name></member>
+    <member refid="dc/d5f/_ally_healer_8cpp_1a3465a42eb3af00419c3b67fcd3e610a7" kind="function"><name>isAllyHealer</name></member>
+    <member refid="dc/d5f/_ally_healer_8cpp_1a567bfe4d167f0820ea4fb9e44a9bcbe3" kind="function"><name>isAllyHealerAttack</name></member>
+  </compound>
+  <compound refid="d6/dbe/_ally_healer_8h" kind="file"><name>AllyHealer.h</name>
+    <member refid="d6/dbe/_ally_healer_8h_1a343cebad1b023ae4b145e464f2ebefb6" kind="function"><name>DEF_COL_NAME_HEADER</name></member>
+    <member refid="d6/dbe/_ally_healer_8h_1a79ea68c47f517e3ff2ae0262b4844019" kind="function"><name>DEF_COL_ATTACK_NAME_HEADER</name></member>
+  </compound>
+  <compound refid="d3/def/_bill_board_8cpp" kind="file"><name>BillBoard.cpp</name>
+  </compound>
+  <compound refid="d1/d37/_bill_board_8h" kind="file"><name>BillBoard.h</name>
+  </compound>
+  <compound refid="d1/d33/_camera_8cpp" kind="file"><name>Camera.cpp</name>
+    <member refid="d1/d33/_camera_8cpp_1ae5159cc1538f57913038bb6cbe2d8714" kind="variable"><name>debugRX</name></member>
+  </compound>
+  <compound refid="d5/d91/_camera_8h" kind="file"><name>Camera.h</name>
+  </compound>
+  <compound refid="d0/d1b/_camera_base_8cpp" kind="file"><name>CameraBase.cpp</name>
+  </compound>
+  <compound refid="db/db8/_camera_base_8h" kind="file"><name>CameraBase.h</name>
+  </compound>
+  <compound refid="d2/d8f/_camera_manager_8cpp" kind="file"><name>CameraManager.cpp</name>
+  </compound>
+  <compound refid="db/d24/_camera_manager_8h" kind="file"><name>CameraManager.h</name>
+    <member refid="db/d24/_camera_manager_8h_1ae599580d14733582aa84a591557b25c4" kind="function"><name>ICameraManager</name></member>
+  </compound>
+  <compound refid="d4/dc5/_collision_8cpp" kind="file"><name>Collision.cpp</name>
+    <member refid="d4/dc5/_collision_8cpp_1a73de0d58c080d5ce600c2d3cc3baaadb" kind="define"><name>COLLISION_DIVDE_NUM</name></member>
+    <member refid="d4/dc5/_collision_8cpp_1a7c41e677627d514b76e63c524fd90fcf" kind="function"><name>loadMQO</name></member>
+  </compound>
+  <compound refid="d9/d87/_collision_8h" kind="file"><name>Collision.h</name>
+    <member refid="d9/d87/_collision_8h_1add60e9fcb14998e17e990b4a54b4f336" kind="typedef"><name>vecCol</name></member>
+    <member refid="d9/d87/_collision_8h_1a1c711b386e73b8f5dd6ebfd2c66b513f" kind="function"><name>ISystemCollision</name></member>
+    <member refid="d9/d87/_collision_8h_1a7c41e677627d514b76e63c524fd90fcf" kind="function"><name>loadMQO</name></member>
+  </compound>
+  <compound refid="df/db7/_collision_manager_8cpp" kind="file"><name>CollisionManager.cpp</name>
+  </compound>
+  <compound refid="d7/d3e/_collision_manager_8h" kind="file"><name>CollisionManager.h</name>
+    <member refid="d7/d3e/_collision_manager_8h_1a35a6d42c21062144d4efacd4d80d05f3" kind="function"><name>ISystemCollisionManager</name></member>
+  </compound>
+  <compound refid="da/dab/_collision_wall_8cpp" kind="file"><name>CollisionWall.cpp</name>
+    <member refid="da/dab/_collision_wall_8cpp_1a0bee8c92766986e2e86a2813d17c46f0" kind="define"><name>WALL_DIVDE_NUM</name></member>
+  </compound>
+  <compound refid="df/d58/_collision_wall_8h" kind="file"><name>CollisionWall.h</name>
+  </compound>
+  <compound refid="d0/d22/_color_8cpp" kind="file"><name>Color.cpp</name>
+  </compound>
+  <compound refid="d9/df8/_color_8h" kind="file"><name>Color.h</name>
+  </compound>
+  <compound refid="d3/dec/_controller_8cpp" kind="file"><name>Controller.cpp</name>
+  </compound>
+  <compound refid="d2/d94/_controller_8h" kind="file"><name>Controller.h</name>
+  </compound>
+  <compound refid="d3/d3d/_effect_8cpp" kind="file"><name>Effect.cpp</name>
+  </compound>
+  <compound refid="dd/d44/_effect_8h" kind="file"><name>Effect.h</name>
+  </compound>
+  <compound refid="de/d34/_enemy_8cpp" kind="file"><name>Enemy.cpp</name>
+    <member refid="de/d34/_enemy_8cpp_1ad0ccbea96f9e289b254d540802cc4df0" kind="variable"><name>myName</name></member>
+    <member refid="de/d34/_enemy_8cpp_1a7355a102d51757e1140f0a3d97fd3a6b" kind="variable"><name>myAttackName</name></member>
+    <member refid="de/d34/_enemy_8cpp_1a5ad4b88a683017e65ce4e457500d0688" kind="function"><name>isEnemy</name></member>
+    <member refid="de/d34/_enemy_8cpp_1aca9d5e852d002d4ebb25a23025046fdb" kind="function"><name>isEnemyAttack</name></member>
+  </compound>
+  <compound refid="d4/d1e/_enemy_8h" kind="file"><name>Enemy.h</name>
+    <member refid="d4/d1e/_enemy_8h_1afa0777480efa1ff1e551bf5355d64e67" kind="function"><name>DEF_COL_NAME_HEADER</name></member>
+    <member refid="d4/d1e/_enemy_8h_1a6cedf8b1f05fcb373106beefb4f7454b" kind="function"><name>DEF_COL_ATTACK_NAME_HEADER</name></member>
+  </compound>
+  <compound refid="d7/db5/_game_8cpp" kind="file"><name>Game.cpp</name>
+    <member refid="d7/db5/_game_8cpp_1a8e502e90ab353b1b3d58e2554182a6ff" kind="define"><name>ENEMY_COUNT_MAX</name></member>
+    <member refid="d7/db5/_game_8cpp_1a563f90fed6bf2c3fa1cacbddeabc4dc7" kind="define"><name>ALLY_ATTACKER</name></member>
+    <member refid="d7/db5/_game_8cpp_1a4523a6651464ea22f1d6e7e728d9a19c" kind="define"><name>ALLY_DEFFENDER</name></member>
+    <member refid="d7/db5/_game_8cpp_1a925bc506a3841931fddb622e0ada9515" kind="define"><name>ALLY_COUNT_MAX</name></member>
+    <member refid="d7/db5/_game_8cpp_1a95ed564badb82d1b3d64e3e1126a7f02" kind="variable"><name>gpMouse</name></member>
+    <member refid="d7/db5/_game_8cpp_1a4ac3ed80d93cba8abf49f8ad7b1d2412" kind="variable"><name>gpCamera</name></member>
+    <member refid="d7/db5/_game_8cpp_1a3c25d5e3a9fde6d867752db4fe2035f6" kind="variable"><name>gpControl</name></member>
+    <member refid="d7/db5/_game_8cpp_1a0cbba1923f8b61dbe8606f820e8662ff" kind="variable"><name>gpFont</name></member>
+    <member refid="d7/db5/_game_8cpp_1a517ed035042b6413f27b5f186f1ea411" kind="variable"><name>gpPlayer</name></member>
+    <member refid="d7/db5/_game_8cpp_1ad881b05a6eb09ef86b09f7277f7489a4" kind="variable"><name>gpEnemy</name></member>
+    <member refid="d7/db5/_game_8cpp_1aea97e784f970bee1ff3b83eac3220c7b" kind="variable"><name>gpAlly</name></member>
+    <member refid="d7/db5/_game_8cpp_1ab3ea40ea3a0dcf193715d2f7b2f930d9" kind="variable"><name>gpMap</name></member>
+    <member refid="d7/db5/_game_8cpp_1aa313559a54b9e0e0f73e4b0c50b0e317" kind="variable"><name>gpModel</name></member>
+    <member refid="d7/db5/_game_8cpp_1ae464206797cebedcb6a03c7f23d953ca" kind="variable"><name>gpWallModel</name></member>
+    <member refid="d7/db5/_game_8cpp_1a58318dedfaf36e53a84dfe7f4a40a2e9" kind="function"><name>addAlly</name></member>
+    <member refid="d7/db5/_game_8cpp_1a57d5e9c35a9ba28093e2657854ed8e8e" kind="function"><name>GameInit</name></member>
+    <member refid="d7/db5/_game_8cpp_1ad94d99370753fc6029517835b6f2bea7" kind="function"><name>SquareFill</name></member>
+    <member refid="d7/db5/_game_8cpp_1acbeebf434cbf27adffc4a49eb6e4d1af" kind="function"><name>GameUpdate</name></member>
+    <member refid="d7/db5/_game_8cpp_1ab5013b7ae6511448edf612a2c49d7044" kind="function"><name>GameRelease</name></member>
+  </compound>
+  <compound refid="d9/dcd/_game_8h" kind="file"><name>Game.h</name>
+    <member refid="d9/dcd/_game_8h_1aefcc4fb0d1b6ca2ee5dc182586ab9ffc" kind="define"><name>CHARA_SCALE</name></member>
+    <member refid="d9/dcd/_game_8h_1a95ed564badb82d1b3d64e3e1126a7f02" kind="variable"><name>gpMouse</name></member>
+    <member refid="d9/dcd/_game_8h_1a4ac3ed80d93cba8abf49f8ad7b1d2412" kind="variable"><name>gpCamera</name></member>
+    <member refid="d9/dcd/_game_8h_1a57d5e9c35a9ba28093e2657854ed8e8e" kind="function"><name>GameInit</name></member>
+    <member refid="d9/dcd/_game_8h_1acbeebf434cbf27adffc4a49eb6e4d1af" kind="function"><name>GameUpdate</name></member>
+    <member refid="d9/dcd/_game_8h_1ab5013b7ae6511448edf612a2c49d7044" kind="function"><name>GameRelease</name></member>
+  </compound>
+  <compound refid="d8/de0/_geometry_8cpp" kind="file"><name>Geometry.cpp</name>
+  </compound>
+  <compound refid="d1/d4e/_geometry_8h" kind="file"><name>Geometry.h</name>
+  </compound>
+  <compound refid="df/d22/_g_l_font_8cpp" kind="file"><name>GLFont.cpp</name>
+  </compound>
+  <compound refid="dc/db4/_g_l_font_8h" kind="file"><name>GLFont.h</name>
+  </compound>
+  <compound refid="d4/de3/_i_obj_8cpp" kind="file"><name>IObj.cpp</name>
+  </compound>
+  <compound refid="dd/d39/_i_obj_8h" kind="file"><name>IObj.h</name>
+  </compound>
+  <compound refid="d6/d3d/_key_8cpp" kind="file"><name>Key.cpp</name>
+  </compound>
+  <compound refid="d7/dfc/_key_8h" kind="file"><name>Key.h</name>
+  </compound>
+  <compound refid="db/d86/_key_attacker_8cpp" kind="file"><name>KeyAttacker.cpp</name>
+  </compound>
+  <compound refid="d9/d42/_key_attacker_8h" kind="file"><name>KeyAttacker.h</name>
+  </compound>
+  <compound refid="d4/d84/_key_deffender_8cpp" kind="file"><name>KeyDeffender.cpp</name>
+  </compound>
+  <compound refid="d1/d11/_key_deffender_8h" kind="file"><name>KeyDeffender.h</name>
+  </compound>
+  <compound refid="d0/db0/_key_healer_8cpp" kind="file"><name>KeyHealer.cpp</name>
+  </compound>
+  <compound refid="db/d50/_key_healer_8h" kind="file"><name>KeyHealer.h</name>
+  </compound>
+  <compound refid="df/d45/_key_input_8cpp" kind="file"><name>KeyInput.cpp</name>
+  </compound>
+  <compound refid="df/d48/_key_input_8h" kind="file"><name>KeyInput.h</name>
+  </compound>
+  <compound refid="da/d1f/_land_scape_8cpp" kind="file"><name>LandScape.cpp</name>
+    <member refid="da/d1f/_land_scape_8cpp_1a49d8c3bfc8efe8d67546825968bccc0b" kind="define"><name>LANDSCAPE_DIVDE_NUM</name></member>
+  </compound>
+  <compound refid="d5/d53/_land_scape_8h" kind="file"><name>LandScape.h</name>
+  </compound>
+  <compound refid="d0/d50/_library_8cpp" kind="file"><name>Library.cpp</name>
+  </compound>
+  <compound refid="db/dfc/_library_8h" kind="file"><name>Library.h</name>
+  </compound>
+  <compound refid="d5/d12/_main_8cpp" kind="file"><name>Main.cpp</name>
+    <member refid="d5/d12/_main_8cpp_1a7a5403bafccd69256906ce5ec904493a" kind="enum"><name>SCENE_STATE</name></member>
+    <member refid="d5/d12/_main_8cpp_1a7a5403bafccd69256906ce5ec904493aa96f75e824fdc81751dcfc4f447390853" kind="enumvalue"><name>SCENE_TITLE</name></member>
+    <member refid="d5/d12/_main_8cpp_1a7a5403bafccd69256906ce5ec904493aa632ce01f7c0a512b4d5f8be8272f624f" kind="enumvalue"><name>SCENE_GAME</name></member>
+    <member refid="d5/d12/_main_8cpp_1a7a5403bafccd69256906ce5ec904493aad71aa5f676a2b9f79c71c10b8c96730a" kind="enumvalue"><name>SCENE_CLEAR</name></member>
+    <member refid="d5/d12/_main_8cpp_1a7a5403bafccd69256906ce5ec904493aa5555fd39dc6560aabe91da9fd717a017" kind="enumvalue"><name>SCENE_OVER</name></member>
+    <member refid="d5/d12/_main_8cpp_1a7a5403bafccd69256906ce5ec904493aa0f9780115a16fe78e8ea89c06b05a927" kind="enumvalue"><name>SCENE_OPTION</name></member>
+    <member refid="d5/d12/_main_8cpp_1a7a5403bafccd69256906ce5ec904493aa066e93582bfb86b71fff6fbf6789074b" kind="enumvalue"><name>SCENE_EXIT</name></member>
+    <member refid="d5/d12/_main_8cpp_1a7a5403bafccd69256906ce5ec904493aab6774426f21b9fe3b0e7d633bf9035e1" kind="enumvalue"><name>SCENE_NUM</name></member>
+    <member refid="d5/d12/_main_8cpp_1a4a1ccf24787382eb6d389a382e343c72" kind="variable"><name>ExitFlag</name></member>
+    <member refid="d5/d12/_main_8cpp_1a3c25d5e3a9fde6d867752db4fe2035f6" kind="variable"><name>gpControl</name></member>
+    <member refid="d5/d12/_main_8cpp_1a63eee66e77e31d9823817a3183ac378b" kind="variable"><name>scene</name></member>
+    <member refid="d5/d12/_main_8cpp_1a53ff4b509e10383ad1172ea09b237702" kind="variable"><name>pTitle</name></member>
+    <member refid="d5/d12/_main_8cpp_1ad7b43912ec3f3bc4d602d44ef0027f1e" kind="variable"><name>pGame</name></member>
+    <member refid="d5/d12/_main_8cpp_1a48e2c0184734db6ef7077da8cdb059df" kind="variable"><name>state</name></member>
+    <member refid="d5/d12/_main_8cpp_1a6c909238229ee53da893362ade854903" kind="variable"><name>glFps</name></member>
+    <member refid="d5/d12/_main_8cpp_1abaf54c3153a5b74b30c246280117a1ed" kind="function"><name>MouseWheel</name></member>
+    <member refid="d5/d12/_main_8cpp_1af4471fdd0c4b9ce7beb3a5e861d55bf7" kind="function"><name>exitGL</name></member>
+    <member refid="d5/d12/_main_8cpp_1a13ce7de647fe7ac2f4148cbe90df5f0d" kind="function"><name>DrawPerformance</name></member>
+    <member refid="d5/d12/_main_8cpp_1a4ea013001a5fb47853d0fab8f8de35cd" kind="function"><name>display</name></member>
+    <member refid="d5/d12/_main_8cpp_1a01131b63acf241e9db91704d89ce15d2" kind="function"><name>idle</name></member>
+    <member refid="d5/d12/_main_8cpp_1ad9cfd777bcf29b4b7b54f8992d50ebbd" kind="function"><name>Initialise</name></member>
+    <member refid="d5/d12/_main_8cpp_1a089b7398d06a65661d08354b2091265a" kind="function"><name>Timer</name></member>
+    <member refid="d5/d12/_main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="d0/d55/_main_8h" kind="file"><name>Main.h</name>
+    <member refid="d0/d55/_main_8h_1a241aeeb764887ae5e3de58b98f04b16d" kind="define"><name>WIDTH</name></member>
+    <member refid="d0/d55/_main_8h_1aed89bd71aee8be823e8a20ec4e093c1e" kind="define"><name>HEIGHT</name></member>
+    <member refid="d0/d55/_main_8h_1aa1ba8aac9fcd831012308297336ac74b" kind="typedef"><name>c8</name></member>
+    <member refid="d0/d55/_main_8h_1a151f780fb455885061d3b77ec1c90c03" kind="typedef"><name>s8</name></member>
+    <member refid="d0/d55/_main_8h_1aed742c436da53c1080638ce6ef7d13de" kind="typedef"><name>u8</name></member>
+    <member refid="d0/d55/_main_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kind="typedef"><name>s16</name></member>
+    <member refid="d0/d55/_main_8h_1a9e6c91d77e24643b888dbd1a1a590054" kind="typedef"><name>u16</name></member>
+    <member refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kind="typedef"><name>s32</name></member>
+    <member refid="d0/d55/_main_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kind="typedef"><name>u32</name></member>
+    <member refid="d0/d55/_main_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kind="typedef"><name>s64</name></member>
+    <member refid="d0/d55/_main_8h_1ad758b7a5c3f18ed79d2fcd23d9f16357" kind="typedef"><name>u64</name></member>
+    <member refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kind="typedef"><name>f32</name></member>
+    <member refid="d0/d55/_main_8h_1a94dab5770726ccbef8c7d026cfbdf8e5" kind="typedef"><name>f64</name></member>
+  </compound>
+  <compound refid="d1/dcc/_man_8cpp" kind="file"><name>Man.cpp</name>
+  </compound>
+  <compound refid="d3/da6/_man_8h" kind="file"><name>Man.h</name>
+  </compound>
+  <compound refid="db/df4/_map_8cpp" kind="file"><name>Map.cpp</name>
+    <member refid="db/df4/_map_8cpp_1ad0ccbea96f9e289b254d540802cc4df0" kind="variable"><name>myName</name></member>
+    <member refid="db/df4/_map_8cpp_1a86a7f0762a0ec2d91fcb98f31a27442f" kind="function"><name>isCastleWall</name></member>
+  </compound>
+  <compound refid="d3/d63/_map_8h" kind="file"><name>Map.h</name>
+    <member refid="d3/d63/_map_8h_1a2d72faa8e65369c9f9f4827503709948" kind="function"><name>DEF_COL_NAME_HEADER</name></member>
+  </compound>
+  <compound refid="d6/d65/_matrix_8cpp" kind="file"><name>Matrix.cpp</name>
+  </compound>
+  <compound refid="d0/d45/_matrix_8h" kind="file"><name>Matrix.h</name>
+  </compound>
+  <compound refid="d2/d31/_model_8cpp" kind="file"><name>Model.cpp</name>
+  </compound>
+  <compound refid="da/ded/_model_8h" kind="file"><name>Model.h</name>
+  </compound>
+  <compound refid="d7/d54/_mouse_8cpp" kind="file"><name>Mouse.cpp</name>
+  </compound>
+  <compound refid="d2/de3/_mouse_8h" kind="file"><name>Mouse.h</name>
+  </compound>
+  <compound refid="da/d31/_obj_base_8cpp" kind="file"><name>ObjBase.cpp</name>
+  </compound>
+  <compound refid="d3/d3e/_obj_base_8h" kind="file"><name>ObjBase.h</name>
+  </compound>
+  <compound refid="d2/d82/_player_8cpp" kind="file"><name>Player.cpp</name>
+    <member refid="d2/d82/_player_8cpp_1ad0ccbea96f9e289b254d540802cc4df0" kind="variable"><name>myName</name></member>
+    <member refid="d2/d82/_player_8cpp_1a7355a102d51757e1140f0a3d97fd3a6b" kind="variable"><name>myAttackName</name></member>
+    <member refid="d2/d82/_player_8cpp_1a75db720c2a0d690cbb63da53138a326d" kind="variable"><name>drawPointPos</name></member>
+    <member refid="d2/d82/_player_8cpp_1a42265b18da608c781bcb062e4453fa49" kind="function"><name>isPlayer</name></member>
+    <member refid="d2/d82/_player_8cpp_1af24229689ac0ca80d2d672e08718efaa" kind="function"><name>isPlayerAttack</name></member>
+  </compound>
+  <compound refid="d1/d39/_player_8h" kind="file"><name>Player.h</name>
+    <member refid="d1/d39/_player_8h_1a4017b759ef1127c7de2e44ce6d65cbf1" kind="function"><name>DEF_COL_NAME_HEADER</name></member>
+    <member refid="d1/d39/_player_8h_1ad8ec5d22ec4436f4f3f9ee4b7166c64a" kind="function"><name>DEF_COL_ATTACK_NAME_HEADER</name></member>
+  </compound>
+  <compound refid="d4/dae/_scene_game_8cpp" kind="file"><name>SceneGame.cpp</name>
+    <member refid="d4/dae/_scene_game_8cpp_1ae7107f1fae2eb31a75f0d0aaa483254b" kind="variable"><name>testMap</name></member>
+    <member refid="d4/dae/_scene_game_8cpp_1a98482bc4b86d97d0338f876a9457fe38" kind="variable"><name>updateTimer</name></member>
+    <member refid="d4/dae/_scene_game_8cpp_1a51fa5434a2cefb22169a830a25b10b11" kind="variable"><name>renderTimer</name></member>
+    <member refid="d4/dae/_scene_game_8cpp_1a8a6e6fcf72d49ec04feaac70139e50f7" kind="variable"><name>pUpdatePerformance</name></member>
+    <member refid="d4/dae/_scene_game_8cpp_1ab295331eea6874cbc1956b5ad46fbe01" kind="variable"><name>pRenderPerformance</name></member>
+  </compound>
+  <compound refid="dc/d83/_scene_game_8h" kind="file"><name>SceneGame.h</name>
+    <member refid="dc/d83/_scene_game_8h_1a8e502e90ab353b1b3d58e2554182a6ff" kind="define"><name>ENEMY_COUNT_MAX</name></member>
+    <member refid="dc/d83/_scene_game_8h_1a563f90fed6bf2c3fa1cacbddeabc4dc7" kind="define"><name>ALLY_ATTACKER</name></member>
+    <member refid="dc/d83/_scene_game_8h_1a4523a6651464ea22f1d6e7e728d9a19c" kind="define"><name>ALLY_DEFFENDER</name></member>
+    <member refid="dc/d83/_scene_game_8h_1a925bc506a3841931fddb622e0ada9515" kind="define"><name>ALLY_COUNT_MAX</name></member>
+    <member refid="dc/d83/_scene_game_8h_1aefcc4fb0d1b6ca2ee5dc182586ab9ffc" kind="define"><name>CHARA_SCALE</name></member>
+  </compound>
+  <compound refid="d1/d4c/_scene_title_8cpp" kind="file"><name>SceneTitle.cpp</name>
+    <member refid="d1/d4c/_scene_title_8cpp_1a6a78bff725c6098fcbcb9bc95a4e23b5" kind="variable"><name>ITEM_COUNT_MAX</name></member>
+    <member refid="d1/d4c/_scene_title_8cpp_1af564fad7bc318e6010fa21e677b54ed0" kind="variable"><name>isSelect</name></member>
+    <member refid="d1/d4c/_scene_title_8cpp_1a569cc1fdf51a3a24a228a962f91c7263" kind="variable"><name>TitleItemPosList</name></member>
+    <member refid="d1/d4c/_scene_title_8cpp_1a688f7e5f39113191b56d0aa4838d7922" kind="variable"><name>TitleItemString</name></member>
+  </compound>
+  <compound refid="d6/d5f/_scene_title_8h" kind="file"><name>SceneTitle.h</name>
+  </compound>
+  <compound refid="d9/dba/_singleton_8cpp" kind="file"><name>Singleton.cpp</name>
+  </compound>
+  <compound refid="de/dec/_singleton_8h" kind="file"><name>Singleton.h</name>
+  </compound>
+  <compound refid="d5/d66/_sound_player_8cpp" kind="file"><name>SoundPlayer.cpp</name>
+    <member refid="d5/d66/_sound_player_8cpp_1a77c262385bdfe8d3b6922d40bd6c2f1f" kind="variable"><name>pSystem</name></member>
+    <member refid="d5/d66/_sound_player_8cpp_1a160e97c7769608aca08050965f3d74bc" kind="variable"><name>pSound</name></member>
+    <member refid="d5/d66/_sound_player_8cpp_1ae297c0876423a7c0db9e74039b7097ef" kind="variable"><name>pChannel</name></member>
+    <member refid="d5/d66/_sound_player_8cpp_1aa8d6c121c5e33b8ff29f84f300469f24" kind="variable"><name>_version</name></member>
+    <member refid="d5/d66/_sound_player_8cpp_1a1007bad6b35af7e4d8bec703d154af8b" kind="variable"><name>pExtraDriverData</name></member>
+  </compound>
+  <compound refid="dc/d02/_sound_player_8h" kind="file"><name>SoundPlayer.h</name>
+  </compound>
+  <compound refid="d6/d39/_squad_8cpp" kind="file"><name>Squad.cpp</name>
+  </compound>
+  <compound refid="db/d9e/_squad_8h" kind="file"><name>Squad.h</name>
+  </compound>
+  <compound refid="d2/db7/_squad_manager_8cpp" kind="file"><name>SquadManager.cpp</name>
+  </compound>
+  <compound refid="da/d9b/_squad_manager_8h" kind="file"><name>SquadManager.h</name>
+    <member refid="da/d9b/_squad_manager_8h_1ae063abd130187caa02a5358a803c1970" kind="function"><name>ISquadManager</name></member>
+  </compound>
+  <compound refid="d2/d69/_status_8cpp" kind="file"><name>Status.cpp</name>
+    <member refid="d2/d69/_status_8cpp_1a2c2b09c8a36c04e2a6c0f583fe8c553b" kind="function"><name>drawTexture2D</name></member>
+  </compound>
+  <compound refid="d3/ddd/_status_8h" kind="file"><name>Status.h</name>
+  </compound>
+  <compound refid="d8/de5/_system_8cpp" kind="file"><name>System.cpp</name>
+    <member refid="d8/de5/_system_8cpp_1a266360ae47bdbc184ec9986ba9409c0b" kind="function"><name>TO_RADIAN</name></member>
+    <member refid="d8/de5/_system_8cpp_1a32cbba7683ec3c5a8c25e5a7396ccf15" kind="function"><name>TO_DEGREE</name></member>
+    <member refid="d8/de5/_system_8cpp_1acaf4aa7f4af8905e6af8409d438cdbae" kind="function"><name>LinearInterpolation</name></member>
+    <member refid="d8/de5/_system_8cpp_1a277688499453031c044d4f913a9e4ebe" kind="function"><name>setBlendMode</name></member>
+    <member refid="d8/de5/_system_8cpp_1a021fe70824954a3b66a929ac363988da" kind="function"><name>getGLFps</name></member>
+    <member refid="d8/de5/_system_8cpp_1addf84914650715cdc37101f0cdbb62fd" kind="function"><name>render_string</name></member>
+    <member refid="d8/de5/_system_8cpp_1a8490eaf01d7201b54121f8be681401e5" kind="function"><name>DebugPointRender</name></member>
+  </compound>
+  <compound refid="df/d78/_system_8h" kind="file"><name>System.h</name>
+    <member refid="df/d78/_system_8h_1afa6e053d9231a7eeb41a71de6c938bde" kind="define"><name>DEF_COL_NAME</name></member>
+    <member refid="df/d78/_system_8h_1ab8184bc6a23047649b3e1fbd2cd09ecb" kind="define"><name>DEF_COL_NAME_HEADER</name></member>
+    <member refid="df/d78/_system_8h_1aabcd1a642627c84801831e696daffcad" kind="define"><name>DEF_COL_ATTACK_NAME</name></member>
+    <member refid="df/d78/_system_8h_1a0aa41b4084df36f22f61834a3774cddb" kind="define"><name>DEF_COL_ATTACK_NAME_HEADER</name></member>
+    <member refid="df/d78/_system_8h_1aa034b11c7e1268e84fe133233afdf1c2" kind="enum"><name>BLEND_MODE</name></member>
+    <member refid="df/d78/_system_8h_1aa034b11c7e1268e84fe133233afdf1c2aab7041f3706bde3b1572c4d2d0b18583" kind="enumvalue"><name>BM_NONE</name></member>
+    <member refid="df/d78/_system_8h_1aa034b11c7e1268e84fe133233afdf1c2aa4b5f56689268250b8e5eb291ecd7352" kind="enumvalue"><name>BM_BLEND</name></member>
+    <member refid="df/d78/_system_8h_1aa034b11c7e1268e84fe133233afdf1c2aa66971ef5a43bb7b8914143d08dc33d2" kind="enumvalue"><name>BM_ADD</name></member>
+    <member refid="df/d78/_system_8h_1a266360ae47bdbc184ec9986ba9409c0b" kind="function"><name>TO_RADIAN</name></member>
+    <member refid="df/d78/_system_8h_1a32cbba7683ec3c5a8c25e5a7396ccf15" kind="function"><name>TO_DEGREE</name></member>
+    <member refid="df/d78/_system_8h_1acaf4aa7f4af8905e6af8409d438cdbae" kind="function"><name>LinearInterpolation</name></member>
+    <member refid="df/d78/_system_8h_1a021fe70824954a3b66a929ac363988da" kind="function"><name>getGLFps</name></member>
+    <member refid="df/d78/_system_8h_1addf84914650715cdc37101f0cdbb62fd" kind="function"><name>render_string</name></member>
+    <member refid="df/d78/_system_8h_1a277688499453031c044d4f913a9e4ebe" kind="function"><name>setBlendMode</name></member>
+    <member refid="df/d78/_system_8h_1a8490eaf01d7201b54121f8be681401e5" kind="function"><name>DebugPointRender</name></member>
+    <member refid="df/d78/_system_8h_1afdfe25c0e9b762d3b7588d3d9916faa9" kind="function"><name>SAFE_NEW</name></member>
+    <member refid="df/d78/_system_8h_1a6cba00ea12abc56c4be3cdc3d97c87b0" kind="function"><name>SAFE_DELETE</name></member>
+  </compound>
+  <compound refid="dd/dc2/_system_shader_8cpp" kind="file"><name>SystemShader.cpp</name>
+  </compound>
+  <compound refid="dd/d98/_system_shader_8h" kind="file"><name>SystemShader.h</name>
+    <member refid="dd/d98/_system_shader_8h_1a55abfa27d3a36e0fcb62aa3265133c3c" kind="function"><name>ISystemShader</name></member>
+  </compound>
+  <compound refid="da/d26/_texture_8cpp" kind="file"><name>Texture.cpp</name>
+    <member refid="da/d26/_texture_8cpp_1a1137ad8b0b8180b2d599521029860876" kind="function"><name>loadTGA</name></member>
+  </compound>
+  <compound refid="de/dbf/_texture_8h" kind="file"><name>Texture.h</name>
+  </compound>
+  <compound refid="d8/d77/_timer_8cpp" kind="file"><name>Timer.cpp</name>
+  </compound>
+  <compound refid="d5/d29/_timer_8h" kind="file"><name>Timer.h</name>
+    <member refid="d5/d29/_timer_8h_1a8f27c79337f6645726bceac40daf740d" kind="function"><name>IPerformanceManager</name></member>
+  </compound>
+  <compound refid="d6/d4f/_vector_8cpp" kind="file"><name>Vector.cpp</name>
+  </compound>
+  <compound refid="d4/d7f/_vector_8h" kind="file"><name>Vector.h</name>
+    <member refid="d4/d7f/_vector_8h_1a560a2f8c6d0a1624930a29e3dc348ec5" kind="variable"><name>PI</name></member>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src</name>
+  </compound>
+</doxygenindex>

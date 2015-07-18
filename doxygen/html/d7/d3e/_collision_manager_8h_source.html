@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>myGame: E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CollisionManager.h ソースファイル</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">myGame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>メインページ</span></a></li>
+      <li><a href="../../namespaces.html"><span>ネームスペース</span></a></li>
+      <li><a href="../../annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="../../files.html"><span>ファイル</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="../../globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">CollisionManager.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d7/d3e/_collision_manager_8h.html">説明を見る。</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../df/d14/class_collision_manager.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../df/d14/class_collision_manager.html">CollisionManager</a> : <span class="keyword">public</span> <a class="code" href="../../d3/dbc/class_singleton.html">Singleton</a>&lt;CollisionManager&gt;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../df/d14/class_collision_manager.html#a81f0b3f0cc0268c80f54714cd7ddb55f">   22</a></span>&#160;    <a class="code" href="../../df/d14/class_collision_manager.html#a81f0b3f0cc0268c80f54714cd7ddb55f">CollisionManager</a>()</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="../../df/d14/class_collision_manager.html#a2c5770b90b7a46a5674df008a7a57145">Init</a>();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../df/d14/class_collision_manager.html#a2c5770b90b7a46a5674df008a7a57145">   28</a></span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="../../df/d14/class_collision_manager.html#a2c5770b90b7a46a5674df008a7a57145">Init</a>()</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        _nowIndex = 0;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="comment">// 全初期化</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">for</span>( <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> i=0; i&lt;LIST_MAX; ++i )</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            _collisionList[i] = NULL;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        }</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="../../df/d14/class_collision_manager.html#aea854ed318c39ba12803071813d20319">Regist</a>(<a class="code" href="../../df/dc6/class_collision.html">Collision</a>* regist);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="../../df/d14/class_collision_manager.html#a23ae00ba7f592d6029d3bb16b0bc0100">UnRegist</a>(<a class="code" href="../../df/dc6/class_collision.html">Collision</a>* regist);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="../../df/d14/class_collision_manager.html#a23c21d077dbfd7ca86e7c0649d775dfc">Update</a>();</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">//list&lt;Collision*&gt;  _collisionList;</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> LIST_MAX = 300;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="../../df/dc6/class_collision.html">Collision</a>*      _collisionList[LIST_MAX];</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>             _nowIndex;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;};</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">// アクセスインターフェイス</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;__forceinline</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="../../d7/d3e/_collision_manager_8h.html#a35a6d42c21062144d4efacd4d80d05f3">   64</a></span>&#160;<a class="code" href="../../df/d14/class_collision_manager.html">CollisionManager</a>*   <a class="code" href="../../d7/d3e/_collision_manager_8h.html#a35a6d42c21062144d4efacd4d80d05f3">ISystemCollisionManager</a>()</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;{</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/dbc/class_singleton.html#ad6f103597095efda360db4a230308666">CollisionManager::getInstance</a>();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">//  END OF FILE</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="ttc" id="class_collision_manager_html_a23ae00ba7f592d6029d3bb16b0bc0100"><div class="ttname"><a href="../../df/d14/class_collision_manager.html#a23ae00ba7f592d6029d3bb16b0bc0100">CollisionManager::UnRegist</a></div><div class="ttdeci">void UnRegist(Collision *regist)</div><div class="ttdoc">解除 </div><div class="ttdef"><b>Definition:</b> CollisionManager.cpp:35</div></div>
+<div class="ttc" id="class_singleton_html"><div class="ttname"><a href="../../d3/dbc/class_singleton.html">Singleton</a></div><div class="ttdef"><b>Definition:</b> Singleton.h:13</div></div>
+<div class="ttc" id="class_singleton_html_ad6f103597095efda360db4a230308666"><div class="ttname"><a href="../../d3/dbc/class_singleton.html#ad6f103597095efda360db4a230308666">Singleton&lt; CollisionManager &gt;::getInstance</a></div><div class="ttdeci">static CollisionManager * getInstance()</div><div class="ttdoc">唯一のインスタンス獲得 </div><div class="ttdef"><b>Definition:</b> Singleton.h:32</div></div>
+<div class="ttc" id="class_collision_manager_html"><div class="ttname"><a href="../../df/d14/class_collision_manager.html">CollisionManager</a></div><div class="ttdef"><b>Definition:</b> CollisionManager.h:13</div></div>
+<div class="ttc" id="class_collision_manager_html_a81f0b3f0cc0268c80f54714cd7ddb55f"><div class="ttname"><a href="../../df/d14/class_collision_manager.html#a81f0b3f0cc0268c80f54714cd7ddb55f">CollisionManager::CollisionManager</a></div><div class="ttdeci">CollisionManager()</div><div class="ttdoc">デフォルトコンストラクタ </div><div class="ttdef"><b>Definition:</b> CollisionManager.h:22</div></div>
+<div class="ttc" id="class_collision_manager_html_a23c21d077dbfd7ca86e7c0649d775dfc"><div class="ttname"><a href="../../df/d14/class_collision_manager.html#a23c21d077dbfd7ca86e7c0649d775dfc">CollisionManager::Update</a></div><div class="ttdeci">void Update()</div><div class="ttdoc">更新 </div><div class="ttdef"><b>Definition:</b> CollisionManager.cpp:63</div></div>
+<div class="ttc" id="class_collision_html"><div class="ttname"><a href="../../df/dc6/class_collision.html">Collision</a></div><div class="ttdef"><b>Definition:</b> Collision.h:14</div></div>
+<div class="ttc" id="class_collision_manager_html_aea854ed318c39ba12803071813d20319"><div class="ttname"><a href="../../df/d14/class_collision_manager.html#aea854ed318c39ba12803071813d20319">CollisionManager::Regist</a></div><div class="ttdeci">void Regist(Collision *regist)</div><div class="ttdoc">登録 </div><div class="ttdef"><b>Definition:</b> CollisionManager.cpp:22</div></div>
+<div class="ttc" id="_main_8h_html_a0ce6887c26c1c49ad3be5710dd42bfd6"><div class="ttname"><a href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a></div><div class="ttdeci">signed int s32</div><div class="ttdoc">符号あり32bit整数 </div><div class="ttdef"><b>Definition:</b> Main.h:64</div></div>
+<div class="ttc" id="_collision_manager_8h_html_a35a6d42c21062144d4efacd4d80d05f3"><div class="ttname"><a href="../../d7/d3e/_collision_manager_8h.html#a35a6d42c21062144d4efacd4d80d05f3">ISystemCollisionManager</a></div><div class="ttdeci">__forceinline CollisionManager * ISystemCollisionManager()</div><div class="ttdef"><b>Definition:</b> CollisionManager.h:64</div></div>
+<div class="ttc" id="class_collision_manager_html_a2c5770b90b7a46a5674df008a7a57145"><div class="ttname"><a href="../../df/d14/class_collision_manager.html#a2c5770b90b7a46a5674df008a7a57145">CollisionManager::Init</a></div><div class="ttdeci">void Init()</div><div class="ttdoc">初期化 </div><div class="ttdef"><b>Definition:</b> CollisionManager.h:28</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+myGameに対してSun Oct 13 2013 20:58:05に生成されました。 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="df/d69/class_ally_healer" kind="class" prot="public">
+    <compoundname>AllyHealer</compoundname>
+    <basecompoundref refid="dd/d54/class_ally_base" prot="public" virt="non-virtual">AllyBase</basecompoundref>
+    <includes refid="d6/dbe/_ally_healer_8h" local="no">AllyHealer.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d69/class_ally_healer_1a7d6842f1f2ffd2c76b7377963f5a609c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AllyHealer::AllyHealer</definition>
+        <argsstring>()</argsstring>
+        <name>AllyHealer</name>
+        <briefdescription>
+<para>コンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.h" line="20" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp" bodystart="15" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d69/class_ally_healer_1a7bbf70f818b82171e2224d83729d20a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>AllyHealer::~AllyHealer</definition>
+        <argsstring>()</argsstring>
+        <name>~AllyHealer</name>
+        <briefdescription>
+<para>デストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.h" line="22" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp" bodystart="47" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d69/class_ally_healer_1a657b123a6d4a90e1f21ac8d88a90e4c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool AllyHealer::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <reimplements refid="dd/d54/class_ally_base_1a8deb60628340c7a2567fda3bd54ac967">Initialize</reimplements>
+        <briefdescription>
+<para>初期化 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.h" line="25" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp" bodystart="56" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d69/class_ally_healer_1a24604a4c5c8d922833721a94d2edc04c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AllyHealer::Update</definition>
+        <argsstring>(const Player::COMMAND &amp;_playerCommand, Vector3 &amp;goalPos, Vector3 &amp;playerPos)</argsstring>
+        <name>Update</name>
+        <reimplements refid="dd/d54/class_ally_base_1ad0e5ffbd4082605a9db1f81f8a4724bc">Update</reimplements>
+        <param>
+          <type>const <ref refid="d8/d53/class_player_1a70057174eaea9fd441ca86cc7bb896ed" kindref="member">Player::COMMAND</ref> &amp;</type>
+          <declname>_playerCommand</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>goalPos</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>playerPos</declname>
+        </param>
+        <briefdescription>
+<para>更新 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.h" line="27" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d69/class_ally_healer_1a9ddce68a7c042137a3cc459e61a60104" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AllyHealer::UpdateByCommand</definition>
+        <argsstring>(const Player::COMMAND &amp;_playerCommand, Vector3 &amp;goalPos, Vector3 &amp;playerPos)</argsstring>
+        <name>UpdateByCommand</name>
+        <reimplements refid="dd/d54/class_ally_base_1a96371430d8037793f7bd4b3a75d8c136">UpdateByCommand</reimplements>
+        <param>
+          <type>const <ref refid="d8/d53/class_player_1a70057174eaea9fd441ca86cc7bb896ed" kindref="member">Player::COMMAND</ref> &amp;</type>
+          <declname>_playerCommand</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>goalPos</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>playerPos</declname>
+        </param>
+        <briefdescription>
+<para>命令時の更新 </para>        </briefdescription>
+        <detaileddescription>
+<para>更新(コマンドによって変わる) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.h" line="31" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp" bodystart="76" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d69/class_ally_healer_1aca96222aed49e55506bed0811fac14da" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AllyHealer::UpdateNormal</definition>
+        <argsstring>(Vector3 &amp;player)</argsstring>
+        <name>UpdateNormal</name>
+        <reimplements refid="dd/d54/class_ally_base_1a7ab6832753de076894761ce58389ef7c">UpdateNormal</reimplements>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>player</declname>
+        </param>
+        <briefdescription>
+<para>プレイヤーの周りに常にいる </para>        </briefdescription>
+        <detaileddescription>
+<para>更新(プレイヤーの周りに常にいる) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.h" line="35" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp" bodystart="109" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d69/class_ally_healer_1a38855aeb63c4f19b2a5cbfdb7a3836b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AllyHealer::Render</definition>
+        <argsstring>()</argsstring>
+        <name>Render</name>
+        <reimplements refid="dd/d54/class_ally_base_1aadfd770043d90b11986181a75ad2e32d">Render</reimplements>
+        <briefdescription>
+<para>描画 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.h" line="38" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp" bodystart="140" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="77">
+        <label>IObj</label>
+        <link refid="da/d94/class_i_obj"/>
+      </node>
+      <node id="75">
+        <label>Man</label>
+        <link refid="da/d50/class_man"/>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>AllyHealer</label>
+        <link refid="df/d69/class_ally_healer"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>AllyBase</label>
+        <link refid="dd/d54/class_ally_base"/>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>CollisionObject</label>
+        <link refid="d3/d62/class_collision_object"/>
+      </node>
+      <node id="76">
+        <label>ObjBase</label>
+        <link refid="dc/d24/class_obj_base"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="91">
+        <label>Status</label>
+        <link refid="df/df2/struct_status"/>
+        <childnode refid="92" relation="usage">
+          <edgelabel>_GaugeBoard</edgelabel>
+        </childnode>
+      </node>
+      <node id="83">
+        <label>IObj</label>
+        <link refid="da/d94/class_i_obj"/>
+      </node>
+      <node id="90">
+        <label>IKey</label>
+        <link refid="d1/d71/class_i_key"/>
+      </node>
+      <node id="81">
+        <label>Man</label>
+        <link refid="da/d50/class_man"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+        <childnode refid="87" relation="usage">
+          <edgelabel>_myCollision</edgelabel>
+        </childnode>
+        <childnode refid="88" relation="usage">
+          <edgelabel>_model</edgelabel>
+        </childnode>
+        <childnode refid="86" relation="usage">
+          <edgelabel>_attackPosition</edgelabel>
+        </childnode>
+        <childnode refid="89" relation="usage">
+          <edgelabel>_key</edgelabel>
+        </childnode>
+        <childnode refid="85" relation="usage">
+          <edgelabel>_attackSphere</edgelabel>
+        </childnode>
+        <childnode refid="91" relation="usage">
+          <edgelabel>_myStatus</edgelabel>
+        </childnode>
+      </node>
+      <node id="79">
+        <label>AllyHealer</label>
+        <link refid="df/d69/class_ally_healer"/>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>AllyBase</label>
+        <link refid="dd/d54/class_ally_base"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+        <childnode refid="87" relation="usage">
+          <edgelabel>_attackCollision</edgelabel>
+        </childnode>
+        <childnode refid="86" relation="usage">
+          <edgelabel>_leaderPos</edgelabel>
+          <edgelabel>_DebugGoalPos</edgelabel>
+        </childnode>
+      </node>
+      <node id="89">
+        <label>KeyBase</label>
+        <link refid="dd/d2e/class_key_base"/>
+        <childnode refid="90" relation="public-inheritance">
+        </childnode>
+        <childnode refid="86" relation="usage">
+          <edgelabel>_movVector</edgelabel>
+          <edgelabel>_playerPos</edgelabel>
+          <edgelabel>_targetPos</edgelabel>
+          <edgelabel>_stickVector</edgelabel>
+          <edgelabel>_myPos</edgelabel>
+        </childnode>
+      </node>
+      <node id="84">
+        <label>CollisionObject</label>
+        <link refid="d3/d62/class_collision_object"/>
+        <childnode refid="85" relation="usage">
+          <edgelabel>_hitSphere</edgelabel>
+        </childnode>
+      </node>
+      <node id="82">
+        <label>ObjBase</label>
+        <link refid="dc/d24/class_obj_base"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+        <childnode refid="86" relation="usage">
+          <edgelabel>_rotation</edgelabel>
+          <edgelabel>_mov</edgelabel>
+          <edgelabel>_position</edgelabel>
+          <edgelabel>_hitPosition</edgelabel>
+        </childnode>
+      </node>
+      <node id="92">
+        <label>BillBoard</label>
+        <link refid="dd/d4c/class_bill_board"/>
+      </node>
+      <node id="87">
+        <label>Collision</label>
+        <link refid="df/dc6/class_collision"/>
+      </node>
+      <node id="85">
+        <label>Sphere</label>
+        <link refid="db/da7/struct_sphere"/>
+      </node>
+      <node id="88">
+        <label>Model</label>
+        <link refid="d0/de3/class_model"/>
+      </node>
+      <node id="86">
+        <label>Vector3</label>
+        <link refid="d0/de3/struct_vector3"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.h" line="17" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.h" bodystart="16" bodyend="39"/>
+    <listofallmembers>
+      <member refid="dd/d54/class_ally_base_1aa50dc4d93b0aec2d2ee68eb413099bee" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_attackCollision</name></member>
+      <member refid="da/d50/class_man_1aef1a7ce26d3f34dc162e49a392df1088" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_attackOffsetRange</name></member>
+      <member refid="da/d50/class_man_1a0df920254c02bae445db9f3a896e3986" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_attackPosition</name></member>
+      <member refid="da/d50/class_man_1a132be4c780976f644274832498b3e84e" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_attackRadius</name></member>
+      <member refid="da/d50/class_man_1a3479373b377a9d008410d94e16112897" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_attackRadNum</name></member>
+      <member refid="da/d50/class_man_1a904eaf8909829ca908e6c2fad0e4f0b1" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_attackSphere</name></member>
+      <member refid="dd/d54/class_ally_base_1af86598e67ba582fac7383caee977458d" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_DebugGoalPos</name></member>
+      <member refid="da/d50/class_man_1a2bf56500306d81e049788a83604cd723" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_height</name></member>
+      <member refid="da/d50/class_man_1a5021ebc7e4ff19d3620f51ccc22d9c6b" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_hitAttack</name></member>
+      <member refid="da/d50/class_man_1a1761302b9ee56b5ea67ff85a6b1c7804" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_hitGround</name></member>
+      <member refid="da/d50/class_man_1acaae84d59d74953ebb8cd7b09e5faaf0" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_hitObj</name></member>
+      <member refid="dc/d24/class_obj_base_1a6758eebc53b693f76fc11f0a8eb436be" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_hitPosition</name></member>
+      <member refid="dc/d24/class_obj_base_1a0144260d49b5e7d12522c3f71bf2414c" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_hitRadius</name></member>
+      <member refid="d3/d62/class_collision_object_1afd1c8612ad380f08cf3f2a5bf4b3daab" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_hitSphere</name></member>
+      <member refid="da/d50/class_man_1a5b9699d0abb401113a8feef81b515647" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_isAttack</name></member>
+      <member refid="da/d50/class_man_1adf303aeded2c5094c246d45edd2be7a6" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_isJump</name></member>
+      <member refid="da/d50/class_man_1ac2efd76a0685583f4faad618b4961542" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_key</name></member>
+      <member refid="dd/d54/class_ally_base_1a645bdf98a2819d860f30637ffa82fe35" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_leaderPos</name></member>
+      <member refid="da/d50/class_man_1a0e9a8437e880e5bc17ca83a89b0a716d" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_model</name></member>
+      <member refid="dc/d24/class_obj_base_1a510356ecd15d213ac818b836f9b25cca" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_mov</name></member>
+      <member refid="da/d50/class_man_1af9bbaacbb75df8c52d44133df86b3778" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_myCollision</name></member>
+      <member refid="da/d50/class_man_1ab8554a2b8918e3da6067fbf5ec4d2585" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_myLandScapleGridNum</name></member>
+      <member refid="da/d50/class_man_1ae884f4872be46582eac86e05d47ac52f" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_myStatus</name></member>
+      <member refid="dc/d24/class_obj_base_1a686e86c74461bf6cea312434796a57ce" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_position</name></member>
+      <member refid="dc/d24/class_obj_base_1a6f8144cf79c29670f6697833c021dd06" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_radius</name></member>
+      <member refid="dc/d24/class_obj_base_1a7f5b5aa7c370afcc110a6bf571f45375" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_rotation</name></member>
+      <member refid="da/d50/class_man_1ab6179d5c87983400d4d6cdd7d0163d86" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_speed</name></member>
+      <member refid="dd/d54/class_ally_base_1a404a0b9f3665f8428e8f4605c11b4aa8" prot="protected" virt="non-virtual"><scope>AllyHealer</scope><name>_type</name></member>
+      <member refid="dd/d54/class_ally_base_1a17d06a89e920ac54909e291c3a485b6f" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>AllyBase</name></member>
+      <member refid="df/d69/class_ally_healer_1a7d6842f1f2ffd2c76b7377963f5a609c" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>AllyHealer</name></member>
+      <member refid="da/d50/class_man_1a3399a4016d8bc3f13a50041b4b03193a" prot="protected" virt="virtual"><scope>AllyHealer</scope><name>Attack</name></member>
+      <member refid="dd/d54/class_ally_base_1a415be0ac5999cacff3c36db435115e91a570b1a3bd521dc38c4ee18ac9e64cb17" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>ATTACKER</name></member>
+      <member refid="d3/d62/class_collision_object_1ac9677c53a2edb172dca4703e759379bf" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>CollisionObject</name></member>
+      <member refid="d3/d62/class_collision_object_1ab2891150c91ae9267f846449ebe3c709" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>CollisionObject</name></member>
+      <member refid="da/d50/class_man_1a05ad50f87c07dd8f64a832388246e6e6" prot="protected" virt="virtual"><scope>AllyHealer</scope><name>Damage</name></member>
+      <member refid="dd/d54/class_ally_base_1a76b3e01b0d3ad523947f5c1d480c211e" prot="public" virt="virtual"><scope>AllyHealer</scope><name>DebugRender</name></member>
+      <member refid="dd/d54/class_ally_base_1a415be0ac5999cacff3c36db435115e91ac3e02201ee59a640522f3a01d307cc9f" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>DEFFENDER</name></member>
+      <member refid="dd/d54/class_ally_base_1a415be0ac5999cacff3c36db435115e91af47de2a600a689cc5c0275428a148e60" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>FEINTER</name></member>
+      <member refid="da/d50/class_man_1ad547da782e80d85e048da7dc43722c5b" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>getAttackPosition</name></member>
+      <member refid="da/d50/class_man_1ad70958fa74261ddfab75826a7c5df47b" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>getAttackRadius</name></member>
+      <member refid="da/d50/class_man_1ad15b88273b6cb08c5d24391ccb7b27f9" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>getAttackSphere</name></member>
+      <member refid="da/d50/class_man_1aa48106fafd47b8b1099be41963c9dc5b" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>getHitAttack</name></member>
+      <member refid="da/d50/class_man_1ac68419faa2b82119da5d2c8fdd9e5699" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>getHitObj</name></member>
+      <member refid="dc/d24/class_obj_base_1aadebcb51462e8afc1313a70d1b9e7876" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>getHitPosition</name></member>
+      <member refid="dc/d24/class_obj_base_1ae804330778801e616d570a556c2d80ed" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>getHitRadius</name></member>
+      <member refid="d3/d62/class_collision_object_1afba2c3a210f9c209e37f1d1b902e23b8" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>getHitSphere</name></member>
+      <member refid="da/d50/class_man_1ac57d74d748cbc039e970c1f5fb98140a" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>getisAttack</name></member>
+      <member refid="dc/d24/class_obj_base_1a14f5da5ba7748f44aec4e398a143c8cd" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>getMov</name></member>
+      <member refid="dc/d24/class_obj_base_1aaf39427e88188735373b4ac1cc0f30b3" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>getPosition</name></member>
+      <member refid="dc/d24/class_obj_base_1ae92b3cfdad5e400686aab1c24c916921" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>getRadius</name></member>
+      <member refid="dc/d24/class_obj_base_1ad24f6c206c4b736eae5476b50f23f377" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>getRotation</name></member>
+      <member refid="da/d50/class_man_1a60341fe647e8671b969c61f6d702a26e" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>getStatus</name></member>
+      <member refid="dd/d54/class_ally_base_1a9c3306fa9eafbe909e733d4bf109416e" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>getType</name></member>
+      <member refid="da/d50/class_man_1a2ce2bab28ed38e2f816be1c560b18462" prot="public" virt="non-virtual" ambiguityscope="Man::"><scope>AllyHealer</scope><name>getType</name></member>
+      <member refid="dd/d54/class_ally_base_1a415be0ac5999cacff3c36db435115e91ad206186da211264935f86a0f6a890145" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>HEALLER</name></member>
+      <member refid="df/d69/class_ally_healer_1a657b123a6d4a90e1f21ac8d88a90e4c4" prot="public" virt="virtual"><scope>AllyHealer</scope><name>Initialize</name></member>
+      <member refid="d3/d62/class_collision_object_1a2574ee166a554985f4ea60ddd57f27db" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>isHitObj</name></member>
+      <member refid="d3/d62/class_collision_object_1ab006cfd3dc853eda7729a7b7e07a1d25" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>isHitSphere</name></member>
+      <member refid="da/d50/class_man_1a5ba5575d82480b8d414376b40dffc1e3" prot="protected" virt="virtual"><scope>AllyHealer</scope><name>Jump</name></member>
+      <member refid="da/d50/class_man_1a051ab47a531f9b88d602d1ded39a12ce" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>Man</name></member>
+      <member refid="dd/d54/class_ally_base_1a415be0ac5999cacff3c36db435115e91a2c4893a235c95170de62123fc3817485" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>MAX</name></member>
+      <member refid="dc/d24/class_obj_base_1ab7a2f2e63f2ef5c735faad622399d4dc" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>ObjBase</name></member>
+      <member refid="df/d69/class_ally_healer_1a38855aeb63c4f19b2a5cbfdb7a3836b6" prot="public" virt="virtual"><scope>AllyHealer</scope><name>Render</name></member>
+      <member refid="dd/d54/class_ally_base_1a1ebb65212a5825c9a0894b008b19dfd3" prot="public" virt="virtual"><scope>AllyHealer</scope><name>ResetPosition</name></member>
+      <member refid="da/d50/class_man_1a7dc9b3601c7808edcbdcd42973185797" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>setHitAttack</name></member>
+      <member refid="da/d50/class_man_1afda6e5985073544617c174cc77c0877b" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>setHitObj</name></member>
+      <member refid="dd/d54/class_ally_base_1a56952ebd77a64f24691d36e10db0abf5" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>setLeaderPos</name></member>
+      <member refid="da/d50/class_man_1a8815ca1006f5aaa8d2273f3e4dde6739" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>setPosition</name></member>
+      <member refid="d3/d62/class_collision_object_1a8a9ad3b2608c2737c2bc69a2b2791094" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>setSphereParam</name></member>
+      <member refid="dd/d54/class_ally_base_1a273efbd74be3780208b5c70cd80a1111" prot="public" virt="virtual"><scope>AllyHealer</scope><name>StatusRender</name></member>
+      <member refid="da/d50/class_man_1ac1011efd52b90022fb3f7d1b9a3710f9" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>toHitPosition</name></member>
+      <member refid="da/d50/class_man_1a9087121fafce35e0c26656113d22b66c" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>toPosition</name></member>
+      <member refid="dd/d54/class_ally_base_1a415be0ac5999cacff3c36db435115e91" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>TYPE</name></member>
+      <member refid="da/d50/class_man_1af2f4c50db54b697f45e30dd4161d0d7ca732a9be8100053674a530fb2bdac88f2" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>TYPE_ALLY</name></member>
+      <member refid="da/d50/class_man_1af2f4c50db54b697f45e30dd4161d0d7caf6fc26730ecb44acc87edef3f3b752d8" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>TYPE_ENEMY</name></member>
+      <member refid="da/d50/class_man_1af2f4c50db54b697f45e30dd4161d0d7cada6e6038f584f5ccbde9f530082f393d" prot="public" virt="non-virtual"><scope>AllyHealer</scope><name>TYPE_PLAYER</name></member>
+      <member refid="df/d69/class_ally_healer_1a24604a4c5c8d922833721a94d2edc04c" prot="public" virt="virtual"><scope>AllyHealer</scope><name>Update</name></member>
+      <member refid="da/d50/class_man_1aadef07ec563fbabf2afbd9ea15558c91" prot="public" virt="virtual" ambiguityscope="Man::"><scope>AllyHealer</scope><name>Update</name></member>
+      <member refid="df/d69/class_ally_healer_1a9ddce68a7c042137a3cc459e61a60104" prot="public" virt="virtual"><scope>AllyHealer</scope><name>UpdateByCommand</name></member>
+      <member refid="df/d69/class_ally_healer_1aca96222aed49e55506bed0811fac14da" prot="public" virt="virtual"><scope>AllyHealer</scope><name>UpdateNormal</name></member>
+      <member refid="dd/d54/class_ally_base_1ac2f1c59ac703ccb4352ceb4e1805122e" prot="public" virt="virtual"><scope>AllyHealer</scope><name>~AllyBase</name></member>
+      <member refid="df/d69/class_ally_healer_1a7bbf70f818b82171e2224d83729d20a3" prot="public" virt="virtual"><scope>AllyHealer</scope><name>~AllyHealer</name></member>
+      <member refid="da/d50/class_man_1aaaaf60a8e06cb3f81fd1cada9961e7fa" prot="public" virt="virtual"><scope>AllyHealer</scope><name>~Man</name></member>
+      <member refid="dc/d24/class_obj_base_1a54ccb5455d3deacd3d342b09f7965bbc" prot="public" virt="virtual"><scope>AllyHealer</scope><name>~ObjBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

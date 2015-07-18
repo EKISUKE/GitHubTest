@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d3/d62/class_collision_object" kind="class" prot="public">
+    <compoundname>CollisionObject</compoundname>
+    <derivedcompoundref refid="d5/d6f/class_castle_wall" prot="public" virt="non-virtual">CastleWall</derivedcompoundref>
+    <derivedcompoundref refid="dc/d24/class_obj_base" prot="public" virt="non-virtual">ObjBase</derivedcompoundref>
+    <includes refid="d9/d87/_collision_8h" local="no">Collision.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d3/d62/class_collision_object_1afd1c8612ad380f08cf3f2a5bf4b3daab" prot="protected" static="no" mutable="no">
+        <type><ref refid="db/da7/struct_sphere" kindref="compound">Sphere</ref></type>
+        <definition>Sphere CollisionObject::_hitSphere</definition>
+        <argsstring></argsstring>
+        <name>_hitSphere</name>
+        <briefdescription>
+<para>当たり判定用の球 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="217" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d62/class_collision_object_1ac9677c53a2edb172dca4703e759379bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CollisionObject::CollisionObject</definition>
+        <argsstring>()</argsstring>
+        <name>CollisionObject</name>
+        <briefdescription>
+<para>デフォルトコンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="190" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="190" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d62/class_collision_object_1ab2891150c91ae9267f846449ebe3c709" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CollisionObject::CollisionObject</definition>
+        <argsstring>(Vector3 &amp;pos, f32 radius)</argsstring>
+        <name>CollisionObject</name>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+<para>コンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="192" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="192" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d62/class_collision_object_1a8a9ad3b2608c2737c2bc69a2b2791094" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionObject::setSphereParam</definition>
+        <argsstring>(Vector3 &amp;pos, f32 radius)</argsstring>
+        <name>setSphereParam</name>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+<para>球情報設定 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="198" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="198" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d62/class_collision_object_1a2574ee166a554985f4ea60ddd57f27db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CollisionObject::isHitObj</definition>
+        <argsstring>(ObjBase *obj)</argsstring>
+        <name>isHitObj</name>
+        <param>
+          <type><ref refid="dc/d24/class_obj_base" kindref="compound">ObjBase</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>オブジェクトとの当たり判定 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>当たり判定を行いたいオブジェクト </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="210" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.cpp" bodystart="525" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d62/class_collision_object_1ab006cfd3dc853eda7729a7b7e07a1d25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CollisionObject::isHitSphere</definition>
+        <argsstring>(Sphere &amp;attackSphere)</argsstring>
+        <name>isHitSphere</name>
+        <param>
+          <type><ref refid="db/da7/struct_sphere" kindref="compound">Sphere</ref> &amp;</type>
+          <declname>attackSphere</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>オブジェクトと攻撃とのあたり判定 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">attackSphere</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>当たり判定を行いたい攻撃の球 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="213" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.cpp" bodystart="533" bodyend="536"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d62/class_collision_object_1afba2c3a210f9c209e37f1d1b902e23b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/da7/struct_sphere" kindref="compound">Sphere</ref> &amp;</type>
+        <definition>Sphere&amp; CollisionObject::getHitSphere</definition>
+        <argsstring>()</argsstring>
+        <name>getHitSphere</name>
+        <briefdescription>
+<para>当たり判定用の球の取得 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="215" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="215" bodyend="215"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="164">
+        <label>Attacker</label>
+        <link refid="df/d42/class_attacker"/>
+        <childnode refid="159" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="159">
+        <label>Man</label>
+        <link refid="da/d50/class_man"/>
+        <childnode refid="158" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="166">
+        <label>Map</label>
+        <link refid="dd/d11/class_map"/>
+        <childnode refid="158" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>AllyHealer</label>
+        <link refid="df/d69/class_ally_healer"/>
+        <childnode refid="160" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>AllyBase</label>
+        <link refid="dd/d54/class_ally_base"/>
+        <childnode refid="159" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="156">
+        <label>CollisionObject</label>
+        <link refid="d3/d62/class_collision_object"/>
+      </node>
+      <node id="157">
+        <label>CastleWall</label>
+        <link refid="d5/d6f/class_castle_wall"/>
+        <childnode refid="156" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>AllyAttacker</label>
+        <link refid="dd/da1/class_ally_attacker"/>
+        <childnode refid="160" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="158">
+        <label>ObjBase</label>
+        <link refid="dc/d24/class_obj_base"/>
+        <childnode refid="156" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="162">
+        <label>AllyDeffender</label>
+        <link refid="d0/de6/class_ally_deffender"/>
+        <childnode refid="160" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="165">
+        <label>Player</label>
+        <link refid="d8/d53/class_player"/>
+        <childnode refid="159" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="167">
+        <label>CollisionObject</label>
+        <link refid="d3/d62/class_collision_object"/>
+        <childnode refid="168" relation="usage">
+          <edgelabel>_hitSphere</edgelabel>
+        </childnode>
+      </node>
+      <node id="168">
+        <label>Sphere</label>
+        <link refid="db/da7/struct_sphere"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="187" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="186" bodyend="218"/>
+    <listofallmembers>
+      <member refid="d3/d62/class_collision_object_1afd1c8612ad380f08cf3f2a5bf4b3daab" prot="protected" virt="non-virtual"><scope>CollisionObject</scope><name>_hitSphere</name></member>
+      <member refid="d3/d62/class_collision_object_1ac9677c53a2edb172dca4703e759379bf" prot="public" virt="non-virtual"><scope>CollisionObject</scope><name>CollisionObject</name></member>
+      <member refid="d3/d62/class_collision_object_1ab2891150c91ae9267f846449ebe3c709" prot="public" virt="non-virtual"><scope>CollisionObject</scope><name>CollisionObject</name></member>
+      <member refid="d3/d62/class_collision_object_1afba2c3a210f9c209e37f1d1b902e23b8" prot="public" virt="non-virtual"><scope>CollisionObject</scope><name>getHitSphere</name></member>
+      <member refid="d3/d62/class_collision_object_1a2574ee166a554985f4ea60ddd57f27db" prot="public" virt="non-virtual"><scope>CollisionObject</scope><name>isHitObj</name></member>
+      <member refid="d3/d62/class_collision_object_1ab006cfd3dc853eda7729a7b7e07a1d25" prot="public" virt="non-virtual"><scope>CollisionObject</scope><name>isHitSphere</name></member>
+      <member refid="d3/d62/class_collision_object_1a8a9ad3b2608c2737c2bc69a2b2791094" prot="public" virt="non-virtual"><scope>CollisionObject</scope><name>setSphereParam</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

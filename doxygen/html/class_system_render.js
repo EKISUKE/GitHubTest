@@ -1,0 +1,25 @@
+var class_system_render =
+[
+    [ "begin", "class_system_render.html#a61d47b244243f828bc8c77b75aaf6c18", null ],
+    [ "bindFrame", "class_system_render.html#a00d94a346cb9791f75d6701d37aec6c6", null ],
+    [ "bindPrevRender", "class_system_render.html#a8d77a70b7b145f8d110ef6e661a55141", null ],
+    [ "cleanup", "class_system_render.html#ad62a4758c5a0c0a541547f4771e69994", null ],
+    [ "copyBackBuffer", "class_system_render.html#a999efb68ad5651cb1f1e51fc0295babb", null ],
+    [ "end", "class_system_render.html#a3582a8c9d485a0b178b179f59dce13c5", null ],
+    [ "flip", "class_system_render.html#ad3b9e51645042be2f98543931bf88dcc", null ],
+    [ "generateMipMap", "class_system_render.html#ab1b16998c08d936d4ac3cbbaaa604d6c", null ],
+    [ "getBackBuffer", "class_system_render.html#a100a45d914c71c945635ace575cf898b", null ],
+    [ "getPrevFrameBackBuffer", "class_system_render.html#a9dc88cf2a6292227dfb749f5991e82b8", null ],
+    [ "haveSameFrame", "class_system_render.html#a1bf58e1518c052d3919691534bd0ac84", null ],
+    [ "init", "class_system_render.html#a89238be38c5b9811bbbfa314d2905e9a", null ],
+    [ "isHDR", "class_system_render.html#aec65aae279cc9249840ac86db3d418ae", null ],
+    [ "isRender", "class_system_render.html#aff7ffb7756b88b759df195efa31ae2fc", null ],
+    [ "putTexture", "class_system_render.html#aaf2d92dcd057f3fc3bca168f3cf1cd54", null ],
+    [ "putTexture", "class_system_render.html#a88077ff79933ae2f612a612f1905618c", null ],
+    [ "renderStackTexture", "class_system_render.html#ae6736925c96bef9a974439726a5842f7", null ],
+    [ "renderTexture", "class_system_render.html#a031f92c28f1e2439ad8c4fe794c7140d", null ],
+    [ "saveBackBuffer", "class_system_render.html#aead57c875ddb970ff723060c0a6cd7aa", null ],
+    [ "setHDR", "class_system_render.html#aec9d99acb37d15856f4e4b19535d3c52", null ],
+    [ "setRenderTarget", "class_system_render.html#aca47a7d1ba60d6626a7f0ae51a539062", null ],
+    [ "switchToLDR", "class_system_render.html#a5a08bbdd5ee22e1cf53c5f810d731259", null ]
+];

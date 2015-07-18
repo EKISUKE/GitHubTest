@@ -1,0 +1,111 @@
+﻿2014/12/21 19:21:01 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\Game\build\myGame.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         D:\OCA\OCA使用ソフト\VisualStudioforStudent\2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"Library.h" /Fp"Debug\myGame.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /FILibrary.h /analyze- /errorReport:prompt ..\src\Library.cpp
+         Library.cpp
+          + gmLibrary.h
+          + gmTypedef.h
+          + Effect.h
+         D:\OCA\OCA使用ソフト\VisualStudioforStudent\2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"Library.h" /Fp"Debug\myGame.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /FILibrary.h /analyze- /errorReport:prompt ..\src\Ally.cpp ..\src\AllyAttacker.cpp ..\src\AllyDeffender.cpp ..\src\AllyHealer.cpp ..\src\BillBoard.cpp ..\src\CascadedShadow.cpp ..\src\CollisionObject.cpp ..\src\Effect.cpp ..\src\Enemy.cpp ..\src\EnemyAttacker.cpp ..\src\EnemyDeffender.cpp ..\src\EnemyLeader.cpp ..\src\GLFont.cpp ..\src\IObj.cpp ..\src\Key.cpp ..\src\KeyAttacker.cpp ..\src\KeyDeffender.cpp ..\src\KeyHealer.cpp ..\src\KeyInput.cpp ..\src\Light.cpp ..\src\LightBase.cpp ..\src\LightManager.cpp ..\src\Main.cpp ..\src\Man.cpp ..\src\Map.cpp ..\src\ObjBase.cpp ..\src\ObjDataManager.cpp ..\src\Player.cpp ..\src\SceneGame.cpp ..\src\SceneOption.cpp ..\src\SceneTitle.cpp ..\src\ShadowMap.cpp ..\src\SkyBox.cpp ..\src\SoundPlayer.cpp ..\src\SoundPlayerManager.cpp ..\src\Squad.cpp ..\src\SquadManager.cpp ..\src\Status.cpp ..\src\StatusAssets.cpp
+         Ally.cpp
+         AllyAttacker.cpp
+         AllyDeffender.cpp
+         AllyHealer.cpp
+         BillBoard.cpp
+         CascadedShadow.cpp
+         CollisionObject.cpp
+         Effect.cpp
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\game\src\cascadedshadow.cpp(209): warning C4172: ローカル変数またはテンポラリのアドレスを返します。
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\game\src\cascadedshadow.cpp(204): warning C4102: 'http' : ラベルは 1 度も参照されません。
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\game\src\cascadedshadow.cpp(249): warning C4172: ローカル変数またはテンポラリのアドレスを返します。
+         Enemy.cpp
+         EnemyAttacker.cpp
+         EnemyDeffender.cpp
+         EnemyLeader.cpp
+         GLFont.cpp
+         IObj.cpp
+         Key.cpp
+         KeyAttacker.cpp
+         KeyDeffender.cpp
+         KeyHealer.cpp
+         KeyInput.cpp
+         Light.cpp
+         LightBase.cpp
+         LightManager.cpp
+         Main.cpp
+         Man.cpp
+         Map.cpp
+         ObjBase.cpp
+         ObjDataManager.cpp
+         Player.cpp
+         SceneGame.cpp
+         SceneOption.cpp
+         SceneTitle.cpp
+         ShadowMap.cpp
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\game\src\sceneoption.cpp(350): warning C4244: '引数' : 'float' から 's32' への変換です。データが失われる可能性があります。
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\game\src\sceneoption.cpp(412): warning C4244: '引数' : 'f32' から 's32' への変換です。データが失われる可能性があります。
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\game\src\sceneoption.cpp(414): warning C4244: '引数' : 'f32' から 's32' への変換です。データが失われる可能性があります。
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\game\src\sceneoption.cpp(436): warning C4244: '引数' : 'f32' から 's32' への変換です。データが失われる可能性があります。
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\game\src\sceneoption.cpp(438): warning C4244: '引数' : 's32' から 'f32' への変換です。データが失われる可能性があります。
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\game\src\sceneoption.cpp(446): warning C4244: '引数' : 'f32' から 's32' への変換です。データが失われる可能性があります。
+         SkyBox.cpp
+         SoundPlayer.cpp
+         SoundPlayerManager.cpp
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\game\src\scenetitle.cpp(284): warning C4244: '引数' : 'float' から 's32' への変換です。データが失われる可能性があります。
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\game\src\scenetitle.cpp(307): warning C4244: '引数' : 'f32' から 's32' への変換です。データが失われる可能性があります。
+         Squad.cpp
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\game\src\scenetitle.cpp(311): warning C4244: '引数' : 'float' から 's32' への変換です。データが失われる可能性があります。
+         SquadManager.cpp
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\game\src\scenegame.cpp(713): warning C4244: '引数' : 'f32' から 's32' への変換です。データが失われる可能性があります。
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\game\src\scenegame.cpp(717): warning C4244: '引数' : 'f32' から 's32' への変換です。データが失われる可能性があります。
+         Status.cpp
+         StatusAssets.cpp
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\game\src\status.cpp(209): warning C4244: '引数' : 'f32' から 's32' への変換です。データが失われる可能性があります。
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\game\src\status.cpp(213): warning C4244: '引数' : 's32' から 'f32' への変換です。データが失われる可能性があります。
+       Link:
+         D:\OCA\OCA使用ソフト\VisualStudioforStudent\2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\Game\build\Debug\myGame.exe" /NOLOGO Debug/GameEngine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\Game\build\Debug\myGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\Game\build\Debug\myGame.lib" /MACHINE:X86 Debug\Ally.obj
+         Debug\AllyAttacker.obj
+         Debug\AllyDeffender.obj
+         Debug\AllyHealer.obj
+         Debug\BillBoard.obj
+         Debug\CascadedShadow.obj
+         Debug\CollisionObject.obj
+         Debug\Effect.obj
+         Debug\Enemy.obj
+         Debug\EnemyAttacker.obj
+         Debug\EnemyDeffender.obj
+         Debug\EnemyLeader.obj
+         Debug\GLFont.obj
+         Debug\IObj.obj
+         Debug\Key.obj
+         Debug\KeyAttacker.obj
+         Debug\KeyDeffender.obj
+         Debug\KeyHealer.obj
+         Debug\KeyInput.obj
+         Debug\Light.obj
+         Debug\LightBase.obj
+         Debug\LightManager.obj
+         Debug\Main.obj
+         Debug\ObjDataManager.obj
+         Debug\Library.obj
+         Debug\Man.obj
+         Debug\Map.obj
+         Debug\ObjBase.obj
+         Debug\Player.obj
+         Debug\SceneGame.obj
+         Debug\SceneOption.obj
+         Debug\SceneTitle.obj
+         Debug\ShadowMap.obj
+         Debug\SkyBox.obj
+         Debug\SoundPlayer.obj
+         Debug\SoundPlayerManager.obj
+         Debug\Squad.obj
+         Debug\SquadManager.obj
+         Debug\Status.obj
+         Debug\StatusAssets.obj
+         myGame.vcxproj -> D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\Game\build\Debug\myGame.exe
+     1>プロジェクト "D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\Game\build\myGame.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:03.58

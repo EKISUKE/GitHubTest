@@ -1,0 +1,138 @@
+\hypertarget{class_map}{\section{クラス Map}
+\label{class_map}\index{Map@{Map}}
+}
+
+
+{\ttfamily \#include $<$Map.\-h$>$}
+
+Mapに対する継承グラフ\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{dd/d11/class_map}
+\end{center}
+\end{figure}
+\subsection*{Public メソッド}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_map_a0f5ad0fd4563497b4214038cbca8b582}{Map} ()
+\begin{DoxyCompactList}\small\item\em コンストラクタ \end{DoxyCompactList}\item 
+virtual \hyperlink{class_map_aa403fbe09394ccf39747588f5168e3b2}{$\sim$\-Map} ()
+\begin{DoxyCompactList}\small\item\em デストラクタ \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_map_a7e3e81c662125913e1b29fe0a257c7de}{Initalize} ()
+\begin{DoxyCompactList}\small\item\em 初期化 \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_map_a61efe2e1ec3f41d90bcbf826893404f1}{Update} ()
+\begin{DoxyCompactList}\small\item\em 更新 \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_map_a211a219e3ba75b378e5bca7a40df82c6}{Render} ()
+\begin{DoxyCompactList}\small\item\em 描画 \end{DoxyCompactList}\item 
+\hyperlink{class_castle}{Castle} $\ast$ \hyperlink{class_map_a607b2188cbb804109dab92b23a3fffd1}{get\-Castle} ()
+\begin{DoxyCompactList}\small\item\em 城インスタンスを取得 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected 変数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_model}{Model} $\ast$ \hyperlink{class_map_a9bef20a674f52ee4013d7d81429ab5d2}{\-\_\-ground\-Model}
+\begin{DoxyCompactList}\small\item\em 地面用 \end{DoxyCompactList}\item 
+\hyperlink{class_castle}{Castle} $\ast$ \hyperlink{class_map_a0abc1c10ba71a6b98e6a8edaf89f45f0}{\-\_\-castle}
+\begin{DoxyCompactList}\small\item\em 城クラス \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{コンストラクタとデストラクタ}
+\hypertarget{class_map_a0f5ad0fd4563497b4214038cbca8b582}{\index{Map@{Map}!Map@{Map}}
+\index{Map@{Map}!Map@{Map}}
+\subsubsection[{Map}]{\setlength{\rightskip}{0pt plus 5cm}Map\-::\-Map (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_map_a0f5ad0fd4563497b4214038cbca8b582}
+
+
+コンストラクタ 
+
+\hypertarget{class_map_aa403fbe09394ccf39747588f5168e3b2}{\index{Map@{Map}!$\sim$\-Map@{$\sim$\-Map}}
+\index{$\sim$\-Map@{$\sim$\-Map}!Map@{Map}}
+\subsubsection[{$\sim$\-Map}]{\setlength{\rightskip}{0pt plus 5cm}Map\-::$\sim$\-Map (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_map_aa403fbe09394ccf39747588f5168e3b2}
+
+
+デストラクタ 
+
+
+
+\subsection{関数}
+\hypertarget{class_map_a607b2188cbb804109dab92b23a3fffd1}{\index{Map@{Map}!get\-Castle@{get\-Castle}}
+\index{get\-Castle@{get\-Castle}!Map@{Map}}
+\subsubsection[{get\-Castle}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Castle}$\ast$ Map\-::get\-Castle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_map_a607b2188cbb804109dab92b23a3fffd1}
+
+
+城インスタンスを取得 
+
+\hypertarget{class_map_a7e3e81c662125913e1b29fe0a257c7de}{\index{Map@{Map}!Initalize@{Initalize}}
+\index{Initalize@{Initalize}!Map@{Map}}
+\subsubsection[{Initalize}]{\setlength{\rightskip}{0pt plus 5cm}bool Map\-::\-Initalize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_map_a7e3e81c662125913e1b29fe0a257c7de}
+
+
+初期化 
+
+\hypertarget{class_map_a211a219e3ba75b378e5bca7a40df82c6}{\index{Map@{Map}!Render@{Render}}
+\index{Render@{Render}!Map@{Map}}
+\subsubsection[{Render}]{\setlength{\rightskip}{0pt plus 5cm}void Map\-::\-Render (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_map_a211a219e3ba75b378e5bca7a40df82c6}
+
+
+描画 
+
+
+
+\hyperlink{class_obj_base_aecde185a045789498626dbfc104950ef}{Obj\-Base}を再定義しています。
+
+\hypertarget{class_map_a61efe2e1ec3f41d90bcbf826893404f1}{\index{Map@{Map}!Update@{Update}}
+\index{Update@{Update}!Map@{Map}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}void Map\-::\-Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_map_a61efe2e1ec3f41d90bcbf826893404f1}
+
+
+更新 
+
+
+
+\hyperlink{class_obj_base_a83992aba2dcaf6d3548dd17618b4b0b9}{Obj\-Base}を再定義しています。
+
+
+
+\subsection{変数}
+\hypertarget{class_map_a0abc1c10ba71a6b98e6a8edaf89f45f0}{\index{Map@{Map}!\-\_\-castle@{\-\_\-castle}}
+\index{\-\_\-castle@{\-\_\-castle}!Map@{Map}}
+\subsubsection[{\-\_\-castle}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Castle}$\ast$ Map\-::\-\_\-castle\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_map_a0abc1c10ba71a6b98e6a8edaf89f45f0}
+
+
+城クラス 
+
+\hypertarget{class_map_a9bef20a674f52ee4013d7d81429ab5d2}{\index{Map@{Map}!\-\_\-ground\-Model@{\-\_\-ground\-Model}}
+\index{\-\_\-ground\-Model@{\-\_\-ground\-Model}!Map@{Map}}
+\subsubsection[{\-\_\-ground\-Model}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Model}$\ast$ Map\-::\-\_\-ground\-Model\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_map_a9bef20a674f52ee4013d7d81429ab5d2}
+
+
+地面用 
+
+
+
+このクラスの説明は次のファイルから生成されました\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_map_8h}{Map.\-h}\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_map_8cpp}{Map.\-cpp}\end{DoxyCompactItemize}

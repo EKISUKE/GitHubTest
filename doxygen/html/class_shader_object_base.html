@@ -1,0 +1,409 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>CastleCrash: クラス ShaderObjectBase</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">CastleCrash
+   &#160;<span id="projectnumber">2014/07/20</span>
+   </div>
+   <div id="projectbrief">Yuki Ishigaki</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>メインページ</span></a></li>
+      <li><a href="namespaces.html"><span>ネームスペース</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>構成</span></a></li>
+      <li><a href="classes.html"><span>構成索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>構成メンバ</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_shader_object_base.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>ネームスペース</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>型定義</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>列挙型</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>列挙型の値</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>フレンド</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>マクロ定義</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pro-static-methods">Static Protected メソッド</a> &#124;
+<a href="#pro-attribs">Protected 変数</a> &#124;
+<a href="#pro-static-attribs">Static Protected 変数</a> &#124;
+<a href="class_shader_object_base-members.html">すべてのメンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">クラス ShaderObjectBase<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>シェーダ管理  
+ <a href="class_shader_object_base.html#details">[詳細]</a></p>
+
+<p><code>#include &lt;<a class="el" href="gm_shader_object_base_8h_source.html">gmShaderObjectBase.h</a>&gt;</code></p>
+<div class="dynheader">
+ShaderObjectBaseに対する継承グラフ</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_shader_object_base.png" usemap="#ShaderObjectBase_map" alt=""/>
+  <map id="ShaderObjectBase_map" name="ShaderObjectBase_map">
+<area href="class_fragment_shader.html" title="フラグメントシェーダ " alt="FragmentShader" shape="rect" coords="0,56,118,80"/>
+<area href="class_vertex_shader.html" title="頂点シェーダ " alt="VertexShader" shape="rect" coords="128,56,246,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public メソッド</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">初期化</div></td></tr>
+<tr class="memitem:a6891fc4048d013361481517f969da99d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_object_base.html#a6891fc4048d013361481517f969da99d">ShaderObjectBase</a> ()</td></tr>
+<tr class="memdesc:a6891fc4048d013361481517f969da99d"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ  <a href="#a6891fc4048d013361481517f969da99d">[詳細]</a><br/></td></tr>
+<tr class="separator:a6891fc4048d013361481517f969da99d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfc91f4aaa25d9b83944abb9300cb74f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_object_base.html#acfc91f4aaa25d9b83944abb9300cb74f">~ShaderObjectBase</a> ()</td></tr>
+<tr class="memdesc:acfc91f4aaa25d9b83944abb9300cb74f"><td class="mdescLeft">&#160;</td><td class="mdescRight">デストラクタ  <a href="#acfc91f4aaa25d9b83944abb9300cb74f">[詳細]</a><br/></td></tr>
+<tr class="separator:acfc91f4aaa25d9b83944abb9300cb74f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">タスク関数</div></td></tr>
+<tr class="memitem:a5f14b53af291e87767fb51771d523fca"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_object_base.html#a5f14b53af291e87767fb51771d523fca">LoadAndCompile</a> (<a class="el" href="gm_typedef_8h.html#a80df1bd21d85ddf6d365f6c01c62ecd0">GM_CSTR</a> filePath)=0</td></tr>
+<tr class="separator:a5f14b53af291e87767fb51771d523fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e1c897b28375eb1ed14c2209316b5b6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_object_base.html#a8e1c897b28375eb1ed14c2209316b5b6">readShaderSource</a> (<a class="el" href="gm_typedef_8h.html#a80df1bd21d85ddf6d365f6c01c62ecd0">GM_CSTR</a> filePath)</td></tr>
+<tr class="separator:a8e1c897b28375eb1ed14c2209316b5b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">取得・設定</div></td></tr>
+<tr class="memitem:a0019ab06a2a2ba4979bf9b248d35fa77"><td class="memItemLeft" align="right" valign="top">GLuint &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_object_base.html#a0019ab06a2a2ba4979bf9b248d35fa77">getShader</a> ()</td></tr>
+<tr class="separator:a0019ab06a2a2ba4979bf9b248d35fa77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Static Protected メソッド</h2></td></tr>
+<tr class="memitem:a8a71b72eeac69dd14a3132a7dce5cbd9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_object_base.html#a8a71b72eeac69dd14a3132a7dce5cbd9">printShaderInfoLog</a> (GLuint shader)</td></tr>
+<tr class="memdesc:a8a71b72eeac69dd14a3132a7dce5cbd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェーダコンパイルエラーの出力  <a href="#a8a71b72eeac69dd14a3132a7dce5cbd9">[詳細]</a><br/></td></tr>
+<tr class="separator:a8a71b72eeac69dd14a3132a7dce5cbd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 変数</h2></td></tr>
+<tr class="memitem:aa799d02186118355decdc413af8cc12e"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_object_base.html#aa799d02186118355decdc413af8cc12e">myShader</a></td></tr>
+<tr class="separator:aa799d02186118355decdc413af8cc12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
+Static Protected 変数</h2></td></tr>
+<tr class="memitem:a6771a24ac8b5e691486bfa0e83f88568"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="gm_typedef_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_object_base.html#a6771a24ac8b5e691486bfa0e83f88568">MAX_SHADER_LOG_SIZE</a> = 1024</td></tr>
+<tr class="memdesc:a6771a24ac8b5e691486bfa0e83f88568"><td class="mdescLeft">&#160;</td><td class="mdescRight">シェーダコンパイルのログバッファ  <a href="#a6771a24ac8b5e691486bfa0e83f88568">[詳細]</a><br/></td></tr>
+<tr class="separator:a6771a24ac8b5e691486bfa0e83f88568"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c98e97485c0ad98adc48fc8f5556529"><td class="memItemLeft" align="right" valign="top">static char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shader_object_base.html#a3c98e97485c0ad98adc48fc8f5556529">s_logBuffer</a> [<a class="el" href="class_shader_object_base.html#a6771a24ac8b5e691486bfa0e83f88568">MAX_SHADER_LOG_SIZE</a>]</td></tr>
+<tr class="memdesc:a3c98e97485c0ad98adc48fc8f5556529"><td class="mdescLeft">&#160;</td><td class="mdescRight">エラー保存用  <a href="#a3c98e97485c0ad98adc48fc8f5556529">[詳細]</a><br/></td></tr>
+<tr class="separator:a3c98e97485c0ad98adc48fc8f5556529"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">説明</h2>
+<div class="textblock"><p>シェーダ管理 </p>
+</div><h2 class="groupheader">コンストラクタとデストラクタ</h2>
+<a class="anchor" id="a6891fc4048d013361481517f969da99d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ShaderObjectBase::ShaderObjectBase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>コンストラクタ </p>
+
+</div>
+</div>
+<a class="anchor" id="acfc91f4aaa25d9b83944abb9300cb74f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ShaderObjectBase::~ShaderObjectBase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>デストラクタ </p>
+
+</div>
+</div>
+<h2 class="groupheader">関数</h2>
+<a class="anchor" id="a0019ab06a2a2ba4979bf9b248d35fa77"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint&amp; ShaderObjectBase::getShader </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5f14b53af291e87767fb51771d523fca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ShaderObjectBase::LoadAndCompile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gm_typedef_8h.html#a80df1bd21d85ddf6d365f6c01c62ecd0">GM_CSTR</a>&#160;</td>
+          <td class="paramname"><em>filePath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>シェーダプログラム読み込み </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">filePath</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="class_vertex_shader.html#a1bd980d46318af80c178416af1a4d98b">VertexShader</a>, と <a class="el" href="class_fragment_shader.html#ad767a03f2085062d974bf9efefa1446c">FragmentShader</a>で実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a8a71b72eeac69dd14a3132a7dce5cbd9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ShaderObjectBase::printShaderInfoLog </td>
+          <td>(</td>
+          <td class="paramtype">GLuint&#160;</td>
+          <td class="paramname"><em>shader</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>シェーダコンパイルエラーの出力 </p>
+
+</div>
+</div>
+<a class="anchor" id="a8e1c897b28375eb1ed14c2209316b5b6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ShaderObjectBase::readShaderSource </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gm_typedef_8h.html#a80df1bd21d85ddf6d365f6c01c62ecd0">GM_CSTR</a>&#160;</td>
+          <td class="paramname"><em>fileName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>シェーダの読み込み </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">filePath</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<p>ファイルサイズの取得</p>
+<p>シェーダプログラムの読み込み領域を確保</p>
+<p>ファイルを先頭から読み込む</p>
+<p>シェーダオブジェクトにプログラムをセット</p>
+<p>シェーダ読み込み領域の開放 </p>
+
+</div>
+</div>
+<h2 class="groupheader">変数</h2>
+<a class="anchor" id="a6771a24ac8b5e691486bfa0e83f88568"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="gm_typedef_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> ShaderObjectBase::MAX_SHADER_LOG_SIZE = 1024</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>シェーダコンパイルのログバッファ </p>
+
+</div>
+</div>
+<a class="anchor" id="aa799d02186118355decdc413af8cc12e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint ShaderObjectBase::myShader</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>フラグメントシェーダ </p>
+
+</div>
+</div>
+<a class="anchor" id="a3c98e97485c0ad98adc48fc8f5556529"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char ShaderObjectBase::s_logBuffer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>エラー保存用 </p>
+
+</div>
+</div>
+<hr/>このクラスの説明は次のファイルから生成されました:<ul>
+<li>D:/OCA/OCA_BackUp/OpenGL/WithGameEngineProj/GameWithLibrary/GameEngine/src/<a class="el" href="gm_shader_object_base_8h_source.html">gmShaderObjectBase.h</a></li>
+<li>D:/OCA/OCA_BackUp/OpenGL/WithGameEngineProj/GameWithLibrary/GameEngine/src/<a class="el" href="gm_shader_object_base_8cpp.html">gmShaderObjectBase.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_shader_object_base.html">ShaderObjectBase</a></li>
+    <li class="footer">CastleCrashに対してSun Jul 20 2014 17:25:19に生成されました。
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

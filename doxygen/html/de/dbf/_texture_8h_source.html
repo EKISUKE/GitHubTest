@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>myGame: E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Texture.h ソースファイル</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">myGame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>メインページ</span></a></li>
+      <li><a href="../../namespaces.html"><span>ネームスペース</span></a></li>
+      <li><a href="../../annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="../../files.html"><span>ファイル</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="../../globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Texture.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../de/dbf/_texture_8h.html">説明を見る。</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d2/d7f/class_texture.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d2/d7f/class_texture.html">Texture</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../d2/d7f/class_texture.html#a6c275e3f186675ff6ed73ccf970e552f">Texture</a>();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="../../d2/d7f/class_texture.html#a09c4bcb7462f64c1d20fa69dba3cee8a">~Texture</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">bool</span>        <a class="code" href="../../d2/d7f/class_texture.html#aa894d750673a53e42cc89bb7b62acea1">create</a>(<a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> w, <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> h);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">bool</span>        <a class="code" href="../../d2/d7f/class_texture.html#a1c6b51ed04862c1dd795c62005db4129">load</a>(<span class="keyword">const</span> <a class="code" href="../../d0/d55/_main_8h.html#aa1ba8aac9fcd831012308297336ac74b">c8</a> fileName[]);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../d2/d7f/class_texture.html#ad48a156766fb1ac1804690e06f2a7d94">   35</a></span>&#160;    GLuint      <a class="code" href="../../d2/d7f/class_texture.html#ad48a156766fb1ac1804690e06f2a7d94">getTextureHandle</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> _textureHandle; }</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="../../d2/d7f/class_texture.html#a9895b77310c2cd7118a6a47f562b205a">set</a>(<a class="code" href="../../d2/d7f/class_texture.html">Texture</a>* pTexture);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    GLuint      _textureHandle;     </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;};</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">//  END OF FILE</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="ttc" id="class_texture_html_a09c4bcb7462f64c1d20fa69dba3cee8a"><div class="ttname"><a href="../../d2/d7f/class_texture.html#a09c4bcb7462f64c1d20fa69dba3cee8a">Texture::~Texture</a></div><div class="ttdeci">virtual ~Texture()</div><div class="ttdoc">デストラクタ </div><div class="ttdef"><b>Definition:</b> Texture.cpp:21</div></div>
+<div class="ttc" id="class_texture_html_a6c275e3f186675ff6ed73ccf970e552f"><div class="ttname"><a href="../../d2/d7f/class_texture.html#a6c275e3f186675ff6ed73ccf970e552f">Texture::Texture</a></div><div class="ttdeci">Texture()</div><div class="ttdoc">コンストラクタ </div><div class="ttdef"><b>Definition:</b> Texture.cpp:13</div></div>
+<div class="ttc" id="class_texture_html_ad48a156766fb1ac1804690e06f2a7d94"><div class="ttname"><a href="../../d2/d7f/class_texture.html#ad48a156766fb1ac1804690e06f2a7d94">Texture::getTextureHandle</a></div><div class="ttdeci">GLuint getTextureHandle() const </div><div class="ttdoc">GLテクスチャハンドルを取得 </div><div class="ttdef"><b>Definition:</b> Texture.h:35</div></div>
+<div class="ttc" id="class_texture_html_aa894d750673a53e42cc89bb7b62acea1"><div class="ttname"><a href="../../d2/d7f/class_texture.html#aa894d750673a53e42cc89bb7b62acea1">Texture::create</a></div><div class="ttdeci">bool create(s32 w, s32 h)</div><div class="ttdef"><b>Definition:</b> Texture.cpp:36</div></div>
+<div class="ttc" id="class_texture_html"><div class="ttname"><a href="../../d2/d7f/class_texture.html">Texture</a></div><div class="ttdef"><b>Definition:</b> Texture.h:13</div></div>
+<div class="ttc" id="class_texture_html_a1c6b51ed04862c1dd795c62005db4129"><div class="ttname"><a href="../../d2/d7f/class_texture.html#a1c6b51ed04862c1dd795c62005db4129">Texture::load</a></div><div class="ttdeci">bool load(const c8 fileName[])</div><div class="ttdef"><b>Definition:</b> Texture.cpp:151</div></div>
+<div class="ttc" id="_main_8h_html_aa1ba8aac9fcd831012308297336ac74b"><div class="ttname"><a href="../../d0/d55/_main_8h.html#aa1ba8aac9fcd831012308297336ac74b">c8</a></div><div class="ttdeci">char c8</div><div class="ttdoc">符号あり 8bit整数 </div><div class="ttdef"><b>Definition:</b> Main.h:59</div></div>
+<div class="ttc" id="_main_8h_html_a0ce6887c26c1c49ad3be5710dd42bfd6"><div class="ttname"><a href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a></div><div class="ttdeci">signed int s32</div><div class="ttdoc">符号あり32bit整数 </div><div class="ttdef"><b>Definition:</b> Main.h:64</div></div>
+<div class="ttc" id="class_texture_html_a9895b77310c2cd7118a6a47f562b205a"><div class="ttname"><a href="../../d2/d7f/class_texture.html#a9895b77310c2cd7118a6a47f562b205a">Texture::set</a></div><div class="ttdeci">static void set(Texture *pTexture)</div><div class="ttdoc">テクスチャをGLに設定 </div><div class="ttdef"><b>Definition:</b> Texture.cpp:280</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+myGameに対してSun Oct 13 2013 20:58:05に生成されました。 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

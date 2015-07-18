@@ -1,0 +1,144 @@
+\hypertarget{class_ally_healer}{\section{クラス Ally\-Healer}
+\label{class_ally_healer}\index{Ally\-Healer@{Ally\-Healer}}
+}
+
+
+{\ttfamily \#include $<$Ally\-Healer.\-h$>$}
+
+Ally\-Healerに対する継承グラフ\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{df/d69/class_ally_healer}
+\end{center}
+\end{figure}
+\subsection*{Public メソッド}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_ally_healer_a7d6842f1f2ffd2c76b7377963f5a609c}{Ally\-Healer} ()
+\begin{DoxyCompactList}\small\item\em コンストラクタ \end{DoxyCompactList}\item 
+virtual \hyperlink{class_ally_healer_a7bbf70f818b82171e2224d83729d20a3}{$\sim$\-Ally\-Healer} ()
+\begin{DoxyCompactList}\small\item\em デストラクタ \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ally_healer_a657b123a6d4a90e1f21ac8d88a90e4c4}{Initialize} ()
+\begin{DoxyCompactList}\small\item\em 初期化 \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_ally_healer_a24604a4c5c8d922833721a94d2edc04c}{Update} (const \hyperlink{class_player_a70057174eaea9fd441ca86cc7bb896ed}{Player\-::\-C\-O\-M\-M\-A\-N\-D} \&\-\_\-player\-Command, \hyperlink{struct_vector3}{Vector3} \&goal\-Pos, \hyperlink{struct_vector3}{Vector3} \&player\-Pos)
+\begin{DoxyCompactList}\small\item\em 更新 \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_ally_healer_a9ddce68a7c042137a3cc459e61a60104}{Update\-By\-Command} (const \hyperlink{class_player_a70057174eaea9fd441ca86cc7bb896ed}{Player\-::\-C\-O\-M\-M\-A\-N\-D} \&\-\_\-player\-Command, \hyperlink{struct_vector3}{Vector3} \&goal\-Pos, \hyperlink{struct_vector3}{Vector3} \&player\-Pos)
+\begin{DoxyCompactList}\small\item\em 命令時の更新 \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_ally_healer_aca96222aed49e55506bed0811fac14da}{Update\-Normal} (\hyperlink{struct_vector3}{Vector3} \&player)
+\begin{DoxyCompactList}\small\item\em プレイヤーの周りに常にいる \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_ally_healer_a38855aeb63c4f19b2a5cbfdb7a3836b6}{Render} ()
+\begin{DoxyCompactList}\small\item\em 描画 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{コンストラクタとデストラクタ}
+\hypertarget{class_ally_healer_a7d6842f1f2ffd2c76b7377963f5a609c}{\index{Ally\-Healer@{Ally\-Healer}!Ally\-Healer@{Ally\-Healer}}
+\index{Ally\-Healer@{Ally\-Healer}!AllyHealer@{Ally\-Healer}}
+\subsubsection[{Ally\-Healer}]{\setlength{\rightskip}{0pt plus 5cm}Ally\-Healer\-::\-Ally\-Healer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_ally_healer_a7d6842f1f2ffd2c76b7377963f5a609c}
+
+
+コンストラクタ 
+
+\hypertarget{class_ally_healer_a7bbf70f818b82171e2224d83729d20a3}{\index{Ally\-Healer@{Ally\-Healer}!$\sim$\-Ally\-Healer@{$\sim$\-Ally\-Healer}}
+\index{$\sim$\-Ally\-Healer@{$\sim$\-Ally\-Healer}!AllyHealer@{Ally\-Healer}}
+\subsubsection[{$\sim$\-Ally\-Healer}]{\setlength{\rightskip}{0pt plus 5cm}Ally\-Healer\-::$\sim$\-Ally\-Healer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ally_healer_a7bbf70f818b82171e2224d83729d20a3}
+
+
+デストラクタ 
+
+
+
+\subsection{関数}
+\hypertarget{class_ally_healer_a657b123a6d4a90e1f21ac8d88a90e4c4}{\index{Ally\-Healer@{Ally\-Healer}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!AllyHealer@{Ally\-Healer}}
+\subsubsection[{Initialize}]{\setlength{\rightskip}{0pt plus 5cm}bool Ally\-Healer\-::\-Initialize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ally_healer_a657b123a6d4a90e1f21ac8d88a90e4c4}
+
+
+初期化 
+
+
+
+\hyperlink{class_ally_base_a8deb60628340c7a2567fda3bd54ac967}{Ally\-Base}を再定義しています。
+
+\hypertarget{class_ally_healer_a38855aeb63c4f19b2a5cbfdb7a3836b6}{\index{Ally\-Healer@{Ally\-Healer}!Render@{Render}}
+\index{Render@{Render}!AllyHealer@{Ally\-Healer}}
+\subsubsection[{Render}]{\setlength{\rightskip}{0pt plus 5cm}void Ally\-Healer\-::\-Render (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ally_healer_a38855aeb63c4f19b2a5cbfdb7a3836b6}
+
+
+描画 
+
+
+
+\hyperlink{class_ally_base_aadfd770043d90b11986181a75ad2e32d}{Ally\-Base}を再定義しています。
+
+\hypertarget{class_ally_healer_a24604a4c5c8d922833721a94d2edc04c}{\index{Ally\-Healer@{Ally\-Healer}!Update@{Update}}
+\index{Update@{Update}!AllyHealer@{Ally\-Healer}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}void Ally\-Healer\-::\-Update (
+\begin{DoxyParamCaption}
+\item[{const {\bf Player\-::\-C\-O\-M\-M\-A\-N\-D} \&}]{\-\_\-player\-Command, }
+\item[{{\bf Vector3} \&}]{goal\-Pos, }
+\item[{{\bf Vector3} \&}]{player\-Pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ally_healer_a24604a4c5c8d922833721a94d2edc04c}
+
+
+更新 
+
+
+
+\hyperlink{class_ally_base_ad0e5ffbd4082605a9db1f81f8a4724bc}{Ally\-Base}を再定義しています。
+
+\hypertarget{class_ally_healer_a9ddce68a7c042137a3cc459e61a60104}{\index{Ally\-Healer@{Ally\-Healer}!Update\-By\-Command@{Update\-By\-Command}}
+\index{Update\-By\-Command@{Update\-By\-Command}!AllyHealer@{Ally\-Healer}}
+\subsubsection[{Update\-By\-Command}]{\setlength{\rightskip}{0pt plus 5cm}void Ally\-Healer\-::\-Update\-By\-Command (
+\begin{DoxyParamCaption}
+\item[{const {\bf Player\-::\-C\-O\-M\-M\-A\-N\-D} \&}]{\-\_\-player\-Command, }
+\item[{{\bf Vector3} \&}]{goal\-Pos, }
+\item[{{\bf Vector3} \&}]{player\-Pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ally_healer_a9ddce68a7c042137a3cc459e61a60104}
+
+
+命令時の更新 
+
+更新(コマンドによって変わる) 
+
+\hyperlink{class_ally_base_a96371430d8037793f7bd4b3a75d8c136}{Ally\-Base}を実装しています。
+
+\hypertarget{class_ally_healer_aca96222aed49e55506bed0811fac14da}{\index{Ally\-Healer@{Ally\-Healer}!Update\-Normal@{Update\-Normal}}
+\index{Update\-Normal@{Update\-Normal}!AllyHealer@{Ally\-Healer}}
+\subsubsection[{Update\-Normal}]{\setlength{\rightskip}{0pt plus 5cm}void Ally\-Healer\-::\-Update\-Normal (
+\begin{DoxyParamCaption}
+\item[{{\bf Vector3} \&}]{player}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ally_healer_aca96222aed49e55506bed0811fac14da}
+
+
+プレイヤーの周りに常にいる 
+
+更新(プレイヤーの周りに常にいる) 
+
+\hyperlink{class_ally_base_a7ab6832753de076894761ce58389ef7c}{Ally\-Base}を実装しています。
+
+
+
+このクラスの説明は次のファイルから生成されました\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_ally_healer_8h}{Ally\-Healer.\-h}\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_ally_healer_8cpp}{Ally\-Healer.\-cpp}\end{DoxyCompactItemize}

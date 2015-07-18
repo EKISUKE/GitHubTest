@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dd/d39/_i_obj_8h" kind="file">
+    <compoundname>IObj.h</compoundname>
+    <includedby refid="db/dfc/_library_8h" local="yes">E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Library.h</includedby>
+    <invincdepgraph>
+      <node id="2084">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.cpp</label>
+        <link refid="db/df4/_map_8cpp"/>
+      </node>
+      <node id="2069">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Effect.cpp</label>
+        <link refid="d3/d3d/_effect_8cpp"/>
+      </node>
+      <node id="2082">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Main.cpp</label>
+        <link refid="d5/d12/_main_8cpp"/>
+      </node>
+      <node id="2062">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CameraBase.cpp</label>
+        <link refid="d0/d1b/_camera_base_8cpp"/>
+      </node>
+      <node id="2100">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.cpp</label>
+        <link refid="d6/d4f/_vector_8cpp"/>
+      </node>
+      <node id="2056">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Ally.cpp</label>
+        <link refid="da/d0f/_ally_8cpp"/>
+      </node>
+      <node id="2058">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyDeffender.cpp</label>
+        <link refid="df/d82/_ally_deffender_8cpp"/>
+      </node>
+      <node id="2095">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Status.cpp</label>
+        <link refid="d2/d69/_status_8cpp"/>
+      </node>
+      <node id="2076">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyAttacker.cpp</label>
+        <link refid="db/d86/_key_attacker_8cpp"/>
+      </node>
+      <node id="2063">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CameraManager.cpp</label>
+        <link refid="d2/d8f/_camera_manager_8cpp"/>
+      </node>
+      <node id="2054">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/IObj.h</label>
+        <link refid="IObj.h"/>
+        <childnode refid="2055" relation="include">
+        </childnode>
+      </node>
+      <node id="2066">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CollisionWall.cpp</label>
+        <link refid="da/dab/_collision_wall_8cpp"/>
+      </node>
+      <node id="2092">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.cpp</label>
+        <link refid="d5/d66/_sound_player_8cpp"/>
+      </node>
+      <node id="2091">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.cpp</label>
+        <link refid="d1/d4c/_scene_title_8cpp"/>
+      </node>
+      <node id="2059">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp</label>
+        <link refid="dc/d5f/_ally_healer_8cpp"/>
+      </node>
+      <node id="2064">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.cpp</label>
+        <link refid="d4/dc5/_collision_8cpp"/>
+      </node>
+      <node id="2080">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/LandScape.cpp</label>
+        <link refid="da/d1f/_land_scape_8cpp"/>
+      </node>
+      <node id="2093">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.cpp</label>
+        <link refid="d6/d39/_squad_8cpp"/>
+      </node>
+      <node id="2086">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.cpp</label>
+        <link refid="d2/d31/_model_8cpp"/>
+      </node>
+      <node id="2057">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyAttacker.cpp</label>
+        <link refid="df/dcc/_ally_attacker_8cpp"/>
+      </node>
+      <node id="2077">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.cpp</label>
+        <link refid="d4/d84/_key_deffender_8cpp"/>
+      </node>
+      <node id="2073">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/GLFont.cpp</label>
+        <link refid="df/d22/_g_l_font_8cpp"/>
+      </node>
+      <node id="2072">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.cpp</label>
+        <link refid="d8/de0/_geometry_8cpp"/>
+      </node>
+      <node id="2090">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.cpp</label>
+        <link refid="d4/dae/_scene_game_8cpp"/>
+      </node>
+      <node id="2075">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Key.cpp</label>
+        <link refid="d6/d3d/_key_8cpp"/>
+      </node>
+      <node id="2079">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyInput.cpp</label>
+        <link refid="df/d45/_key_input_8cpp"/>
+      </node>
+      <node id="2074">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/IObj.cpp</label>
+        <link refid="d4/de3/_i_obj_8cpp"/>
+      </node>
+      <node id="2061">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Camera.cpp</label>
+        <link refid="d1/d33/_camera_8cpp"/>
+      </node>
+      <node id="2098">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Texture.cpp</label>
+        <link refid="da/d26/_texture_8cpp"/>
+      </node>
+      <node id="2071">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Game.cpp</label>
+        <link refid="d7/db5/_game_8cpp"/>
+      </node>
+      <node id="2097">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SystemShader.cpp</label>
+        <link refid="dd/dc2/_system_shader_8cpp"/>
+      </node>
+      <node id="2078">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyHealer.cpp</label>
+        <link refid="d0/db0/_key_healer_8cpp"/>
+      </node>
+      <node id="2055">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Library.h</label>
+        <link refid="db/dfc/_library_8h"/>
+        <childnode refid="2056" relation="include">
+        </childnode>
+        <childnode refid="2057" relation="include">
+        </childnode>
+        <childnode refid="2058" relation="include">
+        </childnode>
+        <childnode refid="2059" relation="include">
+        </childnode>
+        <childnode refid="2060" relation="include">
+        </childnode>
+        <childnode refid="2061" relation="include">
+        </childnode>
+        <childnode refid="2062" relation="include">
+        </childnode>
+        <childnode refid="2063" relation="include">
+        </childnode>
+        <childnode refid="2064" relation="include">
+        </childnode>
+        <childnode refid="2065" relation="include">
+        </childnode>
+        <childnode refid="2066" relation="include">
+        </childnode>
+        <childnode refid="2067" relation="include">
+        </childnode>
+        <childnode refid="2068" relation="include">
+        </childnode>
+        <childnode refid="2069" relation="include">
+        </childnode>
+        <childnode refid="2070" relation="include">
+        </childnode>
+        <childnode refid="2071" relation="include">
+        </childnode>
+        <childnode refid="2072" relation="include">
+        </childnode>
+        <childnode refid="2073" relation="include">
+        </childnode>
+        <childnode refid="2074" relation="include">
+        </childnode>
+        <childnode refid="2075" relation="include">
+        </childnode>
+        <childnode refid="2076" relation="include">
+        </childnode>
+        <childnode refid="2077" relation="include">
+        </childnode>
+        <childnode refid="2078" relation="include">
+        </childnode>
+        <childnode refid="2079" relation="include">
+        </childnode>
+        <childnode refid="2080" relation="include">
+        </childnode>
+        <childnode refid="2081" relation="include">
+        </childnode>
+        <childnode refid="2082" relation="include">
+        </childnode>
+        <childnode refid="2083" relation="include">
+        </childnode>
+        <childnode refid="2084" relation="include">
+        </childnode>
+        <childnode refid="2085" relation="include">
+        </childnode>
+        <childnode refid="2086" relation="include">
+        </childnode>
+        <childnode refid="2087" relation="include">
+        </childnode>
+        <childnode refid="2088" relation="include">
+        </childnode>
+        <childnode refid="2089" relation="include">
+        </childnode>
+        <childnode refid="2090" relation="include">
+        </childnode>
+        <childnode refid="2091" relation="include">
+        </childnode>
+        <childnode refid="2092" relation="include">
+        </childnode>
+        <childnode refid="2093" relation="include">
+        </childnode>
+        <childnode refid="2094" relation="include">
+        </childnode>
+        <childnode refid="2095" relation="include">
+        </childnode>
+        <childnode refid="2096" relation="include">
+        </childnode>
+        <childnode refid="2097" relation="include">
+        </childnode>
+        <childnode refid="2098" relation="include">
+        </childnode>
+        <childnode refid="2099" relation="include">
+        </childnode>
+        <childnode refid="2100" relation="include">
+        </childnode>
+      </node>
+      <node id="2081">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Library.cpp</label>
+        <link refid="d0/d50/_library_8cpp"/>
+      </node>
+      <node id="2099">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.cpp</label>
+        <link refid="d8/d77/_timer_8cpp"/>
+      </node>
+      <node id="2083">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Man.cpp</label>
+        <link refid="d1/dcc/_man_8cpp"/>
+      </node>
+      <node id="2089">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Player.cpp</label>
+        <link refid="d2/d82/_player_8cpp"/>
+      </node>
+      <node id="2060">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/BillBoard.cpp</label>
+        <link refid="d3/def/_bill_board_8cpp"/>
+      </node>
+      <node id="2085">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Matrix.cpp</label>
+        <link refid="d6/d65/_matrix_8cpp"/>
+      </node>
+      <node id="2070">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.cpp</label>
+        <link refid="de/d34/_enemy_8cpp"/>
+      </node>
+      <node id="2088">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/ObjBase.cpp</label>
+        <link refid="da/d31/_obj_base_8cpp"/>
+      </node>
+      <node id="2067">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Color.cpp</label>
+        <link refid="d0/d22/_color_8cpp"/>
+      </node>
+      <node id="2087">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Mouse.cpp</label>
+        <link refid="d7/d54/_mouse_8cpp"/>
+      </node>
+      <node id="2096">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/System.cpp</label>
+        <link refid="d8/de5/_system_8cpp"/>
+      </node>
+      <node id="2068">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Controller.cpp</label>
+        <link refid="d3/dec/_controller_8cpp"/>
+      </node>
+      <node id="2065">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CollisionManager.cpp</label>
+        <link refid="df/db7/_collision_manager_8cpp"/>
+      </node>
+      <node id="2094">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SquadManager.cpp</label>
+        <link refid="d2/db7/_squad_manager_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="da/d94/class_i_obj" prot="public">IObj</innerclass>
+    <briefdescription>
+<para><ref refid="d2/d3c/class_xE3_x82_xAA_xE3_x83_x96_xE3_x82_xB8_xE3_x82_xA7_xE3_x82_xAF_xE3_x83_x88_xE3_x82_xA4_xE3_x8b96d20a3af809279c7b3d794e4dacae1" kindref="compound">オブジェクトインターフェース</ref> </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>YukiIshigaki </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="da/d94/class_i_obj" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/><sp/><sp/></highlight><highlight class="normal"><ref refid="da/d94/class_i_obj" kindref="compound">IObj</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d94/class_i_obj_1a6b5dcb9f92d686dde6f1fc3b5fa7cc7e" kindref="member">Initialize</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d94/class_i_obj_1ab2528cad8542d6c92b9811e3a9c8b83f" kindref="member">Update</ref>()<sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d94/class_i_obj_1a79abe5fbdc1a5ad84a117878aa413a57" kindref="member">Render</ref>()<sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>END<sp/>OF<sp/>FILE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight></codeline>
+    </programlisting>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/IObj.h"/>
+  </compounddef>
+</doxygen>

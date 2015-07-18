@@ -1,0 +1,763 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>CastleCrash: クラス SystemCollision</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">CastleCrash
+   &#160;<span id="projectnumber">2014/07/20</span>
+   </div>
+   <div id="projectbrief">Yuki Ishigaki</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>メインページ</span></a></li>
+      <li><a href="namespaces.html"><span>ネームスペース</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>構成</span></a></li>
+      <li><a href="classes.html"><span>構成索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>構成メンバ</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_system_collision.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>ネームスペース</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>型定義</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>列挙型</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>列挙型の値</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>フレンド</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>マクロ定義</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">構成</a> &#124;
+<a href="class_system_collision-members.html">すべてのメンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">クラス SystemCollision</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>衝突判定システム  
+ <a href="class_system_collision.html#details">[詳細]</a></p>
+
+<p><code>#include &lt;<a class="el" href="gm_collision_8h_source.html">gmCollision.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+構成</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_collision_1_1_object.html">Object</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">物体データオブジェクト  <a href="class_system_collision_1_1_object.html#details">[詳細]</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public メソッド</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">タスク関数</div></td></tr>
+<tr class="memitem:abf90f3f07d21345949bd6d2f428874db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_collision.html#abf90f3f07d21345949bd6d2f428874db">DebugRender</a> ()</td></tr>
+<tr class="memdesc:abf90f3f07d21345949bd6d2f428874db"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバッグ描画  <a href="#abf90f3f07d21345949bd6d2f428874db">[詳細]</a><br/></td></tr>
+<tr class="separator:abf90f3f07d21345949bd6d2f428874db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f31b956fbccee7702e89dec57698d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_collision.html#a40f31b956fbccee7702e89dec57698d5">DebugRender2D</a> ()</td></tr>
+<tr class="memdesc:a40f31b956fbccee7702e89dec57698d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバッグ描画(2D)  <a href="#a40f31b956fbccee7702e89dec57698d5">[詳細]</a><br/></td></tr>
+<tr class="separator:a40f31b956fbccee7702e89dec57698d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">読み込み・削除</div></td></tr>
+<tr class="memitem:a7ad319d26fbc81ed98864201d824aca4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_collision.html#a7ad319d26fbc81ed98864201d824aca4">loadXfile</a> (<a class="el" href="class_task_model_x.html">TaskModelX</a> *colModel)</td></tr>
+<tr class="separator:a7ad319d26fbc81ed98864201d824aca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac47bc50e57f50f15f3353c197f78034f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_collision.html#ac47bc50e57f50f15f3353c197f78034f">loadLandScaleWithFrame</a> (<a class="el" href="class_asset_model_x_1_1_frame.html">AssetModelX::Frame</a> *colFrame, <a class="el" href="class_task_model_x.html">TaskModelX</a> *parentModel)</td></tr>
+<tr class="separator:ac47bc50e57f50f15f3353c197f78034f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c5defd4da3d36b2658bb3e5c8bbf9ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_system_collision_1_1_object.html">SystemCollision::Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_collision.html#a6c5defd4da3d36b2658bb3e5c8bbf9ec">loadData</a> (<a class="el" href="class_asset_model_x_1_1_frame.html">AssetModelX::Frame</a> *pModelFrame, <a class="el" href="struct_vector3.html">Vector3</a> &amp;max, <a class="el" href="struct_vector3.html">Vector3</a> &amp;min, bool isWall, <a class="el" href="struct_matrix.html">Matrix</a> &amp;modelMat, vector&lt; <a class="el" href="struct_task_model_x_1_1_joint.html">TaskModelX::Joint</a> &gt; joints)</td></tr>
+<tr class="separator:a6c5defd4da3d36b2658bb3e5c8bbf9ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7199d6d6e89d07f2c11075ea01582060"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_system_collision_1_1_object.html">SystemCollision::Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_collision.html#a7199d6d6e89d07f2c11075ea01582060">loadDataOneFrame</a> (<a class="el" href="class_asset_model_x_1_1_frame.html">AssetModelX::Frame</a> *pModelFrame, <a class="el" href="struct_vector3.html">Vector3</a> &amp;max, <a class="el" href="struct_vector3.html">Vector3</a> &amp;min, bool isWall, <a class="el" href="struct_matrix.html">Matrix</a> &amp;modelMat, vector&lt; <a class="el" href="struct_task_model_x_1_1_joint.html">TaskModelX::Joint</a> &gt; joints)</td></tr>
+<tr class="separator:a7199d6d6e89d07f2c11075ea01582060"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7516835310a251670a979da5fb08e702"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_system_collision_1_1_object.html">SystemCollision::Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_collision.html#a7516835310a251670a979da5fb08e702">loadXfile</a> (<a class="el" href="class_task_model_x.html">TaskModelX</a> *pModel, vector&lt; <a class="el" href="class_system_collision_1_1_object.html">SystemCollision::Object</a> &gt; &amp;_dst, <a class="el" href="struct_vector3.html">Vector3</a> &amp;max, <a class="el" href="struct_vector3.html">Vector3</a> &amp;min, bool isWall)</td></tr>
+<tr class="separator:a7516835310a251670a979da5fb08e702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43d601d16b9d37776a043fd1d7e1cd43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_system_collision_1_1_object.html">SystemCollision::Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_collision.html#a43d601d16b9d37776a043fd1d7e1cd43">loadWithFrame</a> (<a class="el" href="class_asset_model_x_1_1_frame.html">AssetModelX::Frame</a> *colFrame, vector&lt; <a class="el" href="class_system_collision_1_1_object.html">SystemCollision::Object</a> &gt; &amp;_dst, <a class="el" href="struct_vector3.html">Vector3</a> &amp;max, <a class="el" href="struct_vector3.html">Vector3</a> &amp;min, bool isWall, <a class="el" href="class_task_model_x.html">TaskModelX</a> *parentModel)</td></tr>
+<tr class="separator:a43d601d16b9d37776a043fd1d7e1cd43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5b6d80c1ed9f51596e44a75ce4e8ff3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_collision.html#ae5b6d80c1ed9f51596e44a75ce4e8ff3">deleteObject</a> ()</td></tr>
+<tr class="memdesc:ae5b6d80c1ed9f51596e44a75ce4e8ff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">オブジェクトの消去  <a href="#ae5b6d80c1ed9f51596e44a75ce4e8ff3">[詳細]</a><br/></td></tr>
+<tr class="separator:ae5b6d80c1ed9f51596e44a75ce4e8ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+取得・設定</h2></td></tr>
+<tr class="memitem:aeb8a2e7a0907e24e6cc291bb61be118c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_collision.html#aeb8a2e7a0907e24e6cc291bb61be118c">checkCollisionModel</a> (<a class="el" href="struct_vector3.html">Vector3</a> &amp;position, <a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> radius, bool &amp;isHitGround)</td></tr>
+<tr class="separator:aeb8a2e7a0907e24e6cc291bb61be118c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2894d1a5b42db2b9625d1317803413fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_collision.html#a2894d1a5b42db2b9625d1317803413fa">getLastHitPosForWall</a> ()</td></tr>
+<tr class="memdesc:a2894d1a5b42db2b9625d1317803413fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">最後にヒットした座標の取得  <a href="#a2894d1a5b42db2b9625d1317803413fa">[詳細]</a><br/></td></tr>
+<tr class="separator:a2894d1a5b42db2b9625d1317803413fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c8970a0a387f87a07aa5ea80f11e591"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_collision.html#a4c8970a0a387f87a07aa5ea80f11e591">HitSphere</a> (<a class="el" href="struct_vector3.html">Vector3</a> &amp;spherePos1, <a class="el" href="struct_vector3.html">Vector3</a> &amp;spherePos2, <a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> sphereRadius1, <a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> sphereRadius2)</td></tr>
+<tr class="separator:a4c8970a0a387f87a07aa5ea80f11e591"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb11088c991d7810e7bbf90b2fd21a91"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_collision.html#afb11088c991d7810e7bbf90b2fd21a91">HitCircle</a> (<a class="el" href="struct_vector3.html">Vector3</a> &amp;circlePos1, <a class="el" href="struct_vector3.html">Vector3</a> &amp;circlePos2, <a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> circleRadius1, <a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> circleRadius2)</td></tr>
+<tr class="separator:afb11088c991d7810e7bbf90b2fd21a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a607d8e0a0d4a78e40da77b61e2daf386"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_system_collision.html">SystemCollision</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_collision.html#a607d8e0a0d4a78e40da77b61e2daf386">getInstance</a> ()</td></tr>
+<tr class="memdesc:a607d8e0a0d4a78e40da77b61e2daf386"><td class="mdescLeft">&#160;</td><td class="mdescRight">インスタンス取得  <a href="#a607d8e0a0d4a78e40da77b61e2daf386">[詳細]</a><br/></td></tr>
+<tr class="separator:a607d8e0a0d4a78e40da77b61e2daf386"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">説明</h2>
+<div class="textblock"><p>衝突判定システム </p>
+</div><h2 class="groupheader">関数</h2>
+<a class="anchor" id="aeb8a2e7a0907e24e6cc291bb61be118c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemCollision::checkCollisionModel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>isHitGround</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>指定した座標とモデルの当たり判定と補正 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">positon</td><td>チェックする位置 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">heightLimit</td><td>判定上限高さ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">myGridNum</td><td>グリッド番号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">isHitGround</td><td>地面に当たったかどうか </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="abf90f3f07d21345949bd6d2f428874db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemCollision::DebugRender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>デバッグ描画 </p>
+
+</div>
+</div>
+<a class="anchor" id="a40f31b956fbccee7702e89dec57698d5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemCollision::DebugRender2D </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>デバッグ描画(2D) </p>
+
+</div>
+</div>
+<a class="anchor" id="ae5b6d80c1ed9f51596e44a75ce4e8ff3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemCollision::deleteObject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>オブジェクトの消去 </p>
+
+</div>
+</div>
+<a class="anchor" id="a607d8e0a0d4a78e40da77b61e2daf386"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_system_collision.html">SystemCollision</a>* SystemCollision::getInstance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>インスタンス取得 </p>
+
+</div>
+</div>
+<a class="anchor" id="a2894d1a5b42db2b9625d1317803413fa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_vector3.html">Vector3</a> SystemCollision::getLastHitPosForWall </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>最後にヒットした座標の取得 </p>
+
+</div>
+</div>
+<a class="anchor" id="afb11088c991d7810e7bbf90b2fd21a91"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SystemCollision::HitCircle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>circlePos1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>circlePos2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramname"><em>circleRadius1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramname"><em>circleRadius2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>円同士のあたり判定 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">cubePos1</td><td>一つ目の円の座標 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cubePos2</td><td>二つ目の円の座標 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cubeRadius1</td><td>一つ目の円の半径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cubeRadius2</td><td>二つ目の円の半径 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>戻り値</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>: 当たってる false : 当たっていない </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4c8970a0a387f87a07aa5ea80f11e591"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SystemCollision::HitSphere </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>spherePos1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>spherePos2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramname"><em>sphereRadius1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramname"><em>sphereRadius2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>球同士のあたり判定 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">cubePos1</td><td>一つ目の球の座標 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cubePos2</td><td>二つ目の球の座標 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cubeRadius1</td><td>一つ目の球の半径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cubeRadius2</td><td>二つ目の球の半径 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>戻り値</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>: 当たってる false : 当たっていない </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a6c5defd4da3d36b2658bb3e5c8bbf9ec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_system_collision_1_1_object.html">SystemCollision::Object</a> SystemCollision::loadData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_asset_model_x_1_1_frame.html">AssetModelX::Frame</a> *&#160;</td>
+          <td class="paramname"><em>pModelFrame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>max</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isWall</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_matrix.html">Matrix</a> &amp;&#160;</td>
+          <td class="paramname"><em>modelMat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vector&lt; <a class="el" href="struct_task_model_x_1_1_joint.html">TaskModelX::Joint</a> &gt;&#160;</td>
+          <td class="paramname"><em>joints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>フレームからデータ読み込み </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pModel</td><td>Xファイル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>最大座標(XZ)保存用 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">min</td><td>最小座標(XZ)保存用 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">isWall</td><td>壁用かどうか </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">modelMat</td><td>モデル行列 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">joints</td><td>そのフレームの属すジョイント </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7199d6d6e89d07f2c11075ea01582060"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_system_collision_1_1_object.html">SystemCollision::Object</a> SystemCollision::loadDataOneFrame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_asset_model_x_1_1_frame.html">AssetModelX::Frame</a> *&#160;</td>
+          <td class="paramname"><em>pModelFrame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>max</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isWall</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_matrix.html">Matrix</a> &amp;&#160;</td>
+          <td class="paramname"><em>modelMat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vector&lt; <a class="el" href="struct_task_model_x_1_1_joint.html">TaskModelX::Joint</a> &gt;&#160;</td>
+          <td class="paramname"><em>joints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>フレームからデータ読み込み(再帰なし) </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pModel</td><td>Xファイル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>最大座標(XZ)保存用 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">min</td><td>最小座標(XZ)保存用 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">isWall</td><td>壁用かどうか </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">modelMat</td><td>モデル行列 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">joints</td><td>そのフレームの属すジョイント </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac47bc50e57f50f15f3353c197f78034f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SystemCollision::loadLandScaleWithFrame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_asset_model_x_1_1_frame.html">AssetModelX::Frame</a> *&#160;</td>
+          <td class="paramname"><em>colFrame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_task_model_x.html">TaskModelX</a> *&#160;</td>
+          <td class="paramname"><em>parentModel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>フレームからポリゴンデーターを入力 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">colModel</td><td>フレーム </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">parentModel</td><td>フレームの属すタスクモデル</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>フレームからランドスケープ当たり判定を入力 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">colModel</td><td>フレーム </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">parentModel</td><td>フレームの属すタスクモデル </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a43d601d16b9d37776a043fd1d7e1cd43"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_system_collision_1_1_object.html">SystemCollision::Object</a> SystemCollision::loadWithFrame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_asset_model_x_1_1_frame.html">AssetModelX::Frame</a> *&#160;</td>
+          <td class="paramname"><em>colFrame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vector&lt; <a class="el" href="class_system_collision_1_1_object.html">SystemCollision::Object</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>_dst</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>max</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isWall</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_task_model_x.html">TaskModelX</a> *&#160;</td>
+          <td class="paramname"><em>parentModel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>フレームからポリゴンデータを返す </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">colFrame</td><td>Frame </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dst</td><td>読み込み結果保存先 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>最大座標(XZ)保存用 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">min</td><td>最小座標(XZ)保存用 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">isWall</td><td>壁用かどうか </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">parentModel</td><td>そのフレームが属すモデル</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Xファイルからポリゴンデーターを返す </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pModel</td><td>Xファイル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dst</td><td>読み込み結果保存先 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>最大座標(XZ)保存用 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">min</td><td>最小座標(XZ)保存用 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">isWall</td><td>壁用かどうか </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7ad319d26fbc81ed98864201d824aca4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SystemCollision::loadXfile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_task_model_x.html">TaskModelX</a> *&#160;</td>
+          <td class="paramname"><em>colModel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Xファイルからポリゴンデーターを入力 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">colModel</td><td>Xファイル</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Xファイルからポリゴンデーターを入力 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">colModel</td><td>Xファイル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">scale</td><td>拡大率 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7516835310a251670a979da5fb08e702"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_system_collision_1_1_object.html">SystemCollision::Object</a> SystemCollision::loadXfile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_task_model_x.html">TaskModelX</a> *&#160;</td>
+          <td class="paramname"><em>pModel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vector&lt; <a class="el" href="class_system_collision_1_1_object.html">SystemCollision::Object</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>_dst</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>max</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_vector3.html">Vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isWall</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Xファイルからポリゴンデーターを返す </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pModel</td><td>Xファイル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dst</td><td>読み込み結果保存先 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>最大座標(XZ)保存用 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">min</td><td>最小座標(XZ)保存用 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">isWall</td><td>壁用かどうか </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>このクラスの説明は次のファイルから生成されました:<ul>
+<li>D:/OCA/OCA_BackUp/OpenGL/WithGameEngineProj/GameWithLibrary/GameEngine/src/<a class="el" href="gm_collision_8h_source.html">gmCollision.h</a></li>
+<li>D:/OCA/OCA_BackUp/OpenGL/WithGameEngineProj/GameWithLibrary/GameEngine/src/<a class="el" href="gm_collision_8cpp.html">gmCollision.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_system_collision.html">SystemCollision</a></li>
+    <li class="footer">CastleCrashに対してSun Jul 20 2014 17:25:19に生成されました。
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

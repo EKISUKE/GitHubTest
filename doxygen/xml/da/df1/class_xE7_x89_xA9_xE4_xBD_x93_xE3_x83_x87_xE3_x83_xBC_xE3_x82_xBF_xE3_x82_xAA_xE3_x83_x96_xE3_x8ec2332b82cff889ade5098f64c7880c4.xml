@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="da/df1/class_xE7_x89_xA9_xE4_xBD_x93_xE3_x83_x87_xE3_x83_xBC_xE3_x82_xBF_xE3_x82_xAA_xE3_x83_x96_xE3_x8ec2332b82cff889ade5098f64c7880c4" kind="class" prot="public">
+    <compoundname>物体データオブジェクト</compoundname>
+    <includes refid="d9/d87/_collision_8h" local="no">Collision.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="222" column="1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

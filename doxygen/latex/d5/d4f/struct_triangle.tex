@@ -1,0 +1,128 @@
+\hypertarget{struct_triangle}{\section{構造体 Triangle}
+\label{struct_triangle}\index{Triangle@{Triangle}}
+}
+
+
+{\ttfamily \#include $<$Geometry.\-h$>$}
+
+Triangleに対する継承グラフ\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d5/d4f/struct_triangle}
+\end{center}
+\end{figure}
+\subsection*{Public メソッド}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_triangle_aaefe4ed500c07918d30c6f0e286332c5}{Triangle} ()
+\begin{DoxyCompactList}\small\item\em デフォルトコンストラクタ \end{DoxyCompactList}\item 
+\hyperlink{struct_triangle_accd0422f7fc2f2f22c6c2042e76982f1}{Triangle} (const \hyperlink{struct_vector3}{Vector3} \&p1, const \hyperlink{struct_vector3}{Vector3} \&p2, const \hyperlink{struct_vector3}{Vector3} \&p3)
+\item 
+bool \hyperlink{struct_triangle_adbf10eb0436ab91581f6da857b203d1f}{is\-Hit} (const \hyperlink{struct_vector3}{Vector3} \&p) const 
+\begin{DoxyCompactList}\small\item\em 指定した座標の点が三角形に含まれるかどうかをテスト \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{struct_triangle_ae2d9ae35e53b8c1654e7f5405b8e26dd}{get\-Hit\-Pos} (const \hyperlink{struct_vector3}{Vector3} \&p) const 
+\begin{DoxyCompactList}\small\item\em 指定した座標から一番近い三角形の点を返す \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{struct_triangle_a6298642f5b3796035806fdec1f5584f9}{get\-Center} () const 
+\begin{DoxyCompactList}\small\item\em 重心を取得 \end{DoxyCompactList}\item 
+void \hyperlink{struct_triangle_ad963391905b9b061f1bbb69dce87494e}{debug\-Render} (\hyperlink{struct_color}{Color} \&col)
+\begin{DoxyCompactList}\small\item\em デバッグ描画 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public 変数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{struct_triangle_a2138d57a641e85b40dfb79dbbb14f733}{\-\_\-position} \mbox{[}3\mbox{]}
+\begin{DoxyCompactList}\small\item\em 3点の位置座標 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{コンストラクタとデストラクタ}
+\hypertarget{struct_triangle_aaefe4ed500c07918d30c6f0e286332c5}{\index{Triangle@{Triangle}!Triangle@{Triangle}}
+\index{Triangle@{Triangle}!Triangle@{Triangle}}
+\subsubsection[{Triangle}]{\setlength{\rightskip}{0pt plus 5cm}Triangle\-::\-Triangle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{struct_triangle_aaefe4ed500c07918d30c6f0e286332c5}
+
+
+デフォルトコンストラクタ 
+
+\hypertarget{struct_triangle_accd0422f7fc2f2f22c6c2042e76982f1}{\index{Triangle@{Triangle}!Triangle@{Triangle}}
+\index{Triangle@{Triangle}!Triangle@{Triangle}}
+\subsubsection[{Triangle}]{\setlength{\rightskip}{0pt plus 5cm}Triangle\-::\-Triangle (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{p1, }
+\item[{const {\bf Vector3} \&}]{p2, }
+\item[{const {\bf Vector3} \&}]{p3}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{struct_triangle_accd0422f7fc2f2f22c6c2042e76982f1}
+コンストラクタ(3点指定) 
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em p1} & 平面上の点1 \\
+\hline
+\mbox{\tt in}  & {\em p2} & 平面上の点2 \\
+\hline
+\mbox{\tt in}  & {\em p3} & 平面上の点3 \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{関数}
+\hypertarget{struct_triangle_ad963391905b9b061f1bbb69dce87494e}{\index{Triangle@{Triangle}!debug\-Render@{debug\-Render}}
+\index{debug\-Render@{debug\-Render}!Triangle@{Triangle}}
+\subsubsection[{debug\-Render}]{\setlength{\rightskip}{0pt plus 5cm}void Triangle\-::debug\-Render (
+\begin{DoxyParamCaption}
+\item[{{\bf Color} \&}]{col}
+\end{DoxyParamCaption}
+)}}\label{struct_triangle_ad963391905b9b061f1bbb69dce87494e}
+
+
+デバッグ描画 
+
+デバッグ用描画 \hypertarget{struct_triangle_a6298642f5b3796035806fdec1f5584f9}{\index{Triangle@{Triangle}!get\-Center@{get\-Center}}
+\index{get\-Center@{get\-Center}!Triangle@{Triangle}}
+\subsubsection[{get\-Center}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Triangle\-::get\-Center (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{struct_triangle_a6298642f5b3796035806fdec1f5584f9}
+
+
+重心を取得 
+
+\hypertarget{struct_triangle_ae2d9ae35e53b8c1654e7f5405b8e26dd}{\index{Triangle@{Triangle}!get\-Hit\-Pos@{get\-Hit\-Pos}}
+\index{get\-Hit\-Pos@{get\-Hit\-Pos}!Triangle@{Triangle}}
+\subsubsection[{get\-Hit\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Triangle\-::get\-Hit\-Pos (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{p}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{struct_triangle_ae2d9ae35e53b8c1654e7f5405b8e26dd}
+
+
+指定した座標から一番近い三角形の点を返す 
+
+\hypertarget{struct_triangle_adbf10eb0436ab91581f6da857b203d1f}{\index{Triangle@{Triangle}!is\-Hit@{is\-Hit}}
+\index{is\-Hit@{is\-Hit}!Triangle@{Triangle}}
+\subsubsection[{is\-Hit}]{\setlength{\rightskip}{0pt plus 5cm}bool Triangle\-::is\-Hit (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{p}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{struct_triangle_adbf10eb0436ab91581f6da857b203d1f}
+
+
+指定した座標の点が三角形に含まれるかどうかをテスト 
+
+
+
+\subsection{変数}
+\hypertarget{struct_triangle_a2138d57a641e85b40dfb79dbbb14f733}{\index{Triangle@{Triangle}!\-\_\-position@{\-\_\-position}}
+\index{\-\_\-position@{\-\_\-position}!Triangle@{Triangle}}
+\subsubsection[{\-\_\-position}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Triangle\-::\-\_\-position\mbox{[}3\mbox{]}}}\label{struct_triangle_a2138d57a641e85b40dfb79dbbb14f733}
+
+
+3点の位置座標 
+
+
+
+この構造体の説明は次のファイルから生成されました\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_geometry_8h}{Geometry.\-h}\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_geometry_8cpp}{Geometry.\-cpp}\end{DoxyCompactItemize}

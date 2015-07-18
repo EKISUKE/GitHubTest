@@ -1,0 +1,304 @@
+\hypertarget{class_ally_base}{\section{クラス Ally\-Base}
+\label{class_ally_base}\index{Ally\-Base@{Ally\-Base}}
+}
+
+
+{\ttfamily \#include $<$Ally.\-h$>$}
+
+Ally\-Baseに対する継承グラフ\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{dd/d54/class_ally_base}
+\end{center}
+\end{figure}
+\subsection*{Public 型}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_ally_base_a415be0ac5999cacff3c36db435115e91}{T\-Y\-P\-E} \{ \\*
+\hyperlink{class_ally_base_a415be0ac5999cacff3c36db435115e91a570b1a3bd521dc38c4ee18ac9e64cb17}{A\-T\-T\-A\-C\-K\-E\-R}, 
+\hyperlink{class_ally_base_a415be0ac5999cacff3c36db435115e91ac3e02201ee59a640522f3a01d307cc9f}{D\-E\-F\-F\-E\-N\-D\-E\-R}, 
+\hyperlink{class_ally_base_a415be0ac5999cacff3c36db435115e91ad206186da211264935f86a0f6a890145}{H\-E\-A\-L\-L\-E\-R}, 
+\hyperlink{class_ally_base_a415be0ac5999cacff3c36db435115e91af47de2a600a689cc5c0275428a148e60}{F\-E\-I\-N\-T\-E\-R}, 
+\\*
+\hyperlink{class_ally_base_a415be0ac5999cacff3c36db435115e91a2c4893a235c95170de62123fc3817485}{M\-A\-X}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public メソッド}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_ally_base_ad0e5ffbd4082605a9db1f81f8a4724bc}{Update} (const \hyperlink{class_player_a70057174eaea9fd441ca86cc7bb896ed}{Player\-::\-C\-O\-M\-M\-A\-N\-D} \&\-\_\-player\-Command, \hyperlink{struct_vector3}{Vector3} \&goal\-Pos, \hyperlink{struct_vector3}{Vector3} \&player\-Pos)
+\begin{DoxyCompactList}\small\item\em 更新(この中で更新すべき\-Updateを呼び出す) \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_ally_base_a96371430d8037793f7bd4b3a75d8c136}{Update\-By\-Command} (const \hyperlink{class_player_a70057174eaea9fd441ca86cc7bb896ed}{Player\-::\-C\-O\-M\-M\-A\-N\-D} \&\-\_\-player\-Command, \hyperlink{struct_vector3}{Vector3} \&goal\-Pos, \hyperlink{struct_vector3}{Vector3} \&player\-Pos)=0
+\begin{DoxyCompactList}\small\item\em 命令時の更新 \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_ally_base_a7ab6832753de076894761ce58389ef7c}{Update\-Normal} (\hyperlink{struct_vector3}{Vector3} \&player)=0
+\begin{DoxyCompactList}\small\item\em プレイヤーの周りに常にいる \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_ally_base_aadfd770043d90b11986181a75ad2e32d}{Render} ()
+\begin{DoxyCompactList}\small\item\em 描画 \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_ally_base_a273efbd74be3780208b5c70cd80a1111}{Status\-Render} ()
+\begin{DoxyCompactList}\small\item\em ステータスの描画(2\-D) \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_ally_base_a76b3e01b0d3ad523947f5c1d480c211e}{Debug\-Render} ()
+\begin{DoxyCompactList}\small\item\em デバッグ描画 \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_ally_base_a1ebb65212a5825c9a0894b008b19dfd3}{Reset\-Position} ()
+\begin{DoxyCompactList}\small\item\em 攻撃 \end{DoxyCompactList}\item 
+void \hyperlink{class_ally_base_a56952ebd77a64f24691d36e10db0abf5}{set\-Leader\-Pos} (\hyperlink{struct_vector3}{Vector3} \&pos)
+\begin{DoxyCompactList}\small\item\em リーダー座標を設定 \end{DoxyCompactList}\item 
+\hyperlink{class_ally_base_a415be0ac5999cacff3c36db435115e91}{T\-Y\-P\-E} \hyperlink{class_ally_base_a9c3306fa9eafbe909e733d4bf109416e}{get\-Type} ()
+\begin{DoxyCompactList}\small\item\em タイプ取得 \end{DoxyCompactList}\end{DoxyCompactItemize}
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_ally_base_a17d06a89e920ac54909e291c3a485b6f}{Ally\-Base} ()
+\begin{DoxyCompactList}\small\item\em 初期化 \end{DoxyCompactList}\item 
+virtual \hyperlink{class_ally_base_ac2f1c59ac703ccb4352ceb4e1805122e}{$\sim$\-Ally\-Base} ()
+\begin{DoxyCompactList}\small\item\em デストラクタ \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ally_base_a8deb60628340c7a2567fda3bd54ac967}{Initialize} ()
+\begin{DoxyCompactList}\small\item\em 初期化 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+\subsection*{Protected 変数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_ally_base_a415be0ac5999cacff3c36db435115e91}{T\-Y\-P\-E} \hyperlink{class_ally_base_a404a0b9f3665f8428e8f4605c11b4aa8}{\-\_\-type}
+\item 
+\hyperlink{class_collision}{Collision} \hyperlink{class_ally_base_aa50dc4d93b0aec2d2ee68eb413099bee}{\-\_\-attack\-Collision}
+\begin{DoxyCompactList}\small\item\em 攻撃判定用 \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_ally_base_a645bdf98a2819d860f30637ffa82fe35}{\-\_\-leader\-Pos}
+\begin{DoxyCompactList}\small\item\em リーダーの座標 \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_ally_base_af86598e67ba582fac7383caee977458d}{\-\_\-\-Debug\-Goal\-Pos}
+\begin{DoxyCompactList}\small\item\em 目標座標(デバッグ用) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{列挙型}
+\hypertarget{class_ally_base_a415be0ac5999cacff3c36db435115e91}{\index{Ally\-Base@{Ally\-Base}!T\-Y\-P\-E@{T\-Y\-P\-E}}
+\index{T\-Y\-P\-E@{T\-Y\-P\-E}!AllyBase@{Ally\-Base}}
+\subsubsection[{T\-Y\-P\-E}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Ally\-Base\-::\-T\-Y\-P\-E}}}\label{class_ally_base_a415be0ac5999cacff3c36db435115e91}
+\begin{Desc}
+\item[列挙型の値]\par
+\begin{description}
+\index{A\-T\-T\-A\-C\-K\-E\-R@{A\-T\-T\-A\-C\-K\-E\-R}!Ally\-Base@{Ally\-Base}}\index{Ally\-Base@{Ally\-Base}!A\-T\-T\-A\-C\-K\-E\-R@{A\-T\-T\-A\-C\-K\-E\-R}}\item[{\em 
+\hypertarget{class_ally_base_a415be0ac5999cacff3c36db435115e91a570b1a3bd521dc38c4ee18ac9e64cb17}{A\-T\-T\-A\-C\-K\-E\-R}\label{class_ally_base_a415be0ac5999cacff3c36db435115e91a570b1a3bd521dc38c4ee18ac9e64cb17}
+}]\index{D\-E\-F\-F\-E\-N\-D\-E\-R@{D\-E\-F\-F\-E\-N\-D\-E\-R}!Ally\-Base@{Ally\-Base}}\index{Ally\-Base@{Ally\-Base}!D\-E\-F\-F\-E\-N\-D\-E\-R@{D\-E\-F\-F\-E\-N\-D\-E\-R}}\item[{\em 
+\hypertarget{class_ally_base_a415be0ac5999cacff3c36db435115e91ac3e02201ee59a640522f3a01d307cc9f}{D\-E\-F\-F\-E\-N\-D\-E\-R}\label{class_ally_base_a415be0ac5999cacff3c36db435115e91ac3e02201ee59a640522f3a01d307cc9f}
+}]\index{H\-E\-A\-L\-L\-E\-R@{H\-E\-A\-L\-L\-E\-R}!Ally\-Base@{Ally\-Base}}\index{Ally\-Base@{Ally\-Base}!H\-E\-A\-L\-L\-E\-R@{H\-E\-A\-L\-L\-E\-R}}\item[{\em 
+\hypertarget{class_ally_base_a415be0ac5999cacff3c36db435115e91ad206186da211264935f86a0f6a890145}{H\-E\-A\-L\-L\-E\-R}\label{class_ally_base_a415be0ac5999cacff3c36db435115e91ad206186da211264935f86a0f6a890145}
+}]\index{F\-E\-I\-N\-T\-E\-R@{F\-E\-I\-N\-T\-E\-R}!Ally\-Base@{Ally\-Base}}\index{Ally\-Base@{Ally\-Base}!F\-E\-I\-N\-T\-E\-R@{F\-E\-I\-N\-T\-E\-R}}\item[{\em 
+\hypertarget{class_ally_base_a415be0ac5999cacff3c36db435115e91af47de2a600a689cc5c0275428a148e60}{F\-E\-I\-N\-T\-E\-R}\label{class_ally_base_a415be0ac5999cacff3c36db435115e91af47de2a600a689cc5c0275428a148e60}
+}]\index{M\-A\-X@{M\-A\-X}!Ally\-Base@{Ally\-Base}}\index{Ally\-Base@{Ally\-Base}!M\-A\-X@{M\-A\-X}}\item[{\em 
+\hypertarget{class_ally_base_a415be0ac5999cacff3c36db435115e91a2c4893a235c95170de62123fc3817485}{M\-A\-X}\label{class_ally_base_a415be0ac5999cacff3c36db435115e91a2c4893a235c95170de62123fc3817485}
+}]\end{description}
+\end{Desc}
+
+
+\subsection{コンストラクタとデストラクタ}
+\hypertarget{class_ally_base_a17d06a89e920ac54909e291c3a485b6f}{\index{Ally\-Base@{Ally\-Base}!Ally\-Base@{Ally\-Base}}
+\index{Ally\-Base@{Ally\-Base}!AllyBase@{Ally\-Base}}
+\subsubsection[{Ally\-Base}]{\setlength{\rightskip}{0pt plus 5cm}Ally\-Base\-::\-Ally\-Base (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_ally_base_a17d06a89e920ac54909e291c3a485b6f}
+
+
+初期化 
+
+コンストラクタ
+
+デフォルトコンストラクタ \hypertarget{class_ally_base_ac2f1c59ac703ccb4352ceb4e1805122e}{\index{Ally\-Base@{Ally\-Base}!$\sim$\-Ally\-Base@{$\sim$\-Ally\-Base}}
+\index{$\sim$\-Ally\-Base@{$\sim$\-Ally\-Base}!AllyBase@{Ally\-Base}}
+\subsubsection[{$\sim$\-Ally\-Base}]{\setlength{\rightskip}{0pt plus 5cm}Ally\-Base\-::$\sim$\-Ally\-Base (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ally_base_ac2f1c59ac703ccb4352ceb4e1805122e}
+
+
+デストラクタ 
+
+
+
+\subsection{関数}
+\hypertarget{class_ally_base_a76b3e01b0d3ad523947f5c1d480c211e}{\index{Ally\-Base@{Ally\-Base}!Debug\-Render@{Debug\-Render}}
+\index{Debug\-Render@{Debug\-Render}!AllyBase@{Ally\-Base}}
+\subsubsection[{Debug\-Render}]{\setlength{\rightskip}{0pt plus 5cm}void Ally\-Base\-::\-Debug\-Render (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ally_base_a76b3e01b0d3ad523947f5c1d480c211e}
+
+
+デバッグ描画 
+
+\hypertarget{class_ally_base_a9c3306fa9eafbe909e733d4bf109416e}{\index{Ally\-Base@{Ally\-Base}!get\-Type@{get\-Type}}
+\index{get\-Type@{get\-Type}!AllyBase@{Ally\-Base}}
+\subsubsection[{get\-Type}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\-Y\-P\-E} Ally\-Base\-::get\-Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_ally_base_a9c3306fa9eafbe909e733d4bf109416e}
+
+
+タイプ取得 
+
+\hypertarget{class_ally_base_a8deb60628340c7a2567fda3bd54ac967}{\index{Ally\-Base@{Ally\-Base}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!AllyBase@{Ally\-Base}}
+\subsubsection[{Initialize}]{\setlength{\rightskip}{0pt plus 5cm}bool Ally\-Base\-::\-Initialize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ally_base_a8deb60628340c7a2567fda3bd54ac967}
+
+
+初期化 
+
+
+
+\hyperlink{class_man_a465c9e858a334083e663eb266dbbe0f2}{Man}を再定義しています。
+
+
+
+\hyperlink{class_ally_attacker_aef6541e9fd1b90556476c95278e46bc7}{Ally\-Attacker}, \hyperlink{class_ally_healer_a657b123a6d4a90e1f21ac8d88a90e4c4}{Ally\-Healer}, と \hyperlink{class_ally_deffender_aca474cd4da5fac407bc29f8d14834ccc}{Ally\-Deffender}で再定義されています。
+
+\hypertarget{class_ally_base_aadfd770043d90b11986181a75ad2e32d}{\index{Ally\-Base@{Ally\-Base}!Render@{Render}}
+\index{Render@{Render}!AllyBase@{Ally\-Base}}
+\subsubsection[{Render}]{\setlength{\rightskip}{0pt plus 5cm}void Ally\-Base\-::\-Render (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ally_base_aadfd770043d90b11986181a75ad2e32d}
+
+
+描画 
+
+
+
+\hyperlink{class_man_a87a4883012aba35a3288212b0412df86}{Man}を再定義しています。
+
+
+
+\hyperlink{class_ally_attacker_a9aee0fd5bee4906a85627bc2f87e76a4}{Ally\-Attacker}, \hyperlink{class_ally_healer_a38855aeb63c4f19b2a5cbfdb7a3836b6}{Ally\-Healer}, と \hyperlink{class_ally_deffender_aeb9a268c442d133fb0d8f7bb4a932a6f}{Ally\-Deffender}で再定義されています。
+
+\hypertarget{class_ally_base_a1ebb65212a5825c9a0894b008b19dfd3}{\index{Ally\-Base@{Ally\-Base}!Reset\-Position@{Reset\-Position}}
+\index{Reset\-Position@{Reset\-Position}!AllyBase@{Ally\-Base}}
+\subsubsection[{Reset\-Position}]{\setlength{\rightskip}{0pt plus 5cm}void Ally\-Base\-::\-Reset\-Position (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ally_base_a1ebb65212a5825c9a0894b008b19dfd3}
+
+
+攻撃 
+
+座標再設定
+
+座標設定しなおし 
+
+\hyperlink{class_man_a355179fbf349aaec3ee6032710138e7b}{Man}を再定義しています。
+
+\hypertarget{class_ally_base_a56952ebd77a64f24691d36e10db0abf5}{\index{Ally\-Base@{Ally\-Base}!set\-Leader\-Pos@{set\-Leader\-Pos}}
+\index{set\-Leader\-Pos@{set\-Leader\-Pos}!AllyBase@{Ally\-Base}}
+\subsubsection[{set\-Leader\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}void Ally\-Base\-::set\-Leader\-Pos (
+\begin{DoxyParamCaption}
+\item[{{\bf Vector3} \&}]{pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_ally_base_a56952ebd77a64f24691d36e10db0abf5}
+
+
+リーダー座標を設定 
+
+\hypertarget{class_ally_base_a273efbd74be3780208b5c70cd80a1111}{\index{Ally\-Base@{Ally\-Base}!Status\-Render@{Status\-Render}}
+\index{Status\-Render@{Status\-Render}!AllyBase@{Ally\-Base}}
+\subsubsection[{Status\-Render}]{\setlength{\rightskip}{0pt plus 5cm}void Ally\-Base\-::\-Status\-Render (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ally_base_a273efbd74be3780208b5c70cd80a1111}
+
+
+ステータスの描画(2\-D) 
+
+
+
+\hyperlink{class_man_ae4f1db4bc8c4294fe7ec94e7351959dc}{Man}を再定義しています。
+
+\hypertarget{class_ally_base_ad0e5ffbd4082605a9db1f81f8a4724bc}{\index{Ally\-Base@{Ally\-Base}!Update@{Update}}
+\index{Update@{Update}!AllyBase@{Ally\-Base}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}void Ally\-Base\-::\-Update (
+\begin{DoxyParamCaption}
+\item[{const {\bf Player\-::\-C\-O\-M\-M\-A\-N\-D} \&}]{\-\_\-player\-Command, }
+\item[{{\bf Vector3} \&}]{goal\-Pos, }
+\item[{{\bf Vector3} \&}]{player\-Pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ally_base_ad0e5ffbd4082605a9db1f81f8a4724bc}
+
+
+更新(この中で更新すべき\-Updateを呼び出す) 
+
+
+
+\hyperlink{class_ally_attacker_afcbfead763853ab568897f02f5747425}{Ally\-Attacker}, \hyperlink{class_ally_healer_a24604a4c5c8d922833721a94d2edc04c}{Ally\-Healer}, と \hyperlink{class_ally_deffender_a53d33c150d0e72d04939cd53e0c25f5f}{Ally\-Deffender}で再定義されています。
+
+\hypertarget{class_ally_base_a96371430d8037793f7bd4b3a75d8c136}{\index{Ally\-Base@{Ally\-Base}!Update\-By\-Command@{Update\-By\-Command}}
+\index{Update\-By\-Command@{Update\-By\-Command}!AllyBase@{Ally\-Base}}
+\subsubsection[{Update\-By\-Command}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Ally\-Base\-::\-Update\-By\-Command (
+\begin{DoxyParamCaption}
+\item[{const {\bf Player\-::\-C\-O\-M\-M\-A\-N\-D} \&}]{\-\_\-player\-Command, }
+\item[{{\bf Vector3} \&}]{goal\-Pos, }
+\item[{{\bf Vector3} \&}]{player\-Pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_ally_base_a96371430d8037793f7bd4b3a75d8c136}
+
+
+命令時の更新 
+
+
+
+\hyperlink{class_ally_attacker_a22a8f9299878e8e74491701fa1416d2e}{Ally\-Attacker}, \hyperlink{class_ally_healer_a9ddce68a7c042137a3cc459e61a60104}{Ally\-Healer}, と \hyperlink{class_ally_deffender_a018968fae33a57fbbc42340fbae5328c}{Ally\-Deffender}で実装されています。
+
+\hypertarget{class_ally_base_a7ab6832753de076894761ce58389ef7c}{\index{Ally\-Base@{Ally\-Base}!Update\-Normal@{Update\-Normal}}
+\index{Update\-Normal@{Update\-Normal}!AllyBase@{Ally\-Base}}
+\subsubsection[{Update\-Normal}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Ally\-Base\-::\-Update\-Normal (
+\begin{DoxyParamCaption}
+\item[{{\bf Vector3} \&}]{player}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_ally_base_a7ab6832753de076894761ce58389ef7c}
+
+
+プレイヤーの周りに常にいる 
+
+
+
+\hyperlink{class_ally_attacker_a9910a2a200f19c08cecaf978ed9f3b01}{Ally\-Attacker}, \hyperlink{class_ally_healer_aca96222aed49e55506bed0811fac14da}{Ally\-Healer}, と \hyperlink{class_ally_deffender_a27994c93aad3c05ca169639771677a74}{Ally\-Deffender}で実装されています。
+
+
+
+\subsection{変数}
+\hypertarget{class_ally_base_aa50dc4d93b0aec2d2ee68eb413099bee}{\index{Ally\-Base@{Ally\-Base}!\-\_\-attack\-Collision@{\-\_\-attack\-Collision}}
+\index{\-\_\-attack\-Collision@{\-\_\-attack\-Collision}!AllyBase@{Ally\-Base}}
+\subsubsection[{\-\_\-attack\-Collision}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Collision} Ally\-Base\-::\-\_\-attack\-Collision\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_ally_base_aa50dc4d93b0aec2d2ee68eb413099bee}
+
+
+攻撃判定用 
+
+\hypertarget{class_ally_base_af86598e67ba582fac7383caee977458d}{\index{Ally\-Base@{Ally\-Base}!\-\_\-\-Debug\-Goal\-Pos@{\-\_\-\-Debug\-Goal\-Pos}}
+\index{\-\_\-\-Debug\-Goal\-Pos@{\-\_\-\-Debug\-Goal\-Pos}!AllyBase@{Ally\-Base}}
+\subsubsection[{\-\_\-\-Debug\-Goal\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Ally\-Base\-::\-\_\-\-Debug\-Goal\-Pos\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_ally_base_af86598e67ba582fac7383caee977458d}
+
+
+目標座標(デバッグ用) 
+
+\hypertarget{class_ally_base_a645bdf98a2819d860f30637ffa82fe35}{\index{Ally\-Base@{Ally\-Base}!\-\_\-leader\-Pos@{\-\_\-leader\-Pos}}
+\index{\-\_\-leader\-Pos@{\-\_\-leader\-Pos}!AllyBase@{Ally\-Base}}
+\subsubsection[{\-\_\-leader\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Ally\-Base\-::\-\_\-leader\-Pos\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_ally_base_a645bdf98a2819d860f30637ffa82fe35}
+
+
+リーダーの座標 
+
+\hypertarget{class_ally_base_a404a0b9f3665f8428e8f4605c11b4aa8}{\index{Ally\-Base@{Ally\-Base}!\-\_\-type@{\-\_\-type}}
+\index{\-\_\-type@{\-\_\-type}!AllyBase@{Ally\-Base}}
+\subsubsection[{\-\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\-Y\-P\-E} Ally\-Base\-::\-\_\-type\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_ally_base_a404a0b9f3665f8428e8f4605c11b4aa8}
+
+
+このクラスの説明は次のファイルから生成されました\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_ally_8h}{Ally.\-h}\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_ally_8cpp}{Ally.\-cpp}\end{DoxyCompactItemize}

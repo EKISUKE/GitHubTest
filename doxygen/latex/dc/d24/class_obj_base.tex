@@ -1,0 +1,214 @@
+\hypertarget{class_obj_base}{\section{クラス Obj\-Base}
+\label{class_obj_base}\index{Obj\-Base@{Obj\-Base}}
+}
+
+
+{\ttfamily \#include $<$Obj\-Base.\-h$>$}
+
+Obj\-Baseに対する継承グラフ\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{dc/d24/class_obj_base}
+\end{center}
+\end{figure}
+\subsection*{Public メソッド}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_obj_base_ab7a2f2e63f2ef5c735faad622399d4dc}{Obj\-Base} ()
+\begin{DoxyCompactList}\small\item\em コンストラクタ \end{DoxyCompactList}\item 
+virtual \hyperlink{class_obj_base_a54ccb5455d3deacd3d342b09f7965bbc}{$\sim$\-Obj\-Base} ()
+\begin{DoxyCompactList}\small\item\em デストラクタ \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_obj_base_a278846a0c6381ecefdfb0798472b7b8c}{Initialize} ()
+\begin{DoxyCompactList}\small\item\em 初期化 \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_obj_base_a83992aba2dcaf6d3548dd17618b4b0b9}{Update} ()
+\begin{DoxyCompactList}\small\item\em 更新 \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_obj_base_aecde185a045789498626dbfc104950ef}{Render} ()
+\begin{DoxyCompactList}\small\item\em 描画 \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_obj_base_aaf39427e88188735373b4ac1cc0f30b3}{get\-Position} () const 
+\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_obj_base_a14f5da5ba7748f44aec4e398a143c8cd}{get\-Mov} () const 
+\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_obj_base_ad24f6c206c4b736eae5476b50f23f377}{get\-Rotation} () const 
+\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{class_obj_base_ae92b3cfdad5e400686aab1c24c916921}{get\-Radius} () const 
+\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_obj_base_aadebcb51462e8afc1313a70d1b9e7876}{get\-Hit\-Position} () const 
+\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{class_obj_base_ae804330778801e616d570a556c2d80ed}{get\-Hit\-Radius} () const 
+\end{DoxyCompactItemize}
+\subsection*{Protected 変数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_obj_base_a686e86c74461bf6cea312434796a57ce}{\-\_\-position}
+\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_obj_base_a510356ecd15d213ac818b836f9b25cca}{\-\_\-mov}
+\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_obj_base_a7f5b5aa7c370afcc110a6bf571f45375}{\-\_\-rotation}
+\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{class_obj_base_a6f8144cf79c29670f6697833c021dd06}{\-\_\-radius}
+\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_obj_base_a6758eebc53b693f76fc11f0a8eb436be}{\-\_\-hit\-Position}
+\begin{DoxyCompactList}\small\item\em あたり判定用座標 \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{class_obj_base_a0144260d49b5e7d12522c3f71bf2414c}{\-\_\-hit\-Radius}
+\begin{DoxyCompactList}\small\item\em あたり判定用 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{コンストラクタとデストラクタ}
+\hypertarget{class_obj_base_ab7a2f2e63f2ef5c735faad622399d4dc}{\index{Obj\-Base@{Obj\-Base}!Obj\-Base@{Obj\-Base}}
+\index{Obj\-Base@{Obj\-Base}!ObjBase@{Obj\-Base}}
+\subsubsection[{Obj\-Base}]{\setlength{\rightskip}{0pt plus 5cm}Obj\-Base\-::\-Obj\-Base (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_obj_base_ab7a2f2e63f2ef5c735faad622399d4dc}
+
+
+コンストラクタ 
+
+\hypertarget{class_obj_base_a54ccb5455d3deacd3d342b09f7965bbc}{\index{Obj\-Base@{Obj\-Base}!$\sim$\-Obj\-Base@{$\sim$\-Obj\-Base}}
+\index{$\sim$\-Obj\-Base@{$\sim$\-Obj\-Base}!ObjBase@{Obj\-Base}}
+\subsubsection[{$\sim$\-Obj\-Base}]{\setlength{\rightskip}{0pt plus 5cm}virtual Obj\-Base\-::$\sim$\-Obj\-Base (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_obj_base_a54ccb5455d3deacd3d342b09f7965bbc}
+
+
+デストラクタ 
+
+
+
+\subsection{関数}
+\hypertarget{class_obj_base_aadebcb51462e8afc1313a70d1b9e7876}{\index{Obj\-Base@{Obj\-Base}!get\-Hit\-Position@{get\-Hit\-Position}}
+\index{get\-Hit\-Position@{get\-Hit\-Position}!ObjBase@{Obj\-Base}}
+\subsubsection[{get\-Hit\-Position}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Obj\-Base\-::get\-Hit\-Position (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_obj_base_aadebcb51462e8afc1313a70d1b9e7876}
+\hypertarget{class_obj_base_ae804330778801e616d570a556c2d80ed}{\index{Obj\-Base@{Obj\-Base}!get\-Hit\-Radius@{get\-Hit\-Radius}}
+\index{get\-Hit\-Radius@{get\-Hit\-Radius}!ObjBase@{Obj\-Base}}
+\subsubsection[{get\-Hit\-Radius}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Obj\-Base\-::get\-Hit\-Radius (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_obj_base_ae804330778801e616d570a556c2d80ed}
+\hypertarget{class_obj_base_a14f5da5ba7748f44aec4e398a143c8cd}{\index{Obj\-Base@{Obj\-Base}!get\-Mov@{get\-Mov}}
+\index{get\-Mov@{get\-Mov}!ObjBase@{Obj\-Base}}
+\subsubsection[{get\-Mov}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Obj\-Base\-::get\-Mov (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_obj_base_a14f5da5ba7748f44aec4e398a143c8cd}
+\hypertarget{class_obj_base_aaf39427e88188735373b4ac1cc0f30b3}{\index{Obj\-Base@{Obj\-Base}!get\-Position@{get\-Position}}
+\index{get\-Position@{get\-Position}!ObjBase@{Obj\-Base}}
+\subsubsection[{get\-Position}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Obj\-Base\-::get\-Position (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_obj_base_aaf39427e88188735373b4ac1cc0f30b3}
+\hypertarget{class_obj_base_ae92b3cfdad5e400686aab1c24c916921}{\index{Obj\-Base@{Obj\-Base}!get\-Radius@{get\-Radius}}
+\index{get\-Radius@{get\-Radius}!ObjBase@{Obj\-Base}}
+\subsubsection[{get\-Radius}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Obj\-Base\-::get\-Radius (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_obj_base_ae92b3cfdad5e400686aab1c24c916921}
+\hypertarget{class_obj_base_ad24f6c206c4b736eae5476b50f23f377}{\index{Obj\-Base@{Obj\-Base}!get\-Rotation@{get\-Rotation}}
+\index{get\-Rotation@{get\-Rotation}!ObjBase@{Obj\-Base}}
+\subsubsection[{get\-Rotation}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Obj\-Base\-::get\-Rotation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_obj_base_ad24f6c206c4b736eae5476b50f23f377}
+\hypertarget{class_obj_base_a278846a0c6381ecefdfb0798472b7b8c}{\index{Obj\-Base@{Obj\-Base}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!ObjBase@{Obj\-Base}}
+\subsubsection[{Initialize}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Obj\-Base\-::\-Initialize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_obj_base_a278846a0c6381ecefdfb0798472b7b8c}
+
+
+初期化 
+
+
+
+\hyperlink{class_i_obj_a6b5dcb9f92d686dde6f1fc3b5fa7cc7e}{I\-Obj}を実装しています。
+
+
+
+\hyperlink{class_attacker_a21832a3a6f5572e15793983c4a084256}{Attacker}, \hyperlink{class_ally_base_a8deb60628340c7a2567fda3bd54ac967}{Ally\-Base}, \hyperlink{class_man_a465c9e858a334083e663eb266dbbe0f2}{Man}, \hyperlink{class_player_ac9ff471df2bd80c9c087d1cb153feb2c}{Player}, \hyperlink{class_ally_attacker_aef6541e9fd1b90556476c95278e46bc7}{Ally\-Attacker}, \hyperlink{class_ally_healer_a657b123a6d4a90e1f21ac8d88a90e4c4}{Ally\-Healer}, と \hyperlink{class_ally_deffender_aca474cd4da5fac407bc29f8d14834ccc}{Ally\-Deffender}で再定義されています。
+
+\hypertarget{class_obj_base_aecde185a045789498626dbfc104950ef}{\index{Obj\-Base@{Obj\-Base}!Render@{Render}}
+\index{Render@{Render}!ObjBase@{Obj\-Base}}
+\subsubsection[{Render}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Obj\-Base\-::\-Render (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_obj_base_aecde185a045789498626dbfc104950ef}
+
+
+描画 
+
+
+
+\hyperlink{class_i_obj_a79abe5fbdc1a5ad84a117878aa413a57}{I\-Obj}を実装しています。
+
+
+
+\hyperlink{class_ally_base_aadfd770043d90b11986181a75ad2e32d}{Ally\-Base}, \hyperlink{class_attacker_af276df8f646d1242e6b8b3259a2fb9cc}{Attacker}, \hyperlink{class_player_ad141ea844ac82f2447d986d964d1e8a7}{Player}, \hyperlink{class_man_a87a4883012aba35a3288212b0412df86}{Man}, \hyperlink{class_ally_attacker_a9aee0fd5bee4906a85627bc2f87e76a4}{Ally\-Attacker}, \hyperlink{class_ally_healer_a38855aeb63c4f19b2a5cbfdb7a3836b6}{Ally\-Healer}, \hyperlink{class_ally_deffender_aeb9a268c442d133fb0d8f7bb4a932a6f}{Ally\-Deffender}, と \hyperlink{class_map_a211a219e3ba75b378e5bca7a40df82c6}{Map}で再定義されています。
+
+\hypertarget{class_obj_base_a83992aba2dcaf6d3548dd17618b4b0b9}{\index{Obj\-Base@{Obj\-Base}!Update@{Update}}
+\index{Update@{Update}!ObjBase@{Obj\-Base}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Obj\-Base\-::\-Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_obj_base_a83992aba2dcaf6d3548dd17618b4b0b9}
+
+
+更新 
+
+
+
+\hyperlink{class_i_obj_ab2528cad8542d6c92b9811e3a9c8b83f}{I\-Obj}を実装しています。
+
+
+
+\hyperlink{class_man_aadef07ec563fbabf2afbd9ea15558c91}{Man}, \hyperlink{class_player_a05b60cac1922c5be5c1be16baffa4497}{Player}, と \hyperlink{class_map_a61efe2e1ec3f41d90bcbf826893404f1}{Map}で再定義されています。
+
+
+
+\subsection{変数}
+\hypertarget{class_obj_base_a6758eebc53b693f76fc11f0a8eb436be}{\index{Obj\-Base@{Obj\-Base}!\-\_\-hit\-Position@{\-\_\-hit\-Position}}
+\index{\-\_\-hit\-Position@{\-\_\-hit\-Position}!ObjBase@{Obj\-Base}}
+\subsubsection[{\-\_\-hit\-Position}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Obj\-Base\-::\-\_\-hit\-Position\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_obj_base_a6758eebc53b693f76fc11f0a8eb436be}
+
+
+あたり判定用座標 
+
+\hypertarget{class_obj_base_a0144260d49b5e7d12522c3f71bf2414c}{\index{Obj\-Base@{Obj\-Base}!\-\_\-hit\-Radius@{\-\_\-hit\-Radius}}
+\index{\-\_\-hit\-Radius@{\-\_\-hit\-Radius}!ObjBase@{Obj\-Base}}
+\subsubsection[{\-\_\-hit\-Radius}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Obj\-Base\-::\-\_\-hit\-Radius\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_obj_base_a0144260d49b5e7d12522c3f71bf2414c}
+
+
+あたり判定用 
+
+\hypertarget{class_obj_base_a510356ecd15d213ac818b836f9b25cca}{\index{Obj\-Base@{Obj\-Base}!\-\_\-mov@{\-\_\-mov}}
+\index{\-\_\-mov@{\-\_\-mov}!ObjBase@{Obj\-Base}}
+\subsubsection[{\-\_\-mov}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Obj\-Base\-::\-\_\-mov\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_obj_base_a510356ecd15d213ac818b836f9b25cca}
+\hypertarget{class_obj_base_a686e86c74461bf6cea312434796a57ce}{\index{Obj\-Base@{Obj\-Base}!\-\_\-position@{\-\_\-position}}
+\index{\-\_\-position@{\-\_\-position}!ObjBase@{Obj\-Base}}
+\subsubsection[{\-\_\-position}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Obj\-Base\-::\-\_\-position\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_obj_base_a686e86c74461bf6cea312434796a57ce}
+\hypertarget{class_obj_base_a6f8144cf79c29670f6697833c021dd06}{\index{Obj\-Base@{Obj\-Base}!\-\_\-radius@{\-\_\-radius}}
+\index{\-\_\-radius@{\-\_\-radius}!ObjBase@{Obj\-Base}}
+\subsubsection[{\-\_\-radius}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Obj\-Base\-::\-\_\-radius\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_obj_base_a6f8144cf79c29670f6697833c021dd06}
+\hypertarget{class_obj_base_a7f5b5aa7c370afcc110a6bf571f45375}{\index{Obj\-Base@{Obj\-Base}!\-\_\-rotation@{\-\_\-rotation}}
+\index{\-\_\-rotation@{\-\_\-rotation}!ObjBase@{Obj\-Base}}
+\subsubsection[{\-\_\-rotation}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Obj\-Base\-::\-\_\-rotation\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_obj_base_a7f5b5aa7c370afcc110a6bf571f45375}
+
+
+このクラスの説明は次のファイルから生成されました\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_obj_base_8h}{Obj\-Base.\-h}\end{DoxyCompactItemize}

@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d5/dfd/class_key_deffender" kind="class" prot="public">
+    <compoundname>KeyDeffender</compoundname>
+    <basecompoundref refid="d9/d64/class_a_i" prot="public" virt="non-virtual">AI</basecompoundref>
+    <includes refid="d1/d11/_key_deffender_8h" local="no">KeyDeffender.h</includes>
+      <sectiondef kind="user-defined">
+      <memberdef kind="enum" id="d5/dfd/class_key_deffender_1a2d0fa24da9c8801e29e09785e96532c5" prot="public" static="no">
+        <name>MODE</name>
+        <enumvalue id="d5/dfd/class_key_deffender_1a2d0fa24da9c8801e29e09785e96532c5abf68816f1b29a89fb4cfba57726bf02f" prot="public">
+          <name>MODE_APPROACH</name>
+          <briefdescription>
+<para>目標に接近 </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/dfd/class_key_deffender_1a2d0fa24da9c8801e29e09785e96532c5a9864b335ebddb53f54ee6d6fc376e305" prot="public">
+          <name>MODE_ATTACK</name>
+          <briefdescription>
+<para>敵攻撃 </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/dfd/class_key_deffender_1a2d0fa24da9c8801e29e09785e96532c5a4bed2e2b8eb7c720589155ea020474ee" prot="public">
+          <name>MODE_DEFFENCE</name>
+          <briefdescription>
+<para>目標を防御 </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/dfd/class_key_deffender_1a2d0fa24da9c8801e29e09785e96532c5ac6a457d66150ab005b17c5162818451a" prot="public">
+          <name>MODE_MAX</name>
+          <briefdescription>
+<para>状態遷移の最大 </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>行動状態 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" line="20" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" bodystart="19" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-type">
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d5/dfd/class_key_deffender_1acb50cc4c7f821904eb07c27de131cf4a" prot="protected" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 KeyDeffender::_searchRot</definition>
+        <argsstring></argsstring>
+        <name>_searchRot</name>
+        <briefdescription>
+<para>探索方向 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" line="45" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/dfd/class_key_deffender_1a3f735f15f49aa4402f90b11df8de24f0" prot="protected" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 KeyDeffender::_attackReach</definition>
+        <argsstring></argsstring>
+        <name>_attackReach</name>
+        <briefdescription>
+<para>攻撃可能範囲 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" line="46" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/dfd/class_key_deffender_1a707f63b922b484c455d715d9aee813e9" prot="protected" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 KeyDeffender::_deffenceReach</definition>
+        <argsstring></argsstring>
+        <name>_deffenceReach</name>
+        <briefdescription>
+<para>目標を防御するための距離 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" line="47" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/dfd/class_key_deffender_1a0451857ef4707d1f98a3259be12be695" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool KeyDeffender::_deffenceMode</definition>
+        <argsstring></argsstring>
+        <name>_deffenceMode</name>
+        <briefdescription>
+<para>ディフェンスモードがどうか </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" line="48" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/dfd/class_key_deffender_1ab95b209ff1600e6425422d644c05ffb7" prot="protected" static="no" mutable="no">
+        <type><ref refid="d5/dfd/class_key_deffender_1a2d0fa24da9c8801e29e09785e96532c5" kindref="member">MODE</ref></type>
+        <definition>MODE KeyDeffender::_mode</definition>
+        <argsstring></argsstring>
+        <name>_mode</name>
+        <briefdescription>
+<para>行動状態用 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" line="49" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/dfd/class_key_deffender_1a858bc8e1bd986fdbc9d9fa8f31caba91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KeyDeffender::KeyDeffender</definition>
+        <argsstring>()</argsstring>
+        <name>KeyDeffender</name>
+        <briefdescription>
+<para>デフォルトコンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" line="30" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.cpp" bodystart="16" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/dfd/class_key_deffender_1a00e0afd26850736b536896aae04f51ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>KeyDeffender::~KeyDeffender</definition>
+        <argsstring>()</argsstring>
+        <name>~KeyDeffender</name>
+        <briefdescription>
+<para>デストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" line="32" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.cpp" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/dfd/class_key_deffender_1a7262f14770e5cdc20b5e717b98b9a1e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void KeyDeffender::Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <reimplements refid="d9/d64/class_a_i_1a59e5ab0650eb03f2e71bc8930fd9a8d5">Update</reimplements>
+        <briefdescription>
+<para>更新 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" line="34" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.cpp" bodystart="34" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/dfd/class_key_deffender_1a8580a17ef23e802604ebc00e54c7c3a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void KeyDeffender::setToTargetPos</definition>
+        <argsstring>(Vector3 myPos, Vector3 targetPos)</argsstring>
+        <name>setToTargetPos</name>
+        <reimplements refid="d9/d64/class_a_i_1a90c73117de7e36703b1129e77544cb9e">setToTargetPos</reimplements>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref></type>
+          <declname>myPos</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref></type>
+          <declname>targetPos</declname>
+        </param>
+        <briefdescription>
+<para>目標をセット </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" line="36" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" bodystart="36" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="227">
+        <label>IKey</label>
+        <link refid="d1/d71/class_i_key"/>
+      </node>
+      <node id="225">
+        <label>AI</label>
+        <link refid="d9/d64/class_a_i"/>
+        <childnode refid="226" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="224">
+        <label>KeyDeffender</label>
+        <link refid="d5/dfd/class_key_deffender"/>
+        <childnode refid="225" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="226">
+        <label>KeyBase</label>
+        <link refid="dd/d2e/class_key_base"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="231">
+        <label>IKey</label>
+        <link refid="d1/d71/class_i_key"/>
+      </node>
+      <node id="229">
+        <label>AI</label>
+        <link refid="d9/d64/class_a_i"/>
+        <childnode refid="230" relation="public-inheritance">
+        </childnode>
+        <childnode refid="232" relation="usage">
+          <edgelabel>_dirToTarget</edgelabel>
+        </childnode>
+      </node>
+      <node id="228">
+        <label>KeyDeffender</label>
+        <link refid="d5/dfd/class_key_deffender"/>
+        <childnode refid="229" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="230">
+        <label>KeyBase</label>
+        <link refid="dd/d2e/class_key_base"/>
+        <childnode refid="231" relation="public-inheritance">
+        </childnode>
+        <childnode refid="232" relation="usage">
+          <edgelabel>_movVector</edgelabel>
+          <edgelabel>_playerPos</edgelabel>
+          <edgelabel>_targetPos</edgelabel>
+          <edgelabel>_stickVector</edgelabel>
+          <edgelabel>_myPos</edgelabel>
+        </childnode>
+      </node>
+      <node id="232">
+        <label>Vector3</label>
+        <link refid="d0/de3/struct_vector3"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" line="14" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.h" bodystart="13" bodyend="50"/>
+    <listofallmembers>
+      <member refid="d5/dfd/class_key_deffender_1a3f735f15f49aa4402f90b11df8de24f0" prot="protected" virt="non-virtual"><scope>KeyDeffender</scope><name>_attackReach</name></member>
+      <member refid="dd/d2e/class_key_base_1a2ac4c1873c45fdc14f6baf86cfbbbea4" prot="protected" virt="non-virtual"><scope>KeyDeffender</scope><name>_commandState</name></member>
+      <member refid="d5/dfd/class_key_deffender_1a0451857ef4707d1f98a3259be12be695" prot="protected" virt="non-virtual"><scope>KeyDeffender</scope><name>_deffenceMode</name></member>
+      <member refid="d5/dfd/class_key_deffender_1a707f63b922b484c455d715d9aee813e9" prot="protected" virt="non-virtual"><scope>KeyDeffender</scope><name>_deffenceReach</name></member>
+      <member refid="d9/d64/class_a_i_1a838d47dc2f692ec67f23614345321850" prot="protected" virt="non-virtual"><scope>KeyDeffender</scope><name>_dirToTarget</name></member>
+      <member refid="dd/d2e/class_key_base_1ae1164cb4054102ae260eb5dede5c2b48" prot="protected" virt="non-virtual"><scope>KeyDeffender</scope><name>_keyType</name></member>
+      <member refid="d5/dfd/class_key_deffender_1ab95b209ff1600e6425422d644c05ffb7" prot="protected" virt="non-virtual"><scope>KeyDeffender</scope><name>_mode</name></member>
+      <member refid="dd/d2e/class_key_base_1a6fea5a402d1fa892a14b9ba08ee7f84e" prot="protected" virt="non-virtual"><scope>KeyDeffender</scope><name>_movVector</name></member>
+      <member refid="dd/d2e/class_key_base_1ac312d80c808d22c6c1c1be897b317b3a" prot="protected" virt="non-virtual"><scope>KeyDeffender</scope><name>_myPos</name></member>
+      <member refid="dd/d2e/class_key_base_1ac2598de02ad18e04b6f2bc929ee56e98" prot="protected" virt="non-virtual"><scope>KeyDeffender</scope><name>_playerPos</name></member>
+      <member refid="d5/dfd/class_key_deffender_1acb50cc4c7f821904eb07c27de131cf4a" prot="protected" virt="non-virtual"><scope>KeyDeffender</scope><name>_searchRot</name></member>
+      <member refid="dd/d2e/class_key_base_1a774649bfb09128dcbe4617c11c448e25" prot="protected" virt="non-virtual"><scope>KeyDeffender</scope><name>_stickVector</name></member>
+      <member refid="dd/d2e/class_key_base_1ad76a22072f7fcdaa7b1900971a67207c" prot="protected" virt="non-virtual"><scope>KeyDeffender</scope><name>_targetPos</name></member>
+      <member refid="d9/d64/class_a_i_1a2cf982e037b987d40d0d71ad2dec9aeb" prot="protected" virt="non-virtual"><scope>KeyDeffender</scope><name>_type</name></member>
+      <member refid="d9/d64/class_a_i_1a64ec60281e9eb8496f16525615db54b7" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>AI</name></member>
+      <member refid="dd/d2e/class_key_base_1ad80a94efb6d8e4f05ca7109c997d1cdf" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>getKeyType</name></member>
+      <member refid="dd/d2e/class_key_base_1a15c8c17b7af09dbfa358309fc9a430f9" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>getPushState</name></member>
+      <member refid="dd/d2e/class_key_base_1af957b878e28cbe4ed9135684e6c78b1e" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>getStickVector</name></member>
+      <member refid="dd/d2e/class_key_base_1ac50fde0306def82116ada72fb194bb14" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>getVector</name></member>
+      <member refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45f" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>KEY_COMMAND</name></member>
+      <member refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fadda545a53e15cba9c4530ad2ee6f2d3d" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>KEY_COMMAND_ATTACK</name></member>
+      <member refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa1db21e7286a02df319da11ca37456c15" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>KEY_COMMAND_COMMANDCHANGE</name></member>
+      <member refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa314b03fd1202b9a7c601ecd2305b3403" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>KEY_COMMAND_JUMP</name></member>
+      <member refid="dd/d2e/class_key_base_1a6e2d2326afadb1405879b31e4463e45fa886ced2b7b9c443cbfbac07192978d6e" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>KEY_COMMAND_NUM</name></member>
+      <member refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>KEY_TYPE</name></member>
+      <member refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095a4fec21ea95d75a41839c6957d96c0970" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>KEY_TYPE_AI</name></member>
+      <member refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095ad92d619929c06fa294c7a49e0df70a13" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>KEY_TYPE_INPUT</name></member>
+      <member refid="dd/d2e/class_key_base_1ab22168ade2e4ac686bb475648df75095ac0def1177b7023819da9b6417f6f33c0" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>KEY_TYPE_NUM</name></member>
+      <member refid="dd/d2e/class_key_base_1a647f31cb6653cd682d974cc64df899a2" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>KeyBase</name></member>
+      <member refid="d5/dfd/class_key_deffender_1a858bc8e1bd986fdbc9d9fa8f31caba91" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>KeyDeffender</name></member>
+      <member refid="d5/dfd/class_key_deffender_1a2d0fa24da9c8801e29e09785e96532c5" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>MODE</name></member>
+      <member refid="d5/dfd/class_key_deffender_1a2d0fa24da9c8801e29e09785e96532c5abf68816f1b29a89fb4cfba57726bf02f" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>MODE_APPROACH</name></member>
+      <member refid="d5/dfd/class_key_deffender_1a2d0fa24da9c8801e29e09785e96532c5a9864b335ebddb53f54ee6d6fc376e305" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>MODE_ATTACK</name></member>
+      <member refid="d5/dfd/class_key_deffender_1a2d0fa24da9c8801e29e09785e96532c5a4bed2e2b8eb7c720589155ea020474ee" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>MODE_DEFFENCE</name></member>
+      <member refid="d5/dfd/class_key_deffender_1a2d0fa24da9c8801e29e09785e96532c5ac6a457d66150ab005b17c5162818451a" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>MODE_MAX</name></member>
+      <member refid="dd/d2e/class_key_base_1aa7ad9b3d6eb875fbf57d44b23cdef80a" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>setCommandFlag</name></member>
+      <member refid="dd/d2e/class_key_base_1a6da652723fea6e06077c5370c01b5f01" prot="public" virt="virtual"><scope>KeyDeffender</scope><name>setMyPos</name></member>
+      <member refid="dd/d2e/class_key_base_1a1c5b993006a01df1473faf79682c162a" prot="public" virt="virtual"><scope>KeyDeffender</scope><name>setPlayerPos</name></member>
+      <member refid="dd/d2e/class_key_base_1a4f872eedccbf7570415a4fc7ce29a25c" prot="public" virt="virtual"><scope>KeyDeffender</scope><name>setTargetPos</name></member>
+      <member refid="d5/dfd/class_key_deffender_1a8580a17ef23e802604ebc00e54c7c3a9" prot="public" virt="virtual"><scope>KeyDeffender</scope><name>setToTargetPos</name></member>
+      <member refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bca" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>TYPE</name></member>
+      <member refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaa76b6461a36be98b9e9fb44f03dad5e5e" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>TYPE_ATTACKER</name></member>
+      <member refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaa87446a443c551078bdeae8c84065e259" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>TYPE_DEFFENDER</name></member>
+      <member refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaa414de6573cb966cd1833418456b99a02" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>TYPE_FEINTER</name></member>
+      <member refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaaaf5cee11cc14232d7691a1b11b14109a" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>TYPE_HEALLER</name></member>
+      <member refid="d9/d64/class_a_i_1ac649e1da72d905f0b48e92c8aeb29bcaaf496cd875c5a21038d274b1943700e0d" prot="public" virt="non-virtual"><scope>KeyDeffender</scope><name>TYPE_MAX</name></member>
+      <member refid="d5/dfd/class_key_deffender_1a7262f14770e5cdc20b5e717b98b9a1e2" prot="public" virt="virtual"><scope>KeyDeffender</scope><name>Update</name></member>
+      <member refid="d9/d64/class_a_i_1ac86c87957e3d563f6ea2137a97992e0a" prot="public" virt="virtual"><scope>KeyDeffender</scope><name>~AI</name></member>
+      <member refid="d1/d71/class_i_key_1aa3b4358ffdcd9dbb5e8c7085ecc7ee08" prot="public" virt="virtual"><scope>KeyDeffender</scope><name>~IKey</name></member>
+      <member refid="dd/d2e/class_key_base_1ac9fdcf292389d3bf4ae69974e32aea58" prot="public" virt="virtual"><scope>KeyDeffender</scope><name>~KeyBase</name></member>
+      <member refid="d5/dfd/class_key_deffender_1a00e0afd26850736b536896aae04f51ba" prot="public" virt="virtual"><scope>KeyDeffender</scope><name>~KeyDeffender</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

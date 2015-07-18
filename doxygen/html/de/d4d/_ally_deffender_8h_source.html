@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>myGame: E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyDeffender.h ソースファイル</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">myGame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>メインページ</span></a></li>
+      <li><a href="../../namespaces.html"><span>ネームスペース</span></a></li>
+      <li><a href="../../annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="../../files.html"><span>ファイル</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="../../globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">AllyDeffender.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../de/d4d/_ally_deffender_8h.html">説明を見る。</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span><span class="comment">// ここでmyNameをマクロで宣言</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<a class="code" href="../../df/d78/_system_8h.html#ab8184bc6a23047649b3e1fbd2cd09ecb">DEF_COL_NAME_HEADER</a>(<a class="code" href="../../d0/de6/class_ally_deffender.html">AllyDeffender</a>);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<a class="code" href="../../df/d78/_system_8h.html#a0aa41b4084df36f22f61834a3774cddb">DEF_COL_ATTACK_NAME_HEADER</a>(AllyDeffenderAttack);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d0/de6/class_ally_deffender.html">   15</a></span>&#160;<span class="keyword">class   </span><a class="code" href="../../d0/de6/class_ally_deffender.html">AllyDeffender</a> : <span class="keyword">public</span> <a class="code" href="../../dd/d54/class_ally_base.html">AllyBase</a></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d0/de6/class_ally_deffender.html#a8f0a313e2a6f3375c8f48abff56715ef">AllyDeffender</a>();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="../../d0/de6/class_ally_deffender.html#ac1bfe2d90290624b7a8e857bc9f1730c">~AllyDeffender</a>();</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span>    <a class="code" href="../../d0/de6/class_ally_deffender.html#aca474cd4da5fac407bc29f8d14834ccc">Initialize</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>    <a class="code" href="../../da/d50/class_man.html#aadef07ec563fbabf2afbd9ea15558c91">Update</a>(<span class="keyword">const</span> <a class="code" href="../../d8/d53/class_player.html#a70057174eaea9fd441ca86cc7bb896ed">Player::COMMAND</a>&amp; _playerCommand,</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                           <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; goalPos,</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                           <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; playerPos);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>    <a class="code" href="../../d0/de6/class_ally_deffender.html#a018968fae33a57fbbc42340fbae5328c">UpdateByCommand</a>(<span class="keyword">const</span> <a class="code" href="../../d8/d53/class_player.html#a70057174eaea9fd441ca86cc7bb896ed">Player::COMMAND</a>&amp; _playerCommand,</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                                    <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; goalPos,</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                                    <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; playerPos);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>    <a class="code" href="../../d0/de6/class_ally_deffender.html#a27994c93aad3c05ca169639771677a74">UpdateNormal</a>(<a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; player);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>    <a class="code" href="../../d0/de6/class_ally_deffender.html#aeb9a268c442d133fb0d8f7bb4a932a6f">Render</a>();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">bool</span>            _isSet;     </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;};</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">//  END OF FILE</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="ttc" id="class_player_html_a70057174eaea9fd441ca86cc7bb896ed"><div class="ttname"><a href="../../d8/d53/class_player.html#a70057174eaea9fd441ca86cc7bb896ed">Player::COMMAND</a></div><div class="ttdeci">COMMAND</div><div class="ttdef"><b>Definition:</b> Player.h:23</div></div>
+<div class="ttc" id="class_ally_deffender_html_ac1bfe2d90290624b7a8e857bc9f1730c"><div class="ttname"><a href="../../d0/de6/class_ally_deffender.html#ac1bfe2d90290624b7a8e857bc9f1730c">AllyDeffender::~AllyDeffender</a></div><div class="ttdeci">virtual ~AllyDeffender()</div><div class="ttdoc">デストラクタ </div><div class="ttdef"><b>Definition:</b> AllyDeffender.cpp:47</div></div>
+<div class="ttc" id="class_ally_deffender_html_a27994c93aad3c05ca169639771677a74"><div class="ttname"><a href="../../d0/de6/class_ally_deffender.html#a27994c93aad3c05ca169639771677a74">AllyDeffender::UpdateNormal</a></div><div class="ttdeci">virtual void UpdateNormal(Vector3 &amp;player)</div><div class="ttdoc">プレイヤーの周りに常にいる </div><div class="ttdef"><b>Definition:</b> AllyDeffender.cpp:109</div></div>
+<div class="ttc" id="class_ally_base_html"><div class="ttname"><a href="../../dd/d54/class_ally_base.html">AllyBase</a></div><div class="ttdef"><b>Definition:</b> Ally.h:13</div></div>
+<div class="ttc" id="class_man_html_aadef07ec563fbabf2afbd9ea15558c91"><div class="ttname"><a href="../../da/d50/class_man.html#aadef07ec563fbabf2afbd9ea15558c91">Man::Update</a></div><div class="ttdeci">virtual void Update()</div><div class="ttdoc">更新 </div><div class="ttdef"><b>Definition:</b> Man.cpp:122</div></div>
+<div class="ttc" id="class_ally_deffender_html_aca474cd4da5fac407bc29f8d14834ccc"><div class="ttname"><a href="../../d0/de6/class_ally_deffender.html#aca474cd4da5fac407bc29f8d14834ccc">AllyDeffender::Initialize</a></div><div class="ttdeci">virtual bool Initialize()</div><div class="ttdoc">初期化 </div><div class="ttdef"><b>Definition:</b> AllyDeffender.cpp:56</div></div>
+<div class="ttc" id="struct_vector3_html"><div class="ttname"><a href="../../d0/de3/struct_vector3.html">Vector3</a></div><div class="ttdef"><b>Definition:</b> Vector.h:89</div></div>
+<div class="ttc" id="class_ally_deffender_html_aeb9a268c442d133fb0d8f7bb4a932a6f"><div class="ttname"><a href="../../d0/de6/class_ally_deffender.html#aeb9a268c442d133fb0d8f7bb4a932a6f">AllyDeffender::Render</a></div><div class="ttdeci">virtual void Render()</div><div class="ttdoc">描画 </div><div class="ttdef"><b>Definition:</b> AllyDeffender.cpp:143</div></div>
+<div class="ttc" id="_system_8h_html_a0aa41b4084df36f22f61834a3774cddb"><div class="ttname"><a href="../../df/d78/_system_8h.html#a0aa41b4084df36f22f61834a3774cddb">DEF_COL_ATTACK_NAME_HEADER</a></div><div class="ttdeci">#define DEF_COL_ATTACK_NAME_HEADER(x)</div><div class="ttdef"><b>Definition:</b> System.h:95</div></div>
+<div class="ttc" id="class_ally_deffender_html_a8f0a313e2a6f3375c8f48abff56715ef"><div class="ttname"><a href="../../d0/de6/class_ally_deffender.html#a8f0a313e2a6f3375c8f48abff56715ef">AllyDeffender::AllyDeffender</a></div><div class="ttdeci">AllyDeffender()</div><div class="ttdoc">コンストラクタ </div><div class="ttdef"><b>Definition:</b> AllyDeffender.cpp:15</div></div>
+<div class="ttc" id="class_ally_deffender_html"><div class="ttname"><a href="../../d0/de6/class_ally_deffender.html">AllyDeffender</a></div><div class="ttdef"><b>Definition:</b> AllyDeffender.h:15</div></div>
+<div class="ttc" id="_system_8h_html_ab8184bc6a23047649b3e1fbd2cd09ecb"><div class="ttname"><a href="../../df/d78/_system_8h.html#ab8184bc6a23047649b3e1fbd2cd09ecb">DEF_COL_NAME_HEADER</a></div><div class="ttdeci">#define DEF_COL_NAME_HEADER(x)</div><div class="ttdef"><b>Definition:</b> System.h:77</div></div>
+<div class="ttc" id="class_ally_deffender_html_a018968fae33a57fbbc42340fbae5328c"><div class="ttname"><a href="../../d0/de6/class_ally_deffender.html#a018968fae33a57fbbc42340fbae5328c">AllyDeffender::UpdateByCommand</a></div><div class="ttdeci">virtual void UpdateByCommand(const Player::COMMAND &amp;_playerCommand, Vector3 &amp;goalPos, Vector3 &amp;playerPos)</div><div class="ttdoc">命令時の更新 </div><div class="ttdef"><b>Definition:</b> AllyDeffender.cpp:76</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+myGameに対してSun Oct 13 2013 20:58:05に生成されました。 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

@@ -1,0 +1,55 @@
+﻿2014/10/20 19:51:05 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\Game\build\myGame.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         D:\OCA\OCA使用ソフト\VisualStudioforStudent\2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /MP /O2 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"Library.h" /Fp"Release\myGame.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /FILibrary.h /analyze- /errorReport:prompt ..\src\BillBoard.cpp
+         BillBoard.cpp
+       Link:
+         D:\OCA\OCA使用ソフト\VisualStudioforStudent\2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\Game\build\Release\myGame.exe" /NOLOGO Release/GameEngine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\Game\build\Release\myGame.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\Game\build\Release\myGame.lib" /MACHINE:X86 /SAFESEH Release\Ally.obj
+         Release\AllyAttacker.obj
+         Release\AllyDeffender.obj
+         Release\AllyHealer.obj
+         Release\BillBoard.obj
+         Release\CascadedShadow.obj
+         Release\CollisionObject.obj
+         Release\Effect.obj
+         Release\Enemy.obj
+         Release\EnemyAttacker.obj
+         Release\EnemyDeffender.obj
+         Release\EnemyLeader.obj
+         Release\GLFont.obj
+         Release\IObj.obj
+         Release\Key.obj
+         Release\KeyAttacker.obj
+         Release\KeyDeffender.obj
+         Release\KeyHealer.obj
+         Release\KeyInput.obj
+         Release\Light.obj
+         Release\LightBase.obj
+         Release\LightManager.obj
+         Release\Main.obj
+         Release\ObjDataManager.obj
+         Release\Library.obj
+         Release\Man.obj
+         Release\Map.obj
+         Release\ObjBase.obj
+         Release\Player.obj
+         Release\SceneGame.obj
+         Release\SceneOption.obj
+         Release\SceneTitle.obj
+         Release\ShadowMap.obj
+         Release\SkyBox.obj
+         Release\SoundPlayer.obj
+         Release\SoundPlayerManager.obj
+         Release\Squad.obj
+         Release\SquadManager.obj
+         Release\Status.obj
+         Release\StatusAssets.obj
+         コード生成しています。
+     1>d:\oca\oca_backup\opengl\withgameengineproj\gamewithlibrary\gameengine\src\gmhdrtexreader.cpp(207): warning C4715: 'HDRTexReader::readColor' : 値を返さないコントロール パスがあります。
+         コード生成が終了しました。
+         myGame.vcxproj -> D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\Game\build\Release\myGame.exe
+     1>プロジェクト "D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\Game\build\myGame.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:08.65

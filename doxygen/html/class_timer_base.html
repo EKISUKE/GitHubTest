@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>CastleCrash: クラス TimerBase</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">CastleCrash
+   &#160;<span id="projectnumber">2014/07/20</span>
+   </div>
+   <div id="projectbrief">Yuki Ishigaki</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>メインページ</span></a></li>
+      <li><a href="namespaces.html"><span>ネームスペース</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>構成</span></a></li>
+      <li><a href="classes.html"><span>構成索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>構成メンバ</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_timer_base.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>ネームスペース</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>型定義</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>列挙型</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>列挙型の値</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>フレンド</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>マクロ定義</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="class_timer_base-members.html">すべてのメンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">クラス TimerBase<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>タイマー基底  
+ <a href="class_timer_base.html#details">[詳細]</a></p>
+
+<p><code>#include &lt;<a class="el" href="gm_timer_8h_source.html">gmTimer.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public メソッド</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">初期化</div></td></tr>
+<tr class="memitem:a720d9300e0c765eb60dadcaaee4bf5ed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer_base.html#a720d9300e0c765eb60dadcaaee4bf5ed">TimerBase</a> ()</td></tr>
+<tr class="memdesc:a720d9300e0c765eb60dadcaaee4bf5ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ  <a href="#a720d9300e0c765eb60dadcaaee4bf5ed">[詳細]</a><br/></td></tr>
+<tr class="separator:a720d9300e0c765eb60dadcaaee4bf5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a966a6bb60939db382b264ed497d6e3ba"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer_base.html#a966a6bb60939db382b264ed497d6e3ba">~TimerBase</a> ()</td></tr>
+<tr class="memdesc:a966a6bb60939db382b264ed497d6e3ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">デストラクタ  <a href="#a966a6bb60939db382b264ed497d6e3ba">[詳細]</a><br/></td></tr>
+<tr class="separator:a966a6bb60939db382b264ed497d6e3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">タスク関数</div></td></tr>
+<tr class="memitem:ae93035362d92d1412dda9bbb9b78029c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer_base.html#ae93035362d92d1412dda9bbb9b78029c">Reset</a> ()=0</td></tr>
+<tr class="memdesc:ae93035362d92d1412dda9bbb9b78029c"><td class="mdescLeft">&#160;</td><td class="mdescRight">リセット  <a href="#ae93035362d92d1412dda9bbb9b78029c">[詳細]</a><br/></td></tr>
+<tr class="separator:ae93035362d92d1412dda9bbb9b78029c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a593eda47ae87cd7cf5bf02fc93fe19"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer_base.html#a4a593eda47ae87cd7cf5bf02fc93fe19">StartTimer</a> ()=0</td></tr>
+<tr class="memdesc:a4a593eda47ae87cd7cf5bf02fc93fe19"><td class="mdescLeft">&#160;</td><td class="mdescRight">タイマーの開始  <a href="#a4a593eda47ae87cd7cf5bf02fc93fe19">[詳細]</a><br/></td></tr>
+<tr class="separator:a4a593eda47ae87cd7cf5bf02fc93fe19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6664bc421348655e5d5929339a4063a8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer_base.html#a6664bc421348655e5d5929339a4063a8">EndTimer</a> ()=0</td></tr>
+<tr class="memdesc:a6664bc421348655e5d5929339a4063a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">タイマーの終了  <a href="#a6664bc421348655e5d5929339a4063a8">[詳細]</a><br/></td></tr>
+<tr class="separator:a6664bc421348655e5d5929339a4063a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">取得・設定</div></td></tr>
+<tr class="memitem:af7fea147dc463925265e3981abe0f2e6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer_base.html#af7fea147dc463925265e3981abe0f2e6">getTotalTime</a> () const =0</td></tr>
+<tr class="memdesc:af7fea147dc463925265e3981abe0f2e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">トータルタイム取得  <a href="#af7fea147dc463925265e3981abe0f2e6">[詳細]</a><br/></td></tr>
+<tr class="separator:af7fea147dc463925265e3981abe0f2e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">説明</h2>
+<div class="textblock"><p>タイマー基底 </p>
+</div><h2 class="groupheader">コンストラクタとデストラクタ</h2>
+<a class="anchor" id="a720d9300e0c765eb60dadcaaee4bf5ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TimerBase::TimerBase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>コンストラクタ </p>
+
+</div>
+</div>
+<a class="anchor" id="a966a6bb60939db382b264ed497d6e3ba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual TimerBase::~TimerBase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>デストラクタ </p>
+
+</div>
+</div>
+<h2 class="groupheader">関数</h2>
+<a class="anchor" id="a6664bc421348655e5d5929339a4063a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void TimerBase::EndTimer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>タイマーの終了 </p>
+
+</div>
+</div>
+<a class="anchor" id="af7fea147dc463925265e3981abe0f2e6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a> TimerBase::getTotalTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>トータルタイム取得 </p>
+
+</div>
+</div>
+<a class="anchor" id="ae93035362d92d1412dda9bbb9b78029c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void TimerBase::Reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>リセット </p>
+
+</div>
+</div>
+<a class="anchor" id="a4a593eda47ae87cd7cf5bf02fc93fe19"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void TimerBase::StartTimer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>タイマーの開始 </p>
+
+</div>
+</div>
+<hr/>このクラスの説明は次のファイルから生成されました:<ul>
+<li>D:/OCA/OCA_BackUp/OpenGL/WithGameEngineProj/GameWithLibrary/GameEngine/src/<a class="el" href="gm_timer_8h_source.html">gmTimer.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_timer_base.html">TimerBase</a></li>
+    <li class="footer">CastleCrashに対してSun Jul 20 2014 17:25:19に生成されました。
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

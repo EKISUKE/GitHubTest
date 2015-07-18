@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d3/d0f/struct_plane" kind="struct" prot="public">
+    <compoundname>Plane</compoundname>
+    <derivedcompoundref refid="d5/d4f/struct_triangle" prot="public" virt="non-virtual">Triangle</derivedcompoundref>
+    <includes refid="d1/d4e/_geometry_8h" local="no">Geometry.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/d0f/struct_plane_1a066d3194f5778ba03d9d92a11db18e3b" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 Plane::_normal</definition>
+        <argsstring></argsstring>
+        <name>_normal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" line="100" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d0f/struct_plane_1a0e8b30b00f8e086dee3750e7924dfb63" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 Plane::_distance</definition>
+        <argsstring></argsstring>
+        <name>_distance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" line="101" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d0f/struct_plane_1acac0d9c003e0ab10d07b146c3566a0c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Plane::Plane</definition>
+        <argsstring>()</argsstring>
+        <name>Plane</name>
+        <briefdescription>
+<para>デフォルトコンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" line="16" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d0f/struct_plane_1a5fa258ae607328c90d1bbd0168ad9a20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Plane::Plane</definition>
+        <argsstring>(const Vector3 &amp;p1, const Vector3 &amp;p2, const Vector3 &amp;p3)</argsstring>
+        <name>Plane</name>
+        <param>
+          <type>const <ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>p3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>コンストラクタ(3点指定) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">p1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>平面上の点1 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">p2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>平面上の点2 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">p3</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>平面上の点3 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" line="22" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" bodystart="22" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d0f/struct_plane_1a79b26a1d57d05317ca1f0533890b989e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Plane::Plane</definition>
+        <argsstring>(const Vector3 &amp;normal, f32 distance)</argsstring>
+        <name>Plane</name>
+        <param>
+          <type>const <ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>コンストラクタ(平面パラメータ指定) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">normal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>面の法線 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">distance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>原点までの距離 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" line="48" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" bodystart="48" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d0f/struct_plane_1a63fed40cafac842d07e82f2ee66ddd71" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 Plane::getNormal</definition>
+        <argsstring>() const </argsstring>
+        <name>getNormal</name>
+        <briefdescription>
+<para>法線の取得 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" line="55" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d0f/struct_plane_1a5696a831ac40c0f139e2cd15f9a7f29f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 Plane::getHeight</definition>
+        <argsstring>(f32 x, f32 z)</argsstring>
+        <name>getHeight</name>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>垂直な線と交差する場所のY座標を取得 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" line="58" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" bodystart="58" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d0f/struct_plane_1aa6d3d7915a022f511974dca828e4d170" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 Plane::getHitPos</definition>
+        <argsstring>(Vector3 pos)</argsstring>
+        <name>getHitPos</name>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>接触点を取得 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" line="73" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" bodystart="73" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="362">
+        <label>Triangle</label>
+        <link refid="d5/d4f/struct_triangle"/>
+        <childnode refid="361" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="361">
+        <label>Plane</label>
+        <link refid="d3/d0f/struct_plane"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="364">
+        <label>Vector3</label>
+        <link refid="d0/de3/struct_vector3"/>
+      </node>
+      <node id="363">
+        <label>Plane</label>
+        <link refid="d3/d0f/struct_plane"/>
+        <childnode refid="364" relation="usage">
+          <edgelabel>_normal</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" line="13" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.h" bodystart="12" bodyend="103"/>
+    <listofallmembers>
+      <member refid="d3/d0f/struct_plane_1a0e8b30b00f8e086dee3750e7924dfb63" prot="public" virt="non-virtual"><scope>Plane</scope><name>_distance</name></member>
+      <member refid="d3/d0f/struct_plane_1a066d3194f5778ba03d9d92a11db18e3b" prot="public" virt="non-virtual"><scope>Plane</scope><name>_normal</name></member>
+      <member refid="d3/d0f/struct_plane_1a5696a831ac40c0f139e2cd15f9a7f29f" prot="public" virt="non-virtual"><scope>Plane</scope><name>getHeight</name></member>
+      <member refid="d3/d0f/struct_plane_1aa6d3d7915a022f511974dca828e4d170" prot="public" virt="non-virtual"><scope>Plane</scope><name>getHitPos</name></member>
+      <member refid="d3/d0f/struct_plane_1a63fed40cafac842d07e82f2ee66ddd71" prot="public" virt="non-virtual"><scope>Plane</scope><name>getNormal</name></member>
+      <member refid="d3/d0f/struct_plane_1acac0d9c003e0ab10d07b146c3566a0c7" prot="public" virt="non-virtual"><scope>Plane</scope><name>Plane</name></member>
+      <member refid="d3/d0f/struct_plane_1a5fa258ae607328c90d1bbd0168ad9a20" prot="public" virt="non-virtual"><scope>Plane</scope><name>Plane</name></member>
+      <member refid="d3/d0f/struct_plane_1a79b26a1d57d05317ca1f0533890b989e" prot="public" virt="non-virtual"><scope>Plane</scope><name>Plane</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

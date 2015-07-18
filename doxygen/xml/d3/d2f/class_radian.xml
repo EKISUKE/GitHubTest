@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d3/d2f/class_radian" kind="class" prot="public">
+    <compoundname>Radian</compoundname>
+    <includes refid="d4/d7f/_vector_8h" local="no">Vector.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/d2f/class_radian_1ab3bdb824656f3310b4cc449dfccbccdc" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 Radian::_radian</definition>
+        <argsstring></argsstring>
+        <name>_radian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="78" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d2f/class_radian_1ab94d81eb1567cfebc60f7aec3be551ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Radian::Radian</definition>
+        <argsstring>()</argsstring>
+        <name>Radian</name>
+        <briefdescription>
+<para>デフォルトコンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="60" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d2f/class_radian_1a90a4efa6b5179babdbb7d1a319ebbee9" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Radian::Radian</definition>
+        <argsstring>(f32 radian)</argsstring>
+        <name>Radian</name>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>radian</declname>
+        </param>
+        <briefdescription>
+<para>コンストラクタ(f32直接渡し) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="63" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.cpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d2f/class_radian_1aadc2c910541b98af5b2b8f3def18a83b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Radian::Radian</definition>
+        <argsstring>(const Degree &amp;degree)</argsstring>
+        <name>Radian</name>
+        <param>
+          <type>const <ref refid="db/df6/class_degree" kindref="compound">Degree</ref> &amp;</type>
+          <declname>degree</declname>
+        </param>
+        <briefdescription>
+<para>コンストラクタ(degree→radian変換) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="66" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d2f/class_radian_1a7a2edb4be829c47af52db5b1b5739a7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Radian::Radian</definition>
+        <argsstring>(const Radian &amp;radian)</argsstring>
+        <name>Radian</name>
+        <param>
+          <type>const <ref refid="d3/d2f/class_radian" kindref="compound">Radian</ref> &amp;</type>
+          <declname>radian</declname>
+        </param>
+        <briefdescription>
+<para>コピーコンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="69" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d2f/class_radian_1a309c93566adef5d406c0f56be7a5ffc8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Radian::operator f32</definition>
+        <argsstring>() const </argsstring>
+        <name>operator f32</name>
+        <briefdescription>
+<para>floatへキャスト </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="72" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d2f/class_radian_1a084d047a0f0c9af0edd9b80d1434ed08" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d3/d2f/class_radian" kindref="compound">Radian</ref></type>
+        <definition>Radian Radian::operator*</definition>
+        <argsstring>(f32 n) const </argsstring>
+        <name>operator*</name>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>乗算 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="75" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="57" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="56" bodyend="80"/>
+    <listofallmembers>
+      <member refid="d3/d2f/class_radian_1ab3bdb824656f3310b4cc449dfccbccdc" prot="public" virt="non-virtual"><scope>Radian</scope><name>_radian</name></member>
+      <member refid="d3/d2f/class_radian_1a309c93566adef5d406c0f56be7a5ffc8" prot="public" virt="non-virtual"><scope>Radian</scope><name>operator f32</name></member>
+      <member refid="d3/d2f/class_radian_1a084d047a0f0c9af0edd9b80d1434ed08" prot="public" virt="non-virtual"><scope>Radian</scope><name>operator*</name></member>
+      <member refid="d3/d2f/class_radian_1ab94d81eb1567cfebc60f7aec3be551ec" prot="public" virt="non-virtual"><scope>Radian</scope><name>Radian</name></member>
+      <member refid="d3/d2f/class_radian_1a90a4efa6b5179babdbb7d1a319ebbee9" prot="public" virt="non-virtual"><scope>Radian</scope><name>Radian</name></member>
+      <member refid="d3/d2f/class_radian_1aadc2c910541b98af5b2b8f3def18a83b" prot="public" virt="non-virtual"><scope>Radian</scope><name>Radian</name></member>
+      <member refid="d3/d2f/class_radian_1a7a2edb4be829c47af52db5b1b5739a7f" prot="public" virt="non-virtual"><scope>Radian</scope><name>Radian</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

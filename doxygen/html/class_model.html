@@ -1,0 +1,475 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>CastleCrash: クラス Model</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">CastleCrash
+   &#160;<span id="projectnumber">2014/02/26</span>
+   </div>
+   <div id="projectbrief">Yuki Ishigaki</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>メインページ</span></a></li>
+      <li><a href="namespaces.html"><span>ネームスペース</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>構成</span></a></li>
+      <li><a href="classes.html"><span>構成索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>構成メンバ</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_model.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>ネームスペース</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>型定義</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>列挙型</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>列挙型の値</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>フレンド</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>マクロ定義</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">構成</a> &#124;
+<a href="#pub-types">Public 型</a> &#124;
+<a href="class_model-members.html">すべてのメンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">クラス Model</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_model_8h_source.html">Model.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+構成</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_1_1_material.html">Material</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_1_1_object.html">Object</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public 型</h2></td></tr>
+<tr class="memitem:a517f749b2393c98904f33fe5134098f6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model.html#a517f749b2393c98904f33fe5134098f6">RenderMode</a> { <br/>
+&#160;&#160;<a class="el" href="class_model.html#a517f749b2393c98904f33fe5134098f6a89507b2dbde648e7a53107cde745fa44">RENDER_NORMAL</a> = 0, 
+<a class="el" href="class_model.html#a517f749b2393c98904f33fe5134098f6ace626117567530dfea8c320219730d4f">RENDER_WIREFRAME</a> = 1, 
+<a class="el" href="class_model.html#a517f749b2393c98904f33fe5134098f6aca0b7050073ccf10531637b657f25019">RENDER_POINTS</a> = 2, 
+<a class="el" href="class_model.html#a517f749b2393c98904f33fe5134098f6a5dc9ddc701c8a06a4d42bd1961b5368b">RENDER_WIREANDPOINTS</a> = 3, 
+<br/>
+&#160;&#160;<a class="el" href="class_model.html#a517f749b2393c98904f33fe5134098f6a1ad15a2114c73c545eddb828ac0f7d75">RENDER_ALL</a> = 4, 
+<a class="el" href="class_model.html#a517f749b2393c98904f33fe5134098f6a50c0c96623577e4e8b94a515171e40d7">RENDER_MAX</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:a517f749b2393c98904f33fe5134098f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">描画モード  <a href="class_model.html#a517f749b2393c98904f33fe5134098f6">[詳細]</a><br/></td></tr>
+<tr class="separator:a517f749b2393c98904f33fe5134098f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f992cedea9b4d32ad881d192895e858"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model.html#a4f992cedea9b4d32ad881d192895e858">ObjectMode</a> { <a class="el" href="class_model.html#a4f992cedea9b4d32ad881d192895e858a8dda4c02384f5cf85b9eb108af2d1b69">OBJECT_LANDSCAPE</a>, 
+<a class="el" href="class_model.html#a4f992cedea9b4d32ad881d192895e858a521fc7067f1bd84c10065c4ee9e3a914">OBJECT_WALL</a>, 
+<a class="el" href="class_model.html#a4f992cedea9b4d32ad881d192895e858ac99c81755e44275215a92a94ac6aeeda">OBJECT_MAX</a>
+ }</td></tr>
+<tr class="separator:a4f992cedea9b4d32ad881d192895e858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public メソッド</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">初期化</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="el" href="class_xE3_x83_x9E_xE3_x83_x86_xE3_x83_xAA_xE3_x82_xA2_xE3_x83_xAB.html">マテリアル</a>(材質)クラス </p>
+</div></td></tr>
+<tr class="memitem:ae3b375de5f6df4faf74a95d64748e048"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model.html#ae3b375de5f6df4faf74a95d64748e048">Model</a> ()</td></tr>
+<tr class="memdesc:ae3b375de5f6df4faf74a95d64748e048"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ  <a href="#ae3b375de5f6df4faf74a95d64748e048">[詳細]</a><br/></td></tr>
+<tr class="separator:ae3b375de5f6df4faf74a95d64748e048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6ebd2062a0b823db841a0b88baac4c0"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model.html#ad6ebd2062a0b823db841a0b88baac4c0">~Model</a> ()</td></tr>
+<tr class="memdesc:ad6ebd2062a0b823db841a0b88baac4c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">デストラクタ  <a href="#ad6ebd2062a0b823db841a0b88baac4c0">[詳細]</a><br/></td></tr>
+<tr class="separator:ad6ebd2062a0b823db841a0b88baac4c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">タスク関数</div></td></tr>
+<tr class="memitem:aa6d90fa11fac2b3bbf4597597f2c3f9c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model.html#aa6d90fa11fac2b3bbf4597597f2c3f9c">load</a> (const char fileName[], <a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> scale=0.1f)</td></tr>
+<tr class="separator:aa6d90fa11fac2b3bbf4597597f2c3f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89ebd61864089abe5b0c5a1df6479970"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model.html#a89ebd61864089abe5b0c5a1df6479970">render</a> ()</td></tr>
+<tr class="memdesc:a89ebd61864089abe5b0c5a1df6479970"><td class="mdescLeft">&#160;</td><td class="mdescRight">描画  <a href="#a89ebd61864089abe5b0c5a1df6479970">[詳細]</a><br/></td></tr>
+<tr class="separator:a89ebd61864089abe5b0c5a1df6479970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9361d76a7079ff0db78ef823a4858371"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model.html#a9361d76a7079ff0db78ef823a4858371">renderObject</a> (<a class="el" href="gm_typedef_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> objectIndex)</td></tr>
+<tr class="memdesc:a9361d76a7079ff0db78ef823a4858371"><td class="mdescLeft">&#160;</td><td class="mdescRight">オブジェクト番号を指定して部品を描画  <a href="#a9361d76a7079ff0db78ef823a4858371">[詳細]</a><br/></td></tr>
+<tr class="separator:a9361d76a7079ff0db78ef823a4858371"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">取得・設定</div></td></tr>
+<tr class="memitem:ad36e641665acb9391435e90140cbefe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_model_1_1_object.html">Model::Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model.html#ad36e641665acb9391435e90140cbefe5">getObject</a> (<a class="el" href="gm_typedef_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> index)</td></tr>
+<tr class="separator:ad36e641665acb9391435e90140cbefe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab49eaee1aa8f4b485902e25cd05e9fd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_model_1_1_object.html">Model::Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model.html#ab49eaee1aa8f4b485902e25cd05e9fd1">getColObj</a> (<a class="el" href="gm_typedef_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> objIndex, <a class="el" href="gm_typedef_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> vecIndex)</td></tr>
+<tr class="memdesc:ab49eaee1aa8f4b485902e25cd05e9fd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">当たり判定オブジェクトの取得  <a href="#ab49eaee1aa8f4b485902e25cd05e9fd1">[詳細]</a><br/></td></tr>
+<tr class="separator:ab49eaee1aa8f4b485902e25cd05e9fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aed6bc0362c7e4a7fe4aaa773127820"><td class="memItemLeft" align="right" valign="top"><a class="el" href="gm_typedef_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model.html#a4aed6bc0362c7e4a7fe4aaa773127820">getObjectCount</a> () const </td></tr>
+<tr class="memdesc:a4aed6bc0362c7e4a7fe4aaa773127820"><td class="mdescLeft">&#160;</td><td class="mdescRight">オブジェクトの個数を取得  <a href="#a4aed6bc0362c7e4a7fe4aaa773127820">[詳細]</a><br/></td></tr>
+<tr class="separator:a4aed6bc0362c7e4a7fe4aaa773127820"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0ecbda9cdd50c9414cbc3df465f8d4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model.html#ab0ecbda9cdd50c9414cbc3df465f8d4f">getRadius</a> () const </td></tr>
+<tr class="memdesc:ab0ecbda9cdd50c9414cbc3df465f8d4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">半径を取得  <a href="#ab0ecbda9cdd50c9414cbc3df465f8d4f">[詳細]</a><br/></td></tr>
+<tr class="separator:ab0ecbda9cdd50c9414cbc3df465f8d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">列挙型</h2>
+<a class="anchor" id="a4f992cedea9b4d32ad881d192895e858"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_model.html#a4f992cedea9b4d32ad881d192895e858">Model::ObjectMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">列挙型の値</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a4f992cedea9b4d32ad881d192895e858a8dda4c02384f5cf85b9eb108af2d1b69"></a>OBJECT_LANDSCAPE</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a4f992cedea9b4d32ad881d192895e858a521fc7067f1bd84c10065c4ee9e3a914"></a>OBJECT_WALL</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a4f992cedea9b4d32ad881d192895e858ac99c81755e44275215a92a94ac6aeeda"></a>OBJECT_MAX</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="a517f749b2393c98904f33fe5134098f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_model.html#a517f749b2393c98904f33fe5134098f6">Model::RenderMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>描画モード </p>
+<table class="fieldtable">
+<tr><th colspan="2">列挙型の値</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a517f749b2393c98904f33fe5134098f6a89507b2dbde648e7a53107cde745fa44"></a>RENDER_NORMAL</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a517f749b2393c98904f33fe5134098f6ace626117567530dfea8c320219730d4f"></a>RENDER_WIREFRAME</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a517f749b2393c98904f33fe5134098f6aca0b7050073ccf10531637b657f25019"></a>RENDER_POINTS</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a517f749b2393c98904f33fe5134098f6a5dc9ddc701c8a06a4d42bd1961b5368b"></a>RENDER_WIREANDPOINTS</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a517f749b2393c98904f33fe5134098f6a1ad15a2114c73c545eddb828ac0f7d75"></a>RENDER_ALL</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a517f749b2393c98904f33fe5134098f6a50c0c96623577e4e8b94a515171e40d7"></a>RENDER_MAX</em>&nbsp;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">コンストラクタとデストラクタ</h2>
+<a class="anchor" id="ae3b375de5f6df4faf74a95d64748e048"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Model::Model </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>コンストラクタ </p>
+
+</div>
+</div>
+<a class="anchor" id="ad6ebd2062a0b823db841a0b88baac4c0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Model::~Model </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>デストラクタ </p>
+
+</div>
+</div>
+<h2 class="groupheader">関数</h2>
+<a class="anchor" id="ab49eaee1aa8f4b485902e25cd05e9fd1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_model_1_1_object.html">Model::Object</a>* Model::getColObj </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gm_typedef_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramname"><em>objIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gm_typedef_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramname"><em>vecIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>当たり判定オブジェクトの取得 </p>
+
+</div>
+</div>
+<a class="anchor" id="ad36e641665acb9391435e90140cbefe5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_model_1_1_object.html">Model::Object</a>* Model::getObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gm_typedef_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>描画モードを変更する オブジェクトの取得 </p>
+
+</div>
+</div>
+<a class="anchor" id="a4aed6bc0362c7e4a7fe4aaa773127820"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="gm_typedef_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> Model::getObjectCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>オブジェクトの個数を取得 </p>
+
+</div>
+</div>
+<a class="anchor" id="ab0ecbda9cdd50c9414cbc3df465f8d4f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> Model::getRadius </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>半径を取得 </p>
+
+</div>
+</div>
+<a class="anchor" id="aa6d90fa11fac2b3bbf4597597f2c3f9c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Model::load </td>
+          <td>(</td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>fileName</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramname"><em>scale</em> = <code>0.1f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>読み込み </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">fileName</td><td>ファイル名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">scale</td><td>モデルのスケール値(default:0.1) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>戻り値</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>成功 </td></tr>
+    <tr><td class="paramname">false</td><td>失敗 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a89ebd61864089abe5b0c5a1df6479970"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Model::render </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>描画 </p>
+
+</div>
+</div>
+<a class="anchor" id="a9361d76a7079ff0db78ef823a4858371"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Model::renderObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gm_typedef_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramname"><em>objectIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>オブジェクト番号を指定して部品を描画 </p>
+
+</div>
+</div>
+<hr/>このクラスの説明は次のファイルから生成されました:<ul>
+<li>E:/OCA/OCA_BackUp/OpenGL/WithGameEngineProj/GameWithEngine(UpGrade)/Game/src/<a class="el" href="_model_8h_source.html">Model.h</a></li>
+<li>E:/OCA/OCA_BackUp/OpenGL/WithGameEngineProj/GameWithEngine(UpGrade)/Game/src/<a class="el" href="_model_8cpp.html">Model.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_model.html">Model</a></li>
+    <li class="footer">CastleCrashに対してWed Feb 26 2014 14:49:51に生成されました。
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

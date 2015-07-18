@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="df/d42/class_attacker" kind="class" prot="public">
+    <compoundname>Attacker</compoundname>
+    <basecompoundref refid="da/d50/class_man" prot="public" virt="non-virtual">Man</basecompoundref>
+    <includes refid="d4/d1e/_enemy_8h" local="no">Enemy.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="df/d42/class_attacker_1a94d40f30e5c16bc3040a72321cce4f05" prot="protected" static="no" mutable="no">
+        <type><ref refid="df/dc6/class_collision" kindref="compound">Collision</ref></type>
+        <definition>Collision Attacker::_attackCollision</definition>
+        <argsstring></argsstring>
+        <name>_attackCollision</name>
+        <briefdescription>
+<para>攻撃判定用 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.h" line="60" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d42/class_attacker_1a84fe68147e28f2e98d8eeecee9d3734c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Attacker::Attacker</definition>
+        <argsstring>()</argsstring>
+        <name>Attacker</name>
+        <briefdescription>
+<para>行動状態 </para>        </briefdescription>
+        <detaileddescription>
+<para>コンストラクタ </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.h" line="37" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.cpp" bodystart="15" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d42/class_attacker_1a1725eca90fd1453089946540dc908a2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Attacker::~Attacker</definition>
+        <argsstring>()</argsstring>
+        <name>~Attacker</name>
+        <briefdescription>
+<para>デストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.h" line="40" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.cpp" bodystart="50" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d42/class_attacker_1a21832a3a6f5572e15793983c4a084256" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Attacker::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <reimplements refid="da/d50/class_man_1a465c9e858a334083e663eb266dbbe0f2">Initialize</reimplements>
+        <briefdescription>
+<para>初期化 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.h" line="42" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.cpp" bodystart="60" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d42/class_attacker_1a1033c8ed7d3b31300ff2ea0619f5f4dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Attacker::Update</definition>
+        <argsstring>(Vector3 &amp;goalPos)</argsstring>
+        <name>Update</name>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>goalPos</declname>
+        </param>
+        <briefdescription>
+<para>更新 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.h" line="44" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.cpp" bodystart="89" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d42/class_attacker_1af276df8f646d1242e6b8b3259a2fb9cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Attacker::Render</definition>
+        <argsstring>()</argsstring>
+        <name>Render</name>
+        <reimplements refid="da/d50/class_man_1a87a4883012aba35a3288212b0412df86">Render</reimplements>
+        <briefdescription>
+<para>描画 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.h" line="46" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.cpp" bodystart="212" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d42/class_attacker_1a69f841c2bd1a9c6ca1780bed050d0ab8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Attacker::StatusRender</definition>
+        <argsstring>()</argsstring>
+        <name>StatusRender</name>
+        <reimplements refid="da/d50/class_man_1ae4f1db4bc8c4294fe7ec94e7351959dc">StatusRender</reimplements>
+        <briefdescription>
+<para>ステータスの描画(2D) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.h" line="48" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.cpp" bodystart="254" bodyend="264"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="df/d42/class_attacker_1aa5a8c782e4ba8ab96c7cf1976413ba42" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Attacker::ResetPosition</definition>
+        <argsstring>()</argsstring>
+        <name>ResetPosition</name>
+        <reimplements refid="da/d50/class_man_1a355179fbf349aaec3ee6032710138e7b">ResetPosition</reimplements>
+        <briefdescription>
+<para>攻撃 </para>        </briefdescription>
+        <detaileddescription>
+<para>座標再設定</para><para>座標設定しなおし </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.h" line="56" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.cpp" bodystart="77" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="96">
+        <label>IObj</label>
+        <link refid="da/d94/class_i_obj"/>
+      </node>
+      <node id="93">
+        <label>Attacker</label>
+        <link refid="df/d42/class_attacker"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>Man</label>
+        <link refid="da/d50/class_man"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>CollisionObject</label>
+        <link refid="d3/d62/class_collision_object"/>
+      </node>
+      <node id="95">
+        <label>ObjBase</label>
+        <link refid="dc/d24/class_obj_base"/>
+        <childnode refid="96" relation="public-inheritance">
+        </childnode>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="109">
+        <label>Status</label>
+        <link refid="df/df2/struct_status"/>
+        <childnode refid="110" relation="usage">
+          <edgelabel>_GaugeBoard</edgelabel>
+        </childnode>
+      </node>
+      <node id="101">
+        <label>IObj</label>
+        <link refid="da/d94/class_i_obj"/>
+      </node>
+      <node id="98">
+        <label>Attacker</label>
+        <link refid="df/d42/class_attacker"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+        <childnode refid="105" relation="usage">
+          <edgelabel>_attackCollision</edgelabel>
+        </childnode>
+      </node>
+      <node id="108">
+        <label>IKey</label>
+        <link refid="d1/d71/class_i_key"/>
+      </node>
+      <node id="99">
+        <label>Man</label>
+        <link refid="da/d50/class_man"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+        <childnode refid="105" relation="usage">
+          <edgelabel>_myCollision</edgelabel>
+        </childnode>
+        <childnode refid="106" relation="usage">
+          <edgelabel>_model</edgelabel>
+        </childnode>
+        <childnode refid="104" relation="usage">
+          <edgelabel>_attackPosition</edgelabel>
+        </childnode>
+        <childnode refid="107" relation="usage">
+          <edgelabel>_key</edgelabel>
+        </childnode>
+        <childnode refid="103" relation="usage">
+          <edgelabel>_attackSphere</edgelabel>
+        </childnode>
+        <childnode refid="109" relation="usage">
+          <edgelabel>_myStatus</edgelabel>
+        </childnode>
+      </node>
+      <node id="107">
+        <label>KeyBase</label>
+        <link refid="dd/d2e/class_key_base"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+        <childnode refid="104" relation="usage">
+          <edgelabel>_movVector</edgelabel>
+          <edgelabel>_playerPos</edgelabel>
+          <edgelabel>_targetPos</edgelabel>
+          <edgelabel>_stickVector</edgelabel>
+          <edgelabel>_myPos</edgelabel>
+        </childnode>
+      </node>
+      <node id="102">
+        <label>CollisionObject</label>
+        <link refid="d3/d62/class_collision_object"/>
+        <childnode refid="103" relation="usage">
+          <edgelabel>_hitSphere</edgelabel>
+        </childnode>
+      </node>
+      <node id="100">
+        <label>ObjBase</label>
+        <link refid="dc/d24/class_obj_base"/>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+        <childnode refid="104" relation="usage">
+          <edgelabel>_rotation</edgelabel>
+          <edgelabel>_mov</edgelabel>
+          <edgelabel>_position</edgelabel>
+          <edgelabel>_hitPosition</edgelabel>
+        </childnode>
+      </node>
+      <node id="110">
+        <label>BillBoard</label>
+        <link refid="dd/d4c/class_bill_board"/>
+      </node>
+      <node id="105">
+        <label>Collision</label>
+        <link refid="df/dc6/class_collision"/>
+      </node>
+      <node id="103">
+        <label>Sphere</label>
+        <link refid="db/da7/struct_sphere"/>
+      </node>
+      <node id="106">
+        <label>Model</label>
+        <link refid="d0/de3/class_model"/>
+      </node>
+      <node id="104">
+        <label>Vector3</label>
+        <link refid="d0/de3/struct_vector3"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.h" line="20" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.h" bodystart="19" bodyend="61"/>
+    <listofallmembers>
+      <member refid="df/d42/class_attacker_1a94d40f30e5c16bc3040a72321cce4f05" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_attackCollision</name></member>
+      <member refid="da/d50/class_man_1aef1a7ce26d3f34dc162e49a392df1088" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_attackOffsetRange</name></member>
+      <member refid="da/d50/class_man_1a0df920254c02bae445db9f3a896e3986" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_attackPosition</name></member>
+      <member refid="da/d50/class_man_1a132be4c780976f644274832498b3e84e" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_attackRadius</name></member>
+      <member refid="da/d50/class_man_1a3479373b377a9d008410d94e16112897" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_attackRadNum</name></member>
+      <member refid="da/d50/class_man_1a904eaf8909829ca908e6c2fad0e4f0b1" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_attackSphere</name></member>
+      <member refid="da/d50/class_man_1a2bf56500306d81e049788a83604cd723" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_height</name></member>
+      <member refid="da/d50/class_man_1a5021ebc7e4ff19d3620f51ccc22d9c6b" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_hitAttack</name></member>
+      <member refid="da/d50/class_man_1a1761302b9ee56b5ea67ff85a6b1c7804" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_hitGround</name></member>
+      <member refid="da/d50/class_man_1acaae84d59d74953ebb8cd7b09e5faaf0" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_hitObj</name></member>
+      <member refid="dc/d24/class_obj_base_1a6758eebc53b693f76fc11f0a8eb436be" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_hitPosition</name></member>
+      <member refid="dc/d24/class_obj_base_1a0144260d49b5e7d12522c3f71bf2414c" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_hitRadius</name></member>
+      <member refid="d3/d62/class_collision_object_1afd1c8612ad380f08cf3f2a5bf4b3daab" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_hitSphere</name></member>
+      <member refid="da/d50/class_man_1a5b9699d0abb401113a8feef81b515647" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_isAttack</name></member>
+      <member refid="da/d50/class_man_1adf303aeded2c5094c246d45edd2be7a6" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_isJump</name></member>
+      <member refid="da/d50/class_man_1ac2efd76a0685583f4faad618b4961542" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_key</name></member>
+      <member refid="da/d50/class_man_1a0e9a8437e880e5bc17ca83a89b0a716d" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_model</name></member>
+      <member refid="dc/d24/class_obj_base_1a510356ecd15d213ac818b836f9b25cca" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_mov</name></member>
+      <member refid="da/d50/class_man_1af9bbaacbb75df8c52d44133df86b3778" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_myCollision</name></member>
+      <member refid="da/d50/class_man_1ab8554a2b8918e3da6067fbf5ec4d2585" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_myLandScapleGridNum</name></member>
+      <member refid="da/d50/class_man_1ae884f4872be46582eac86e05d47ac52f" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_myStatus</name></member>
+      <member refid="dc/d24/class_obj_base_1a686e86c74461bf6cea312434796a57ce" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_position</name></member>
+      <member refid="dc/d24/class_obj_base_1a6f8144cf79c29670f6697833c021dd06" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_radius</name></member>
+      <member refid="dc/d24/class_obj_base_1a7f5b5aa7c370afcc110a6bf571f45375" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_rotation</name></member>
+      <member refid="da/d50/class_man_1ab6179d5c87983400d4d6cdd7d0163d86" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_speed</name></member>
+      <member refid="da/d50/class_man_1abd30d75b28d7c06673a676c6d7f8c36e" prot="protected" virt="non-virtual"><scope>Attacker</scope><name>_type</name></member>
+      <member refid="da/d50/class_man_1a3399a4016d8bc3f13a50041b4b03193a" prot="protected" virt="virtual"><scope>Attacker</scope><name>Attack</name></member>
+      <member refid="df/d42/class_attacker_1a84fe68147e28f2e98d8eeecee9d3734c" prot="public" virt="non-virtual"><scope>Attacker</scope><name>Attacker</name></member>
+      <member refid="d3/d62/class_collision_object_1ac9677c53a2edb172dca4703e759379bf" prot="public" virt="non-virtual"><scope>Attacker</scope><name>CollisionObject</name></member>
+      <member refid="d3/d62/class_collision_object_1ab2891150c91ae9267f846449ebe3c709" prot="public" virt="non-virtual"><scope>Attacker</scope><name>CollisionObject</name></member>
+      <member refid="da/d50/class_man_1a05ad50f87c07dd8f64a832388246e6e6" prot="protected" virt="virtual"><scope>Attacker</scope><name>Damage</name></member>
+      <member refid="da/d50/class_man_1ad547da782e80d85e048da7dc43722c5b" prot="public" virt="non-virtual"><scope>Attacker</scope><name>getAttackPosition</name></member>
+      <member refid="da/d50/class_man_1ad70958fa74261ddfab75826a7c5df47b" prot="public" virt="non-virtual"><scope>Attacker</scope><name>getAttackRadius</name></member>
+      <member refid="da/d50/class_man_1ad15b88273b6cb08c5d24391ccb7b27f9" prot="public" virt="non-virtual"><scope>Attacker</scope><name>getAttackSphere</name></member>
+      <member refid="da/d50/class_man_1aa48106fafd47b8b1099be41963c9dc5b" prot="public" virt="non-virtual"><scope>Attacker</scope><name>getHitAttack</name></member>
+      <member refid="da/d50/class_man_1ac68419faa2b82119da5d2c8fdd9e5699" prot="public" virt="non-virtual"><scope>Attacker</scope><name>getHitObj</name></member>
+      <member refid="dc/d24/class_obj_base_1aadebcb51462e8afc1313a70d1b9e7876" prot="public" virt="non-virtual"><scope>Attacker</scope><name>getHitPosition</name></member>
+      <member refid="dc/d24/class_obj_base_1ae804330778801e616d570a556c2d80ed" prot="public" virt="non-virtual"><scope>Attacker</scope><name>getHitRadius</name></member>
+      <member refid="d3/d62/class_collision_object_1afba2c3a210f9c209e37f1d1b902e23b8" prot="public" virt="non-virtual"><scope>Attacker</scope><name>getHitSphere</name></member>
+      <member refid="da/d50/class_man_1ac57d74d748cbc039e970c1f5fb98140a" prot="public" virt="non-virtual"><scope>Attacker</scope><name>getisAttack</name></member>
+      <member refid="dc/d24/class_obj_base_1a14f5da5ba7748f44aec4e398a143c8cd" prot="public" virt="non-virtual"><scope>Attacker</scope><name>getMov</name></member>
+      <member refid="dc/d24/class_obj_base_1aaf39427e88188735373b4ac1cc0f30b3" prot="public" virt="non-virtual"><scope>Attacker</scope><name>getPosition</name></member>
+      <member refid="dc/d24/class_obj_base_1ae92b3cfdad5e400686aab1c24c916921" prot="public" virt="non-virtual"><scope>Attacker</scope><name>getRadius</name></member>
+      <member refid="dc/d24/class_obj_base_1ad24f6c206c4b736eae5476b50f23f377" prot="public" virt="non-virtual"><scope>Attacker</scope><name>getRotation</name></member>
+      <member refid="da/d50/class_man_1a60341fe647e8671b969c61f6d702a26e" prot="public" virt="non-virtual"><scope>Attacker</scope><name>getStatus</name></member>
+      <member refid="da/d50/class_man_1a2ce2bab28ed38e2f816be1c560b18462" prot="public" virt="non-virtual"><scope>Attacker</scope><name>getType</name></member>
+      <member refid="df/d42/class_attacker_1a21832a3a6f5572e15793983c4a084256" prot="public" virt="virtual"><scope>Attacker</scope><name>Initialize</name></member>
+      <member refid="d3/d62/class_collision_object_1a2574ee166a554985f4ea60ddd57f27db" prot="public" virt="non-virtual"><scope>Attacker</scope><name>isHitObj</name></member>
+      <member refid="d3/d62/class_collision_object_1ab006cfd3dc853eda7729a7b7e07a1d25" prot="public" virt="non-virtual"><scope>Attacker</scope><name>isHitSphere</name></member>
+      <member refid="da/d50/class_man_1a5ba5575d82480b8d414376b40dffc1e3" prot="protected" virt="virtual"><scope>Attacker</scope><name>Jump</name></member>
+      <member refid="da/d50/class_man_1a051ab47a531f9b88d602d1ded39a12ce" prot="public" virt="non-virtual"><scope>Attacker</scope><name>Man</name></member>
+      <member refid="dc/d24/class_obj_base_1ab7a2f2e63f2ef5c735faad622399d4dc" prot="public" virt="non-virtual"><scope>Attacker</scope><name>ObjBase</name></member>
+      <member refid="df/d42/class_attacker_1af276df8f646d1242e6b8b3259a2fb9cc" prot="public" virt="virtual"><scope>Attacker</scope><name>Render</name></member>
+      <member refid="df/d42/class_attacker_1aa5a8c782e4ba8ab96c7cf1976413ba42" prot="protected" virt="virtual"><scope>Attacker</scope><name>ResetPosition</name></member>
+      <member refid="da/d50/class_man_1a7dc9b3601c7808edcbdcd42973185797" prot="public" virt="non-virtual"><scope>Attacker</scope><name>setHitAttack</name></member>
+      <member refid="da/d50/class_man_1afda6e5985073544617c174cc77c0877b" prot="public" virt="non-virtual"><scope>Attacker</scope><name>setHitObj</name></member>
+      <member refid="da/d50/class_man_1a8815ca1006f5aaa8d2273f3e4dde6739" prot="public" virt="non-virtual"><scope>Attacker</scope><name>setPosition</name></member>
+      <member refid="d3/d62/class_collision_object_1a8a9ad3b2608c2737c2bc69a2b2791094" prot="public" virt="non-virtual"><scope>Attacker</scope><name>setSphereParam</name></member>
+      <member refid="df/d42/class_attacker_1a69f841c2bd1a9c6ca1780bed050d0ab8" prot="public" virt="virtual"><scope>Attacker</scope><name>StatusRender</name></member>
+      <member refid="da/d50/class_man_1ac1011efd52b90022fb3f7d1b9a3710f9" prot="public" virt="non-virtual"><scope>Attacker</scope><name>toHitPosition</name></member>
+      <member refid="da/d50/class_man_1a9087121fafce35e0c26656113d22b66c" prot="public" virt="non-virtual"><scope>Attacker</scope><name>toPosition</name></member>
+      <member refid="da/d50/class_man_1af2f4c50db54b697f45e30dd4161d0d7c" prot="public" virt="non-virtual"><scope>Attacker</scope><name>TYPE</name></member>
+      <member refid="da/d50/class_man_1af2f4c50db54b697f45e30dd4161d0d7ca732a9be8100053674a530fb2bdac88f2" prot="public" virt="non-virtual"><scope>Attacker</scope><name>TYPE_ALLY</name></member>
+      <member refid="da/d50/class_man_1af2f4c50db54b697f45e30dd4161d0d7caf6fc26730ecb44acc87edef3f3b752d8" prot="public" virt="non-virtual"><scope>Attacker</scope><name>TYPE_ENEMY</name></member>
+      <member refid="da/d50/class_man_1af2f4c50db54b697f45e30dd4161d0d7cada6e6038f584f5ccbde9f530082f393d" prot="public" virt="non-virtual"><scope>Attacker</scope><name>TYPE_PLAYER</name></member>
+      <member refid="df/d42/class_attacker_1a1033c8ed7d3b31300ff2ea0619f5f4dd" prot="public" virt="virtual"><scope>Attacker</scope><name>Update</name></member>
+      <member refid="da/d50/class_man_1aadef07ec563fbabf2afbd9ea15558c91" prot="public" virt="virtual" ambiguityscope="Man::"><scope>Attacker</scope><name>Update</name></member>
+      <member refid="df/d42/class_attacker_1a1725eca90fd1453089946540dc908a2e" prot="public" virt="virtual"><scope>Attacker</scope><name>~Attacker</name></member>
+      <member refid="da/d50/class_man_1aaaaf60a8e06cb3f81fd1cada9961e7fa" prot="public" virt="virtual"><scope>Attacker</scope><name>~Man</name></member>
+      <member refid="dc/d24/class_obj_base_1a54ccb5455d3deacd3d342b09f7965bbc" prot="public" virt="virtual"><scope>Attacker</scope><name>~ObjBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

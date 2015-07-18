@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="de/d54/struct_vector4" kind="struct" prot="public">
+    <compoundname>Vector4</compoundname>
+    <includes refid="d4/d7f/_vector_8h" local="no">Vector.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="de/d54/struct_vector4_1abb21125aa7a06ea4437281aa76a551ea" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 Vector4::_x</definition>
+        <argsstring></argsstring>
+        <name>_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="198" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 Vector4::_y</definition>
+        <argsstring></argsstring>
+        <name>_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="199" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 Vector4::_z</definition>
+        <argsstring></argsstring>
+        <name>_z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="200" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d54/struct_vector4_1a9aae8a768968c7939492dcc8277dab19" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 Vector4::_w</definition>
+        <argsstring></argsstring>
+        <name>_w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="201" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d54/struct_vector4_1a511b4d9c8326c235b76d794eea018921" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Vector4::Vector4</definition>
+        <argsstring>()</argsstring>
+        <name>Vector4</name>
+        <briefdescription>
+<para>デフォルトコンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="185" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.cpp" bodystart="303" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d54/struct_vector4_1af392697118abd888bc7aa1781cd08eb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Vector4::Vector4</definition>
+        <argsstring>(f32 x, f32 y, f32 z, f32 w)</argsstring>
+        <name>Vector4</name>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+<para>コンストラクタ(xyzw指定) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="188" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.cpp" bodystart="308" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d54/struct_vector4_1a0bbfb6f21d73c847d5bd57e491388c1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Vector4::Vector4</definition>
+        <argsstring>(const Vector3 v, f32 w)</argsstring>
+        <name>Vector4</name>
+        <param>
+          <type>const <ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+<para>コンストラクタ(ベクトル指定) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="191" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.cpp" bodystart="318" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d54/struct_vector4_1a55b17f5f4003a2c1b46066925b072635" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="de/d54/struct_vector4" kindref="compound">Vector4</ref></type>
+        <definition>Vector4 Vector4::transform</definition>
+        <argsstring>(const Matrix &amp;m)</argsstring>
+        <name>transform</name>
+        <param>
+          <type>const <ref refid="d5/d22/struct_matrix" kindref="compound">Matrix</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ベクトルの変換 v&apos; ← this * m; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="195" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.cpp" bodystart="329" bodyend="339"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="182" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="181" bodyend="202"/>
+    <listofallmembers>
+      <member refid="de/d54/struct_vector4_1a9aae8a768968c7939492dcc8277dab19" prot="public" virt="non-virtual"><scope>Vector4</scope><name>_w</name></member>
+      <member refid="de/d54/struct_vector4_1abb21125aa7a06ea4437281aa76a551ea" prot="public" virt="non-virtual"><scope>Vector4</scope><name>_x</name></member>
+      <member refid="de/d54/struct_vector4_1ad9ed5b3fc455babdf07b04b25a8e9ba7" prot="public" virt="non-virtual"><scope>Vector4</scope><name>_y</name></member>
+      <member refid="de/d54/struct_vector4_1a96640816e4ce903c77e79f896b4331bd" prot="public" virt="non-virtual"><scope>Vector4</scope><name>_z</name></member>
+      <member refid="de/d54/struct_vector4_1a55b17f5f4003a2c1b46066925b072635" prot="public" virt="non-virtual"><scope>Vector4</scope><name>transform</name></member>
+      <member refid="de/d54/struct_vector4_1a511b4d9c8326c235b76d794eea018921" prot="public" virt="non-virtual"><scope>Vector4</scope><name>Vector4</name></member>
+      <member refid="de/d54/struct_vector4_1af392697118abd888bc7aa1781cd08eb9" prot="public" virt="non-virtual"><scope>Vector4</scope><name>Vector4</name></member>
+      <member refid="de/d54/struct_vector4_1a0bbfb6f21d73c847d5bd57e491388c1e" prot="public" virt="non-virtual"><scope>Vector4</scope><name>Vector4</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

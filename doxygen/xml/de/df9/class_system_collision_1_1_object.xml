@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="de/df9/class_system_collision_1_1_object" kind="class" prot="public">
+    <compoundname>SystemCollision::Object</compoundname>
+    <includes refid="d9/d87/_collision_8h" local="no">Collision.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="de/df9/class_system_collision_1_1_object_1af28618e17ccf1dacf64a8f693b831da1" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="d5/d4f/struct_triangle" kindref="compound">Triangle</ref> &gt;</type>
+        <definition>vector&lt;Triangle&gt; SystemCollision::Object::_triangles</definition>
+        <argsstring></argsstring>
+        <name>_triangles</name>
+        <briefdescription>
+<para>三角形配列 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="256" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/df9/class_system_collision_1_1_object_1adf26ef840a79aa5ef9263a3acfb3cfed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SystemCollision::Object::Object</definition>
+        <argsstring>()</argsstring>
+        <name>Object</name>
+        <briefdescription>
+<para>コンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="228" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="228" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="de/df9/class_system_collision_1_1_object_1ac707b4d5b0a943783dfb7d838811dc44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SystemCollision::Object::addTriangle</definition>
+        <argsstring>(const Triangle &amp;triangle)</argsstring>
+        <name>addTriangle</name>
+        <param>
+          <type>const <ref refid="d5/d4f/struct_triangle" kindref="compound">Triangle</ref> &amp;</type>
+          <declname>triangle</declname>
+        </param>
+        <briefdescription>
+<para>三角形を追加 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="231" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="231" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="de/df9/class_system_collision_1_1_object_1abdf94c891a1831b034ef95676260e810" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SystemCollision::Object::resetTriangle</definition>
+        <argsstring>()</argsstring>
+        <name>resetTriangle</name>
+        <briefdescription>
+<para>リストの初期化 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="237" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="237" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="de/df9/class_system_collision_1_1_object_1a20589d2a42528e7ef1b05943e791b613" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d5/d4f/struct_triangle" kindref="compound">Triangle</ref> *</type>
+        <definition>Triangle* SystemCollision::Object::getTriangle</definition>
+        <argsstring>(s32 index)</argsstring>
+        <name>getTriangle</name>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>三角形を取得 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="243" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="243" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="de/df9/class_system_collision_1_1_object_1a69ccd0e81eec2940e9147c917b52c28a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>s32 SystemCollision::Object::getTriangleCount</definition>
+        <argsstring>() const </argsstring>
+        <name>getTriangleCount</name>
+        <briefdescription>
+<para>三角形の数を取得 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="249" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="249" bodyend="252"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="225" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="224" bodyend="257"/>
+    <listofallmembers>
+      <member refid="de/df9/class_system_collision_1_1_object_1af28618e17ccf1dacf64a8f693b831da1" prot="private" virt="non-virtual"><scope>SystemCollision::Object</scope><name>_triangles</name></member>
+      <member refid="de/df9/class_system_collision_1_1_object_1ac707b4d5b0a943783dfb7d838811dc44" prot="public" virt="non-virtual"><scope>SystemCollision::Object</scope><name>addTriangle</name></member>
+      <member refid="de/df9/class_system_collision_1_1_object_1a20589d2a42528e7ef1b05943e791b613" prot="public" virt="non-virtual"><scope>SystemCollision::Object</scope><name>getTriangle</name></member>
+      <member refid="de/df9/class_system_collision_1_1_object_1a69ccd0e81eec2940e9147c917b52c28a" prot="public" virt="non-virtual"><scope>SystemCollision::Object</scope><name>getTriangleCount</name></member>
+      <member refid="de/df9/class_system_collision_1_1_object_1adf26ef840a79aa5ef9263a3acfb3cfed" prot="public" virt="non-virtual"><scope>SystemCollision::Object</scope><name>Object</name></member>
+      <member refid="de/df9/class_system_collision_1_1_object_1abdf94c891a1831b034ef95676260e810" prot="public" virt="non-virtual"><scope>SystemCollision::Object</scope><name>resetTriangle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

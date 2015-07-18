@@ -1,0 +1,43 @@
+﻿2013/04/20 19:35:04 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\develop\freeglut-2.8.1\VisualStudio\2010\freeglut.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "build\Release_Static\Win32_v100\freeglut.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         すべての出力が最新のものです。
+       ResourceCompile:
+         すべての出力が最新のものです。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\lib\x86\freeglut_static.lib" /NOLOGO /MACHINE:X86 /LTCG build\Release_Static\Win32_v100\freeglut.res
+         build\Release_Static\Win32_v100\freeglut_callbacks.obj
+         build\Release_Static\Win32_v100\freeglut_cursor.obj
+         build\Release_Static\Win32_v100\freeglut_display.obj
+         build\Release_Static\Win32_v100\freeglut_ext.obj
+         build\Release_Static\Win32_v100\freeglut_font.obj
+         build\Release_Static\Win32_v100\freeglut_font_data.obj
+         build\Release_Static\Win32_v100\freeglut_gamemode.obj
+         build\Release_Static\Win32_v100\freeglut_geometry.obj
+         build\Release_Static\Win32_v100\freeglut_glutfont_definitions.obj
+         build\Release_Static\Win32_v100\freeglut_init.obj
+         build\Release_Static\Win32_v100\freeglut_input_devices.obj
+         build\Release_Static\Win32_v100\freeglut_joystick.obj
+         build\Release_Static\Win32_v100\freeglut_main.obj
+         build\Release_Static\Win32_v100\freeglut_menu.obj
+         build\Release_Static\Win32_v100\freeglut_misc.obj
+         build\Release_Static\Win32_v100\freeglut_overlay.obj
+         build\Release_Static\Win32_v100\freeglut_spaceball.obj
+         build\Release_Static\Win32_v100\freeglut_state.obj
+         build\Release_Static\Win32_v100\freeglut_stroke_mono_roman.obj
+         build\Release_Static\Win32_v100\freeglut_stroke_roman.obj
+         build\Release_Static\Win32_v100\freeglut_structure.obj
+         build\Release_Static\Win32_v100\freeglut_teapot.obj
+         build\Release_Static\Win32_v100\freeglut_videoresize.obj
+         build\Release_Static\Win32_v100\freeglut_window.obj
+         freeglut.vcxproj -> D:\develop\freeglut-2.8.1\VisualStudio\2010\..\..\lib\x86\freeglut_static.lib
+       FinalizeBuildStatus:
+         ファイル "build\Release_Static\Win32_v100\freeglut.unsuccessfulbuild" を削除しています。
+         "build\Release_Static\Win32_v100\freeglut.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "D:\develop\freeglut-2.8.1\VisualStudio\2010\freeglut.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:00.17

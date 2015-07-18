@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d4/de3/_i_obj_8cpp" kind="file">
+    <compoundname>IObj.cpp</compoundname>
+    <includes refid="db/dfc/_library_8h" local="yes">Library.h</includes>
+    <incdepgraph>
+      <node id="2001">
+        <label>list</label>
+      </node>
+      <node id="2051">
+        <label>SceneGame.h</label>
+        <link refid="dc/d83/_scene_game_8h"/>
+      </node>
+      <node id="2011">
+        <label>Color.h</label>
+        <link refid="d9/df8/_color_8h"/>
+      </node>
+      <node id="2010">
+        <label>Matrix.h</label>
+        <link refid="d0/d45/_matrix_8h"/>
+      </node>
+      <node id="2029">
+        <label>Status.h</label>
+        <link refid="d3/ddd/_status_8h"/>
+      </node>
+      <node id="1991">
+        <label>windows.h</label>
+      </node>
+      <node id="2031">
+        <label>Key.h</label>
+        <link refid="d7/dfc/_key_8h"/>
+      </node>
+      <node id="2048">
+        <label>AllyDeffender.h</label>
+        <link refid="de/d4d/_ally_deffender_8h"/>
+      </node>
+      <node id="2008">
+        <label>GLFont.h</label>
+        <link refid="dc/db4/_g_l_font_8h"/>
+      </node>
+      <node id="2046">
+        <label>Ally.h</label>
+        <link refid="d0/d06/_ally_8h"/>
+      </node>
+      <node id="1998">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2049">
+        <label>AllyHealer.h</label>
+        <link refid="d6/dbe/_ally_healer_8h"/>
+      </node>
+      <node id="2030">
+        <label>IObj.h</label>
+        <link refid="dd/d39/_i_obj_8h"/>
+      </node>
+      <node id="2039">
+        <label>CameraManager.h</label>
+        <link refid="db/d24/_camera_manager_8h"/>
+      </node>
+      <node id="2038">
+        <label>Camera.h</label>
+        <link refid="d5/d91/_camera_8h"/>
+      </node>
+      <node id="2032">
+        <label>KeyAttacker.h</label>
+        <link refid="d9/d42/_key_attacker_8h"/>
+      </node>
+      <node id="2028">
+        <label>CollisionManager.h</label>
+        <link refid="d7/d3e/_collision_manager_8h"/>
+      </node>
+      <node id="2016">
+        <label>fmod.h</label>
+      </node>
+      <node id="2035">
+        <label>KeyInput.h</label>
+        <link refid="df/d48/_key_input_8h"/>
+      </node>
+      <node id="2027">
+        <label>LandScape.h</label>
+        <link refid="d5/d53/_land_scape_8h"/>
+      </node>
+      <node id="1999">
+        <label>string</label>
+      </node>
+      <node id="2003">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="2009">
+        <label>Vector.h</label>
+        <link refid="d4/d7f/_vector_8h"/>
+      </node>
+      <node id="2025">
+        <label>Collision.h</label>
+        <link refid="d9/d87/_collision_8h"/>
+      </node>
+      <node id="2012">
+        <label>System.h</label>
+        <link refid="df/d78/_system_8h"/>
+      </node>
+      <node id="2007">
+        <label>Singleton.h</label>
+        <link refid="de/dec/_singleton_8h"/>
+      </node>
+      <node id="1990">
+        <label>Main.h</label>
+        <link refid="d0/d55/_main_8h"/>
+        <childnode refid="1991" relation="include">
+        </childnode>
+        <childnode refid="1992" relation="include">
+        </childnode>
+        <childnode refid="1993" relation="include">
+        </childnode>
+        <childnode refid="1994" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+        <childnode refid="1996" relation="include">
+        </childnode>
+        <childnode refid="1997" relation="include">
+        </childnode>
+        <childnode refid="1998" relation="include">
+        </childnode>
+        <childnode refid="1999" relation="include">
+        </childnode>
+        <childnode refid="2000" relation="include">
+        </childnode>
+        <childnode refid="2001" relation="include">
+        </childnode>
+        <childnode refid="2002" relation="include">
+        </childnode>
+        <childnode refid="2003" relation="include">
+        </childnode>
+        <childnode refid="2004" relation="include">
+        </childnode>
+        <childnode refid="2005" relation="include">
+        </childnode>
+        <childnode refid="2006" relation="include">
+        </childnode>
+      </node>
+      <node id="2044">
+        <label>Player.h</label>
+        <link refid="d1/d39/_player_8h"/>
+      </node>
+      <node id="2005">
+        <label>GL/freeglut.h</label>
+      </node>
+      <node id="2004">
+        <label>GL/wglew.h</label>
+      </node>
+      <node id="2022">
+        <label>BillBoard.h</label>
+        <link refid="d1/d37/_bill_board_8h"/>
+      </node>
+      <node id="2021">
+        <label>Effect.h</label>
+        <link refid="dd/d44/_effect_8h"/>
+      </node>
+      <node id="1993">
+        <label>gdiplus.h</label>
+      </node>
+      <node id="2002">
+        <label>ctime</label>
+      </node>
+      <node id="2000">
+        <label>vector</label>
+      </node>
+      <node id="1988">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/IObj.cpp</label>
+        <link refid="IObj.cpp"/>
+        <childnode refid="1989" relation="include">
+        </childnode>
+      </node>
+      <node id="2017">
+        <label>Controller.h</label>
+        <link refid="d2/d94/_controller_8h"/>
+      </node>
+      <node id="1995">
+        <label>sstream</label>
+      </node>
+      <node id="2040">
+        <label>Map.h</label>
+        <link refid="d3/d63/_map_8h"/>
+      </node>
+      <node id="2050">
+        <label>SceneTitle.h</label>
+        <link refid="d6/d5f/_scene_title_8h"/>
+      </node>
+      <node id="2006">
+        <label>Xinput.h</label>
+      </node>
+      <node id="2043">
+        <label>SquadManager.h</label>
+        <link refid="da/d9b/_squad_manager_8h"/>
+      </node>
+      <node id="1996">
+        <label>math.h</label>
+      </node>
+      <node id="2019">
+        <label>Texture.h</label>
+        <link refid="de/dbf/_texture_8h"/>
+      </node>
+      <node id="2015">
+        <label>fmod.hpp</label>
+      </node>
+      <node id="2014">
+        <label>SoundPlayer.h</label>
+        <link refid="dc/d02/_sound_player_8h"/>
+        <childnode refid="2015" relation="include">
+        </childnode>
+        <childnode refid="2016" relation="include">
+        </childnode>
+      </node>
+      <node id="1989">
+        <label>Library.h</label>
+        <link refid="db/dfc/_library_8h"/>
+        <childnode refid="1990" relation="include">
+        </childnode>
+        <childnode refid="2007" relation="include">
+        </childnode>
+        <childnode refid="2008" relation="include">
+        </childnode>
+        <childnode refid="2009" relation="include">
+        </childnode>
+        <childnode refid="2010" relation="include">
+        </childnode>
+        <childnode refid="2011" relation="include">
+        </childnode>
+        <childnode refid="2012" relation="include">
+        </childnode>
+        <childnode refid="2013" relation="include">
+        </childnode>
+        <childnode refid="2014" relation="include">
+        </childnode>
+        <childnode refid="2017" relation="include">
+        </childnode>
+        <childnode refid="2018" relation="include">
+        </childnode>
+        <childnode refid="2019" relation="include">
+        </childnode>
+        <childnode refid="2020" relation="include">
+        </childnode>
+        <childnode refid="2021" relation="include">
+        </childnode>
+        <childnode refid="2022" relation="include">
+        </childnode>
+        <childnode refid="2023" relation="include">
+        </childnode>
+        <childnode refid="2024" relation="include">
+        </childnode>
+        <childnode refid="2025" relation="include">
+        </childnode>
+        <childnode refid="2026" relation="include">
+        </childnode>
+        <childnode refid="2027" relation="include">
+        </childnode>
+        <childnode refid="2028" relation="include">
+        </childnode>
+        <childnode refid="2029" relation="include">
+        </childnode>
+        <childnode refid="2030" relation="include">
+        </childnode>
+        <childnode refid="2031" relation="include">
+        </childnode>
+        <childnode refid="2032" relation="include">
+        </childnode>
+        <childnode refid="2033" relation="include">
+        </childnode>
+        <childnode refid="2034" relation="include">
+        </childnode>
+        <childnode refid="2035" relation="include">
+        </childnode>
+        <childnode refid="2036" relation="include">
+        </childnode>
+        <childnode refid="2037" relation="include">
+        </childnode>
+        <childnode refid="2038" relation="include">
+        </childnode>
+        <childnode refid="2039" relation="include">
+        </childnode>
+        <childnode refid="2040" relation="include">
+        </childnode>
+        <childnode refid="2041" relation="include">
+        </childnode>
+        <childnode refid="2042" relation="include">
+        </childnode>
+        <childnode refid="2043" relation="include">
+        </childnode>
+        <childnode refid="2044" relation="include">
+        </childnode>
+        <childnode refid="2045" relation="include">
+        </childnode>
+        <childnode refid="2046" relation="include">
+        </childnode>
+        <childnode refid="2047" relation="include">
+        </childnode>
+        <childnode refid="2048" relation="include">
+        </childnode>
+        <childnode refid="2049" relation="include">
+        </childnode>
+        <childnode refid="2050" relation="include">
+        </childnode>
+        <childnode refid="2051" relation="include">
+        </childnode>
+      </node>
+      <node id="2042">
+        <label>Squad.h</label>
+        <link refid="db/d9e/_squad_8h"/>
+      </node>
+      <node id="1994">
+        <label>iostream</label>
+      </node>
+      <node id="2024">
+        <label>Geometry.h</label>
+        <link refid="d1/d4e/_geometry_8h"/>
+      </node>
+      <node id="2013">
+        <label>Timer.h</label>
+        <link refid="d5/d29/_timer_8h"/>
+      </node>
+      <node id="2026">
+        <label>CollisionWall.h</label>
+        <link refid="df/d58/_collision_wall_8h"/>
+      </node>
+      <node id="1992">
+        <label>mmsystem.h</label>
+      </node>
+      <node id="2041">
+        <label>Man.h</label>
+        <link refid="d3/da6/_man_8h"/>
+      </node>
+      <node id="2018">
+        <label>Mouse.h</label>
+        <link refid="d2/de3/_mouse_8h"/>
+      </node>
+      <node id="2047">
+        <label>AllyAttacker.h</label>
+        <link refid="d9/d97/_ally_attacker_8h"/>
+      </node>
+      <node id="2045">
+        <label>Enemy.h</label>
+        <link refid="d4/d1e/_enemy_8h"/>
+      </node>
+      <node id="2033">
+        <label>KeyDeffender.h</label>
+        <link refid="d1/d11/_key_deffender_8h"/>
+      </node>
+      <node id="2036">
+        <label>ObjBase.h</label>
+        <link refid="d3/d3e/_obj_base_8h"/>
+      </node>
+      <node id="2023">
+        <label>SystemShader.h</label>
+        <link refid="dd/d98/_system_shader_8h"/>
+      </node>
+      <node id="2020">
+        <label>Model.h</label>
+        <link refid="da/ded/_model_8h"/>
+      </node>
+      <node id="1997">
+        <label>stdio.h</label>
+      </node>
+      <node id="2037">
+        <label>CameraBase.h</label>
+        <link refid="db/db8/_camera_base_8h"/>
+      </node>
+      <node id="2034">
+        <label>KeyHealer.h</label>
+        <link refid="db/d50/_key_healer_8h"/>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+<para><ref refid="d2/d3c/class_xE3_x82_xAA_xE3_x83_x96_xE3_x82_xB8_xE3_x82_xA7_xE3_x82_xAF_xE3_x83_x88_xE3_x82_xA4_xE3_x8b96d20a3af809279c7b3d794e4dacae1" kindref="compound">オブジェクトインターフェース</ref> </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>YukiIshigaki </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="db/dfc/_library_8h" kindref="compound">Library.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>END<sp/>OF<sp/>FILE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight></codeline>
+    </programlisting>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/IObj.cpp"/>
+  </compounddef>
+</doxygen>

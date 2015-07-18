@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d0/d90/class_scene_title" kind="class" prot="public">
+    <compoundname>SceneTitle</compoundname>
+    <includes refid="d6/d5f/_scene_title_8h" local="no">SceneTitle.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136" prot="public" static="no">
+        <name>SELECT_STATE</name>
+        <enumvalue id="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136a0303cb2792f96bedf1f7494dd6d7f1d9" prot="public">
+          <name>SELECT_NEWGAME</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136a53cded6606e90cec35da1b64fba814c2" prot="public">
+          <name>SELECT_CONTINUE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136a117d0cf6ab7e922d3d5e80cc07563c52" prot="public">
+          <name>SELECT_OPTION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136aba203bbde66e83d8b44047b99d478ade" prot="public">
+          <name>SELECT_EXIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" line="15" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" bodystart="15" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d0/d90/class_scene_title_1a3b93cfa6d68a92aa38fe6d02c1380728" prot="private" static="no" mutable="no">
+        <type><ref refid="d2/d7f/class_texture" kindref="compound">Texture</ref> *</type>
+        <definition>Texture* SceneTitle::_backGroundImage</definition>
+        <argsstring></argsstring>
+        <name>_backGroundImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" line="37" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d90/class_scene_title_1a76481cc6fb2c4fa3f227b81d08be2da9" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d8e/class_g_l_font" kindref="compound">GLFont</ref> *</type>
+        <definition>GLFont* SceneTitle::_titleFont</definition>
+        <argsstring></argsstring>
+        <name>_titleFont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" line="38" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d90/class_scene_title_1a59618f3039f1060ea813ac83df074b84" prot="private" static="no" mutable="no">
+        <type><ref refid="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136" kindref="member">SELECT_STATE</ref></type>
+        <definition>SELECT_STATE SceneTitle::_select</definition>
+        <argsstring></argsstring>
+        <name>_select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" line="39" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d90/class_scene_title_1a841bc9115f6a988d61944ecc39a4bd16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SceneTitle::SceneTitle</definition>
+        <argsstring>()</argsstring>
+        <name>SceneTitle</name>
+        <briefdescription>
+<para>コンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" line="23" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.cpp" bodystart="47" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d90/class_scene_title_1a7b68be9869ca545234914b352c57ccc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>SceneTitle::~SceneTitle</definition>
+        <argsstring>()</argsstring>
+        <name>~SceneTitle</name>
+        <briefdescription>
+<para>デストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" line="26" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.cpp" bodystart="65" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d90/class_scene_title_1a4d640c9026b6350accb703d5ad683a4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool SceneTitle::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+<para>初期化 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" line="28" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.cpp" bodystart="73" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d90/class_scene_title_1a658f0d3cc38609731c6435c156e3b679" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SceneTitle::Update</definition>
+        <argsstring>(Controller &amp;control)</argsstring>
+        <name>Update</name>
+        <param>
+          <type><ref refid="d8/d87/class_controller" kindref="compound">Controller</ref> &amp;</type>
+          <declname>control</declname>
+        </param>
+        <briefdescription>
+<para>更新 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" line="30" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.cpp" bodystart="81" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d90/class_scene_title_1a7872331f1db6aaf0d46d50b72efb038c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SceneTitle::Render</definition>
+        <argsstring>()</argsstring>
+        <name>Render</name>
+        <briefdescription>
+<para>描画 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" line="32" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.cpp" bodystart="105" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d90/class_scene_title_1a67f4d2035d5f9a86a6d6afb251244ea5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136" kindref="member">SELECT_STATE</ref></type>
+        <definition>SELECT_STATE SceneTitle::getSelectState</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" line="35" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" line="13" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.h" bodystart="12" bodyend="40"/>
+    <listofallmembers>
+      <member refid="d0/d90/class_scene_title_1a3b93cfa6d68a92aa38fe6d02c1380728" prot="private" virt="non-virtual"><scope>SceneTitle</scope><name>_backGroundImage</name></member>
+      <member refid="d0/d90/class_scene_title_1a59618f3039f1060ea813ac83df074b84" prot="private" virt="non-virtual"><scope>SceneTitle</scope><name>_select</name></member>
+      <member refid="d0/d90/class_scene_title_1a76481cc6fb2c4fa3f227b81d08be2da9" prot="private" virt="non-virtual"><scope>SceneTitle</scope><name>_titleFont</name></member>
+      <member refid="d0/d90/class_scene_title_1a67f4d2035d5f9a86a6d6afb251244ea5" prot="public" virt="non-virtual"><scope>SceneTitle</scope><name>getSelectState</name></member>
+      <member refid="d0/d90/class_scene_title_1a4d640c9026b6350accb703d5ad683a4a" prot="public" virt="virtual"><scope>SceneTitle</scope><name>Initialize</name></member>
+      <member refid="d0/d90/class_scene_title_1a7872331f1db6aaf0d46d50b72efb038c" prot="public" virt="virtual"><scope>SceneTitle</scope><name>Render</name></member>
+      <member refid="d0/d90/class_scene_title_1a841bc9115f6a988d61944ecc39a4bd16" prot="public" virt="non-virtual"><scope>SceneTitle</scope><name>SceneTitle</name></member>
+      <member refid="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136a53cded6606e90cec35da1b64fba814c2" prot="public" virt="non-virtual"><scope>SceneTitle</scope><name>SELECT_CONTINUE</name></member>
+      <member refid="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136aba203bbde66e83d8b44047b99d478ade" prot="public" virt="non-virtual"><scope>SceneTitle</scope><name>SELECT_EXIT</name></member>
+      <member refid="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136a0303cb2792f96bedf1f7494dd6d7f1d9" prot="public" virt="non-virtual"><scope>SceneTitle</scope><name>SELECT_NEWGAME</name></member>
+      <member refid="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136a117d0cf6ab7e922d3d5e80cc07563c52" prot="public" virt="non-virtual"><scope>SceneTitle</scope><name>SELECT_OPTION</name></member>
+      <member refid="d0/d90/class_scene_title_1adad72a30ae6ee6eb19e3b3f026112136" prot="public" virt="non-virtual"><scope>SceneTitle</scope><name>SELECT_STATE</name></member>
+      <member refid="d0/d90/class_scene_title_1a658f0d3cc38609731c6435c156e3b679" prot="public" virt="virtual"><scope>SceneTitle</scope><name>Update</name></member>
+      <member refid="d0/d90/class_scene_title_1a7b68be9869ca545234914b352c57ccc6" prot="public" virt="virtual"><scope>SceneTitle</scope><name>~SceneTitle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

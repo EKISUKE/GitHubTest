@@ -1,0 +1,48 @@
+\hypertarget{_texture_8cpp}{\section{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Texture.cpp}
+\label{_texture_8cpp}\index{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Texture.\-cpp@{E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\-Texture.\-cpp}}
+}
+
+
+\hyperlink{class_xE3_x83_x86_xE3_x82_xAF_xE3_x82_xB9_xE3_x83_x81_xE3_x83_xA3}{テクスチャ}  
+
+
+{\ttfamily \#include \char`\"{}Library.\-h\char`\"{}}\\*
+\subsection*{関数}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{_texture_8cpp_a1137ad8b0b8180b2d599521029860876}{load\-T\-G\-A} (const \hyperlink{_main_8h_aa1ba8aac9fcd831012308297336ac74b}{c8} file\-Name\mbox{[}$\,$\mbox{]}, \hyperlink{_main_8h_aed742c436da53c1080638ce6ef7d13de}{u8} $\ast$image, \hyperlink{_main_8h_a0ce6887c26c1c49ad3be5710dd42bfd6}{s32} \&w, \hyperlink{_main_8h_a0ce6887c26c1c49ad3be5710dd42bfd6}{s32} \&h, G\-Lenum \&format, G\-Luint \&byte\-Per\-Pixel)
+\end{DoxyCompactItemize}
+
+
+\subsection{説明}
+\hyperlink{class_xE3_x83_x86_xE3_x82_xAF_xE3_x82_xB9_xE3_x83_x81_xE3_x83_xA3}{テクスチャ} \begin{DoxyAuthor}{作者}
+Yuki\-Ishigaki 
+\end{DoxyAuthor}
+
+
+\subsection{関数}
+\hypertarget{_texture_8cpp_a1137ad8b0b8180b2d599521029860876}{\index{Texture.\-cpp@{Texture.\-cpp}!load\-T\-G\-A@{load\-T\-G\-A}}
+\index{load\-T\-G\-A@{load\-T\-G\-A}!Texture.cpp@{Texture.\-cpp}}
+\subsubsection[{load\-T\-G\-A}]{\setlength{\rightskip}{0pt plus 5cm}bool load\-T\-G\-A (
+\begin{DoxyParamCaption}
+\item[{const {\bf c8}}]{file\-Name\mbox{[}$\,$\mbox{]}, }
+\item[{{\bf u8} $\ast$}]{image, }
+\item[{{\bf s32} \&}]{w, }
+\item[{{\bf s32} \&}]{h, }
+\item[{G\-Lenum \&}]{format, }
+\item[{G\-Luint \&}]{byte\-Per\-Pixel}
+\end{DoxyParamCaption}
+)}}\label{_texture_8cpp_a1137ad8b0b8180b2d599521029860876}
+T\-G\-Aファイルの読み込み 
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em file\-Name} & ファイル名(例\char`\"{}a.\-bmp\char`\"{}) \\
+\hline
+\mbox{\tt in}  & {\em image} & 保存先 \\
+\hline
+\mbox{\tt in}  & {\em w,h} & 幅,高さ \\
+\hline
+\mbox{\tt in}  & {\em format} & この画像のフォーマット \\
+\hline
+\mbox{\tt in}  & {\em byte\-Per\-Pixel} & バイト/ピクセル(色数) \\
+\hline
+\end{DoxyParams}

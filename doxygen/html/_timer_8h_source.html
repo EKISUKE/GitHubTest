@@ -1,0 +1,402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>CastleCrash: D:/1204110001/opengl/WithGameEngineProj/GameWithEngine(GameInSchool)/Shader(Projection Shadow)/src/Timer.h ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">CastleCrash
+   &#160;<span id="projectnumber">2014/01/29</span>
+   </div>
+   <div id="projectbrief">Yuki Ishigaki</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li><a href="annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_timer_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>名前空間</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>型定義</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>列挙型</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>列挙値</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>フレンド</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>マクロ定義</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Timer.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_timer_8h.html">[詳解]</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_timer_base.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_timer_base.html">TimerBase</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_timer_base.html#a720d9300e0c765eb60dadcaaee4bf5ed">   22</a></span>&#160;    <a class="code" href="class_timer_base.html#a720d9300e0c765eb60dadcaaee4bf5ed">TimerBase</a>()</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="comment">// 初期化</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="class_timer_base.html#aa47ffc6c90d8b28f87a25840ee982842">Reset</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_timer_base.html#a966a6bb60939db382b264ed497d6e3ba">   29</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_timer_base.html#a966a6bb60939db382b264ed497d6e3ba">~TimerBase</a>(){}</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_timer_base.html#aa47ffc6c90d8b28f87a25840ee982842">   38</a></span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="class_timer_base.html#aa47ffc6c90d8b28f87a25840ee982842">Reset</a>()</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="class_timer_base.html#ae8e31c0cc54cbe908508dbc165618fbc">_startTime</a>  = 0;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="class_timer_base.html#a06b9dbe519e22aa9ecf9e37637ea35b2">_endTime</a>    = 0;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_timer_base.html#a23620639c3e82b1f61ad204e4f9b9795">   45</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_timer_base.html#a23620639c3e82b1f61ad204e4f9b9795">StartTimer</a>()</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="comment">// カウンター周波数を記録</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        QueryPerformanceFrequency((LARGE_INTEGER*)&amp;<a class="code" href="class_timer_base.html#a1c838e0a5acc12a808a472128f6281fd">_Frequency</a>);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="comment">// 開始時間記録</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        QueryPerformanceCounter((LARGE_INTEGER*)&amp;<a class="code" href="class_timer_base.html#ae8e31c0cc54cbe908508dbc165618fbc">_startTime</a>);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="class_timer_base.html#a6ea55cb2bd63da1edc94a1c9d6ac0918">   54</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_timer_base.html#a6ea55cb2bd63da1edc94a1c9d6ac0918">EndTimer</a>()</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="comment">// 終了時間記録</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        QueryPerformanceCounter((LARGE_INTEGER*)&amp;<a class="code" href="class_timer_base.html#a06b9dbe519e22aa9ecf9e37637ea35b2">_endTime</a>);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="comment">// カウンタ周波数に何か記録されてたら</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">if</span>( <a class="code" href="class_timer_base.html#a1c838e0a5acc12a808a472128f6281fd">_Frequency</a> != 0 ){</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <span class="comment">// 全体時間記録</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <a class="code" href="class_timer_base.html#a3eaed58a0aa86c23b4dafb460b86d2bf">_totalTime</a> = (<a class="code" href="class_timer_base.html#a06b9dbe519e22aa9ecf9e37637ea35b2">_endTime</a> - <a class="code" href="class_timer_base.html#ae8e31c0cc54cbe908508dbc165618fbc">_startTime</a>) * 1000 / <a class="code" href="class_timer_base.html#a1c838e0a5acc12a808a472128f6281fd">_Frequency</a>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        }</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="class_timer_base.html#aa47ffc6c90d8b28f87a25840ee982842">Reset</a>();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="class_timer_base.html#a951ca2c63371cf01e281348c78725fba">   67</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_timer_base.html#a951ca2c63371cf01e281348c78725fba">DrawTotalTime</a>(<a class="code" href="struct_vector3.html">Vector3</a> drawPos, <span class="keywordtype">char</span>* str)</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        stringstream ss;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        ss &lt;&lt; str;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        ss &lt;&lt; <a class="code" href="class_timer_base.html#a3eaed58a0aa86c23b4dafb460b86d2bf">_totalTime</a>;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="_system_8cpp.html#addf84914650715cdc37101f0cdbb62fd">render_string</a>(drawPos.<a class="code" href="struct_vector3.html#a345b01a1352e569e37d0226af4eff5c6">_x</a>, drawPos.<a class="code" href="struct_vector3.html#a5e3cec066537515a2387a34b57aed6ed">_y</a>, ss.str());</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="class_timer_base.html#aba9aec541a43f0271a3818198a44dbf6">   82</a></span>&#160;    <a class="code" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a>     <a class="code" href="class_timer_base.html#aba9aec541a43f0271a3818198a44dbf6">getTotalTime</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="class_timer_base.html#a3eaed58a0aa86c23b4dafb460b86d2bf">_totalTime</a>; }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="class_timer_base.html#ae8e31c0cc54cbe908508dbc165618fbc">   86</a></span>&#160;    <a class="code" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a>     <a class="code" href="class_timer_base.html#ae8e31c0cc54cbe908508dbc165618fbc">_startTime</a>;     </div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="class_timer_base.html#a06b9dbe519e22aa9ecf9e37637ea35b2">   87</a></span>&#160;    <a class="code" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a>     <a class="code" href="class_timer_base.html#a06b9dbe519e22aa9ecf9e37637ea35b2">_endTime</a>;       </div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="class_timer_base.html#a3eaed58a0aa86c23b4dafb460b86d2bf">   88</a></span>&#160;    <a class="code" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a>     <a class="code" href="class_timer_base.html#a3eaed58a0aa86c23b4dafb460b86d2bf">_totalTime</a>;     </div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="class_timer_base.html#a1c838e0a5acc12a808a472128f6281fd">   89</a></span>&#160;    <a class="code" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a>     <a class="code" href="class_timer_base.html#a1c838e0a5acc12a808a472128f6281fd">_Frequency</a>;     </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;};</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="class_debug_timer.html">   95</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_debug_timer.html">DebugTimer</a> : <span class="keyword">public</span> <a class="code" href="class_timer_base.html">TimerBase</a></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;{</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="class_debug_timer.html#a91a33577979ff0dd28525fee0aa4d2c3">  105</a></span>&#160;    <a class="code" href="class_debug_timer.html#a91a33577979ff0dd28525fee0aa4d2c3">DebugTimer</a>(){}</div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="class_debug_timer.html#a0dd53853dc72d881ee84423fd73686cd">  107</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_debug_timer.html#a0dd53853dc72d881ee84423fd73686cd">~DebugTimer</a>(){}</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="class_debug_timer.html#a267c15495c630027b6226d5e67bef3f4">  115</a></span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="class_debug_timer.html#a267c15495c630027b6226d5e67bef3f4">popTotalTime</a>()</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordtype">char</span> str[255];</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        sprintf_s(str, <span class="stringliteral">&quot;ToatlTime is %i millseconds&quot;</span>, <a class="code" href="class_timer_base.html#a3eaed58a0aa86c23b4dafb460b86d2bf">_totalTime</a>);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        MessageBoxA(NULL, str, <span class="stringliteral">&quot;ToatlTime&quot;</span>, MB_OK);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;};</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="comment">// プロトタイプ宣言</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="class_xE3_x83_x91_xE3_x83_x95_xE3_x82_xA9_xE3_x83_xBC_xE3_x83_x9E_xE3_x83_xB3_xE3_x82_xB9_xE3_x875bd1b2277ce29c6a263e8a9ae9b799c.html">  126</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_performance.html">Performance</a>;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="class_performance_manager.html">  131</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_performance_manager.html">PerformanceManager</a> : <span class="keyword">public</span> <a class="code" href="class_timer_base.html">TimerBase</a></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;{</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <a class="code" href="class_performance_manager.html">PerformanceManager</a>()</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    : <a class="code" href="class_performance_manager.html#ad3665747d51d8f01e989b9b2ac2ab1cf">_maxSecond</a>(16)</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    }</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <a class="code" href="class_performance_manager.html">PerformanceManager</a>(<a class="code" href="class_performance_manager.html">PerformanceManager</a>&amp; src){}</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="class_performance_manager.html">PerformanceManager</a>(){}</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00158"></a><span class="lineno"><a class="line" href="class_performance_manager.html#a399ff135eaeea7bb37fc2898c13afedd">  158</a></span>&#160;    <span class="keyword">static</span> <a class="code" href="class_performance_manager.html">PerformanceManager</a>*  <a class="code" href="class_performance_manager.html#a399ff135eaeea7bb37fc2898c13afedd">getInstance</a>()</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keyword">static</span> <a class="code" href="class_performance_manager.html">PerformanceManager</a>   _myInstance;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keywordflow">return</span> &amp;_myInstance;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    }</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <a class="code" href="class_performance.html">Performance</a>*    <a class="code" href="class_performance_manager.html#abd6eca627b1039cc37dbba62f89108b0">getSamePerformance</a>(<a class="code" href="class_performance.html">Performance</a>* perform);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
+<div class="line"><a name="l00168"></a><span class="lineno"><a class="line" href="class_performance_manager.html#add8bf4ce9d5b98f0b36ac2058110a433">  168</a></span>&#160;    <a class="code" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a>     <a class="code" href="class_performance_manager.html#add8bf4ce9d5b98f0b36ac2058110a433">getTime</a>()</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="comment">// ここまでの時間を計測</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <a class="code" href="class_timer_base.html#a6ea55cb2bd63da1edc94a1c9d6ac0918">EndTimer</a>();</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="comment">// そのときの時間を返す</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_timer_base.html#a06b9dbe519e22aa9ecf9e37637ea35b2">_endTime</a>;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    }</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;</div>
+<div class="line"><a name="l00177"></a><span class="lineno"><a class="line" href="class_performance_manager.html#a0e7f63cfa3d827ddceffa85c5f1ee608">  177</a></span>&#160;    <a class="code" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a>     <a class="code" href="class_performance_manager.html#a0e7f63cfa3d827ddceffa85c5f1ee608">getFrame</a>()</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_performance_manager.html#ad3665747d51d8f01e989b9b2ac2ab1cf">_maxSecond</a>;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;</div>
+<div class="line"><a name="l00183"></a><span class="lineno"><a class="line" href="class_performance_manager.html#adf1f1bf9975598ca488a85938edd64e0">  183</a></span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="class_performance_manager.html#adf1f1bf9975598ca488a85938edd64e0">ResetTime</a>()</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="comment">// 全体時間の取得</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="comment">//EndTimer();</span></div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;<span class="comment"></span>        <span class="comment">//if( _maxSecond &lt; _totalTime )</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="comment">//{</span></div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="comment">//  _maxSecond = _totalTime;</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="comment">//}</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <a class="code" href="class_timer_base.html#aa47ffc6c90d8b28f87a25840ee982842">Reset</a>();</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    }</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    </div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="class_performance_manager.html#ab6a18694c8553a1b3b031e59c6678b1a">addPeform</a>(<a class="code" href="class_performance.html">Performance</a>* perform);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="class_performance_manager.html#af413f574ffacb77125f1a9223f6c9fc8">deletePeform</a>(<a class="code" href="class_performance.html">Performance</a>* peform);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    </div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="class_performance_manager.html#a62fc531484cf223da9d5924897f1a0f0">drawPerformanceBar</a>();</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    </div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00214"></a><span class="lineno"><a class="line" href="class_performance_manager.html#aee017e3d7b3f4dd2b21c826f8e88639e">  214</a></span>&#160;    list&lt;Performance*&gt;  <a class="code" href="class_performance_manager.html#aee017e3d7b3f4dd2b21c826f8e88639e">_pPerformList</a>;  </div>
+<div class="line"><a name="l00215"></a><span class="lineno"><a class="line" href="class_performance_manager.html#ad3665747d51d8f01e989b9b2ac2ab1cf">  215</a></span>&#160;    <a class="code" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a>                 <a class="code" href="class_performance_manager.html#ad3665747d51d8f01e989b9b2ac2ab1cf">_maxSecond</a>;     </div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;};</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;<span class="comment">// アクセスインターフェイス</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;__forceinline</div>
+<div class="line"><a name="l00222"></a><span class="lineno"><a class="line" href="_timer_8h.html#a8f27c79337f6645726bceac40daf740d">  222</a></span>&#160;<a class="code" href="class_performance_manager.html">PerformanceManager</a>* <a class="code" href="_timer_8h.html#a8f27c79337f6645726bceac40daf740d">IPerformanceManager</a>()</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;{</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_performance_manager.html#a399ff135eaeea7bb37fc2898c13afedd">PerformanceManager::getInstance</a>();</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;}</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00231"></a><span class="lineno"><a class="line" href="class_performance.html">  231</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_performance.html">Performance</a></div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;{</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <a class="code" href="class_performance.html#ac3f9a91ae5b8488e75385901497b0636">Performance</a>();</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_performance.html#a1a7af5c73f8bdd80ec08872cc2992b82">~Performance</a>();</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00253"></a><span class="lineno"><a class="line" href="class_performance.html#a09224f7a02ac3267299ebfa5956b1dd2">  253</a></span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="class_performance.html#a09224f7a02ac3267299ebfa5956b1dd2">StartPerformance</a>()</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    {</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        _start = <a class="code" href="_timer_8h.html#a8f27c79337f6645726bceac40daf740d">IPerformanceManager</a>()-&gt;<a class="code" href="class_performance_manager.html#add8bf4ce9d5b98f0b36ac2058110a433">getTime</a>();</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    }</div>
+<div class="line"><a name="l00258"></a><span class="lineno"><a class="line" href="class_performance.html#aed413eee749dfdb1a62d4e127f51f822">  258</a></span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="class_performance.html#aed413eee749dfdb1a62d4e127f51f822">EndPerformance</a>()</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    {</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <a class="code" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a> frequency;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        <span class="comment">// カウンター周波数を記録</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        QueryPerformanceFrequency((LARGE_INTEGER*)&amp;frequency);</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        <span class="comment">// 終了時間取得</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        _end = <a class="code" href="_timer_8h.html#a8f27c79337f6645726bceac40daf740d">IPerformanceManager</a>()-&gt;<a class="code" href="class_performance_manager.html#add8bf4ce9d5b98f0b36ac2058110a433">getTime</a>();</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <span class="comment">// パフォーマンスバーの描画</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <a class="code" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a> totalTime = (_end - _start) * 1000 / frequency;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="comment">// 全体から高さを求める</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <a class="code" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a> maxFrame = <a class="code" href="_timer_8h.html#a8f27c79337f6645726bceac40daf740d">IPerformanceManager</a>()-&gt;<a class="code" href="class_performance_manager.html#a0e7f63cfa3d827ddceffa85c5f1ee608">getFrame</a>();</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        <span class="comment">// 線形補完する</span></div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        _height = <a class="code" href="_system_8cpp.html#acaf4aa7f4af8905e6af8409d438cdbae">LinearInterpolation</a>(0.0f, 300.0f, (<a class="code" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>)totalTime, (<a class="code" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>)maxFrame);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    }</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;</div>
+<div class="line"><a name="l00274"></a><span class="lineno"><a class="line" href="class_performance.html#a6321e2cedf4ced955e99fc7f93ae4fe4">  274</a></span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="class_performance.html#a6321e2cedf4ced955e99fc7f93ae4fe4">ResetPerformance</a>()</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    {</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        _start = 0;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        _end   = 0;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    }</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="class_performance.html#af56bbd9f19ebd5b00b76211a38016eed">DrawPerformance</a>(<a class="code" href="struct_vector3.html">Vector3</a>&amp; drawPos);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00290"></a><span class="lineno"><a class="line" href="class_performance.html#a8be0a1eefdce743597d54297af96a145">  290</a></span>&#160;    <a class="code" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>     <a class="code" href="class_performance.html#a8be0a1eefdce743597d54297af96a145">getHeight</a>() { <span class="keywordflow">return</span> _height; }</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;</div>
+<div class="line"><a name="l00293"></a><span class="lineno"><a class="line" href="class_performance.html#aa7d8705a7666adadb990add57e8272de">  293</a></span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="class_performance.html#aa7d8705a7666adadb990add57e8272de">setColor</a>(<a class="code" href="struct_color.html">Color</a>&amp; col) { _drawColor = col; }</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <a class="code" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a>     _start;</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <a class="code" href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a>     _end;</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    <a class="code" href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>     _height;</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    <a class="code" href="struct_color.html">Color</a>   _drawColor;</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;};</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="comment">//  END OF FILE</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="ttc" id="class_performance_html"><div class="ttname"><a href="class_performance.html">Performance</a></div><div class="ttdef"><b>Definition:</b> Timer.h:231</div></div>
+<div class="ttc" id="class_timer_base_html_a951ca2c63371cf01e281348c78725fba"><div class="ttname"><a href="class_timer_base.html#a951ca2c63371cf01e281348c78725fba">TimerBase::DrawTotalTime</a></div><div class="ttdeci">virtual void DrawTotalTime(Vector3 drawPos, char *str)</div><div class="ttdoc">全体時間の描画 </div><div class="ttdef"><b>Definition:</b> Timer.h:67</div></div>
+<div class="ttc" id="class_performance_manager_html_aee017e3d7b3f4dd2b21c826f8e88639e"><div class="ttname"><a href="class_performance_manager.html#aee017e3d7b3f4dd2b21c826f8e88639e">PerformanceManager::_pPerformList</a></div><div class="ttdeci">list&lt; Performance * &gt; _pPerformList</div><div class="ttdoc">パフォーマンスリスト </div><div class="ttdef"><b>Definition:</b> Timer.h:214</div></div>
+<div class="ttc" id="class_performance_manager_html_a0e7f63cfa3d827ddceffa85c5f1ee608"><div class="ttname"><a href="class_performance_manager.html#a0e7f63cfa3d827ddceffa85c5f1ee608">PerformanceManager::getFrame</a></div><div class="ttdeci">s64 getFrame()</div><div class="ttdoc">最大ミリ秒を返す </div><div class="ttdef"><b>Definition:</b> Timer.h:177</div></div>
+<div class="ttc" id="_timer_8h_html_a8f27c79337f6645726bceac40daf740d"><div class="ttname"><a href="_timer_8h.html#a8f27c79337f6645726bceac40daf740d">IPerformanceManager</a></div><div class="ttdeci">__forceinline PerformanceManager * IPerformanceManager()</div><div class="ttdef"><b>Definition:</b> Timer.h:222</div></div>
+<div class="ttc" id="class_debug_timer_html"><div class="ttname"><a href="class_debug_timer.html">DebugTimer</a></div><div class="ttdef"><b>Definition:</b> Timer.h:95</div></div>
+<div class="ttc" id="class_performance_html_aed413eee749dfdb1a62d4e127f51f822"><div class="ttname"><a href="class_performance.html#aed413eee749dfdb1a62d4e127f51f822">Performance::EndPerformance</a></div><div class="ttdeci">void EndPerformance()</div><div class="ttdoc">終了 </div><div class="ttdef"><b>Definition:</b> Timer.h:258</div></div>
+<div class="ttc" id="gm_typedef_8h_html_a4258bfb2c3a440d06c4aaa3c2b450dde"><div class="ttname"><a href="gm_typedef_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a></div><div class="ttdeci">signed long long s64</div><div class="ttdoc">64bit符号あり整数 </div><div class="ttdef"><b>Definition:</b> gmTypedef.h:20</div></div>
+<div class="ttc" id="class_timer_base_html_ae8e31c0cc54cbe908508dbc165618fbc"><div class="ttname"><a href="class_timer_base.html#ae8e31c0cc54cbe908508dbc165618fbc">TimerBase::_startTime</a></div><div class="ttdeci">s64 _startTime</div><div class="ttdoc">タイマー開始時間 </div><div class="ttdef"><b>Definition:</b> Timer.h:86</div></div>
+<div class="ttc" id="class_performance_html_ac3f9a91ae5b8488e75385901497b0636"><div class="ttname"><a href="class_performance.html#ac3f9a91ae5b8488e75385901497b0636">Performance::Performance</a></div><div class="ttdeci">Performance()</div><div class="ttdoc">コンストラクタ </div><div class="ttdef"><b>Definition:</b> Timer.cpp:114</div></div>
+<div class="ttc" id="class_performance_manager_html"><div class="ttname"><a href="class_performance_manager.html">PerformanceManager</a></div><div class="ttdef"><b>Definition:</b> Timer.h:131</div></div>
+<div class="ttc" id="struct_color_html"><div class="ttname"><a href="struct_color.html">Color</a></div><div class="ttdef"><b>Definition:</b> Color.h:12</div></div>
+<div class="ttc" id="gm_typedef_8h_html_a5f6906312a689f27d70e9d086649d3fd"><div class="ttname"><a href="gm_typedef_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a></div><div class="ttdeci">float f32</div><div class="ttdoc">単精度浮動小数点数 </div><div class="ttdef"><b>Definition:</b> gmTypedef.h:23</div></div>
+<div class="ttc" id="class_performance_manager_html_ad3665747d51d8f01e989b9b2ac2ab1cf"><div class="ttname"><a href="class_performance_manager.html#ad3665747d51d8f01e989b9b2ac2ab1cf">PerformanceManager::_maxSecond</a></div><div class="ttdeci">s64 _maxSecond</div><div class="ttdoc">最大ミリ秒 </div><div class="ttdef"><b>Definition:</b> Timer.h:215</div></div>
+<div class="ttc" id="class_timer_base_html_a720d9300e0c765eb60dadcaaee4bf5ed"><div class="ttname"><a href="class_timer_base.html#a720d9300e0c765eb60dadcaaee4bf5ed">TimerBase::TimerBase</a></div><div class="ttdeci">TimerBase()</div><div class="ttdoc">コンストラクタ </div><div class="ttdef"><b>Definition:</b> Timer.h:22</div></div>
+<div class="ttc" id="struct_vector3_html"><div class="ttname"><a href="struct_vector3.html">Vector3</a></div><div class="ttdef"><b>Definition:</b> Vector.h:111</div></div>
+<div class="ttc" id="struct_vector3_html_a345b01a1352e569e37d0226af4eff5c6"><div class="ttname"><a href="struct_vector3.html#a345b01a1352e569e37d0226af4eff5c6">Vector3::_x</a></div><div class="ttdeci">f32 _x</div><div class="ttdef"><b>Definition:</b> Vector.h:216</div></div>
+<div class="ttc" id="class_performance_html_af56bbd9f19ebd5b00b76211a38016eed"><div class="ttname"><a href="class_performance.html#af56bbd9f19ebd5b00b76211a38016eed">Performance::DrawPerformance</a></div><div class="ttdeci">void DrawPerformance(Vector3 &amp;drawPos)</div><div class="ttdoc">描画 </div><div class="ttdef"><b>Definition:</b> Timer.cpp:133</div></div>
+<div class="ttc" id="struct_vector3_html_a5e3cec066537515a2387a34b57aed6ed"><div class="ttname"><a href="struct_vector3.html#a5e3cec066537515a2387a34b57aed6ed">Vector3::_y</a></div><div class="ttdeci">f32 _y</div><div class="ttdef"><b>Definition:</b> Vector.h:217</div></div>
+<div class="ttc" id="_system_8cpp_html_acaf4aa7f4af8905e6af8409d438cdbae"><div class="ttname"><a href="_system_8cpp.html#acaf4aa7f4af8905e6af8409d438cdbae">LinearInterpolation</a></div><div class="ttdeci">f32 LinearInterpolation(f32 start, f32 end, f32 frame, f32 maxFrame)</div><div class="ttdef"><b>Definition:</b> System.cpp:34</div></div>
+<div class="ttc" id="class_performance_html_a8be0a1eefdce743597d54297af96a145"><div class="ttname"><a href="class_performance.html#a8be0a1eefdce743597d54297af96a145">Performance::getHeight</a></div><div class="ttdeci">f32 getHeight()</div><div class="ttdoc">高さの取得 </div><div class="ttdef"><b>Definition:</b> Timer.h:290</div></div>
+<div class="ttc" id="class_performance_manager_html_a62fc531484cf223da9d5924897f1a0f0"><div class="ttname"><a href="class_performance_manager.html#a62fc531484cf223da9d5924897f1a0f0">PerformanceManager::drawPerformanceBar</a></div><div class="ttdeci">void drawPerformanceBar()</div><div class="ttdoc">描画 </div><div class="ttdef"><b>Definition:</b> Timer.cpp:58</div></div>
+<div class="ttc" id="class_debug_timer_html_a0dd53853dc72d881ee84423fd73686cd"><div class="ttname"><a href="class_debug_timer.html#a0dd53853dc72d881ee84423fd73686cd">DebugTimer::~DebugTimer</a></div><div class="ttdeci">virtual ~DebugTimer()</div><div class="ttdoc">デストラクタ </div><div class="ttdef"><b>Definition:</b> Timer.h:107</div></div>
+<div class="ttc" id="class_performance_manager_html_ab6a18694c8553a1b3b031e59c6678b1a"><div class="ttname"><a href="class_performance_manager.html#ab6a18694c8553a1b3b031e59c6678b1a">PerformanceManager::addPeform</a></div><div class="ttdeci">void addPeform(Performance *perform)</div><div class="ttdoc">パフォーマンスの追加 </div><div class="ttdef"><b>Definition:</b> Timer.cpp:37</div></div>
+<div class="ttc" id="class_timer_base_html_a06b9dbe519e22aa9ecf9e37637ea35b2"><div class="ttname"><a href="class_timer_base.html#a06b9dbe519e22aa9ecf9e37637ea35b2">TimerBase::_endTime</a></div><div class="ttdeci">s64 _endTime</div><div class="ttdoc">タイマー終了時間 </div><div class="ttdef"><b>Definition:</b> Timer.h:87</div></div>
+<div class="ttc" id="class_timer_base_html_a3eaed58a0aa86c23b4dafb460b86d2bf"><div class="ttname"><a href="class_timer_base.html#a3eaed58a0aa86c23b4dafb460b86d2bf">TimerBase::_totalTime</a></div><div class="ttdeci">s64 _totalTime</div><div class="ttdoc">全体の時間 </div><div class="ttdef"><b>Definition:</b> Timer.h:88</div></div>
+<div class="ttc" id="class_performance_manager_html_add8bf4ce9d5b98f0b36ac2058110a433"><div class="ttname"><a href="class_performance_manager.html#add8bf4ce9d5b98f0b36ac2058110a433">PerformanceManager::getTime</a></div><div class="ttdeci">s64 getTime()</div><div class="ttdoc">時間の取得 </div><div class="ttdef"><b>Definition:</b> Timer.h:168</div></div>
+<div class="ttc" id="class_performance_manager_html_abd6eca627b1039cc37dbba62f89108b0"><div class="ttname"><a href="class_performance_manager.html#abd6eca627b1039cc37dbba62f89108b0">PerformanceManager::getSamePerformance</a></div><div class="ttdeci">Performance * getSamePerformance(Performance *perform)</div><div class="ttdoc">同じパフォーマンスを取得 </div><div class="ttdef"><b>Definition:</b> Timer.cpp:18</div></div>
+<div class="ttc" id="class_performance_manager_html_af413f574ffacb77125f1a9223f6c9fc8"><div class="ttname"><a href="class_performance_manager.html#af413f574ffacb77125f1a9223f6c9fc8">PerformanceManager::deletePeform</a></div><div class="ttdeci">void deletePeform(Performance *peform)</div><div class="ttdoc">パフォーマンスの削除 </div><div class="ttdef"><b>Definition:</b> Timer.cpp:49</div></div>
+<div class="ttc" id="class_performance_html_aa7d8705a7666adadb990add57e8272de"><div class="ttname"><a href="class_performance.html#aa7d8705a7666adadb990add57e8272de">Performance::setColor</a></div><div class="ttdeci">void setColor(Color &amp;col)</div><div class="ttdoc">色の設定 </div><div class="ttdef"><b>Definition:</b> Timer.h:293</div></div>
+<div class="ttc" id="class_timer_base_html_a23620639c3e82b1f61ad204e4f9b9795"><div class="ttname"><a href="class_timer_base.html#a23620639c3e82b1f61ad204e4f9b9795">TimerBase::StartTimer</a></div><div class="ttdeci">virtual void StartTimer()</div><div class="ttdoc">タイマーの開始 </div><div class="ttdef"><b>Definition:</b> Timer.h:45</div></div>
+<div class="ttc" id="class_performance_manager_html_adf1f1bf9975598ca488a85938edd64e0"><div class="ttname"><a href="class_performance_manager.html#adf1f1bf9975598ca488a85938edd64e0">PerformanceManager::ResetTime</a></div><div class="ttdeci">void ResetTime()</div><div class="ttdoc">リセット </div><div class="ttdef"><b>Definition:</b> Timer.h:183</div></div>
+<div class="ttc" id="class_performance_html_a6321e2cedf4ced955e99fc7f93ae4fe4"><div class="ttname"><a href="class_performance.html#a6321e2cedf4ced955e99fc7f93ae4fe4">Performance::ResetPerformance</a></div><div class="ttdeci">void ResetPerformance()</div><div class="ttdoc">リセット </div><div class="ttdef"><b>Definition:</b> Timer.h:274</div></div>
+<div class="ttc" id="class_debug_timer_html_a91a33577979ff0dd28525fee0aa4d2c3"><div class="ttname"><a href="class_debug_timer.html#a91a33577979ff0dd28525fee0aa4d2c3">DebugTimer::DebugTimer</a></div><div class="ttdeci">DebugTimer()</div><div class="ttdoc">コンストラクタ </div><div class="ttdef"><b>Definition:</b> Timer.h:105</div></div>
+<div class="ttc" id="class_timer_base_html_aa47ffc6c90d8b28f87a25840ee982842"><div class="ttname"><a href="class_timer_base.html#aa47ffc6c90d8b28f87a25840ee982842">TimerBase::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdoc">リセット </div><div class="ttdef"><b>Definition:</b> Timer.h:38</div></div>
+<div class="ttc" id="class_timer_base_html_a966a6bb60939db382b264ed497d6e3ba"><div class="ttname"><a href="class_timer_base.html#a966a6bb60939db382b264ed497d6e3ba">TimerBase::~TimerBase</a></div><div class="ttdeci">virtual ~TimerBase()</div><div class="ttdoc">デストラクタ </div><div class="ttdef"><b>Definition:</b> Timer.h:29</div></div>
+<div class="ttc" id="class_timer_base_html_aba9aec541a43f0271a3818198a44dbf6"><div class="ttname"><a href="class_timer_base.html#aba9aec541a43f0271a3818198a44dbf6">TimerBase::getTotalTime</a></div><div class="ttdeci">s64 getTotalTime() const </div><div class="ttdoc">トータルタイム取得 </div><div class="ttdef"><b>Definition:</b> Timer.h:82</div></div>
+<div class="ttc" id="class_performance_manager_html_a399ff135eaeea7bb37fc2898c13afedd"><div class="ttname"><a href="class_performance_manager.html#a399ff135eaeea7bb37fc2898c13afedd">PerformanceManager::getInstance</a></div><div class="ttdeci">static PerformanceManager * getInstance()</div><div class="ttdoc">インスタンス取得 </div><div class="ttdef"><b>Definition:</b> Timer.h:158</div></div>
+<div class="ttc" id="class_timer_base_html_a1c838e0a5acc12a808a472128f6281fd"><div class="ttname"><a href="class_timer_base.html#a1c838e0a5acc12a808a472128f6281fd">TimerBase::_Frequency</a></div><div class="ttdeci">s64 _Frequency</div><div class="ttdoc">カウンタ周波数 </div><div class="ttdef"><b>Definition:</b> Timer.h:89</div></div>
+<div class="ttc" id="_system_8cpp_html_addf84914650715cdc37101f0cdbb62fd"><div class="ttname"><a href="_system_8cpp.html#addf84914650715cdc37101f0cdbb62fd">render_string</a></div><div class="ttdeci">void render_string(float x, float y, std::string const &amp;str)</div><div class="ttdoc">文字列表示 </div><div class="ttdef"><b>Definition:</b> System.cpp:222</div></div>
+<div class="ttc" id="class_debug_timer_html_a267c15495c630027b6226d5e67bef3f4"><div class="ttname"><a href="class_debug_timer.html#a267c15495c630027b6226d5e67bef3f4">DebugTimer::popTotalTime</a></div><div class="ttdeci">void popTotalTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:115</div></div>
+<div class="ttc" id="class_performance_html_a1a7af5c73f8bdd80ec08872cc2992b82"><div class="ttname"><a href="class_performance.html#a1a7af5c73f8bdd80ec08872cc2992b82">Performance::~Performance</a></div><div class="ttdeci">virtual ~Performance()</div><div class="ttdoc">デストラクタ </div><div class="ttdef"><b>Definition:</b> Timer.cpp:124</div></div>
+<div class="ttc" id="class_timer_base_html"><div class="ttname"><a href="class_timer_base.html">TimerBase</a></div><div class="ttdef"><b>Definition:</b> Timer.h:12</div></div>
+<div class="ttc" id="class_timer_base_html_a6ea55cb2bd63da1edc94a1c9d6ac0918"><div class="ttname"><a href="class_timer_base.html#a6ea55cb2bd63da1edc94a1c9d6ac0918">TimerBase::EndTimer</a></div><div class="ttdeci">virtual void EndTimer()</div><div class="ttdoc">タイマーの終了 </div><div class="ttdef"><b>Definition:</b> Timer.h:54</div></div>
+<div class="ttc" id="class_performance_html_a09224f7a02ac3267299ebfa5956b1dd2"><div class="ttname"><a href="class_performance.html#a09224f7a02ac3267299ebfa5956b1dd2">Performance::StartPerformance</a></div><div class="ttdeci">void StartPerformance()</div><div class="ttdoc">スタート </div><div class="ttdef"><b>Definition:</b> Timer.h:253</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_11b3a45de6d67b84fb3421fecca5cd6b.html">Shader(Projection Shadow)</a></li><li class="navelem"><a class="el" href="dir_58e6645ddda85c47dc2336c969febd1d.html">src</a></li><li class="navelem"><a class="el" href="_timer_8h.html">Timer.h</a></li>
+    <li class="footer">2014年01月29日(水) 17時07分50秒作成 - CastleCrash / 構成: 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
+</body>
+</html>

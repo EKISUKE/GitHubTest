@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dc/d49/struct_xEF_xBC_x93_xE8_xA6_x81_xE7_xB4_xA0_xE3_x83_x99_xE3_x82_xAF_xE3_x83_x88_xE3_x83_xAB_xE6_xA7_x8B_xE9_x80_xA0_xE4_xBD_x93" kind="struct" prot="public">
+    <compoundname>３要素ベクトル構造体</compoundname>
+    <includes refid="d4/d7f/_vector_8h" local="no">Vector.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="87" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="84" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

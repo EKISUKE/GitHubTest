@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="de/ddb/class_xE3_x82_xAA_xE3_x83_x96_xE3_x82_xB8_xE3_x82_xA7_xE3_x82_xAF_xE3_x83_x88_xE6_x93_x8D_xE4_xB3fc2265794d84a3364a9ffd9c69ef23d" kind="class" prot="public">
+    <compoundname>オブジェクト操作インターフェース</compoundname>
+    <includes refid="d7/dfc/_key_8h" local="no">Key.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Key.h" line="11" column="1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

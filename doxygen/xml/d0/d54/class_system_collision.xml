@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d0/d54/class_system_collision" kind="class" prot="public">
+    <compoundname>SystemCollision</compoundname>
+    <basecompoundref refid="d3/dbc/class_singleton" prot="public" virt="non-virtual">Singleton&lt; SystemCollision &gt;</basecompoundref>
+    <includes refid="d9/d87/_collision_8h" local="no">Collision.h</includes>
+    <innerclass refid="de/df9/class_system_collision_1_1_object" prot="public">SystemCollision::Object</innerclass>
+      <sectiondef kind="user-defined">
+      <header>初期化</header>
+      <description><para>物体データ　オブジェクト </para></description>
+      <memberdef kind="variable" id="d0/d54/class_system_collision_1a8dbbfdfe9e19006266bc52f2838c4dd3" prot="private" static="yes" mutable="no">
+        <type><ref refid="dc/da1/class_land_scape" kindref="compound">LandScape</ref> *</type>
+        <definition>LandScape * SystemCollision::_pLandScape</definition>
+        <argsstring></argsstring>
+        <name>_pLandScape</name>
+        <briefdescription>
+<para>ランドスケープ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="154" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d54/class_system_collision_1a9674c4c7521f7dcc6067b1ca97968173" prot="private" static="yes" mutable="no">
+        <type><ref refid="d7/d79/class_collision_wall" kindref="compound">CollisionWall</ref> *</type>
+        <definition>CollisionWall * SystemCollision::_pColWall</definition>
+        <argsstring></argsstring>
+        <name>_pColWall</name>
+        <briefdescription>
+<para>壁 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="155" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d54/class_system_collision_1aa9310b7390089a30525aae5325cbf652" prot="private" static="no" mutable="no">
+        <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 SystemCollision::_LastHitPosForWall</definition>
+        <argsstring></argsstring>
+        <name>_LastHitPosForWall</name>
+        <briefdescription>
+<para>最後に当たった座標 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="156" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d54/class_system_collision_1a029dd2a26bbe98eb77f5b0bb084204f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SystemCollision::SystemCollision</definition>
+        <argsstring>()</argsstring>
+        <name>SystemCollision</name>
+        <briefdescription>
+<para>コンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="100" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.cpp" bodystart="152" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d54/class_system_collision_1ac666887037b1dc14e32652af28abee66" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>SystemCollision::~SystemCollision</definition>
+        <argsstring>()</argsstring>
+        <name>~SystemCollision</name>
+        <briefdescription>
+<para>デストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="102" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.cpp" bodystart="163" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d54/class_system_collision_1a92454bf408ff087cf91215758a4297a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SystemCollision::loadMQO</definition>
+        <argsstring>(char fileName[], f32 scale=1.0f)</argsstring>
+        <name>loadMQO</name>
+        <param>
+          <type>char</type>
+          <declname>fileName</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>scale</declname>
+          <defval>1.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MQOファイルからポリゴンデーターを入力 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>MQOファイル名 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">scale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>拡大率 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="108" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.cpp" bodystart="183" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d54/class_system_collision_1ae5b6d80c1ed9f51596e44a75ce4e8ff3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SystemCollision::deleteObject</definition>
+        <argsstring>()</argsstring>
+        <name>deleteObject</name>
+        <briefdescription>
+<para>オブジェクトの消去 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="111" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.cpp" bodystart="173" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d54/class_system_collision_1a232132673dbadadb4fe9d018bf2235ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SystemCollision::render</definition>
+        <argsstring>()</argsstring>
+        <name>render</name>
+        <briefdescription>
+<para>描画 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="119" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d54/class_system_collision_1aeb8a2e7a0907e24e6cc291bb61be118c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SystemCollision::checkCollisionModel</definition>
+        <argsstring>(Vector3 &amp;position, f32 radius, bool &amp;isHitGround)</argsstring>
+        <name>checkCollisionModel</name>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>bool &amp;</type>
+          <declname>isHitGround</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>指定した座標とモデルの当たり判定と補正 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">positon</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>チェックする位置 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">heightLimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>判定上限高さ </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">myGridNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>グリッド番号 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">isHitGround</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>地面に当たったかどうか </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="126" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.cpp" bodystart="210" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d54/class_system_collision_1a2894d1a5b42db2b9625d1317803413fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref></type>
+        <definition>Vector3 SystemCollision::getLastHitPosForWall</definition>
+        <argsstring>()</argsstring>
+        <name>getLastHitPosForWall</name>
+        <briefdescription>
+<para>最後にヒットした座標の取得 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="130" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d54/class_system_collision_1a4c8970a0a387f87a07aa5ea80f11e591" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SystemCollision::HitSphere</definition>
+        <argsstring>(Vector3 &amp;spherePos1, Vector3 &amp;spherePos2, f32 sphereRadius1, f32 sphereRadius2)</argsstring>
+        <name>HitSphere</name>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>spherePos1</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>spherePos2</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>sphereRadius1</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>sphereRadius2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>球同士のあたり判定 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cubePos1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>一つ目の球の座標 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cubePos2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>二つ目の球の座標 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cubeRadius1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>一つ目の球の半径 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cubeRadius2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>二つ目の球の半径 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>true</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 当たってる false : 当たっていない </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="139" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.cpp" bodystart="277" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d54/class_system_collision_1afb11088c991d7810e7bbf90b2fd21a91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SystemCollision::HitCircle</definition>
+        <argsstring>(Vector3 &amp;circlePos1, Vector3 &amp;circlePos2, f32 circleRadius1, f32 circleRadius2)</argsstring>
+        <name>HitCircle</name>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>circlePos1</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref> &amp;</type>
+          <declname>circlePos2</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>circleRadius1</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>circleRadius2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>円同士のあたり判定 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cubePos1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>一つ目の円の座標 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cubePos2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>二つ目の円の座標 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cubeRadius1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>一つ目の円の半径 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cubeRadius2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>二つ目の円の半径 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>true</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: 当たってる false : 当たっていない </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="147" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.cpp" bodystart="304" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d54/class_system_collision_1abf90f3f07d21345949bd6d2f428874db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SystemCollision::DebugRender</definition>
+        <argsstring>()</argsstring>
+        <name>DebugRender</name>
+        <briefdescription>
+<para>デバッグ描画 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="151" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.cpp" bodystart="330" bodyend="335"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="422">
+        <label>Singleton&lt; SystemCollision &gt;</label>
+        <link refid="d3/dbc/class_singleton"/>
+      </node>
+      <node id="421">
+        <label>SystemCollision</label>
+        <link refid="d0/d54/class_system_collision"/>
+        <childnode refid="422" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="424">
+        <label>Singleton&lt; SystemCollision &gt;</label>
+        <link refid="d3/dbc/class_singleton"/>
+      </node>
+      <node id="423">
+        <label>SystemCollision</label>
+        <link refid="d0/d54/class_system_collision"/>
+        <childnode refid="424" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" line="90" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.h" bodystart="89" bodyend="159"/>
+    <listofallmembers>
+      <member refid="d0/d54/class_system_collision_1aa9310b7390089a30525aae5325cbf652" prot="private" virt="non-virtual"><scope>SystemCollision</scope><name>_LastHitPosForWall</name></member>
+      <member refid="d0/d54/class_system_collision_1a9674c4c7521f7dcc6067b1ca97968173" prot="private" virt="non-virtual"><scope>SystemCollision</scope><name>_pColWall</name></member>
+      <member refid="d0/d54/class_system_collision_1a8dbbfdfe9e19006266bc52f2838c4dd3" prot="private" virt="non-virtual"><scope>SystemCollision</scope><name>_pLandScape</name></member>
+      <member refid="d0/d54/class_system_collision_1aeb8a2e7a0907e24e6cc291bb61be118c" prot="public" virt="non-virtual"><scope>SystemCollision</scope><name>checkCollisionModel</name></member>
+      <member refid="d0/d54/class_system_collision_1abf90f3f07d21345949bd6d2f428874db" prot="public" virt="non-virtual"><scope>SystemCollision</scope><name>DebugRender</name></member>
+      <member refid="d0/d54/class_system_collision_1ae5b6d80c1ed9f51596e44a75ce4e8ff3" prot="public" virt="non-virtual"><scope>SystemCollision</scope><name>deleteObject</name></member>
+      <member refid="d3/dbc/class_singleton_1ad6f103597095efda360db4a230308666" prot="public" virt="non-virtual"><scope>SystemCollision</scope><name>getInstance</name></member>
+      <member refid="d0/d54/class_system_collision_1a2894d1a5b42db2b9625d1317803413fa" prot="public" virt="non-virtual"><scope>SystemCollision</scope><name>getLastHitPosForWall</name></member>
+      <member refid="d0/d54/class_system_collision_1afb11088c991d7810e7bbf90b2fd21a91" prot="public" virt="non-virtual"><scope>SystemCollision</scope><name>HitCircle</name></member>
+      <member refid="d0/d54/class_system_collision_1a4c8970a0a387f87a07aa5ea80f11e591" prot="public" virt="non-virtual"><scope>SystemCollision</scope><name>HitSphere</name></member>
+      <member refid="d0/d54/class_system_collision_1a92454bf408ff087cf91215758a4297a6" prot="public" virt="non-virtual"><scope>SystemCollision</scope><name>loadMQO</name></member>
+      <member refid="d0/d54/class_system_collision_1a232132673dbadadb4fe9d018bf2235ca" prot="public" virt="non-virtual"><scope>SystemCollision</scope><name>render</name></member>
+      <member refid="d3/dbc/class_singleton_1a923b995920da9c06590adb170ab2f890" prot="public" virt="non-virtual"><scope>SystemCollision</scope><name>Singleton</name></member>
+      <member refid="d0/d54/class_system_collision_1a029dd2a26bbe98eb77f5b0bb084204f6" prot="public" virt="non-virtual"><scope>SystemCollision</scope><name>SystemCollision</name></member>
+      <member refid="d3/dbc/class_singleton_1ad3c93143836479fb3dd96b21b795938c" prot="public" virt="virtual"><scope>SystemCollision</scope><name>~Singleton</name></member>
+      <member refid="d0/d54/class_system_collision_1ac666887037b1dc14e32652af28abee66" prot="public" virt="virtual"><scope>SystemCollision</scope><name>~SystemCollision</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

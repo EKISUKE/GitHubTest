@@ -1,0 +1,217 @@
+\hypertarget{class_collision}{\section{クラス Collision}
+\label{class_collision}\index{Collision@{Collision}}
+}
+
+
+{\ttfamily \#include $<$Collision.\-h$>$}
+
+\subsection*{Public メソッド}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_collision_ae4c30e7064c9cb4f9fdb242b96ae9580}{Debug\-Render} ()
+\begin{DoxyCompactList}\small\item\em デバック描画 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{Indent}{\bf 初期化}\par
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_collision_aea8004fbf48b79b5db7b784688b23788}{Collision} ()
+\begin{DoxyCompactList}\small\item\em デフォルトコンストラクタ \end{DoxyCompactList}\item 
+\hyperlink{class_collision_a67bb01ed29ce67e61d82819872072e5e}{Collision} (\hyperlink{struct_sphere}{Sphere} $\ast$hit\-Sphere, char $\ast$name)
+\begin{DoxyCompactList}\small\item\em コンストラクタ \end{DoxyCompactList}\item 
+virtual \hyperlink{class_collision_a19ae49bcb3b16f4622443a34a171590c}{$\sim$\-Collision} ()
+\begin{DoxyCompactList}\small\item\em デストラクタ \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}{\bf 取得・設定}\par
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_collision_a5cd49ea00086ec5d80fd1de138bd37bc}{set\-Hit\-Obj} (\hyperlink{class_collision}{Collision} $\ast$col)
+\begin{DoxyCompactList}\small\item\em 情報設定 \end{DoxyCompactList}\item 
+void \hyperlink{class_collision_ab0af0476de0cf02a3e5396ec4bcee1fc}{clear\-Hit\-Obj} ()
+\begin{DoxyCompactList}\small\item\em 当たり判定情報初期化 \end{DoxyCompactList}\item 
+void \hyperlink{class_collision_afdb744ad8ba9ca0a69d54a24df6e3cb9}{set\-Collision\-State} (\hyperlink{struct_sphere}{Sphere} $\ast$sphere, char $\ast$name)
+\begin{DoxyCompactList}\small\item\em 基本情報設定 \end{DoxyCompactList}\item 
+void \hyperlink{class_collision_ae0aab4de405176b17857c67912703ded}{set\-Hit\-Sphere} (\hyperlink{struct_sphere}{Sphere} $\ast$sphere)
+\begin{DoxyCompactList}\small\item\em あたり判定用球の設定 \end{DoxyCompactList}\item 
+void \hyperlink{class_collision_acb2f78d670bc686d7ed2a46d463f9635}{set\-Col\-Name} (char $\ast$name)
+\begin{DoxyCompactList}\small\item\em 名前の設定 \end{DoxyCompactList}\item 
+\hyperlink{class_collision}{Collision} $\ast$ \hyperlink{class_collision_aef63d97ae632428052221cea0ca5bb5a}{get\-Hit\-Obj} (\hyperlink{_main_8h_a0ce6887c26c1c49ad3be5710dd42bfd6}{s32} index)
+\begin{DoxyCompactList}\small\item\em 情報取得 \end{DoxyCompactList}\item 
+char $\ast$ \hyperlink{class_collision_a53cac61e9a7e0d9706a53673de3e163f}{get\-Name} ()
+\begin{DoxyCompactList}\small\item\em 名前取得 \end{DoxyCompactList}\item 
+\hyperlink{struct_sphere}{Sphere} $\ast$ \hyperlink{class_collision_acce4180f1ea69e917886e78fe51a008e}{get\-Hit\-Sphere} ()
+\begin{DoxyCompactList}\small\item\em 当たり判定用の球取得 \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a0ce6887c26c1c49ad3be5710dd42bfd6}{s32} \hyperlink{class_collision_a3e4163c2b51a2537922d1e89615fd049}{get\-Hit\-Count} ()
+\begin{DoxyCompactList}\small\item\em 当たっている個数取得 \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_collision_af071cc502d72519a7c98379b4db1687a}{get\-Offset\-Pos} (\hyperlink{class_collision}{Collision} $\ast$obj)
+\end{DoxyCompactItemize}
+\end{Indent}
+
+
+\subsection{コンストラクタとデストラクタ}
+\hypertarget{class_collision_aea8004fbf48b79b5db7b784688b23788}{\index{Collision@{Collision}!Collision@{Collision}}
+\index{Collision@{Collision}!Collision@{Collision}}
+\subsubsection[{Collision}]{\setlength{\rightskip}{0pt plus 5cm}Collision\-::\-Collision (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_collision_aea8004fbf48b79b5db7b784688b23788}
+
+
+デフォルトコンストラクタ 
+
+\hypertarget{class_collision_a67bb01ed29ce67e61d82819872072e5e}{\index{Collision@{Collision}!Collision@{Collision}}
+\index{Collision@{Collision}!Collision@{Collision}}
+\subsubsection[{Collision}]{\setlength{\rightskip}{0pt plus 5cm}Collision\-::\-Collision (
+\begin{DoxyParamCaption}
+\item[{{\bf Sphere} $\ast$}]{hit\-Sphere, }
+\item[{char $\ast$}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_collision_a67bb01ed29ce67e61d82819872072e5e}
+
+
+コンストラクタ 
+
+\hypertarget{class_collision_a19ae49bcb3b16f4622443a34a171590c}{\index{Collision@{Collision}!$\sim$\-Collision@{$\sim$\-Collision}}
+\index{$\sim$\-Collision@{$\sim$\-Collision}!Collision@{Collision}}
+\subsubsection[{$\sim$\-Collision}]{\setlength{\rightskip}{0pt plus 5cm}Collision\-::$\sim$\-Collision (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_collision_a19ae49bcb3b16f4622443a34a171590c}
+
+
+デストラクタ 
+
+
+
+\subsection{関数}
+\hypertarget{class_collision_ab0af0476de0cf02a3e5396ec4bcee1fc}{\index{Collision@{Collision}!clear\-Hit\-Obj@{clear\-Hit\-Obj}}
+\index{clear\-Hit\-Obj@{clear\-Hit\-Obj}!Collision@{Collision}}
+\subsubsection[{clear\-Hit\-Obj}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\-::clear\-Hit\-Obj (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_collision_ab0af0476de0cf02a3e5396ec4bcee1fc}
+
+
+当たり判定情報初期化 
+
+\hypertarget{class_collision_ae4c30e7064c9cb4f9fdb242b96ae9580}{\index{Collision@{Collision}!Debug\-Render@{Debug\-Render}}
+\index{Debug\-Render@{Debug\-Render}!Collision@{Collision}}
+\subsubsection[{Debug\-Render}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\-::\-Debug\-Render (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_collision_ae4c30e7064c9cb4f9fdb242b96ae9580}
+
+
+デバック描画 
+
+\hypertarget{class_collision_a3e4163c2b51a2537922d1e89615fd049}{\index{Collision@{Collision}!get\-Hit\-Count@{get\-Hit\-Count}}
+\index{get\-Hit\-Count@{get\-Hit\-Count}!Collision@{Collision}}
+\subsubsection[{get\-Hit\-Count}]{\setlength{\rightskip}{0pt plus 5cm}{\bf s32} Collision\-::get\-Hit\-Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_collision_a3e4163c2b51a2537922d1e89615fd049}
+
+
+当たっている個数取得 
+
+\hypertarget{class_collision_aef63d97ae632428052221cea0ca5bb5a}{\index{Collision@{Collision}!get\-Hit\-Obj@{get\-Hit\-Obj}}
+\index{get\-Hit\-Obj@{get\-Hit\-Obj}!Collision@{Collision}}
+\subsubsection[{get\-Hit\-Obj}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Collision}$\ast$ Collision\-::get\-Hit\-Obj (
+\begin{DoxyParamCaption}
+\item[{{\bf s32}}]{index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_collision_aef63d97ae632428052221cea0ca5bb5a}
+
+
+情報取得 
+
+\hypertarget{class_collision_acce4180f1ea69e917886e78fe51a008e}{\index{Collision@{Collision}!get\-Hit\-Sphere@{get\-Hit\-Sphere}}
+\index{get\-Hit\-Sphere@{get\-Hit\-Sphere}!Collision@{Collision}}
+\subsubsection[{get\-Hit\-Sphere}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Sphere}$\ast$ Collision\-::get\-Hit\-Sphere (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_collision_acce4180f1ea69e917886e78fe51a008e}
+
+
+当たり判定用の球取得 
+
+\hypertarget{class_collision_a53cac61e9a7e0d9706a53673de3e163f}{\index{Collision@{Collision}!get\-Name@{get\-Name}}
+\index{get\-Name@{get\-Name}!Collision@{Collision}}
+\subsubsection[{get\-Name}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ Collision\-::get\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_collision_a53cac61e9a7e0d9706a53673de3e163f}
+
+
+名前取得 
+
+\hypertarget{class_collision_af071cc502d72519a7c98379b4db1687a}{\index{Collision@{Collision}!get\-Offset\-Pos@{get\-Offset\-Pos}}
+\index{get\-Offset\-Pos@{get\-Offset\-Pos}!Collision@{Collision}}
+\subsubsection[{get\-Offset\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Collision\-::get\-Offset\-Pos (
+\begin{DoxyParamCaption}
+\item[{{\bf Collision} $\ast$}]{obj}
+\end{DoxyParamCaption}
+)}}\label{class_collision_af071cc502d72519a7c98379b4db1687a}
+当たった後の補正位置取得 
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em obj} & 当たり判定の相手 \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_collision_afdb744ad8ba9ca0a69d54a24df6e3cb9}{\index{Collision@{Collision}!set\-Collision\-State@{set\-Collision\-State}}
+\index{set\-Collision\-State@{set\-Collision\-State}!Collision@{Collision}}
+\subsubsection[{set\-Collision\-State}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\-::set\-Collision\-State (
+\begin{DoxyParamCaption}
+\item[{{\bf Sphere} $\ast$}]{sphere, }
+\item[{char $\ast$}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_collision_afdb744ad8ba9ca0a69d54a24df6e3cb9}
+
+
+基本情報設定 
+
+\hyperlink{class_xE8_xA1_x9D_xE7_xAA_x81_xE5_x88_xA4_xE5_xAE_x9A}{衝突判定}
+
+基本情報設定 \hypertarget{class_collision_acb2f78d670bc686d7ed2a46d463f9635}{\index{Collision@{Collision}!set\-Col\-Name@{set\-Col\-Name}}
+\index{set\-Col\-Name@{set\-Col\-Name}!Collision@{Collision}}
+\subsubsection[{set\-Col\-Name}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\-::set\-Col\-Name (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_collision_acb2f78d670bc686d7ed2a46d463f9635}
+
+
+名前の設定 
+
+\hypertarget{class_collision_a5cd49ea00086ec5d80fd1de138bd37bc}{\index{Collision@{Collision}!set\-Hit\-Obj@{set\-Hit\-Obj}}
+\index{set\-Hit\-Obj@{set\-Hit\-Obj}!Collision@{Collision}}
+\subsubsection[{set\-Hit\-Obj}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\-::set\-Hit\-Obj (
+\begin{DoxyParamCaption}
+\item[{{\bf Collision} $\ast$}]{col}
+\end{DoxyParamCaption}
+)}}\label{class_collision_a5cd49ea00086ec5d80fd1de138bd37bc}
+
+
+情報設定 
+
+\hypertarget{class_collision_ae0aab4de405176b17857c67912703ded}{\index{Collision@{Collision}!set\-Hit\-Sphere@{set\-Hit\-Sphere}}
+\index{set\-Hit\-Sphere@{set\-Hit\-Sphere}!Collision@{Collision}}
+\subsubsection[{set\-Hit\-Sphere}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\-::set\-Hit\-Sphere (
+\begin{DoxyParamCaption}
+\item[{{\bf Sphere} $\ast$}]{sphere}
+\end{DoxyParamCaption}
+)}}\label{class_collision_ae0aab4de405176b17857c67912703ded}
+
+
+あたり判定用球の設定 
+
+
+
+このクラスの説明は次のファイルから生成されました\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_collision_8h}{Collision.\-h}\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_collision_8cpp}{Collision.\-cpp}\end{DoxyCompactItemize}

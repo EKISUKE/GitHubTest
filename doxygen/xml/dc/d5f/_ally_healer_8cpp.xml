@@ -1,0 +1,583 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dc/d5f/_ally_healer_8cpp" kind="file">
+    <compoundname>AllyHealer.cpp</compoundname>
+    <includes refid="db/dfc/_library_8h" local="yes">Library.h</includes>
+    <incdepgraph>
+      <node id="352">
+        <label>list</label>
+      </node>
+      <node id="402">
+        <label>SceneGame.h</label>
+        <link refid="dc/d83/_scene_game_8h"/>
+      </node>
+      <node id="362">
+        <label>Color.h</label>
+        <link refid="d9/df8/_color_8h"/>
+      </node>
+      <node id="361">
+        <label>Matrix.h</label>
+        <link refid="d0/d45/_matrix_8h"/>
+      </node>
+      <node id="380">
+        <label>Status.h</label>
+        <link refid="d3/ddd/_status_8h"/>
+      </node>
+      <node id="342">
+        <label>windows.h</label>
+      </node>
+      <node id="382">
+        <label>Key.h</label>
+        <link refid="d7/dfc/_key_8h"/>
+      </node>
+      <node id="399">
+        <label>AllyDeffender.h</label>
+        <link refid="de/d4d/_ally_deffender_8h"/>
+      </node>
+      <node id="359">
+        <label>GLFont.h</label>
+        <link refid="dc/db4/_g_l_font_8h"/>
+      </node>
+      <node id="397">
+        <label>Ally.h</label>
+        <link refid="d0/d06/_ally_8h"/>
+      </node>
+      <node id="349">
+        <label>stdlib.h</label>
+      </node>
+      <node id="400">
+        <label>AllyHealer.h</label>
+        <link refid="d6/dbe/_ally_healer_8h"/>
+      </node>
+      <node id="381">
+        <label>IObj.h</label>
+        <link refid="dd/d39/_i_obj_8h"/>
+      </node>
+      <node id="390">
+        <label>CameraManager.h</label>
+        <link refid="db/d24/_camera_manager_8h"/>
+      </node>
+      <node id="389">
+        <label>Camera.h</label>
+        <link refid="d5/d91/_camera_8h"/>
+      </node>
+      <node id="383">
+        <label>KeyAttacker.h</label>
+        <link refid="d9/d42/_key_attacker_8h"/>
+      </node>
+      <node id="379">
+        <label>CollisionManager.h</label>
+        <link refid="d7/d3e/_collision_manager_8h"/>
+      </node>
+      <node id="367">
+        <label>fmod.h</label>
+      </node>
+      <node id="386">
+        <label>KeyInput.h</label>
+        <link refid="df/d48/_key_input_8h"/>
+      </node>
+      <node id="378">
+        <label>LandScape.h</label>
+        <link refid="d5/d53/_land_scape_8h"/>
+      </node>
+      <node id="350">
+        <label>string</label>
+      </node>
+      <node id="354">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="339">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp</label>
+        <link refid="AllyHealer.cpp"/>
+        <childnode refid="340" relation="include">
+        </childnode>
+      </node>
+      <node id="360">
+        <label>Vector.h</label>
+        <link refid="d4/d7f/_vector_8h"/>
+      </node>
+      <node id="376">
+        <label>Collision.h</label>
+        <link refid="d9/d87/_collision_8h"/>
+      </node>
+      <node id="363">
+        <label>System.h</label>
+        <link refid="df/d78/_system_8h"/>
+      </node>
+      <node id="358">
+        <label>Singleton.h</label>
+        <link refid="de/dec/_singleton_8h"/>
+      </node>
+      <node id="341">
+        <label>Main.h</label>
+        <link refid="d0/d55/_main_8h"/>
+        <childnode refid="342" relation="include">
+        </childnode>
+        <childnode refid="343" relation="include">
+        </childnode>
+        <childnode refid="344" relation="include">
+        </childnode>
+        <childnode refid="345" relation="include">
+        </childnode>
+        <childnode refid="346" relation="include">
+        </childnode>
+        <childnode refid="347" relation="include">
+        </childnode>
+        <childnode refid="348" relation="include">
+        </childnode>
+        <childnode refid="349" relation="include">
+        </childnode>
+        <childnode refid="350" relation="include">
+        </childnode>
+        <childnode refid="351" relation="include">
+        </childnode>
+        <childnode refid="352" relation="include">
+        </childnode>
+        <childnode refid="353" relation="include">
+        </childnode>
+        <childnode refid="354" relation="include">
+        </childnode>
+        <childnode refid="355" relation="include">
+        </childnode>
+        <childnode refid="356" relation="include">
+        </childnode>
+        <childnode refid="357" relation="include">
+        </childnode>
+      </node>
+      <node id="395">
+        <label>Player.h</label>
+        <link refid="d1/d39/_player_8h"/>
+      </node>
+      <node id="356">
+        <label>GL/freeglut.h</label>
+      </node>
+      <node id="355">
+        <label>GL/wglew.h</label>
+      </node>
+      <node id="373">
+        <label>BillBoard.h</label>
+        <link refid="d1/d37/_bill_board_8h"/>
+      </node>
+      <node id="372">
+        <label>Effect.h</label>
+        <link refid="dd/d44/_effect_8h"/>
+      </node>
+      <node id="344">
+        <label>gdiplus.h</label>
+      </node>
+      <node id="353">
+        <label>ctime</label>
+      </node>
+      <node id="351">
+        <label>vector</label>
+      </node>
+      <node id="368">
+        <label>Controller.h</label>
+        <link refid="d2/d94/_controller_8h"/>
+      </node>
+      <node id="346">
+        <label>sstream</label>
+      </node>
+      <node id="391">
+        <label>Map.h</label>
+        <link refid="d3/d63/_map_8h"/>
+      </node>
+      <node id="401">
+        <label>SceneTitle.h</label>
+        <link refid="d6/d5f/_scene_title_8h"/>
+      </node>
+      <node id="357">
+        <label>Xinput.h</label>
+      </node>
+      <node id="394">
+        <label>SquadManager.h</label>
+        <link refid="da/d9b/_squad_manager_8h"/>
+      </node>
+      <node id="347">
+        <label>math.h</label>
+      </node>
+      <node id="370">
+        <label>Texture.h</label>
+        <link refid="de/dbf/_texture_8h"/>
+      </node>
+      <node id="366">
+        <label>fmod.hpp</label>
+      </node>
+      <node id="365">
+        <label>SoundPlayer.h</label>
+        <link refid="dc/d02/_sound_player_8h"/>
+        <childnode refid="366" relation="include">
+        </childnode>
+        <childnode refid="367" relation="include">
+        </childnode>
+      </node>
+      <node id="340">
+        <label>Library.h</label>
+        <link refid="db/dfc/_library_8h"/>
+        <childnode refid="341" relation="include">
+        </childnode>
+        <childnode refid="358" relation="include">
+        </childnode>
+        <childnode refid="359" relation="include">
+        </childnode>
+        <childnode refid="360" relation="include">
+        </childnode>
+        <childnode refid="361" relation="include">
+        </childnode>
+        <childnode refid="362" relation="include">
+        </childnode>
+        <childnode refid="363" relation="include">
+        </childnode>
+        <childnode refid="364" relation="include">
+        </childnode>
+        <childnode refid="365" relation="include">
+        </childnode>
+        <childnode refid="368" relation="include">
+        </childnode>
+        <childnode refid="369" relation="include">
+        </childnode>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="371" relation="include">
+        </childnode>
+        <childnode refid="372" relation="include">
+        </childnode>
+        <childnode refid="373" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
+        </childnode>
+        <childnode refid="375" relation="include">
+        </childnode>
+        <childnode refid="376" relation="include">
+        </childnode>
+        <childnode refid="377" relation="include">
+        </childnode>
+        <childnode refid="378" relation="include">
+        </childnode>
+        <childnode refid="379" relation="include">
+        </childnode>
+        <childnode refid="380" relation="include">
+        </childnode>
+        <childnode refid="381" relation="include">
+        </childnode>
+        <childnode refid="382" relation="include">
+        </childnode>
+        <childnode refid="383" relation="include">
+        </childnode>
+        <childnode refid="384" relation="include">
+        </childnode>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="386" relation="include">
+        </childnode>
+        <childnode refid="387" relation="include">
+        </childnode>
+        <childnode refid="388" relation="include">
+        </childnode>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="390" relation="include">
+        </childnode>
+        <childnode refid="391" relation="include">
+        </childnode>
+        <childnode refid="392" relation="include">
+        </childnode>
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+        <childnode refid="396" relation="include">
+        </childnode>
+        <childnode refid="397" relation="include">
+        </childnode>
+        <childnode refid="398" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+        <childnode refid="400" relation="include">
+        </childnode>
+        <childnode refid="401" relation="include">
+        </childnode>
+        <childnode refid="402" relation="include">
+        </childnode>
+      </node>
+      <node id="393">
+        <label>Squad.h</label>
+        <link refid="db/d9e/_squad_8h"/>
+      </node>
+      <node id="345">
+        <label>iostream</label>
+      </node>
+      <node id="375">
+        <label>Geometry.h</label>
+        <link refid="d1/d4e/_geometry_8h"/>
+      </node>
+      <node id="364">
+        <label>Timer.h</label>
+        <link refid="d5/d29/_timer_8h"/>
+      </node>
+      <node id="377">
+        <label>CollisionWall.h</label>
+        <link refid="df/d58/_collision_wall_8h"/>
+      </node>
+      <node id="343">
+        <label>mmsystem.h</label>
+      </node>
+      <node id="392">
+        <label>Man.h</label>
+        <link refid="d3/da6/_man_8h"/>
+      </node>
+      <node id="369">
+        <label>Mouse.h</label>
+        <link refid="d2/de3/_mouse_8h"/>
+      </node>
+      <node id="398">
+        <label>AllyAttacker.h</label>
+        <link refid="d9/d97/_ally_attacker_8h"/>
+      </node>
+      <node id="396">
+        <label>Enemy.h</label>
+        <link refid="d4/d1e/_enemy_8h"/>
+      </node>
+      <node id="384">
+        <label>KeyDeffender.h</label>
+        <link refid="d1/d11/_key_deffender_8h"/>
+      </node>
+      <node id="387">
+        <label>ObjBase.h</label>
+        <link refid="d3/d3e/_obj_base_8h"/>
+      </node>
+      <node id="374">
+        <label>SystemShader.h</label>
+        <link refid="dd/d98/_system_shader_8h"/>
+      </node>
+      <node id="371">
+        <label>Model.h</label>
+        <link refid="da/ded/_model_8h"/>
+      </node>
+      <node id="348">
+        <label>stdio.h</label>
+      </node>
+      <node id="388">
+        <label>CameraBase.h</label>
+        <link refid="db/db8/_camera_base_8h"/>
+      </node>
+      <node id="385">
+        <label>KeyHealer.h</label>
+        <link refid="db/d50/_key_healer_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="dc/d5f/_ally_healer_8cpp_1ad0ccbea96f9e289b254d540802cc4df0" prot="public" static="yes" mutable="no">
+        <type>char *</type>
+        <definition>char* myName</definition>
+        <argsstring></argsstring>
+        <name>myName</name>
+        <initializer>= &quot;AllyHealer&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp" line="10" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d5f/_ally_healer_8cpp_1a7355a102d51757e1140f0a3d97fd3a6b" prot="public" static="yes" mutable="no">
+        <type>char *</type>
+        <definition>char* myAttackName</definition>
+        <argsstring></argsstring>
+        <name>myAttackName</name>
+        <initializer>= &quot;AllyHealerAttack&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp" line="11" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="dc/d5f/_ally_healer_8cpp_1a3465a42eb3af00419c3b67fcd3e610a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool isAllyHealer</definition>
+        <argsstring>(Collision *obj)</argsstring>
+        <name>isAllyHealer</name>
+        <param>
+          <type><ref refid="df/dc6/class_collision" kindref="compound">Collision</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp" line="10" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d5f/_ally_healer_8cpp_1a567bfe4d167f0820ea4fb9e44a9bcbe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool isAllyHealerAttack</definition>
+        <argsstring>(Collision *obj)</argsstring>
+        <name>isAllyHealerAttack</name>
+        <param>
+          <type><ref refid="df/dc6/class_collision" kindref="compound">Collision</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp" line="11" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>味方回復タイプ </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>YukiIshigaki </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="db/dfc/_library_8h" kindref="compound">Library.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="df/d78/_system_8h_1afa6e053d9231a7eeb41a71de6c938bde" kindref="member">DEF_COL_NAME</ref>(<ref refid="df/d69/class_ally_healer" kindref="compound">AllyHealer</ref>);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><ref refid="df/d78/_system_8h_1aabcd1a642627c84801831e696daffcad" kindref="member">DEF_COL_ATTACK_NAME</ref>(AllyHealerAttack);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><ref refid="df/d69/class_ally_healer_1a7d6842f1f2ffd2c76b7377963f5a609c" kindref="member">AllyHealer::AllyHealer</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>モデル読み込み</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="da/d50/class_man_1a0e9a8437e880e5bc17ca83a89b0a716d" kindref="member">_model</ref>-&gt;<ref refid="d0/de3/class_model_1aa6d90fa11fac2b3bbf4597597f2c3f9c" kindref="member">load</ref>(</highlight><highlight class="stringliteral">&quot;../Model/Ally/Healer/Ally_high.mqo&quot;</highlight><highlight class="normal">,<sp/><ref refid="d9/dcd/_game_8h_1aefcc4fb0d1b6ca2ee5dc182586ab9ffc" kindref="member">CHARA_SCALE</ref><sp/>)<sp/>==<sp/>false<sp/>)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MessageBox(NULL,<sp/>L</highlight><highlight class="stringliteral">&quot;味方モデルの読み込みに失敗しました&quot;</highlight><highlight class="normal">,<sp/>L</highlight><highlight class="stringliteral">&quot;エラー&quot;</highlight><highlight class="normal">,<sp/>MB_OK);<sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>タイプを設定</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d54/class_ally_base_1a404a0b9f3665f8428e8f4605c11b4aa8" kindref="member">_type</ref><sp/>=<sp/><ref refid="dd/d54/class_ally_base_1a415be0ac5999cacff3c36db435115e91ad206186da211264935f86a0f6a890145" kindref="member">AllyBase::HEALLER</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>あたり判定用半径取得</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d24/class_obj_base_1a0144260d49b5e7d12522c3f71bf2414c" kindref="member">_hitRadius</ref><sp/>=<sp/><ref refid="da/d50/class_man_1a0e9a8437e880e5bc17ca83a89b0a716d" kindref="member">_model</ref>-&gt;<ref refid="d0/de3/class_model_1ab0ecbda9cdd50c9414cbc3df465f8d4f" kindref="member">getRadius</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d24/class_obj_base_1a6f8144cf79c29670f6697833c021dd06" kindref="member">_radius</ref><sp/><sp/><sp/><sp/>=<sp/><ref refid="dc/d24/class_obj_base_1a0144260d49b5e7d12522c3f71bf2414c" kindref="member">_hitRadius</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>攻撃時の半径設定</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d50/class_man_1a3479373b377a9d008410d94e16112897" kindref="member">_attackRadNum</ref><sp/>=<sp/><ref refid="dc/d24/class_obj_base_1a6f8144cf79c29670f6697833c021dd06" kindref="member">_radius</ref><sp/>*<sp/>0.7f;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>操作方法設定</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d50/class_man_1ac2efd76a0685583f4faad618b4961542" kindref="member">_key</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d9/db2/class_key_attacker" kindref="compound">KeyAttacker</ref>();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>当たり判定初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d50/class_man_1af9bbaacbb75df8c52d44133df86b3778" kindref="member">_myCollision</ref>.<ref refid="df/dc6/class_collision_1afdb744ad8ba9ca0a69d54a24df6e3cb9" kindref="member">setCollisionState</ref>(&amp;<ref refid="d3/d62/class_collision_object_1afd1c8612ad380f08cf3f2a5bf4b3daab" kindref="member">_hitSphere</ref>,<sp/>myName);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d54/class_ally_base_1aa50dc4d93b0aec2d2ee68eb413099bee" kindref="member">_attackCollision</ref>.<ref refid="df/dc6/class_collision_1afdb744ad8ba9ca0a69d54a24df6e3cb9" kindref="member">setCollisionState</ref>(&amp;<ref refid="da/d50/class_man_1a904eaf8909829ca908e6c2fad0e4f0b1" kindref="member">_attackSphere</ref>,<sp/>myAttackName);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d69/class_ally_healer_1a657b123a6d4a90e1f21ac8d88a90e4c4" kindref="member">Initialize</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><ref refid="df/d69/class_ally_healer_1a7bbf70f818b82171e2224d83729d20a3" kindref="member">AllyHealer::~AllyHealer</ref>()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="da/d50/class_man_1a0e9a8437e880e5bc17ca83a89b0a716d" kindref="member">_model</ref>;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d50/class_man_1a0e9a8437e880e5bc17ca83a89b0a716d" kindref="member">_model</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="df/d69/class_ally_healer_1a657b123a6d4a90e1f21ac8d88a90e4c4" kindref="member">AllyHealer::Initialize</ref>()</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>HPの初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d50/class_man_1ae884f4872be46582eac86e05d47ac52f" kindref="member">_myStatus</ref>-&gt;<ref refid="df/df2/struct_status_1ab2e23c57bb1aac0fd4eb7332ce63d995" kindref="member">setStatus</ref>(<ref refid="df/df2/struct_status" kindref="compound">Status</ref>(5,<sp/>5,<sp/>10.0f,<sp/>20.0f));</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d54/class_ally_base_1a8deb60628340c7a2567fda3bd54ac967" kindref="member">AllyBase::Initialize</ref>();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d50/class_man_1aadef07ec563fbabf2afbd9ea15558c91" kindref="member">AllyHealer::Update</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/d53/class_player_1a70057174eaea9fd441ca86cc7bb896ed" kindref="member">Player::COMMAND</ref>&amp;<sp/>_playerCommand,<sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>goalPos,<sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>playerPos)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d50/class_man_1aadef07ec563fbabf2afbd9ea15558c91" kindref="member">AllyBase::Update</ref>(_playerCommand,<sp/>goalPos,<sp/>playerPos);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d69/class_ally_healer_1a9ddce68a7c042137a3cc459e61a60104" kindref="member">AllyHealer::UpdateByCommand</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/d53/class_player_1a70057174eaea9fd441ca86cc7bb896ed" kindref="member">Player::COMMAND</ref>&amp;<sp/>_playerCommand,<sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>goalPos,<sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>playerPos)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>コマンドが攻撃なら</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>_playerCommand<sp/>==<sp/><ref refid="d8/d53/class_player_1a70057174eaea9fd441ca86cc7bb896eda88afd12ac0813020208065d8d4ab6b9f" kindref="member">Player::COMMAND_ATTACK</ref><sp/>)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>攻撃モード</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>キーの更新</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="da/d50/class_man_1ac2efd76a0685583f4faad618b4961542" kindref="member">_key</ref>-&gt;<ref refid="dd/d2e/class_key_base_1a3524c7ef9f4528a354e4ccfd57a8848e" kindref="member">setToTargetPos</ref>(<ref refid="dc/d24/class_obj_base_1a686e86c74461bf6cea312434796a57ce" kindref="member">_position</ref>,<sp/>goalPos);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="da/d50/class_man_1ac2efd76a0685583f4faad618b4961542" kindref="member">_key</ref>-&gt;<ref refid="dd/d2e/class_key_base_1a606340a0f380b698faed323e108bb1f9" kindref="member">Update</ref>();</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>角度を求める</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>3D上ではxzの順番で角度が求められる</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>StickState<sp/>=<sp/><ref refid="da/d50/class_man_1ac2efd76a0685583f4faad618b4961542" kindref="member">_key</ref>-&gt;<ref refid="dd/d2e/class_key_base_1ac50fde0306def82116ada72fb194bb14" kindref="member">getVector</ref>();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>移動があれば更新</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>abs(atan2f(StickState.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref>,<sp/>StickState.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref>)<sp/>)<sp/>&gt;<sp/>0.0f<sp/>)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/d24/class_obj_base_1a7f5b5aa7c370afcc110a6bf571f45375" kindref="member">_rotation</ref>.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>=<sp/>atan2f(<sp/>StickState.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref>,<sp/>StickState.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="da/d50/class_man_1ab6179d5c87983400d4d6cdd7d0163d86" kindref="member">_speed</ref><sp/>=<sp/>3.0f;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="da/d50/class_man_1ab6179d5c87983400d4d6cdd7d0163d86" kindref="member">_speed</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>それ以外は通常通り</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d69/class_ally_healer_1aca96222aed49e55506bed0811fac14da" kindref="member">UpdateNormal</ref>(playerPos);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d69/class_ally_healer_1aca96222aed49e55506bed0811fac14da" kindref="member">AllyHealer::UpdateNormal</ref>(<ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>&amp;<sp/>player)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>プレイヤーへのベクトル</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>dir<sp/><sp/><sp/><sp/>=<sp/>player<sp/>-<sp/><ref refid="dc/d24/class_obj_base_1a686e86c74461bf6cea312434796a57ce" kindref="member">_position</ref>;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>長さ取得</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/><sp/><sp/><sp/><sp/>length<sp/>=<sp/>dir.<ref refid="d0/de3/struct_vector3_1ab75b4d7d7fad114d84f2e081edef68b6" kindref="member">length</ref>();</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/ddb/struct_circle" kindref="compound">Circle</ref><sp/><sp/>goalCircle(player,<sp/>100.0f);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/ddb/struct_circle" kindref="compound">Circle</ref><sp/><sp/>myCircle(_position,<sp/><ref refid="dc/d24/class_obj_base_1a6f8144cf79c29670f6697833c021dd06" kindref="member">_radius</ref>);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>goalCircle.isHit(myCircle)<sp/>){</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="da/d50/class_man_1ab6179d5c87983400d4d6cdd7d0163d86" kindref="member">_speed</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="da/d50/class_man_1ab6179d5c87983400d4d6cdd7d0163d86" kindref="member">_speed</ref><sp/>=<sp/>3.0f;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dir.<ref refid="d0/de3/struct_vector3_1aa9a41fdd0584091e48784c96999972f1" kindref="member">normalize</ref>();</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/d24/class_obj_base_1a7f5b5aa7c370afcc110a6bf571f45375" kindref="member">_rotation</ref>.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>=<sp/>atan2f(dir.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref>,<sp/>dir.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref>);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(<sp/>length<sp/>&gt;<sp/>30.0f<sp/>)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>_speed<sp/>=<sp/>3.0f;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>dir.normalize();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>_rotation._y<sp/>=<sp/>atan2f(dir._x,<sp/>dir._z);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}else{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>//_mov<sp/>=<sp/>Vector3<sp/>(<sp/>0.0f,<sp/>0.0f,<sp/>0.0f<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>_speed<sp/>=<sp/>0.0f;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d69/class_ally_healer_1a38855aeb63c4f19b2a5cbfdb7a3836b6" kindref="member">AllyHealer::Render</ref>()</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d54/class_ally_base_1aadfd770043d90b11986181a75ad2e32d" kindref="member">AllyBase::Render</ref>();</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>END<sp/>OF<sp/>FILE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight></codeline>
+    </programlisting>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp"/>
+  </compounddef>
+</doxygen>

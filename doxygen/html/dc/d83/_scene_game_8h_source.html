@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>myGame: E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.h ソースファイル</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">myGame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>メインページ</span></a></li>
+      <li><a href="../../namespaces.html"><span>ネームスペース</span></a></li>
+      <li><a href="../../annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="../../files.html"><span>ファイル</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="../../globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">SceneGame.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../dc/d83/_scene_game_8h.html">説明を見る。</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//--------------------------------------------------------------</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">// グローバル変数</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">//--------------------------------------------------------------</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../dc/d83/_scene_game_8h.html#a8e502e90ab353b1b3d58e2554182a6ff">   13</a></span>&#160;<span class="preprocessor">#define     ENEMY_COUNT_MAX 1</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../dc/d83/_scene_game_8h.html#a563f90fed6bf2c3fa1cacbddeabc4dc7">   14</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define     ALLY_ATTACKER   1</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../dc/d83/_scene_game_8h.html#a4523a6651464ea22f1d6e7e728d9a19c">   15</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define     ALLY_DEFFENDER  1</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../dc/d83/_scene_game_8h.html#a925bc506a3841931fddb622e0ada9515">   16</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define     ALLY_COUNT_MAX  ALLY_ATTACKER + ALLY_DEFFENDER</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../dc/d83/_scene_game_8h.html#aefcc4fb0d1b6ca2ee5dc182586ab9ffc">   17</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define     CHARA_SCALE 0.2f            // キャラのスケール値</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">//class SceneGame : public Singleton&lt;SceneGame&gt;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d4/d33/class_scene_game.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d4/d33/class_scene_game.html">SceneGame</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../d4/d33/class_scene_game.html#adec58db9b09566fad2299eb755572767">SceneGame</a>();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">virtual</span>         <a class="code" href="../../d4/d33/class_scene_game.html#ae2813101b38f595f7ce11083cb23749b">~SceneGame</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span>    <a class="code" href="../../d4/d33/class_scene_game.html#a505a872c33bc0c0ea826b9442d19d14f">Initialize</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>    <a class="code" href="../../d4/d33/class_scene_game.html#a756d87ac4d86f865e138bd8a15b58520">Update</a>(<a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&amp; <a class="code" href="../../d5/d12/_main_8cpp.html#a48e2c0184734db6ef7077da8cdb059df">state</a>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>    <a class="code" href="../../d4/d33/class_scene_game.html#a412d68d4c94b297b02dcba0295b887b2">Render</a>();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">bool</span>            <a class="code" href="../../d4/d33/class_scene_game.html#a54beea6929aa16ce23fa0b9da8b9e7c7">addAlly</a>(<a class="code" href="../../dd/d54/class_ally_base.html">AllyBase</a>* pAlly);</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="../../d4/d33/class_scene_game.html#a34daf15f5960c31e59a1b6cefc690ff4">   41</a></span>&#160;    <a class="code" href="../../d7/dc5/class_mouse.html">Mouse</a>*          <a class="code" href="../../d4/d33/class_scene_game.html#a34daf15f5960c31e59a1b6cefc690ff4">getMouse</a>()   { <span class="keywordflow">return</span> _pMouse; }</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="../../d4/d33/class_scene_game.html#ab1356928f175e8999ce21def57bda819">   43</a></span>&#160;    <a class="code" href="../../da/dbb/class_camera.html">Camera</a>*         <a class="code" href="../../d4/d33/class_scene_game.html#ab1356928f175e8999ce21def57bda819">getCamera</a>()  { <span class="keywordflow">return</span> _pCamera; }</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="../../d4/d33/class_scene_game.html#a5d5a8c295343b4fad93593c93da6cffe">   45</a></span>&#160;    <a class="code" href="../../d8/d87/class_controller.html">Controller</a>*     <a class="code" href="../../d4/d33/class_scene_game.html#a5d5a8c295343b4fad93593c93da6cffe">getControl</a>() { <span class="keywordflow">return</span> _pControl; }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="../../d7/dc5/class_mouse.html">Mouse</a>*      _pMouse;                    <span class="comment">// マウス</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="../../da/dbb/class_camera.html">Camera</a>*     _pCamera;                   <span class="comment">// カメラ</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../d8/d87/class_controller.html">Controller</a>* _pControl;                  <span class="comment">// コントローラー</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../d4/d8e/class_g_l_font.html">GLFont</a>*     _pFont;                     <span class="comment">// 文字表示用</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="../../d8/d53/class_player.html">Player</a>*     _pPlayer;                   <span class="comment">// プレイヤー</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">//ObjBase*    gpPlayer;                 // プレイヤー</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="../../df/d42/class_attacker.html">Attacker</a>*   _pEnemy[<a class="code" href="../../dc/d83/_scene_game_8h.html#a8e502e90ab353b1b3d58e2554182a6ff">ENEMY_COUNT_MAX</a>];   <span class="comment">// 敵</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="code" href="../../dd/d54/class_ally_base.html">AllyBase</a>*   _pAlly[<a class="code" href="../../dc/d83/_scene_game_8h.html#a925bc506a3841931fddb622e0ada9515">ALLY_COUNT_MAX</a>];     <span class="comment">// 味方</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="../../dd/d11/class_map.html">Map</a>*        _pMap;                      <span class="comment">// マップ</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="../../d0/dc0/class_squad.html">Squad</a>*      _playerSquad;               <span class="comment">// プレイヤーの分隊</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;};</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">// アクセスインターフェイス</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">//__forceinline</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">//SceneGame*    AISceneGame()</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">//{</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">//  return SceneGame::getInstance();</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">//}</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">//  END OF FILE</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="ttc" id="class_scene_game_html_ae2813101b38f595f7ce11083cb23749b"><div class="ttname"><a href="../../d4/d33/class_scene_game.html#ae2813101b38f595f7ce11083cb23749b">SceneGame::~SceneGame</a></div><div class="ttdeci">virtual ~SceneGame()</div><div class="ttdoc">デストラクタ </div><div class="ttdef"><b>Definition:</b> SceneGame.cpp:150</div></div>
+<div class="ttc" id="class_scene_game_html_a505a872c33bc0c0ea826b9442d19d14f"><div class="ttname"><a href="../../d4/d33/class_scene_game.html#a505a872c33bc0c0ea826b9442d19d14f">SceneGame::Initialize</a></div><div class="ttdeci">virtual bool Initialize()</div><div class="ttdoc">初期化 </div><div class="ttdef"><b>Definition:</b> SceneGame.cpp:176</div></div>
+<div class="ttc" id="_scene_game_8h_html_a925bc506a3841931fddb622e0ada9515"><div class="ttname"><a href="../../dc/d83/_scene_game_8h.html#a925bc506a3841931fddb622e0ada9515">ALLY_COUNT_MAX</a></div><div class="ttdeci">#define ALLY_COUNT_MAX</div><div class="ttdef"><b>Definition:</b> SceneGame.h:16</div></div>
+<div class="ttc" id="_scene_game_8h_html_a8e502e90ab353b1b3d58e2554182a6ff"><div class="ttname"><a href="../../dc/d83/_scene_game_8h.html#a8e502e90ab353b1b3d58e2554182a6ff">ENEMY_COUNT_MAX</a></div><div class="ttdeci">#define ENEMY_COUNT_MAX</div><div class="ttdef"><b>Definition:</b> SceneGame.h:13</div></div>
+<div class="ttc" id="class_scene_game_html_a756d87ac4d86f865e138bd8a15b58520"><div class="ttname"><a href="../../d4/d33/class_scene_game.html#a756d87ac4d86f865e138bd8a15b58520">SceneGame::Update</a></div><div class="ttdeci">virtual void Update(s32 &amp;state)</div><div class="ttdoc">更新 </div><div class="ttdef"><b>Definition:</b> SceneGame.cpp:207</div></div>
+<div class="ttc" id="class_g_l_font_html"><div class="ttname"><a href="../../d4/d8e/class_g_l_font.html">GLFont</a></div><div class="ttdef"><b>Definition:</b> GLFont.h:13</div></div>
+<div class="ttc" id="class_ally_base_html"><div class="ttname"><a href="../../dd/d54/class_ally_base.html">AllyBase</a></div><div class="ttdef"><b>Definition:</b> Ally.h:13</div></div>
+<div class="ttc" id="class_scene_game_html_ab1356928f175e8999ce21def57bda819"><div class="ttname"><a href="../../d4/d33/class_scene_game.html#ab1356928f175e8999ce21def57bda819">SceneGame::getCamera</a></div><div class="ttdeci">Camera * getCamera()</div><div class="ttdoc">カメラの情報取得 </div><div class="ttdef"><b>Definition:</b> SceneGame.h:43</div></div>
+<div class="ttc" id="class_camera_html"><div class="ttname"><a href="../../da/dbb/class_camera.html">Camera</a></div><div class="ttdef"><b>Definition:</b> Camera.h:14</div></div>
+<div class="ttc" id="class_attacker_html"><div class="ttname"><a href="../../df/d42/class_attacker.html">Attacker</a></div><div class="ttdef"><b>Definition:</b> Enemy.h:19</div></div>
+<div class="ttc" id="class_scene_game_html_a412d68d4c94b297b02dcba0295b887b2"><div class="ttname"><a href="../../d4/d33/class_scene_game.html#a412d68d4c94b297b02dcba0295b887b2">SceneGame::Render</a></div><div class="ttdeci">virtual void Render()</div><div class="ttdoc">描画 </div><div class="ttdef"><b>Definition:</b> SceneGame.cpp:377</div></div>
+<div class="ttc" id="_main_8cpp_html_a48e2c0184734db6ef7077da8cdb059df"><div class="ttname"><a href="../../d5/d12/_main_8cpp.html#a48e2c0184734db6ef7077da8cdb059df">state</a></div><div class="ttdeci">s32 state</div><div class="ttdef"><b>Definition:</b> Main.cpp:37</div></div>
+<div class="ttc" id="class_controller_html"><div class="ttname"><a href="../../d8/d87/class_controller.html">Controller</a></div><div class="ttdef"><b>Definition:</b> Controller.h:13</div></div>
+<div class="ttc" id="class_scene_game_html"><div class="ttname"><a href="../../d4/d33/class_scene_game.html">SceneGame</a></div><div class="ttdef"><b>Definition:</b> SceneGame.h:23</div></div>
+<div class="ttc" id="class_map_html"><div class="ttname"><a href="../../dd/d11/class_map.html">Map</a></div><div class="ttdef"><b>Definition:</b> Map.h:15</div></div>
+<div class="ttc" id="class_scene_game_html_a54beea6929aa16ce23fa0b9da8b9e7c7"><div class="ttname"><a href="../../d4/d33/class_scene_game.html#a54beea6929aa16ce23fa0b9da8b9e7c7">SceneGame::addAlly</a></div><div class="ttdeci">bool addAlly(AllyBase *pAlly)</div><div class="ttdoc">味方の追加 </div><div class="ttdef"><b>Definition:</b> SceneGame.cpp:30</div></div>
+<div class="ttc" id="class_scene_game_html_a34daf15f5960c31e59a1b6cefc690ff4"><div class="ttname"><a href="../../d4/d33/class_scene_game.html#a34daf15f5960c31e59a1b6cefc690ff4">SceneGame::getMouse</a></div><div class="ttdeci">Mouse * getMouse()</div><div class="ttdoc">マウスの情報取得 </div><div class="ttdef"><b>Definition:</b> SceneGame.h:41</div></div>
+<div class="ttc" id="class_mouse_html"><div class="ttname"><a href="../../d7/dc5/class_mouse.html">Mouse</a></div><div class="ttdef"><b>Definition:</b> Mouse.h:12</div></div>
+<div class="ttc" id="class_squad_html"><div class="ttname"><a href="../../d0/dc0/class_squad.html">Squad</a></div><div class="ttdef"><b>Definition:</b> Squad.h:21</div></div>
+<div class="ttc" id="class_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:19</div></div>
+<div class="ttc" id="_main_8h_html_a0ce6887c26c1c49ad3be5710dd42bfd6"><div class="ttname"><a href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a></div><div class="ttdeci">signed int s32</div><div class="ttdoc">符号あり32bit整数 </div><div class="ttdef"><b>Definition:</b> Main.h:64</div></div>
+<div class="ttc" id="class_scene_game_html_a5d5a8c295343b4fad93593c93da6cffe"><div class="ttname"><a href="../../d4/d33/class_scene_game.html#a5d5a8c295343b4fad93593c93da6cffe">SceneGame::getControl</a></div><div class="ttdeci">Controller * getControl()</div><div class="ttdoc">コントローラーの情報取得 </div><div class="ttdef"><b>Definition:</b> SceneGame.h:45</div></div>
+<div class="ttc" id="class_scene_game_html_adec58db9b09566fad2299eb755572767"><div class="ttname"><a href="../../d4/d33/class_scene_game.html#adec58db9b09566fad2299eb755572767">SceneGame::SceneGame</a></div><div class="ttdeci">SceneGame()</div><div class="ttdoc">コンストラクタ </div><div class="ttdef"><b>Definition:</b> SceneGame.cpp:48</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+myGameに対してSun Oct 13 2013 20:58:05に生成されました。 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

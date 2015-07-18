@@ -1,0 +1,113 @@
+﻿2014/12/21 19:20:57 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\GameEngine\build\GameEngine.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         D:\OCA\OCA使用ソフト\VisualStudioforStudent\2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\GameEngine.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\stdafx.cpp
+         stdafx.cpp
+         D:\OCA\OCA使用ソフト\VisualStudioforStudent\2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\GameEngine.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\gmAABBTree.cpp ..\src\gmAssetBase.cpp ..\src\gmAssetModelX.cpp ..\src\gmAssetTexture.cpp ..\src\gmBase.cpp ..\src\gmCamera.cpp ..\src\gmCameraBase.cpp ..\src\gmCameraManager.cpp ..\src\gmCollision.cpp ..\src\gmCollisionManager.cpp ..\src\gmCollisionWall.cpp ..\src\gmController.cpp ..\src\gmControllerManager.cpp ..\src\gmFragmentShader.cpp ..\src\gmGeometry.cpp ..\src\gmHDRTexReader.cpp ..\src\gmLandScape.cpp ..\src\gmMatrix.cpp ..\src\gmMouse.cpp ..\src\gmMouseManager.cpp ..\src\gmProfiler.cpp ..\src\gmProgramShader.cpp ..\src\gmQuaternion.cpp ..\src\gmRefCounter.cpp ..\src\gmSceneBase.cpp ..\src\gmShaderObjectBase.cpp ..\src\gmSystem.cpp ..\src\gmSystemAsset.cpp ..\src\gmSystemMain.cpp ..\src\gmSystemRender.cpp ..\src\gmSystemScene.cpp ..\src\gmSystemShader.cpp ..\src\gmTaskBase.cpp ..\src\gmTaskFilter.cpp ..\src\gmTaskFilterBloom.cpp ..\src\gmTaskFilterGaussian.cpp ..\src\gmTaskFilterGlare.cpp ..\src\gmTaskFilterLensFlare.cpp ..\src\gmTaskFilterMotionBlur.cpp ..\src\gmTaskFilterTonemapping.cpp ..\src\gmTaskModelX.cpp ..\src\gmTexture.cpp ..\src\gmTimer.cpp ..\src\gmType.cpp ..\src\gmTypedef.cpp ..\src\gmVector.cpp ..\src\gmVertexArrayObject.cpp ..\src\gmVertexShader.cpp ..\src\gmWindowInfo.cpp
+         スキップ中... (関連する変更は検出されませんでした)
+         gmWindowInfo.cpp
+         gmVertexShader.cpp
+         gmVertexArrayObject.cpp
+         gmVector.cpp
+         gmTypedef.cpp
+         gmType.cpp
+         gmTimer.cpp
+         gmTexture.cpp
+         gmTaskModelX.cpp
+         gmTaskFilterTonemapping.cpp
+         gmTaskFilterMotionBlur.cpp
+         gmTaskFilterLensFlare.cpp
+         gmTaskFilterGlare.cpp
+         gmTaskFilterGaussian.cpp
+         gmTaskFilterBloom.cpp
+         gmTaskFilter.cpp
+         gmTaskBase.cpp
+         gmSystemShader.cpp
+         gmSystemScene.cpp
+         gmSystemRender.cpp
+         gmSystemMain.cpp
+         gmSystemAsset.cpp
+         gmSystem.cpp
+         gmShaderObjectBase.cpp
+         gmSceneBase.cpp
+         gmRefCounter.cpp
+         gmQuaternion.cpp
+         gmProgramShader.cpp
+         gmProfiler.cpp
+         gmMouseManager.cpp
+         gmMouse.cpp
+         gmMatrix.cpp
+         gmLandScape.cpp
+         gmHDRTexReader.cpp
+         gmGeometry.cpp
+         gmFragmentShader.cpp
+         gmControllerManager.cpp
+         gmController.cpp
+         gmCollisionWall.cpp
+         gmCollisionManager.cpp
+         gmCollision.cpp
+         gmCameraManager.cpp
+         gmCameraBase.cpp
+         gmCamera.cpp
+         gmBase.cpp
+         gmAssetTexture.cpp
+         gmAssetModelX.cpp
+         gmAssetBase.cpp
+         gmAABBTree.cpp
+       Lib:
+         D:\OCA\OCA使用ソフト\VisualStudioforStudent\2013\VC\bin\Lib.exe /OUT:"D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\Game\build\Debug\GameEngine.lib" /NOLOGO Debug\gmAABBTree.obj
+         Debug\gmAssetBase.obj
+         Debug\gmAssetModelX.obj
+         Debug\gmAssetTexture.obj
+         Debug\gmBase.obj
+         Debug\gmCamera.obj
+         Debug\gmCameraBase.obj
+         Debug\gmCameraManager.obj
+         Debug\gmCollision.obj
+         Debug\gmCollisionManager.obj
+         Debug\gmCollisionWall.obj
+         Debug\gmController.obj
+         Debug\gmControllerManager.obj
+         Debug\gmFragmentShader.obj
+         Debug\gmGeometry.obj
+         Debug\gmHDRTexReader.obj
+         Debug\gmLandScape.obj
+         Debug\gmMatrix.obj
+         Debug\gmMouse.obj
+         Debug\gmMouseManager.obj
+         Debug\gmProfiler.obj
+         Debug\gmProgramShader.obj
+         Debug\gmQuaternion.obj
+         Debug\gmRefCounter.obj
+         Debug\gmSceneBase.obj
+         Debug\gmShaderObjectBase.obj
+         Debug\gmSystem.obj
+         Debug\gmSystemAsset.obj
+         Debug\gmSystemMain.obj
+         Debug\gmSystemRender.obj
+         Debug\gmSystemScene.obj
+         Debug\gmSystemShader.obj
+         Debug\gmTaskBase.obj
+         Debug\gmTaskFilter.obj
+         Debug\gmTaskFilterBloom.obj
+         Debug\gmTaskFilterGaussian.obj
+         Debug\gmTaskFilterGlare.obj
+         Debug\gmTaskFilterLensFlare.obj
+         Debug\gmTaskFilterMotionBlur.obj
+         Debug\gmTaskFilterTonemapping.obj
+         Debug\gmTaskModelX.obj
+         Debug\gmTimer.obj
+         Debug\gmType.obj
+         Debug\gmTypedef.obj
+         Debug\gmVector.obj
+         Debug\gmVertexArrayObject.obj
+         Debug\gmVertexShader.obj
+         Debug\gmWindowInfo.obj
+         Debug\stdafx.obj
+         Debug\gmTexture.obj
+         GameEngine.vcxproj -> D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\Game\build\Debug\GameEngine.lib
+     1>プロジェクト "D:\OCA\OCA_BackUp\OpenGL\WithGameEngineProj\GameWithLibrary\GameEngine\build\GameEngine.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:03.79

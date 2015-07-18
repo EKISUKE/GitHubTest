@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{65041ff6-4d4a-4bd9-bfbf-aab0127768d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Struct">
+      <UniqueIdentifier>{2e29d0a2-4131-4d21-9347-3d248e8fcdb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{c67c3283-eaf2-4550-bb32-174748aa54fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Key">
+      <UniqueIdentifier>{aaa20871-22b3-4766-8daa-4c7c64d779c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ally">
+      <UniqueIdentifier>{3e888a11-6e59-4ad9-acb1-993df4e828a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundPlayer">
+      <UniqueIdentifier>{626871aa-b883-4de8-b83d-6027180db413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{8c72ded6-11b4-4263-8bd5-ee5286f4e548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Squad%28分隊%29">
+      <UniqueIdentifier>{737cba16-69b8-46bb-8af8-e7c9006d1d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{ec90529f-0b73-4b5a-a524-5c9473357b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GM">
+      <UniqueIdentifier>{98dd0afe-4a39-44e0-a5e1-87c65c9d39ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderFile">
+      <UniqueIdentifier>{6bb65107-d28b-4c58-a7f2-a3cc4ef115f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shadow">
+      <UniqueIdentifier>{25083586-66af-48a8-8d6f-fef68d6f8e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lights">
+      <UniqueIdentifier>{4eeaa95b-6fcc-4840-93a2-156228f70b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderFile\Vertex">
+      <UniqueIdentifier>{b42fdddc-bc46-4b2d-a860-c7128d12b070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderFile\Bloom">
+      <UniqueIdentifier>{ad7002cc-6217-4207-8c8f-9662cd114d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderFile\MotionBlur">
+      <UniqueIdentifier>{c4d2d8ea-d5bd-47a6-af76-45c2496092c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderFile\Tonemapping">
+      <UniqueIdentifier>{4df4f0e0-5e27-4243-af65-16b51db6ea82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{49970aed-21bc-4ff7-af06-9fd5d763e384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderFile\Glare">
+      <UniqueIdentifier>{37df622f-78d0-4c08-9e0d-fc9ce418c669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderFile\LensFlare">
+      <UniqueIdentifier>{2f91b588-0c6d-4d71-961e-6618623892e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderFile\Common">
+      <UniqueIdentifier>{72128cce-6003-4b03-9fa0-30d9941c3cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderFile\Fragment">
+      <UniqueIdentifier>{13c983a1-47ec-45ed-bdfd-f306143d6057}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\GLFont.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IObj.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Map.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SceneGame.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SceneTitle.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ObjBase.cpp">
+      <Filter>Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Man.cpp">
+      <Filter>Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Status.cpp">
+      <Filter>Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Key.cpp">
+      <Filter>Key</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KeyAttacker.cpp">
+      <Filter>Key</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KeyInput.cpp">
+      <Filter>Key</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KeyDeffender.cpp">
+      <Filter>Key</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Ally.cpp">
+      <Filter>Ally</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AllyAttacker.cpp">
+      <Filter>Ally</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AllyDeffender.cpp">
+      <Filter>Ally</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SoundPlayer.cpp">
+      <Filter>SoundPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BillBoard.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Effect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Squad.cpp">
+      <Filter>Squad%28分隊%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SquadManager.cpp">
+      <Filter>Squad%28分隊%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AllyHealer.cpp">
+      <Filter>Ally</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KeyHealer.cpp">
+      <Filter>Key</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ObjDataManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StatusAssets.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShadowMap.cpp">
+      <Filter>Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CascadedShadow.cpp">
+      <Filter>Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Light.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightBase.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightManager.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SkyBox.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SoundPlayerManager.cpp">
+      <Filter>SoundPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Enemy.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EnemyAttacker.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CollisionObject.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EnemyLeader.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EnemyDeffender.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Main.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SceneOption.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Library.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\GLFont.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Player.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IObj.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Map.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Singleton.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SceneGame.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SceneTitle.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ObjBase.h">
+      <Filter>Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Man.h">
+      <Filter>Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Status.h">
+      <Filter>Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Key.h">
+      <Filter>Key</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\KeyAttacker.h">
+      <Filter>Key</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\KeyInput.h">
+      <Filter>Key</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\KeyDeffender.h">
+      <Filter>Key</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Ally.h">
+      <Filter>Ally</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AllyAttacker.h">
+      <Filter>Ally</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AllyDeffender.h">
+      <Filter>Ally</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Main.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SoundPlayer.h">
+      <Filter>SoundPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BillBoard.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Effect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Squad.h">
+      <Filter>Squad%28分隊%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SquadManager.h">
+      <Filter>Squad%28分隊%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AllyHealer.h">
+      <Filter>Ally</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\KeyHealer.h">
+      <Filter>Key</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ObjDataManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\StatusAssets.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ShadowMap.h">
+      <Filter>Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CascadedShadow.h">
+      <Filter>Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Light.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightBase.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightManager.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SkyBox.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SoundPlayerManager.h">
+      <Filter>SoundPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Enemy.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EnemyAttacker.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CollisionObject.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EnemyLeader.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EnemyDeffender.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SceneOption.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Library.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaderFile\noTexture.frag">
+      <Filter>ShaderFile\Fragment</Filter>
+    </None>
+    <None Include="shaderFile\Shadow.frag">
+      <Filter>ShaderFile\Fragment</Filter>
+    </None>
+    <None Include="shaderFile\simple.frag">
+      <Filter>ShaderFile\Fragment</Filter>
+    </None>
+    <None Include="shaderFile\standard.frag">
+      <Filter>ShaderFile\Fragment</Filter>
+    </None>
+    <None Include="shaderFile\standardColor.frag">
+      <Filter>ShaderFile\Fragment</Filter>
+    </None>
+    <None Include="shaderFile\Test.frag">
+      <Filter>ShaderFile\Fragment</Filter>
+    </None>
+    <None Include="shaderFile\Texture.frag">
+      <Filter>ShaderFile\Fragment</Filter>
+    </None>
+    <None Include="shaderFile\debugDraw.frag">
+      <Filter>ShaderFile\Fragment</Filter>
+    </None>
+    <None Include="shaderFile\debugTexture.frag">
+      <Filter>ShaderFile\Fragment</Filter>
+    </None>
+    <None Include="shaderFile\drawCubeMap.frag">
+      <Filter>ShaderFile\Fragment</Filter>
+    </None>
+    <None Include="shaderFile\standard.vert">
+      <Filter>ShaderFile\Vertex</Filter>
+    </None>
+    <None Include="shaderFile\Test.vert">
+      <Filter>ShaderFile\Vertex</Filter>
+    </None>
+    <None Include="shaderFile\Texture.vert">
+      <Filter>ShaderFile\Vertex</Filter>
+    </None>
+    <None Include="shaderFile\debugDraw.vert">
+      <Filter>ShaderFile\Vertex</Filter>
+    </None>
+    <None Include="shaderFile\debugTexture.vert">
+      <Filter>ShaderFile\Vertex</Filter>
+    </None>
+    <None Include="shaderFile\drawCubeMap.vert">
+      <Filter>ShaderFile\Vertex</Filter>
+    </None>
+    <None Include="shaderFile\Filter.vert">
+      <Filter>ShaderFile\Vertex</Filter>
+    </None>
+    <None Include="shaderFile\noTexture.vert">
+      <Filter>ShaderFile\Vertex</Filter>
+    </None>
+    <None Include="shaderFile\Shadow.vert">
+      <Filter>ShaderFile\Vertex</Filter>
+    </None>
+    <None Include="shaderFile\simple.vert">
+      <Filter>ShaderFile\Vertex</Filter>
+    </None>
+    <None Include="shaderFile\Filter.frag">
+      <Filter>ShaderFile\Fragment</Filter>
+    </None>
+    <None Include="shaderFile\Subtract.frag">
+      <Filter>ShaderFile\Fragment</Filter>
+    </None>
+    <None Include="shaderFile\BloomGlare.frag">
+      <Filter>ShaderFile\Bloom</Filter>
+    </None>
+    <None Include="shaderFile\Gaussian3x3.frag">
+      <Filter>ShaderFile\Bloom</Filter>
+    </None>
+    <None Include="shaderFile\Gaussian3x3_H.vert">
+      <Filter>ShaderFile\Bloom</Filter>
+    </None>
+    <None Include="shaderFile\Gaussian3x3_V.vert">
+      <Filter>ShaderFile\Bloom</Filter>
+    </None>
+    <None Include="shaderFile\MotionBlur.frag">
+      <Filter>ShaderFile\MotionBlur</Filter>
+    </None>
+    <None Include="shaderFile\MotionBlur.vert">
+      <Filter>ShaderFile\MotionBlur</Filter>
+    </None>
+    <None Include="shaderFile\GetLuminance.frag">
+      <Filter>ShaderFile\Tonemapping</Filter>
+    </None>
+    <None Include="shaderFile\LuminanceReduction.frag">
+      <Filter>ShaderFile\Tonemapping</Filter>
+    </None>
+    <None Include="shaderFile\ToneMappingFinal.frag">
+      <Filter>ShaderFile\Tonemapping</Filter>
+    </None>
+    <None Include="shaderFile\GetLuminance.vert">
+      <Filter>ShaderFile\Tonemapping</Filter>
+    </None>
+    <None Include="shaderFile\LuminanceReduction.vert">
+      <Filter>ShaderFile\Tonemapping</Filter>
+    </None>
+    <None Include="shaderFile\LightAdaptation.frag">
+      <Filter>ShaderFile\Tonemapping</Filter>
+    </None>
+    <None Include="shaderFile\GlareFilter.vert">
+      <Filter>ShaderFile\Glare</Filter>
+    </None>
+    <None Include="shaderFile\GlareFilter.frag">
+      <Filter>ShaderFile\Glare</Filter>
+    </None>
+    <None Include="shaderFile\common\define.glsl">
+      <Filter>ShaderFile\Common</Filter>
+    </None>
+    <None Include="shaderFile\common\utils.glsl">
+      <Filter>ShaderFile\Common</Filter>
+    </None>
+    <None Include="shaderFile\LensFlare.frag">
+      <Filter>ShaderFile\LensFlare</Filter>
+    </None>
+    <None Include="shaderFile\AddLensEffects.frag">
+      <Filter>ShaderFile\LensFlare</Filter>
+    </None>
+    <None Include="shaderFile\AnamolphicFlareFilter.frag">
+      <Filter>ShaderFile\LensFlare</Filter>
+    </None>
+    <None Include="shaderFile\AnamolphicFlareFilter.vert">
+      <Filter>ShaderFile\LensFlare</Filter>
+    </None>
+    <None Include="shaderFile\ExpandBlur.vert">
+      <Filter>ShaderFile\LensFlare</Filter>
+    </None>
+    <None Include="shaderFile\ExpandBlur.frag">
+      <Filter>ShaderFile\LensFlare</Filter>
+    </None>
+  </ItemGroup>
+</Project>

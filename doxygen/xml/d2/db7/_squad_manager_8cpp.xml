@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d2/db7/_squad_manager_8cpp" kind="file">
+    <compoundname>SquadManager.cpp</compoundname>
+    <includes refid="db/dfc/_library_8h" local="yes">Library.h</includes>
+    <incdepgraph>
+      <node id="4390">
+        <label>list</label>
+      </node>
+      <node id="4440">
+        <label>SceneGame.h</label>
+        <link refid="dc/d83/_scene_game_8h"/>
+      </node>
+      <node id="4400">
+        <label>Color.h</label>
+        <link refid="d9/df8/_color_8h"/>
+      </node>
+      <node id="4399">
+        <label>Matrix.h</label>
+        <link refid="d0/d45/_matrix_8h"/>
+      </node>
+      <node id="4418">
+        <label>Status.h</label>
+        <link refid="d3/ddd/_status_8h"/>
+      </node>
+      <node id="4380">
+        <label>windows.h</label>
+      </node>
+      <node id="4420">
+        <label>Key.h</label>
+        <link refid="d7/dfc/_key_8h"/>
+      </node>
+      <node id="4437">
+        <label>AllyDeffender.h</label>
+        <link refid="de/d4d/_ally_deffender_8h"/>
+      </node>
+      <node id="4397">
+        <label>GLFont.h</label>
+        <link refid="dc/db4/_g_l_font_8h"/>
+      </node>
+      <node id="4435">
+        <label>Ally.h</label>
+        <link refid="d0/d06/_ally_8h"/>
+      </node>
+      <node id="4387">
+        <label>stdlib.h</label>
+      </node>
+      <node id="4438">
+        <label>AllyHealer.h</label>
+        <link refid="d6/dbe/_ally_healer_8h"/>
+      </node>
+      <node id="4419">
+        <label>IObj.h</label>
+        <link refid="dd/d39/_i_obj_8h"/>
+      </node>
+      <node id="4428">
+        <label>CameraManager.h</label>
+        <link refid="db/d24/_camera_manager_8h"/>
+      </node>
+      <node id="4427">
+        <label>Camera.h</label>
+        <link refid="d5/d91/_camera_8h"/>
+      </node>
+      <node id="4421">
+        <label>KeyAttacker.h</label>
+        <link refid="d9/d42/_key_attacker_8h"/>
+      </node>
+      <node id="4417">
+        <label>CollisionManager.h</label>
+        <link refid="d7/d3e/_collision_manager_8h"/>
+      </node>
+      <node id="4405">
+        <label>fmod.h</label>
+      </node>
+      <node id="4424">
+        <label>KeyInput.h</label>
+        <link refid="df/d48/_key_input_8h"/>
+      </node>
+      <node id="4416">
+        <label>LandScape.h</label>
+        <link refid="d5/d53/_land_scape_8h"/>
+      </node>
+      <node id="4388">
+        <label>string</label>
+      </node>
+      <node id="4392">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="4398">
+        <label>Vector.h</label>
+        <link refid="d4/d7f/_vector_8h"/>
+      </node>
+      <node id="4414">
+        <label>Collision.h</label>
+        <link refid="d9/d87/_collision_8h"/>
+      </node>
+      <node id="4401">
+        <label>System.h</label>
+        <link refid="df/d78/_system_8h"/>
+      </node>
+      <node id="4396">
+        <label>Singleton.h</label>
+        <link refid="de/dec/_singleton_8h"/>
+      </node>
+      <node id="4379">
+        <label>Main.h</label>
+        <link refid="d0/d55/_main_8h"/>
+        <childnode refid="4380" relation="include">
+        </childnode>
+        <childnode refid="4381" relation="include">
+        </childnode>
+        <childnode refid="4382" relation="include">
+        </childnode>
+        <childnode refid="4383" relation="include">
+        </childnode>
+        <childnode refid="4384" relation="include">
+        </childnode>
+        <childnode refid="4385" relation="include">
+        </childnode>
+        <childnode refid="4386" relation="include">
+        </childnode>
+        <childnode refid="4387" relation="include">
+        </childnode>
+        <childnode refid="4388" relation="include">
+        </childnode>
+        <childnode refid="4389" relation="include">
+        </childnode>
+        <childnode refid="4390" relation="include">
+        </childnode>
+        <childnode refid="4391" relation="include">
+        </childnode>
+        <childnode refid="4392" relation="include">
+        </childnode>
+        <childnode refid="4393" relation="include">
+        </childnode>
+        <childnode refid="4394" relation="include">
+        </childnode>
+        <childnode refid="4395" relation="include">
+        </childnode>
+      </node>
+      <node id="4433">
+        <label>Player.h</label>
+        <link refid="d1/d39/_player_8h"/>
+      </node>
+      <node id="4394">
+        <label>GL/freeglut.h</label>
+      </node>
+      <node id="4393">
+        <label>GL/wglew.h</label>
+      </node>
+      <node id="4411">
+        <label>BillBoard.h</label>
+        <link refid="d1/d37/_bill_board_8h"/>
+      </node>
+      <node id="4410">
+        <label>Effect.h</label>
+        <link refid="dd/d44/_effect_8h"/>
+      </node>
+      <node id="4382">
+        <label>gdiplus.h</label>
+      </node>
+      <node id="4391">
+        <label>ctime</label>
+      </node>
+      <node id="4389">
+        <label>vector</label>
+      </node>
+      <node id="4406">
+        <label>Controller.h</label>
+        <link refid="d2/d94/_controller_8h"/>
+      </node>
+      <node id="4384">
+        <label>sstream</label>
+      </node>
+      <node id="4429">
+        <label>Map.h</label>
+        <link refid="d3/d63/_map_8h"/>
+      </node>
+      <node id="4439">
+        <label>SceneTitle.h</label>
+        <link refid="d6/d5f/_scene_title_8h"/>
+      </node>
+      <node id="4395">
+        <label>Xinput.h</label>
+      </node>
+      <node id="4432">
+        <label>SquadManager.h</label>
+        <link refid="da/d9b/_squad_manager_8h"/>
+      </node>
+      <node id="4385">
+        <label>math.h</label>
+      </node>
+      <node id="4408">
+        <label>Texture.h</label>
+        <link refid="de/dbf/_texture_8h"/>
+      </node>
+      <node id="4404">
+        <label>fmod.hpp</label>
+      </node>
+      <node id="4403">
+        <label>SoundPlayer.h</label>
+        <link refid="dc/d02/_sound_player_8h"/>
+        <childnode refid="4404" relation="include">
+        </childnode>
+        <childnode refid="4405" relation="include">
+        </childnode>
+      </node>
+      <node id="4378">
+        <label>Library.h</label>
+        <link refid="db/dfc/_library_8h"/>
+        <childnode refid="4379" relation="include">
+        </childnode>
+        <childnode refid="4396" relation="include">
+        </childnode>
+        <childnode refid="4397" relation="include">
+        </childnode>
+        <childnode refid="4398" relation="include">
+        </childnode>
+        <childnode refid="4399" relation="include">
+        </childnode>
+        <childnode refid="4400" relation="include">
+        </childnode>
+        <childnode refid="4401" relation="include">
+        </childnode>
+        <childnode refid="4402" relation="include">
+        </childnode>
+        <childnode refid="4403" relation="include">
+        </childnode>
+        <childnode refid="4406" relation="include">
+        </childnode>
+        <childnode refid="4407" relation="include">
+        </childnode>
+        <childnode refid="4408" relation="include">
+        </childnode>
+        <childnode refid="4409" relation="include">
+        </childnode>
+        <childnode refid="4410" relation="include">
+        </childnode>
+        <childnode refid="4411" relation="include">
+        </childnode>
+        <childnode refid="4412" relation="include">
+        </childnode>
+        <childnode refid="4413" relation="include">
+        </childnode>
+        <childnode refid="4414" relation="include">
+        </childnode>
+        <childnode refid="4415" relation="include">
+        </childnode>
+        <childnode refid="4416" relation="include">
+        </childnode>
+        <childnode refid="4417" relation="include">
+        </childnode>
+        <childnode refid="4418" relation="include">
+        </childnode>
+        <childnode refid="4419" relation="include">
+        </childnode>
+        <childnode refid="4420" relation="include">
+        </childnode>
+        <childnode refid="4421" relation="include">
+        </childnode>
+        <childnode refid="4422" relation="include">
+        </childnode>
+        <childnode refid="4423" relation="include">
+        </childnode>
+        <childnode refid="4424" relation="include">
+        </childnode>
+        <childnode refid="4425" relation="include">
+        </childnode>
+        <childnode refid="4426" relation="include">
+        </childnode>
+        <childnode refid="4427" relation="include">
+        </childnode>
+        <childnode refid="4428" relation="include">
+        </childnode>
+        <childnode refid="4429" relation="include">
+        </childnode>
+        <childnode refid="4430" relation="include">
+        </childnode>
+        <childnode refid="4431" relation="include">
+        </childnode>
+        <childnode refid="4432" relation="include">
+        </childnode>
+        <childnode refid="4433" relation="include">
+        </childnode>
+        <childnode refid="4434" relation="include">
+        </childnode>
+        <childnode refid="4435" relation="include">
+        </childnode>
+        <childnode refid="4436" relation="include">
+        </childnode>
+        <childnode refid="4437" relation="include">
+        </childnode>
+        <childnode refid="4438" relation="include">
+        </childnode>
+        <childnode refid="4439" relation="include">
+        </childnode>
+        <childnode refid="4440" relation="include">
+        </childnode>
+      </node>
+      <node id="4431">
+        <label>Squad.h</label>
+        <link refid="db/d9e/_squad_8h"/>
+      </node>
+      <node id="4383">
+        <label>iostream</label>
+      </node>
+      <node id="4413">
+        <label>Geometry.h</label>
+        <link refid="d1/d4e/_geometry_8h"/>
+      </node>
+      <node id="4402">
+        <label>Timer.h</label>
+        <link refid="d5/d29/_timer_8h"/>
+      </node>
+      <node id="4415">
+        <label>CollisionWall.h</label>
+        <link refid="df/d58/_collision_wall_8h"/>
+      </node>
+      <node id="4381">
+        <label>mmsystem.h</label>
+      </node>
+      <node id="4430">
+        <label>Man.h</label>
+        <link refid="d3/da6/_man_8h"/>
+      </node>
+      <node id="4407">
+        <label>Mouse.h</label>
+        <link refid="d2/de3/_mouse_8h"/>
+      </node>
+      <node id="4436">
+        <label>AllyAttacker.h</label>
+        <link refid="d9/d97/_ally_attacker_8h"/>
+      </node>
+      <node id="4434">
+        <label>Enemy.h</label>
+        <link refid="d4/d1e/_enemy_8h"/>
+      </node>
+      <node id="4422">
+        <label>KeyDeffender.h</label>
+        <link refid="d1/d11/_key_deffender_8h"/>
+      </node>
+      <node id="4425">
+        <label>ObjBase.h</label>
+        <link refid="d3/d3e/_obj_base_8h"/>
+      </node>
+      <node id="4412">
+        <label>SystemShader.h</label>
+        <link refid="dd/d98/_system_shader_8h"/>
+      </node>
+      <node id="4409">
+        <label>Model.h</label>
+        <link refid="da/ded/_model_8h"/>
+      </node>
+      <node id="4386">
+        <label>stdio.h</label>
+      </node>
+      <node id="4426">
+        <label>CameraBase.h</label>
+        <link refid="db/db8/_camera_base_8h"/>
+      </node>
+      <node id="4423">
+        <label>KeyHealer.h</label>
+        <link refid="db/d50/_key_healer_8h"/>
+      </node>
+      <node id="4377">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SquadManager.cpp</label>
+        <link refid="SquadManager.cpp"/>
+        <childnode refid="4378" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+<para><ref refid="df/d62/class_xE5_x88_x86_xE9_x9A_x8A_xE7_xAE_xA1_xE7_x90_x86" kindref="compound">分隊管理</ref> </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>YukiIshigaki </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="db/dfc/_library_8h" kindref="compound">Library.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>外部非公開</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/dc1/class_squad_manager" kindref="compound">SquadManager</ref><sp/><sp/><sp/><sp/>gSquadManager;<sp/><sp/></highlight><highlight class="comment">//<sp/>実態</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><ref refid="d0/dc0/class_squad" kindref="compound">Squad</ref>*<sp/><ref refid="df/dc1/class_squad_manager_1a9f3ed215f78f979591d38f8a375ed522" kindref="member">SquadManager::getSameSquad</ref>(<ref refid="d0/dc0/class_squad" kindref="compound">Squad</ref>*<sp/>search)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/>list&lt;Squad*&gt;::iterator<sp/>itr<sp/>=<sp/><ref refid="df/dc1/class_squad_manager_1a17789c2fcc2a22b3af6ddd0101955576" kindref="member">_pSquadList</ref>.begin();<sp/>itr<sp/>!=<sp/><ref refid="df/dc1/class_squad_manager_1a17789c2fcc2a22b3af6ddd0101955576" kindref="member">_pSquadList</ref>.end();<sp/>itr++<sp/>)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/dc0/class_squad" kindref="compound">Squad</ref>*<sp/>tmpSqd<sp/>=<sp/>*itr;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>見つかったら</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>tmpSqd<sp/>==<sp/>search<sp/>)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*itr;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>見つからなかった</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/dc1/class_squad_manager_1ac068104f2298898d3aa53c90089f2487" kindref="member">SquadManager::registSquad</ref>(<ref refid="d0/dc0/class_squad" kindref="compound">Squad</ref>*<sp/><sp/><sp/>_registSquad)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>同じものがなければ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>!<ref refid="df/dc1/class_squad_manager_1a9f3ed215f78f979591d38f8a375ed522" kindref="member">getSameSquad</ref>(_registSquad)<sp/>)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>登録</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/dc1/class_squad_manager_1a17789c2fcc2a22b3af6ddd0101955576" kindref="member">_pSquadList</ref>.push_back(_registSquad);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/dc1/class_squad_manager_1aadf35f784fe3bf00976ad7b83ce6caac" kindref="member">SquadManager::unregistSquad</ref>(<ref refid="d0/dc0/class_squad" kindref="compound">Squad</ref>*<sp/>_unregistSquad)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>同じものを削除する</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/dc1/class_squad_manager_1a17789c2fcc2a22b3af6ddd0101955576" kindref="member">_pSquadList</ref>.remove(_unregistSquad);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>END<sp/>OF<sp/>FILE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight></codeline>
+    </programlisting>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SquadManager.cpp"/>
+  </compounddef>
+</doxygen>

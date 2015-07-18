@@ -1,0 +1,947 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d4/dae/_scene_game_8cpp" kind="file">
+    <compoundname>SceneGame.cpp</compoundname>
+    <includes refid="db/dfc/_library_8h" local="yes">Library.h</includes>
+    <incdepgraph>
+      <node id="3886">
+        <label>list</label>
+      </node>
+      <node id="3936">
+        <label>SceneGame.h</label>
+        <link refid="dc/d83/_scene_game_8h"/>
+      </node>
+      <node id="3896">
+        <label>Color.h</label>
+        <link refid="d9/df8/_color_8h"/>
+      </node>
+      <node id="3895">
+        <label>Matrix.h</label>
+        <link refid="d0/d45/_matrix_8h"/>
+      </node>
+      <node id="3914">
+        <label>Status.h</label>
+        <link refid="d3/ddd/_status_8h"/>
+      </node>
+      <node id="3876">
+        <label>windows.h</label>
+      </node>
+      <node id="3916">
+        <label>Key.h</label>
+        <link refid="d7/dfc/_key_8h"/>
+      </node>
+      <node id="3933">
+        <label>AllyDeffender.h</label>
+        <link refid="de/d4d/_ally_deffender_8h"/>
+      </node>
+      <node id="3893">
+        <label>GLFont.h</label>
+        <link refid="dc/db4/_g_l_font_8h"/>
+      </node>
+      <node id="3931">
+        <label>Ally.h</label>
+        <link refid="d0/d06/_ally_8h"/>
+      </node>
+      <node id="3883">
+        <label>stdlib.h</label>
+      </node>
+      <node id="3934">
+        <label>AllyHealer.h</label>
+        <link refid="d6/dbe/_ally_healer_8h"/>
+      </node>
+      <node id="3915">
+        <label>IObj.h</label>
+        <link refid="dd/d39/_i_obj_8h"/>
+      </node>
+      <node id="3924">
+        <label>CameraManager.h</label>
+        <link refid="db/d24/_camera_manager_8h"/>
+      </node>
+      <node id="3923">
+        <label>Camera.h</label>
+        <link refid="d5/d91/_camera_8h"/>
+      </node>
+      <node id="3917">
+        <label>KeyAttacker.h</label>
+        <link refid="d9/d42/_key_attacker_8h"/>
+      </node>
+      <node id="3913">
+        <label>CollisionManager.h</label>
+        <link refid="d7/d3e/_collision_manager_8h"/>
+      </node>
+      <node id="3901">
+        <label>fmod.h</label>
+      </node>
+      <node id="3920">
+        <label>KeyInput.h</label>
+        <link refid="df/d48/_key_input_8h"/>
+      </node>
+      <node id="3912">
+        <label>LandScape.h</label>
+        <link refid="d5/d53/_land_scape_8h"/>
+      </node>
+      <node id="3884">
+        <label>string</label>
+      </node>
+      <node id="3888">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="3894">
+        <label>Vector.h</label>
+        <link refid="d4/d7f/_vector_8h"/>
+      </node>
+      <node id="3910">
+        <label>Collision.h</label>
+        <link refid="d9/d87/_collision_8h"/>
+      </node>
+      <node id="3897">
+        <label>System.h</label>
+        <link refid="df/d78/_system_8h"/>
+      </node>
+      <node id="3892">
+        <label>Singleton.h</label>
+        <link refid="de/dec/_singleton_8h"/>
+      </node>
+      <node id="3875">
+        <label>Main.h</label>
+        <link refid="d0/d55/_main_8h"/>
+        <childnode refid="3876" relation="include">
+        </childnode>
+        <childnode refid="3877" relation="include">
+        </childnode>
+        <childnode refid="3878" relation="include">
+        </childnode>
+        <childnode refid="3879" relation="include">
+        </childnode>
+        <childnode refid="3880" relation="include">
+        </childnode>
+        <childnode refid="3881" relation="include">
+        </childnode>
+        <childnode refid="3882" relation="include">
+        </childnode>
+        <childnode refid="3883" relation="include">
+        </childnode>
+        <childnode refid="3884" relation="include">
+        </childnode>
+        <childnode refid="3885" relation="include">
+        </childnode>
+        <childnode refid="3886" relation="include">
+        </childnode>
+        <childnode refid="3887" relation="include">
+        </childnode>
+        <childnode refid="3888" relation="include">
+        </childnode>
+        <childnode refid="3889" relation="include">
+        </childnode>
+        <childnode refid="3890" relation="include">
+        </childnode>
+        <childnode refid="3891" relation="include">
+        </childnode>
+      </node>
+      <node id="3929">
+        <label>Player.h</label>
+        <link refid="d1/d39/_player_8h"/>
+      </node>
+      <node id="3890">
+        <label>GL/freeglut.h</label>
+      </node>
+      <node id="3889">
+        <label>GL/wglew.h</label>
+      </node>
+      <node id="3907">
+        <label>BillBoard.h</label>
+        <link refid="d1/d37/_bill_board_8h"/>
+      </node>
+      <node id="3906">
+        <label>Effect.h</label>
+        <link refid="dd/d44/_effect_8h"/>
+      </node>
+      <node id="3878">
+        <label>gdiplus.h</label>
+      </node>
+      <node id="3887">
+        <label>ctime</label>
+      </node>
+      <node id="3873">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.cpp</label>
+        <link refid="SceneGame.cpp"/>
+        <childnode refid="3874" relation="include">
+        </childnode>
+      </node>
+      <node id="3885">
+        <label>vector</label>
+      </node>
+      <node id="3902">
+        <label>Controller.h</label>
+        <link refid="d2/d94/_controller_8h"/>
+      </node>
+      <node id="3880">
+        <label>sstream</label>
+      </node>
+      <node id="3925">
+        <label>Map.h</label>
+        <link refid="d3/d63/_map_8h"/>
+      </node>
+      <node id="3935">
+        <label>SceneTitle.h</label>
+        <link refid="d6/d5f/_scene_title_8h"/>
+      </node>
+      <node id="3891">
+        <label>Xinput.h</label>
+      </node>
+      <node id="3928">
+        <label>SquadManager.h</label>
+        <link refid="da/d9b/_squad_manager_8h"/>
+      </node>
+      <node id="3881">
+        <label>math.h</label>
+      </node>
+      <node id="3904">
+        <label>Texture.h</label>
+        <link refid="de/dbf/_texture_8h"/>
+      </node>
+      <node id="3900">
+        <label>fmod.hpp</label>
+      </node>
+      <node id="3899">
+        <label>SoundPlayer.h</label>
+        <link refid="dc/d02/_sound_player_8h"/>
+        <childnode refid="3900" relation="include">
+        </childnode>
+        <childnode refid="3901" relation="include">
+        </childnode>
+      </node>
+      <node id="3874">
+        <label>Library.h</label>
+        <link refid="db/dfc/_library_8h"/>
+        <childnode refid="3875" relation="include">
+        </childnode>
+        <childnode refid="3892" relation="include">
+        </childnode>
+        <childnode refid="3893" relation="include">
+        </childnode>
+        <childnode refid="3894" relation="include">
+        </childnode>
+        <childnode refid="3895" relation="include">
+        </childnode>
+        <childnode refid="3896" relation="include">
+        </childnode>
+        <childnode refid="3897" relation="include">
+        </childnode>
+        <childnode refid="3898" relation="include">
+        </childnode>
+        <childnode refid="3899" relation="include">
+        </childnode>
+        <childnode refid="3902" relation="include">
+        </childnode>
+        <childnode refid="3903" relation="include">
+        </childnode>
+        <childnode refid="3904" relation="include">
+        </childnode>
+        <childnode refid="3905" relation="include">
+        </childnode>
+        <childnode refid="3906" relation="include">
+        </childnode>
+        <childnode refid="3907" relation="include">
+        </childnode>
+        <childnode refid="3908" relation="include">
+        </childnode>
+        <childnode refid="3909" relation="include">
+        </childnode>
+        <childnode refid="3910" relation="include">
+        </childnode>
+        <childnode refid="3911" relation="include">
+        </childnode>
+        <childnode refid="3912" relation="include">
+        </childnode>
+        <childnode refid="3913" relation="include">
+        </childnode>
+        <childnode refid="3914" relation="include">
+        </childnode>
+        <childnode refid="3915" relation="include">
+        </childnode>
+        <childnode refid="3916" relation="include">
+        </childnode>
+        <childnode refid="3917" relation="include">
+        </childnode>
+        <childnode refid="3918" relation="include">
+        </childnode>
+        <childnode refid="3919" relation="include">
+        </childnode>
+        <childnode refid="3920" relation="include">
+        </childnode>
+        <childnode refid="3921" relation="include">
+        </childnode>
+        <childnode refid="3922" relation="include">
+        </childnode>
+        <childnode refid="3923" relation="include">
+        </childnode>
+        <childnode refid="3924" relation="include">
+        </childnode>
+        <childnode refid="3925" relation="include">
+        </childnode>
+        <childnode refid="3926" relation="include">
+        </childnode>
+        <childnode refid="3927" relation="include">
+        </childnode>
+        <childnode refid="3928" relation="include">
+        </childnode>
+        <childnode refid="3929" relation="include">
+        </childnode>
+        <childnode refid="3930" relation="include">
+        </childnode>
+        <childnode refid="3931" relation="include">
+        </childnode>
+        <childnode refid="3932" relation="include">
+        </childnode>
+        <childnode refid="3933" relation="include">
+        </childnode>
+        <childnode refid="3934" relation="include">
+        </childnode>
+        <childnode refid="3935" relation="include">
+        </childnode>
+        <childnode refid="3936" relation="include">
+        </childnode>
+      </node>
+      <node id="3927">
+        <label>Squad.h</label>
+        <link refid="db/d9e/_squad_8h"/>
+      </node>
+      <node id="3879">
+        <label>iostream</label>
+      </node>
+      <node id="3909">
+        <label>Geometry.h</label>
+        <link refid="d1/d4e/_geometry_8h"/>
+      </node>
+      <node id="3898">
+        <label>Timer.h</label>
+        <link refid="d5/d29/_timer_8h"/>
+      </node>
+      <node id="3911">
+        <label>CollisionWall.h</label>
+        <link refid="df/d58/_collision_wall_8h"/>
+      </node>
+      <node id="3877">
+        <label>mmsystem.h</label>
+      </node>
+      <node id="3926">
+        <label>Man.h</label>
+        <link refid="d3/da6/_man_8h"/>
+      </node>
+      <node id="3903">
+        <label>Mouse.h</label>
+        <link refid="d2/de3/_mouse_8h"/>
+      </node>
+      <node id="3932">
+        <label>AllyAttacker.h</label>
+        <link refid="d9/d97/_ally_attacker_8h"/>
+      </node>
+      <node id="3930">
+        <label>Enemy.h</label>
+        <link refid="d4/d1e/_enemy_8h"/>
+      </node>
+      <node id="3918">
+        <label>KeyDeffender.h</label>
+        <link refid="d1/d11/_key_deffender_8h"/>
+      </node>
+      <node id="3921">
+        <label>ObjBase.h</label>
+        <link refid="d3/d3e/_obj_base_8h"/>
+      </node>
+      <node id="3908">
+        <label>SystemShader.h</label>
+        <link refid="dd/d98/_system_shader_8h"/>
+      </node>
+      <node id="3905">
+        <label>Model.h</label>
+        <link refid="da/ded/_model_8h"/>
+      </node>
+      <node id="3882">
+        <label>stdio.h</label>
+      </node>
+      <node id="3922">
+        <label>CameraBase.h</label>
+        <link refid="db/db8/_camera_base_8h"/>
+      </node>
+      <node id="3919">
+        <label>KeyHealer.h</label>
+        <link refid="db/d50/_key_healer_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="d4/dae/_scene_game_8cpp_1ae7107f1fae2eb31a75f0d0aaa483254b" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/de3/class_model" kindref="compound">Model</ref> *</type>
+        <definition>Model* testMap</definition>
+        <argsstring></argsstring>
+        <name>testMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.cpp" line="21" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.cpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dae/_scene_game_8cpp_1a98482bc4b86d97d0338f876a9457fe38" prot="public" static="no" mutable="no">
+        <type><ref refid="d9/da9/class_debug_timer" kindref="compound">DebugTimer</ref></type>
+        <definition>DebugTimer updateTimer</definition>
+        <argsstring></argsstring>
+        <name>updateTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.cpp" line="22" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.cpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dae/_scene_game_8cpp_1a51fa5434a2cefb22169a830a25b10b11" prot="public" static="no" mutable="no">
+        <type><ref refid="d9/da9/class_debug_timer" kindref="compound">DebugTimer</ref></type>
+        <definition>DebugTimer renderTimer</definition>
+        <argsstring></argsstring>
+        <name>renderTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.cpp" line="23" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.cpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dae/_scene_game_8cpp_1a8a6e6fcf72d49ec04feaac70139e50f7" prot="public" static="no" mutable="no">
+        <type><ref refid="db/d86/class_performance" kindref="compound">Performance</ref> *</type>
+        <definition>Performance* pUpdatePerformance</definition>
+        <argsstring></argsstring>
+        <name>pUpdatePerformance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.cpp" line="24" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.cpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dae/_scene_game_8cpp_1ab295331eea6874cbc1956b5ad46fbe01" prot="public" static="no" mutable="no">
+        <type><ref refid="db/d86/class_performance" kindref="compound">Performance</ref> *</type>
+        <definition>Performance* pRenderPerformance</definition>
+        <argsstring></argsstring>
+        <name>pRenderPerformance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.cpp" line="25" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.cpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="d5/d2f/class_xE3_x82_xB2_xE3_x83_xBC_xE3_x83_xA0_xE4_xB8_xAD" kindref="compound">ゲーム中</ref> </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>YukiIshigaki </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="db/dfc/_library_8h" kindref="compound">Library.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>外部非公開</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//namespace<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SceneGame<sp/><sp/><sp/>gSceneGame;<sp/>//<sp/>実体</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//};</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>グローバル変数</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><ref refid="d0/de3/class_model" kindref="compound">Model</ref>*<sp/><ref refid="d4/dae/_scene_game_8cpp_1ae7107f1fae2eb31a75f0d0aaa483254b" kindref="member">testMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>仮マップ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><ref refid="d9/da9/class_debug_timer" kindref="compound">DebugTimer</ref><sp/><ref refid="d4/dae/_scene_game_8cpp_1a98482bc4b86d97d0338f876a9457fe38" kindref="member">updateTimer</ref>;<sp/></highlight><highlight class="comment">//<sp/>更新用タイマー</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><ref refid="d9/da9/class_debug_timer" kindref="compound">DebugTimer</ref><sp/><ref refid="d4/dae/_scene_game_8cpp_1a51fa5434a2cefb22169a830a25b10b11" kindref="member">renderTimer</ref>;<sp/></highlight><highlight class="comment">//<sp/>描画用タイマー</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><ref refid="db/d86/class_performance" kindref="compound">Performance</ref>*<sp/><ref refid="d4/dae/_scene_game_8cpp_1a8a6e6fcf72d49ec04feaac70139e50f7" kindref="member">pUpdatePerformance</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>更新のパフォーマンス</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><ref refid="db/d86/class_performance" kindref="compound">Performance</ref>*<sp/><ref refid="d4/dae/_scene_game_8cpp_1ab295331eea6874cbc1956b5ad46fbe01" kindref="member">pRenderPerformance</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>描画のパフォーマンス</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d4/d33/class_scene_game_1a54beea6929aa16ce23fa0b9da8b9e7c7" kindref="member">SceneGame::addAlly</ref>(<ref refid="dd/d54/class_ally_base" kindref="compound">AllyBase</ref>*<sp/><sp/><sp/>pAlly)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a925bc506a3841931fddb622e0ada9515" kindref="member">ALLY_COUNT_MAX</ref>;<sp/>i++<sp/>)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>_pAlly[i]<sp/>==<sp/>NULL<sp/>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pAlly[i]<sp/>=<sp/>pAlly;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>分隊に登録</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_playerSquad-&gt;<ref refid="d0/dc0/class_squad_1a64b36d986fbbe63d903740be3c2fad0e" kindref="member">addMenber</ref>(_pAlly[i]);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><ref refid="d4/d33/class_scene_game_1adec58db9b09566fad2299eb755572767" kindref="member">SceneGame::SceneGame</ref>()</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>NULL指定しておかないとSAFENEWは使えない</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>_pMouse<sp/><sp/><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>_pCamera<sp/><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>_pControl<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>_pFont<sp/><sp/><sp/><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>_pPlayer<sp/><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>_playerSquad<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a8e502e90ab353b1b3d58e2554182a6ff" kindref="member">ENEMY_COUNT_MAX</ref>;<sp/>i++<sp/>)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pEnemy[i]<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a925bc506a3841931fddb622e0ada9515" kindref="member">ALLY_COUNT_MAX</ref>;<sp/>i++<sp/>)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pAlly[i]<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>_pMap<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>マウスの初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d78/_system_8h_1afdfe25c0e9b762d3b7588d3d9916faa9" kindref="member">SAFE_NEW</ref>(_pMouse);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>コントローラーの初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>_pControl<sp/>==<sp/>NULL<sp/>)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pControl<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d8/d87/class_controller" kindref="compound">Controller</ref>(1);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>カメラの初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d78/_system_8h_1afdfe25c0e9b762d3b7588d3d9916faa9" kindref="member">SAFE_NEW</ref>(_pCamera);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>作成したカメラをストック</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/d24/_camera_manager_8h_1ae599580d14733582aa84a591557b25c4" kindref="member">ICameraManager</ref>()-&gt;<ref refid="d2/d23/class_camera_manager_1a1c88d9e61467164a693c98e8affcc049" kindref="member">createCamera</ref>(_pCamera);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>フォントの初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>_pFont<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d4/d8e/class_g_l_font" kindref="compound">GLFont</ref>(L</highlight><highlight class="stringliteral">&quot;MS明朝&quot;</highlight><highlight class="normal">,<sp/>24);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>もう一度当たり判定管理クラス初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d3e/_collision_manager_8h_1a35a6d42c21062144d4efacd4d80d05f3" kindref="member">ISystemCollisionManager</ref>()-&gt;<ref refid="df/d14/class_collision_manager_1a2c5770b90b7a46a5674df008a7a57145" kindref="member">Init</ref>();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>プレイヤー初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d78/_system_8h_1afdfe25c0e9b762d3b7588d3d9916faa9" kindref="member">SAFE_NEW</ref>(_pPlayer);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>プレイヤーの分隊の初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d78/_system_8h_1afdfe25c0e9b762d3b7588d3d9916faa9" kindref="member">SAFE_NEW</ref>(_playerSquad);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>プレイヤーを分隊長に</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>_playerSquad-&gt;<ref refid="d0/dc0/class_squad_1a2cc19ba85f2f940a18bdcffe86398e7f" kindref="member">setLeader</ref>(_pPlayer);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>敵の初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a8e502e90ab353b1b3d58e2554182a6ff" kindref="member">ENEMY_COUNT_MAX</ref>;<sp/>i++<sp/>)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d78/_system_8h_1afdfe25c0e9b762d3b7588d3d9916faa9" kindref="member">SAFE_NEW</ref>(_pEnemy[i]);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>味方の初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a563f90fed6bf2c3fa1cacbddeabc4dc7" kindref="member">ALLY_ATTACKER</ref>;<sp/>i++<sp/>)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/d33/class_scene_game_1a54beea6929aa16ce23fa0b9da8b9e7c7" kindref="member">addAlly</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/da1/class_ally_attacker" kindref="compound">AllyAttacker</ref>());</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>味方の初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a4523a6651464ea22f1d6e7e728d9a19c" kindref="member">ALLY_DEFFENDER</ref>;<sp/>i++<sp/>)</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/d33/class_scene_game_1a54beea6929aa16ce23fa0b9da8b9e7c7" kindref="member">addAlly</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d0/de6/class_ally_deffender" kindref="compound">AllyDeffender</ref>());</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//SAFE_NEW(_pMap);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d78/_system_8h_1afdfe25c0e9b762d3b7588d3d9916faa9" kindref="member">SAFE_NEW</ref>(testMap);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//testMap-&gt;load(&quot;../Model/Map/Ground/CollisionCastle.mqo&quot;,<sp/>1.0f);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>testMap-&gt;<ref refid="d0/de3/class_model_1aa6d90fa11fac2b3bbf4597597f2c3f9c" kindref="member">load</ref>(</highlight><highlight class="stringliteral">&quot;../Model/Map/Ground/Maptest2.mqo&quot;</highlight><highlight class="normal">,<sp/>1.0f);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//testMap-&gt;load(&quot;../Model/Map/Ground/PlaneSampleMin.mqo&quot;,<sp/>1.0f);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//testMap-&gt;load(&quot;../Model/Map/Ground/PlaneSampleGround2.mqo&quot;,<sp/>1.0f);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//testMap-&gt;load(&quot;../Model/Map/Ground/CollisionTest.mqo&quot;,<sp/>1.0f);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(<sp/>ISystemCollision()-&gt;loadMQO(&quot;../Model/Map/Ground/CollisionCastle.mqo&quot;,<sp/>1.0f)<sp/>==<sp/>false<sp/>)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="d9/d87/_collision_8h_1a1c711b386e73b8f5dd6ebfd2c66b513f" kindref="member">ISystemCollision</ref>()-&gt;<ref refid="d4/dc5/_collision_8cpp_1a7c41e677627d514b76e63c524fd90fcf" kindref="member">loadMQO</ref>(</highlight><highlight class="stringliteral">&quot;../Model/Map/Ground/Maptest2.mqo&quot;</highlight><highlight class="normal">,<sp/>1.0f)<sp/>==<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(<sp/>ISystemCollision()-&gt;loadMQO(&quot;../Model/Map/Ground/PlaneSampleMin.mqo&quot;,<sp/>1.0f)<sp/>==<sp/>false<sp/>)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(<sp/>ISystemCollision()-&gt;loadMQO(&quot;../Model/Map/Ground/PlaneSampleGround2.mqo&quot;,<sp/>1.0f)<sp/>==<sp/>false<sp/>)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(<sp/>ISystemCollision()-&gt;loadMQO(&quot;../Model/Map/Ground/CollisionTest.mqo&quot;,<sp/>1.0f)<sp/>==<sp/>false<sp/>)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MessageBox(NULL,<sp/>L</highlight><highlight class="stringliteral">&quot;衝突判定データの初期化に失敗しました&quot;</highlight><highlight class="normal">,<sp/>L</highlight><highlight class="stringliteral">&quot;エラー&quot;</highlight><highlight class="normal">,<sp/>MB_OK);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>パフォーマンスの初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d78/_system_8h_1afdfe25c0e9b762d3b7588d3d9916faa9" kindref="member">SAFE_NEW</ref>(pUpdatePerformance);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d78/_system_8h_1afdfe25c0e9b762d3b7588d3d9916faa9" kindref="member">SAFE_NEW</ref>(pRenderPerformance);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>更新は赤</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>pUpdatePerformance-&gt;<ref refid="db/d86/class_performance_1aa7d8705a7666adadb990add57e8272de" kindref="member">setColor</ref>(<ref refid="d9/d44/struct_color" kindref="compound">Color</ref>(255,<sp/>0,<sp/>0));</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>描画は黄</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>pRenderPerformance-&gt;<ref refid="db/d86/class_performance_1aa7d8705a7666adadb990add57e8272de" kindref="member">setColor</ref>(<ref refid="d9/d44/struct_color" kindref="compound">Color</ref>(255,<sp/>255,<sp/>0));</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><ref refid="d4/d33/class_scene_game_1ae2813101b38f595f7ce11083cb23749b" kindref="member">SceneGame::~SceneGame</ref>()</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>フォントの解放</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d78/_system_8h_1a6cba00ea12abc56c4be3cdc3d97c87b0" kindref="member">SAFE_DELETE</ref>(_pFont);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>プレイヤーの解放</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d78/_system_8h_1a6cba00ea12abc56c4be3cdc3d97c87b0" kindref="member">SAFE_DELETE</ref>(_pPlayer);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a8e502e90ab353b1b3d58e2554182a6ff" kindref="member">ENEMY_COUNT_MAX</ref>;<sp/>i++<sp/>){</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d78/_system_8h_1a6cba00ea12abc56c4be3cdc3d97c87b0" kindref="member">SAFE_DELETE</ref>(_pEnemy[i]);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a925bc506a3841931fddb622e0ada9515" kindref="member">ALLY_COUNT_MAX</ref>;<sp/>i++<sp/>){</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d78/_system_8h_1a6cba00ea12abc56c4be3cdc3d97c87b0" kindref="member">SAFE_DELETE</ref>(_pAlly[i]);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>マップの開放</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d78/_system_8h_1a6cba00ea12abc56c4be3cdc3d97c87b0" kindref="member">SAFE_DELETE</ref>(_pMap);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>あたり判定クラスの解放</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d87/_collision_8h_1a1c711b386e73b8f5dd6ebfd2c66b513f" kindref="member">ISystemCollision</ref>()-&gt;<ref refid="d0/d54/class_system_collision_1ae5b6d80c1ed9f51596e44a75ce4e8ff3" kindref="member">deleteObject</ref>();</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d4/d33/class_scene_game_1a505a872c33bc0c0ea826b9442d19d14f" kindref="member">SceneGame::Initialize</ref>()</highlight></codeline>
+<codeline lineno="177"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>glClearColor(0.3,<sp/>0.3,<sp/>0.3,<sp/>1.0);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>glClearDepth(1.0f);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ｚバッファの初期化値</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>glEnable(GL_DEPTH_TEST);<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ｚバッファを有効にする</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>glEnable(GL_LIGHTING);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>glEnable(GL_LIGHT0);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>glDepthMask(GL_TRUE);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>フォントの初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>_pFont-&gt;<ref refid="d4/d8e/class_g_l_font_1ae85cae12a5e8d8feec5a076cd4baebcd" kindref="member">Initialize</ref>(L</highlight><highlight class="stringliteral">&quot;MS明朝&quot;</highlight><highlight class="normal">,<sp/>24);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>プレイヤー初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>_pPlayer-&gt;<ref refid="d8/d53/class_player_1ac9ff471df2bd80c9c087d1cb153feb2c" kindref="member">Initialize</ref>();</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>敵の初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a8e502e90ab353b1b3d58e2554182a6ff" kindref="member">ENEMY_COUNT_MAX</ref>;<sp/>i++<sp/>){</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pEnemy[i]-&gt;<ref refid="df/d42/class_attacker_1a21832a3a6f5572e15793983c4a084256" kindref="member">Initialize</ref>();</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>味方の初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a925bc506a3841931fddb622e0ada9515" kindref="member">ALLY_COUNT_MAX</ref>;<sp/>i++<sp/>){</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pAlly[i]-&gt;<ref refid="dd/d54/class_ally_base_1a56952ebd77a64f24691d36e10db0abf5" kindref="member">setLeaderPos</ref>(_pPlayer-&gt;<ref refid="dc/d24/class_obj_base_1aaf39427e88188735373b4ac1cc0f30b3" kindref="member">getPosition</ref>());</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pAlly[i]-&gt;<ref refid="dd/d54/class_ally_base_1a8deb60628340c7a2567fda3bd54ac967" kindref="member">Initialize</ref>();</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>マップの初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//_pMap-&gt;Initalize();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="206"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d4/d33/class_scene_game_1a756d87ac4d86f865e138bd8a15b58520" kindref="member">SceneGame::Update</ref>(<ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref>&amp;<sp/><ref refid="d5/d12/_main_8cpp_1a48e2c0184734db6ef7077da8cdb059df" kindref="member">state</ref>)</highlight></codeline>
+<codeline lineno="208"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">pUpdatePerformance-&gt;<ref refid="db/d86/class_performance_1a6321e2cedf4ced955e99fc7f93ae4fe4" kindref="member">ResetPerformance</ref>();</highlight></codeline>
+<codeline lineno="210"><highlight class="normal">pUpdatePerformance-&gt;<ref refid="db/d86/class_performance_1a09224f7a02ac3267299ebfa5956b1dd2" kindref="member">StartPerformance</ref>();</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="comment">//<sp/>タイマーの終了</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal">updateTimer.<ref refid="da/d69/class_timer_base_1a6ea55cb2bd63da1edc94a1c9d6ac0918" kindref="member">EndTimer</ref>();</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="comment">//<sp/>タイマーのリセット</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal">updateTimer.<ref refid="da/d69/class_timer_base_1aa47ffc6c90d8b28f87a25840ee982842" kindref="member">Reset</ref>();</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="comment">//<sp/>タイマーの開始</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal">updateTimer.<ref refid="da/d69/class_timer_base_1a23620639c3e82b1f61ad204e4f9b9795" kindref="member">StartTimer</ref>();</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>_pMouse-&gt;<ref refid="d7/dc5/class_mouse_1add9756fabb1ae55d56e10b930e5592b6" kindref="member">Update</ref>();</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>行列の初期設定</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----<sp/>投影行列の初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>glMatrixMode(GL_PROJECTION);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>glLoadIdentity();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>初期化(リセット)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//視界角、アスペクト比(ウィンドウの幅/高さ),<sp/>描画する範囲(最も近い距離,最も遠い距離)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>gluPerspective(50.0,<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<ref refid="d0/d55/_main_8h_1a241aeeb764887ae5e3de58b98f04b16d" kindref="member">WIDTH</ref>/(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<ref refid="d0/d55/_main_8h_1aed89bd71aee8be823e8a20ec4e093c1e" kindref="member">HEIGHT</ref>,<sp/>0.01f,<sp/>3000.0f);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----<sp/>ワールド/ビュー行列の初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>glMatrixMode(GL_MODELVIEW);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>glLoadIdentity();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>初期化(リセット)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>0</highlight></codeline>
+<codeline lineno="235"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>視点の設定</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>gluLookAt(<sp/><sp/>150.0f,<sp/>100.0f,<sp/>-200.0f,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>カメラの座標</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.0f,<sp/><sp/><sp/>0.0f,<sp/><sp/><sp/><sp/>0.0f,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>注視点の座標</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.0f,<sp/><sp/><sp/>1.0f,<sp/><sp/><sp/><sp/>0.0f);<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>画面の上方向を指すベクトル</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="241"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>カメラ制御<sp/>&amp;<sp/>ビュー行列の生成</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>cameraPosition(150.0f,<sp/>100.0f,<sp/>-200.0f);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cameraOffset;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>cameraOffset.<ref refid="d0/de3/struct_vector3_1a345b01a1352e569e37d0226af4eff5c6" kindref="member">_x</ref><sp/>=<sp/>(<sp/>rand()<sp/>&amp;<sp/>32768<sp/>)<sp/>*<sp/>(1.0f<sp/>/<sp/>32768.0f);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>cameraOffset.<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref><sp/>=<sp/>(<sp/>rand()<sp/>&amp;<sp/>32768<sp/>)<sp/>*<sp/>(1.0f<sp/>/<sp/>32768.0f);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/>cameraOffset.<ref refid="d0/de3/struct_vector3_1a895ad23c1a78588ace5c4aaadae984c5" kindref="member">_z</ref><sp/>=<sp/>(<sp/>rand()<sp/>&amp;<sp/>32768<sp/>)<sp/>*<sp/>(1.0f<sp/>/<sp/>32768.0f);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/><sp/><sp/><sp/><sp/>vibrationPower<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>initialized<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>initialized<sp/>==<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pCamera-&gt;<ref refid="dd/d75/class_camera_base_1acad18468f19f9fd8e7b8702f6c006560" kindref="member">setPosition</ref>(cameraPosition<sp/>+<sp/>cameraOffset<sp/>*<sp/>vibrationPower);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pCamera-&gt;<ref refid="dd/d75/class_camera_base_1aa4f4be10303b61183236a2d5abf21e16" kindref="member">setLookAt</ref><sp/><sp/>(<ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>(0,0,0)<sp/>+<sp/>cameraOffset<sp/>*<sp/>vibrationPower);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>initialized<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>プレイヤーの更新</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>_pPlayer-&gt;<ref refid="d8/d53/class_player_1a05b60cac1922c5be5c1be16baffa4497" kindref="member">Update</ref>();</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>味方更新</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>一番近い敵を狙う</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a925bc506a3841931fddb622e0ada9515" kindref="member">ALLY_COUNT_MAX</ref>;<sp/>i++<sp/>)</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>targetPosition<sp/>=<sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>(0.0f,<sp/>0.0f,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>min<sp/>=<sp/>200.0f;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>j=0;<sp/>j&lt;<ref refid="d7/db5/_game_8cpp_1a8e502e90ab353b1b3d58e2554182a6ff" kindref="member">ENEMY_COUNT_MAX</ref>;<sp/>j++<sp/>)</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>敵と味方の座標取得</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>enemyPos<sp/>=<sp/>_pEnemy[j]-&gt;<ref refid="dc/d24/class_obj_base_1aaf39427e88188735373b4ac1cc0f30b3" kindref="member">getPosition</ref>();</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>allyPos<sp/><sp/>=<sp/>_pAlly[i]-&gt;<ref refid="dc/d24/class_obj_base_1aaf39427e88188735373b4ac1cc0f30b3" kindref="member">getPosition</ref>();</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/><sp/><sp/><sp/><sp/>length<sp/>=<sp/>(enemyPos<sp/>-<sp/>allyPos).length();</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>最小より小さければ更新</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>min<sp/>&gt;=<sp/>length<sp/>)</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>最小更新</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>min<sp/>=<sp/>length;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>そのときの座標保存</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>targetPosition<sp/>=<sp/>enemyPos;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>目標座標(自分の分隊での標準位置を取得)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>goalPos<sp/>=<sp/>_playerSquad-&gt;<ref refid="d0/dc0/class_squad_1a8500396f2202f8b6cfbeb58a60b50385" kindref="member">getMyPostion</ref>(_pAlly[i]);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*_pAlly[i]-&gt;Update(_pPlayer-&gt;getCommand(),</highlight></codeline>
+<codeline lineno="295"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>targetPosition,</highlight></codeline>
+<codeline lineno="296"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pPlayer-&gt;getPosition());*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pAlly[i]-&gt;<ref refid="dd/d54/class_ally_base_1ad0e5ffbd4082605a9db1f81f8a4724bc" kindref="member">Update</ref>(_pPlayer-&gt;<ref refid="d8/d53/class_player_1af11a10fc9ebfa11af6a6e76e1f627298" kindref="member">getCommand</ref>(),</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>targetPosition,</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>goalPos<sp/>);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>敵更新</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>一番近い敵を狙う</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a8e502e90ab353b1b3d58e2554182a6ff" kindref="member">ENEMY_COUNT_MAX</ref>;<sp/>i++<sp/>)</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>targetPosition<sp/>=<sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>(0.0f,<sp/>0.0f,<sp/>0.0f);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/>min<sp/>=<sp/>10000.0f;</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>j=0;<sp/>j&lt;ALLY_COUNT_MAX<sp/>+<sp/>1;<sp/>j++<sp/>)</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>敵と味方の座標取得</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>enemyPos<sp/>=<sp/>_pEnemy[i]-&gt;<ref refid="dc/d24/class_obj_base_1aaf39427e88188735373b4ac1cc0f30b3" kindref="member">getPosition</ref>();</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/>allyPos;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>j<sp/>==<sp/>ALLY_COUNT_MAX<sp/>){</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>allyPos<sp/>=<sp/>_pPlayer-&gt;<ref refid="dc/d24/class_obj_base_1aaf39427e88188735373b4ac1cc0f30b3" kindref="member">getPosition</ref>();</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>allyPos<sp/>=<sp/>_pAlly[j]-&gt;<ref refid="dc/d24/class_obj_base_1aaf39427e88188735373b4ac1cc0f30b3" kindref="member">getPosition</ref>();</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/><sp/><sp/><sp/><sp/>length<sp/>=<sp/>(enemyPos<sp/>-<sp/>allyPos).length();</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>最小より小さければ更新</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>min<sp/>&gt;=<sp/>length<sp/>)</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>最小更新</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>min<sp/>=<sp/>length;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>そのときの座標保存</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>targetPosition<sp/>=<sp/>allyPos;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pEnemy[i]-&gt;<ref refid="df/d42/class_attacker_1a1033c8ed7d3b31300ff2ea0619f5f4dd" kindref="member">Update</ref>(targetPosition);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight><highlight class="comment">//<sp/>仮マップのアップデート</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight><highlight class="comment">//_pMap-&gt;Update();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d3e/_collision_manager_8h_1a35a6d42c21062144d4efacd4d80d05f3" kindref="member">ISystemCollisionManager</ref>()-&gt;<ref refid="df/d14/class_collision_manager_1a23c21d077dbfd7ca86e7c0649d775dfc" kindref="member">Update</ref>();</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ゲーム終了処理</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(_pPlayer-&gt;<ref refid="da/d50/class_man_1a60341fe647e8671b969c61f6d702a26e" kindref="member">getStatus</ref>()-&gt;<ref refid="df/df2/struct_status_1ab11ff5709bfc35f8645fdfd1d3a8d307" kindref="member">getHP</ref>()<sp/>&lt;=<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>state<sp/>=<sp/>2;<sp/><sp/></highlight><highlight class="comment">//<sp/>ゲームオーバーへ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>プレイヤー情報一時保存</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><sp/>PlayerPos;</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/><sp/><sp/><sp/><sp/><sp/>PlayerRot;</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref><sp/><sp/>PlayerAttackPos;</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref><sp/><sp/><sp/><sp/><sp/><sp/>PlayerAttackRad;</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>注視点との距離を設定</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/>_pCamera-&gt;<ref refid="dd/d75/class_camera_base_1a5c20fbbaeb08a28959875bd00c17c6fb" kindref="member">changeLookAtLength</ref>(_pMouse-&gt;<ref refid="d7/dc5/class_mouse_1a38e178d9d764a8670d5682f0fe3f2f47" kindref="member">getChangeWheel</ref>());</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>カメラの更新</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/>_pCamera-&gt;<ref refid="da/dbb/class_camera_1a6f169173a5a93a75d6a7437decad88ec" kindref="member">update</ref>(_pControl[0],<sp/>_pPlayer-&gt;<ref refid="dc/d24/class_obj_base_1aaf39427e88188735373b4ac1cc0f30b3" kindref="member">getPosition</ref>(),</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pPlayer-&gt;<ref refid="dc/d24/class_obj_base_1ad24f6c206c4b736eae5476b50f23f377" kindref="member">getRotation</ref>().<ref refid="d0/de3/struct_vector3_1a5e3cec066537515a2387a34b57aed6ed" kindref="member">_y</ref>,</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pMouse-&gt;<ref refid="d7/dc5/class_mouse_1aa9270008e04dfc725c45c9b518119712" kindref="member">getOffset</ref>());</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/struct_matrix" kindref="compound">Matrix</ref><sp/><sp/>viewMatirx<sp/>=<sp/>_pCamera-&gt;<ref refid="dd/d75/class_camera_base_1afddab07dc299807c1661e9e4dc6b8553" kindref="member">getViewMatrix</ref>();</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/>glMultMatrixf(<sp/>(GLfloat*)&amp;viewMatirx<sp/>);</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="370"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal">pUpdatePerformance-&gt;<ref refid="db/d86/class_performance_1aed413eee749dfdb1a62d4e127f51f822" kindref="member">EndPerformance</ref>();</highlight></codeline>
+<codeline lineno="372"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"></highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="376"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d4/d33/class_scene_game_1a412d68d4c94b297b02dcba0295b887b2" kindref="member">SceneGame::Render</ref>()</highlight></codeline>
+<codeline lineno="378"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"></highlight></codeline>
+<codeline lineno="380"><highlight class="normal">pRenderPerformance-&gt;<ref refid="db/d86/class_performance_1a6321e2cedf4ced955e99fc7f93ae4fe4" kindref="member">ResetPerformance</ref>();</highlight></codeline>
+<codeline lineno="381"><highlight class="normal">pRenderPerformance-&gt;<ref refid="db/d86/class_performance_1a09224f7a02ac3267299ebfa5956b1dd2" kindref="member">StartPerformance</ref>();</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight><highlight class="comment">//<sp/>タイマーの開始</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="384"><highlight class="normal">renderTimer.<ref refid="da/d69/class_timer_base_1a23620639c3e82b1f61ad204e4f9b9795" kindref="member">StartTimer</ref>();</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"></highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>鏡面の色</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/>GLfloat<sp/>mat_specular[]<sp/>=<sp/>{<sp/>1.0,<sp/>1.0,<sp/>1.0,<sp/>0.15<sp/>};</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>輝き</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/>GLfloat<sp/>mat_shininess[]<sp/>=<sp/>{<sp/>10.0f<sp/>};</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ライトの位置</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/>GLfloat<sp/>lightpos[]<sp/><sp/><sp/><sp/><sp/>=<sp/>{<sp/>1.0,<sp/>1.0,<sp/>1.0,<sp/>1.0<sp/>};</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>鏡面の設定</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//glMaterialfv(GL_FRONT,<sp/>GL_SPECULAR,<sp/>mat_specular);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>輝きの設定</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//glMaterialfv(GL_FRONT,<sp/>GL_SHININESS,<sp/>mat_shininess);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ライトの設定</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/><sp/>glLightfv(GL_LIGHT0,<sp/>GL_POSITION,<sp/>lightpos);</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="399"><highlight class="normal"></highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="401"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ここから描画(3D)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="402"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="403"><highlight class="normal"></highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ISystemShader()-&gt;beginShader(SystemShader::SHADER_TEXTURE);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="407"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----<sp/>不透明(モデル等)の描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="408"><highlight class="normal"><sp/><sp/><sp/><sp/>glEnable(GL_LIGHTING);</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"></highlight></codeline>
+<codeline lineno="410"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>マップの描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//_pMap-&gt;Render();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="412"><highlight class="normal"></highlight></codeline>
+<codeline lineno="413"><highlight class="normal"><sp/><sp/><sp/><sp/>testMap-&gt;<ref refid="d0/de3/class_model_1a89ebd61864089abe5b0c5a1df6479970" kindref="member">render</ref>();</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"></highlight></codeline>
+<codeline lineno="415"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>味方と味方のステータスの描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="416"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a925bc506a3841931fddb622e0ada9515" kindref="member">ALLY_COUNT_MAX</ref>;<sp/>i++<sp/>)</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pAlly[i]-&gt;<ref refid="dd/d54/class_ally_base_1aadfd770043d90b11986181a75ad2e32d" kindref="member">Render</ref>();</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"></highlight></codeline>
+<codeline lineno="421"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>敵と敵のステータスの描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="422"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a8e502e90ab353b1b3d58e2554182a6ff" kindref="member">ENEMY_COUNT_MAX</ref>;<sp/>i++<sp/>)</highlight></codeline>
+<codeline lineno="423"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="424"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pEnemy[i]-&gt;<ref refid="df/d42/class_attacker_1af276df8f646d1242e6b8b3259a2fb9cc" kindref="member">Render</ref>();</highlight></codeline>
+<codeline lineno="425"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="426"><highlight class="normal"></highlight></codeline>
+<codeline lineno="427"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>プレイヤーの描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="428"><highlight class="normal"><sp/><sp/><sp/><sp/>_pPlayer-&gt;<ref refid="d8/d53/class_player_1ad141ea844ac82f2447d986d964d1e8a7" kindref="member">Render</ref>();</highlight></codeline>
+<codeline lineno="429"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="431"><highlight class="normal"><sp/><sp/><sp/><sp/>_pPlayer-&gt;<ref refid="d8/d53/class_player_1ae85aa995df4b7cc7bbc6411fe1ae50f9" kindref="member">CommandRender</ref>();</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"></highlight></codeline>
+<codeline lineno="433"><highlight class="normal"><sp/><sp/><sp/><sp/>GLfloat<sp/>white[]<sp/><sp/>=<sp/>{<sp/>1.0f,<sp/>1.0f,<sp/>1.0f,<sp/>1.0f<sp/>};</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"></highlight></codeline>
+<codeline lineno="435"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>今までの色を初期化</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="436"><highlight class="normal"><sp/><sp/><sp/><sp/>glMaterialfv(GL_FRONT,<sp/>GL_AMBIENT_AND_DIFFUSE,<sp/>white);</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----<sp/>半透明(ステータス等)の描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="439"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>シェーダの終了</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="440"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ISystemShader()-&gt;endShader();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="441"><highlight class="normal"></highlight></codeline>
+<codeline lineno="442"><highlight class="normal"><sp/><sp/><sp/><sp/>glDisable(GL_LIGHTING);</highlight></codeline>
+<codeline lineno="443"><highlight class="normal"></highlight></codeline>
+<codeline lineno="444"><highlight class="normal"></highlight></codeline>
+<codeline lineno="445"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>味方と味方のステータスの描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="446"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a925bc506a3841931fddb622e0ada9515" kindref="member">ALLY_COUNT_MAX</ref>;<sp/>i++<sp/>)</highlight></codeline>
+<codeline lineno="447"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="448"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pAlly[i]-&gt;<ref refid="dd/d54/class_ally_base_1a273efbd74be3780208b5c70cd80a1111" kindref="member">StatusRender</ref>();</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="450"><highlight class="normal"></highlight></codeline>
+<codeline lineno="451"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>敵と敵のステータスの描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="452"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a8e502e90ab353b1b3d58e2554182a6ff" kindref="member">ENEMY_COUNT_MAX</ref>;<sp/>i++<sp/>)</highlight></codeline>
+<codeline lineno="453"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="454"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pEnemy[i]-&gt;<ref refid="df/d42/class_attacker_1a69f841c2bd1a9c6ca1780bed050d0ab8" kindref="member">StatusRender</ref>();</highlight></codeline>
+<codeline lineno="455"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="456"><highlight class="normal"></highlight></codeline>
+<codeline lineno="457"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>当たり判定のデバック描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="458"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d87/_collision_8h_1a1c711b386e73b8f5dd6ebfd2c66b513f" kindref="member">ISystemCollision</ref>()-&gt;<ref refid="d0/d54/class_system_collision_1abf90f3f07d21345949bd6d2f428874db" kindref="member">DebugRender</ref>();</highlight></codeline>
+<codeline lineno="459"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="460"><highlight class="normal"></highlight></codeline>
+<codeline lineno="461"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/><ref refid="d0/d55/_main_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>i=0;<sp/>i&lt;<ref refid="d7/db5/_game_8cpp_1a925bc506a3841931fddb622e0ada9515" kindref="member">ALLY_COUNT_MAX</ref>;<sp/>i++<sp/>)</highlight></codeline>
+<codeline lineno="462"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="463"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pAlly[i]-&gt;<ref refid="dd/d54/class_ally_base_1a76b3e01b0d3ad523947f5c1d480c211e" kindref="member">DebugRender</ref>();</highlight></codeline>
+<codeline lineno="464"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="465"><highlight class="normal"></highlight></codeline>
+<codeline lineno="466"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="467"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ここから描画(2D)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="468"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="469"><highlight class="normal"><sp/><sp/><sp/><sp/>glMatrixMode(GL_PROJECTION);</highlight></codeline>
+<codeline lineno="470"><highlight class="normal"><sp/><sp/><sp/><sp/>glLoadIdentity();</highlight></codeline>
+<codeline lineno="471"><highlight class="normal"><sp/><sp/><sp/><sp/>glPushMatrix();</highlight></codeline>
+<codeline lineno="472"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glOrtho(0,<sp/><ref refid="d0/d55/_main_8h_1a241aeeb764887ae5e3de58b98f04b16d" kindref="member">WIDTH</ref>,<sp/><ref refid="d0/d55/_main_8h_1aed89bd71aee8be823e8a20ec4e093c1e" kindref="member">HEIGHT</ref>,<sp/>0,<sp/>-1,<sp/>1);</highlight></codeline>
+<codeline lineno="473"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glMatrixMode(GL_MODELVIEW);</highlight></codeline>
+<codeline lineno="474"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glLoadIdentity();</highlight></codeline>
+<codeline lineno="475"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glPushMatrix();</highlight></codeline>
+<codeline lineno="476"><highlight class="normal"></highlight></codeline>
+<codeline lineno="477"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>カメラの描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="478"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pCamera-&gt;<ref refid="da/dbb/class_camera_1ad709dfeee1327f981f7ab2b5d6db0c11" kindref="member">DebugRender</ref>();</highlight></codeline>
+<codeline lineno="479"><highlight class="normal"></highlight></codeline>
+<codeline lineno="480"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>プレイヤーのステータス描画1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="481"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_pPlayer-&gt;<ref refid="d8/d53/class_player_1ab32629a7abedd7b3984545c37fda8008" kindref="member">StatusRender</ref>();</highlight></codeline>
+<codeline lineno="482"><highlight class="normal"></highlight></codeline>
+<codeline lineno="483"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="484"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="485"><highlight class="normal"></highlight></codeline>
+<codeline lineno="486"><highlight class="normal"></highlight><highlight class="comment">//<sp/>タイマーの終了</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="487"><highlight class="normal">renderTimer.<ref refid="da/d69/class_timer_base_1a6ea55cb2bd63da1edc94a1c9d6ac0918" kindref="member">EndTimer</ref>();</highlight></codeline>
+<codeline lineno="488"><highlight class="normal"></highlight><highlight class="comment">//<sp/>タイマーのリセット</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="489"><highlight class="normal">renderTimer.<ref refid="da/d69/class_timer_base_1aa47ffc6c90d8b28f87a25840ee982842" kindref="member">Reset</ref>();</highlight></codeline>
+<codeline lineno="490"><highlight class="normal"></highlight></codeline>
+<codeline lineno="491"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="492"><highlight class="normal"></highlight><highlight class="comment">//<sp/>タイマーの描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="493"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>str[255];</highlight></codeline>
+<codeline lineno="494"><highlight class="normal"></highlight></codeline>
+<codeline lineno="495"><highlight class="normal"></highlight><highlight class="comment">//<sp/>更新時間の描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="496"><highlight class="normal">sprintf(<sp/>str,<sp/></highlight><highlight class="stringliteral">&quot;Update<sp/>Time<sp/>is<sp/>&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="497"><highlight class="normal">updateTimer.<ref refid="da/d69/class_timer_base_1a951ca2c63371cf01e281348c78725fba" kindref="member">DrawTotalTime</ref>(<ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>(<sp/>600.0f,<sp/><sp/>50.0f,<sp/>0.0f<sp/>),<sp/>str<sp/>);</highlight></codeline>
+<codeline lineno="498"><highlight class="normal"></highlight><highlight class="comment">//<sp/>描画時間の描画</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="499"><highlight class="normal">sprintf(<sp/>str,<sp/></highlight><highlight class="stringliteral">&quot;Render<sp/>Time<sp/>is<sp/>&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="500"><highlight class="normal">renderTimer.<ref refid="da/d69/class_timer_base_1a951ca2c63371cf01e281348c78725fba" kindref="member">DrawTotalTime</ref>(<ref refid="d0/de3/struct_vector3" kindref="compound">Vector3</ref>(<sp/>600.0f,<sp/>100.0f,<sp/>0.0f<sp/>),<sp/>str<sp/>);</highlight></codeline>
+<codeline lineno="501"><highlight class="normal"></highlight></codeline>
+<codeline lineno="502"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glPopMatrix();</highlight></codeline>
+<codeline lineno="503"><highlight class="normal"><sp/><sp/><sp/><sp/>glPopMatrix();</highlight></codeline>
+<codeline lineno="504"><highlight class="normal"></highlight></codeline>
+<codeline lineno="505"><highlight class="normal"></highlight></codeline>
+<codeline lineno="506"><highlight class="normal">pRenderPerformance-&gt;<ref refid="db/d86/class_performance_1aed413eee749dfdb1a62d4e127f51f822" kindref="member">EndPerformance</ref>();</highlight></codeline>
+<codeline lineno="507"><highlight class="normal"></highlight></codeline>
+<codeline lineno="508"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="509"><highlight class="normal"></highlight></codeline>
+<codeline lineno="510"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="511"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>END<sp/>OF<sp/>FILE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="512"><highlight class="normal"></highlight><highlight class="comment">//=============================================================================</highlight></codeline>
+    </programlisting>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.cpp"/>
+  </compounddef>
+</doxygen>

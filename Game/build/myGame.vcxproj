@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Ally.cpp" />
+    <ClCompile Include="..\src\AllyAttacker.cpp" />
+    <ClCompile Include="..\src\AllyDeffender.cpp" />
+    <ClCompile Include="..\src\AllyHealer.cpp" />
+    <ClCompile Include="..\src\BillBoard.cpp" />
+    <ClCompile Include="..\src\CascadedShadow.cpp" />
+    <ClCompile Include="..\src\CollisionObject.cpp" />
+    <ClCompile Include="..\src\Effect.cpp" />
+    <ClCompile Include="..\src\Enemy.cpp" />
+    <ClCompile Include="..\src\EnemyAttacker.cpp" />
+    <ClCompile Include="..\src\EnemyDeffender.cpp" />
+    <ClCompile Include="..\src\EnemyLeader.cpp" />
+    <ClCompile Include="..\src\GLFont.cpp" />
+    <ClCompile Include="..\src\IObj.cpp" />
+    <ClCompile Include="..\src\Key.cpp" />
+    <ClCompile Include="..\src\KeyAttacker.cpp" />
+    <ClCompile Include="..\src\KeyDeffender.cpp" />
+    <ClCompile Include="..\src\KeyHealer.cpp" />
+    <ClCompile Include="..\src\KeyInput.cpp" />
+    <ClCompile Include="..\src\Light.cpp" />
+    <ClCompile Include="..\src\LightBase.cpp" />
+    <ClCompile Include="..\src\LightManager.cpp" />
+    <ClCompile Include="..\src\Main.cpp" />
+    <ClCompile Include="..\src\ObjDataManager.cpp" />
+    <ClCompile Include="..\src\Library.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Library.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Library.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\src\Man.cpp" />
+    <ClCompile Include="..\src\Map.cpp" />
+    <ClCompile Include="..\src\ObjBase.cpp" />
+    <ClCompile Include="..\src\Player.cpp" />
+    <ClCompile Include="..\src\SceneGame.cpp" />
+    <ClCompile Include="..\src\SceneOption.cpp" />
+    <ClCompile Include="..\src\SceneTitle.cpp" />
+    <ClCompile Include="..\src\ShadowMap.cpp" />
+    <ClCompile Include="..\src\SkyBox.cpp" />
+    <ClCompile Include="..\src\SoundPlayer.cpp" />
+    <ClCompile Include="..\src\SoundPlayerManager.cpp" />
+    <ClCompile Include="..\src\Squad.cpp" />
+    <ClCompile Include="..\src\SquadManager.cpp" />
+    <ClCompile Include="..\src\Status.cpp" />
+    <ClCompile Include="..\src\StatusAssets.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Ally.h" />
+    <ClInclude Include="..\src\AllyAttacker.h" />
+    <ClInclude Include="..\src\AllyDeffender.h" />
+    <ClInclude Include="..\src\AllyHealer.h" />
+    <ClInclude Include="..\src\BillBoard.h" />
+    <ClInclude Include="..\src\CascadedShadow.h" />
+    <ClInclude Include="..\src\CollisionObject.h" />
+    <ClInclude Include="..\src\Effect.h" />
+    <ClInclude Include="..\src\Enemy.h" />
+    <ClInclude Include="..\src\EnemyAttacker.h" />
+    <ClInclude Include="..\src\EnemyDeffender.h" />
+    <ClInclude Include="..\src\EnemyLeader.h" />
+    <ClInclude Include="..\src\GLFont.h" />
+    <ClInclude Include="..\src\Key.h" />
+    <ClInclude Include="..\src\IObj.h" />
+    <ClInclude Include="..\src\KeyAttacker.h" />
+    <ClInclude Include="..\src\KeyDeffender.h" />
+    <ClInclude Include="..\src\KeyHealer.h" />
+    <ClInclude Include="..\src\KeyInput.h" />
+    <ClInclude Include="..\src\Light.h" />
+    <ClInclude Include="..\src\LightBase.h" />
+    <ClInclude Include="..\src\LightManager.h" />
+    <ClInclude Include="..\src\ObjDataManager.h" />
+    <ClInclude Include="..\src\Library.h" />
+    <ClInclude Include="..\src\Main.h" />
+    <ClInclude Include="..\src\Man.h" />
+    <ClInclude Include="..\src\Map.h" />
+    <ClInclude Include="..\src\ObjBase.h" />
+    <ClInclude Include="..\src\Player.h" />
+    <ClInclude Include="..\src\SceneGame.h" />
+    <ClInclude Include="..\src\SceneOption.h" />
+    <ClInclude Include="..\src\SceneTitle.h" />
+    <ClInclude Include="..\src\ShadowMap.h" />
+    <ClInclude Include="..\src\Singleton.h" />
+    <ClInclude Include="..\src\SkyBox.h" />
+    <ClInclude Include="..\src\SoundPlayer.h" />
+    <ClInclude Include="..\src\SoundPlayerManager.h" />
+    <ClInclude Include="..\src\Squad.h" />
+    <ClInclude Include="..\src\SquadManager.h" />
+    <ClInclude Include="..\src\Status.h" />
+    <ClInclude Include="..\src\StatusAssets.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaderFile\AddLensEffects.frag" />
+    <None Include="shaderFile\AnamolphicFlareFilter.frag" />
+    <None Include="shaderFile\AnamolphicFlareFilter.vert" />
+    <None Include="shaderFile\BloomGlare.frag" />
+    <None Include="shaderFile\common\define.glsl" />
+    <None Include="shaderFile\common\utils.glsl" />
+    <None Include="shaderFile\debugDraw.frag" />
+    <None Include="shaderFile\debugDraw.vert" />
+    <None Include="shaderFile\debugTexture.frag" />
+    <None Include="shaderFile\debugTexture.vert" />
+    <None Include="shaderFile\drawCubeMap.frag" />
+    <None Include="shaderFile\drawCubeMap.vert" />
+    <None Include="shaderFile\ExpandBlur.frag" />
+    <None Include="shaderFile\ExpandBlur.vert" />
+    <None Include="shaderFile\Filter.frag" />
+    <None Include="shaderFile\Filter.vert" />
+    <None Include="shaderFile\Gaussian3x3.frag" />
+    <None Include="shaderFile\Gaussian3x3_H.vert" />
+    <None Include="shaderFile\Gaussian3x3_V.vert" />
+    <None Include="shaderFile\GetLuminance.frag" />
+    <None Include="shaderFile\GetLuminance.vert" />
+    <None Include="shaderFile\GlareFilter.frag" />
+    <None Include="shaderFile\GlareFilter.vert" />
+    <None Include="shaderFile\LensFlare.frag" />
+    <None Include="shaderFile\LightAdaptation.frag" />
+    <None Include="shaderFile\LuminanceReduction.frag" />
+    <None Include="shaderFile\LuminanceReduction.vert" />
+    <None Include="shaderFile\MotionBlur.frag" />
+    <None Include="shaderFile\MotionBlur.vert" />
+    <None Include="shaderFile\noTexture.frag" />
+    <None Include="shaderFile\noTexture.vert" />
+    <None Include="shaderFile\Shadow.frag" />
+    <None Include="shaderFile\Shadow.vert" />
+    <None Include="shaderFile\simple.frag" />
+    <None Include="shaderFile\simple.vert" />
+    <None Include="shaderFile\standard.frag" />
+    <None Include="shaderFile\standard.vert" />
+    <None Include="shaderFile\standardColor.frag" />
+    <None Include="shaderFile\Subtract.frag" />
+    <None Include="shaderFile\Test.frag" />
+    <None Include="shaderFile\Test.vert" />
+    <None Include="shaderFile\Texture.frag" />
+    <None Include="shaderFile\Texture.vert" />
+    <None Include="shaderFile\ToneMappingFinal.frag" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{59428B93-4E74-4590-9DFC-94AC1B8B9365}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>test1</RootNamespace>
+    <ProjectName>myGame</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>
+    </LinkIncremental>
+    <IncludePath>../../Library;$(IncludePath)</IncludePath>
+    <LibraryPath>../../Library/XInput;../../Library/glew\lib;../../Library/freeglut\lib\x86\Debug;../../Library/fmod\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>
+    </LinkIncremental>
+    <LibraryPath>../../Library/XInput;../../Library/glew\lib;../../Library/freeglut\lib\x86\Release;../../Library/fmod\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>../../Library;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>Library.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>Library.h</ForcedIncludeFiles>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(ConfigurationName)/GameEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>Library.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>Library.h</ForcedIncludeFiles>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>$(ConfigurationName)/GameEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

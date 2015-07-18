@@ -1,0 +1,299 @@
+\hypertarget{class_camera_base}{\section{クラス Camera\-Base}
+\label{class_camera_base}\index{Camera\-Base@{Camera\-Base}}
+}
+
+
+{\ttfamily \#include $<$Camera\-Base.\-h$>$}
+
+Camera\-Baseに対する継承グラフ\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{dd/d75/class_camera_base}
+\end{center}
+\end{figure}
+\subsection*{Public メソッド}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_camera_base_a7e0c8252a40bc63d8ba4b7f1aa6fadd4}{Camera\-Base} ()
+\begin{DoxyCompactList}\small\item\em コンストラクタ \end{DoxyCompactList}\item 
+virtual \hyperlink{class_camera_base_aab4dedae85ee16a8aeb397b6c109431f}{$\sim$\-Camera\-Base} ()
+\begin{DoxyCompactList}\small\item\em 仮想デストラクタ \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_camera_base_a5d21e2335eaca87dd90cf0f8b16ad9ca}{update} (\hyperlink{class_controller}{Controller} \&control, \hyperlink{struct_vector3}{Vector3} \&Player\-Pos, const \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \&Player\-Rot, P\-O\-I\-N\-T mouse\-Offset)
+\begin{DoxyCompactList}\small\item\em 更新 \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_camera_base_a50b83449318c2f2b2e49d7275f8b52fa}{Debug\-Render} ()
+\begin{DoxyCompactList}\small\item\em デバッグ表示 \end{DoxyCompactList}\item 
+void \hyperlink{class_camera_base_acad18468f19f9fd8e7b8702f6c006560}{set\-Position} (const \hyperlink{struct_vector3}{Vector3} \&position)
+\begin{DoxyCompactList}\small\item\em 位置を指定 \end{DoxyCompactList}\item 
+void \hyperlink{class_camera_base_aa4f4be10303b61183236a2d5abf21e16}{set\-Look\-At} (const \hyperlink{struct_vector3}{Vector3} \&look\-At)
+\begin{DoxyCompactList}\small\item\em 注視点を指定 \end{DoxyCompactList}\item 
+void \hyperlink{class_camera_base_a0afcc44fd87f9e9e0894070073d2b3a1}{set\-World\-Up} (const \hyperlink{struct_vector3}{Vector3} \&world\-Up)
+\begin{DoxyCompactList}\small\item\em 世界の上方向を設定 \end{DoxyCompactList}\item 
+void \hyperlink{class_camera_base_a5c20fbbaeb08a28959875bd00c17c6fb}{change\-Look\-At\-Length} (const \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \&change)
+\begin{DoxyCompactList}\small\item\em 注視点との距離変更 \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_camera_base_aa70dad729d671a46231c2d18d41a06ab}{get\-Rotation} () const 
+\begin{DoxyCompactList}\small\item\em 角度を取得 \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_camera_base_ac2f00c1723997b460bb88d164563aefa}{get\-Position} () const 
+\begin{DoxyCompactList}\small\item\em 位置を取得 \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_camera_base_ad8ea8b00adcde2da0f0ee1ef2703df87}{get\-Look\-At} () const 
+\begin{DoxyCompactList}\small\item\em 注視点を取得 \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_camera_base_a302bc86bb3267b785edcd7d21ff83486}{get\-World\-Up} () const 
+\begin{DoxyCompactList}\small\item\em 世界の上方向を取得 \end{DoxyCompactList}\item 
+const \hyperlink{struct_matrix}{Matrix} \& \hyperlink{class_camera_base_aa5310b2074e4cb732986dc877eeb3af9}{get\-Matrix} () const 
+\begin{DoxyCompactList}\small\item\em 姿勢行列を取得 \end{DoxyCompactList}\item 
+const \hyperlink{struct_matrix}{Matrix} \& \hyperlink{class_camera_base_afddab07dc299807c1661e9e4dc6b8553}{get\-View\-Matrix} () const 
+\begin{DoxyCompactList}\small\item\em ビュー行列を取得 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected 変数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_camera_base_a3452d98af9a9d4323d8a2d3e6dc966e5}{\-\_\-position}
+\begin{DoxyCompactList}\small\item\em 位置座標 \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_camera_base_aa89610f1021ae21eebcbe9e17c557ad1}{\-\_\-look\-At}
+\begin{DoxyCompactList}\small\item\em 注視点 \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_camera_base_ad65432efc07bb5d95268166cb432e0b2}{\-\_\-world\-Up}
+\begin{DoxyCompactList}\small\item\em 世界の上方向の基準軸 \end{DoxyCompactList}\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_camera_base_a26a9abf2c69bd35302dfd5546facaa59}{\-\_\-rot}
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_xE8_xA7_x92_xE5_xBA_xA6}{角度} \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{class_camera_base_a601245a0b3275adcd1f64b518b17a218}{\-\_\-radius}
+\begin{DoxyCompactList}\small\item\em 半径 \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{class_camera_base_a49508fac0dc3362b7e60f614e3f9c669}{\-\_\-look\-At\-Length}
+\begin{DoxyCompactList}\small\item\em 注視点との距離 \end{DoxyCompactList}\item 
+\hyperlink{struct_matrix}{Matrix} \hyperlink{class_camera_base_ad57a54d46b6005687ee5dfa6a99e2807}{\-\_\-matrix}
+\begin{DoxyCompactList}\small\item\em 姿勢行列 \end{DoxyCompactList}\item 
+\hyperlink{struct_matrix}{Matrix} \hyperlink{class_camera_base_ac982bf8a4c710d101c988618346d144d}{\-\_\-view\-Matrix}
+\begin{DoxyCompactList}\small\item\em ビュー行列 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{コンストラクタとデストラクタ}
+\hypertarget{class_camera_base_a7e0c8252a40bc63d8ba4b7f1aa6fadd4}{\index{Camera\-Base@{Camera\-Base}!Camera\-Base@{Camera\-Base}}
+\index{Camera\-Base@{Camera\-Base}!CameraBase@{Camera\-Base}}
+\subsubsection[{Camera\-Base}]{\setlength{\rightskip}{0pt plus 5cm}Camera\-Base\-::\-Camera\-Base (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_camera_base_a7e0c8252a40bc63d8ba4b7f1aa6fadd4}
+
+
+コンストラクタ 
+
+\hypertarget{class_camera_base_aab4dedae85ee16a8aeb397b6c109431f}{\index{Camera\-Base@{Camera\-Base}!$\sim$\-Camera\-Base@{$\sim$\-Camera\-Base}}
+\index{$\sim$\-Camera\-Base@{$\sim$\-Camera\-Base}!CameraBase@{Camera\-Base}}
+\subsubsection[{$\sim$\-Camera\-Base}]{\setlength{\rightskip}{0pt plus 5cm}virtual Camera\-Base\-::$\sim$\-Camera\-Base (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_camera_base_aab4dedae85ee16a8aeb397b6c109431f}
+
+
+仮想デストラクタ 
+
+
+
+\subsection{関数}
+\hypertarget{class_camera_base_a5c20fbbaeb08a28959875bd00c17c6fb}{\index{Camera\-Base@{Camera\-Base}!change\-Look\-At\-Length@{change\-Look\-At\-Length}}
+\index{change\-Look\-At\-Length@{change\-Look\-At\-Length}!CameraBase@{Camera\-Base}}
+\subsubsection[{change\-Look\-At\-Length}]{\setlength{\rightskip}{0pt plus 5cm}void Camera\-Base\-::change\-Look\-At\-Length (
+\begin{DoxyParamCaption}
+\item[{const {\bf f32} \&}]{change}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_camera_base_a5c20fbbaeb08a28959875bd00c17c6fb}
+
+
+注視点との距離変更 
+
+\hypertarget{class_camera_base_a50b83449318c2f2b2e49d7275f8b52fa}{\index{Camera\-Base@{Camera\-Base}!Debug\-Render@{Debug\-Render}}
+\index{Debug\-Render@{Debug\-Render}!CameraBase@{Camera\-Base}}
+\subsubsection[{Debug\-Render}]{\setlength{\rightskip}{0pt plus 5cm}void Camera\-Base\-::\-Debug\-Render (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_camera_base_a50b83449318c2f2b2e49d7275f8b52fa}
+
+
+デバッグ表示 
+
+
+
+\hyperlink{class_camera_ad709dfeee1327f981f7ab2b5d6db0c11}{Camera}で再定義されています。
+
+\hypertarget{class_camera_base_ad8ea8b00adcde2da0f0ee1ef2703df87}{\index{Camera\-Base@{Camera\-Base}!get\-Look\-At@{get\-Look\-At}}
+\index{get\-Look\-At@{get\-Look\-At}!CameraBase@{Camera\-Base}}
+\subsubsection[{get\-Look\-At}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Camera\-Base\-::get\-Look\-At (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_camera_base_ad8ea8b00adcde2da0f0ee1ef2703df87}
+
+
+注視点を取得 
+
+\hypertarget{class_camera_base_aa5310b2074e4cb732986dc877eeb3af9}{\index{Camera\-Base@{Camera\-Base}!get\-Matrix@{get\-Matrix}}
+\index{get\-Matrix@{get\-Matrix}!CameraBase@{Camera\-Base}}
+\subsubsection[{get\-Matrix}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Matrix}\& Camera\-Base\-::get\-Matrix (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_camera_base_aa5310b2074e4cb732986dc877eeb3af9}
+
+
+姿勢行列を取得 
+
+\hypertarget{class_camera_base_ac2f00c1723997b460bb88d164563aefa}{\index{Camera\-Base@{Camera\-Base}!get\-Position@{get\-Position}}
+\index{get\-Position@{get\-Position}!CameraBase@{Camera\-Base}}
+\subsubsection[{get\-Position}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Camera\-Base\-::get\-Position (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_camera_base_ac2f00c1723997b460bb88d164563aefa}
+
+
+位置を取得 
+
+\hypertarget{class_camera_base_aa70dad729d671a46231c2d18d41a06ab}{\index{Camera\-Base@{Camera\-Base}!get\-Rotation@{get\-Rotation}}
+\index{get\-Rotation@{get\-Rotation}!CameraBase@{Camera\-Base}}
+\subsubsection[{get\-Rotation}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Camera\-Base\-::get\-Rotation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_camera_base_aa70dad729d671a46231c2d18d41a06ab}
+
+
+角度を取得 
+
+\hypertarget{class_camera_base_afddab07dc299807c1661e9e4dc6b8553}{\index{Camera\-Base@{Camera\-Base}!get\-View\-Matrix@{get\-View\-Matrix}}
+\index{get\-View\-Matrix@{get\-View\-Matrix}!CameraBase@{Camera\-Base}}
+\subsubsection[{get\-View\-Matrix}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Matrix}\& Camera\-Base\-::get\-View\-Matrix (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_camera_base_afddab07dc299807c1661e9e4dc6b8553}
+
+
+ビュー行列を取得 
+
+\hypertarget{class_camera_base_a302bc86bb3267b785edcd7d21ff83486}{\index{Camera\-Base@{Camera\-Base}!get\-World\-Up@{get\-World\-Up}}
+\index{get\-World\-Up@{get\-World\-Up}!CameraBase@{Camera\-Base}}
+\subsubsection[{get\-World\-Up}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Camera\-Base\-::get\-World\-Up (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_camera_base_a302bc86bb3267b785edcd7d21ff83486}
+
+
+世界の上方向を取得 
+
+\hypertarget{class_camera_base_aa4f4be10303b61183236a2d5abf21e16}{\index{Camera\-Base@{Camera\-Base}!set\-Look\-At@{set\-Look\-At}}
+\index{set\-Look\-At@{set\-Look\-At}!CameraBase@{Camera\-Base}}
+\subsubsection[{set\-Look\-At}]{\setlength{\rightskip}{0pt plus 5cm}void Camera\-Base\-::set\-Look\-At (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{look\-At}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_camera_base_aa4f4be10303b61183236a2d5abf21e16}
+
+
+注視点を指定 
+
+\hypertarget{class_camera_base_acad18468f19f9fd8e7b8702f6c006560}{\index{Camera\-Base@{Camera\-Base}!set\-Position@{set\-Position}}
+\index{set\-Position@{set\-Position}!CameraBase@{Camera\-Base}}
+\subsubsection[{set\-Position}]{\setlength{\rightskip}{0pt plus 5cm}void Camera\-Base\-::set\-Position (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{position}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_camera_base_acad18468f19f9fd8e7b8702f6c006560}
+
+
+位置を指定 
+
+\hypertarget{class_camera_base_a0afcc44fd87f9e9e0894070073d2b3a1}{\index{Camera\-Base@{Camera\-Base}!set\-World\-Up@{set\-World\-Up}}
+\index{set\-World\-Up@{set\-World\-Up}!CameraBase@{Camera\-Base}}
+\subsubsection[{set\-World\-Up}]{\setlength{\rightskip}{0pt plus 5cm}void Camera\-Base\-::set\-World\-Up (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vector3} \&}]{world\-Up}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_camera_base_a0afcc44fd87f9e9e0894070073d2b3a1}
+
+
+世界の上方向を設定 
+
+\hypertarget{class_camera_base_a5d21e2335eaca87dd90cf0f8b16ad9ca}{\index{Camera\-Base@{Camera\-Base}!update@{update}}
+\index{update@{update}!CameraBase@{Camera\-Base}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}void Camera\-Base\-::update (
+\begin{DoxyParamCaption}
+\item[{{\bf Controller} \&}]{control, }
+\item[{{\bf Vector3} \&}]{Player\-Pos, }
+\item[{const {\bf f32} \&}]{Player\-Rot, }
+\item[{P\-O\-I\-N\-T}]{mouse\-Offset}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_camera_base_a5d21e2335eaca87dd90cf0f8b16ad9ca}
+
+
+更新 
+
+
+
+\hyperlink{class_camera_a6f169173a5a93a75d6a7437decad88ec}{Camera}で再定義されています。
+
+
+
+\subsection{変数}
+\hypertarget{class_camera_base_aa89610f1021ae21eebcbe9e17c557ad1}{\index{Camera\-Base@{Camera\-Base}!\-\_\-look\-At@{\-\_\-look\-At}}
+\index{\-\_\-look\-At@{\-\_\-look\-At}!CameraBase@{Camera\-Base}}
+\subsubsection[{\-\_\-look\-At}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Camera\-Base\-::\-\_\-look\-At\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_camera_base_aa89610f1021ae21eebcbe9e17c557ad1}
+
+
+注視点 
+
+\hypertarget{class_camera_base_a49508fac0dc3362b7e60f614e3f9c669}{\index{Camera\-Base@{Camera\-Base}!\-\_\-look\-At\-Length@{\-\_\-look\-At\-Length}}
+\index{\-\_\-look\-At\-Length@{\-\_\-look\-At\-Length}!CameraBase@{Camera\-Base}}
+\subsubsection[{\-\_\-look\-At\-Length}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Camera\-Base\-::\-\_\-look\-At\-Length\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_camera_base_a49508fac0dc3362b7e60f614e3f9c669}
+
+
+注視点との距離 
+
+\hypertarget{class_camera_base_ad57a54d46b6005687ee5dfa6a99e2807}{\index{Camera\-Base@{Camera\-Base}!\-\_\-matrix@{\-\_\-matrix}}
+\index{\-\_\-matrix@{\-\_\-matrix}!CameraBase@{Camera\-Base}}
+\subsubsection[{\-\_\-matrix}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} Camera\-Base\-::\-\_\-matrix\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_camera_base_ad57a54d46b6005687ee5dfa6a99e2807}
+
+
+姿勢行列 
+
+\hypertarget{class_camera_base_a3452d98af9a9d4323d8a2d3e6dc966e5}{\index{Camera\-Base@{Camera\-Base}!\-\_\-position@{\-\_\-position}}
+\index{\-\_\-position@{\-\_\-position}!CameraBase@{Camera\-Base}}
+\subsubsection[{\-\_\-position}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Camera\-Base\-::\-\_\-position\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_camera_base_a3452d98af9a9d4323d8a2d3e6dc966e5}
+
+
+位置座標 
+
+\hypertarget{class_camera_base_a601245a0b3275adcd1f64b518b17a218}{\index{Camera\-Base@{Camera\-Base}!\-\_\-radius@{\-\_\-radius}}
+\index{\-\_\-radius@{\-\_\-radius}!CameraBase@{Camera\-Base}}
+\subsubsection[{\-\_\-radius}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Camera\-Base\-::\-\_\-radius\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_camera_base_a601245a0b3275adcd1f64b518b17a218}
+
+
+半径 
+
+\hypertarget{class_camera_base_a26a9abf2c69bd35302dfd5546facaa59}{\index{Camera\-Base@{Camera\-Base}!\-\_\-rot@{\-\_\-rot}}
+\index{\-\_\-rot@{\-\_\-rot}!CameraBase@{Camera\-Base}}
+\subsubsection[{\-\_\-rot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Camera\-Base\-::\-\_\-rot\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_camera_base_a26a9abf2c69bd35302dfd5546facaa59}
+
+
+\hyperlink{class_xE8_xA7_x92_xE5_xBA_xA6}{角度} 
+
+\hypertarget{class_camera_base_ac982bf8a4c710d101c988618346d144d}{\index{Camera\-Base@{Camera\-Base}!\-\_\-view\-Matrix@{\-\_\-view\-Matrix}}
+\index{\-\_\-view\-Matrix@{\-\_\-view\-Matrix}!CameraBase@{Camera\-Base}}
+\subsubsection[{\-\_\-view\-Matrix}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} Camera\-Base\-::\-\_\-view\-Matrix\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_camera_base_ac982bf8a4c710d101c988618346d144d}
+
+
+ビュー行列 
+
+\hypertarget{class_camera_base_ad65432efc07bb5d95268166cb432e0b2}{\index{Camera\-Base@{Camera\-Base}!\-\_\-world\-Up@{\-\_\-world\-Up}}
+\index{\-\_\-world\-Up@{\-\_\-world\-Up}!CameraBase@{Camera\-Base}}
+\subsubsection[{\-\_\-world\-Up}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} Camera\-Base\-::\-\_\-world\-Up\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_camera_base_ad65432efc07bb5d95268166cb432e0b2}
+
+
+世界の上方向の基準軸 
+
+
+
+このクラスの説明は次のファイルから生成されました\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_camera_base_8h}{Camera\-Base.\-h}\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_camera_base_8cpp}{Camera\-Base.\-cpp}\end{DoxyCompactItemize}

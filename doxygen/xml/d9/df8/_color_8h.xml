@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="d9/df8/_color_8h" kind="file">
+    <compoundname>Color.h</compoundname>
+    <includedby refid="db/dfc/_library_8h" local="yes">E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Library.h</includedby>
+    <invincdepgraph>
+      <node id="1339">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Map.cpp</label>
+        <link refid="db/df4/_map_8cpp"/>
+      </node>
+      <node id="1324">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Effect.cpp</label>
+        <link refid="d3/d3d/_effect_8cpp"/>
+      </node>
+      <node id="1337">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Main.cpp</label>
+        <link refid="d5/d12/_main_8cpp"/>
+      </node>
+      <node id="1309">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Color.h</label>
+        <link refid="Color.h"/>
+        <childnode refid="1310" relation="include">
+        </childnode>
+      </node>
+      <node id="1317">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CameraBase.cpp</label>
+        <link refid="d0/d1b/_camera_base_8cpp"/>
+      </node>
+      <node id="1355">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.cpp</label>
+        <link refid="d6/d4f/_vector_8cpp"/>
+      </node>
+      <node id="1311">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Ally.cpp</label>
+        <link refid="da/d0f/_ally_8cpp"/>
+      </node>
+      <node id="1313">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyDeffender.cpp</label>
+        <link refid="df/d82/_ally_deffender_8cpp"/>
+      </node>
+      <node id="1350">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Status.cpp</label>
+        <link refid="d2/d69/_status_8cpp"/>
+      </node>
+      <node id="1331">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyAttacker.cpp</label>
+        <link refid="db/d86/_key_attacker_8cpp"/>
+      </node>
+      <node id="1318">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CameraManager.cpp</label>
+        <link refid="d2/d8f/_camera_manager_8cpp"/>
+      </node>
+      <node id="1321">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CollisionWall.cpp</label>
+        <link refid="da/dab/_collision_wall_8cpp"/>
+      </node>
+      <node id="1347">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SoundPlayer.cpp</label>
+        <link refid="d5/d66/_sound_player_8cpp"/>
+      </node>
+      <node id="1346">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneTitle.cpp</label>
+        <link refid="d1/d4c/_scene_title_8cpp"/>
+      </node>
+      <node id="1314">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyHealer.cpp</label>
+        <link refid="dc/d5f/_ally_healer_8cpp"/>
+      </node>
+      <node id="1319">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Collision.cpp</label>
+        <link refid="d4/dc5/_collision_8cpp"/>
+      </node>
+      <node id="1335">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/LandScape.cpp</label>
+        <link refid="da/d1f/_land_scape_8cpp"/>
+      </node>
+      <node id="1348">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Squad.cpp</label>
+        <link refid="d6/d39/_squad_8cpp"/>
+      </node>
+      <node id="1341">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Model.cpp</label>
+        <link refid="d2/d31/_model_8cpp"/>
+      </node>
+      <node id="1312">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/AllyAttacker.cpp</label>
+        <link refid="df/dcc/_ally_attacker_8cpp"/>
+      </node>
+      <node id="1332">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyDeffender.cpp</label>
+        <link refid="d4/d84/_key_deffender_8cpp"/>
+      </node>
+      <node id="1328">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/GLFont.cpp</label>
+        <link refid="df/d22/_g_l_font_8cpp"/>
+      </node>
+      <node id="1327">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Geometry.cpp</label>
+        <link refid="d8/de0/_geometry_8cpp"/>
+      </node>
+      <node id="1345">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SceneGame.cpp</label>
+        <link refid="d4/dae/_scene_game_8cpp"/>
+      </node>
+      <node id="1330">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Key.cpp</label>
+        <link refid="d6/d3d/_key_8cpp"/>
+      </node>
+      <node id="1334">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyInput.cpp</label>
+        <link refid="df/d45/_key_input_8cpp"/>
+      </node>
+      <node id="1329">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/IObj.cpp</label>
+        <link refid="d4/de3/_i_obj_8cpp"/>
+      </node>
+      <node id="1316">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Camera.cpp</label>
+        <link refid="d1/d33/_camera_8cpp"/>
+      </node>
+      <node id="1353">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Texture.cpp</label>
+        <link refid="da/d26/_texture_8cpp"/>
+      </node>
+      <node id="1326">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Game.cpp</label>
+        <link refid="d7/db5/_game_8cpp"/>
+      </node>
+      <node id="1352">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SystemShader.cpp</label>
+        <link refid="dd/dc2/_system_shader_8cpp"/>
+      </node>
+      <node id="1333">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/KeyHealer.cpp</label>
+        <link refid="d0/db0/_key_healer_8cpp"/>
+      </node>
+      <node id="1310">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Library.h</label>
+        <link refid="db/dfc/_library_8h"/>
+        <childnode refid="1311" relation="include">
+        </childnode>
+        <childnode refid="1312" relation="include">
+        </childnode>
+        <childnode refid="1313" relation="include">
+        </childnode>
+        <childnode refid="1314" relation="include">
+        </childnode>
+        <childnode refid="1315" relation="include">
+        </childnode>
+        <childnode refid="1316" relation="include">
+        </childnode>
+        <childnode refid="1317" relation="include">
+        </childnode>
+        <childnode refid="1318" relation="include">
+        </childnode>
+        <childnode refid="1319" relation="include">
+        </childnode>
+        <childnode refid="1320" relation="include">
+        </childnode>
+        <childnode refid="1321" relation="include">
+        </childnode>
+        <childnode refid="1322" relation="include">
+        </childnode>
+        <childnode refid="1323" relation="include">
+        </childnode>
+        <childnode refid="1324" relation="include">
+        </childnode>
+        <childnode refid="1325" relation="include">
+        </childnode>
+        <childnode refid="1326" relation="include">
+        </childnode>
+        <childnode refid="1327" relation="include">
+        </childnode>
+        <childnode refid="1328" relation="include">
+        </childnode>
+        <childnode refid="1329" relation="include">
+        </childnode>
+        <childnode refid="1330" relation="include">
+        </childnode>
+        <childnode refid="1331" relation="include">
+        </childnode>
+        <childnode refid="1332" relation="include">
+        </childnode>
+        <childnode refid="1333" relation="include">
+        </childnode>
+        <childnode refid="1334" relation="include">
+        </childnode>
+        <childnode refid="1335" relation="include">
+        </childnode>
+        <childnode refid="1336" relation="include">
+        </childnode>
+        <childnode refid="1337" relation="include">
+        </childnode>
+        <childnode refid="1338" relation="include">
+        </childnode>
+        <childnode refid="1339" relation="include">
+        </childnode>
+        <childnode refid="1340" relation="include">
+        </childnode>
+        <childnode refid="1341" relation="include">
+        </childnode>
+        <childnode refid="1342" relation="include">
+        </childnode>
+        <childnode refid="1343" relation="include">
+        </childnode>
+        <childnode refid="1344" relation="include">
+        </childnode>
+        <childnode refid="1345" relation="include">
+        </childnode>
+        <childnode refid="1346" relation="include">
+        </childnode>
+        <childnode refid="1347" relation="include">
+        </childnode>
+        <childnode refid="1348" relation="include">
+        </childnode>
+        <childnode refid="1349" relation="include">
+        </childnode>
+        <childnode refid="1350" relation="include">
+        </childnode>
+        <childnode refid="1351" relation="include">
+        </childnode>
+        <childnode refid="1352" relation="include">
+        </childnode>
+        <childnode refid="1353" relation="include">
+        </childnode>
+        <childnode refid="1354" relation="include">
+        </childnode>
+        <childnode refid="1355" relation="include">
+        </childnode>
+      </node>
+      <node id="1336">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Library.cpp</label>
+        <link refid="d0/d50/_library_8cpp"/>
+      </node>
+      <node id="1354">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Timer.cpp</label>
+        <link refid="d8/d77/_timer_8cpp"/>
+      </node>
+      <node id="1338">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Man.cpp</label>
+        <link refid="d1/dcc/_man_8cpp"/>
+      </node>
+      <node id="1344">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Player.cpp</label>
+        <link refid="d2/d82/_player_8cpp"/>
+      </node>
+      <node id="1315">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/BillBoard.cpp</label>
+        <link refid="d3/def/_bill_board_8cpp"/>
+      </node>
+      <node id="1340">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Matrix.cpp</label>
+        <link refid="d6/d65/_matrix_8cpp"/>
+      </node>
+      <node id="1325">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Enemy.cpp</label>
+        <link refid="de/d34/_enemy_8cpp"/>
+      </node>
+      <node id="1343">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/ObjBase.cpp</label>
+        <link refid="da/d31/_obj_base_8cpp"/>
+      </node>
+      <node id="1322">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Color.cpp</label>
+        <link refid="d0/d22/_color_8cpp"/>
+      </node>
+      <node id="1342">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Mouse.cpp</label>
+        <link refid="d7/d54/_mouse_8cpp"/>
+      </node>
+      <node id="1351">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/System.cpp</label>
+        <link refid="d8/de5/_system_8cpp"/>
+      </node>
+      <node id="1323">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Controller.cpp</label>
+        <link refid="d3/dec/_controller_8cpp"/>
+      </node>
+      <node id="1320">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/CollisionManager.cpp</label>
+        <link refid="df/db7/_collision_manager_8cpp"/>
+      </node>
+      <node id="1349">
+        <label>E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/SquadManager.cpp</label>
+        <link refid="d2/db7/_squad_manager_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d9/d44/struct_color" prot="public">Color</innerclass>
+    <briefdescription>
+<para><ref refid="d9/d43/struct_xE3_x82_xAB_xE3_x83_xA9_xE3_x83_xBC_xE6_xA7_x8B_xE9_x80_xA0_xE4_xBD_x93" kindref="compound">カラー構造体</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"></highlight><highlight class="comment">//-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="d9/d44/struct_color" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d9/d44/struct_color" kindref="compound">Color</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16" refid="d9/d44/struct_color_1a9a742cbe9f9f4037f5d9f4e81a9b2428" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a9a742cbe9f9f4037f5d9f4e81a9b2428" kindref="member">Color</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="d9/d44/struct_color_1a1f9035eaa8f9eb07c55359e60e895b73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a1f9035eaa8f9eb07c55359e60e895b73" kindref="member">Color</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>r,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>g,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>b,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>255)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/><ref refid="d9/d44/struct_color_1a0c71513f8081799f4d51345bab7b67f8" kindref="member">_r</ref>(r),<sp/><ref refid="d9/d44/struct_color_1a365597f2503cf58a343b48110f0cc254" kindref="member">_g</ref>(g),<sp/><ref refid="d9/d44/struct_color_1a9a9e3820e73e7786817d0e5f314835b4" kindref="member">_b</ref>(b),<sp/><ref refid="d9/d44/struct_color_1af9b0213d8532a292da67d4525b81a6ec" kindref="member">_a</ref>(a)<sp/>{}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>静的な定数</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="d9/d44/struct_color_1a6f7dc225ef0b3dde655cbf925cad882d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a6f7dc225ef0b3dde655cbf925cad882d" kindref="member">BLACK</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29" refid="d9/d44/struct_color_1a5a1557101e389271fe14dceef583799a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a5a1557101e389271fe14dceef583799a" kindref="member">BLUE</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30" refid="d9/d44/struct_color_1abe0e77f1bd12cb0e98b4d5650009942c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1abe0e77f1bd12cb0e98b4d5650009942c" kindref="member">RED</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31" refid="d9/d44/struct_color_1a5db67dc17b725499d542d194cf1d475e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a5db67dc17b725499d542d194cf1d475e" kindref="member">MAGENTA</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32" refid="d9/d44/struct_color_1a5b9aafb544d41992e367b065e6595143" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a5b9aafb544d41992e367b065e6595143" kindref="member">GREEN</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33" refid="d9/d44/struct_color_1aac281bf6e998aeef6f7e7c0c7df8dc34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1aac281bf6e998aeef6f7e7c0c7df8dc34" kindref="member">CYAN</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34" refid="d9/d44/struct_color_1ad7b2412aba74d8d4b5e6d6dc7627264d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1ad7b2412aba74d8d4b5e6d6dc7627264d" kindref="member">YELLOW</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35" refid="d9/d44/struct_color_1aafb827ace5780d74f0c513ce92077853" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1aafb827ace5780d74f0c513ce92077853" kindref="member">WHITE</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="d9/d44/struct_color_1a5092bf1d5751684dbe61f526595e67cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a5092bf1d5751684dbe61f526595e67cb" kindref="member">LTBLUE</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38" refid="d9/d44/struct_color_1a5b50d75c7668ab6eb5a2fac673748b22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a5b50d75c7668ab6eb5a2fac673748b22" kindref="member">LTRED</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39" refid="d9/d44/struct_color_1a2bd114820dbf7b29558679072fedefa0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a2bd114820dbf7b29558679072fedefa0" kindref="member">LTMAGENTA</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="40" refid="d9/d44/struct_color_1a13dd4f077a964b82196f85bf262dff57" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a13dd4f077a964b82196f85bf262dff57" kindref="member">LTGREEN</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41" refid="d9/d44/struct_color_1ac4b33f94628254120531de78a7b0924c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1ac4b33f94628254120531de78a7b0924c" kindref="member">LTCYAN</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42" refid="d9/d44/struct_color_1a6f028404afe08f3e13309376541b0587" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a6f028404afe08f3e13309376541b0587" kindref="member">LTYELLOW</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43" refid="d9/d44/struct_color_1a02d0fce1510a32cd80cc1ff59d500d6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a02d0fce1510a32cd80cc1ff59d500d6a" kindref="member">LTGRAY</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="d9/d44/struct_color_1a29144a41c4da4a4e27866a0064d9345e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a29144a41c4da4a4e27866a0064d9345e" kindref="member">DKBLUE</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46" refid="d9/d44/struct_color_1a0d0107a528629520d371afd0953b2160" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a0d0107a528629520d371afd0953b2160" kindref="member">DKRED</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47" refid="d9/d44/struct_color_1a522efed53460f090f7b9e5305bca1b9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a522efed53460f090f7b9e5305bca1b9d" kindref="member">DKMAGENTA</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="48" refid="d9/d44/struct_color_1a86b20427e2e318d3fe348d031a0260c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a86b20427e2e318d3fe348d031a0260c1" kindref="member">DKGREEN</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49" refid="d9/d44/struct_color_1a850a0d2e889fc42aa9bb6a7c09283572" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a850a0d2e889fc42aa9bb6a7c09283572" kindref="member">DKCYAN</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50" refid="d9/d44/struct_color_1a89ed0e31f59c81ead3b5dc4cfc6a3e3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a89ed0e31f59c81ead3b5dc4cfc6a3e3a" kindref="member">DKYELLOW</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51" refid="d9/d44/struct_color_1a2028ad15ab7689719579fa5859a9f233" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d44/struct_color" kindref="compound">Color</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a2028ad15ab7689719579fa5859a9f233" kindref="member">DKGRAY</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="53" refid="d9/d44/struct_color_1a0c71513f8081799f4d51345bab7b67f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a0c71513f8081799f4d51345bab7b67f8" kindref="member">_r</ref>;</highlight></codeline>
+<codeline lineno="54" refid="d9/d44/struct_color_1a365597f2503cf58a343b48110f0cc254" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a365597f2503cf58a343b48110f0cc254" kindref="member">_g</ref>;</highlight></codeline>
+<codeline lineno="55" refid="d9/d44/struct_color_1a9a9e3820e73e7786817d0e5f314835b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1a9a9e3820e73e7786817d0e5f314835b4" kindref="member">_b</ref>;</highlight></codeline>
+<codeline lineno="56" refid="d9/d44/struct_color_1af9b0213d8532a292da67d4525b81a6ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="d9/d44/struct_color_1af9b0213d8532a292da67d4525b81a6ec" kindref="member">_a</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment">//===========================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>END<sp/>OF<sp/>FILE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//===========================================================================</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Color.h"/>
+  </compounddef>
+</doxygen>

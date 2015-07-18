@@ -1,0 +1,147 @@
+\hypertarget{class_key_attacker}{\section{クラス Key\-Attacker}
+\label{class_key_attacker}\index{Key\-Attacker@{Key\-Attacker}}
+}
+
+
+{\ttfamily \#include $<$Key\-Attacker.\-h$>$}
+
+Key\-Attackerに対する継承グラフ\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{d9/db2/class_key_attacker}
+\end{center}
+\end{figure}
+\subsection*{Public 型}
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_key_attacker_a921f9ecc037fd96882bc46418c68cb95}{M\-O\-D\-E} \{ \hyperlink{class_key_attacker_a921f9ecc037fd96882bc46418c68cb95a8c472b37aff5b224022e8383033e7755}{M\-O\-D\-E\-\_\-\-S\-E\-A\-R\-C\-H}, 
+\hyperlink{class_key_attacker_a921f9ecc037fd96882bc46418c68cb95a380e54d8f3229f925b6cfb7d480fa5e1}{M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H}, 
+\hyperlink{class_key_attacker_a921f9ecc037fd96882bc46418c68cb95a800ee1b8c2000703bed07c5cee9d66cb}{M\-O\-D\-E\-\_\-\-A\-T\-T\-A\-C\-K}, 
+\hyperlink{class_key_attacker_a921f9ecc037fd96882bc46418c68cb95ac1a55ea42133ef7062efa6eae48b99b3}{M\-O\-D\-E\-\_\-\-M\-A\-X}
+ \}
+\begin{DoxyCompactList}\small\item\em 行動状態 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+\subsection*{Public メソッド}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_key_attacker_ab2e023e688b24771a6bd1fbe2c07294e}{Key\-Attacker} ()
+\begin{DoxyCompactList}\small\item\em デフォルトコンストラクタ \end{DoxyCompactList}\item 
+virtual \hyperlink{class_key_attacker_a8d755855ed52db20f852a33728ddc612}{$\sim$\-Key\-Attacker} ()
+\begin{DoxyCompactList}\small\item\em デストラクタ \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_key_attacker_a274203ec57ef80b07d3816570c9588e4}{Update} ()
+\begin{DoxyCompactList}\small\item\em 更新 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected 変数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{class_key_attacker_ad9928ab6bf533ef686477cf4dc1574a2}{\-\_\-search\-Reach}
+\begin{DoxyCompactList}\small\item\em 目標捜索範囲 \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{class_key_attacker_af84b632fc711f0b24cc0a8ffacc0a0d5}{\-\_\-search\-Rot}
+\begin{DoxyCompactList}\small\item\em 探索方向 \end{DoxyCompactList}\item 
+\hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} \hyperlink{class_key_attacker_a20541471e6d38fcbe019f5bc60652275}{\-\_\-attack\-Reach}
+\begin{DoxyCompactList}\small\item\em 攻撃可能範囲 \end{DoxyCompactList}\item 
+\hyperlink{class_key_attacker_a921f9ecc037fd96882bc46418c68cb95}{M\-O\-D\-E} \hyperlink{class_key_attacker_a666924d4aac349f5ac2d6d340d1c8637}{\-\_\-mode}
+\begin{DoxyCompactList}\small\item\em 行動状態用 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{列挙型}
+\hypertarget{class_key_attacker_a921f9ecc037fd96882bc46418c68cb95}{\index{Key\-Attacker@{Key\-Attacker}!M\-O\-D\-E@{M\-O\-D\-E}}
+\index{M\-O\-D\-E@{M\-O\-D\-E}!KeyAttacker@{Key\-Attacker}}
+\subsubsection[{M\-O\-D\-E}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Key\-Attacker\-::\-M\-O\-D\-E}}}\label{class_key_attacker_a921f9ecc037fd96882bc46418c68cb95}
+
+
+行動状態 
+
+\begin{Desc}
+\item[列挙型の値]\par
+\begin{description}
+\index{M\-O\-D\-E\-\_\-\-S\-E\-A\-R\-C\-H@{M\-O\-D\-E\-\_\-\-S\-E\-A\-R\-C\-H}!Key\-Attacker@{Key\-Attacker}}\index{Key\-Attacker@{Key\-Attacker}!M\-O\-D\-E\-\_\-\-S\-E\-A\-R\-C\-H@{M\-O\-D\-E\-\_\-\-S\-E\-A\-R\-C\-H}}\item[{\em 
+\hypertarget{class_key_attacker_a921f9ecc037fd96882bc46418c68cb95a8c472b37aff5b224022e8383033e7755}{M\-O\-D\-E\-\_\-\-S\-E\-A\-R\-C\-H}\label{class_key_attacker_a921f9ecc037fd96882bc46418c68cb95a8c472b37aff5b224022e8383033e7755}
+}]目標捜索 \index{M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H@{M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H}!Key\-Attacker@{Key\-Attacker}}\index{Key\-Attacker@{Key\-Attacker}!M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H@{M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H}}\item[{\em 
+\hypertarget{class_key_attacker_a921f9ecc037fd96882bc46418c68cb95a380e54d8f3229f925b6cfb7d480fa5e1}{M\-O\-D\-E\-\_\-\-A\-P\-P\-R\-O\-A\-C\-H}\label{class_key_attacker_a921f9ecc037fd96882bc46418c68cb95a380e54d8f3229f925b6cfb7d480fa5e1}
+}]目標に接近 \index{M\-O\-D\-E\-\_\-\-A\-T\-T\-A\-C\-K@{M\-O\-D\-E\-\_\-\-A\-T\-T\-A\-C\-K}!Key\-Attacker@{Key\-Attacker}}\index{Key\-Attacker@{Key\-Attacker}!M\-O\-D\-E\-\_\-\-A\-T\-T\-A\-C\-K@{M\-O\-D\-E\-\_\-\-A\-T\-T\-A\-C\-K}}\item[{\em 
+\hypertarget{class_key_attacker_a921f9ecc037fd96882bc46418c68cb95a800ee1b8c2000703bed07c5cee9d66cb}{M\-O\-D\-E\-\_\-\-A\-T\-T\-A\-C\-K}\label{class_key_attacker_a921f9ecc037fd96882bc46418c68cb95a800ee1b8c2000703bed07c5cee9d66cb}
+}]目標を攻撃 \index{M\-O\-D\-E\-\_\-\-M\-A\-X@{M\-O\-D\-E\-\_\-\-M\-A\-X}!Key\-Attacker@{Key\-Attacker}}\index{Key\-Attacker@{Key\-Attacker}!M\-O\-D\-E\-\_\-\-M\-A\-X@{M\-O\-D\-E\-\_\-\-M\-A\-X}}\item[{\em 
+\hypertarget{class_key_attacker_a921f9ecc037fd96882bc46418c68cb95ac1a55ea42133ef7062efa6eae48b99b3}{M\-O\-D\-E\-\_\-\-M\-A\-X}\label{class_key_attacker_a921f9ecc037fd96882bc46418c68cb95ac1a55ea42133ef7062efa6eae48b99b3}
+}]状態遷移の最大 \end{description}
+\end{Desc}
+
+
+\subsection{コンストラクタとデストラクタ}
+\hypertarget{class_key_attacker_ab2e023e688b24771a6bd1fbe2c07294e}{\index{Key\-Attacker@{Key\-Attacker}!Key\-Attacker@{Key\-Attacker}}
+\index{Key\-Attacker@{Key\-Attacker}!KeyAttacker@{Key\-Attacker}}
+\subsubsection[{Key\-Attacker}]{\setlength{\rightskip}{0pt plus 5cm}Key\-Attacker\-::\-Key\-Attacker (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_key_attacker_ab2e023e688b24771a6bd1fbe2c07294e}
+
+
+デフォルトコンストラクタ 
+
+\hypertarget{class_key_attacker_a8d755855ed52db20f852a33728ddc612}{\index{Key\-Attacker@{Key\-Attacker}!$\sim$\-Key\-Attacker@{$\sim$\-Key\-Attacker}}
+\index{$\sim$\-Key\-Attacker@{$\sim$\-Key\-Attacker}!KeyAttacker@{Key\-Attacker}}
+\subsubsection[{$\sim$\-Key\-Attacker}]{\setlength{\rightskip}{0pt plus 5cm}Key\-Attacker\-::$\sim$\-Key\-Attacker (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_key_attacker_a8d755855ed52db20f852a33728ddc612}
+
+
+デストラクタ 
+
+
+
+\subsection{関数}
+\hypertarget{class_key_attacker_a274203ec57ef80b07d3816570c9588e4}{\index{Key\-Attacker@{Key\-Attacker}!Update@{Update}}
+\index{Update@{Update}!KeyAttacker@{Key\-Attacker}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}void Key\-Attacker\-::\-Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_key_attacker_a274203ec57ef80b07d3816570c9588e4}
+
+
+更新 
+
+
+
+\hyperlink{class_a_i_a59e5ab0650eb03f2e71bc8930fd9a8d5}{A\-I}を再定義しています。
+
+
+
+\subsection{変数}
+\hypertarget{class_key_attacker_a20541471e6d38fcbe019f5bc60652275}{\index{Key\-Attacker@{Key\-Attacker}!\-\_\-attack\-Reach@{\-\_\-attack\-Reach}}
+\index{\-\_\-attack\-Reach@{\-\_\-attack\-Reach}!KeyAttacker@{Key\-Attacker}}
+\subsubsection[{\-\_\-attack\-Reach}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Key\-Attacker\-::\-\_\-attack\-Reach\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_key_attacker_a20541471e6d38fcbe019f5bc60652275}
+
+
+攻撃可能範囲 
+
+\hypertarget{class_key_attacker_a666924d4aac349f5ac2d6d340d1c8637}{\index{Key\-Attacker@{Key\-Attacker}!\-\_\-mode@{\-\_\-mode}}
+\index{\-\_\-mode@{\-\_\-mode}!KeyAttacker@{Key\-Attacker}}
+\subsubsection[{\-\_\-mode}]{\setlength{\rightskip}{0pt plus 5cm}{\bf M\-O\-D\-E} Key\-Attacker\-::\-\_\-mode\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_key_attacker_a666924d4aac349f5ac2d6d340d1c8637}
+
+
+行動状態用 
+
+\hypertarget{class_key_attacker_ad9928ab6bf533ef686477cf4dc1574a2}{\index{Key\-Attacker@{Key\-Attacker}!\-\_\-search\-Reach@{\-\_\-search\-Reach}}
+\index{\-\_\-search\-Reach@{\-\_\-search\-Reach}!KeyAttacker@{Key\-Attacker}}
+\subsubsection[{\-\_\-search\-Reach}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Key\-Attacker\-::\-\_\-search\-Reach\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_key_attacker_ad9928ab6bf533ef686477cf4dc1574a2}
+
+
+目標捜索範囲 
+
+\hypertarget{class_key_attacker_af84b632fc711f0b24cc0a8ffacc0a0d5}{\index{Key\-Attacker@{Key\-Attacker}!\-\_\-search\-Rot@{\-\_\-search\-Rot}}
+\index{\-\_\-search\-Rot@{\-\_\-search\-Rot}!KeyAttacker@{Key\-Attacker}}
+\subsubsection[{\-\_\-search\-Rot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf f32} Key\-Attacker\-::\-\_\-search\-Rot\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_key_attacker_af84b632fc711f0b24cc0a8ffacc0a0d5}
+
+
+探索方向 
+
+
+
+このクラスの説明は次のファイルから生成されました\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_key_attacker_8h}{Key\-Attacker.\-h}\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_key_attacker_8cpp}{Key\-Attacker.\-cpp}\end{DoxyCompactItemize}

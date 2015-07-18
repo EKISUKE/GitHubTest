@@ -1,0 +1,208 @@
+\hypertarget{class_system_collision}{\section{クラス System\-Collision}
+\label{class_system_collision}\index{System\-Collision@{System\-Collision}}
+}
+
+
+{\ttfamily \#include $<$Collision.\-h$>$}
+
+System\-Collisionに対する継承グラフ\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d0/d54/class_system_collision}
+\end{center}
+\end{figure}
+\subsection*{構成}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_system_collision_1_1_object}{Object}
+\end{DoxyCompactItemize}
+\subsection*{初期化}
+\label{_amgrpd1671579eecfbaefb14e36fbca13c88c}%
+物体データ　オブジェクト \begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_system_collision_a029dd2a26bbe98eb77f5b0bb084204f6}{System\-Collision} ()
+\begin{DoxyCompactList}\small\item\em コンストラクタ \end{DoxyCompactList}\item 
+virtual \hyperlink{class_system_collision_ac666887037b1dc14e32652af28abee66}{$\sim$\-System\-Collision} ()
+\begin{DoxyCompactList}\small\item\em デストラクタ \end{DoxyCompactList}\item 
+bool \hyperlink{class_system_collision_a92454bf408ff087cf91215758a4297a6}{load\-M\-Q\-O} (char file\-Name\mbox{[}$\,$\mbox{]}, \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} scale=1.\-0f)
+\item 
+void \hyperlink{class_system_collision_ae5b6d80c1ed9f51596e44a75ce4e8ff3}{delete\-Object} ()
+\begin{DoxyCompactList}\small\item\em オブジェクトの消去 \end{DoxyCompactList}\item 
+void \hyperlink{class_system_collision_a232132673dbadadb4fe9d018bf2235ca}{render} ()
+\begin{DoxyCompactList}\small\item\em 描画 \end{DoxyCompactList}\item 
+void \hyperlink{class_system_collision_aeb8a2e7a0907e24e6cc291bb61be118c}{check\-Collision\-Model} (\hyperlink{struct_vector3}{Vector3} \&position, \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} radius, bool \&is\-Hit\-Ground)
+\item 
+\hyperlink{struct_vector3}{Vector3} \hyperlink{class_system_collision_a2894d1a5b42db2b9625d1317803413fa}{get\-Last\-Hit\-Pos\-For\-Wall} ()
+\begin{DoxyCompactList}\small\item\em 最後にヒットした座標の取得 \end{DoxyCompactList}\item 
+bool \hyperlink{class_system_collision_a4c8970a0a387f87a07aa5ea80f11e591}{Hit\-Sphere} (\hyperlink{struct_vector3}{Vector3} \&sphere\-Pos1, \hyperlink{struct_vector3}{Vector3} \&sphere\-Pos2, \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} sphere\-Radius1, \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} sphere\-Radius2)
+\item 
+bool \hyperlink{class_system_collision_afb11088c991d7810e7bbf90b2fd21a91}{Hit\-Circle} (\hyperlink{struct_vector3}{Vector3} \&circle\-Pos1, \hyperlink{struct_vector3}{Vector3} \&circle\-Pos2, \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} circle\-Radius1, \hyperlink{_main_8h_a5f6906312a689f27d70e9d086649d3fd}{f32} circle\-Radius2)
+\item 
+void \hyperlink{class_system_collision_abf90f3f07d21345949bd6d2f428874db}{Debug\-Render} ()
+\begin{DoxyCompactList}\small\item\em デバッグ描画 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{コンストラクタとデストラクタ}
+\hypertarget{class_system_collision_a029dd2a26bbe98eb77f5b0bb084204f6}{\index{System\-Collision@{System\-Collision}!System\-Collision@{System\-Collision}}
+\index{System\-Collision@{System\-Collision}!SystemCollision@{System\-Collision}}
+\subsubsection[{System\-Collision}]{\setlength{\rightskip}{0pt plus 5cm}System\-Collision\-::\-System\-Collision (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_system_collision_a029dd2a26bbe98eb77f5b0bb084204f6}
+
+
+コンストラクタ 
+
+\hypertarget{class_system_collision_ac666887037b1dc14e32652af28abee66}{\index{System\-Collision@{System\-Collision}!$\sim$\-System\-Collision@{$\sim$\-System\-Collision}}
+\index{$\sim$\-System\-Collision@{$\sim$\-System\-Collision}!SystemCollision@{System\-Collision}}
+\subsubsection[{$\sim$\-System\-Collision}]{\setlength{\rightskip}{0pt plus 5cm}System\-Collision\-::$\sim$\-System\-Collision (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_system_collision_ac666887037b1dc14e32652af28abee66}
+
+
+デストラクタ 
+
+
+
+\subsection{関数}
+\hypertarget{class_system_collision_aeb8a2e7a0907e24e6cc291bb61be118c}{\index{System\-Collision@{System\-Collision}!check\-Collision\-Model@{check\-Collision\-Model}}
+\index{check\-Collision\-Model@{check\-Collision\-Model}!SystemCollision@{System\-Collision}}
+\subsubsection[{check\-Collision\-Model}]{\setlength{\rightskip}{0pt plus 5cm}void System\-Collision\-::check\-Collision\-Model (
+\begin{DoxyParamCaption}
+\item[{{\bf Vector3} \&}]{position, }
+\item[{{\bf f32}}]{radius, }
+\item[{bool \&}]{is\-Hit\-Ground}
+\end{DoxyParamCaption}
+)}}\label{class_system_collision_aeb8a2e7a0907e24e6cc291bb61be118c}
+指定した座標とモデルの当たり判定と補正 
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em positon} & チェックする位置 \\
+\hline
+\mbox{\tt in}  & {\em height\-Limit} & 判定上限高さ \\
+\hline
+\mbox{\tt in}  & {\em my\-Grid\-Num} & グリッド番号 \\
+\hline
+\mbox{\tt in}  & {\em is\-Hit\-Ground} & 地面に当たったかどうか \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_system_collision_abf90f3f07d21345949bd6d2f428874db}{\index{System\-Collision@{System\-Collision}!Debug\-Render@{Debug\-Render}}
+\index{Debug\-Render@{Debug\-Render}!SystemCollision@{System\-Collision}}
+\subsubsection[{Debug\-Render}]{\setlength{\rightskip}{0pt plus 5cm}void System\-Collision\-::\-Debug\-Render (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_system_collision_abf90f3f07d21345949bd6d2f428874db}
+
+
+デバッグ描画 
+
+\hypertarget{class_system_collision_ae5b6d80c1ed9f51596e44a75ce4e8ff3}{\index{System\-Collision@{System\-Collision}!delete\-Object@{delete\-Object}}
+\index{delete\-Object@{delete\-Object}!SystemCollision@{System\-Collision}}
+\subsubsection[{delete\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void System\-Collision\-::delete\-Object (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_system_collision_ae5b6d80c1ed9f51596e44a75ce4e8ff3}
+
+
+オブジェクトの消去 
+
+\hypertarget{class_system_collision_a2894d1a5b42db2b9625d1317803413fa}{\index{System\-Collision@{System\-Collision}!get\-Last\-Hit\-Pos\-For\-Wall@{get\-Last\-Hit\-Pos\-For\-Wall}}
+\index{get\-Last\-Hit\-Pos\-For\-Wall@{get\-Last\-Hit\-Pos\-For\-Wall}!SystemCollision@{System\-Collision}}
+\subsubsection[{get\-Last\-Hit\-Pos\-For\-Wall}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector3} System\-Collision\-::get\-Last\-Hit\-Pos\-For\-Wall (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_system_collision_a2894d1a5b42db2b9625d1317803413fa}
+
+
+最後にヒットした座標の取得 
+
+\hypertarget{class_system_collision_afb11088c991d7810e7bbf90b2fd21a91}{\index{System\-Collision@{System\-Collision}!Hit\-Circle@{Hit\-Circle}}
+\index{Hit\-Circle@{Hit\-Circle}!SystemCollision@{System\-Collision}}
+\subsubsection[{Hit\-Circle}]{\setlength{\rightskip}{0pt plus 5cm}bool System\-Collision\-::\-Hit\-Circle (
+\begin{DoxyParamCaption}
+\item[{{\bf Vector3} \&}]{circle\-Pos1, }
+\item[{{\bf Vector3} \&}]{circle\-Pos2, }
+\item[{{\bf f32}}]{circle\-Radius1, }
+\item[{{\bf f32}}]{circle\-Radius2}
+\end{DoxyParamCaption}
+)}}\label{class_system_collision_afb11088c991d7810e7bbf90b2fd21a91}
+円同士のあたり判定 
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em cube\-Pos1} & 一つ目の円の座標 \\
+\hline
+\mbox{\tt in}  & {\em cube\-Pos2} & 二つ目の円の座標 \\
+\hline
+\mbox{\tt in}  & {\em cube\-Radius1} & 一つ目の円の半径 \\
+\hline
+\mbox{\tt in}  & {\em cube\-Radius2} & 二つ目の円の半径 \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{戻り値}
+{\em true} & \-: 当たってる false \-: 当たっていない \\
+\hline
+\end{DoxyRetVals}
+\hypertarget{class_system_collision_a4c8970a0a387f87a07aa5ea80f11e591}{\index{System\-Collision@{System\-Collision}!Hit\-Sphere@{Hit\-Sphere}}
+\index{Hit\-Sphere@{Hit\-Sphere}!SystemCollision@{System\-Collision}}
+\subsubsection[{Hit\-Sphere}]{\setlength{\rightskip}{0pt plus 5cm}bool System\-Collision\-::\-Hit\-Sphere (
+\begin{DoxyParamCaption}
+\item[{{\bf Vector3} \&}]{sphere\-Pos1, }
+\item[{{\bf Vector3} \&}]{sphere\-Pos2, }
+\item[{{\bf f32}}]{sphere\-Radius1, }
+\item[{{\bf f32}}]{sphere\-Radius2}
+\end{DoxyParamCaption}
+)}}\label{class_system_collision_a4c8970a0a387f87a07aa5ea80f11e591}
+球同士のあたり判定 
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em cube\-Pos1} & 一つ目の球の座標 \\
+\hline
+\mbox{\tt in}  & {\em cube\-Pos2} & 二つ目の球の座標 \\
+\hline
+\mbox{\tt in}  & {\em cube\-Radius1} & 一つ目の球の半径 \\
+\hline
+\mbox{\tt in}  & {\em cube\-Radius2} & 二つ目の球の半径 \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{戻り値}
+{\em true} & \-: 当たってる false \-: 当たっていない \\
+\hline
+\end{DoxyRetVals}
+\hypertarget{class_system_collision_a92454bf408ff087cf91215758a4297a6}{\index{System\-Collision@{System\-Collision}!load\-M\-Q\-O@{load\-M\-Q\-O}}
+\index{load\-M\-Q\-O@{load\-M\-Q\-O}!SystemCollision@{System\-Collision}}
+\subsubsection[{load\-M\-Q\-O}]{\setlength{\rightskip}{0pt plus 5cm}bool System\-Collision\-::load\-M\-Q\-O (
+\begin{DoxyParamCaption}
+\item[{char}]{file\-Name\mbox{[}$\,$\mbox{]}, }
+\item[{{\bf f32}}]{scale = {\ttfamily 1.0f}}
+\end{DoxyParamCaption}
+)}}\label{class_system_collision_a92454bf408ff087cf91215758a4297a6}
+M\-Q\-Oファイルからポリゴンデーターを入力 
+\begin{DoxyParams}[1]{引数}
+\mbox{\tt in}  & {\em file\-Name} & M\-Q\-Oファイル名 \\
+\hline
+\mbox{\tt in}  & {\em scale} & 拡大率 \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_system_collision_a232132673dbadadb4fe9d018bf2235ca}{\index{System\-Collision@{System\-Collision}!render@{render}}
+\index{render@{render}!SystemCollision@{System\-Collision}}
+\subsubsection[{render}]{\setlength{\rightskip}{0pt plus 5cm}void System\-Collision\-::render (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_system_collision_a232132673dbadadb4fe9d018bf2235ca}
+
+
+描画 
+
+
+
+このクラスの説明は次のファイルから生成されました\-:\begin{DoxyCompactItemize}
+\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_collision_8h}{Collision.\-h}\item 
+E\-:/\-O\-C\-A/\-O\-C\-A\-\_\-\-Back\-Up/\-Open\-G\-L/\-Game\-Proj/当たり判定と職種作成とシェーダ(10\-\_\-10)/src/\hyperlink{_collision_8cpp}{Collision.\-cpp}\end{DoxyCompactItemize}

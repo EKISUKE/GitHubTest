@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>myGame: E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Status.h ソースファイル</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">myGame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>メインページ</span></a></li>
+      <li><a href="../../namespaces.html"><span>ネームスペース</span></a></li>
+      <li><a href="../../annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="../../files.html"><span>ファイル</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="../../globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Status.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d3/ddd/_status_8h.html">説明を見る。</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../df/df2/struct_status.html">   13</a></span>&#160;<span class="keyword">struct </span><a class="code" href="../../df/df2/struct_status.html">Status</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"></span>    <a class="code" href="../../df/df2/struct_status.html#a944586fb328a3524805748c8f7b17f32">Status</a>(){}</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../df/df2/struct_status.html#ab95acb11b5615a33278ccdfe0aa5bcb0">   24</a></span>&#160;    <a class="code" href="../../df/df2/struct_status.html#ab95acb11b5615a33278ccdfe0aa5bcb0">Status</a>(<span class="keyword">const</span> <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&amp; HPMAX, <span class="keyword">const</span> <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&amp; HP, <span class="keyword">const</span> <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&amp; gaugeH = 0.0f, <span class="keyword">const</span> <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&amp; gaugeW = 0.0f)</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="../../df/df2/struct_status.html#ac30ebcb1541ccb9e3aa539133dacbfa0">setHPMAX</a>(HPMAX);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../df/df2/struct_status.html#a5cc59af1c22240f8e782fb14c82b0058">setHP</a>(HP);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="../../df/df2/struct_status.html#a59953d659dd1077191a3265b9002be62">setGaugeScale</a>(gaugeH, gaugeW);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../df/df2/struct_status.html#a5955d4b2cbbf59287c76e20e2b42fcc8">   32</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="../../df/df2/struct_status.html#a5955d4b2cbbf59287c76e20e2b42fcc8">~Status</a>(){}</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="../../df/df2/struct_status.html#a970ae8bd6adabc224c83a8df0bdd99e7">Render</a>(<span class="keywordtype">bool</span> draw2D);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment"></span>    <span class="comment">//-------------------------------------------------------------</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">//Status&amp;   getStatus(){ return Status(*this); }</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../df/df2/struct_status.html#ab11ff5709bfc35f8645fdfd1d3a8d307">   47</a></span>&#160;    <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&amp;        <a class="code" href="../../df/df2/struct_status.html#ab11ff5709bfc35f8645fdfd1d3a8d307">getHP</a>() { <span class="keywordflow">return</span> <a class="code" href="../../df/df2/struct_status.html#a1dbae1c54e1e3ee336e965d9d53545bb">_HP</a>; }</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../df/df2/struct_status.html#a71b9de7caa6125e8dae19a0eea3a8973">   50</a></span>&#160;    <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp;    <a class="code" href="../../df/df2/struct_status.html#a71b9de7caa6125e8dae19a0eea3a8973">getGaugeScale</a>() { <span class="keywordflow">return</span> <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>(<a class="code" href="../../df/df2/struct_status.html#a4fb9273b657a123cea761c8d6dcba3c2">_GaugeScaleW</a>, <a class="code" href="../../df/df2/struct_status.html#a976309d13dbf7a2a1fedf53d7e3cf734">_GaugeScaleH</a>, 0.0f); }</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../df/df2/struct_status.html#ab2e23c57bb1aac0fd4eb7332ce63d995">   53</a></span>&#160;    <span class="keywordtype">void</span>        <a class="code" href="../../df/df2/struct_status.html#ab2e23c57bb1aac0fd4eb7332ce63d995">setStatus</a>(<span class="keyword">const</span> <a class="code" href="../../df/df2/struct_status.html">Status</a>&amp; status)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="../../df/df2/struct_status.html#ac30ebcb1541ccb9e3aa539133dacbfa0">setHPMAX</a>(status.<a class="code" href="../../df/df2/struct_status.html#a556f1e65222442eea47f89608a53f462">_HPMAX</a>);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="../../df/df2/struct_status.html#a5cc59af1c22240f8e782fb14c82b0058">setHP</a>(status.<a class="code" href="../../df/df2/struct_status.html#a1dbae1c54e1e3ee336e965d9d53545bb">_HP</a>);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="../../df/df2/struct_status.html#a59953d659dd1077191a3265b9002be62">setGaugeScale</a>(status.<a class="code" href="../../df/df2/struct_status.html#a976309d13dbf7a2a1fedf53d7e3cf734">_GaugeScaleH</a>, status.<a class="code" href="../../df/df2/struct_status.html#a4fb9273b657a123cea761c8d6dcba3c2">_GaugeScaleW</a>);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <a class="code" href="../../df/df2/struct_status.html#afeed2cc8e3da51bd316d9aea8ddc56d6">_GaugeBoard</a>.<a class="code" href="../../dd/d4c/class_bill_board.html#a555e9e1591b5149f582230b2864b61ac">setParam</a>( </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                             <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>(0.0f, 0.0f, 0.0f),</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                             <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>(<a class="code" href="../../df/df2/struct_status.html#a4fb9273b657a123cea761c8d6dcba3c2">_GaugeScaleW</a>, <a class="code" href="../../df/df2/struct_status.html#a976309d13dbf7a2a1fedf53d7e3cf734">_GaugeScaleH</a>, 0.0f),</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                             <a class="code" href="../../d3/d2f/class_radian.html">Radian</a>(0.0f),</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                             NULL);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="../../df/df2/struct_status.html#a5cc59af1c22240f8e782fb14c82b0058">   66</a></span>&#160;    <span class="keywordtype">void</span>        <a class="code" href="../../df/df2/struct_status.html#a5cc59af1c22240f8e782fb14c82b0058">setHP</a>(<span class="keyword">const</span> <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&amp; HP)</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <a class="code" href="../../df/df2/struct_status.html#a1dbae1c54e1e3ee336e965d9d53545bb">_HP</a> = HP;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="../../df/df2/struct_status.html#ac30ebcb1541ccb9e3aa539133dacbfa0">   73</a></span>&#160;    <span class="keywordtype">void</span>        <a class="code" href="../../df/df2/struct_status.html#ac30ebcb1541ccb9e3aa539133dacbfa0">setHPMAX</a>(<span class="keyword">const</span> <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&amp; HPMAX)</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="../../df/df2/struct_status.html#a556f1e65222442eea47f89608a53f462">_HPMAX</a> = HPMAX;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="../../df/df2/struct_status.html#a59953d659dd1077191a3265b9002be62">   79</a></span>&#160;    <span class="keywordtype">void</span>        <a class="code" href="../../df/df2/struct_status.html#a59953d659dd1077191a3265b9002be62">setGaugeScale</a>(<span class="keyword">const</span> <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&amp; h, <span class="keyword">const</span> <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&amp; w)</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="../../df/df2/struct_status.html#a976309d13dbf7a2a1fedf53d7e3cf734">_GaugeScaleH</a> = h;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="../../df/df2/struct_status.html#a4fb9273b657a123cea761c8d6dcba3c2">_GaugeScaleW</a> = w;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <a class="code" href="../../df/df2/struct_status.html#afeed2cc8e3da51bd316d9aea8ddc56d6">_GaugeBoard</a>.<a class="code" href="../../dd/d4c/class_bill_board.html#a221457728901be0fa75964ed8da003f1">setSize</a>(<a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>(<a class="code" href="../../df/df2/struct_status.html#a4fb9273b657a123cea761c8d6dcba3c2">_GaugeScaleW</a>, <a class="code" href="../../df/df2/struct_status.html#a976309d13dbf7a2a1fedf53d7e3cf734">_GaugeScaleH</a>, 0.0f));</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="../../df/df2/struct_status.html#a1dbae1c54e1e3ee336e965d9d53545bb">   89</a></span>&#160;    <a class="code" href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>       <a class="code" href="../../df/df2/struct_status.html#a1dbae1c54e1e3ee336e965d9d53545bb">_HP</a>;  </div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="../../df/df2/struct_status.html#a556f1e65222442eea47f89608a53f462">   90</a></span>&#160;    <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>       <a class="code" href="../../df/df2/struct_status.html#a556f1e65222442eea47f89608a53f462">_HPMAX</a>; </div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="../../df/df2/struct_status.html#a976309d13dbf7a2a1fedf53d7e3cf734">   91</a></span>&#160;    <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>       <a class="code" href="../../df/df2/struct_status.html#a976309d13dbf7a2a1fedf53d7e3cf734">_GaugeScaleH</a>;</div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="../../df/df2/struct_status.html#a4fb9273b657a123cea761c8d6dcba3c2">   92</a></span>&#160;    <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>       <a class="code" href="../../df/df2/struct_status.html#a4fb9273b657a123cea761c8d6dcba3c2">_GaugeScaleW</a>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="../../df/df2/struct_status.html#afeed2cc8e3da51bd316d9aea8ddc56d6">   93</a></span>&#160;    <a class="code" href="../../dd/d4c/class_bill_board.html">BillBoard</a> <a class="code" href="../../df/df2/struct_status.html#afeed2cc8e3da51bd316d9aea8ddc56d6">_GaugeBoard</a>;  </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;};</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">//  END OF FILE</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="ttc" id="class_bill_board_html_a555e9e1591b5149f582230b2864b61ac"><div class="ttname"><a href="../../dd/d4c/class_bill_board.html#a555e9e1591b5149f582230b2864b61ac">BillBoard::setParam</a></div><div class="ttdeci">void setParam(Vector3 position, Vector3 size, Radian rotation, Texture *texture)</div><div class="ttdoc">情報設定 </div><div class="ttdef"><b>Definition:</b> BillBoard.h:30</div></div>
+<div class="ttc" id="struct_status_html_a556f1e65222442eea47f89608a53f462"><div class="ttname"><a href="../../df/df2/struct_status.html#a556f1e65222442eea47f89608a53f462">Status::_HPMAX</a></div><div class="ttdeci">f32 _HPMAX</div><div class="ttdoc">ヒットポイントの最大値 </div><div class="ttdef"><b>Definition:</b> Status.h:90</div></div>
+<div class="ttc" id="struct_status_html_ac30ebcb1541ccb9e3aa539133dacbfa0"><div class="ttname"><a href="../../df/df2/struct_status.html#ac30ebcb1541ccb9e3aa539133dacbfa0">Status::setHPMAX</a></div><div class="ttdeci">void setHPMAX(const s32 &amp;HPMAX)</div><div class="ttdoc">HPの最大値設定 </div><div class="ttdef"><b>Definition:</b> Status.h:73</div></div>
+<div class="ttc" id="struct_status_html_a71b9de7caa6125e8dae19a0eea3a8973"><div class="ttname"><a href="../../df/df2/struct_status.html#a71b9de7caa6125e8dae19a0eea3a8973">Status::getGaugeScale</a></div><div class="ttdeci">Vector3 &amp; getGaugeScale()</div><div class="ttdoc">HPゲージサイズを取得 </div><div class="ttdef"><b>Definition:</b> Status.h:50</div></div>
+<div class="ttc" id="struct_status_html_a976309d13dbf7a2a1fedf53d7e3cf734"><div class="ttname"><a href="../../df/df2/struct_status.html#a976309d13dbf7a2a1fedf53d7e3cf734">Status::_GaugeScaleH</a></div><div class="ttdeci">f32 _GaugeScaleH</div><div class="ttdef"><b>Definition:</b> Status.h:91</div></div>
+<div class="ttc" id="struct_status_html_a1dbae1c54e1e3ee336e965d9d53545bb"><div class="ttname"><a href="../../df/df2/struct_status.html#a1dbae1c54e1e3ee336e965d9d53545bb">Status::_HP</a></div><div class="ttdeci">s32 _HP</div><div class="ttdoc">ヒットポイント </div><div class="ttdef"><b>Definition:</b> Status.h:89</div></div>
+<div class="ttc" id="struct_vector3_html"><div class="ttname"><a href="../../d0/de3/struct_vector3.html">Vector3</a></div><div class="ttdef"><b>Definition:</b> Vector.h:89</div></div>
+<div class="ttc" id="struct_status_html_ab95acb11b5615a33278ccdfe0aa5bcb0"><div class="ttname"><a href="../../df/df2/struct_status.html#ab95acb11b5615a33278ccdfe0aa5bcb0">Status::Status</a></div><div class="ttdeci">Status(const s32 &amp;HPMAX, const s32 &amp;HP, const f32 &amp;gaugeH=0.0f, const f32 &amp;gaugeW=0.0f)</div><div class="ttdoc">コンストラクタ </div><div class="ttdef"><b>Definition:</b> Status.h:24</div></div>
+<div class="ttc" id="class_bill_board_html_a221457728901be0fa75964ed8da003f1"><div class="ttname"><a href="../../dd/d4c/class_bill_board.html#a221457728901be0fa75964ed8da003f1">BillBoard::setSize</a></div><div class="ttdeci">void setSize(Vector3 size)</div><div class="ttdoc">サイズ指定 </div><div class="ttdef"><b>Definition:</b> BillBoard.h:44</div></div>
+<div class="ttc" id="struct_status_html_ab2e23c57bb1aac0fd4eb7332ce63d995"><div class="ttname"><a href="../../df/df2/struct_status.html#ab2e23c57bb1aac0fd4eb7332ce63d995">Status::setStatus</a></div><div class="ttdeci">void setStatus(const Status &amp;status)</div><div class="ttdoc">ステータスを設定 </div><div class="ttdef"><b>Definition:</b> Status.h:53</div></div>
+<div class="ttc" id="class_radian_html"><div class="ttname"><a href="../../d3/d2f/class_radian.html">Radian</a></div><div class="ttdef"><b>Definition:</b> Vector.h:56</div></div>
+<div class="ttc" id="struct_status_html_a5cc59af1c22240f8e782fb14c82b0058"><div class="ttname"><a href="../../df/df2/struct_status.html#a5cc59af1c22240f8e782fb14c82b0058">Status::setHP</a></div><div class="ttdeci">void setHP(const s32 &amp;HP)</div><div class="ttdoc">HPを設定 </div><div class="ttdef"><b>Definition:</b> Status.h:66</div></div>
+<div class="ttc" id="struct_status_html_a970ae8bd6adabc224c83a8df0bdd99e7"><div class="ttname"><a href="../../df/df2/struct_status.html#a970ae8bd6adabc224c83a8df0bdd99e7">Status::Render</a></div><div class="ttdeci">void Render(bool draw2D)</div><div class="ttdoc">描画 </div><div class="ttdef"><b>Definition:</b> Status.cpp:39</div></div>
+<div class="ttc" id="struct_status_html_a944586fb328a3524805748c8f7b17f32"><div class="ttname"><a href="../../df/df2/struct_status.html#a944586fb328a3524805748c8f7b17f32">Status::Status</a></div><div class="ttdeci">Status()</div><div class="ttdoc">デフォルトコンストラクタ </div><div class="ttdef"><b>Definition:</b> Status.h:21</div></div>
+<div class="ttc" id="_main_8h_html_a5f6906312a689f27d70e9d086649d3fd"><div class="ttname"><a href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a></div><div class="ttdeci">float f32</div><div class="ttdoc">単精度浮動小数点数 </div><div class="ttdef"><b>Definition:</b> Main.h:68</div></div>
+<div class="ttc" id="struct_status_html_a4fb9273b657a123cea761c8d6dcba3c2"><div class="ttname"><a href="../../df/df2/struct_status.html#a4fb9273b657a123cea761c8d6dcba3c2">Status::_GaugeScaleW</a></div><div class="ttdeci">f32 _GaugeScaleW</div><div class="ttdef"><b>Definition:</b> Status.h:92</div></div>
+<div class="ttc" id="struct_status_html_a59953d659dd1077191a3265b9002be62"><div class="ttname"><a href="../../df/df2/struct_status.html#a59953d659dd1077191a3265b9002be62">Status::setGaugeScale</a></div><div class="ttdeci">void setGaugeScale(const f32 &amp;h, const f32 &amp;w)</div><div class="ttdoc">HPゲージのサイズ設定 </div><div class="ttdef"><b>Definition:</b> Status.h:79</div></div>
+<div class="ttc" id="_main_8h_html_a0ce6887c26c1c49ad3be5710dd42bfd6"><div class="ttname"><a href="../../d0/d55/_main_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a></div><div class="ttdeci">signed int s32</div><div class="ttdoc">符号あり32bit整数 </div><div class="ttdef"><b>Definition:</b> Main.h:64</div></div>
+<div class="ttc" id="class_bill_board_html"><div class="ttname"><a href="../../dd/d4c/class_bill_board.html">BillBoard</a></div><div class="ttdef"><b>Definition:</b> BillBoard.h:13</div></div>
+<div class="ttc" id="struct_status_html_afeed2cc8e3da51bd316d9aea8ddc56d6"><div class="ttname"><a href="../../df/df2/struct_status.html#afeed2cc8e3da51bd316d9aea8ddc56d6">Status::_GaugeBoard</a></div><div class="ttdeci">BillBoard _GaugeBoard</div><div class="ttdoc">ヒットポイントゲージ描画用 </div><div class="ttdef"><b>Definition:</b> Status.h:93</div></div>
+<div class="ttc" id="struct_status_html"><div class="ttname"><a href="../../df/df2/struct_status.html">Status</a></div><div class="ttdef"><b>Definition:</b> Status.h:13</div></div>
+<div class="ttc" id="struct_status_html_ab11ff5709bfc35f8645fdfd1d3a8d307"><div class="ttname"><a href="../../df/df2/struct_status.html#ab11ff5709bfc35f8645fdfd1d3a8d307">Status::getHP</a></div><div class="ttdeci">s32 &amp; getHP()</div><div class="ttdoc">ステータスを取得 </div><div class="ttdef"><b>Definition:</b> Status.h:47</div></div>
+<div class="ttc" id="struct_status_html_a5955d4b2cbbf59287c76e20e2b42fcc8"><div class="ttname"><a href="../../df/df2/struct_status.html#a5955d4b2cbbf59287c76e20e2b42fcc8">Status::~Status</a></div><div class="ttdeci">virtual ~Status()</div><div class="ttdoc">デストラクタ </div><div class="ttdef"><b>Definition:</b> Status.h:32</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+myGameに対してSun Oct 13 2013 20:58:05に生成されました。 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

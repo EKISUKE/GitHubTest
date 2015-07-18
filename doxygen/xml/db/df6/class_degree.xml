@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="db/df6/class_degree" kind="class" prot="public">
+    <compoundname>Degree</compoundname>
+    <includes refid="d4/d7f/_vector_8h" local="no">Vector.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="db/df6/class_degree_1afb0e7feba9785028e108a5156533fad7" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 Degree::_degree</definition>
+        <argsstring></argsstring>
+        <name>_degree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="50" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/df6/class_degree_1a682448dac9d2292ea0ff765373eac216" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Degree::Degree</definition>
+        <argsstring>()</argsstring>
+        <name>Degree</name>
+        <briefdescription>
+<para>デフォルトコンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="21" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="db/df6/class_degree_1a1974c1a232aa2348c38dc51112dd1f7b" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Degree::Degree</definition>
+        <argsstring>(f32 degree)</argsstring>
+        <name>Degree</name>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>degree</declname>
+        </param>
+        <briefdescription>
+<para>コンストラクタ(f32直接渡し) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="24" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.cpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="db/df6/class_degree_1aa1512d83e224ca09c7706304260dc1bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Degree::Degree</definition>
+        <argsstring>(const Radian &amp;radian)</argsstring>
+        <name>Degree</name>
+        <param>
+          <type>const <ref refid="d3/d2f/class_radian" kindref="compound">Radian</ref> &amp;</type>
+          <declname>radian</declname>
+        </param>
+        <briefdescription>
+<para>コンストラクタ(radian→degree変換) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="27" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.cpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="db/df6/class_degree_1aeeb671d2c215e253aa25f16ce9cb1fb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Degree::Degree</definition>
+        <argsstring>(const Degree &amp;degree)</argsstring>
+        <name>Degree</name>
+        <param>
+          <type>const <ref refid="db/df6/class_degree" kindref="compound">Degree</ref> &amp;</type>
+          <declname>degree</declname>
+        </param>
+        <briefdescription>
+<para>コピーコンストラクタ </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="30" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="db/df6/class_degree_1ae08c8bfc79ef6ac56992008d669f3348" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Degree::operator f32</definition>
+        <argsstring>() const </argsstring>
+        <name>operator f32</name>
+        <briefdescription>
+<para>floatへキャスト </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="34" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="db/df6/class_degree_1a979e9eabf4011cafdb254516bb2dbf01" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/df6/class_degree" kindref="compound">Degree</ref></type>
+        <definition>Degree Degree::operator*</definition>
+        <argsstring>(f32 n) const </argsstring>
+        <name>operator*</name>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>乗算 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="37" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="db/df6/class_degree_1a3033c545894e33e64a8b010593026580" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/df6/class_degree" kindref="compound">Degree</ref> &amp;</type>
+        <definition>Degree&amp; Degree::operator+=</definition>
+        <argsstring>(Degree n)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type><ref refid="db/df6/class_degree" kindref="compound">Degree</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="40" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="db/df6/class_degree_1a52cf94a4cbebf5cdb7567d22229312e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/df6/class_degree" kindref="compound">Degree</ref> &amp;</type>
+        <definition>Degree&amp; Degree::operator-=</definition>
+        <argsstring>(Degree n)</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type><ref refid="db/df6/class_degree" kindref="compound">Degree</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="42" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="db/df6/class_degree_1a8cb70601a30c40a9d519cc074d1bd65e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/df6/class_degree" kindref="compound">Degree</ref> &amp;</type>
+        <definition>Degree&amp; Degree::operator*=</definition>
+        <argsstring>(f32 n)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type><ref refid="d0/d55/_main_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>乗算 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="45" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" line="18" column="1" bodyfile="E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Vector.h" bodystart="17" bodyend="51"/>
+    <listofallmembers>
+      <member refid="db/df6/class_degree_1afb0e7feba9785028e108a5156533fad7" prot="public" virt="non-virtual"><scope>Degree</scope><name>_degree</name></member>
+      <member refid="db/df6/class_degree_1a682448dac9d2292ea0ff765373eac216" prot="public" virt="non-virtual"><scope>Degree</scope><name>Degree</name></member>
+      <member refid="db/df6/class_degree_1a1974c1a232aa2348c38dc51112dd1f7b" prot="public" virt="non-virtual"><scope>Degree</scope><name>Degree</name></member>
+      <member refid="db/df6/class_degree_1aa1512d83e224ca09c7706304260dc1bc" prot="public" virt="non-virtual"><scope>Degree</scope><name>Degree</name></member>
+      <member refid="db/df6/class_degree_1aeeb671d2c215e253aa25f16ce9cb1fb1" prot="public" virt="non-virtual"><scope>Degree</scope><name>Degree</name></member>
+      <member refid="db/df6/class_degree_1ae08c8bfc79ef6ac56992008d669f3348" prot="public" virt="non-virtual"><scope>Degree</scope><name>operator f32</name></member>
+      <member refid="db/df6/class_degree_1a979e9eabf4011cafdb254516bb2dbf01" prot="public" virt="non-virtual"><scope>Degree</scope><name>operator*</name></member>
+      <member refid="db/df6/class_degree_1a8cb70601a30c40a9d519cc074d1bd65e" prot="public" virt="non-virtual"><scope>Degree</scope><name>operator*=</name></member>
+      <member refid="db/df6/class_degree_1a3033c545894e33e64a8b010593026580" prot="public" virt="non-virtual"><scope>Degree</scope><name>operator+=</name></member>
+      <member refid="db/df6/class_degree_1a52cf94a4cbebf5cdb7567d22229312e0" prot="public" virt="non-virtual"><scope>Degree</scope><name>operator-=</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

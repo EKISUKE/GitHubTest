@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>myGame: E:/OCA/OCA_BackUp/OpenGL/GameProj/当たり判定と職種作成とシェーダ(10_10)/src/Matrix.h ソースファイル</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">myGame
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 作成： Doxygen 1.8.5 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>メインページ</span></a></li>
+      <li><a href="../../namespaces.html"><span>ネームスペース</span></a></li>
+      <li><a href="../../annotated.html"><span>クラス</span></a></li>
+      <li class="current"><a href="../../files.html"><span>ファイル</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>ファイル一覧</span></a></li>
+      <li><a href="../../globals.html"><span>ファイルメンバ</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Matrix.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d0/d45/_matrix_8h.html">説明を見る。</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"></span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"></span><span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d5/d22/struct_matrix.html">   13</a></span>&#160;<span class="keyword">struct </span><a class="code" href="../../d5/d22/struct_matrix.html">Matrix</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../d5/d22/struct_matrix.html#a2dba13c45127354c9f75ef576f49269b">Matrix</a>();</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="../../d5/d22/struct_matrix.html#a2dba13c45127354c9f75ef576f49269b">Matrix</a>(<a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> m11, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> m12, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> m13, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> m14,</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;           <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> m21, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> m22, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> m23, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> m24,</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;           <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> m31, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> m32, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> m33, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> m34,</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;           <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> m41, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> m42, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> m43, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> m44);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="comment">//  return ← this * m</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d5/d22/struct_matrix.html">Matrix</a>      <a class="code" href="../../d5/d22/struct_matrix.html#ae69a6d3345472ac03f440c564d05580a">operator * </a>(<span class="keyword">const</span> <a class="code" href="../../d5/d22/struct_matrix.html">Matrix</a>&amp; m);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d5/d22/struct_matrix.html">Matrix</a>   <a class="code" href="../../d5/d22/struct_matrix.html#a8c47f3d192f07bfd41551c91aa6310bc">translate</a>(<span class="keyword">const</span> <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; v);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d5/d22/struct_matrix.html">Matrix</a>   <a class="code" href="../../d5/d22/struct_matrix.html#a3bb7fd1de1bfa828a5319094c2ad5e67">rotateY</a>(<a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> radian);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d5/d22/struct_matrix.html">Matrix</a>   <a class="code" href="../../d5/d22/struct_matrix.html#afa1d476505a797068234651e34f8ab11">rotateAxis</a>(<span class="keyword">const</span> <a class="code" href="../../d0/de3/struct_vector3.html">Vector3</a>&amp; v, <a class="code" href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> radian);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">//---- ４要素 × ４行</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">//          +====+====+====+====+</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">//  Vector4 | _x | _y | _z | _w |    _m[0]  </span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">//          +====+====+====+====+</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">//  Vector4 | _x | _y | _z | _w |    _m[1]  </span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">//          +====+====+====+====+</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="comment">//  Vector4 | _x | _y | _z | _w |    _m[2]  </span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="comment">//          +====+====+====+====+</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="comment">//  Vector4 | _x | _y | _z | _w |    _m[3]  </span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">//          +====+====+====+====+</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="../../d5/d22/struct_matrix.html#a31c511e179e6c5a720ed55056817be7e">   61</a></span>&#160;    <a class="code" href="../../de/d54/struct_vector4.html">Vector4</a>     <a class="code" href="../../d5/d22/struct_matrix.html#a31c511e179e6c5a720ed55056817be7e">_m</a>[4];</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;};</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">//  END OF FILE</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">//=============================================================================</span></div>
+<div class="ttc" id="struct_matrix_html"><div class="ttname"><a href="../../d5/d22/struct_matrix.html">Matrix</a></div><div class="ttdef"><b>Definition:</b> Matrix.h:13</div></div>
+<div class="ttc" id="struct_vector3_html"><div class="ttname"><a href="../../d0/de3/struct_vector3.html">Vector3</a></div><div class="ttdef"><b>Definition:</b> Vector.h:89</div></div>
+<div class="ttc" id="struct_matrix_html_a2dba13c45127354c9f75ef576f49269b"><div class="ttname"><a href="../../d5/d22/struct_matrix.html#a2dba13c45127354c9f75ef576f49269b">Matrix::Matrix</a></div><div class="ttdeci">Matrix()</div><div class="ttdoc">デフォルトコンストラクタ </div><div class="ttdef"><b>Definition:</b> Matrix.cpp:13</div></div>
+<div class="ttc" id="struct_matrix_html_a3bb7fd1de1bfa828a5319094c2ad5e67"><div class="ttname"><a href="../../d5/d22/struct_matrix.html#a3bb7fd1de1bfa828a5319094c2ad5e67">Matrix::rotateY</a></div><div class="ttdeci">static Matrix rotateY(f32 radian)</div><div class="ttdef"><b>Definition:</b> Matrix.cpp:85</div></div>
+<div class="ttc" id="struct_vector4_html"><div class="ttname"><a href="../../de/d54/struct_vector4.html">Vector4</a></div><div class="ttdef"><b>Definition:</b> Vector.h:181</div></div>
+<div class="ttc" id="struct_matrix_html_afa1d476505a797068234651e34f8ab11"><div class="ttname"><a href="../../d5/d22/struct_matrix.html#afa1d476505a797068234651e34f8ab11">Matrix::rotateAxis</a></div><div class="ttdeci">static Matrix rotateAxis(const Vector3 &amp;v, f32 radian)</div><div class="ttdef"><b>Definition:</b> Matrix.cpp:108</div></div>
+<div class="ttc" id="struct_matrix_html_ae69a6d3345472ac03f440c564d05580a"><div class="ttname"><a href="../../d5/d22/struct_matrix.html#ae69a6d3345472ac03f440c564d05580a">Matrix::operator*</a></div><div class="ttdeci">Matrix operator*(const Matrix &amp;m)</div><div class="ttdef"><b>Definition:</b> Matrix.cpp:38</div></div>
+<div class="ttc" id="struct_matrix_html_a8c47f3d192f07bfd41551c91aa6310bc"><div class="ttname"><a href="../../d5/d22/struct_matrix.html#a8c47f3d192f07bfd41551c91aa6310bc">Matrix::translate</a></div><div class="ttdeci">static Matrix translate(const Vector3 &amp;v)</div><div class="ttdef"><b>Definition:</b> Matrix.cpp:70</div></div>
+<div class="ttc" id="_main_8h_html_a5f6906312a689f27d70e9d086649d3fd"><div class="ttname"><a href="../../d0/d55/_main_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a></div><div class="ttdeci">float f32</div><div class="ttdoc">単精度浮動小数点数 </div><div class="ttdef"><b>Definition:</b> Main.h:68</div></div>
+<div class="ttc" id="struct_matrix_html_a31c511e179e6c5a720ed55056817be7e"><div class="ttname"><a href="../../d5/d22/struct_matrix.html#a31c511e179e6c5a720ed55056817be7e">Matrix::_m</a></div><div class="ttdeci">Vector4 _m[4]</div><div class="ttdef"><b>Definition:</b> Matrix.h:61</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+myGameに対してSun Oct 13 2013 20:58:05に生成されました。 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="../../doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>
